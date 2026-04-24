@@ -2,7 +2,7 @@
   "id": "resp_mock123",
   "object": "response",
   "created": 1706140800,
-  "model": "gpt-5.2",
+  "model": "gpt-4o.2",
   "output": [
     {
       "type": "message",

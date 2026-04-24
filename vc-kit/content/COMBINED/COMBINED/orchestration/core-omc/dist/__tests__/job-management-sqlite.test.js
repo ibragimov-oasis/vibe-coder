@@ -43,7 +43,7 @@ function createTestJob(overrides = {}) {
         pid: 12345,
         promptFile: '/test/prompt.md',
         responseFile: '/test/response.md',
-        model: 'gpt-5.3-codex',
+        model: 'gpt-4o.3-codex',
         agentRole: 'architect',
         spawnedAt: new Date().toISOString(),
         ...overrides,
@@ -71,7 +71,7 @@ describe('job-management SQLite integration', () => {
             expect(result.isError).toBeFalsy();
             expect(result.content[0].text).toContain('aabb1122');
             expect(result.content[0].text).toContain('running');
-            expect(result.content[0].text).toContain('gpt-5.3-codex');
+            expect(result.content[0].text).toContain('gpt-4o.3-codex');
         });
         it('returns error when job not found in SQLite or JSON', async () => {
             const result = await handleCheckJobStatus('codex', 'deadbeef');
@@ -83,14 +83,14 @@ describe('job-management SQLite integration', () => {
                 jobId: 'aabb1133',
                 status: 'completed',
                 usedFallback: true,
-                fallbackModel: 'gpt-5.2-codex',
+                fallbackModel: 'gpt-4o.2-codex',
                 completedAt: new Date().toISOString(),
             });
             upsertJob(job);
             const result = await handleCheckJobStatus('codex', 'aabb1133');
             expect(result.isError).toBeFalsy();
             expect(result.content[0].text).toContain('Fallback Model');
-            expect(result.content[0].text).toContain('gpt-5.2-codex');
+            expect(result.content[0].text).toContain('gpt-4o.2-codex');
         });
     });
     describe('handleListJobs - SQLite path', () => {

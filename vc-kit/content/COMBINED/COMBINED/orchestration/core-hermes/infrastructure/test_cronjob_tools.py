@@ -163,7 +163,7 @@ class TestScheduleCronjob:
         result = json.loads(schedule_cronjob(
             prompt="Pinned job",
             schedule="every 1h",
-            model="anthropic/claude-sonnet-4",
+            model="anthropic/gpt-4o",
             provider="custom",
             base_url="http://127.0.0.1:4000/v1/",
         ))
@@ -171,7 +171,7 @@ class TestScheduleCronjob:
 
         listing = json.loads(list_cronjobs())
         job = listing["jobs"][0]
-        assert job["model"] == "anthropic/claude-sonnet-4"
+        assert job["model"] == "anthropic/gpt-4o"
         assert job["provider"] == "custom"
         assert job["base_url"] == "http://127.0.0.1:4000/v1"
 
@@ -323,7 +323,7 @@ class TestUnifiedCronjobTool:
                 action="create",
                 prompt="Check",
                 schedule="every 1h",
-                model="anthropic/claude-sonnet-4",
+                model="anthropic/gpt-4o",
                 provider="custom",
                 base_url="http://127.0.0.1:4000/v1",
             )
@@ -334,13 +334,13 @@ class TestUnifiedCronjobTool:
             cronjob(
                 action="update",
                 job_id=job_id,
-                model="openai/gpt-4.1",
+                model="openai/gpt-4o",
                 provider="openrouter",
                 base_url="",
             )
         )
         assert updated["success"] is True
-        assert updated["job"]["model"] == "openai/gpt-4.1"
+        assert updated["job"]["model"] == "openai/gpt-4o"
         assert updated["job"]["provider"] == "openrouter"
         assert updated["job"]["base_url"] is None
 

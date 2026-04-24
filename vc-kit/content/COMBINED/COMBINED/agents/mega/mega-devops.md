@@ -1,7 +1,7 @@
 ---
 name: mega-devops
 description: 'Unified DevOps agent. Handles Git workflow (atomic commits, rebasing, history management), CI/CD pipeline configuration, deployment automation, containerization, monitoring, and infrastructure-as-code. Merged from OMC git-master (commit splitting, style detection), RuFlo DevOps agents (CI/CD, deployment), and RuFlo GitHub automation (PR management, release, workflow automation).'
-model: claude-sonnet-4
+# model: removed-for-compatibility
 tools:
   - Read
   - Write

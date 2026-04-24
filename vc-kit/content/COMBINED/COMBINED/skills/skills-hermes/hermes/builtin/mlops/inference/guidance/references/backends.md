@@ -26,12 +26,12 @@ Complete guide to configuring Guidance with different LLM backends.
 from guidance import models
 
 # Using environment variable
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 # Reads ANTHROPIC_API_KEY from environment
 
 # Explicit API key
 lm = models.Anthropic(
-    model="claude-sonnet-4-5-20250929",
+    model="gpt-4o-5-20250929",
     api_key="your-api-key-here"
 )
 ```
@@ -40,7 +40,7 @@ lm = models.Anthropic(
 
 ```python
 # Claude 3.5 Sonnet (Latest, recommended)
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 
 # Claude 3.7 Sonnet (Fast, cost-effective)
 lm = models.Anthropic("claude-sonnet-3.7-20250219")
@@ -56,7 +56,7 @@ lm = models.Anthropic("claude-3-5-haiku-20241022")
 
 ```python
 lm = models.Anthropic(
-    model="claude-sonnet-4-5-20250929",
+    model="gpt-4o-5-20250929",
     api_key="your-api-key",
     max_tokens=4096,           # Max tokens to generate
     temperature=0.7,            # Sampling temperature (0-1)
@@ -71,7 +71,7 @@ lm = models.Anthropic(
 ```python
 from guidance import models, system, user, assistant, gen
 
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 
 with system():
     lm += "You are a helpful assistant."
@@ -400,7 +400,7 @@ lm = LlamaCpp("phi-4-mini-instruct.Q4_K_M.gguf")
 ```python
 from guidance import models, gen
 
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 
 # Use lower max_tokens (faster response)
 lm += gen(max_tokens=100)  # Instead of 1000
@@ -542,7 +542,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 
 # Check backend info
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 print(f"Model: {lm.model_name}")
 print(f"Backend: {lm.backend}")
 

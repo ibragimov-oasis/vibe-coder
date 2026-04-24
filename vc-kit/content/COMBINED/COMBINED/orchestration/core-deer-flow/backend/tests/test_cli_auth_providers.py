@@ -62,7 +62,7 @@ def test_codex_provider_flattens_structured_text_blocks(monkeypatch):
 
 def test_claude_provider_rejects_non_positive_retry_attempts():
     with pytest.raises(ValueError, match="retry_max_attempts must be >= 1"):
-        ClaudeChatModel(model="claude-sonnet-4-6", retry_max_attempts=0)
+        ClaudeChatModel(model="gpt-4o-6", retry_max_attempts=0)
 
 
 def test_codex_provider_skips_terminal_sse_markers(monkeypatch):
@@ -100,7 +100,7 @@ def test_codex_provider_marks_invalid_tool_call_arguments(monkeypatch):
     model = CodexChatModel()
     result = model._parse_response(
         {
-            "model": "gpt-5.4",
+            "model": "gpt-4o.4",
             "output": [
                 {
                     "type": "function_call",
@@ -133,7 +133,7 @@ def test_codex_provider_parses_valid_tool_arguments(monkeypatch):
     model = CodexChatModel()
     result = model._parse_response(
         {
-            "model": "gpt-5.4",
+            "model": "gpt-4o.4",
             "output": [
                 {
                     "type": "function_call",

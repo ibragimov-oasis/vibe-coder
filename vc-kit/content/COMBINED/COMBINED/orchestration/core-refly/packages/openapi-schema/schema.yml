@@ -8717,7 +8717,7 @@ components:
       properties:
         mediaType:
           $ref: "#/components/schemas/MediaType"
-        model:
+        model: gpt-4o
           type: string
           description: Model name for content generation
         title:
@@ -9170,7 +9170,7 @@ components:
         targetType:
           type: string
           description: Target entity type
-        model:
+        model: gpt-4o
           type: string
           description: Model name for credit tracking
         providerItemId:

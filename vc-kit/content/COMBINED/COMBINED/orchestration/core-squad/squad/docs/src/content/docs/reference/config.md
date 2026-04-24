@@ -41,13 +41,13 @@ export default defineSquad({
     defineAgent({
       name: 'edie',
       role: 'TypeScript Engineer',
-      model: 'claude-sonnet-4',
+      model: 'gpt-4o',
       tools: ['grep', 'edit', 'view'],
     }),
     defineAgent({
       name: 'mcmanus',
       role: 'DevRel',
-      model: 'claude-haiku-4.5',
+      model: 'gpt-4o',
       tools: ['grep', 'view'],
     }),
   ],
@@ -169,9 +169,9 @@ routing: {
 
 | Tier | Models | Use Case |
 |------|--------|----------|
-| **premium** | claude-opus-4, gpt-4.1 | Architecture, code review |
-| **standard** | claude-sonnet-4, gpt-4.1 | Most work |
-| **fast** | claude-haiku-3.5, gpt-4.1-mini | Triage, logging, quick tasks |
+| **premium** | claude-opus-4, gpt-4o | Architecture, code review |
+| **standard** | gpt-4o, gpt-4o | Most work |
+| **fast** | claude-haiku-3.5, gpt-4o-mini | Triage, logging, quick tasks |
 
 Per-agent overrides in `model-config.json`:
 

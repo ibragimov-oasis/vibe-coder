@@ -106,7 +106,7 @@ After gathering all requirements, I will generate a complete `.prompt.md` file f
 description: "[Clear, concise description from requirements]"
 agent: "[agent|ask|edit based on task type]"
 tools: ["[appropriate tools based on functionality]"]
-model: "[only if specific model required]"
+# model: removed-for-compatibility
 ---
 
 # [Prompt Title]

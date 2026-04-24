@@ -705,7 +705,7 @@ console.log(`Workers: ${result.workers.length}`);
 
 ```toml
 # Model configuration
-model = "gpt-5.3"
+model = "gpt-4o.3"
 
 # Approval policy: "always" | "on-request" | "never"
 approval_policy = "on-request"

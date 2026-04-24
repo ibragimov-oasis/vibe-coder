@@ -32,7 +32,7 @@ export function isExtendedThinkingModel(modelID) {
     if (lower.includes("thinking") || lower.endsWith("-high")) {
         return true;
     }
-    return (lower.includes("claude-sonnet-4") ||
+    return (lower.includes("gpt-4o") ||
         lower.includes("claude-opus-4") ||
         lower.includes("claude-3"));
 }

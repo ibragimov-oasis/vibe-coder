@@ -34,7 +34,7 @@
       "entry_type": {
         "type": "system_message"
       },
-      "content": "System initialized with model: claude-sonnet-4-5-20250929",
+      "content": "System initialized with model: gpt-4o-5-20250929",
       "metadata": null
     },
     "patchKey": "b2a8c33e-7b14-4903-81e6-4082d300ee0d:1",

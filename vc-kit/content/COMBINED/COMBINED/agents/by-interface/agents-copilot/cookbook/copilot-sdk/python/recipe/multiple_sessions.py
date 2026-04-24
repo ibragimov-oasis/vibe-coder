@@ -8,11 +8,11 @@ async def main():
     await client.start()
 
     # Create multiple independent sessions
-    session1 = await client.create_session(SessionConfig(model="gpt-5",
+    session1 = await client.create_session(SessionConfig(model="gpt-4o",
         on_permission_request=PermissionHandler.approve_all))
-    session2 = await client.create_session(SessionConfig(model="gpt-5",
+    session2 = await client.create_session(SessionConfig(model="gpt-4o",
         on_permission_request=PermissionHandler.approve_all))
-    session3 = await client.create_session(SessionConfig(model="claude-sonnet-4.5",
+    session3 = await client.create_session(SessionConfig(model="gpt-4o.5",
         on_permission_request=PermissionHandler.approve_all))
 
     print("Created 3 independent sessions")

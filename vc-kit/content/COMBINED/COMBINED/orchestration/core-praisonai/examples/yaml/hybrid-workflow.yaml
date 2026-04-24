@@ -19,14 +19,14 @@ agents:
     role: Research Analyst
     goal: Research and gather information
     instructions: Provide concise, factual research findings
-    model: gpt-4o-mini
+    model: gpt-4o
 
   writer:
     name: Writer
     role: Content Writer
     goal: Write clear, engaging content
     instructions: Write professional documentation
-    model: gpt-4o-mini
+    model: gpt-4o
 
 flags:
   skip-tests:
@@ -45,7 +45,7 @@ steps:
       role: Technical Writer
       instructions: You write clear, concise release notes
       prompt: Generate release notes for version 1.2.0 with bug fixes and new features
-      model: gpt-4o-mini
+      model: gpt-4o
     output_file: RELEASE_NOTES.md
 
   # Step 3: Parallel - Run multiple checks simultaneously

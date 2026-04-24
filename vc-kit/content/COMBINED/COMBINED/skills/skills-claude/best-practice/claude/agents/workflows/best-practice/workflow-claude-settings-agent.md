@@ -1,7 +1,7 @@
 ---
 name: workflow-claude-settings-agent
 description: Research agent that fetches Claude Code docs, reads the local settings report, and analyzes drift
-model: opus
+# model: removed-for-compatibility
 color: yellow
 allowedTools:
   - "Bash(*)"

@@ -17,10 +17,10 @@ Usage:
     python tests/integration/test_performance_profile.py --compare
 
     # Profile a specific model
-    python tests/integration/test_performance_profile.py --model gpt-5-nano
+    python tests/integration/test_performance_profile.py --model gpt-4o-nano
 
     # Compare two models
-    PROFILE_MODELS=gpt-5-nano,gpt-4o-mini python tests/integration/test_performance_profile.py
+    PROFILE_MODELS=gpt-4o-nano,gpt-4o-mini python tests/integration/test_performance_profile.py
 
 Results are stored in:
     tests/integration/profile_results/performance_history.jsonl

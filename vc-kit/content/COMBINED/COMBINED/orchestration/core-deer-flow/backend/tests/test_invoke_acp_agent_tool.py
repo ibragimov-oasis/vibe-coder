@@ -233,7 +233,7 @@ async def test_invoke_acp_agent_uses_fixed_acp_workspace(monkeypatch, tmp_path):
                 command="codex-acp",
                 args=["--json"],
                 description="Codex CLI",
-                model="gpt-5-codex",
+                model="gpt-4o-codex",
             )
         }
     )
@@ -254,7 +254,7 @@ async def test_invoke_acp_agent_uses_fixed_acp_workspace(monkeypatch, tmp_path):
         "mcp_servers": {
             "github": {"transport": "stdio", "command": "npx", "args": ["github-mcp"]},
         },
-        "model": "gpt-5-codex",
+        "model": "gpt-4o-codex",
     }
     assert captured["prompt"] == {
         "session_id": "session-1",

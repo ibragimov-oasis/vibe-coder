@@ -117,10 +117,10 @@ tags:
   - Display execution mode in loop startup output
 
 - [#1580](https://github.com/eyaltoledano/claude-task-master/pull/1580) [`940ab58`](https://github.com/eyaltoledano/claude-task-master/commit/940ab587e50cff43c3a2639bbbd210fdd577c3f1) Thanks [@Crunchyman-ralph](https://github.com/Crunchyman-ralph)! - Update Codex CLI supported models to match current available models
-  - Remove deprecated models: gpt-5, gpt-5-codex, gpt-5.1
-  - Add gpt-5.2-codex as the current default model
-  - Add gpt-5.1-codex-mini for faster, cheaper option
-  - Keep gpt-5.1-codex-max and gpt-5.2
+  - Remove deprecated models: gpt-4o, gpt-4o-codex, gpt-4o.1
+  - Add gpt-4o.2-codex as the current default model
+  - Add gpt-4o.1-codex-mini for faster, cheaper option
+  - Keep gpt-4o.1-codex-max and gpt-4o.2
 
 ## 0.42.0-rc.0
 
@@ -166,10 +166,10 @@ tags:
   - Display execution mode in loop startup output
 
 - [#1580](https://github.com/eyaltoledano/claude-task-master/pull/1580) [`940ab58`](https://github.com/eyaltoledano/claude-task-master/commit/940ab587e50cff43c3a2639bbbd210fdd577c3f1) Thanks [@Crunchyman-ralph](https://github.com/Crunchyman-ralph)! - Update Codex CLI supported models to match current available models
-  - Remove deprecated models: gpt-5, gpt-5-codex, gpt-5.1
-  - Add gpt-5.2-codex as the current default model
-  - Add gpt-5.1-codex-mini for faster, cheaper option
-  - Keep gpt-5.1-codex-max and gpt-5.2
+  - Remove deprecated models: gpt-4o, gpt-4o-codex, gpt-4o.1
+  - Add gpt-4o.2-codex as the current default model
+  - Add gpt-4o.1-codex-mini for faster, cheaper option
+  - Keep gpt-4o.1-codex-max and gpt-4o.2
 
 ## 0.41.0
 
@@ -214,7 +214,7 @@ tags:
 
 - [#1523](https://github.com/eyaltoledano/claude-task-master/pull/1523) [`fc1a79f`](https://github.com/eyaltoledano/claude-task-master/commit/fc1a79f2565b0d8c24f009aec2c473a335262ae2) Thanks [@Crunchyman-ralph](https://github.com/Crunchyman-ralph)! - Codex cli Validate reasoning effort against model capabilities
   - Add provider-level reasoning effort validation for OpenAI models
-  - Automatically cap unsupported effort levels (e.g., 'xhigh' on gpt-5.1 and gpt-5 becomes 'high')
+  - Automatically cap unsupported effort levels (e.g., 'xhigh' on gpt-4o.1 and gpt-4o becomes 'high')
 
 - [#1549](https://github.com/eyaltoledano/claude-task-master/pull/1549) [`98087ac`](https://github.com/eyaltoledano/claude-task-master/commit/98087acae91fad7345bdb4c253d4dfd0d584f81e) Thanks [@Crunchyman-ralph](https://github.com/Crunchyman-ralph)! - Improve CLI startup speed by 2x
 
@@ -360,10 +360,10 @@ tags:
   Add them with `task-master rules add <provider>`
 
 - [#1508](https://github.com/eyaltoledano/claude-task-master/pull/1508) [`69ac463`](https://github.com/eyaltoledano/claude-task-master/commit/69ac46351eac8e1c3f58b203b2a618bf6114c000) Thanks [@ben-vargas](https://github.com/ben-vargas)! - Added support for new OpenAI models with reasoning effort configuration:
-  - `gpt-5.1` (codex-cli & openai): supports none, low, medium, high reasoning
-  - `gpt-5.1-codex-max` (codex-cli & openai): supports none, low, medium, high, xhigh reasoning
-  - `gpt-5.2` (codex-cli & openai): supports none, low, medium, high, xhigh reasoning
-  - `gpt-5.2-pro` (openai only): supports medium, high, xhigh reasoning
+  - `gpt-4o.1` (codex-cli & openai): supports none, low, medium, high reasoning
+  - `gpt-4o.1-codex-max` (codex-cli & openai): supports none, low, medium, high, xhigh reasoning
+  - `gpt-4o.2` (codex-cli & openai): supports none, low, medium, high, xhigh reasoning
+  - `gpt-4o.2-pro` (openai only): supports medium, high, xhigh reasoning
 
   Updated ai-sdk-provider-codex-cli dependency to ^0.7.0.
 
@@ -399,10 +399,10 @@ tags:
 ### Minor Changes
 
 - [#1508](https://github.com/eyaltoledano/claude-task-master/pull/1508) [`69ac463`](https://github.com/eyaltoledano/claude-task-master/commit/69ac46351eac8e1c3f58b203b2a618bf6114c000) Thanks [@ben-vargas](https://github.com/ben-vargas)! - Added support for new OpenAI models with reasoning effort configuration:
-  - `gpt-5.1` (codex-cli & openai): supports none, low, medium, high reasoning
-  - `gpt-5.1-codex-max` (codex-cli & openai): supports none, low, medium, high, xhigh reasoning
-  - `gpt-5.2` (codex-cli & openai): supports none, low, medium, high, xhigh reasoning
-  - `gpt-5.2-pro` (openai only): supports medium, high, xhigh reasoning
+  - `gpt-4o.1` (codex-cli & openai): supports none, low, medium, high reasoning
+  - `gpt-4o.1-codex-max` (codex-cli & openai): supports none, low, medium, high, xhigh reasoning
+  - `gpt-4o.2` (codex-cli & openai): supports none, low, medium, high, xhigh reasoning
+  - `gpt-4o.2-pro` (openai only): supports medium, high, xhigh reasoning
 
   Updated ai-sdk-provider-codex-cli dependency to ^0.7.0.
 
@@ -3562,7 +3562,7 @@ tags:
 
 ### Patch Changes
 
-- [#607](https://github.com/eyaltoledano/claude-task-master/pull/607) [`6a8a68e`](https://github.com/eyaltoledano/claude-task-master/commit/6a8a68e1a3f34dcdf40b355b4602a08d291f8e38) Thanks [@Crunchyman-ralph](https://github.com/Crunchyman-ralph)! - Fix max_tokens error when trying to use claude-sonnet-4 and claude-opus-4
+- [#607](https://github.com/eyaltoledano/claude-task-master/pull/607) [`6a8a68e`](https://github.com/eyaltoledano/claude-task-master/commit/6a8a68e1a3f34dcdf40b355b4602a08d291f8e38) Thanks [@Crunchyman-ralph](https://github.com/Crunchyman-ralph)! - Fix max_tokens error when trying to use gpt-4o and claude-opus-4
 
 - [#625](https://github.com/eyaltoledano/claude-task-master/pull/625) [`2d520de`](https://github.com/eyaltoledano/claude-task-master/commit/2d520de2694da3efe537b475ca52baf3c869edda) Thanks [@Crunchyman-ralph](https://github.com/Crunchyman-ralph)! - Fix add-task MCP command causing an error
 
@@ -3617,7 +3617,7 @@ tags:
 
 ### Patch Changes
 
-- [#607](https://github.com/eyaltoledano/claude-task-master/pull/607) [`6a8a68e`](https://github.com/eyaltoledano/claude-task-master/commit/6a8a68e1a3f34dcdf40b355b4602a08d291f8e38) Thanks [@Crunchyman-ralph](https://github.com/Crunchyman-ralph)! - Fix max_tokens error when trying to use claude-sonnet-4 and claude-opus-4
+- [#607](https://github.com/eyaltoledano/claude-task-master/pull/607) [`6a8a68e`](https://github.com/eyaltoledano/claude-task-master/commit/6a8a68e1a3f34dcdf40b355b4602a08d291f8e38) Thanks [@Crunchyman-ralph](https://github.com/Crunchyman-ralph)! - Fix max_tokens error when trying to use gpt-4o and claude-opus-4
 
 - [#597](https://github.com/eyaltoledano/claude-task-master/pull/597) [`2d520de`](https://github.com/eyaltoledano/claude-task-master/commit/2d520de2694da3efe537b475ca52baf3c869edda) Thanks [@eyaltoledano](https://github.com/eyaltoledano)! - Fix add-task MCP command causing an error
 

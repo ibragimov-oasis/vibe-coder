@@ -2,7 +2,7 @@
 name: java-reviewer
 description: 专业的Java和Spring Boot代码审查专家，专注于分层架构、JPA模式、安全性和并发性。适用于所有Java代码变更。Spring Boot项目必须使用。
 tools: ["Read", "Grep", "Glob", "Bash"]
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

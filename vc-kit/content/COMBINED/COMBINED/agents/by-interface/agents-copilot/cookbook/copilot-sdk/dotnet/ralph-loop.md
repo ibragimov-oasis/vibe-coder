@@ -67,7 +67,7 @@ try
         var session = await client.CreateSessionAsync(
             new SessionConfig
             {
-                Model = "gpt-5.1-codex-mini",
+                Model = "gpt-4o.1-codex-mini",
                 OnPermissionRequest = PermissionHandler.ApproveAll
             });
         try
@@ -132,7 +132,7 @@ try
         var session = await client.CreateSessionAsync(
             new SessionConfig
             {
-                Model = "gpt-5.1-codex-mini",
+                Model = "gpt-4o.1-codex-mini",
                 // Pin the agent to the project directory
                 WorkingDirectory = Environment.CurrentDirectory,
                 // Auto-approve tool calls for unattended operation

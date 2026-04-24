@@ -1,7 +1,7 @@
 ---
 name: web-researcher
 description: Need information beyond training data? Modern docs, recent APIs, or current best practices? Searches strategically, fetches relevant content, and synthesizes findings with proper citations. Re-run with refined prompts if initial results need more depth.
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/orchestration
   - artifact/workflow

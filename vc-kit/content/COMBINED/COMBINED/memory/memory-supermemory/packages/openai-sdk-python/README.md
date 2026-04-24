@@ -91,7 +91,7 @@ async def main():
 
     # Chat with memory tools
     response = await client.chat.completions.create(
-        model="gpt-5",
+        model="gpt-4o",
         messages=[
             {
                 "role": "system",

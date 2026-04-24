@@ -2,7 +2,7 @@
 name: rust-reviewer
 description: 专业的Rust代码审查员，专精于所有权、生命周期、错误处理、不安全代码使用和惯用模式。适用于所有Rust代码变更。Rust项目必须使用。
 tools: ["Read", "Grep", "Glob", "Bash"]
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

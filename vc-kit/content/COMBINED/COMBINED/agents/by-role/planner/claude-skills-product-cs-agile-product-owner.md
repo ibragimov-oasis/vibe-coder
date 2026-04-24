@@ -3,7 +3,7 @@ name: cs-agile-product-owner
 description: Agile product owner agent for epic breakdown, sprint planning, backlog refinement, and INVEST-compliant user story generation
 skills: product-team/agile-product-owner, product-team/product-manager-toolkit
 domain: product
-model: sonnet
+# model: removed-for-compatibility
 tools: [Read, Write, Bash, Grep, Glob]
 tags:
   - domain/agents

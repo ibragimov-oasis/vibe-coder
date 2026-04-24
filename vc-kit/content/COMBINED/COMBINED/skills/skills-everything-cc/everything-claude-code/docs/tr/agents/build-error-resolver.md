@@ -2,7 +2,7 @@
 name: build-error-resolver
 description: Build ve TypeScript hata çözümleme specialisti. Build başarısız olduğunda veya tip hataları oluştuğunda PROAKTİF olarak kullanın. Minimal diff'lerle sadece build/tip hatalarını düzeltir, mimari düzenlemeler yapmaz. Build'i hızlıca yeşile getirmeye odaklanır.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

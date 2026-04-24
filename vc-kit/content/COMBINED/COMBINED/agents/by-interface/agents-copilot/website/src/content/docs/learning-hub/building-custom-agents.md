@@ -64,7 +64,7 @@ Every agent file has two parts: YAML frontmatter and Markdown instructions.
 ---
 name: 'Security Reviewer'
 description: 'Expert security auditor that reviews code for OWASP vulnerabilities, authentication flaws, and supply chain risks'
-model: Claude Sonnet 4
+# model: removed-for-compatibility
 tools: ['codebase', 'terminal', 'github']
 ---
 ```
@@ -95,7 +95,7 @@ After the frontmatter, write Markdown instructions that define the agent's behav
 ---
 name: 'API Design Reviewer'
 description: 'Reviews API designs for consistency, RESTful patterns, and team conventions'
-model: Claude Sonnet 4
+# model: removed-for-compatibility
 tools: ['codebase', 'github']
 ---
 
@@ -140,7 +140,7 @@ Create agents with deep knowledge of a specific technology:
 ---
 name: 'Terraform Expert'
 description: 'Infrastructure-as-code specialist for Terraform on Azure with security-first defaults'
-model: Claude Sonnet 4
+# model: removed-for-compatibility
 tools: ['codebase', 'terminal']
 ---
 
@@ -163,7 +163,7 @@ Create agents that execute multi-step processes:
 ---
 name: 'Release Manager'
 description: 'Automates release preparation including changelog generation, version bumping, and tag creation'
-model: Claude Sonnet 4
+# model: removed-for-compatibility
 tools: ['codebase', 'terminal', 'github']
 ---
 
@@ -192,7 +192,7 @@ Create agents that enforce standards:
 ---
 name: 'Accessibility Auditor'
 description: 'Reviews UI components for WCAG 2.1 AA compliance and accessibility best practices'
-model: Claude Sonnet 4
+# model: removed-for-compatibility
 tools: ['codebase']
 ---
 

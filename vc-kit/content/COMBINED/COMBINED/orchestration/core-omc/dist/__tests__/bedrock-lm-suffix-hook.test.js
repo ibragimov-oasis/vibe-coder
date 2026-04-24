@@ -9,13 +9,13 @@
  *
  * Manual hook verification (stdin test):
  *   echo '{"tool_name":"Agent","toolInput":{},"cwd":"/tmp"}' | \
- *     ANTHROPIC_MODEL='global.anthropic.claude-sonnet-4-6[1m]' \
+ *     ANTHROPIC_MODEL='global.anthropic.gpt-4o-6[1m]' \
  *     OMC_ROUTING_FORCE_INHERIT=true \
  *     node scripts/pre-tool-enforcer.mjs
  *   → expect: deny with [1m] suffix guidance and OMC_SUBAGENT_MODEL mention
  *
- *   echo '{"tool_name":"Agent","toolInput":{"model":"us.anthropic.claude-sonnet-4-5-20250929-v1:0"},"cwd":"/tmp"}' | \
- *     ANTHROPIC_MODEL='global.anthropic.claude-sonnet-4-6[1m]' \
+ *   echo '{"tool_name":"Agent","toolInput":{"model":"us.anthropic.gpt-4o-5-20250929-v1:0"},"cwd":"/tmp"}' | \
+ *     ANTHROPIC_MODEL='global.anthropic.gpt-4o-6[1m]' \
  *     OMC_ROUTING_FORCE_INHERIT=true \
  *     node scripts/pre-tool-enforcer.mjs
  *   → expect: continue (allowed through as valid Bedrock ID)
@@ -34,19 +34,19 @@ const ENV_KEYS = ['ANTHROPIC_MODEL', 'CLAUDE_MODEL', 'OMC_ROUTING_FORCE_INHERIT'
 // ---------------------------------------------------------------------------
 describe('hook allow path — isSubagentSafeModelId(model) === true', () => {
     it('allows global. cross-region Bedrock profile (the standard escape hatch)', () => {
-        expect(isSubagentSafeModelId('global.anthropic.claude-sonnet-4-6-v1:0')).toBe(true);
+        expect(isSubagentSafeModelId('global.anthropic.gpt-4o-6-v1:0')).toBe(true);
     });
     it('allows us. regional Bedrock cross-region inference profile', () => {
-        expect(isSubagentSafeModelId('us.anthropic.claude-sonnet-4-5-20250929-v1:0')).toBe(true);
+        expect(isSubagentSafeModelId('us.anthropic.gpt-4o-5-20250929-v1:0')).toBe(true);
     });
     it('allows ap. regional Bedrock profile', () => {
-        expect(isSubagentSafeModelId('ap.anthropic.claude-sonnet-4-6-v1:0')).toBe(true);
+        expect(isSubagentSafeModelId('ap.anthropic.gpt-4o-6-v1:0')).toBe(true);
     });
     it('allows Bedrock ARN inference-profile format', () => {
         expect(isSubagentSafeModelId('arn:aws:bedrock:us-east-2:123456789012:inference-profile/global.anthropic.claude-opus-4-6-v1:0')).toBe(true);
     });
     it('allows Vertex AI model ID', () => {
-        expect(isSubagentSafeModelId('vertex_ai/claude-sonnet-4-6@20250514')).toBe(true);
+        expect(isSubagentSafeModelId('vertex_ai/gpt-4o-6@20250514')).toBe(true);
     });
 });
 // ---------------------------------------------------------------------------
@@ -54,10 +54,10 @@ describe('hook allow path — isSubagentSafeModelId(model) === true', () => {
 // ---------------------------------------------------------------------------
 describe('hook deny path — explicit model param is invalid', () => {
     it('denies [1m]-suffixed model ID (the core bug case)', () => {
-        expect(isSubagentSafeModelId('global.anthropic.claude-sonnet-4-6[1m]')).toBe(false);
+        expect(isSubagentSafeModelId('global.anthropic.gpt-4o-6[1m]')).toBe(false);
     });
     it('denies [200k]-suffixed model ID', () => {
-        expect(isSubagentSafeModelId('global.anthropic.claude-sonnet-4-6[200k]')).toBe(false);
+        expect(isSubagentSafeModelId('global.anthropic.gpt-4o-6[200k]')).toBe(false);
     });
     it('denies tier alias "sonnet"', () => {
         expect(isSubagentSafeModelId('sonnet')).toBe(false);
@@ -69,7 +69,7 @@ describe('hook deny path — explicit model param is invalid', () => {
         expect(isSubagentSafeModelId('haiku')).toBe(false);
     });
     it('denies bare Anthropic model ID (invalid on Bedrock)', () => {
-        expect(isSubagentSafeModelId('claude-sonnet-4-6')).toBe(false);
+        expect(isSubagentSafeModelId('gpt-4o-6')).toBe(false);
         expect(isSubagentSafeModelId('claude-opus-4-6')).toBe(false);
     });
 });
@@ -78,13 +78,13 @@ describe('hook deny path — explicit model param is invalid', () => {
 // ---------------------------------------------------------------------------
 describe('session model [1m] detection — hasExtendedContextSuffix', () => {
     it('detects [1m] on the exact model from the bug report', () => {
-        expect(hasExtendedContextSuffix('global.anthropic.claude-sonnet-4-6[1m]')).toBe(true);
+        expect(hasExtendedContextSuffix('global.anthropic.gpt-4o-6[1m]')).toBe(true);
     });
     it('detects [200k] on hypothetical future variant', () => {
-        expect(hasExtendedContextSuffix('global.anthropic.claude-sonnet-4-6[200k]')).toBe(true);
+        expect(hasExtendedContextSuffix('global.anthropic.gpt-4o-6[200k]')).toBe(true);
     });
     it('does NOT flag the standard Bedrock profile without suffix', () => {
-        expect(hasExtendedContextSuffix('global.anthropic.claude-sonnet-4-6-v1:0')).toBe(false);
+        expect(hasExtendedContextSuffix('global.anthropic.gpt-4o-6-v1:0')).toBe(false);
     });
     it('does NOT flag the opus env var from the bug report env', () => {
         // ANTHROPIC_DEFAULT_OPUS_MODEL=global.anthropic.claude-opus-4-6-v1 (no [1m])
@@ -100,13 +100,13 @@ describe('session model [1m] detection — hasExtendedContextSuffix', () => {
 // ---------------------------------------------------------------------------
 describe('isProviderSpecificModelId — Bedrock IDs used in OMC_SUBAGENT_MODEL guidance', () => {
     it('accepts the model from the 400 error message', () => {
-        expect(isProviderSpecificModelId('us.anthropic.claude-sonnet-4-5-20250929-v1:0')).toBe(true);
+        expect(isProviderSpecificModelId('us.anthropic.gpt-4o-5-20250929-v1:0')).toBe(true);
     });
     it('accepts [1m]-suffixed model as provider-specific (but it is NOT subagent-safe)', () => {
         // isProviderSpecificModelId detects the Bedrock prefix — the [1m] is a secondary check
-        expect(isProviderSpecificModelId('global.anthropic.claude-sonnet-4-6[1m]')).toBe(true);
+        expect(isProviderSpecificModelId('global.anthropic.gpt-4o-6[1m]')).toBe(true);
         // But isSubagentSafeModelId combines both checks and rejects it
-        expect(isSubagentSafeModelId('global.anthropic.claude-sonnet-4-6[1m]')).toBe(false);
+        expect(isSubagentSafeModelId('global.anthropic.gpt-4o-6[1m]')).toBe(false);
     });
 });
 // ---------------------------------------------------------------------------
@@ -120,18 +120,18 @@ describe('environment-based session model detection', () => {
     const sessionHasLmSuffix = () => hasExtendedContextSuffix(process.env.CLAUDE_MODEL || '') ||
         hasExtendedContextSuffix(process.env.ANTHROPIC_MODEL || '');
     it('detects [1m] session model via ANTHROPIC_MODEL env var', () => {
-        process.env.ANTHROPIC_MODEL = 'global.anthropic.claude-sonnet-4-6[1m]';
+        process.env.ANTHROPIC_MODEL = 'global.anthropic.gpt-4o-6[1m]';
         expect(sessionHasLmSuffix()).toBe(true);
     });
     it('detects [1m] session model via CLAUDE_MODEL env var', () => {
-        process.env.CLAUDE_MODEL = 'global.anthropic.claude-sonnet-4-6[1m]';
+        process.env.CLAUDE_MODEL = 'global.anthropic.gpt-4o-6[1m]';
         expect(sessionHasLmSuffix()).toBe(true);
     });
     it('detects [1m] when only ANTHROPIC_MODEL has suffix and CLAUDE_MODEL is set without it', () => {
         // Split-brain scenario: CLAUDE_MODEL is clean but ANTHROPIC_MODEL carries [1m].
         // A single CLAUDE_MODEL || ANTHROPIC_MODEL lookup would miss this.
-        process.env.CLAUDE_MODEL = 'global.anthropic.claude-sonnet-4-6-v1:0';
-        process.env.ANTHROPIC_MODEL = 'global.anthropic.claude-sonnet-4-6[1m]';
+        process.env.CLAUDE_MODEL = 'global.anthropic.gpt-4o-6-v1:0';
+        process.env.ANTHROPIC_MODEL = 'global.anthropic.gpt-4o-6[1m]';
         expect(sessionHasLmSuffix()).toBe(true);
     });
     it('does not flag missing env vars', () => {
@@ -174,34 +174,34 @@ function runHook(toolInput, env) {
 }
 describe('hook integration — force-inherit + [1m] scenarios', () => {
     it('denies [1m]-suffixed explicit model param', () => {
-        const result = runHook({ model: 'global.anthropic.claude-sonnet-4-6[1m]' }, { ANTHROPIC_MODEL: 'global.anthropic.claude-sonnet-4-6[1m]' });
+        const result = runHook({ model: 'global.anthropic.gpt-4o-6[1m]' }, { ANTHROPIC_MODEL: 'global.anthropic.gpt-4o-6[1m]' });
         expect(result.denied).toBe(true);
         expect(result.reason).toMatch(/\[1m\]/);
         expect(result.reason).toMatch(/MODEL ROUTING/);
     });
     it('allows valid Bedrock cross-region profile through without denying', () => {
-        const result = runHook({ model: 'us.anthropic.claude-sonnet-4-5-20250929-v1:0' }, { ANTHROPIC_MODEL: 'global.anthropic.claude-sonnet-4-6[1m]' });
+        const result = runHook({ model: 'us.anthropic.gpt-4o-5-20250929-v1:0' }, { ANTHROPIC_MODEL: 'global.anthropic.gpt-4o-6[1m]' });
         expect(result.denied).toBe(false);
     });
     it('denies no-model call when session model has [1m] suffix and guides to OMC_SUBAGENT_MODEL', () => {
-        const result = runHook({}, { ANTHROPIC_MODEL: 'global.anthropic.claude-sonnet-4-6[1m]' });
+        const result = runHook({}, { ANTHROPIC_MODEL: 'global.anthropic.gpt-4o-6[1m]' });
         expect(result.denied).toBe(true);
         expect(result.reason).toMatch(/OMC_SUBAGENT_MODEL/);
-        expect(result.reason).toMatch(/global\.anthropic\.claude-sonnet-4-6\[1m\]/);
+        expect(result.reason).toMatch(/global\.anthropic\.gpt-4o-6\[1m\]/);
     });
     it('includes configured OMC_SUBAGENT_MODEL value in guidance when set', () => {
         const result = runHook({}, {
-            ANTHROPIC_MODEL: 'global.anthropic.claude-sonnet-4-6[1m]',
-            OMC_SUBAGENT_MODEL: 'us.anthropic.claude-sonnet-4-5-20250929-v1:0',
+            ANTHROPIC_MODEL: 'global.anthropic.gpt-4o-6[1m]',
+            OMC_SUBAGENT_MODEL: 'us.anthropic.gpt-4o-5-20250929-v1:0',
         });
         expect(result.denied).toBe(true);
-        expect(result.reason).toMatch(/us\.anthropic\.claude-sonnet-4-5-20250929-v1:0/);
+        expect(result.reason).toMatch(/us\.anthropic\.gpt-4o-5-20250929-v1:0/);
     });
     it('denies no-model call when only ANTHROPIC_MODEL has [1m] and CLAUDE_MODEL is clean', () => {
         // Verifies the dual-check: CLAUDE_MODEL || ANTHROPIC_MODEL alone would miss this case.
         const result = runHook({}, {
-            CLAUDE_MODEL: 'global.anthropic.claude-sonnet-4-6-v1:0',
-            ANTHROPIC_MODEL: 'global.anthropic.claude-sonnet-4-6[1m]',
+            CLAUDE_MODEL: 'global.anthropic.gpt-4o-6-v1:0',
+            ANTHROPIC_MODEL: 'global.anthropic.gpt-4o-6[1m]',
         });
         expect(result.denied).toBe(true);
         expect(result.reason).toMatch(/OMC_SUBAGENT_MODEL/);

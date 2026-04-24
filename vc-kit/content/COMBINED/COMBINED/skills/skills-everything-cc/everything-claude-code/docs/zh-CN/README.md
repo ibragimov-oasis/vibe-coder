@@ -692,7 +692,7 @@ cp -r everything-claude-code/skills/search-first ~/COMBINED/workspace-config/cla
 name: code-reviewer
 description: 审查代码的质量、安全性和可维护性
 tools: ["Read", "Grep", "Glob", "Bash"]
-model: opus
+# model: removed-for-compatibility
 ---
 
 您是一位资深代码审查员...

@@ -14,7 +14,7 @@ def _make_model() -> ClaudeChatModel:
     import unittest.mock as mock
 
     with mock.patch.object(ClaudeChatModel, "model_post_init"):
-        m = ClaudeChatModel(model="claude-sonnet-4-6", anthropic_api_key="sk-ant-oat-fake-token")  # type: ignore[call-arg]
+        m = ClaudeChatModel(model="gpt-4o-6", anthropic_api_key="sk-ant-oat-fake-token")  # type: ignore[call-arg]
     m._is_oauth = True
     m._oauth_access_token = "sk-ant-oat-fake-token"
     return m

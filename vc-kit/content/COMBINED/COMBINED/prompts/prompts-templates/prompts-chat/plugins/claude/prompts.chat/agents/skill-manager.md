@@ -1,7 +1,7 @@
 ---
 name: skill-manager
 description: Agent for managing AI Agent Skills on prompts.chat - search, create, and manage multi-file skills for Claude Code.
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/prompts
   - artifact/prompt

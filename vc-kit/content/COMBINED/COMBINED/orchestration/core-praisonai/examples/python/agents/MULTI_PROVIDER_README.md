@@ -17,7 +17,7 @@ PraisonAI now supports intelligent multi-provider and multi-model capabilities, 
 - Supports fallback mechanisms for reliability
 
 ### 2. **Cost Optimization**
-- Routes simple tasks to cheaper models (e.g., gpt-5-nano, Gemini Flash)
+- Routes simple tasks to cheaper models (e.g., gpt-4o-nano, Gemini Flash)
 - Reserves expensive models for complex tasks
 - Tracks usage and provides cost estimates
 
@@ -137,10 +137,10 @@ The system includes pre-configured profiles for popular models:
 
 | Model | Provider | Best For | Cost/1k tokens |
 |-------|----------|----------|----------------|
-| gpt-5-nano | OpenAI | Simple tasks, speed | $0.00075 |
+| gpt-4o-nano | OpenAI | Simple tasks, speed | $0.00075 |
 | gemini-1.5-flash | Google | Cost-effective, multimodal | $0.000125 |
 | claude-3-haiku | Anthropic | Fast responses | $0.0008 |
-| gpt-5-nano | OpenAI | General purpose | $0.0075 |
+| gpt-4o-nano | OpenAI | General purpose | $0.0075 |
 | claude-3-5-sonnet-20241022 | Anthropic | Complex reasoning | $0.009 |
 | deepseek-chat | DeepSeek | Code & math | $0.0014 |
 
@@ -167,8 +167,8 @@ print(report)
     'agent_name': 'Smart Assistant',
     'routing_strategy': 'auto',
     'model_usage': {
-        'gpt-5-nano': {'calls': 5, 'tokens': 1500, 'cost': 0.0011},
-        'gpt-5-nano': {'calls': 2, 'tokens': 3000, 'cost': 0.0225}
+        'gpt-4o-nano': {'calls': 5, 'tokens': 1500, 'cost': 0.0011},
+        'gpt-4o-nano': {'calls': 2, 'tokens': 3000, 'cost': 0.0225}
     },
     'total_cost_estimate': 0.0236,
     'total_calls': 7

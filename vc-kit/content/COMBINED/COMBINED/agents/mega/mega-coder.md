@@ -1,7 +1,7 @@
 ---
 name: mega-coder
 description: 'Unified code implementation agent. Writes production-quality code following SOLID principles, TDD, and codebase conventions. Covers TypeScript, Python, Go, Rust, and all major languages. Merged from RuFlo coder and language specialists, OMC executor, Claude-Skills engineers, GSD executor, and Superpowers subagent-driven-development.'
-model: claude-sonnet-4
+# model: removed-for-compatibility
 tools:
   - Read
   - Write

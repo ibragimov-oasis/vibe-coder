@@ -31,7 +31,7 @@ The weather orchestrator command is implemented in this repo as the entry point 
 ```yaml
 ---
 description: Fetch weather data for Dubai and create an SVG weather card
-model: haiku
+# model: removed-for-compatibility
 ---
 
 # Weather Orchestrator Command

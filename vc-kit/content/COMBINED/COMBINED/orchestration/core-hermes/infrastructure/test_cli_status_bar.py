@@ -4,7 +4,7 @@ from types import SimpleNamespace
 from cli import HermesCLI
 
 
-def _make_cli(model: str = "anthropic/claude-sonnet-4-20250514"):
+def _make_cli(model: str = "anthropic/gpt-4o-20250514"):
     cli_obj = HermesCLI.__new__(HermesCLI)
     cli_obj.model = model
     cli_obj.session_start = datetime.now() - timedelta(minutes=14, seconds=32)
@@ -72,7 +72,7 @@ class TestCLIStatusBar:
 
         text = cli_obj._build_status_bar_text(width=120)
 
-        assert "claude-sonnet-4-20250514" in text
+        assert "gpt-4o-20250514" in text
         assert "12.4K/200K" in text
         assert "6%" in text
         assert "$0.06" not in text  # cost hidden by default
@@ -116,7 +116,7 @@ class TestCLIStatusBar:
         text = cli_obj._build_status_bar_text(width=100)
 
         assert "⚕" in text
-        assert "claude-sonnet-4-20250514" in text
+        assert "gpt-4o-20250514" in text
 
 
 class TestCLIUsageReport:

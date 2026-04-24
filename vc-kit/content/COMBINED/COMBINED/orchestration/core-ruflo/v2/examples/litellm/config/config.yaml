@@ -33,7 +33,7 @@ model_list:
   # OpenAI Models
   - model_name: "codex-mini"
     litellm_params:
-      model: "openai/gpt-4o-mini"
+      model: gpt-4o
       api_key: ${OPENAI_API_KEY}
       api_base: https://api.openai.com/v1
       max_tokens: 4096
@@ -46,7 +46,7 @@ model_list:
       
   - model_name: "o3-pro"
     litellm_params:
-      model: "openai/o3-2025"
+      model: gpt-4o
       api_key: ${OPENAI_API_KEY}
       api_base: https://api.openai.com/v1
       max_tokens: 8192
@@ -60,7 +60,7 @@ model_list:
   # OpenRouter Models (Qwen3-Coder)
   - model_name: "claude-3-5-sonnet"
     litellm_params:
-      model: "openrouter/qwen/qwen-3-coder:free"
+      model: gpt-4o
       api_key: ${OPENROUTER_API_KEY}
       api_base: https://openrouter.ai/api/v1
       max_tokens: 65536
@@ -76,7 +76,7 @@ model_list:
 
   - model_name: "deepseek-coder"
     litellm_params:
-      model: "openrouter/deepseek/deepseek-coder"
+      model: gpt-4o
       api_key: ${OPENROUTER_API_KEY}
       api_base: https://openrouter.ai/api/v1
       max_tokens: 32768
@@ -90,7 +90,7 @@ model_list:
   # Azure OpenAI
   - model_name: "azure-gpt4"
     litellm_params:
-      model: "azure/gpt-4-turbo-2024-08-01"
+      model: gpt-4o
       api_key: ${AZURE_API_KEY}
       api_base: ${AZURE_API_BASE}
       api_version: "2024-08-01-preview"
@@ -105,7 +105,7 @@ model_list:
   # Amazon Bedrock Claude
   - model_name: "bedrock-claude"
     litellm_params:
-      model: "bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0"
+      model: gpt-4o
       aws_access_key_id: ${AWS_ACCESS_KEY_ID}
       aws_secret_access_key: ${AWS_SECRET_ACCESS_KEY}
       aws_region_name: ${AWS_REGION}
@@ -120,7 +120,7 @@ model_list:
   # Local Ollama Models
   - model_name: "local-codellama"
     litellm_params:
-      model: "ollama/codellama:34b"
+      model: gpt-4o
       api_base: http://ollama:11434
       max_tokens: 8192
       temperature: 0.3
@@ -132,7 +132,7 @@ model_list:
 
   - model_name: "local-mixtral"
     litellm_params:
-      model: "ollama/mixtral:8x7b"
+      model: gpt-4o
       api_base: http://ollama:11434
       max_tokens: 4096
       temperature: 0.7
@@ -145,7 +145,7 @@ model_list:
   # Anthropic Models (Direct)
   - model_name: "claude-3-opus"
     litellm_params:
-      model: "anthropic/claude-3-opus-20240229"
+      model: gpt-4o
       api_key: ${ANTHROPIC_API_KEY}
       max_tokens: 4096
       temperature: 0.7
@@ -157,7 +157,7 @@ model_list:
 
   - model_name: "claude-3-haiku"
     litellm_params:
-      model: "anthropic/claude-3-haiku-20240307"
+      model: gpt-4o
       api_key: ${ANTHROPIC_API_KEY}
       max_tokens: 4096
       temperature: 0.5

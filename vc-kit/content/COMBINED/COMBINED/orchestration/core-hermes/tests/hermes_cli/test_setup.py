@@ -159,7 +159,7 @@ def test_codex_setup_uses_runtime_access_token_for_live_model_list(tmp_path, mon
 
     def _fake_get_codex_model_ids(access_token=None):
         captured["access_token"] = access_token
-        return ["gpt-5.2-codex", "gpt-5.2"]
+        return ["gpt-4o.2-codex", "gpt-4o.2"]
 
     monkeypatch.setattr(
         "hermes_cli.codex_models.get_codex_model_ids",
@@ -174,5 +174,5 @@ def test_codex_setup_uses_runtime_access_token_for_live_model_list(tmp_path, mon
     assert captured["access_token"] == "codex-access-token"
     assert isinstance(reloaded["model"], dict)
     assert reloaded["model"]["provider"] == "openai-codex"
-    assert reloaded["model"]["default"] == "gpt-5.2-codex"
+    assert reloaded["model"]["default"] == "gpt-4o.2-codex"
     assert reloaded["model"]["base_url"] == "https://chatgpt.com/backend-api/codex"

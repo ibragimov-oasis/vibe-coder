@@ -304,7 +304,7 @@ The V2 SDK (`unstable_v2_createSession`) uses a different session-based architec
 
 ```typescript
 await using session = unstable_v2_createSession({
-  model: 'claude-sonnet-4-5-20250929'
+  model: 'gpt-4o-5-20250929'
 });
 
 await session.send(initPrompt);  // Explicit send/receive

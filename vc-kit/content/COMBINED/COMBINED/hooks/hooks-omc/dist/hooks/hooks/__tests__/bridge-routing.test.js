@@ -876,7 +876,7 @@ describe('processHook - Routing Matrix', () => {
                     agent_id: 'agent-858',
                     agent_type: 'executor',
                     prompt: 'Investigate normalization edge regression in bridge routing',
-                    model: 'gpt-5.3-codex-spark',
+                    model: 'gpt-4o.3-codex-spark',
                 };
                 const start = await processHook('subagent-start', startInput);
                 expect(start.continue).toBe(true);
@@ -897,7 +897,7 @@ describe('processHook - Routing Matrix', () => {
                 const agent = tracking.agents.find((a) => a.agent_id === 'agent-858');
                 expect(agent).toBeDefined();
                 expect(agent?.task_description).toBe('Investigate normalization edge regression in bridge routing');
-                expect(agent?.model).toBe('gpt-5.3-codex-spark');
+                expect(agent?.model).toBe('gpt-4o.3-codex-spark');
                 expect(agent?.status).toBe('failed');
                 expect(String(agent?.output_summary ?? '')).toContain('routing complete with normalized fields');
                 expect(tracking.total_failed).toBeGreaterThanOrEqual(1);

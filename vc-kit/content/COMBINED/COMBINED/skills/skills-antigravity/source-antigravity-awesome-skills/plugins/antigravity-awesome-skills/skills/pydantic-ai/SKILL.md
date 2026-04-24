@@ -49,7 +49,7 @@ from pydantic_ai import Agent
 
 # Simple agent — returns a plain string
 agent = Agent(
-    'anthropic:claude-sonnet-4-6',
+    'anthropic:gpt-4o-6',
     system_prompt='You are a helpful assistant. Be concise.',
 )
 
@@ -98,7 +98,7 @@ class WeatherReport(BaseModel):
     condition: str
 
 weather_agent = Agent(
-    'anthropic:claude-sonnet-4-6',
+    'anthropic:gpt-4o-6',
     result_type=WeatherReport,
     system_prompt='Get current weather for the requested city.',
 )
@@ -198,7 +198,7 @@ with agent.override(model=FunctionModel(my_model)):
 import asyncio
 from pydantic_ai import Agent
 
-agent = Agent('anthropic:claude-sonnet-4-6')
+agent = Agent('anthropic:gpt-4o-6')
 
 async def stream_response():
     async with agent.run_stream('Write a haiku about Python') as result:
@@ -243,7 +243,7 @@ class CodeReview(BaseModel):
     approved: bool
 
 code_review_agent = Agent(
-    'anthropic:claude-sonnet-4-6',
+    'anthropic:gpt-4o-6',
     result_type=CodeReview,
     system_prompt="""
     You are a senior engineer performing code review.
@@ -297,7 +297,7 @@ class BlogPost(BaseModel):
     meta_description: str
 
 researcher = Agent('openai:gpt-4o', result_type=ResearchSummary)
-writer = Agent('anthropic:claude-sonnet-4-6', result_type=BlogPost)
+writer = Agent('anthropic:gpt-4o-6', result_type=BlogPost)
 
 async def research_and_write(topic: str) -> BlogPost:
     # Stage 1: research

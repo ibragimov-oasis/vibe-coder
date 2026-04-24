@@ -59,7 +59,7 @@ class AgentState(TypedDict):
 ```
 
 ### Model & Embeddings
-- **Primary LLM**: Claude Sonnet 4.5 (`claude-sonnet-4-5`)
+- **Primary LLM**: Claude Sonnet 4.5 (`gpt-4o-5`)
 - **Embeddings**: Voyage AI (`voyage-3-large`) - officially recommended by Anthropic for Claude
 - **Specialized**: `voyage-code-3` (code), `voyage-finance-2` (finance), `voyage-law-2` (legal)
 
@@ -176,7 +176,7 @@ from langsmith.evaluation import evaluate
 # Run evaluation suite
 eval_config = RunEvalConfig(
     evaluators=["qa", "context_qa", "cot_qa"],
-    eval_llm=ChatAnthropic(model="claude-sonnet-4-5")
+    eval_llm=ChatAnthropic(model="gpt-4o-5")
 )
 
 results = await evaluate(

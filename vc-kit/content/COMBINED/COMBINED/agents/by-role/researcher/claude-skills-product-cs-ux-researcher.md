@@ -3,7 +3,7 @@ name: cs-ux-researcher
 description: UX research agent for research planning, persona generation, journey mapping, and usability test analysis
 skills: product-team/ux-researcher-designer, product-team/product-manager-toolkit, product-team/ui-design-system
 domain: product
-model: sonnet
+# model: removed-for-compatibility
 tools: [Read, Write, Bash, Grep, Glob]
 tags:
   - domain/agents

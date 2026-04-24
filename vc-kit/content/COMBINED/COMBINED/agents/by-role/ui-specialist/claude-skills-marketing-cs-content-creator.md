@@ -3,7 +3,7 @@ name: cs-content-creator
 description: AI-powered content creation specialist for brand voice consistency, SEO optimization, and multi-platform content strategy
 skills: marketing-skill/content-creator
 domain: marketing
-model: sonnet
+# model: removed-for-compatibility
 tools: [Read, Write, Bash, Grep, Glob]
 tags:
   - domain/agents

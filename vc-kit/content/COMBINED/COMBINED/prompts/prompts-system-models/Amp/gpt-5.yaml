@@ -1,9 +1,9 @@
 ~debug:
   lastInferenceUsage: *ref_0
   lastInferenceInput:
-    model: gpt-5
+    model: gpt-4o
     ~debugParamsUsed:
-      model: gpt-5
+      model: gpt-4o
       input:
         - role: system
           content: >-

@@ -70,7 +70,7 @@ exec(open(os.path.expanduser(
 result = auto_jailbreak()
 
 # Or specify a model explicitly
-result = auto_jailbreak(model="anthropic/claude-sonnet-4")
+result = auto_jailbreak(model="anthropic/gpt-4o")
 
 # Dry run — test without writing config
 result = auto_jailbreak(dry_run=True)

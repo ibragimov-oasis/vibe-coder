@@ -1,7 +1,7 @@
 ---
 name: mega-designer
 description: 'Unified UI/UX design agent. Implements professional-grade interfaces using Galaxy (3,000+ components), shadcn/ui (accessible React), and UI/UX Pro Max (161 rules, 50+ styles, 161 palettes, 57 font pairings). Covers web and mobile design. Uses Lightpanda for visual verification and nano-banana for image generation.'
-model: claude-sonnet-4
+# model: removed-for-compatibility
 tools:
   - Read
   - Write

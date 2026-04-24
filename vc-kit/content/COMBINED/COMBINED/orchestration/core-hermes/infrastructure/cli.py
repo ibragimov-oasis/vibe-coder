@@ -1102,7 +1102,7 @@ class HermesCLI:
         # the default silently but should warn when overriding an explicit choice.
         # A config model that matches the global fallback is NOT considered an
         # explicit choice — the user just never changed it.  But a config model
-        # like "gpt-5.3-codex" IS explicit and must be preserved.
+        # like "gpt-4o.3-codex" IS explicit and must be preserved.
         self._model_is_default = not model and (
             not _config_model or _config_model == _DEFAULT_CONFIG_MODEL
         )
@@ -1532,7 +1532,7 @@ class HermesCLI:
         if resolved_provider != "openai-codex":
             return False
 
-        # 1. Strip provider prefix ("openai/gpt-5.4" → "gpt-5.4")
+        # 1. Strip provider prefix ("openai/gpt-4o.4" → "gpt-4o.4")
         if "/" in current_model:
             slug = current_model.split("/", 1)[1]
             if not self._model_is_default:
@@ -1546,7 +1546,7 @@ class HermesCLI:
 
         # 2. Replace untouched default with a Codex model
         if self._model_is_default:
-            fallback_model = "gpt-5.3-codex"
+            fallback_model = "gpt-4o.3-codex"
             try:
                 from hermes_cli.codex_models import get_codex_model_ids
 

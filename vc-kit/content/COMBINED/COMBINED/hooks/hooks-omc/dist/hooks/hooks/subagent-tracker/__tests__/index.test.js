@@ -509,7 +509,7 @@ describe("subagent-tracker", () => {
                 agent_id: "worker-3",
                 agent_type: "oh-my-claudecode:executor",
                 prompt: "Implement the dispatch changes",
-                model: "gpt-5.4-mini",
+                model: "gpt-4o.4-mini",
             };
             const first = processSubagentStart(startInput);
             const second = processSubagentStart(startInput);

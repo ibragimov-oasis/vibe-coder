@@ -34,7 +34,7 @@ def populated_db(db):
     # Session 1: CLI, claude-sonnet, ended, 2 days ago
     db.create_session(
         session_id="s1", source="cli",
-        model="anthropic/claude-sonnet-4-20250514", user_id="user1",
+        model="anthropic/gpt-4o-20250514", user_id="user1",
     )
     # Backdate the started_at
     db._conn.execute("UPDATE sessions SET started_at = ? WHERE id = 's1'", (now - 2 * day,))
@@ -93,7 +93,7 @@ def populated_db(db):
     # Session 4: Discord, same model as s1, ended, 1 day ago
     db.create_session(
         session_id="s4", source="discord",
-        model="anthropic/claude-sonnet-4-20250514", user_id="user2",
+        model="anthropic/gpt-4o-20250514", user_id="user2",
     )
     db._conn.execute("UPDATE sessions SET started_at = ? WHERE id = 's4'", (now - 1 * day,))
     db.end_session("s4", end_reason="user_exit")
@@ -124,7 +124,7 @@ def populated_db(db):
 
 class TestPricing:
     def test_provider_prefix_stripped(self):
-        pricing = _get_pricing("anthropic/claude-sonnet-4-20250514")
+        pricing = _get_pricing("anthropic/gpt-4o-20250514")
         assert pricing["input"] == 3.00
         assert pricing["output"] == 15.00
 
@@ -160,8 +160,8 @@ class TestPricing:
 class TestHasKnownPricing:
     def test_known_commercial_model(self):
         assert _has_known_pricing("gpt-4o", provider="openai") is True
-        assert _has_known_pricing("anthropic/claude-sonnet-4-20250514") is True
-        assert _has_known_pricing("gpt-4.1", provider="openai") is True
+        assert _has_known_pricing("anthropic/gpt-4o-20250514") is True
+        assert _has_known_pricing("gpt-4o", provider="openai") is True
 
     def test_unknown_custom_model(self):
         assert _has_known_pricing("FP16_Hermes_4.5") is False
@@ -178,7 +178,7 @@ class TestHasKnownPricing:
 class TestEstimateCost:
     def test_basic_cost(self):
         cost, status = _estimate_cost(
-            "anthropic/claude-sonnet-4-20250514",
+            "anthropic/gpt-4o-20250514",
             1_000_000,
             1_000_000,
             provider="anthropic",
@@ -193,7 +193,7 @@ class TestEstimateCost:
 
     def test_cache_aware_usage(self):
         cost, status = _estimate_cost(
-            "anthropic/claude-sonnet-4-20250514",
+            "anthropic/gpt-4o-20250514",
             1000,
             500,
             cache_read_tokens=2000,
@@ -331,7 +331,7 @@ class TestInsightsPopulated:
 
         # Should have 3 distinct models (claude-sonnet x2, gpt-4o, deepseek-chat)
         model_names = [m["model"] for m in models]
-        assert "claude-sonnet-4-20250514" in model_names
+        assert "gpt-4o-20250514" in model_names
         assert "gpt-4o" in model_names
         assert "deepseek-chat" in model_names
 
@@ -633,7 +633,7 @@ class TestEdgeCases:
 
     def test_mixed_commercial_and_custom_models(self, db):
         """Mix of commercial and custom models: only commercial ones get costs."""
-        db.create_session(session_id="s1", source="cli", model="anthropic/claude-sonnet-4-20250514")
+        db.create_session(session_id="s1", source="cli", model="anthropic/gpt-4o-20250514")
         db.update_token_counts(
             "s1",
             input_tokens=10000,
@@ -650,11 +650,11 @@ class TestEdgeCases:
         # Cost should only come from gpt-4o, not from the custom model
         overview = report["overview"]
         assert overview["estimated_cost"] > 0
-        assert "claude-sonnet-4-20250514" in overview["models_with_pricing"]  # list now, not set
+        assert "gpt-4o-20250514" in overview["models_with_pricing"]  # list now, not set
         assert "my-local-llama" in overview["models_without_pricing"]
 
         # Verify individual model entries
-        claude = next(m for m in report["models"] if m["model"] == "claude-sonnet-4-20250514")
+        claude = next(m for m in report["models"] if m["model"] == "gpt-4o-20250514")
         assert claude["has_pricing"] is True
         assert claude["cost"] > 0
 

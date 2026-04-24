@@ -713,7 +713,7 @@ class AgentsGenerator:
             # Create model client for v0.4
             model_config = self.config_list[0] if self.config_list else {}
             model_client = OpenAIChatCompletionClient(
-                model=model_config.get('model', 'gpt-5-nano'),
+                model=model_config.get('model', 'gpt-4o-nano'),
                 api_key=model_config.get('api_key', os.environ.get("OPENAI_API_KEY")),
                 base_url=model_config.get('base_url', "https://api.openai.com/v1")
             )
@@ -974,7 +974,7 @@ class AgentsGenerator:
             llm_model = details.get('llm')
             if llm_model:
                 llm = PraisonAIModel(
-                    model=llm_model.get("model") or os.environ.get("MODEL_NAME") or "openai/gpt-5-nano",
+                    model=llm_model.get("model") or os.environ.get("MODEL_NAME") or "openai/gpt-4o-nano",
                     base_url=self.config_list[0].get('base_url') if self.config_list else None,
                     api_key=self.config_list[0].get('api_key') if self.config_list else None
                 ).get_model()
@@ -988,7 +988,7 @@ class AgentsGenerator:
             function_calling_llm_model = details.get('function_calling_llm')
             if function_calling_llm_model:
                 function_calling_llm = PraisonAIModel(
-                    model=function_calling_llm_model.get("model") or os.environ.get("MODEL_NAME") or "openai/gpt-5-nano",
+                    model=function_calling_llm_model.get("model") or os.environ.get("MODEL_NAME") or "openai/gpt-4o-nano",
                     base_url=self.config_list[0].get('base_url') if self.config_list else None,
                     api_key=self.config_list[0].get('api_key') if self.config_list else None
                 ).get_model()

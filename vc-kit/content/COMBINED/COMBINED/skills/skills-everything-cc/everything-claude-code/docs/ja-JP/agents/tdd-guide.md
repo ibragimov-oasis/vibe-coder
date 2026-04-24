@@ -2,7 +2,7 @@
 name: tdd-guide
 description: テスト駆動開発スペシャリストで、テストファースト方法論を強制します。新しい機能の記述、バグの修正、コードのリファクタリング時に積極的に使用してください。80%以上のテストカバレッジを確保します。
 tools: ["Read", "Write", "Edit", "Bash", "Grep"]
-model: opus
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

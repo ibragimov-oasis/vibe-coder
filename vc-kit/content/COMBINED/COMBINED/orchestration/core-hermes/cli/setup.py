@@ -59,18 +59,18 @@ _DEFAULT_PROVIDER_MODELS = {
         "copilot-acp",
     ],
     "copilot": [
-        "gpt-5.4",
-        "gpt-5.4-mini",
-        "gpt-5-mini",
-        "gpt-5.3-codex",
-        "gpt-5.2-codex",
-        "gpt-4.1",
+        "gpt-4o.4",
+        "gpt-4o.4-mini",
+        "gpt-4o-mini",
+        "gpt-4o.3-codex",
+        "gpt-4o.2-codex",
+        "gpt-4o",
         "gpt-4o",
         "gpt-4o-mini",
         "claude-opus-4.6",
-        "claude-sonnet-4.6",
-        "claude-sonnet-4.5",
-        "claude-haiku-4.5",
+        "gpt-4o.6",
+        "gpt-4o.5",
+        "gpt-4o",
         "gemini-2.5-pro",
         "grok-code-fast-1",
     ],
@@ -78,8 +78,8 @@ _DEFAULT_PROVIDER_MODELS = {
     "kimi-coding": ["kimi-k2.5", "kimi-k2-thinking", "kimi-k2-turbo-preview"],
     "minimax": ["MiniMax-M2.7", "MiniMax-M2.7-highspeed", "MiniMax-M2.5", "MiniMax-M2.5-highspeed", "MiniMax-M2.1"],
     "minimax-cn": ["MiniMax-M2.7", "MiniMax-M2.7-highspeed", "MiniMax-M2.5", "MiniMax-M2.5-highspeed", "MiniMax-M2.1"],
-    "ai-gateway": ["anthropic/claude-opus-4.6", "anthropic/claude-sonnet-4.6", "openai/gpt-5", "google/gemini-3-flash"],
-    "kilocode": ["anthropic/claude-opus-4.6", "anthropic/claude-sonnet-4.6", "openai/gpt-5.4", "google/gemini-3-pro-preview", "google/gemini-3-flash-preview"],
+    "ai-gateway": ["anthropic/claude-opus-4.6", "anthropic/gpt-4o.6", "openai/gpt-4o", "google/gemini-3-flash"],
+    "kilocode": ["anthropic/claude-opus-4.6", "anthropic/gpt-4o.6", "openai/gpt-4o.4", "google/gemini-3-pro-preview", "google/gemini-3-flash-preview"],
     "huggingface": [
         "Qwen/Qwen3.5-397B-A17B", "Qwen/Qwen3-235B-A22B-Thinking-2507",
         "Qwen/Qwen3-Coder-480B-A35B-Instruct", "deepseek-ai/DeepSeek-R1-0528",
@@ -1630,7 +1630,7 @@ def setup_model_provider(config: dict):
                 save_env_value("OPENAI_API_KEY", _oai_key)
                 save_env_value("OPENAI_BASE_URL", _base_url)
                 if "api.openai.com" in _base_url.lower():
-                    _oai_vision_models = ["gpt-4o", "gpt-4o-mini", "gpt-4.1", "gpt-4.1-mini", "gpt-4.1-nano"]
+                    _oai_vision_models = ["gpt-4o", "gpt-4o-mini", "gpt-4o", "gpt-4o-mini", "gpt-4o-nano"]
                     _vm_choices = _oai_vision_models + ["Use default (gpt-4o-mini)"]
                     _vm_idx = prompt_choice("Select vision model:", _vm_choices, 0)
                     _selected_vision_model = (
@@ -1747,7 +1747,7 @@ def setup_model_provider(config: dict):
             live_models = provider_model_ids("anthropic")
             anthropic_models = live_models if live_models else [
                 "claude-opus-4-6",
-                "claude-sonnet-4-6",
+                "gpt-4o-6",
                 "claude-haiku-4-5-20251001",
             ]
             model_choices = list(anthropic_models)
@@ -1760,7 +1760,7 @@ def setup_model_provider(config: dict):
             if model_idx < len(anthropic_models):
                 _set_default_model(config, anthropic_models[model_idx])
             elif model_idx == len(anthropic_models):
-                custom = prompt("Enter model name (e.g., claude-sonnet-4-20250514)")
+                custom = prompt("Enter model name (e.g., gpt-4o-20250514)")
                 if custom:
                     _set_default_model(config, custom)
             # else: keep current

@@ -152,7 +152,7 @@ def test_provider_detection():
     
     # Test different providers
     providers_to_test = [
-        ("gpt-4o-mini", True, "OpenAI gpt-5-nano"),
+        ("gpt-4o-mini", True, "OpenAI gpt-4o-nano"),
         ("gpt-3.5-turbo", True, "OpenAI GPT-3.5"),
         ("claude-3-5-sonnet", True, "Anthropic Claude"),
         ("gemini-2.0-flash", True, "Google Gemini"),

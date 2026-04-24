@@ -1,7 +1,7 @@
 ---
 name: docs-impact
 description: Reviews documentation affected by code changes. Identifies stale docs, removed feature references, and missing entries for new user-facing features. Reports findings with specific fixes. Advisory only - does not modify files.
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/orchestration
   - artifact/workflow

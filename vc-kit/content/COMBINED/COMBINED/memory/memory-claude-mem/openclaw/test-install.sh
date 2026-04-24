@@ -643,7 +643,7 @@ test_write_settings_new_file() {
 
   local model
   model="$(node -e "const s = JSON.parse(require('fs').readFileSync('${settings_file}','utf8')); console.log(s.CLAUDE_MEM_MODEL);")"
-  assert_eq "claude-sonnet-4-5" "$model" "CLAUDE_MEM_MODEL defaults to claude-sonnet-4-5"
+  assert_eq "gpt-4o-5" "$model" "CLAUDE_MEM_MODEL defaults to gpt-4o-5"
 
   HOME="$ORIGINAL_HOME"
   rm -rf "$fake_home"

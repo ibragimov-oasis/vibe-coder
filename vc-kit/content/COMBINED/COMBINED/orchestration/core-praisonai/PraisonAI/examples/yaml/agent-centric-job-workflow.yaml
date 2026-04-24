@@ -37,7 +37,7 @@ steps:
         Generate a changelog entry for the latest release.
         Include sections for: Features, Bug Fixes, and Breaking Changes.
         Keep it concise and professional.
-      model: gpt-4o-mini
+      model: gpt-4o
     output_file: CHANGELOG_ENTRY.md
 
   # Step 3: Judge - Quality check
@@ -51,7 +51,7 @@ steps:
         - Conciseness: Not overly verbose
       threshold: 7.0
       on_fail: warn
-      model: gpt-4o-mini
+      model: gpt-4o
 
   # Step 4: Approve - Human approval gate
   - name: Approve release

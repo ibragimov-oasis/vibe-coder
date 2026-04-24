@@ -162,7 +162,7 @@ If the provider exposes a live model list, prefer that first and keep `_PROVIDER
 This file is also what makes inputs like these work:
 
 ```text
-anthropic:claude-sonnet-4-6
+anthropic:gpt-4o-6
 kimi:model-name
 ```
 

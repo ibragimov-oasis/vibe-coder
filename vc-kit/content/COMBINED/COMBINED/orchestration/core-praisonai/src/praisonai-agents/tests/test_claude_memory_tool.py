@@ -339,14 +339,14 @@ class TestLLMClaudeMemoryIntegration:
         """Test LLM initialization with claude_memory=True."""
         from praisonaiagents.llm.llm import LLM
         
-        llm = LLM(model="anthropic/claude-sonnet-4-20250514", claude_memory=True)
+        llm = LLM(model="anthropic/gpt-4o-20250514", claude_memory=True)
         assert llm.claude_memory == True
     
     def test_llm_init_with_claude_memory_false(self):
         """Test LLM initialization with claude_memory=False."""
         from praisonaiagents.llm.llm import LLM
         
-        llm = LLM(model="anthropic/claude-sonnet-4-20250514", claude_memory=False)
+        llm = LLM(model="anthropic/gpt-4o-20250514", claude_memory=False)
         assert llm.claude_memory == False
     
     def test_llm_init_without_claude_memory(self):
@@ -360,7 +360,7 @@ class TestLLMClaudeMemoryIntegration:
         """Test _supports_claude_memory for Anthropic model."""
         from praisonaiagents.llm.llm import LLM
         
-        llm = LLM(model="anthropic/claude-sonnet-4-20250514", claude_memory=True)
+        llm = LLM(model="anthropic/gpt-4o-20250514", claude_memory=True)
         assert llm._supports_claude_memory() == True
     
     def test_llm_supports_claude_memory_non_anthropic(self):
@@ -375,7 +375,7 @@ class TestLLMClaudeMemoryIntegration:
         from praisonaiagents.llm.llm import LLM
         from praisonaiagents.tools.claude_memory_tool import ClaudeMemoryTool
         
-        llm = LLM(model="anthropic/claude-sonnet-4-20250514", claude_memory=True)
+        llm = LLM(model="anthropic/gpt-4o-20250514", claude_memory=True)
         tool = llm._get_claude_memory_tool()
         
         assert isinstance(tool, ClaudeMemoryTool)
@@ -384,7 +384,7 @@ class TestLLMClaudeMemoryIntegration:
         """Test _is_memory_tool_call method."""
         from praisonaiagents.llm.llm import LLM
         
-        llm = LLM(model="anthropic/claude-sonnet-4-20250514", claude_memory=True)
+        llm = LLM(model="anthropic/gpt-4o-20250514", claude_memory=True)
         
         assert llm._is_memory_tool_call("memory") == True
         assert llm._is_memory_tool_call("other_tool") == False
@@ -399,7 +399,7 @@ class TestAgentClaudeMemoryIntegration:
         
         agent = Agent(
             name="Test Agent",
-            llm="anthropic/claude-sonnet-4-20250514",
+            llm="anthropic/gpt-4o-20250514",
             claude_memory=True
         )
         assert agent.claude_memory == True
@@ -410,7 +410,7 @@ class TestAgentClaudeMemoryIntegration:
         
         agent = Agent(
             name="Test Agent",
-            llm="anthropic/claude-sonnet-4-20250514",
+            llm="anthropic/gpt-4o-20250514",
             claude_memory=False
         )
         assert agent.claude_memory == False
@@ -428,7 +428,7 @@ class TestAgentClaudeMemoryIntegration:
         
         agent = Agent(
             name="Test Agent",
-            llm="anthropic/claude-sonnet-4-20250514",
+            llm="anthropic/gpt-4o-20250514",
             claude_memory=True
         )
         
@@ -452,7 +452,7 @@ class TestClaudeMemoryToolIntegration:
         agent = Agent(
             name="Memory Test Agent",
             instructions="You are a helpful assistant with memory capabilities.",
-            llm="anthropic/claude-sonnet-4-20250514",
+            llm="anthropic/gpt-4o-20250514",
             claude_memory=True,
             verbose=False
         )

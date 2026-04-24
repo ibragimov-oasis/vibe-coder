@@ -145,20 +145,20 @@ World`);
     });
     describe('switcher - getHighVariant', () => {
         describe('Claude models', () => {
-            it('should return high variant for claude-sonnet-4-6', () => {
-                expect(getHighVariant('claude-sonnet-4-6')).toBe('claude-sonnet-4-6-high');
+            it('should return high variant for gpt-4o-6', () => {
+                expect(getHighVariant('gpt-4o-6')).toBe('gpt-4o-6-high');
             });
             it('should return high variant for claude-opus-4-6', () => {
                 expect(getHighVariant('claude-opus-4-6')).toBe('claude-opus-4-6-high');
             });
             it('should return high variant for claude-3-5-sonnet', () => {
-                expect(getHighVariant('claude-3-5-sonnet')).toBe('claude-sonnet-4-6-high');
+                expect(getHighVariant('claude-3-5-sonnet')).toBe('gpt-4o-6-high');
             });
             it('should return high variant for claude-3-opus', () => {
                 expect(getHighVariant('claude-3-opus')).toBe('claude-opus-4-6-high');
             });
             it('should handle version with dot notation', () => {
-                expect(getHighVariant('claude-sonnet-4.5')).toBe('claude-sonnet-4-6-high');
+                expect(getHighVariant('gpt-4o.5')).toBe('gpt-4o-6-high');
             });
         });
         describe('GPT models', () => {
@@ -171,8 +171,8 @@ World`);
             it('should return high variant for gpt-4o', () => {
                 expect(getHighVariant('gpt-4o')).toBe('gpt-4o-high');
             });
-            it('should return high variant for gpt-5', () => {
-                expect(getHighVariant('gpt-5')).toBe('gpt-5-high');
+            it('should return high variant for gpt-4o', () => {
+                expect(getHighVariant('gpt-4o')).toBe('gpt-4o-high');
             });
         });
         describe('Gemini models', () => {
@@ -188,7 +188,7 @@ World`);
         });
         describe('Already high variants', () => {
             it('should return null for already high variant', () => {
-                expect(getHighVariant('claude-sonnet-4-6-high')).toBeNull();
+                expect(getHighVariant('gpt-4o-6-high')).toBeNull();
             });
             it('should return null for model ending in -high', () => {
                 expect(getHighVariant('some-model-high')).toBeNull();
@@ -196,7 +196,7 @@ World`);
         });
         describe('Prefixed models', () => {
             it('should preserve prefix in high variant', () => {
-                expect(getHighVariant('vertex_ai/claude-sonnet-4-5')).toBe('vertex_ai/claude-sonnet-4-6-high');
+                expect(getHighVariant('vertex_ai/gpt-4o-5')).toBe('vertex_ai/gpt-4o-6-high');
             });
             it('should handle openai/ prefix', () => {
                 expect(getHighVariant('openai/gpt-4')).toBe('openai/gpt-4-high');
@@ -208,31 +208,31 @@ World`);
     });
     describe('switcher - isAlreadyHighVariant', () => {
         it('should return true for high variant models', () => {
-            expect(isAlreadyHighVariant('claude-sonnet-4-6-high')).toBe(true);
+            expect(isAlreadyHighVariant('gpt-4o-6-high')).toBe(true);
         });
         it('should return true for any model ending in -high', () => {
             expect(isAlreadyHighVariant('custom-model-high')).toBe(true);
         });
         it('should return false for non-high variant', () => {
-            expect(isAlreadyHighVariant('claude-sonnet-4-6')).toBe(false);
+            expect(isAlreadyHighVariant('gpt-4o-6')).toBe(false);
         });
         it('should handle prefixed models', () => {
-            expect(isAlreadyHighVariant('vertex_ai/claude-sonnet-4-6-high')).toBe(true);
-            expect(isAlreadyHighVariant('vertex_ai/claude-sonnet-4-6')).toBe(false);
+            expect(isAlreadyHighVariant('vertex_ai/gpt-4o-6-high')).toBe(true);
+            expect(isAlreadyHighVariant('vertex_ai/gpt-4o-6')).toBe(false);
         });
         it('should normalize dot notation', () => {
-            expect(isAlreadyHighVariant('claude-sonnet-4.5-high')).toBe(true);
+            expect(isAlreadyHighVariant('gpt-4o.5-high')).toBe(true);
         });
     });
     describe('switcher - getThinkingConfig', () => {
         describe('Anthropic provider', () => {
             it('should return config for Claude models', () => {
-                const config = getThinkingConfig('anthropic', 'claude-sonnet-4-6');
+                const config = getThinkingConfig('anthropic', 'gpt-4o-6');
                 expect(config).not.toBeNull();
                 expect(config).toHaveProperty('thinking');
             });
             it('should return null for already high variant', () => {
-                const config = getThinkingConfig('anthropic', 'claude-sonnet-4-6-high');
+                const config = getThinkingConfig('anthropic', 'gpt-4o-6-high');
                 expect(config).toBeNull();
             });
         });
@@ -263,7 +263,7 @@ World`);
         });
         describe('GitHub Copilot proxy', () => {
             it('should resolve to anthropic for Claude model', () => {
-                const config = getThinkingConfig('github-copilot', 'claude-sonnet-4-6');
+                const config = getThinkingConfig('github-copilot', 'gpt-4o-6');
                 expect(config).not.toBeNull();
                 expect(config).toHaveProperty('thinking');
             });
@@ -429,13 +429,13 @@ World`);
                     message: {
                         model: {
                             providerId: 'anthropic',
-                            modelId: 'claude-sonnet-4-6',
+                            modelId: 'gpt-4o-6',
                         },
                     },
                 };
                 const state = hook.processChatParams('test-session', input);
                 expect(state.modelSwitched).toBe(true);
-                expect(input.message.model?.modelId).toBe('claude-sonnet-4-6-high');
+                expect(input.message.model?.modelId).toBe('gpt-4o-6-high');
             });
             it('should not switch already high variant', () => {
                 const hook = createThinkModeHook();
@@ -444,7 +444,7 @@ World`);
                     message: {
                         model: {
                             providerId: 'anthropic',
-                            modelId: 'claude-sonnet-4-6-high',
+                            modelId: 'gpt-4o-6-high',
                         },
                     },
                 };
@@ -458,7 +458,7 @@ World`);
                     message: {
                         model: {
                             providerId: 'anthropic',
-                            modelId: 'claude-sonnet-4-6',
+                            modelId: 'gpt-4o-6',
                         },
                     },
                 };
@@ -472,14 +472,14 @@ World`);
                     message: {
                         model: {
                             providerId: 'anthropic',
-                            modelId: 'claude-sonnet-4-6',
+                            modelId: 'gpt-4o-6',
                         },
                     },
                 };
                 hook.processChatParams('test-session', input);
                 const state = hook.getState('test-session');
                 expect(state?.providerId).toBe('anthropic');
-                expect(state?.modelId).toBe('claude-sonnet-4-6');
+                expect(state?.modelId).toBe('gpt-4o-6');
             });
         });
         describe('onSessionDeleted', () => {

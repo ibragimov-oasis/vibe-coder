@@ -8,7 +8,7 @@ isolation: worktree
 memory: project
 permissionMode: acceptEdits
 maxTurns: 500
-model: sonnet
+# model: removed-for-compatibility
 hooks:
   PostToolUse:
     - matcher: "Edit|Write"

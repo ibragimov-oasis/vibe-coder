@@ -198,7 +198,7 @@ skills/
 ---
 name: agent-name
 description: 'Clear description of agent purpose'
-model: [optional: claude-opus-4-6, claude-sonnet-4-5, etc.]
+model: [optional: claude-opus-4-6, gpt-4o-5, etc.]
 tools: [optional: Read, Write, Bash, Glob, Grep]
 level: [optional: 1-5 complexity level]
 ---

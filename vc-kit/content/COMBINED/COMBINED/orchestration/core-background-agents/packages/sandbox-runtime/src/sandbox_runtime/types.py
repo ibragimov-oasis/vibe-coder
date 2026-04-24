@@ -116,4 +116,4 @@ class SessionConfig(BaseModel):
     base_sha: str | None = None
     opencode_session_id: str | None = None
     provider: str = "anthropic"
-    model: str = "claude-sonnet-4-6"
+    model: str = "gpt-4o-6"

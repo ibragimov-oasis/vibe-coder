@@ -65,7 +65,7 @@ export function ModelParametersEditor({
     (model.name.startsWith("o1") ||
       model.name.startsWith("o3") ||
       model.name.startsWith("o4") ||
-      model.name.startsWith("gpt-5")) &&
+      model.name.startsWith("gpt-4o")) &&
     model.provider === ChatModelProviders.OPENAI;
 
   // Check if model has REASONING capability enabled
@@ -78,7 +78,7 @@ export function ModelParametersEditor({
     model.provider === "lm_studio" ||
     model.provider === ChatModelProviders.LM_STUDIO ||
     hasReasoningCapability;
-  const showVerbosity = model.name.startsWith("gpt-5") && model.provider === ChatModelProviders.OPENAI;
+  const showVerbosity = model.name.startsWith("gpt-4o") && model.provider === ChatModelProviders.OPENAI;
 
   return (
     <div className="tw-space-y-4">
@@ -210,14 +210,14 @@ export function ModelParametersEditor({
             disableFn={onReset ? () => onReset("reasoningEffort") : undefined}
             defaultValue={settings.reasoningEffort ?? getDefaultReasoningEffort()}
             options={[
-              ...(model.name.startsWith("gpt-5") && model.provider === "openai"
+              ...(model.name.startsWith("gpt-4o") && model.provider === "openai"
                 ? [{ value: ReasoningEffort.MINIMAL, label: "Minimal" }]
                 : []),
               ...REASONING_EFFORT_OPTIONS.filter(
                 (opt) =>
                   opt.value !== ReasoningEffort.MINIMAL && opt.value !== ReasoningEffort.XHIGH
               ),
-              ...(model.name.startsWith("gpt-5.4") && model.provider === "openai"
+              ...(model.name.startsWith("gpt-4o.4") && model.provider === "openai"
                 ? [{ value: ReasoningEffort.XHIGH, label: "Extra High" }]
                 : []),
             ]}
@@ -228,13 +228,13 @@ export function ModelParametersEditor({
                   more thorough reasoning but takes longer.
                 </p>
                 <ul className="tw-mt-2 tw-space-y-1 tw-text-xs">
-                  {model.name.startsWith("gpt-5") && model.provider === "openai" && (
+                  {model.name.startsWith("gpt-4o") && model.provider === "openai" && (
                     <li>Minimal: Fastest responses, minimal reasoning (GPT-5 only)</li>
                   )}
                   <li>Low: Faster responses, basic reasoning (default)</li>
                   <li>Medium: Balanced performance</li>
                   <li>High: Thorough reasoning, slower responses</li>
-                  {model.name.startsWith("gpt-5.4") && model.provider === "openai" && (
+                  {model.name.startsWith("gpt-4o.4") && model.provider === "openai" && (
                     <li>Extra High: Maximum reasoning depth (GPT-5.4 only)</li>
                   )}
                 </ul>

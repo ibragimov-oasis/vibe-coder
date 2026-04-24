@@ -31,7 +31,7 @@ def test_show_status_displays_configured_dict_model_and_provider_label(monkeypat
     monkeypatch.setattr(
         status_mod,
         "load_config",
-        lambda: {"model": {"default": "anthropic/claude-sonnet-4", "provider": "anthropic"}},
+        lambda: {"model": {"default": "anthropic/gpt-4o", "provider": "anthropic"}},
         raising=False,
     )
     monkeypatch.setattr(status_mod, "resolve_requested_provider", lambda requested=None: "anthropic", raising=False)
@@ -41,7 +41,7 @@ def test_show_status_displays_configured_dict_model_and_provider_label(monkeypat
     status_mod.show_status(SimpleNamespace(all=False, deep=False))
 
     out = capsys.readouterr().out
-    assert "Model:        anthropic/claude-sonnet-4" in out
+    assert "Model:        anthropic/gpt-4o" in out
     assert "Provider:     Anthropic" in out
 
 

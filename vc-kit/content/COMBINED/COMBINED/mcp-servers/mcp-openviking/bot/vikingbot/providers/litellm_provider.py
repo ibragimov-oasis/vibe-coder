@@ -51,7 +51,7 @@ class LiteLLMProvider(LLMProvider):
 
         # Disable LiteLLM logging noise
         litellm.suppress_debug_info = True
-        # Drop unsupported parameters for providers (e.g., gpt-5 rejects some params)
+        # Drop unsupported parameters for providers (e.g., gpt-4o rejects some params)
         litellm.drop_params = True
 
     def _setup_env(self, api_key: str, api_base: str | None, model: str) -> None:
@@ -177,7 +177,7 @@ class LiteLLMProvider(LLMProvider):
         Args:
             messages: List of message dicts with 'role' and 'content'.
             tools: Optional list of tool definitions in OpenAI format.
-            model: Model identifier (e.g., 'anthropic/claude-sonnet-4-5').
+            model: Model identifier (e.g., 'anthropic/gpt-4o-5').
             max_tokens: Maximum tokens in response.
             temperature: Sampling temperature.
             session_id: Optional session ID for tracing.

@@ -458,7 +458,7 @@ export CLAUDE_CODE_USE_BEDROCK=1
 export AWS_REGION=us-east-1
 export AWS_BEARER_TOKEN_BEDROCK=your-bearer-token
 export ANTHROPIC_SMALL_MODEL=us.anthropic.claude-haiku-4-5-20251001-v1:0
-export ANTHROPIC_MEDIUM_MODEL=us.anthropic.claude-sonnet-4-6
+export ANTHROPIC_MEDIUM_MODEL=us.anthropic.gpt-4o-6
 export ANTHROPIC_LARGE_MODEL=us.anthropic.claude-opus-4-6
 ```
 
@@ -470,13 +470,13 @@ CLAUDE_CODE_USE_BEDROCK=1
 AWS_REGION=us-east-1
 AWS_BEARER_TOKEN_BEDROCK=your-bearer-token
 ANTHROPIC_SMALL_MODEL=us.anthropic.claude-haiku-4-5-20251001-v1:0
-ANTHROPIC_MEDIUM_MODEL=us.anthropic.claude-sonnet-4-6
+ANTHROPIC_MEDIUM_MODEL=us.anthropic.gpt-4o-6
 ANTHROPIC_LARGE_MODEL=us.anthropic.claude-opus-4-6
 ```
 
 </details>
 
-Shannon uses three model tiers: **small** (`claude-haiku-4-5-20251001`) for summarization, **medium** (`claude-sonnet-4-6`) for security analysis, and **large** (`claude-opus-4-6`) for deep reasoning. Set `ANTHROPIC_SMALL_MODEL`, `ANTHROPIC_MEDIUM_MODEL`, and `ANTHROPIC_LARGE_MODEL` to the Bedrock model IDs for your region.
+Shannon uses three model tiers: **small** (`claude-haiku-4-5-20251001`) for summarization, **medium** (`gpt-4o-6`) for security analysis, and **large** (`claude-opus-4-6`) for deep reasoning. Set `ANTHROPIC_SMALL_MODEL`, `ANTHROPIC_MEDIUM_MODEL`, and `ANTHROPIC_LARGE_MODEL` to the Bedrock model IDs for your region.
 
 ### Google Vertex AI
 
@@ -496,7 +496,7 @@ export CLOUD_ML_REGION=us-east5
 export ANTHROPIC_VERTEX_PROJECT_ID=your-gcp-project-id
 export GOOGLE_APPLICATION_CREDENTIALS=/path/to/your-sa-key.json
 export ANTHROPIC_SMALL_MODEL=claude-haiku-4-5@20251001
-export ANTHROPIC_MEDIUM_MODEL=claude-sonnet-4-6
+export ANTHROPIC_MEDIUM_MODEL=gpt-4o-6
 export ANTHROPIC_LARGE_MODEL=claude-opus-4-6
 ```
 
@@ -509,7 +509,7 @@ CLOUD_ML_REGION=us-east5
 ANTHROPIC_VERTEX_PROJECT_ID=your-gcp-project-id
 GOOGLE_APPLICATION_CREDENTIALS=./credentials/google-sa-key.json
 ANTHROPIC_SMALL_MODEL=claude-haiku-4-5@20251001
-ANTHROPIC_MEDIUM_MODEL=claude-sonnet-4-6
+ANTHROPIC_MEDIUM_MODEL=gpt-4o-6
 ANTHROPIC_LARGE_MODEL=claude-opus-4-6
 ```
 
@@ -531,7 +531,7 @@ export ANTHROPIC_AUTH_TOKEN=your-auth-token
 
 # Optionally override model tiers (defaults are used if not set)
 export ANTHROPIC_SMALL_MODEL=claude-haiku-4-5-20251001
-export ANTHROPIC_MEDIUM_MODEL=claude-sonnet-4-6
+export ANTHROPIC_MEDIUM_MODEL=gpt-4o-6
 export ANTHROPIC_LARGE_MODEL=claude-opus-4-6
 ```
 
@@ -542,7 +542,7 @@ export ANTHROPIC_LARGE_MODEL=claude-opus-4-6
 ANTHROPIC_BASE_URL=https://your-proxy.example.com
 ANTHROPIC_AUTH_TOKEN=your-auth-token
 ANTHROPIC_SMALL_MODEL=claude-haiku-4-5-20251001
-ANTHROPIC_MEDIUM_MODEL=claude-sonnet-4-6
+ANTHROPIC_MEDIUM_MODEL=gpt-4o-6
 ANTHROPIC_LARGE_MODEL=claude-opus-4-6
 ```
 
@@ -562,7 +562,7 @@ Or export env vars directly:
 
 ```bash
 export OPENAI_API_KEY=sk-...          # or OPENROUTER_API_KEY=sk-or-...
-export ROUTER_DEFAULT=openai,gpt-5.2  # provider,model format
+export ROUTER_DEFAULT=openai,gpt-4o.2  # provider,model format
 ```
 
 ```bash
@@ -576,7 +576,7 @@ npx @keygraph/shannon start -u https://example.com -r /path/to/repo --router
 OPENAI_API_KEY=sk-...
 # OR
 OPENROUTER_API_KEY=sk-or-...
-ROUTER_DEFAULT=openai,gpt-5.2
+ROUTER_DEFAULT=openai,gpt-4o.2
 ```
 
 ```bash
@@ -589,7 +589,7 @@ ROUTER_DEFAULT=openai,gpt-5.2
 
 | Provider | Models |
 |----------|--------|
-| OpenAI | gpt-5.2, gpt-5-mini |
+| OpenAI | gpt-4o.2, gpt-4o-mini |
 | OpenRouter | google/gemini-3-flash-preview |
 
 #### Disclaimer

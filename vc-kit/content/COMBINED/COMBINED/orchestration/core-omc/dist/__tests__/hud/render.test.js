@@ -150,7 +150,7 @@ describe('limitOutputLines', () => {
 describe('gitInfoPosition configuration', () => {
     const createMockContext = () => ({
         contextPercent: 30,
-        modelName: 'claude-sonnet-4-5',
+        modelName: 'gpt-4o-5',
         ralph: null,
         ultrawork: null,
         prd: null,
@@ -408,7 +408,7 @@ describe('maxWidth wrapMode behavior', () => {
 describe('token usage rendering', () => {
     const createTokenContext = () => ({
         contextPercent: 30,
-        modelName: 'claude-sonnet-4-5',
+        modelName: 'gpt-4o-5',
         ralph: null,
         ultrawork: null,
         prd: null,
@@ -475,7 +475,7 @@ describe('optional HUD line defaults', () => {
     it('does not emit a blank header line when all top-line elements are disabled', async () => {
         const context = {
             contextPercent: 30,
-            modelName: 'claude-sonnet-4-5',
+            modelName: 'gpt-4o-5',
             ralph: null,
             ultrawork: null,
             prd: null,

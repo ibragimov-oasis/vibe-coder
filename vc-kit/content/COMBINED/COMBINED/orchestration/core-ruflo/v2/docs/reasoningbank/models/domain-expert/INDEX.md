@@ -73,13 +73,13 @@ sqlite3 memory.db "SELECT problem FROM patterns WHERE domain = 'Performance & Sc
 ### Use with Agentic-Flow
 ```bash
 # DevOps agent
-npx agentic-flow agent devops "Design CI/CD pipeline" --model claude-sonnet-4-5-20250929
+npx agentic-flow agent devops "Design CI/CD pipeline" --model gpt-4o-5-20250929
 
 # Security agent
-npx agentic-flow agent security-engineer "Implement OAuth 2.0" --model claude-sonnet-4-5-20250929
+npx agentic-flow agent security-engineer "Implement OAuth 2.0" --model gpt-4o-5-20250929
 
 # Data engineer
-npx agentic-flow agent data-engineer "Build ETL pipeline" --model claude-sonnet-4-5-20250929
+npx agentic-flow agent data-engineer "Build ETL pipeline" --model gpt-4o-5-20250929
 ```
 
 ## 📖 Documentation Map

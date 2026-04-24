@@ -527,7 +527,7 @@ class TestBuildContextFilesPrompt:
         assert "Parent rules" not in result
 
     def test_hermes_md_strips_yaml_frontmatter(self, tmp_path):
-        content = "---\nmodel: claude-sonnet-4-20250514\ntools:\n  disabled: [tts]\n---\n\n# My Project\n\nUse Ruff for linting."
+        content = "---\nmodel: gpt-4o-20250514\ntools:\n  disabled: [tts]\n---\n\n# My Project\n\nUse Ruff for linting."
         (tmp_path / ".hermes.md").write_text(content)
         result = build_context_files_prompt(cwd=str(tmp_path))
         assert "Ruff for linting" in result

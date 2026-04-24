@@ -1,7 +1,7 @@
 ---
 name: prompt-manager
 description: Agent for managing AI prompts on prompts.chat - search, save, improve, and organize your prompt library.
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/prompts
   - artifact/prompt

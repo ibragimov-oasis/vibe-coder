@@ -44,32 +44,32 @@ describe('getRegistrationStrategy', () => {
 });
 describe('registerMcpWorker / unregisterMcpWorker', () => {
     it('registers worker in shadow registry', () => {
-        registerMcpWorker(TEST_TEAM, 'w1', 'codex', 'gpt-5', 'sess1', '/cwd', TEST_DIR);
+        registerMcpWorker(TEST_TEAM, 'w1', 'codex', 'gpt-4o', 'sess1', '/cwd', TEST_DIR);
         const workers = listMcpWorkers(TEST_TEAM, TEST_DIR);
         expect(workers).toHaveLength(1);
         expect(workers[0].name).toBe('w1');
         expect(workers[0].agentType).toBe('mcp-codex');
     });
     it('replaces existing worker on re-register', () => {
-        registerMcpWorker(TEST_TEAM, 'w1', 'codex', 'gpt-5', 'sess1', '/cwd', TEST_DIR);
+        registerMcpWorker(TEST_TEAM, 'w1', 'codex', 'gpt-4o', 'sess1', '/cwd', TEST_DIR);
         registerMcpWorker(TEST_TEAM, 'w1', 'gemini', 'gemini-pro', 'sess2', '/cwd2', TEST_DIR);
         const workers = listMcpWorkers(TEST_TEAM, TEST_DIR);
         expect(workers).toHaveLength(1);
         expect(workers[0].agentType).toBe('mcp-gemini');
     });
     it('registers multiple workers', () => {
-        registerMcpWorker(TEST_TEAM, 'w1', 'codex', 'gpt-5', 'sess1', '/cwd', TEST_DIR);
+        registerMcpWorker(TEST_TEAM, 'w1', 'codex', 'gpt-4o', 'sess1', '/cwd', TEST_DIR);
         registerMcpWorker(TEST_TEAM, 'w2', 'gemini', 'gemini-pro', 'sess2', '/cwd', TEST_DIR);
         const workers = listMcpWorkers(TEST_TEAM, TEST_DIR);
         expect(workers).toHaveLength(2);
     });
     it('unregisters worker', () => {
-        registerMcpWorker(TEST_TEAM, 'w1', 'codex', 'gpt-5', 'sess1', '/cwd', TEST_DIR);
+        registerMcpWorker(TEST_TEAM, 'w1', 'codex', 'gpt-4o', 'sess1', '/cwd', TEST_DIR);
         unregisterMcpWorker(TEST_TEAM, 'w1', TEST_DIR);
         expect(listMcpWorkers(TEST_TEAM, TEST_DIR)).toEqual([]);
     });
     it('unregister is no-op for nonexistent worker', () => {
-        registerMcpWorker(TEST_TEAM, 'w1', 'codex', 'gpt-5', 'sess1', '/cwd', TEST_DIR);
+        registerMcpWorker(TEST_TEAM, 'w1', 'codex', 'gpt-4o', 'sess1', '/cwd', TEST_DIR);
         unregisterMcpWorker(TEST_TEAM, 'w2', TEST_DIR);
         expect(listMcpWorkers(TEST_TEAM, TEST_DIR)).toHaveLength(1);
     });

@@ -96,7 +96,7 @@ def test_hermes_cli_init_does_not_eagerly_resolve_runtime_provider(monkeypatch):
     monkeypatch.setattr("hermes_cli.runtime_provider.resolve_runtime_provider", _unexpected_runtime_resolve)
     monkeypatch.setattr("hermes_cli.runtime_provider.format_runtime_provider_error", lambda exc: str(exc))
 
-    shell = cli.HermesCLI(model="gpt-5", compact=True, max_turns=1)
+    shell = cli.HermesCLI(model="gpt-4o", compact=True, max_turns=1)
 
     assert shell is not None
     assert calls["count"] == 0
@@ -126,7 +126,7 @@ def test_runtime_resolution_failure_is_not_sticky(monkeypatch):
     monkeypatch.setattr("hermes_cli.runtime_provider.format_runtime_provider_error", lambda exc: str(exc))
     monkeypatch.setattr(cli, "AIAgent", _DummyAgent)
 
-    shell = cli.HermesCLI(model="gpt-5", compact=True, max_turns=1)
+    shell = cli.HermesCLI(model="gpt-4o", compact=True, max_turns=1)
 
     assert shell._init_agent() is False
     assert shell._init_agent() is True
@@ -149,7 +149,7 @@ def test_runtime_resolution_rebuilds_agent_on_routing_change(monkeypatch):
     monkeypatch.setattr("hermes_cli.runtime_provider.resolve_runtime_provider", _runtime_resolve)
     monkeypatch.setattr("hermes_cli.runtime_provider.format_runtime_provider_error", lambda exc: str(exc))
 
-    shell = cli.HermesCLI(model="gpt-5", compact=True, max_turns=1)
+    shell = cli.HermesCLI(model="gpt-4o", compact=True, max_turns=1)
     shell.provider = "openrouter"
     shell.api_mode = "chat_completions"
     shell.base_url = "https://same-endpoint.example/v1"
@@ -164,7 +164,7 @@ def test_runtime_resolution_rebuilds_agent_on_routing_change(monkeypatch):
 
 def test_cli_turn_routing_uses_primary_when_disabled(monkeypatch):
     cli = _import_cli()
-    shell = cli.HermesCLI(model="gpt-5", compact=True, max_turns=1)
+    shell = cli.HermesCLI(model="gpt-4o", compact=True, max_turns=1)
     shell.provider = "openrouter"
     shell.api_mode = "chat_completions"
     shell.base_url = "https://openrouter.ai/api/v1"
@@ -173,7 +173,7 @@ def test_cli_turn_routing_uses_primary_when_disabled(monkeypatch):
 
     result = shell._resolve_turn_agent_config("what time is it in tokyo?")
 
-    assert result["model"] == "gpt-5"
+    assert result["model"] == "gpt-4o"
     assert result["runtime"]["provider"] == "openrouter"
     assert result["label"] is None
 
@@ -193,7 +193,7 @@ def test_cli_turn_routing_uses_cheap_model_when_simple(monkeypatch):
 
     monkeypatch.setattr("hermes_cli.runtime_provider.resolve_runtime_provider", _runtime_resolve)
 
-    shell = cli.HermesCLI(model="anthropic/claude-sonnet-4", compact=True, max_turns=1)
+    shell = cli.HermesCLI(model="anthropic/gpt-4o", compact=True, max_turns=1)
     shell.provider = "openrouter"
     shell.api_mode = "chat_completions"
     shell.base_url = "https://openrouter.ai/api/v1"
@@ -256,7 +256,7 @@ def test_codex_provider_replaces_incompatible_default_model(monkeypatch):
     monkeypatch.setattr("hermes_cli.runtime_provider.format_runtime_provider_error", lambda exc: str(exc))
     monkeypatch.setattr(
         "hermes_cli.codex_models.get_codex_model_ids",
-        lambda access_token=None: ["gpt-5.2-codex", "gpt-5.1-codex-mini"],
+        lambda access_token=None: ["gpt-4o.2-codex", "gpt-4o.1-codex-mini"],
     )
 
     shell = cli.HermesCLI(compact=True, max_turns=1)
@@ -266,7 +266,7 @@ def test_codex_provider_replaces_incompatible_default_model(monkeypatch):
     assert shell.provider == "openai-codex"
     assert "anthropic" not in shell.model
     assert "claude" not in shell.model
-    assert shell.model == "gpt-5.2-codex"
+    assert shell.model == "gpt-4o.2-codex"
 
 
 def test_codex_provider_uses_config_model(monkeypatch):
@@ -280,7 +280,7 @@ def test_codex_provider_uses_config_model(monkeypatch):
 
     # Set model via config
     monkeypatch.setitem(cli.CLI_CONFIG, "model", {
-        "default": "gpt-5.2-codex",
+        "default": "gpt-4o.2-codex",
         "provider": "openai-codex",
         "base_url": "https://chatgpt.com/backend-api/codex",
     })
@@ -299,7 +299,7 @@ def test_codex_provider_uses_config_model(monkeypatch):
     # Prevent live API call from overriding the config model
     monkeypatch.setattr(
         "hermes_cli.codex_models.get_codex_model_ids",
-        lambda access_token=None: ["gpt-5.2-codex"],
+        lambda access_token=None: ["gpt-4o.2-codex"],
     )
 
     shell = cli.HermesCLI(compact=True, max_turns=1)
@@ -321,9 +321,9 @@ def test_codex_config_model_not_replaced_by_normalization(monkeypatch):
     monkeypatch.delenv("LLM_MODEL", raising=False)
     monkeypatch.delenv("OPENAI_MODEL", raising=False)
 
-    # User explicitly configured gpt-5.3-codex in config.yaml
+    # User explicitly configured gpt-4o.3-codex in config.yaml
     monkeypatch.setitem(cli.CLI_CONFIG, "model", {
-        "default": "gpt-5.3-codex",
+        "default": "gpt-4o.3-codex",
         "provider": "openai-codex",
         "base_url": "https://chatgpt.com/backend-api/codex",
     })
@@ -342,7 +342,7 @@ def test_codex_config_model_not_replaced_by_normalization(monkeypatch):
     # API returns a DIFFERENT model than what the user configured
     monkeypatch.setattr(
         "hermes_cli.codex_models.get_codex_model_ids",
-        lambda access_token=None: ["gpt-5.4", "gpt-5.3-codex"],
+        lambda access_token=None: ["gpt-4o.4", "gpt-4o.3-codex"],
     )
 
     shell = cli.HermesCLI(compact=True, max_turns=1)
@@ -351,8 +351,8 @@ def test_codex_config_model_not_replaced_by_normalization(monkeypatch):
     assert shell._model_is_default is False
     assert shell._ensure_runtime_credentials() is True
     assert shell.provider == "openai-codex"
-    # Model must stay as user configured, not replaced by gpt-5.4
-    assert shell.model == "gpt-5.3-codex"
+    # Model must stay as user configured, not replaced by gpt-4o.4
+    assert shell.model == "gpt-4o.3-codex"
 
 
 def test_codex_provider_preserves_explicit_codex_model(monkeypatch):
@@ -375,15 +375,15 @@ def test_codex_provider_preserves_explicit_codex_model(monkeypatch):
     monkeypatch.setattr("hermes_cli.runtime_provider.resolve_runtime_provider", _runtime_resolve)
     monkeypatch.setattr("hermes_cli.runtime_provider.format_runtime_provider_error", lambda exc: str(exc))
 
-    shell = cli.HermesCLI(model="gpt-5.1-codex-mini", compact=True, max_turns=1)
+    shell = cli.HermesCLI(model="gpt-4o.1-codex-mini", compact=True, max_turns=1)
 
     assert shell._model_is_default is False
     assert shell._ensure_runtime_credentials() is True
-    assert shell.model == "gpt-5.1-codex-mini"
+    assert shell.model == "gpt-4o.1-codex-mini"
 
 
 def test_codex_provider_strips_provider_prefix_from_model(monkeypatch):
-    """openai/gpt-5.3-codex should become gpt-5.3-codex — the Codex
+    """openai/gpt-4o.3-codex should become gpt-4o.3-codex — the Codex
     Responses API does not accept provider-prefixed model slugs."""
     cli = _import_cli()
 
@@ -402,16 +402,16 @@ def test_codex_provider_strips_provider_prefix_from_model(monkeypatch):
     monkeypatch.setattr("hermes_cli.runtime_provider.resolve_runtime_provider", _runtime_resolve)
     monkeypatch.setattr("hermes_cli.runtime_provider.format_runtime_provider_error", lambda exc: str(exc))
 
-    shell = cli.HermesCLI(model="openai/gpt-5.3-codex", compact=True, max_turns=1)
+    shell = cli.HermesCLI(model="openai/gpt-4o.3-codex", compact=True, max_turns=1)
 
     assert shell._ensure_runtime_credentials() is True
-    assert shell.model == "gpt-5.3-codex"
+    assert shell.model == "gpt-4o.3-codex"
 
 
 def test_cmd_model_falls_back_to_auto_on_invalid_provider(monkeypatch, capsys):
     monkeypatch.setattr(
         "hermes_cli.config.load_config",
-        lambda: {"model": {"default": "gpt-5", "provider": "invalid-provider"}},
+        lambda: {"model": {"default": "gpt-4o", "provider": "invalid-provider"}},
     )
     monkeypatch.setattr("hermes_cli.config.save_config", lambda cfg: None)
     monkeypatch.setattr("hermes_cli.config.get_env_value", lambda key: "")

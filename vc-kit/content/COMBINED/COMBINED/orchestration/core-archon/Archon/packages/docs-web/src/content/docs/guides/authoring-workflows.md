@@ -120,7 +120,7 @@ description: |
 
 # Optional workflow-level configuration
 provider: claude
-model: sonnet
+# model: removed-for-compatibility
 modelReasoningEffort: medium     # Codex only
 webSearchMode: live              # Codex only
 interactive: true                # Web only: run in foreground instead of background
@@ -251,7 +251,7 @@ These fields map directly to Claude Agent SDK options. All are Claude-only — C
 - id: implement
   command: implement
   model: claude-opus-4-5
-  fallbackModel: claude-sonnet-4-6
+  fallbackModel: gpt-4o-6
 ```
 
 **betas** — SDK beta feature flags:
@@ -547,7 +547,7 @@ Model and options are resolved in this order:
 ```yaml
 name: my-workflow
 provider: claude     # 'claude' or 'codex' (default: from config)
-model: sonnet        # Model override (default: from config assistants.claude.model)
+# model: removed-for-compatibility
 ```
 
 **Claude models:**
@@ -558,7 +558,7 @@ model: sonnet        # Model override (default: from config assistants.claude.mo
 - `inherit` - Use model from previous session
 
 **Codex models:**
-- Any OpenAI model ID (e.g., `gpt-5.3-codex`, `o5-pro`)
+- Any OpenAI model ID (e.g., `gpt-4o.3-codex`, `o5-pro`)
 - Cannot use Claude model aliases
 
 ### Codex-Specific Options
@@ -566,7 +566,7 @@ model: sonnet        # Model override (default: from config assistants.claude.mo
 ```yaml
 name: my-workflow
 provider: codex
-model: gpt-5.3-codex
+# model: removed-for-compatibility
 modelReasoningEffort: medium    # 'minimal' | 'low' | 'medium' | 'high' | 'xhigh'
 webSearchMode: live             # 'disabled' | 'cached' | 'live'
 additionalDirectories:
@@ -654,7 +654,7 @@ assistants:
   claude:
     model: haiku  # Fast model for most tasks
   codex:
-    model: gpt-5.3-codex
+    model: gpt-4o.3-codex
     modelReasoningEffort: low
     webSearchMode: disabled
 ```
@@ -664,7 +664,7 @@ assistants:
 name: complex-analysis
 description: Deep code analysis requiring powerful model
 provider: claude
-model: opus  # Override config default (haiku) for this workflow
+# model: removed-for-compatibility
 
 nodes:
   - id: analyze

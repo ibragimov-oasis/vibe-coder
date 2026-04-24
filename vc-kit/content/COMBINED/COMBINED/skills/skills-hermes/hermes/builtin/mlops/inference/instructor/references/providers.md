@@ -31,7 +31,7 @@ client = instructor.from_anthropic(
 
 # Usage
 result = client.messages.create(
-    model="claude-sonnet-4-5-20250929",
+    model="gpt-4o-5-20250929",
     max_tokens=1024,
     messages=[{"role": "user", "content": "..."}],
     response_model=YourModel

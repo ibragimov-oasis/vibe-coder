@@ -121,8 +121,8 @@ Any missing or incorrect field will cause errors.
 
 **Fix**:
 - Always use **cross-region inference profile IDs**, not bare model IDs:
-  - ✅ `us.anthropic.claude-sonnet-4-5-20250929-v1:0`
-  - ❌ `anthropic.claude-sonnet-4-5-20250929-v1:0`
+  - ✅ `us.anthropic.gpt-4o-5-20250929-v1:0`
+  - ❌ `anthropic.gpt-4o-5-20250929-v1:0`
 - Make sure your IAM credentials have Bedrock access permissions
 - Confirm the model is available in your region
 

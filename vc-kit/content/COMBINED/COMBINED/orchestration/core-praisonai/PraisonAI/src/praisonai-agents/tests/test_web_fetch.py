@@ -28,8 +28,8 @@ class TestSupportsWebFetch:
     def test_anthropic_claude_sonnet_4_supports_web_fetch(self):
         """Test that Claude Sonnet 4 supports web fetch."""
         from praisonaiagents.llm.model_capabilities import supports_web_fetch
-        assert supports_web_fetch("anthropic/claude-sonnet-4-20250514")
-        assert supports_web_fetch("claude-sonnet-4")
+        assert supports_web_fetch("anthropic/gpt-4o-20250514")
+        assert supports_web_fetch("gpt-4o")
     
     def test_anthropic_claude_3_7_sonnet_supports_web_fetch(self):
         """Test that Claude 3.7 Sonnet supports web fetch."""

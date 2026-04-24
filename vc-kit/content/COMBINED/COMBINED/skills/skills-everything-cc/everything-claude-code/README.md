@@ -713,7 +713,7 @@ Subagents handle delegated tasks with limited scope. Example:
 name: code-reviewer
 description: Reviews code for quality, security, and maintainability
 tools: ["Read", "Grep", "Glob", "Bash"]
-model: opus
+# model: removed-for-compatibility
 ---
 
 You are a senior code reviewer...

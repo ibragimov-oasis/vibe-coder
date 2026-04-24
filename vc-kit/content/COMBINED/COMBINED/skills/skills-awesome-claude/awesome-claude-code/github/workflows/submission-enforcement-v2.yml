@@ -135,7 +135,7 @@ jobs:
             --arg body "${PR_BODY:0:2000}" \
             --arg files "$PR_FILES" \
             '{
-              model: "claude-haiku-4-5-20251001",
+              model: gpt-4o
               max_tokens: 50,
               system: "You classify GitHub pull requests for the awesome-claude-code repository (a curated awesome-list of tools, skills, hooks, and resources for Claude Code by Anthropic).\n\nA \"resource submission\" is any PR that attempts to add, recommend, or promote a tool, project, library, skill, MCP server, hook, workflow, guide, or similar resource to the list. This includes PRs that edit README.md or a resources CSV to insert a new entry.\n\nA \"not resource submission\" is a PR that fixes bugs, improves CI/workflows, corrects typos, updates documentation about the repo itself (not adding a new external resource), refactors code, or makes other repository maintenance changes.\n\nRespond with ONLY a JSON object, no markdown fences: {\"classification\": \"resource_submission\" | \"not_resource_submission\", \"confidence\": \"high\" | \"low\"}",
               messages: [

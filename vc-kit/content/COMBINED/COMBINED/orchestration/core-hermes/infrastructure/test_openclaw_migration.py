@@ -462,7 +462,7 @@ def test_model_config_migrated(tmp_path: Path):
 
     (source / "openclaw.json").write_text(
         json.dumps({
-            "agents": {"defaults": {"model": "anthropic/claude-sonnet-4"}}
+            "agents": {"defaults": {"model": "anthropic/gpt-4o"}}
         }),
         encoding="utf-8",
     )
@@ -476,7 +476,7 @@ def test_model_config_migrated(tmp_path: Path):
     )
     report = migrator.migrate()
     config_text = (target / "config.yaml").read_text(encoding="utf-8")
-    assert "anthropic/claude-sonnet-4" in config_text
+    assert "anthropic/gpt-4o" in config_text
 
 
 def test_model_config_object_format(tmp_path: Path):

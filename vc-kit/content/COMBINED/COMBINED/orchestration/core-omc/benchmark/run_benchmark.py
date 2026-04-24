@@ -58,7 +58,7 @@ class BenchmarkConfig:
     limit: Optional[int] = None
     retries: int = 3
     retry_delay: int = 30
-    model: str = "claude-sonnet-4-6-20260217"
+    model: str = "gpt-4o-6-20260217"
     skip: int = 0
 
 
@@ -581,8 +581,8 @@ Examples:
     )
     parser.add_argument(
         "--model",
-        default="claude-sonnet-4-6-20260217",
-        help="Claude model to use (default: claude-sonnet-4-6-20260217)",
+        default="gpt-4o-6-20260217",
+        help="Claude model to use (default: gpt-4o-6-20260217)",
     )
     parser.add_argument(
         "--skip",

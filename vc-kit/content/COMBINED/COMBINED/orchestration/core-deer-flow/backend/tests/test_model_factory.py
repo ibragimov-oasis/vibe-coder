@@ -595,11 +595,11 @@ def test_codex_provider_strips_unsupported_max_tokens(monkeypatch):
 
 def test_openai_responses_api_settings_are_passed_to_chatopenai(monkeypatch):
     model = ModelConfig(
-        name="gpt-5-responses",
+        name="gpt-4o-responses",
         display_name="GPT-5 Responses",
         description=None,
         use="langchain_openai:ChatOpenAI",
-        model="gpt-5",
+        model="gpt-4o",
         api_key="test-key",
         use_responses_api=True,
         output_version="responses/v1",
@@ -618,7 +618,7 @@ def test_openai_responses_api_settings_are_passed_to_chatopenai(monkeypatch):
 
     monkeypatch.setattr(factory_module, "resolve_class", lambda path, base: CapturingModel)
 
-    factory_module.create_chat_model(name="gpt-5-responses")
+    factory_module.create_chat_model(name="gpt-4o-responses")
 
     assert captured.get("use_responses_api") is True
     assert captured.get("output_version") == "responses/v1"

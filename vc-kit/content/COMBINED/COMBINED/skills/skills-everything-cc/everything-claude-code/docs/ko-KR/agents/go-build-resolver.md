@@ -2,7 +2,7 @@
 name: go-build-resolver
 description: Go build, vet, 컴파일 에러 해결 전문가. 최소한의 변경으로 build 에러, go vet 문제, 린터 경고를 수정합니다. Go build 실패 시 사용하세요.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

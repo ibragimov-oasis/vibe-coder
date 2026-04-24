@@ -1,7 +1,7 @@
 ---
 name: git-master
 description: Git expert for atomic commits, rebasing, and history management with style detection
-model: claude-sonnet-4-6
+# model: removed-for-compatibility
 level: 3
 tags:
   - domain/agents

@@ -233,7 +233,7 @@ Recommended frontmatter:
 ---
 
 description: "..."
-model: "[Recommended Model Name]"
+# model: removed-for-compatibility
 tools: [...]
 
 ---
@@ -461,7 +461,7 @@ Generate a structured markdown report with the following sections:
 
 **One-Line Update**:
 \`\`\`yaml
-model: "[Recommended Model Name]"
+# model: removed-for-compatibility
 \`\`\`
 ```
 

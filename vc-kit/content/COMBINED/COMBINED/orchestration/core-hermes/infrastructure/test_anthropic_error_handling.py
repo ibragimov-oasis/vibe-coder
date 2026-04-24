@@ -56,7 +56,7 @@ def _anthropic_response(text: str):
         content=[SimpleNamespace(type="text", text=text)],
         stop_reason="end_turn",
         usage=SimpleNamespace(input_tokens=10, output_tokens=5),
-        model="claude-sonnet-4-6-20250514",
+        model="gpt-4o-6-20250514",
     )
 
 

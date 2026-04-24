@@ -65,7 +65,7 @@ describe('Tier-0 contract docs consistency', () => {
         expect(agentsDoc).toContain('Run `omc setup` to install all components. Run `omc doctor` to verify installation.');
         expect(agentsDoc).not.toContain('oh-my-codex');
         expect(agentsDoc).not.toContain('OMX_TEAM_WORKER_LAUNCH_ARGS');
-        expect(agentsDoc).not.toContain('gpt-5.3-codex-spark');
+        expect(agentsDoc).not.toContain('gpt-4o.3-codex-spark');
     });
     it('keeps benchmark default model references aligned across docs and scripts', () => {
         const benchmarkReadme = readProjectFile('benchmark', 'README.md');
@@ -75,12 +75,12 @@ describe('Tier-0 contract docs consistency', () => {
         const omc = readProjectFile('benchmark', 'run_omc.sh');
         const fullComparison = readProjectFile('benchmark', 'run_full_comparison.sh');
         const resultsReadme = readProjectFile('benchmark', 'results', 'README.md');
-        const expectedModel = 'claude-sonnet-4-6-20260217';
+        const expectedModel = 'gpt-4o-6-20260217';
         for (const content of [benchmarkReadme, benchmarkRunner, quickTest, vanilla, omc, fullComparison, resultsReadme]) {
             expect(content).toContain(expectedModel);
         }
-        expect(benchmarkReadme).not.toContain('claude-sonnet-4.5-20250929');
-        expect(benchmarkRunner).not.toContain('claude-sonnet-4-20250514');
+        expect(benchmarkReadme).not.toContain('gpt-4o.5-20250929');
+        expect(benchmarkRunner).not.toContain('gpt-4o-20250514');
         expect(resultsReadme).toContain('Claude Sonnet 4.6');
     });
     it('removes dead package build aliases and keeps seminar demo model guidance current', () => {
@@ -89,8 +89,8 @@ describe('Tier-0 contract docs consistency', () => {
         expect(packageJson.scripts).not.toHaveProperty('build:codex');
         expect(packageJson.scripts).not.toHaveProperty('build:gemini');
         expect(seminarDemo).toContain('# 빠른 모델 (Sonnet 4.6)');
-        expect(seminarDemo).toContain('export OMC_MODEL=anthropic/claude-sonnet-4-6');
-        expect(seminarDemo).not.toContain('anthropic/claude-sonnet-4-5');
+        expect(seminarDemo).toContain('export OMC_MODEL=anthropic/gpt-4o-6');
+        expect(seminarDemo).not.toContain('anthropic/gpt-4o-5');
     });
 });
 //# sourceMappingURL=tier0-docs-consistency.test.js.map

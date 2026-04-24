@@ -1,5 +1,5 @@
 # MiniMax M1 2.5 — via OpenRouter (set OPENROUTER_API_KEY in .env)
-model:
+# model: removed-for-compatibility
   model_name: 'openrouter/minimax/minimax-m1-2.5'
   cost_tracking: 'ignore_errors'
   model_kwargs:

@@ -1437,7 +1437,7 @@ import { Agent } from '@anthropic-ai/claude-agent-sdk';
 // Create agent (auto-discovers skills in ~/COMBINED/workspace-config/claude/skills/)
 const agent = new Agent({
   apiKey: process.env.ANTHROPIC_API_KEY,
-  model: 'claude-sonnet-4-5-20250929',
+  model: 'gpt-4o-5-20250929',
   skillsDir: './.claude/skills'  // Project-specific skills
 });
 
@@ -1473,7 +1473,7 @@ await agenticFlow.reasoningbank.initialize({
 // Run agent with persistent learning
 const agent = await agenticFlow.createAgent({
   type: 'coder',
-  model: 'claude-sonnet-4-5-20250929',
+  model: 'gpt-4o-5-20250929',
   skillsDir: './.claude/skills',
   memory: db,  // Persistent memory across sessions
   learning: true  // Enable ReasoningBank pattern learning

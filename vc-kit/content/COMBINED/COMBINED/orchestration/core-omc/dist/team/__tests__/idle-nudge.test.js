@@ -91,7 +91,7 @@ describe('idle detection helpers', () => {
         expect(paneLooksReady('Working on task...')).toBe(false);
     });
     it('paneLooksReady treats bootstrapping panes as not ready even with model hints', () => {
-        expect(paneLooksReady('model: loading\ngpt-5.3-codex high · 80% left')).toBe(false);
+        expect(paneLooksReady('model: loading\ngpt-4o.3-codex high · 80% left')).toBe(false);
         expect(paneLooksReady('connecting to model...\n❯ ')).toBe(false);
     });
     it('paneHasActiveTask detects active task indicators', () => {

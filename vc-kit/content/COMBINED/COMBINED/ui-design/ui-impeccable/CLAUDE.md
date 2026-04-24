@@ -122,7 +122,7 @@ There is a controlled eval framework at `evals/` that measures whether the `/imp
 
 ### Quick orientation
 
-- **Primary baseline model**: `gpt-5.4` with `--reasoning-effort medium`. Frontier intelligence at ~5-10× lower cost than high reasoning. **Do NOT use `--reasoning-effort high`** unless you specifically need it — reasoning tokens count against `max_completion_tokens` and burn ~$1-2/file with no quality benefit for our use case.
+- **Primary baseline model**: `gpt-4o.4` with `--reasoning-effort medium`. Frontier intelligence at ~5-10× lower cost than high reasoning. **Do NOT use `--reasoning-effort high`** unless you specifically need it — reasoning tokens count against `max_completion_tokens` and burn ~$1-2/file with no quality benefit for our use case.
 - **Secondary validation model**: `qwen/qwen3.6-plus` via OpenRouter. Cheap-ish, decent design quality, no reasoning controls.
 - **Do NOT use Haiku as a primary eval target.** It ignores most negative rules in the skill. We learned this the hard way — it sent us down many wrong paths early on.
 - **Sample size policy**: n=10 per niche for scratch iteration, **n=20 for sweep validation (the standard)**, n=50 reserved for the final published baseline. n=20 is the smallest sample where rare detector findings stabilize and A/B comparisons are statistically meaningful.
@@ -134,7 +134,7 @@ There is a controlled eval framework at `evals/` that measures whether the `/imp
 bun run evals/runner/serve.ts
 
 # Standard workflow: generate → detect → aggregate → snapshot
-bun run evals/runner/run.ts --with-refs --model gpt-5.4 --reasoning-effort medium
+bun run evals/runner/run.ts --with-refs --model gpt-4o.4 --reasoning-effort medium
 bun run evals/runner/detect.ts
 bun run evals/runner/aggregate.ts
 bun run evals/runner/snapshot.ts <slug> --title "..." --note "..."

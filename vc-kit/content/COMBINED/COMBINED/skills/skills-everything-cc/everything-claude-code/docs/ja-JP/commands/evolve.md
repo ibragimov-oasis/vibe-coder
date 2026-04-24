@@ -184,7 +184,7 @@ evolved_from:
 ---
 name: debugger
 description: 体系的なデバッグエージェント
-model: sonnet
+# model: removed-for-compatibility
 evolved_from:
   - debug-check-logs
   - debug-isolate

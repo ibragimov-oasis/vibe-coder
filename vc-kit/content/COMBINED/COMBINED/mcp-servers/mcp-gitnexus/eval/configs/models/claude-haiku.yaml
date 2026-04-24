@@ -1,7 +1,7 @@
 # Claude Haiku 4.5 — fast, cheap, good baseline
 # Via OpenRouter (set OPENROUTER_API_KEY in .env)
-model:
-  model_name: 'openrouter/anthropic/claude-haiku-4.5'
+# model: removed-for-compatibility
+  model_name: 'openrouter/anthropic/gpt-4o'
   cost_tracking: 'ignore_errors'
   model_kwargs:
     max_tokens: 8192

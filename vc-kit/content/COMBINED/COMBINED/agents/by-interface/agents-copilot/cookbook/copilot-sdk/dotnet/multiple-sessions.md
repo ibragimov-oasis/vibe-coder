@@ -30,17 +30,17 @@ await client.StartAsync();
 // Create multiple independent sessions
 var session1 = await client.CreateSessionAsync(new SessionConfig
 {
-    Model = "gpt-5",
+    Model = "gpt-4o",
     OnPermissionRequest = PermissionHandler.ApproveAll
 });
 var session2 = await client.CreateSessionAsync(new SessionConfig
 {
-    Model = "gpt-5",
+    Model = "gpt-4o",
     OnPermissionRequest = PermissionHandler.ApproveAll
 });
 var session3 = await client.CreateSessionAsync(new SessionConfig
 {
-    Model = "claude-sonnet-4.5",
+    Model = "gpt-4o.5",
     OnPermissionRequest = PermissionHandler.ApproveAll
 });
 
@@ -68,7 +68,7 @@ Use custom IDs for easier tracking:
 var session = await client.CreateSessionAsync(new SessionConfig
 {
     SessionId = "user-123-chat",
-    Model = "gpt-5",
+    Model = "gpt-4o",
     OnPermissionRequest = PermissionHandler.ApproveAll
 });
 

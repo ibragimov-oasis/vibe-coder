@@ -34,13 +34,13 @@ class CodexChatModel(BaseChatModel):
     """LangChain chat model using ChatGPT Codex Responses API.
 
     Config example:
-        - name: gpt-5.4
+        - name: gpt-4o.4
           use: deerflow.models.openai_codex_provider:CodexChatModel
-          model: gpt-5.4
+          model: gpt-4o.4
           reasoning_effort: medium
     """
 
-    model: str = "gpt-5.4"
+    model: str = "gpt-4o.4"
     reasoning_effort: str = "medium"
     retry_max_attempts: int = MAX_RETRIES
     _access_token: str = ""

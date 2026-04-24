@@ -434,15 +434,15 @@ class TestRunOauthSetupToken:
 
 class TestNormalizeModelName:
     def test_strips_anthropic_prefix(self):
-        assert normalize_model_name("anthropic/claude-sonnet-4-20250514") == "claude-sonnet-4-20250514"
+        assert normalize_model_name("anthropic/gpt-4o-20250514") == "gpt-4o-20250514"
 
     def test_leaves_bare_name(self):
-        assert normalize_model_name("claude-sonnet-4-20250514") == "claude-sonnet-4-20250514"
+        assert normalize_model_name("gpt-4o-20250514") == "gpt-4o-20250514"
 
     def test_converts_dots_to_hyphens(self):
         """OpenRouter uses dots (4.6), Anthropic uses hyphens (4-6)."""
         assert normalize_model_name("anthropic/claude-opus-4.6") == "claude-opus-4-6"
-        assert normalize_model_name("anthropic/claude-sonnet-4.5") == "claude-sonnet-4-5"
+        assert normalize_model_name("anthropic/gpt-4o.5") == "gpt-4o-5"
         assert normalize_model_name("claude-opus-4.6") == "claude-opus-4-6"
 
     def test_already_hyphenated_unchanged(self):
@@ -856,30 +856,30 @@ class TestBuildAnthropicKwargs:
             {"role": "user", "content": "Hi"},
         ]
         kwargs = build_anthropic_kwargs(
-            model="claude-sonnet-4-20250514",
+            model="gpt-4o-20250514",
             messages=messages,
             tools=None,
             max_tokens=4096,
             reasoning_config=None,
         )
-        assert kwargs["model"] == "claude-sonnet-4-20250514"
+        assert kwargs["model"] == "gpt-4o-20250514"
         assert kwargs["system"] == "Be helpful."
         assert kwargs["max_tokens"] == 4096
         assert "tools" not in kwargs
 
     def test_strips_anthropic_prefix(self):
         kwargs = build_anthropic_kwargs(
-            model="anthropic/claude-sonnet-4-20250514",
+            model="anthropic/gpt-4o-20250514",
             messages=[{"role": "user", "content": "Hi"}],
             tools=None,
             max_tokens=4096,
             reasoning_config=None,
         )
-        assert kwargs["model"] == "claude-sonnet-4-20250514"
+        assert kwargs["model"] == "gpt-4o-20250514"
 
     def test_reasoning_config_maps_to_manual_thinking_for_pre_4_6_models(self):
         kwargs = build_anthropic_kwargs(
-            model="claude-sonnet-4-20250514",
+            model="gpt-4o-20250514",
             messages=[{"role": "user", "content": "think hard"}],
             tools=None,
             max_tokens=4096,
@@ -907,7 +907,7 @@ class TestBuildAnthropicKwargs:
 
     def test_reasoning_config_maps_xhigh_to_max_effort_for_4_6_models(self):
         kwargs = build_anthropic_kwargs(
-            model="claude-sonnet-4-6",
+            model="gpt-4o-6",
             messages=[{"role": "user", "content": "think harder"}],
             tools=None,
             max_tokens=4096,
@@ -918,7 +918,7 @@ class TestBuildAnthropicKwargs:
 
     def test_reasoning_disabled(self):
         kwargs = build_anthropic_kwargs(
-            model="claude-sonnet-4-20250514",
+            model="gpt-4o-20250514",
             messages=[{"role": "user", "content": "quick"}],
             tools=None,
             max_tokens=4096,
@@ -929,7 +929,7 @@ class TestBuildAnthropicKwargs:
     def test_default_max_tokens_uses_model_output_limit(self):
         """When max_tokens is None, use the model's native output limit."""
         kwargs = build_anthropic_kwargs(
-            model="claude-sonnet-4-20250514",
+            model="gpt-4o-20250514",
             messages=[{"role": "user", "content": "Hi"}],
             tools=None,
             max_tokens=None,
@@ -949,7 +949,7 @@ class TestBuildAnthropicKwargs:
 
     def test_default_max_tokens_sonnet_4_6(self):
         kwargs = build_anthropic_kwargs(
-            model="claude-sonnet-4-6",
+            model="gpt-4o-6",
             messages=[{"role": "user", "content": "Hi"}],
             tools=None,
             max_tokens=None,
@@ -960,7 +960,7 @@ class TestBuildAnthropicKwargs:
     def test_default_max_tokens_date_stamped_model(self):
         """Date-stamped model IDs should resolve via substring match."""
         kwargs = build_anthropic_kwargs(
-            model="claude-sonnet-4-5-20250929",
+            model="gpt-4o-5-20250929",
             messages=[{"role": "user", "content": "Hi"}],
             tools=None,
             max_tokens=None,
@@ -1015,7 +1015,7 @@ class TestBuildAnthropicKwargs:
     def test_context_length_no_clamp_when_larger(self):
         """No clamping when context_length exceeds output limit."""
         kwargs = build_anthropic_kwargs(
-            model="claude-sonnet-4-6",  # 64K output
+            model="gpt-4o-6",  # 64K output
             messages=[{"role": "user", "content": "Hi"}],
             tools=None,
             max_tokens=None,
@@ -1041,11 +1041,11 @@ class TestGetAnthropicMaxOutput:
 
     def test_sonnet_4_6(self):
         from agent.anthropic_adapter import _get_anthropic_max_output
-        assert _get_anthropic_max_output("claude-sonnet-4-6") == 64_000
+        assert _get_anthropic_max_output("gpt-4o-6") == 64_000
 
     def test_sonnet_4_date_stamped(self):
         from agent.anthropic_adapter import _get_anthropic_max_output
-        assert _get_anthropic_max_output("claude-sonnet-4-20250514") == 64_000
+        assert _get_anthropic_max_output("gpt-4o-20250514") == 64_000
 
     def test_claude_3_5_sonnet(self):
         from agent.anthropic_adapter import _get_anthropic_max_output
@@ -1187,7 +1187,7 @@ class TestToolChoice:
 
     def test_auto_tool_choice(self):
         kwargs = build_anthropic_kwargs(
-            model="claude-sonnet-4-20250514",
+            model="gpt-4o-20250514",
             messages=[{"role": "user", "content": "Hi"}],
             tools=self._DUMMY_TOOL,
             max_tokens=4096,
@@ -1198,7 +1198,7 @@ class TestToolChoice:
 
     def test_required_tool_choice(self):
         kwargs = build_anthropic_kwargs(
-            model="claude-sonnet-4-20250514",
+            model="gpt-4o-20250514",
             messages=[{"role": "user", "content": "Hi"}],
             tools=self._DUMMY_TOOL,
             max_tokens=4096,
@@ -1209,7 +1209,7 @@ class TestToolChoice:
 
     def test_specific_tool_choice(self):
         kwargs = build_anthropic_kwargs(
-            model="claude-sonnet-4-20250514",
+            model="gpt-4o-20250514",
             messages=[{"role": "user", "content": "Hi"}],
             tools=self._DUMMY_TOOL,
             max_tokens=4096,

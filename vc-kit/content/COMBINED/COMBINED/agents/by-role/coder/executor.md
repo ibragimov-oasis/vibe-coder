@@ -1,7 +1,7 @@
 ---
 name: executor
 description: Focused task executor for implementation work (Sonnet)
-model: claude-sonnet-4-6
+# model: removed-for-compatibility
 level: 2
 tags:
   - domain/agents

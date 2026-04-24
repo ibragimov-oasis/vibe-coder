@@ -10,14 +10,14 @@ from .models import BudgetAllocation
 
 # Model token limits (context window sizes)
 MODEL_LIMITS: Dict[str, int] = {
-    # OpenAI — gpt-5 family (1M context window)
-    "gpt-5": 1047576,
-    "gpt-5-mini": 1047576,
-    "gpt-5-nano": 1047576,
-    # OpenAI — gpt-4.1 family (1M context window)
-    "gpt-4.1": 1047576,
-    "gpt-4.1-mini": 1047576,
-    "gpt-4.1-nano": 1047576,
+    # OpenAI — gpt-4o family (1M context window)
+    "gpt-4o": 1047576,
+    "gpt-4o-mini": 1047576,
+    "gpt-4o-nano": 1047576,
+    # OpenAI — gpt-4o family (1M context window)
+    "gpt-4o": 1047576,
+    "gpt-4o-mini": 1047576,
+    "gpt-4o-nano": 1047576,
     # OpenAI — gpt-4o family
     "gpt-4o": 128000,
     "gpt-4o-mini": 128000,
@@ -45,8 +45,8 @@ MODEL_LIMITS: Dict[str, int] = {
 
 # Default output reserves by model family
 OUTPUT_RESERVES: Dict[str, int] = {
-    "gpt-5": 32768,
-    "gpt-4.1": 32768,
+    "gpt-4o": 32768,
+    "gpt-4o": 32768,
     "gpt-4o": 16384,
     "gpt-4o-mini": 16384,
     "gpt-4-turbo": 4096,

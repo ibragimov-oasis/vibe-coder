@@ -1483,7 +1483,7 @@ hint: 'development'. The just-created branch can be renamed via this command:
 hint: 
 hint: 	git branch -m <name>
 [90mstderr[2m | src/__tests__/delegation-enforcer.test.ts[2m > [22m[2mdelegation-enforcer[2m > [22m[2mprocessPreToolUse[2m > [22m[2mlogs warning only when OMC_DEBUG=true and model injected
-[22m[39m[OMC] Auto-injecting model: sonnet for executor (normalized from claude-sonnet-4-6)
+[22m[39m[OMC] Auto-injecting model: sonnet for executor (normalized from gpt-4o-6)
 
 hint: Using 'master' as the name for the initial branch. This default branch name
 hint: is subject to change. To configure the initial branch name to use in all

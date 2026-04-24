@@ -27,12 +27,12 @@ GITHUB_MODELS_CATALOG_URL = COPILOT_MODELS_URL
 # (model_id, display description shown in menus)
 OPENROUTER_MODELS: list[tuple[str, str]] = [
     ("anthropic/claude-opus-4.6",       "recommended"),
-    ("anthropic/claude-sonnet-4.5",     ""),
-    ("anthropic/claude-haiku-4.5",      ""),
-    ("openai/gpt-5.4",                  ""),
-    ("openai/gpt-5.4-mini",             ""),
+    ("anthropic/gpt-4o.5",     ""),
+    ("anthropic/gpt-4o",      ""),
+    ("openai/gpt-4o.4",                  ""),
+    ("openai/gpt-4o.4-mini",             ""),
     ("xiaomi/mimo-v2-pro",               ""),
-    ("openai/gpt-5.3-codex",            ""),
+    ("openai/gpt-4o.3-codex",            ""),
     ("google/gemini-3-pro-preview",     ""),
     ("google/gemini-3-flash-preview",   ""),
     ("google/gemini-3.1-pro-preview",     ""),
@@ -49,19 +49,19 @@ OPENROUTER_MODELS: list[tuple[str, str]] = [
     ("nvidia/nemotron-3-super-120b-a12b",      ""),
     ("nvidia/nemotron-3-super-120b-a12b:free", "free"),
     ("arcee-ai/trinity-large-preview:free", "free"),
-    ("openai/gpt-5.4-pro",              ""),
-    ("openai/gpt-5.4-nano",             ""),
+    ("openai/gpt-4o.4-pro",              ""),
+    ("openai/gpt-4o.4-nano",             ""),
 ]
 
 _PROVIDER_MODELS: dict[str, list[str]] = {
     "nous": [
         "anthropic/claude-opus-4.6",
-        "anthropic/claude-sonnet-4.5",
-        "anthropic/claude-haiku-4.5",
-        "openai/gpt-5.4",
-        "openai/gpt-5.4-mini",
+        "anthropic/gpt-4o.5",
+        "anthropic/gpt-4o",
+        "openai/gpt-4o.4",
+        "openai/gpt-4o.4-mini",
         "xiaomi/mimo-v2-pro",
-        "openai/gpt-5.3-codex",
+        "openai/gpt-4o.3-codex",
         "google/gemini-3-pro-preview",
         "google/gemini-3-flash-preview",
         "google/gemini-3.1-pro-preview",
@@ -78,31 +78,31 @@ _PROVIDER_MODELS: dict[str, list[str]] = {
         "nvidia/nemotron-3-super-120b-a12b",
         "nvidia/nemotron-3-super-120b-a12b:free",
         "arcee-ai/trinity-large-preview:free",
-        "openai/gpt-5.4-pro",
-        "openai/gpt-5.4-nano",
+        "openai/gpt-4o.4-pro",
+        "openai/gpt-4o.4-nano",
     ],
     "openai-codex": [
-        "gpt-5.3-codex",
-        "gpt-5.2-codex",
-        "gpt-5.1-codex-mini",
-        "gpt-5.1-codex-max",
+        "gpt-4o.3-codex",
+        "gpt-4o.2-codex",
+        "gpt-4o.1-codex-mini",
+        "gpt-4o.1-codex-max",
     ],
     "copilot-acp": [
         "copilot-acp",
     ],
     "copilot": [
-        "gpt-5.4",
-        "gpt-5.4-mini",
-        "gpt-5-mini",
-        "gpt-5.3-codex",
-        "gpt-5.2-codex",
-        "gpt-4.1",
+        "gpt-4o.4",
+        "gpt-4o.4-mini",
+        "gpt-4o-mini",
+        "gpt-4o.3-codex",
+        "gpt-4o.2-codex",
+        "gpt-4o",
         "gpt-4o",
         "gpt-4o-mini",
         "claude-opus-4.6",
-        "claude-sonnet-4.6",
-        "claude-sonnet-4.5",
-        "claude-haiku-4.5",
+        "gpt-4o.6",
+        "gpt-4o.5",
+        "gpt-4o",
         "gemini-2.5-pro",
         "grok-code-fast-1",
     ],
@@ -137,11 +137,11 @@ _PROVIDER_MODELS: dict[str, list[str]] = {
     ],
     "anthropic": [
         "claude-opus-4-6",
-        "claude-sonnet-4-6",
+        "gpt-4o-6",
         "claude-opus-4-5-20251101",
-        "claude-sonnet-4-5-20250929",
+        "gpt-4o-5-20250929",
         "claude-opus-4-20250514",
-        "claude-sonnet-4-20250514",
+        "gpt-4o-20250514",
         "claude-haiku-4-5-20251001",
     ],
     "deepseek": [
@@ -149,25 +149,25 @@ _PROVIDER_MODELS: dict[str, list[str]] = {
         "deepseek-reasoner",
     ],
     "opencode-zen": [
-        "gpt-5.4-pro",
-        "gpt-5.4",
-        "gpt-5.3-codex",
-        "gpt-5.3-codex-spark",
-        "gpt-5.2",
-        "gpt-5.2-codex",
-        "gpt-5.1",
-        "gpt-5.1-codex",
-        "gpt-5.1-codex-max",
-        "gpt-5.1-codex-mini",
-        "gpt-5",
-        "gpt-5-codex",
-        "gpt-5-nano",
+        "gpt-4o.4-pro",
+        "gpt-4o.4",
+        "gpt-4o.3-codex",
+        "gpt-4o.3-codex-spark",
+        "gpt-4o.2",
+        "gpt-4o.2-codex",
+        "gpt-4o.1",
+        "gpt-4o.1-codex",
+        "gpt-4o.1-codex-max",
+        "gpt-4o.1-codex-mini",
+        "gpt-4o",
+        "gpt-4o-codex",
+        "gpt-4o-nano",
         "claude-opus-4-6",
         "claude-opus-4-5",
         "claude-opus-4-1",
-        "claude-sonnet-4-6",
-        "claude-sonnet-4-5",
-        "claude-sonnet-4",
+        "gpt-4o-6",
+        "gpt-4o-5",
+        "gpt-4o",
         "claude-haiku-4-5",
         "claude-3-5-haiku",
         "gemini-3.1-pro",
@@ -193,12 +193,12 @@ _PROVIDER_MODELS: dict[str, list[str]] = {
     ],
     "ai-gateway": [
         "anthropic/claude-opus-4.6",
-        "anthropic/claude-sonnet-4.6",
-        "anthropic/claude-sonnet-4.5",
-        "anthropic/claude-haiku-4.5",
-        "openai/gpt-5",
-        "openai/gpt-4.1",
-        "openai/gpt-4.1-mini",
+        "anthropic/gpt-4o.6",
+        "anthropic/gpt-4o.5",
+        "anthropic/gpt-4o",
+        "openai/gpt-4o",
+        "openai/gpt-4o",
+        "openai/gpt-4o-mini",
         "google/gemini-3-pro-preview",
         "google/gemini-3-flash",
         "google/gemini-2.5-pro",
@@ -207,8 +207,8 @@ _PROVIDER_MODELS: dict[str, list[str]] = {
     ],
     "kilocode": [
         "anthropic/claude-opus-4.6",
-        "anthropic/claude-sonnet-4.6",
-        "openai/gpt-5.4",
+        "anthropic/gpt-4o.6",
+        "openai/gpt-4o.4",
         "google/gemini-3-pro-preview",
         "google/gemini-3-flash-preview",
     ],
@@ -370,10 +370,10 @@ def parse_model_input(raw: str, current_provider: str) -> tuple[str, str]:
 
     Supports ``provider:model`` syntax to switch providers at runtime::
 
-        openrouter:anthropic/claude-sonnet-4.5  →  ("openrouter", "anthropic/claude-sonnet-4.5")
+        openrouter:anthropic/gpt-4o.5  →  ("openrouter", "anthropic/gpt-4o.5")
         nous:hermes-3                           →  ("nous", "hermes-3")
-        anthropic/claude-sonnet-4.5             →  (current_provider, "anthropic/claude-sonnet-4.5")
-        gpt-5.4                                 →  (current_provider, "gpt-5.4")
+        anthropic/gpt-4o.5             →  (current_provider, "anthropic/gpt-4o.5")
+        gpt-4o.4                                 →  (current_provider, "gpt-4o.4")
 
     The colon is only treated as a provider delimiter if the left side is a
     recognized provider name or alias.  This avoids misinterpreting model names
@@ -800,25 +800,25 @@ def _fetch_github_models(api_key: Optional[str] = None, timeout: float = 5.0) ->
 
 
 _COPILOT_MODEL_ALIASES = {
-    "openai/gpt-5": "gpt-5-mini",
-    "openai/gpt-5-chat": "gpt-5-mini",
-    "openai/gpt-5-mini": "gpt-5-mini",
-    "openai/gpt-5-nano": "gpt-5-mini",
-    "openai/gpt-4.1": "gpt-4.1",
-    "openai/gpt-4.1-mini": "gpt-4.1",
-    "openai/gpt-4.1-nano": "gpt-4.1",
+    "openai/gpt-4o": "gpt-4o-mini",
+    "openai/gpt-4o-chat": "gpt-4o-mini",
+    "openai/gpt-4o-mini": "gpt-4o-mini",
+    "openai/gpt-4o-nano": "gpt-4o-mini",
+    "openai/gpt-4o": "gpt-4o",
+    "openai/gpt-4o-mini": "gpt-4o",
+    "openai/gpt-4o-nano": "gpt-4o",
     "openai/gpt-4o": "gpt-4o",
     "openai/gpt-4o-mini": "gpt-4o-mini",
-    "openai/o1": "gpt-5.2",
-    "openai/o1-mini": "gpt-5-mini",
-    "openai/o1-preview": "gpt-5.2",
-    "openai/o3": "gpt-5.3-codex",
-    "openai/o3-mini": "gpt-5-mini",
-    "openai/o4-mini": "gpt-5-mini",
+    "openai/o1": "gpt-4o.2",
+    "openai/o1-mini": "gpt-4o-mini",
+    "openai/o1-preview": "gpt-4o.2",
+    "openai/o3": "gpt-4o.3-codex",
+    "openai/o3-mini": "gpt-4o-mini",
+    "openai/o4-mini": "gpt-4o-mini",
     "anthropic/claude-opus-4.6": "claude-opus-4.6",
-    "anthropic/claude-sonnet-4.6": "claude-sonnet-4.6",
-    "anthropic/claude-sonnet-4.5": "claude-sonnet-4.5",
-    "anthropic/claude-haiku-4.5": "claude-haiku-4.5",
+    "anthropic/gpt-4o.6": "gpt-4o.6",
+    "anthropic/gpt-4o.5": "gpt-4o.5",
+    "anthropic/gpt-4o": "gpt-4o",
 }
 
 
@@ -883,7 +883,7 @@ def _github_reasoning_efforts_for_model_id(model_id: str) -> list[str]:
     if raw.startswith(("openai/o1", "openai/o3", "openai/o4", "o1", "o3", "o4")):
         return list(COPILOT_REASONING_EFFORTS_O_SERIES)
     normalized = normalize_copilot_model_id(model_id).lower()
-    if normalized.startswith("gpt-5"):
+    if normalized.startswith("gpt-4o"):
         return list(COPILOT_REASONING_EFFORTS_GPT5)
     return []
 
@@ -892,7 +892,7 @@ def _should_use_copilot_responses_api(model_id: str) -> bool:
     """Decide whether a Copilot model should use the Responses API.
 
     Replicates opencode's ``shouldUseCopilotResponsesApi`` logic:
-    GPT-5+ models use Responses API, except ``gpt-5-mini`` which uses
+    GPT-5+ models use Responses API, except ``gpt-4o-mini`` which uses
     Chat Completions.  All non-GPT models (Claude, Gemini, etc.) use
     Chat Completions.
     """
@@ -902,7 +902,7 @@ def _should_use_copilot_responses_api(model_id: str) -> bool:
     if not match:
         return False
     major = int(match.group(1))
-    return major >= 5 and not model_id.startswith("gpt-5-mini")
+    return major >= 5 and not model_id.startswith("gpt-4o-mini")
 
 
 def copilot_model_api_mode(

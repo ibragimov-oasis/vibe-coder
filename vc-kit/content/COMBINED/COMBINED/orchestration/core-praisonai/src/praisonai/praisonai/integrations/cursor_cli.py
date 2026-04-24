@@ -41,7 +41,7 @@ class CursorCLIIntegration(BaseCLIIntegration):
     Attributes:
         output_format: Output format ("json", "text", "stream-json")
         force: Whether to allow file modifications
-        model: Model to use (e.g., "gpt-5")
+        model: Model to use (e.g., "gpt-4o")
         stream_partial: Whether to stream partial output
         resume_session: Session ID to resume
     """
@@ -64,7 +64,7 @@ class CursorCLIIntegration(BaseCLIIntegration):
             timeout: Timeout in seconds for CLI execution
             output_format: Output format ("json", "text", "stream-json")
             force: Whether to allow file modifications (--force)
-            model: Model to use (e.g., "gpt-5")
+            model: Model to use (e.g., "gpt-4o")
             stream_partial: Whether to stream partial output (--stream-partial-output)
             resume_session: Session ID to resume (--resume)
         """

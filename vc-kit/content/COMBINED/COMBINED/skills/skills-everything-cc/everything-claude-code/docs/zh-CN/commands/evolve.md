@@ -184,7 +184,7 @@ evolved_from:
 ---
 name: debugger
 description: 系统性调试代理
-model: sonnet
+# model: removed-for-compatibility
 evolved_from:
   - debug-check-logs
   - debug-isolate

@@ -2,7 +2,7 @@
 name: planner
 description: Especialista em planejamento para funcionalidades complexas e refatorações. Use PROATIVAMENTE quando usuários solicitam implementação de funcionalidades, mudanças arquiteturais ou refatorações complexas. Ativado automaticamente para tarefas de planejamento.
 tools: ["Read", "Grep", "Glob"]
-model: opus
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

@@ -1,7 +1,7 @@
 ---
 name: mega-executor
 description: 'Unified plan execution agent. Implements code changes precisely as specified by mega-planner. Focuses on smallest viable diff, zero scope creep, TodoWrite tracking, and fresh verification. Merged from OMC executor (focused implementation, atomic changes) and GSD executor (spec-driven execution, deviation handling).'
-model: claude-sonnet-4
+# model: removed-for-compatibility
 tools:
   - Read
   - Write

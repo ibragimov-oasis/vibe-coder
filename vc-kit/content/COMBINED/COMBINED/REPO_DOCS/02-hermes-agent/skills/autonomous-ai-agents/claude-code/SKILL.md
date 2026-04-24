@@ -159,7 +159,7 @@ Returns a JSON object with:
   "stop_reason": "end_turn",
   "terminal_reason": "completed",
   "usage": { "input_tokens": 5, "output_tokens": 603, ... },
-  "modelUsage": { "claude-sonnet-4-6": { "costUSD": 0.078, "contextWindow": 200000 } }
+  "modelUsage": { "gpt-4o-6": { "costUSD": 0.078, "contextWindow": 200000 } }
 }
 ```
 
@@ -263,7 +263,7 @@ Automatically falls back to the specified model when the default is overloaded (
 ### Model & Performance
 | Flag | Effect |
 |------|--------|
-| `--model <alias>` | Model selection: `sonnet`, `opus`, `haiku`, or full name like `claude-sonnet-4-6` |
+| `--model <alias>` | Model selection: `sonnet`, `opus`, `haiku`, or full name like `gpt-4o-6` |
 | `--effort <level>` | Reasoning depth: `low`, `medium`, `high`, `max`, `auto` | Both |
 | `--max-turns <n>` | Limit agentic loops (print mode only; prevents runaway) |
 | `--max-budget-usd <n>` | Cap API spend in dollars (print mode only) |
@@ -563,7 +563,7 @@ Define specialized agents in `.claude/agents/` (project), `~/.claude/agents/` (p
 ---
 name: security-reviewer
 description: Security-focused code review
-model: opus
+# model: removed-for-compatibility
 tools: [Read, Bash]
 ---
 You are a senior security engineer. Review code for:

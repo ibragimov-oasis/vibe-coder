@@ -18,7 +18,7 @@ description: What this workflow does
 
 # Optional — workflow-level provider/model (inherited by all nodes)
 provider: claude                    # 'claude' or 'codex' (default: from config)
-model: sonnet                       # Model override
+# model: removed-for-compatibility
 
 # Required — the nodes array
 nodes:

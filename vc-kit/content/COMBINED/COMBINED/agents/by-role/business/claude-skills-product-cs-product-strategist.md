@@ -3,7 +3,7 @@ name: cs-product-strategist
 description: Product strategy agent for quarterly OKR planning, competitive landscape analysis, product vision development, and strategy pivot evaluation
 skills: product-team/product-strategist, product-team/competitive-teardown, product-team/product-manager-toolkit
 domain: product
-model: sonnet
+# model: removed-for-compatibility
 tools: [Read, Write, Bash, Grep, Glob]
 tags:
   - domain/agents

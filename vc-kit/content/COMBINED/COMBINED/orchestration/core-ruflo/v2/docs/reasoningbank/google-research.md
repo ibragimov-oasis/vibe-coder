@@ -459,7 +459,7 @@ reasoningbank:
     recency_half_life_days: 45
     duplicate_threshold: 0.87
   judge:
-    model: "claude-sonnet-4.5"
+    model: "gpt-4o.5"
     temperature: 0
   distill:
     max_items_per_traj: 3
@@ -664,12 +664,12 @@ This document contains benchmark results from testing ReasoningBank with 5 real-
 
 ### Cost-Optimized Routing
 The system attempts OpenRouter first for cost savings, then falls back to Anthropic:
-- OpenRouter attempts with `claude-sonnet-4-5-20250929` fail (not a valid OpenRouter model ID)
+- OpenRouter attempts with `gpt-4o-5-20250929` fail (not a valid OpenRouter model ID)
 - Automatic fallback to Anthropic succeeds
 - This demonstrates the robust fallback chain
 
 ### Model ID Issue
-**Note:** OpenRouter requires different model IDs (e.g., `anthropic/claude-sonnet-4.5-20250929`)  
+**Note:** OpenRouter requires different model IDs (e.g., `anthropic/gpt-4o.5-20250929`)  
 Current config uses Anthropic's API model ID which causes OpenRouter to fail, but fallback works correctly.
 
 ### Memory Creation Patterns

@@ -453,7 +453,7 @@ async def ai_response(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # Chamar IA
     response = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="gpt-4o-20250514",
         max_tokens=1024,
         system="Voce e um assistente prestativo. Responda em portugues.",
         messages=user_conversations[chat_id]

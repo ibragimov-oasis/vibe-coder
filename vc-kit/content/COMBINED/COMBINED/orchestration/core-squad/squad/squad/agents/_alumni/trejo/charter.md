@@ -154,7 +154,7 @@ These failures are inherited from Kobayashi's release disasters. Learn from them
 
 ## Model
 
-- **Preferred:** claude-haiku-4.5
+- **Preferred:** gpt-4o
 - **Rationale:** Releases are mechanical operations following a checklist. Haiku is fast and cost-effective for procedural work.
 - **Fallback:** Fast chain (but releases should never need premium reasoning)
 

@@ -25,7 +25,7 @@ tags:
 | 模型 | ID | 最适合 |
 |-------|-----|----------|
 | Opus 4.1 | `claude-opus-4-1` | 复杂推理、架构设计、研究 |
-| Sonnet 4 | `claude-sonnet-4-0` | 平衡的编码任务，大多数开发工作 |
+| Sonnet 4 | `gpt-4o-0` | 平衡的编码任务，大多数开发工作 |
 | Haiku 3.5 | `claude-3-5-haiku-latest` | 快速响应、高吞吐量、成本敏感型 |
 
 默认使用 Sonnet 4，除非任务需要深度推理（Opus）或速度/成本优化（Haiku）。对于生产环境，优先使用固定的快照 ID 而非别名。
@@ -46,7 +46,7 @@ import anthropic
 client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from env
 
 message = client.messages.create(
-    model="claude-sonnet-4-0",
+    model="gpt-4o-0",
     max_tokens=1024,
     messages=[
         {"role": "user", "content": "Explain async/await in Python"}
@@ -59,7 +59,7 @@ print(message.content[0].text)
 
 ```python
 with client.messages.stream(
-    model="claude-sonnet-4-0",
+    model="gpt-4o-0",
     max_tokens=1024,
     messages=[{"role": "user", "content": "Write a haiku about coding"}]
 ) as stream:
@@ -71,7 +71,7 @@ with client.messages.stream(
 
 ```python
 message = client.messages.create(
-    model="claude-sonnet-4-0",
+    model="gpt-4o-0",
     max_tokens=1024,
     system="You are a senior Python developer. Be concise.",
     messages=[{"role": "user", "content": "Review this function"}]
@@ -94,7 +94,7 @@ import Anthropic from "@anthropic-ai/sdk";
 const client = new Anthropic(); // reads ANTHROPIC_API_KEY from env
 
 const message = await client.messages.create({
-  model: "claude-sonnet-4-0",
+  model: "gpt-4o-0",
   max_tokens: 1024,
   messages: [
     { role: "user", content: "Explain async/await in TypeScript" }
@@ -107,7 +107,7 @@ console.log(message.content[0].text);
 
 ```typescript
 const stream = client.messages.stream({
-  model: "claude-sonnet-4-0",
+  model: "gpt-4o-0",
   max_tokens: 1024,
   messages: [{ role: "user", content: "Write a haiku" }],
 });
@@ -140,7 +140,7 @@ tools = [
 ]
 
 message = client.messages.create(
-    model="claude-sonnet-4-0",
+    model="gpt-4o-0",
     max_tokens=1024,
     tools=tools,
     messages=[{"role": "user", "content": "What's the weather in SF?"}]
@@ -153,7 +153,7 @@ for block in message.content:
         result = get_weather(**block.input)
         # Send result back
         follow_up = client.messages.create(
-            model="claude-sonnet-4-0",
+            model="gpt-4o-0",
             max_tokens=1024,
             tools=tools,
             messages=[
@@ -177,7 +177,7 @@ with open("diagram.png", "rb") as f:
     image_data = base64.standard_b64encode(f.read()).decode("utf-8")
 
 message = client.messages.create(
-    model="claude-sonnet-4-0",
+    model="gpt-4o-0",
     max_tokens=1024,
     messages=[{
         "role": "user",
@@ -195,7 +195,7 @@ message = client.messages.create(
 
 ```python
 message = client.messages.create(
-    model="claude-sonnet-4-0",
+    model="gpt-4o-0",
     max_tokens=16000,
     thinking={
         "type": "enabled",
@@ -217,7 +217,7 @@ for block in message.content:
 
 ```python
 message = client.messages.create(
-    model="claude-sonnet-4-0",
+    model="gpt-4o-0",
     max_tokens=1024,
     system=[
         {"type": "text", "text": large_system_prompt, "cache_control": {"type": "ephemeral"}}
@@ -241,7 +241,7 @@ batch = client.messages.batches.create(
         {
             "custom_id": f"request-{i}",
             "params": {
-                "model": "claude-sonnet-4-0",
+                "model": "gpt-4o-0",
                 "max_tokens": 1024,
                 "messages": [{"role": "user", "content": prompt}]
             }
@@ -287,7 +287,7 @@ messages = [{"role": "user", "content": "Review the auth module for security iss
 
 while True:
     response = client.messages.create(
-        model="claude-sonnet-4-0",
+        model="gpt-4o-0",
         max_tokens=4096,
         tools=tools,
         messages=messages,
@@ -335,7 +335,7 @@ except APIError as e:
 export ANTHROPIC_API_KEY="your-api-key-here"
 
 # Optional: set default model
-export ANTHROPIC_MODEL="claude-sonnet-4-0"
+export ANTHROPIC_MODEL="gpt-4o-0"
 ```
 
 切勿硬编码 API 密钥。始终使用环境变量。

@@ -147,7 +147,7 @@ describe('buildWorkerStartCommand', () => {
             teamName: 't',
             workerName: 'w',
             envVars: {
-                ANTHROPIC_MODEL: 'us.anthropic.claude-sonnet-4-6-v1[1m]',
+                ANTHROPIC_MODEL: 'us.anthropic.gpt-4o-6-v1[1m]',
                 CLAUDE_CODE_USE_BEDROCK: '1',
             },
             launchBinary: '/usr/local/bin/claude',
@@ -155,9 +155,9 @@ describe('buildWorkerStartCommand', () => {
             cwd: '/tmp'
         });
         // env assignments must appear WITHOUT extra wrapping quotes.
-        // Correct:   ANTHROPIC_MODEL='us.anthropic.claude-sonnet-4-6-v1[1m]'
+        // Correct:   ANTHROPIC_MODEL='us.anthropic.gpt-4o-6-v1[1m]'
         // Wrong:     'ANTHROPIC_MODEL='"'"'us.anthropic...'"'"''  (double-escaped)
-        expect(cmd).toContain("ANTHROPIC_MODEL='us.anthropic.claude-sonnet-4-6-v1[1m]'");
+        expect(cmd).toContain("ANTHROPIC_MODEL='us.anthropic.gpt-4o-6-v1[1m]'");
         expect(cmd).toContain("CLAUDE_CODE_USE_BEDROCK='1'");
         // The env keyword and other args should still be shell-escaped
         expect(cmd).toMatch(/^'env'/);
@@ -173,7 +173,7 @@ describe('buildWorkerStartCommand', () => {
             workerName: 'w',
             envVars: {
                 OMC_TEAM_WORKER: 'my-team/worker-1',
-                ANTHROPIC_DEFAULT_SONNET_MODEL: 'global.anthropic.claude-sonnet-4-6[1m]',
+                ANTHROPIC_DEFAULT_SONNET_MODEL: 'global.anthropic.gpt-4o-6[1m]',
             },
             launchBinary: '/usr/local/bin/claude',
             launchArgs: [],
@@ -181,7 +181,7 @@ describe('buildWorkerStartCommand', () => {
         });
         // Values with / and [] must be preserved without extra quoting
         expect(cmd).toContain("OMC_TEAM_WORKER='my-team/worker-1'");
-        expect(cmd).toContain("ANTHROPIC_DEFAULT_SONNET_MODEL='global.anthropic.claude-sonnet-4-6[1m]'");
+        expect(cmd).toContain("ANTHROPIC_DEFAULT_SONNET_MODEL='global.anthropic.gpt-4o-6[1m]'");
     });
     it('rejects relative launchBinary containing spaces', () => {
         vi.spyOn(process, 'platform', 'get').mockReturnValue('linux');
@@ -237,7 +237,7 @@ describe('shouldAttemptAdaptiveRetry', () => {
         })).toBe(false);
         expect(shouldAttemptAdaptiveRetry({
             paneBusy: true,
-            latestCapture: '❯ check-inbox\ngpt-5.3-codex high · 80% left',
+            latestCapture: '❯ check-inbox\ngpt-4o.3-codex high · 80% left',
             message: 'check-inbox',
             paneInCopyMode: false,
             retriesAttempted: 0,

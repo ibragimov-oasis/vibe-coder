@@ -32,9 +32,9 @@ Model selection strategies for different needs. Squad supports 16 models with fa
 
 Squad's default model configuration prioritizes cost-effectiveness:
 
-- **Non-code tasks** (planning, triage, decisions) → `claude-haiku-4.5` (fast, cheap)
-- **Code tasks** (implementation, refactoring) → `claude-sonnet-4.5` (balanced quality/cost)
-- **Code review** (critical analysis) → `claude-sonnet-4.5`
+- **Non-code tasks** (planning, triage, decisions) → `gpt-4o` (fast, cheap)
+- **Code tasks** (implementation, refactoring) → `gpt-4o.5` (balanced quality/cost)
+- **Code review** (critical analysis) → `gpt-4o.5`
 
 This is optimized for **everyday use** — good quality without burning your API budget.
 
@@ -45,13 +45,13 @@ This is optimized for **everyday use** — good quality without burning your API
 If you're cost-sensitive or working on a small project:
 
 ```
-> Switch the entire team to claude-haiku-4.5 for all tasks.
+> Switch the entire team to gpt-4o for all tasks.
 ```
 
 ```
 ✅ Model configuration updated
 
-All agents now use claude-haiku-4.5 (fast/cheap tier)
+All agents now use gpt-4o (fast/cheap tier)
 
 Agents will be faster but may need more guidance on complex tasks.
 ```
@@ -60,7 +60,7 @@ This is written to `.ai-team/model-config.json`:
 
 ```json
 {
-  "default": "claude-haiku-4.5",
+  "default": "gpt-4o",
   "overrides": {}
 }
 ```
@@ -74,7 +74,7 @@ Now every agent uses Haiku for everything. Faster responses, lower cost, slightl
 If you're working on architecture, security, or high-stakes features:
 
 ```
-> Use claude-opus-4.6 for Neo (the Lead) and claude-sonnet-4.5
+> Use claude-opus-4.6 for Neo (the Lead) and gpt-4o.5
 > for everyone else.
 ```
 
@@ -82,7 +82,7 @@ If you're working on architecture, security, or high-stakes features:
 ✅ Model configuration updated
 
 Neo (Lead) → claude-opus-4.6 (premium tier)
-All other agents → claude-sonnet-4.5 (standard tier)
+All other agents → gpt-4o.5 (standard tier)
 
 Neo will give higher-quality code reviews and architectural guidance.
 ```
@@ -91,7 +91,7 @@ This is written to `.ai-team/model-config.json`:
 
 ```json
 {
-  "default": "claude-sonnet-4.5",
+  "default": "gpt-4o.5",
   "overrides": {
     "neo": "claude-opus-4.6"
   }
@@ -118,9 +118,9 @@ You can set different models for different roles:
 ✅ Model configuration updated
 
 Neo → claude-opus-4.6 (premium)
-Trinity → claude-sonnet-4.5 (standard)
-Morpheus → claude-sonnet-4.5 (standard)
-Tank → claude-haiku-4.5 (fast/cheap)
+Trinity → gpt-4o.5 (standard)
+Morpheus → gpt-4o.5 (standard)
+Tank → gpt-4o (fast/cheap)
 ```
 
 Tank doesn't need Opus to write tests. Neo does need it for code reviews. Balanced spend.
@@ -137,22 +137,22 @@ Squad supports these models (as of v0.2.0):
 - `claude-opus-4.5` — previous Opus generation
 
 **Standard tier** (balanced quality/cost):
-- `claude-sonnet-4.5` — current default for code tasks
-- `claude-sonnet-4` — previous Sonnet generation
+- `gpt-4o.5` — current default for code tasks
+- `gpt-4o` — previous Sonnet generation
 - `gemini-3-pro-preview` — Google's latest
-- `gpt-5.3-codex` — OpenAI Codex, code-specialized
-- `gpt-5.2-codex`
-- `gpt-5.2`
-- `gpt-5.1-codex-max`
-- `gpt-5.1-codex`
-- `gpt-5.1`
-- `gpt-5`
+- `gpt-4o.3-codex` — OpenAI Codex, code-specialized
+- `gpt-4o.2-codex`
+- `gpt-4o.2`
+- `gpt-4o.1-codex-max`
+- `gpt-4o.1-codex`
+- `gpt-4o.1`
+- `gpt-4o`
 
 **Fast/cheap tier** (fast responses, lower cost):
-- `claude-haiku-4.5` — current default for non-code tasks
-- `gpt-5.1-codex-mini` — smaller Codex model
-- `gpt-5-mini`
-- `gpt-4.1`
+- `gpt-4o` — current default for non-code tasks
+- `gpt-4o.1-codex-mini` — smaller Codex model
+- `gpt-4o-mini`
+- `gpt-4o`
 
 **Note:** Model availability depends on your GitHub Copilot subscription tier.
 
@@ -163,7 +163,7 @@ Squad supports these models (as of v0.2.0):
 If a model is unavailable, Squad falls back to the next tier:
 
 ```
-claude-opus-4.6 → claude-sonnet-4.5 → claude-haiku-4.5
+claude-opus-4.6 → gpt-4o.5 → gpt-4o
 ```
 
 If Opus is unavailable (rate limit, quota), Squad automatically uses Sonnet. If Sonnet is unavailable, it falls back to Haiku.
@@ -174,14 +174,14 @@ You don't have to configure this — it's automatic.
 
 ## 7. When to Use Which Model
 
-**Use Haiku (`claude-haiku-4.5`) when:**
+**Use Haiku (`gpt-4o`) when:**
 - Writing tests
 - Running triage or planning tasks
 - Generating boilerplate code
 - Refactoring (simple renames, restructuring)
 - You're on a budget and speed matters more than depth
 
-**Use Sonnet (`claude-sonnet-4.5`) when:**
+**Use Sonnet (`gpt-4o.5`) when:**
 - Writing feature code
 - Implementing APIs or UI components
 - Refactoring with logic changes

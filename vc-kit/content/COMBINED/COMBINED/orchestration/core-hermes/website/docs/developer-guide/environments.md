@@ -299,7 +299,7 @@ For eval-only environments (benchmarks). Runs all items, computes metrics, logs 
 ```bash
 python environments/benchmarks/tblite/tblite_env.py evaluate \
     --config environments/benchmarks/tblite/default.yaml \
-    --openai.model_name anthropic/claude-sonnet-4.6
+    --openai.model_name anthropic/gpt-4o.6
 ```
 
 No training server or `run-api` needed. The environment handles everything.
@@ -311,7 +311,7 @@ Runs rollouts and saves scored trajectories to JSONL. Useful for generating trai
 ```bash
 python environments/terminal_test_env/terminal_test_env.py process \
     --env.data_path_to_save_groups output.jsonl \
-    --openai.model_name anthropic/claude-sonnet-4.6
+    --openai.model_name anthropic/gpt-4o.6
 ```
 
 Output format: each line is a scored trajectory with the full conversation history, reward, and metadata.
@@ -372,7 +372,7 @@ class MyEnv(HermesAgentBaseEnv):
         )
         server_configs = [APIServerConfig(
             base_url="https://openrouter.ai/api/v1",
-            model_name="anthropic/claude-sonnet-4.6",
+            model_name="anthropic/gpt-4o.6",
             server_type="openai",
         )]
         return env_config, server_configs
@@ -458,7 +458,7 @@ env:
 
 openai:
   base_url: "https://openrouter.ai/api/v1"
-  model_name: "anthropic/claude-sonnet-4.6"
+  model_name: "anthropic/gpt-4o.6"
   server_type: "openai"
   health_check: false
 ```

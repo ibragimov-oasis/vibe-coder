@@ -61,7 +61,7 @@ Define an embedding model with the `embeddingModel` kind:
 kind: embeddingModel
 name: gemini-model # Name of the embedding model
 type: gemini
-model: gemini-embedding-001
+# model: removed-for-compatibility
 apiKey: ${GOOGLE_API_KEY}
 dimension: 768
 ```

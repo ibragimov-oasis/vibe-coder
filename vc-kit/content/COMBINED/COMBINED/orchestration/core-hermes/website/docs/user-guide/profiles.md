@@ -70,7 +70,7 @@ coder setup                   # configure coder's settings
 coder gateway start           # start coder's gateway
 coder doctor                  # check coder's health
 coder skills list             # list coder's skills
-coder config set model.model anthropic/claude-sonnet-4
+coder config set model.model anthropic/gpt-4o
 ```
 
 The alias works with every hermes subcommand — it's just `hermes -p <name>` under the hood.
@@ -147,7 +147,7 @@ Each profile has its own:
 - **`SOUL.md`** — personality and instructions
 
 ```bash
-coder config set model.model anthropic/claude-sonnet-4
+coder config set model.model anthropic/gpt-4o
 echo "You are a focused coding assistant." > ~/.hermes/profiles/coder/SOUL.md
 ```
 

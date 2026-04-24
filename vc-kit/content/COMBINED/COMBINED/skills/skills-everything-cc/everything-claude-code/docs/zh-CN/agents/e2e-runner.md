@@ -2,7 +2,7 @@
 name: e2e-runner
 description: 使用Vercel Agent Browser（首选）和Playwright备选方案进行端到端测试的专家。主动用于生成、维护和运行E2E测试。管理测试流程，隔离不稳定的测试，上传工件（截图、视频、跟踪），并确保关键用户流程正常运行。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

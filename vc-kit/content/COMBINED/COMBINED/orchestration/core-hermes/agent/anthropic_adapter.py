@@ -42,14 +42,14 @@ ADAPTIVE_EFFORT_MAP = {
 _ANTHROPIC_OUTPUT_LIMITS = {
     # Claude 4.6
     "claude-opus-4-6":   128_000,
-    "claude-sonnet-4-6":  64_000,
+    "gpt-4o-6":  64_000,
     # Claude 4.5
     "claude-opus-4-5":    64_000,
-    "claude-sonnet-4-5":  64_000,
+    "gpt-4o-5":  64_000,
     "claude-haiku-4-5":   64_000,
     # Claude 4
     "claude-opus-4":      32_000,
-    "claude-sonnet-4":    64_000,
+    "gpt-4o":    64_000,
     # Claude 3.7
     "claude-3-7-sonnet": 128_000,
     # Claude 3.5
@@ -70,7 +70,7 @@ def _get_anthropic_max_output(model: str) -> int:
     """Look up the max output token limit for an Anthropic model.
 
     Uses substring matching against _ANTHROPIC_OUTPUT_LIMITS so date-stamped
-    model IDs (claude-sonnet-4-5-20250929) and variant suffixes (:1m, :fast)
+    model IDs (gpt-4o-5-20250929) and variant suffixes (:1m, :fast)
     resolve correctly.  Longest-prefix match wins to avoid e.g. "claude-3-5"
     matching before "claude-3-5-sonnet".
     """

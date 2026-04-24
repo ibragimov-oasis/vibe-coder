@@ -14,7 +14,7 @@ agents:  # Canonical: use 'agents' instead of 'roles'
     verbose: true
     allow_delegation: false
     llm:
-      model: "bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0"
+      model: gpt-4o
       temperature: 0.3
     tools:
       - "InternetSearchTool"
@@ -45,7 +45,7 @@ agents:  # Canonical: use 'agents' instead of 'roles'
     verbose: true
     allow_delegation: false
     llm:
-      model: "bedrock/amazon.titan-text-express-v1"
+      model: gpt-4o
       temperature: 0.7
     tasks:
       content_creation:
@@ -74,7 +74,7 @@ agents:  # Canonical: use 'agents' instead of 'roles'
     verbose: true
     allow_delegation: false
     llm:
-      model: "bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0"
+      model: gpt-4o
       temperature: 0.2
     tasks:
       content_review:

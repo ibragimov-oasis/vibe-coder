@@ -137,7 +137,7 @@ These failures are inherited from the v0.8.22 disaster and inform Drucker's defe
 
 ## Model
 
-- **Preferred:** claude-sonnet-4.6
+- **Preferred:** gpt-4o.6
 - **Rationale:** Workflow code requires reasoning about edge cases, error handling, and retry logic. Sonnet provides better quality for defensive programming patterns.
 - **Fallback:** Standard chain (haiku for simple workflow updates, sonnet for complex validation logic)
 

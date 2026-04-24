@@ -106,7 +106,7 @@ describe('unified MCP registry sync', () => {
     });
     it('keeps unrelated Codex TOML and is idempotent across repeated syncs', () => {
         const existingToml = [
-            'model = "gpt-5"',
+            'model = "gpt-4o"',
             '',
             '[mcp_servers.custom_local]',
             'command = "custom-local"',
@@ -128,7 +128,7 @@ describe('unified MCP registry sync', () => {
         };
         const first = syncCodexConfigToml(existingToml, registry);
         expect(first.changed).toBe(true);
-        expect(first.content).toContain('model = "gpt-5"');
+        expect(first.content).toContain('model = "gpt-4o"');
         expect(first.content).toContain('[mcp_servers.custom_local]');
         expect(first.content).toContain('[mcp_servers.gitnexus]');
         expect(first.content).not.toContain('[mcp_servers.old_registry]');
@@ -146,7 +146,7 @@ describe('unified MCP registry sync', () => {
             },
         }, null, 2));
         writeFileSync(getCodexConfigPath(), [
-            'model = "gpt-5"',
+            'model = "gpt-4o"',
             '',
             '# BEGIN OMC MANAGED MCP REGISTRY',
             '',
@@ -174,7 +174,7 @@ describe('unified MCP registry sync', () => {
                 customLocal: { command: 'custom-local', args: ['serve'] },
             },
         });
-        expect(readFileSync(getCodexConfigPath(), 'utf-8')).toBe('model = "gpt-5"\n');
+        expect(readFileSync(getCodexConfigPath(), 'utf-8')).toBe('model = "gpt-4o"\n');
     });
     it('detects mismatched server definitions during doctor inspection, not just missing names', () => {
         writeFileSync(getUnifiedMcpRegistryPath(), JSON.stringify({

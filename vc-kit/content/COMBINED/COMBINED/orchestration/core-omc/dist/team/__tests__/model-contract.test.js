@@ -106,10 +106,10 @@ describe('model-contract', () => {
             expect(args).toContain('gpt-4');
         });
         it('normalizes full Claude model ID to alias for claude agent (issue #1415)', () => {
-            const args = buildLaunchArgs('claude', { teamName: 't', workerName: 'w', cwd: '/tmp', model: 'claude-sonnet-4-6' });
+            const args = buildLaunchArgs('claude', { teamName: 't', workerName: 'w', cwd: '/tmp', model: 'gpt-4o-6' });
             expect(args).toContain('--model');
             expect(args).toContain('sonnet');
-            expect(args).not.toContain('claude-sonnet-4-6');
+            expect(args).not.toContain('gpt-4o-6');
         });
         it('passes Bedrock model ID through without normalization for claude agent (issue #1695)', () => {
             const args = buildLaunchArgs('claude', { teamName: 't', workerName: 'w', cwd: '/tmp', model: 'us.anthropic.claude-opus-4-6-v1:0' });
@@ -118,15 +118,15 @@ describe('model-contract', () => {
             expect(args).not.toContain('opus');
         });
         it('passes Bedrock ARN model ID through without normalization (issue #1695)', () => {
-            const arn = 'arn:aws:bedrock:us-east-2:123456789012:inference-profile/global.anthropic.claude-sonnet-4-6-v1:0';
+            const arn = 'arn:aws:bedrock:us-east-2:123456789012:inference-profile/global.anthropic.gpt-4o-6-v1:0';
             const args = buildLaunchArgs('claude', { teamName: 't', workerName: 'w', cwd: '/tmp', model: arn });
             expect(args).toContain('--model');
             expect(args).toContain(arn);
         });
         it('passes Vertex AI model ID through without normalization (issue #1695)', () => {
-            const args = buildLaunchArgs('claude', { teamName: 't', workerName: 'w', cwd: '/tmp', model: 'vertex_ai/claude-sonnet-4-6@20250514' });
+            const args = buildLaunchArgs('claude', { teamName: 't', workerName: 'w', cwd: '/tmp', model: 'vertex_ai/gpt-4o-6@20250514' });
             expect(args).toContain('--model');
-            expect(args).toContain('vertex_ai/claude-sonnet-4-6@20250514');
+            expect(args).toContain('vertex_ai/gpt-4o-6@20250514');
             expect(args).not.toContain('sonnet');
         });
         it('does not normalize non-Claude models for codex/gemini agents', () => {
@@ -144,36 +144,36 @@ describe('model-contract', () => {
         it('propagates allowlisted model selection env vars into worker startup env', () => {
             const env = getWorkerEnv('my-team', 'worker-1', 'claude', {
                 ANTHROPIC_MODEL: 'claude-opus-4-1',
-                CLAUDE_MODEL: 'claude-sonnet-4-5',
+                CLAUDE_MODEL: 'gpt-4o-5',
                 ANTHROPIC_BASE_URL: 'https://example-gateway.invalid',
                 CLAUDE_CODE_USE_BEDROCK: '1',
                 CLAUDE_CODE_BEDROCK_OPUS_MODEL: 'us.anthropic.claude-opus-4-6-v1:0',
-                CLAUDE_CODE_BEDROCK_SONNET_MODEL: 'us.anthropic.claude-sonnet-4-6-v1:0',
+                CLAUDE_CODE_BEDROCK_SONNET_MODEL: 'us.anthropic.gpt-4o-6-v1:0',
                 CLAUDE_CODE_BEDROCK_HAIKU_MODEL: 'us.anthropic.claude-haiku-4-5-v1:0',
                 ANTHROPIC_DEFAULT_OPUS_MODEL: 'claude-opus-4-6-custom',
-                ANTHROPIC_DEFAULT_SONNET_MODEL: 'claude-sonnet-4-6-custom',
+                ANTHROPIC_DEFAULT_SONNET_MODEL: 'gpt-4o-6-custom',
                 ANTHROPIC_DEFAULT_HAIKU_MODEL: 'claude-haiku-4-5-custom',
                 OMC_MODEL_HIGH: 'claude-opus-4-6-override',
-                OMC_MODEL_MEDIUM: 'claude-sonnet-4-6-override',
+                OMC_MODEL_MEDIUM: 'gpt-4o-6-override',
                 OMC_MODEL_LOW: 'claude-haiku-4-5-override',
-                OMC_EXTERNAL_MODELS_DEFAULT_CODEX_MODEL: 'gpt-5',
+                OMC_EXTERNAL_MODELS_DEFAULT_CODEX_MODEL: 'gpt-4o',
                 OMC_GEMINI_DEFAULT_MODEL: 'gemini-2.5-pro',
                 ANTHROPIC_API_KEY: 'should-not-be-forwarded',
             });
             expect(env.ANTHROPIC_MODEL).toBe('claude-opus-4-1');
-            expect(env.CLAUDE_MODEL).toBe('claude-sonnet-4-5');
+            expect(env.CLAUDE_MODEL).toBe('gpt-4o-5');
             expect(env.ANTHROPIC_BASE_URL).toBe('https://example-gateway.invalid');
             expect(env.CLAUDE_CODE_USE_BEDROCK).toBe('1');
             expect(env.CLAUDE_CODE_BEDROCK_OPUS_MODEL).toBe('us.anthropic.claude-opus-4-6-v1:0');
-            expect(env.CLAUDE_CODE_BEDROCK_SONNET_MODEL).toBe('us.anthropic.claude-sonnet-4-6-v1:0');
+            expect(env.CLAUDE_CODE_BEDROCK_SONNET_MODEL).toBe('us.anthropic.gpt-4o-6-v1:0');
             expect(env.CLAUDE_CODE_BEDROCK_HAIKU_MODEL).toBe('us.anthropic.claude-haiku-4-5-v1:0');
             expect(env.ANTHROPIC_DEFAULT_OPUS_MODEL).toBe('claude-opus-4-6-custom');
-            expect(env.ANTHROPIC_DEFAULT_SONNET_MODEL).toBe('claude-sonnet-4-6-custom');
+            expect(env.ANTHROPIC_DEFAULT_SONNET_MODEL).toBe('gpt-4o-6-custom');
             expect(env.ANTHROPIC_DEFAULT_HAIKU_MODEL).toBe('claude-haiku-4-5-custom');
             expect(env.OMC_MODEL_HIGH).toBe('claude-opus-4-6-override');
-            expect(env.OMC_MODEL_MEDIUM).toBe('claude-sonnet-4-6-override');
+            expect(env.OMC_MODEL_MEDIUM).toBe('gpt-4o-6-override');
             expect(env.OMC_MODEL_LOW).toBe('claude-haiku-4-5-override');
-            expect(env.OMC_EXTERNAL_MODELS_DEFAULT_CODEX_MODEL).toBe('gpt-5');
+            expect(env.OMC_EXTERNAL_MODELS_DEFAULT_CODEX_MODEL).toBe('gpt-4o');
             expect(env.OMC_GEMINI_DEFAULT_MODEL).toBe('gemini-2.5-pro');
             expect(env.ANTHROPIC_API_KEY).toBeUndefined();
         });
@@ -294,9 +294,9 @@ describe('model-contract', () => {
         });
         it('returns ANTHROPIC_MODEL on Bedrock when set', () => {
             vi.stubEnv('CLAUDE_CODE_USE_BEDROCK', '1');
-            vi.stubEnv('ANTHROPIC_MODEL', 'us.anthropic.claude-sonnet-4-5-20250929-v1:0');
+            vi.stubEnv('ANTHROPIC_MODEL', 'us.anthropic.gpt-4o-5-20250929-v1:0');
             vi.stubEnv('CLAUDE_MODEL', '');
-            expect(resolveClaudeWorkerModel()).toBe('us.anthropic.claude-sonnet-4-5-20250929-v1:0');
+            expect(resolveClaudeWorkerModel()).toBe('us.anthropic.gpt-4o-5-20250929-v1:0');
             vi.unstubAllEnvs();
         });
         it('returns CLAUDE_MODEL on Bedrock when ANTHROPIC_MODEL is not set', () => {
@@ -310,8 +310,8 @@ describe('model-contract', () => {
             vi.stubEnv('CLAUDE_CODE_USE_BEDROCK', '1');
             vi.stubEnv('ANTHROPIC_MODEL', '');
             vi.stubEnv('CLAUDE_MODEL', '');
-            vi.stubEnv('CLAUDE_CODE_BEDROCK_SONNET_MODEL', 'us.anthropic.claude-sonnet-4-6-v1:0');
-            expect(resolveClaudeWorkerModel()).toBe('us.anthropic.claude-sonnet-4-6-v1:0');
+            vi.stubEnv('CLAUDE_CODE_BEDROCK_SONNET_MODEL', 'us.anthropic.gpt-4o-6-v1:0');
+            expect(resolveClaudeWorkerModel()).toBe('us.anthropic.gpt-4o-6-v1:0');
             vi.unstubAllEnvs();
         });
         it('falls back to OMC_MODEL_MEDIUM tier env var', () => {
@@ -320,15 +320,15 @@ describe('model-contract', () => {
             vi.stubEnv('CLAUDE_MODEL', '');
             vi.stubEnv('CLAUDE_CODE_BEDROCK_SONNET_MODEL', '');
             vi.stubEnv('ANTHROPIC_DEFAULT_SONNET_MODEL', '');
-            vi.stubEnv('OMC_MODEL_MEDIUM', 'us.anthropic.claude-sonnet-4-5-20250929-v1:0');
-            expect(resolveClaudeWorkerModel()).toBe('us.anthropic.claude-sonnet-4-5-20250929-v1:0');
+            vi.stubEnv('OMC_MODEL_MEDIUM', 'us.anthropic.gpt-4o-5-20250929-v1:0');
+            expect(resolveClaudeWorkerModel()).toBe('us.anthropic.gpt-4o-5-20250929-v1:0');
             vi.unstubAllEnvs();
         });
         it('returns ANTHROPIC_MODEL on Vertex when set', () => {
             vi.stubEnv('CLAUDE_CODE_USE_BEDROCK', '');
             vi.stubEnv('CLAUDE_CODE_USE_VERTEX', '1');
-            vi.stubEnv('ANTHROPIC_MODEL', 'vertex_ai/claude-sonnet-4-6@20250514');
-            expect(resolveClaudeWorkerModel()).toBe('vertex_ai/claude-sonnet-4-6@20250514');
+            vi.stubEnv('ANTHROPIC_MODEL', 'vertex_ai/gpt-4o-6@20250514');
+            expect(resolveClaudeWorkerModel()).toBe('vertex_ai/gpt-4o-6@20250514');
             vi.unstubAllEnvs();
         });
         it('returns undefined on Bedrock when no model env vars are set', () => {
@@ -344,10 +344,10 @@ describe('model-contract', () => {
         it('detects Bedrock from model ID pattern even without CLAUDE_CODE_USE_BEDROCK', () => {
             vi.stubEnv('CLAUDE_CODE_USE_BEDROCK', '');
             vi.stubEnv('CLAUDE_CODE_USE_VERTEX', '');
-            vi.stubEnv('ANTHROPIC_MODEL', 'us.anthropic.claude-sonnet-4-5-20250929-v1:0');
+            vi.stubEnv('ANTHROPIC_MODEL', 'us.anthropic.gpt-4o-5-20250929-v1:0');
             vi.stubEnv('CLAUDE_MODEL', '');
             // isBedrock() detects Bedrock from the model ID pattern
-            expect(resolveClaudeWorkerModel()).toBe('us.anthropic.claude-sonnet-4-5-20250929-v1:0');
+            expect(resolveClaudeWorkerModel()).toBe('us.anthropic.gpt-4o-5-20250929-v1:0');
             vi.unstubAllEnvs();
         });
     });

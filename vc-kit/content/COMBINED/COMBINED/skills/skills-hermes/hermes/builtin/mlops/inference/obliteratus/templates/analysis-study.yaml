@@ -5,7 +5,7 @@
 # Useful for research or when you want to understand what you're removing.
 
 # Model to analyze
-model:
+# model: removed-for-compatibility
   name: "meta-llama/Llama-3.1-8B-Instruct"
   dtype: "bfloat16"
   quantization: "4bit"       # Saves VRAM for analysis

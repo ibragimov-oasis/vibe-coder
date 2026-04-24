@@ -1,7 +1,7 @@
 ---
 name: seo-technical
 description: Technical SEO specialist. Analyzes crawlability, indexability, security, URL structure, mobile optimization, Core Web Vitals, and JavaScript rendering.
-model: sonnet
+# model: removed-for-compatibility
 maxTurns: 20
 tools: Read, Bash, Write, Glob, Grep  # Write needed for report/data file output
 tags:

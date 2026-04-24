@@ -267,7 +267,7 @@ Ask for {required inputs} if not provided.
 ---
 description: Generate an implementation plan for new features or refactoring existing code.
 tools: ['codebase', 'web/fetch', 'findTestFiles', 'githubRepo', 'search', 'usages']
-model: Claude Sonnet 4
+# model: removed-for-compatibility
 ---
 # Planning mode instructions
 You are in planning mode. Your task is to generate an implementation plan for a new feature or for refactoring existing code.

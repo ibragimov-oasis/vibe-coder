@@ -1172,12 +1172,12 @@ export function isOSeriesModel(model: BaseChatModel | string): boolean {
 
 export function isGPT5Model(model: BaseChatModel | string): boolean {
   if (typeof model === "string") {
-    return model.startsWith("gpt-5");
+    return model.startsWith("gpt-4o");
   }
 
   // For BaseChatModel instances
   const modelName = (model as any).modelName || (model as any).model || "";
-  return modelName.startsWith("gpt-5");
+  return modelName.startsWith("gpt-4o");
 }
 
 /**
@@ -1198,7 +1198,7 @@ export function getModelInfo(model: BaseChatModel | string): ModelInfo {
   const isGPT5 = isGPT5Model(modelName);
   const isThinkingEnabled =
     modelName.startsWith("claude-3-7-sonnet") ||
-    modelName.startsWith("claude-sonnet-4") ||
+    modelName.startsWith("gpt-4o") ||
     modelName.startsWith("claude-opus-4");
 
   return {

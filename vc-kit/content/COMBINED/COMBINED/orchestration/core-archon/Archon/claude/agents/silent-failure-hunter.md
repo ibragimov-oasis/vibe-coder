@@ -1,7 +1,7 @@
 ---
 name: silent-failure-hunter
 description: Hunts for silent failures, inadequate error handling, and inappropriate fallbacks in code changes. Zero tolerance for swallowed errors. Use after implementing error handling, catch blocks, or fallback logic.
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/orchestration
   - artifact/workflow

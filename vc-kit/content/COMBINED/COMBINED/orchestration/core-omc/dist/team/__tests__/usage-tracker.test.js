@@ -16,7 +16,7 @@ describe('usage-tracker', () => {
             taskId,
             workerName,
             provider: 'codex',
-            model: 'gpt-5.3-codex',
+            model: 'gpt-4o.3-codex',
             startedAt: '2026-01-01T10:00:00Z',
             completedAt: '2026-01-01T10:05:00Z',
             wallClockMs,

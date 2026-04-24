@@ -47,7 +47,7 @@ agents:  # Canonical: use 'agents' instead of 'roles'
     tools:
       - tavily_search
     llm:
-      model: gpt-4o-mini
+      model: gpt-4o
       
   tech_expert:
     role: Technical Expert

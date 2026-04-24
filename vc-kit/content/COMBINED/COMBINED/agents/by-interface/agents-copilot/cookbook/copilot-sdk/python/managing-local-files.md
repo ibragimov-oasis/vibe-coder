@@ -39,7 +39,7 @@ async def main():
     await client.start()
 
     # Create session
-    session = await client.create_session(SessionConfig(model="gpt-5",
+    session = await client.create_session(SessionConfig(model="gpt-4o",
         on_permission_request=PermissionHandler.approve_all))
 
     done = asyncio.Event()

@@ -285,7 +285,7 @@ class TestInstallPlatformConfigs:
         codex_config = tmp_path / ".codex" / "config.toml"
         codex_config.parent.mkdir(parents=True)
         codex_config.write_text(
-            'model = "gpt-5.4"\n\n[mcp_servers.other]\ncommand = "other"\n',
+            'model = "gpt-4o.4"\n\n[mcp_servers.other]\ncommand = "other"\n',
             encoding="utf-8",
         )
         with patch.dict(
@@ -300,7 +300,7 @@ class TestInstallPlatformConfigs:
         ):
             install_platform_configs(tmp_path, target="codex")
         data = tomllib.loads(codex_config.read_text())
-        assert data["model"] == "gpt-5.4"
+        assert data["model"] == "gpt-4o.4"
         assert data["mcp_servers"]["other"]["command"] == "other"
         assert data["mcp_servers"]["code-review-graph"]["command"] in {
             "uvx",

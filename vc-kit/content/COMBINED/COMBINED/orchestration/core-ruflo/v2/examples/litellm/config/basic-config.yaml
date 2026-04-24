@@ -2,14 +2,14 @@ model_list:
   # Test model using litellm's test provider
   - model_name: "test-model"
     litellm_params:
-      model: "openai/gpt-3.5-turbo"
+      model: gpt-4o
       api_key: "sk-test-key"
       mock_response: "This is a test response from LiteLLM proxy"
       
   # Echo model for testing
   - model_name: "echo-model"
     litellm_params:
-      model: "openai/gpt-3.5-turbo"
+      model: gpt-4o
       api_key: "test-key"
       mock_response: "Echo test successful"
 

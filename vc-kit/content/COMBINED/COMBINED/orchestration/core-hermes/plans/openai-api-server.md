@@ -199,7 +199,7 @@ used is configured server-side in config.yaml. The API server maps any
 requested model name to the configured hermes-agent model.
 
 Optionally, allow model passthrough: if the frontend sends
-`"model": "anthropic/claude-sonnet-4"`, the agent uses that model. Controlled
+`"model": "anthropic/gpt-4o"`, the agent uses that model. Controlled
 by a config flag.
 
 ## Configuration

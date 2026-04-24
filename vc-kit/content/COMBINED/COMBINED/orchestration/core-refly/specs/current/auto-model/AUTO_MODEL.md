@@ -143,8 +143,8 @@ Controlled entirely by environment variables. Only applies when `mode === 'node_
 `AUTO_MODEL_ROUTING_PRIORITY` in `packages/utils/src/auto-model.ts`:
 ```
 global.anthropic.claude-opus-4-5-20251101-v1:0   ← primary
-global.anthropic.claude-sonnet-4-5-20250929-v1:0  ← fallback 1
-us.anthropic.claude-sonnet-4-5-20250929-v1:0      ← fallback 2
+global.anthropic.gpt-4o-5-20250929-v1:0  ← fallback 1
+us.anthropic.gpt-4o-5-20250929-v1:0      ← fallback 2
 ```
 First model found in the user's available items wins.
 
@@ -215,8 +215,8 @@ Stores routing rules. Managed via DB (no code deployment needed to change rules)
 
 **Target schema** (priority within target: model > models > weights):
 ```json
-{ "model": "claude-sonnet-4-5-20250929" }
-{ "models": ["claude-sonnet-4-5", "gemini-flash"] }
+{ "model": "gpt-4o-5-20250929" }
+{ "models": ["gpt-4o-5", "gemini-flash"] }
 { "weights": [{ "model": "claude-haiku", "weight": 70 }, { "model": "gemini-flash", "weight": 30 }] }
 ```
 

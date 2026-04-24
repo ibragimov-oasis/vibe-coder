@@ -46,7 +46,7 @@ PID     PPID  RSS(KB)  ELAPSED   COMMAND
 **Sample of leaked children (121 total, all parented to daemon):**
 ```
 PID   PPID    RSS(KB)  ELAPSED   COMMAND
-1927  4118969 377308   06:21:16  claude --output-format stream-json --verbose --input-format stream-json --model claude-sonnet-4-5 --disallowedTools Bash,Read,Write,Edit,Grep,Glob,WebFetch,WebSearch,Task,NotebookEdit,AskUserQuestion,TodoWrite --setting-sources --permission-mode default
+1927  4118969 377308   06:21:16  claude --output-format stream-json --verbose --input-format stream-json --model gpt-4o-5 --disallowedTools Bash,Read,Write,Edit,Grep,Glob,WebFetch,WebSearch,Task,NotebookEdit,AskUserQuestion,TodoWrite --setting-sources --permission-mode default
 2834  4118969 384716   06:20:44  claude --output-format stream-json [...]
 3988  4118969 381844   06:20:15  claude --output-format stream-json --resume <session-id> [...]
 5938  4118969 382816   06:19:37  claude --output-format stream-json --resume <session-id> [...]
@@ -113,7 +113,7 @@ The `query()` function internally spawns a `claude` CLI subprocess with the para
 - `--output-format stream-json`
 - `--verbose`
 - `--input-format stream-json`
-- `--model claude-sonnet-4-5`
+- `--model gpt-4o-5`
 - `--disallowedTools ...`
 - `--setting-sources`
 - `--permission-mode default`

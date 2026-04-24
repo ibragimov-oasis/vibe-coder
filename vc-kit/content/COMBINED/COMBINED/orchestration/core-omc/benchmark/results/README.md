@@ -26,7 +26,7 @@ tags:
 
 ### Evaluation Setup
 
-- **Model:** Claude Sonnet 4.6 (claude-sonnet-4-6-20260217)
+- **Model:** Claude Sonnet 4.6 (gpt-4o-6-20260217)
 - **Max Tokens:** 16,384 output tokens per instance
 - **Timeout:** 30 minutes per instance
 - **Workers:** 4 parallel evaluations

@@ -151,10 +151,10 @@ api_key = "sk-ant-xxx"
 name = "relay"
 api_key = "sk-xxx"
 base_url = "https://api.relay-service.com"
-model = "claude-sonnet-4-20250514"
+model = "gpt-4o-20250514"
 
 [[projects.agent.providers.models]]
-model = "claude-sonnet-4-20250514"
+model = "gpt-4o-20250514"
 alias = "sonnet"
 
 [[projects.agent.providers.models]]
@@ -222,15 +222,15 @@ name = "openai"
 api_key = "sk-xxx"
 
 [[projects.agent.providers.models]]
-model = "gpt-5.3-codex"
+model = "gpt-4o.3-codex"
 alias = "codex"
 
 [[projects.agent.providers.models]]
-model = "gpt-5.4"
+model = "gpt-4o.4"
 alias = "gpt"
 
 [[projects.agent.providers.models]]
-model = "gpt-5.3-codex-spark"
+model = "gpt-4o.3-codex-spark"
 alias = "spark"
 ```
 

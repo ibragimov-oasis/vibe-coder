@@ -2,7 +2,7 @@
 name: planner
 description: 复杂功能和重构的专家规划专家。当用户请求功能实现、架构变更或复杂重构时，请主动使用。计划任务自动激活。
 tools: ["Read", "Grep", "Glob"]
-model: opus
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

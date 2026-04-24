@@ -1,7 +1,7 @@
 ---
 name: mega-seo
 description: 'Unified SEO audit and optimization agent. Covers Technical SEO (crawlability, indexing, Core Web Vitals, structured data), On-page SEO (titles, meta, headings, content quality, E-E-A-T), GEO (Generative Engine Optimization for AI search), Content Marketing (copywriting, CRO, landing pages), and Analytics (GA4, GSC, DataForSEO). Merged from claude-seo, Antigravity SEO, GEO research, and SEOMachine (10 agents, 26 skills).'
-model: claude-sonnet-4
+# model: removed-for-compatibility
 tools:
   - Read
   - Write

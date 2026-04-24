@@ -1,7 +1,7 @@
 ---
 name: mega-tester
 description: 'Unified testing agent. Enforces TDD (RED-GREEN-REFACTOR), designs test strategies following the testing pyramid (70% unit, 20% integration, 10% e2e), diagnoses flaky tests, performs coverage gap analysis, and validates quality gates. Merged from OMC test-engineer and qa-tester, GSD integration-checker, ui-checker, and verifier, RuFlo TDD/testing agents, and Superpowers test-driven-development.'
-model: claude-sonnet-4
+# model: removed-for-compatibility
 tools:
   - Read
   - Write

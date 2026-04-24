@@ -2,7 +2,7 @@
 name: security-reviewer
 description: Güvenlik açığı tespit ve düzeltme specialisti. Kullanıcı girdisi, kimlik doğrulama, API endpoint'leri veya hassas veri işleyen kod yazdıktan sonra PROAKTİF olarak kullanın. Secret'ları, SSRF, injection, güvensiz kriptografiyi ve OWASP Top 10 güvenlik açıklarını işaretler.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

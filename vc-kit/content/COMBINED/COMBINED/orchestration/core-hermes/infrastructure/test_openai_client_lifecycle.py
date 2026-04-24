@@ -53,7 +53,7 @@ def _build_agent(shared_client=None):
     agent.api_mode = "chat_completions"
     agent.provider = "openai-codex"
     agent.base_url = "https://chatgpt.com/backend-api/codex"
-    agent.model = "gpt-5-codex"
+    agent.model = "gpt-4o-codex"
     agent.log_prefix = ""
     agent.quiet_mode = True
     agent._interrupt_requested = False
@@ -158,11 +158,11 @@ def test_concurrent_requests_do_not_break_each_other_when_one_client_closes(monk
 def test_streaming_call_recreates_closed_shared_client_before_request(monkeypatch):
     chunks = iter([
         SimpleNamespace(
-            model="gpt-5-codex",
+            model="gpt-4o-codex",
             choices=[SimpleNamespace(delta=SimpleNamespace(content="Hello", tool_calls=None), finish_reason=None)],
         ),
         SimpleNamespace(
-            model="gpt-5-codex",
+            model="gpt-4o-codex",
             choices=[SimpleNamespace(delta=SimpleNamespace(content=" world", tool_calls=None), finish_reason="stop")],
         ),
     ])

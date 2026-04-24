@@ -761,7 +761,7 @@ class AgentBridge:
     }
     ANTHROPIC_ADAPTIVE_THINKING_MODELS: ClassVar[set[str]] = {
         "claude-opus-4-6",
-        "claude-sonnet-4-6",
+        "gpt-4o-6",
     }
     ANTHROPIC_ADAPTIVE_EFFORTS: ClassVar[set[str]] = {"low", "medium", "high", "max"}
 

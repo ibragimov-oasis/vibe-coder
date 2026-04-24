@@ -169,7 +169,7 @@ evolved_from:
 ---
 name: debugger
 description: Systematic debugging agent
-model: sonnet
+# model: removed-for-compatibility
 evolved_from:
   - debug-check-logs
   - debug-isolate

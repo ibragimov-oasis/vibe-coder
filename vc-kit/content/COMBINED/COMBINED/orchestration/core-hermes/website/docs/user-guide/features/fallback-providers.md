@@ -29,7 +29,7 @@ Add a `fallback_model` section to `~/.hermes/config.yaml`:
 ```yaml
 fallback_model:
   provider: openrouter
-  model: anthropic/claude-sonnet-4
+  model: anthropic/gpt-4o
 ```
 
 Both `provider` and `model` are **required**. If either is missing, the fallback is disabled.
@@ -91,18 +91,18 @@ Fallback activates **at most once** per session. If the fallback provider also f
 
 **OpenRouter as fallback for Anthropic native:**
 ```yaml
-model:
+# model: removed-for-compatibility
   provider: anthropic
-  default: claude-sonnet-4-6
+  default: gpt-4o-6
 
 fallback_model:
   provider: openrouter
-  model: anthropic/claude-sonnet-4
+  model: anthropic/gpt-4o
 ```
 
 **Nous Portal as fallback for OpenRouter:**
 ```yaml
-model:
+# model: removed-for-compatibility
   provider: openrouter
   default: anthropic/claude-opus-4
 
@@ -124,7 +124,7 @@ fallback_model:
 ```yaml
 fallback_model:
   provider: openai-codex
-  model: gpt-5.3-codex
+  model: gpt-4o.3-codex
 ```
 
 ### Where Fallback Works
@@ -230,7 +230,7 @@ And the fallback model uses:
 ```yaml
 fallback_model:
   provider: openrouter
-  model: anthropic/claude-sonnet-4
+  model: anthropic/gpt-4o
   # base_url: http://localhost:8000/v1               # Optional custom endpoint
 ```
 

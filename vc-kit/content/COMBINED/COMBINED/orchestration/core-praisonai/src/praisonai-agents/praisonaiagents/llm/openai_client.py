@@ -561,12 +561,12 @@ class OpenAIClient:
                 return False
 
         _openai_prefixes = (
-            "gpt-4o", "gpt-4-turbo", "gpt-4.1", "gpt-4.5",
-            "gpt-5",
+            "gpt-4o", "gpt-4-turbo", "gpt-4o", "gpt-4.5",
+            "gpt-4o",
             "o1", "o3", "o4",
             "chatgpt-4o",
-            "azure/gpt-4o", "azure/gpt-4-turbo", "azure/gpt-4.1",
-            "azure/gpt-5",
+            "azure/gpt-4o", "azure/gpt-4-turbo", "azure/gpt-4o",
+            "azure/gpt-4o",
             "azure/o1", "azure/o3", "azure/o4",
         )
         for prefix in _openai_prefixes:
@@ -1641,7 +1641,7 @@ class OpenAIClient:
             tool_calls = getattr(final_response.choices[0].message, 'tool_calls', None)
             
             # Emit llm_content for intermediate narrative display
-            # (gpt-4.1+ models produce text alongside tool calls)
+            # (gpt-4o+ models produce text alongside tool calls)
             response_content = getattr(final_response.choices[0].message, 'content', None)
             if response_content and response_content.strip() and tool_calls:
                 try:
@@ -1840,7 +1840,7 @@ class OpenAIClient:
             tool_calls = getattr(final_response.choices[0].message, 'tool_calls', None)
             
             # Emit llm_content for intermediate narrative display
-            # (gpt-4.1+ models produce text alongside tool calls)
+            # (gpt-4o+ models produce text alongside tool calls)
             response_content = getattr(final_response.choices[0].message, 'content', None)
             if response_content and response_content.strip() and tool_calls:
                 try:

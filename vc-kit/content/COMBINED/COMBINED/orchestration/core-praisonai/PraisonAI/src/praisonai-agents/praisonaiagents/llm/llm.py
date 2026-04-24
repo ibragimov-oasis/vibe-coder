@@ -4599,10 +4599,10 @@ Output MUST be JSON with 'reflection' and 'satisfactory'.
         # Note: Azure models often start with the deployment name, but LiteLLM
         # normalises them to "azure/<model>" – the prefixes below handle both.
         _openai_prefixes = (
-            "gpt-4o", "gpt-4-turbo", "gpt-4.1", "gpt-4.5",
+            "gpt-4o", "gpt-4-turbo", "gpt-4o", "gpt-4.5",
             "o1", "o3", "o4",
             "chatgpt-4o",
-            "azure/gpt-4o", "azure/gpt-4-turbo", "azure/gpt-4.1",
+            "azure/gpt-4o", "azure/gpt-4-turbo", "azure/gpt-4o",
             "azure/o1", "azure/o3", "azure/o4",
         )
         # Match on prefix (gpt-4o, gpt-4o-mini, gpt-4o-2024-08-06, etc.)

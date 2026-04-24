@@ -38,7 +38,7 @@ Two Claude instances provided detailed feedback from actual development sessions
 - Set `OPENAI_API_KEY` env var
 - Got status 200 responses
 - Reported "OpenAI integration working"
-- **BUT** response contained `"model": "claude-sonnet-4-20250514"` - was actually using Anthropic
+- **BUT** response contained `"model": "gpt-4o-20250514"` - was actually using Anthropic
 
 **Root cause:**
 `verification-before-completion` checks operations succeed but not that outcomes reflect intended configuration changes.

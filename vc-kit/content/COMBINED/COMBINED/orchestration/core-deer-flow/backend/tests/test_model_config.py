@@ -7,7 +7,7 @@ def _make_model(**overrides) -> ModelConfig:
         display_name="OpenAI Responses",
         description=None,
         use="langchain_openai:ChatOpenAI",
-        model="gpt-5",
+        model="gpt-4o",
         **overrides,
     )
 

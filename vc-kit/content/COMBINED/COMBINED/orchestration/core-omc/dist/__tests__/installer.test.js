@@ -98,18 +98,18 @@ describe('Installer Constants', () => {
         it('should have consistent model assignments', () => {
             const modelExpectations = {
                 'architect.md': 'claude-opus-4-6',
-                'executor.md': 'claude-sonnet-4-6',
-                'designer.md': 'claude-sonnet-4-6',
+                'executor.md': 'gpt-4o-6',
+                'designer.md': 'gpt-4o-6',
                 'writer.md': 'claude-haiku-4-5',
                 'critic.md': 'claude-opus-4-6',
                 'analyst.md': 'claude-opus-4-6',
                 'planner.md': 'claude-opus-4-6',
-                'qa-tester.md': 'claude-sonnet-4-6',
-                'debugger.md': 'claude-sonnet-4-6',
-                'verifier.md': 'claude-sonnet-4-6',
-                'test-engineer.md': 'claude-sonnet-4-6',
+                'qa-tester.md': 'gpt-4o-6',
+                'debugger.md': 'gpt-4o-6',
+                'verifier.md': 'gpt-4o-6',
+                'test-engineer.md': 'gpt-4o-6',
                 'security-reviewer.md': 'claude-opus-4-6',
-                'git-master.md': 'claude-sonnet-4-6',
+                'git-master.md': 'gpt-4o-6',
             };
             for (const [filename, expectedModel] of Object.entries(modelExpectations)) {
                 const content = AGENT_DEFINITIONS[filename];

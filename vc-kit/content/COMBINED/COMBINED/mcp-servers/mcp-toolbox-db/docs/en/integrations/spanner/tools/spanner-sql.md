@@ -143,7 +143,7 @@ See [EmbeddingModels](../../../documentation/configuration/embedding-models/_ind
 kind: embeddingModel
 name: gemini-model
 type: gemini
-model: gemini-embedding-001
+# model: removed-for-compatibility
 apiKey: ${GOOGLE_API_KEY}
 dimension: 768
 ```

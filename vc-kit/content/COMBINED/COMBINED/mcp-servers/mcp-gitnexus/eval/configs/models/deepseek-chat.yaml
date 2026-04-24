@@ -1,4 +1,4 @@
-model: deepseek-ai/deepseek-chat
+# model: removed-for-compatibility
 provider: openrouter
 cost:
   input: 0.14 # per 1M tokens

@@ -37,7 +37,7 @@ def _make_mock_parent(depth=0):
     parent.api_key = "parent-key"
     parent.provider = "openrouter"
     parent.api_mode = "chat_completions"
-    parent.model = "anthropic/claude-sonnet-4"
+    parent.model = "anthropic/gpt-4o"
     parent.platform = "cli"
     parent.providers_allowed = None
     parent.providers_ignored = None
@@ -354,7 +354,7 @@ class TestDelegateObservability(unittest.TestCase):
 
         with patch("run_agent.AIAgent") as MockAgent:
             mock_child = MagicMock()
-            mock_child.model = "claude-sonnet-4-6"
+            mock_child.model = "gpt-4o-6"
             mock_child.session_prompt_tokens = 5000
             mock_child.session_completion_tokens = 1200
             mock_child.run_conversation.return_value = {
@@ -377,7 +377,7 @@ class TestDelegateObservability(unittest.TestCase):
             entry = result["results"][0]
 
             # Core observability fields
-            self.assertEqual(entry["model"], "claude-sonnet-4-6")
+            self.assertEqual(entry["model"], "gpt-4o-6")
             self.assertEqual(entry["exit_reason"], "completed")
             self.assertEqual(entry["tokens"]["input"], 5000)
             self.assertEqual(entry["tokens"]["output"], 1200)
@@ -395,7 +395,7 @@ class TestDelegateObservability(unittest.TestCase):
 
         with patch("run_agent.AIAgent") as MockAgent:
             mock_child = MagicMock()
-            mock_child.model = "claude-sonnet-4-6"
+            mock_child.model = "gpt-4o-6"
             mock_child.session_prompt_tokens = 0
             mock_child.session_completion_tokens = 0
             mock_child.run_conversation.return_value = {
@@ -422,7 +422,7 @@ class TestDelegateObservability(unittest.TestCase):
 
         with patch("run_agent.AIAgent") as MockAgent:
             mock_child = MagicMock()
-            mock_child.model = "claude-sonnet-4-6"
+            mock_child.model = "gpt-4o-6"
             mock_child.session_prompt_tokens = 3000
             mock_child.session_completion_tokens = 800
             mock_child.run_conversation.return_value = {
@@ -471,7 +471,7 @@ class TestDelegateObservability(unittest.TestCase):
 
         with patch("run_agent.AIAgent") as MockAgent:
             mock_child = MagicMock()
-            mock_child.model = "claude-sonnet-4-6"
+            mock_child.model = "gpt-4o-6"
             mock_child.session_prompt_tokens = 0
             mock_child.session_completion_tokens = 0
             mock_child.run_conversation.return_value = {
@@ -492,7 +492,7 @@ class TestDelegateObservability(unittest.TestCase):
 
         with patch("run_agent.AIAgent") as MockAgent:
             mock_child = MagicMock()
-            mock_child.model = "claude-sonnet-4-6"
+            mock_child.model = "gpt-4o-6"
             mock_child.session_prompt_tokens = 0
             mock_child.session_completion_tokens = 0
             mock_child.run_conversation.return_value = {

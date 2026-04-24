@@ -2,7 +2,7 @@
 name: doc-updater
 description: Dokümantasyon ve codemap specialisti. Codemap'leri ve dokümantasyonu güncellemek için PROAKTİF olarak kullanın. /update-codemaps ve /update-docs çalıştırır, docs/CODEMAPS/* oluşturur, README'leri ve kılavuzları günceller.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
-model: haiku
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

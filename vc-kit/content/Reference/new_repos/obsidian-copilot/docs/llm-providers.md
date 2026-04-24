@@ -46,7 +46,7 @@ Direct access to GPT-4.1, GPT-5, and other OpenAI models.
 Access to Claude models (Opus, Sonnet, etc.).
 
 - **Get a key**: https://console.anthropic.com/settings/keys
-- **Models include**: claude-opus-4-6, claude-sonnet-4-5
+- **Models include**: claude-opus-4-6, gpt-4o-5
 - **Setting key**: `anthropicApiKey`
 
 ### Google Gemini
@@ -128,8 +128,8 @@ Access to models hosted on AWS Bedrock.
 - **Setting key**: `amazonBedrockApiKey`
 
 **Important**: Always use cross-region inference profile IDs, not bare model IDs. For example:
-- Use: `us.anthropic.claude-sonnet-4-5-20250929-v1:0`
-- Not: `anthropic.claude-sonnet-4-5-20250929-v1:0`
+- Use: `us.anthropic.gpt-4o-5-20250929-v1:0`
+- Not: `anthropic.gpt-4o-5-20250929-v1:0`
 
 Cross-region profiles (with the `us.`, `eu.`, `apac.`, or `global.` prefix) are more reliable and available across regions.
 

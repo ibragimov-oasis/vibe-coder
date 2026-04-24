@@ -289,7 +289,7 @@ class GPTModelAdapter extends BaseModelAdapter {
    * @returns True if the model is in the GPT-5 family
    */
   protected isGPT5Model(): boolean {
-    return this.modelName.includes("gpt-5") || this.modelName.includes("gpt5");
+    return this.modelName.includes("gpt-4o") || this.modelName.includes("gpt5");
   }
   buildSystemPromptSections(
     basePrompt: string,
@@ -406,7 +406,7 @@ class ClaudeModelAdapter extends BaseModelAdapter {
   private isThinkingModel(): boolean {
     return (
       this.modelName.includes("claude-3-7-sonnet") ||
-      this.modelName.includes("claude-sonnet-4") ||
+      this.modelName.includes("gpt-4o") ||
       this.modelName.includes("claude-3.7-sonnet") ||
       this.modelName.includes("claude-4-sonnet") ||
       this.modelName.includes("claude-opus-4")
@@ -419,9 +419,9 @@ class ClaudeModelAdapter extends BaseModelAdapter {
    */
   private isClaudeSonnet4(): boolean {
     return (
-      this.modelName.includes("claude-sonnet-4") ||
+      this.modelName.includes("gpt-4o") ||
       this.modelName.includes("claude-4-sonnet") ||
-      this.modelName.includes("claude-sonnet-4-20250514")
+      this.modelName.includes("gpt-4o-20250514")
     );
   }
 

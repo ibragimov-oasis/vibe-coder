@@ -413,7 +413,7 @@ Azure OpenAI provides enterprise-grade OpenAI models through Microsoft's Azure c
    - An Azure account with an active subscription
    - Azure OpenAI service resource created in the Azure portal
    - Azure OpenAI API key and endpoint URL
-   - Deployed models (e.g., gpt-4o, gpt-4o-mini, gpt-4.1, etc) in your Azure OpenAI resource
+   - Deployed models (e.g., gpt-4o, gpt-4o-mini, gpt-4o, etc) in your Azure OpenAI resource
 
 2. **Authentication**:
    - Set the `AZURE_OPENAI_API_KEY` environment variable with your Azure OpenAI API key
@@ -541,13 +541,13 @@ The Codex CLI provider integrates Task Master with OpenAI's Codex CLI, allowing 
      "models": {
        "main": {
          "provider": "codex-cli",
-         "modelId": "gpt-5-codex",
+         "modelId": "gpt-4o-codex",
          "maxTokens": 128000,
          "temperature": 0.2
        },
        "fallback": {
          "provider": "codex-cli",
-         "modelId": "gpt-5",
+         "modelId": "gpt-4o",
          "maxTokens": 128000,
          "temperature": 0.2
        }
@@ -562,8 +562,8 @@ The Codex CLI provider integrates Task Master with OpenAI's Codex CLI, allowing 
    ```
 
 6. **Available Models**:
-   - `gpt-5` - Latest GPT-5 model (272K max input, 128K max output)
-   - `gpt-5-codex` - GPT-5 optimized for agentic software engineering (272K max input, 128K max output)
+   - `gpt-4o` - Latest GPT-5 model (272K max input, 128K max output)
+   - `gpt-4o-codex` - GPT-5 optimized for agentic software engineering (272K max input, 128K max output)
 
 7. **Codex CLI Settings (`codexCli` section)**:
 
@@ -615,10 +615,10 @@ The Codex CLI provider integrates Task Master with OpenAI's Codex CLI, allowing 
 10. **Setup Commands**:
     ```bash
     # Set Codex CLI for main role
-    task-master models --set-main gpt-5-codex --codex-cli
+    task-master models --set-main gpt-4o-codex --codex-cli
 
     # Set Codex CLI for fallback role
-    task-master models --set-fallback gpt-5 --codex-cli
+    task-master models --set-fallback gpt-4o --codex-cli
 
     # Verify configuration
     task-master models
@@ -641,7 +641,7 @@ The Codex CLI provider integrates Task Master with OpenAI's Codex CLI, allowing 
     - Minimum version: 0.42.0, recommended: >= 0.44.0
 
     **"Model not available" errors:**
-    - Only `gpt-5` and `gpt-5-codex` are available via OAuth subscription
+    - Only `gpt-4o` and `gpt-4o-codex` are available via OAuth subscription
     - Verify your ChatGPT subscription is active
     - For other OpenAI models, use the standard `openai` provider with an API key
 
@@ -652,7 +652,7 @@ The Codex CLI provider integrates Task Master with OpenAI's Codex CLI, allowing 
 
 12. **Important Notes**:
     - OAuth subscription required for model access (no API key needed for basic operation)
-    - Limited to OAuth-available models only (`gpt-5` and `gpt-5-codex`)
+    - Limited to OAuth-available models only (`gpt-4o` and `gpt-4o-codex`)
     - Pricing information is not available for OAuth models (shows as "Unknown" in cost calculations)
     - See [Codex CLI Provider Documentation](./providers/codex-cli.md) for more details
 

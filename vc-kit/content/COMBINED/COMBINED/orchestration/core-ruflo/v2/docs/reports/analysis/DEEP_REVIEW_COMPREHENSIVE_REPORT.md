@@ -75,7 +75,7 @@ private buildCommand(options: AgentExecutionOptions): string {
 
 | Provider | Status | Priority | Model Support | Notes |
 |----------|--------|----------|---------------|-------|
-| Anthropic | ✅ Working | Quality | claude-sonnet-4-5-20250929 | Default, tested end-to-end |
+| Anthropic | ✅ Working | Quality | gpt-4o-5-20250929 | Default, tested end-to-end |
 | OpenRouter | ✅ Detected | Cost | meta-llama/llama-3.1-8b-instruct | 99% cost savings |
 | Gemini | ✅ Detected | Cost | Default model | Free tier available |
 | ONNX | ✅ Available | Privacy | Xenova/gpt2 | Local, requires 4.9GB download |

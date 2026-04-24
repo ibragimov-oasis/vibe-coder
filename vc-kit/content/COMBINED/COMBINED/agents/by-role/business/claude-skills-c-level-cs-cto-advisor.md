@@ -3,7 +3,7 @@ name: cs-cto-advisor
 description: Technical leadership advisor for CTOs covering technology strategy, team scaling, architecture decisions, and engineering excellence
 skills: c-level-advisor/cto-advisor
 domain: c-level
-model: opus
+# model: removed-for-compatibility
 tools: [Read, Write, Bash, Grep, Glob]
 tags:
   - domain/agents

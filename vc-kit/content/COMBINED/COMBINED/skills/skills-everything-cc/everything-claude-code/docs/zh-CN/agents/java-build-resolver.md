@@ -2,7 +2,7 @@
 name: java-build-resolver
 description: Java/Maven/Gradle构建、编译和依赖错误解决专家。修复构建错误、Java编译器错误以及Maven/Gradle问题，改动最小。适用于Java或Spring Boot构建失败时。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

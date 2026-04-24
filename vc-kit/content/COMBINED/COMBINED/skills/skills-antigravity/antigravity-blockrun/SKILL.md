@@ -45,7 +45,7 @@ if spending['total_usd'] >= budget:
     print(f"Budget reached: ${spending['total_usd']:.4f} spent")
     # Stop making calls
 else:
-    response = client.chat("openai/gpt-5.2", "Hello!")
+    response = client.chat("openai/gpt-4o.2", "Hello!")
 
 # At the end, report spending
 spending = client.get_spending()
@@ -108,7 +108,7 @@ print(generate_wallet_qr_ascii(get_wallet_address()))
 from blockrun_llm import setup_agent_wallet
 
 client = setup_agent_wallet()  # Auto-creates wallet if needed
-response = client.chat("openai/gpt-5.2", "What is 2+2?")
+response = client.chat("openai/gpt-4o.2", "What is 2+2?")
 print(response)
 
 # Check spending
@@ -227,8 +227,8 @@ response = client.chat("xai/grok-3", "What's trending?",
 
 | Model | Best For | Pricing |
 |-------|----------|---------|
-| `openai/gpt-5.2` | Second opinions, code review, general | $1.75/M in, $14/M out |
-| `openai/gpt-5-mini` | Cost-optimized reasoning | $0.30/M in, $1.20/M out |
+| `openai/gpt-4o.2` | Second opinions, code review, general | $1.75/M in, $14/M out |
+| `openai/gpt-4o-mini` | Cost-optimized reasoning | $0.30/M in, $1.20/M out |
 | `openai/o4-mini` | Latest efficient reasoning | $1.10/M in, $4.40/M out |
 | `openai/o3` | Advanced reasoning, complex problems | $10/M in, $40/M out |
 | `xai/grok-3` | Real-time X/Twitter data | $3/M + $0.025/source |

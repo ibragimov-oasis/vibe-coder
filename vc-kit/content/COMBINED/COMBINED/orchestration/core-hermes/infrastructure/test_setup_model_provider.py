@@ -247,9 +247,9 @@ def test_setup_copilot_uses_gh_auth_and_saves_provider(tmp_path, monkeypatch):
             assert choices[14] == "GitHub Copilot (uses GITHUB_TOKEN or gh auth token)"
             return 14
         if question == "Select default model:":
-            assert "gpt-4.1" in choices
-            assert "gpt-5.4" in choices
-            return choices.index("gpt-5.4")
+            assert "gpt-4o" in choices
+            assert "gpt-4o.4" in choices
+            return choices.index("gpt-4o.4")
         if question == "Select reasoning effort:":
             assert "low" in choices
             assert "high" in choices
@@ -288,12 +288,12 @@ def test_setup_copilot_uses_gh_auth_and_saves_provider(tmp_path, monkeypatch):
         "hermes_cli.models.fetch_github_model_catalog",
         lambda api_key: [
             {
-                "id": "gpt-4.1",
+                "id": "gpt-4o",
                 "capabilities": {"type": "chat", "supports": {}},
                 "supported_endpoints": ["/chat/completions"],
             },
             {
-                "id": "gpt-5.4",
+                "id": "gpt-4o.4",
                 "capabilities": {"type": "chat", "supports": {"reasoning_effort": ["low", "medium", "high"]}},
                 "supported_endpoints": ["/responses"],
             },
@@ -310,7 +310,7 @@ def test_setup_copilot_uses_gh_auth_and_saves_provider(tmp_path, monkeypatch):
     assert env.get("GITHUB_TOKEN") is None
     assert reloaded["model"]["provider"] == "copilot"
     assert reloaded["model"]["base_url"] == "https://api.githubcopilot.com"
-    assert reloaded["model"]["default"] == "gpt-5.4"
+    assert reloaded["model"]["default"] == "gpt-4o.4"
     assert reloaded["model"]["api_mode"] == "codex_responses"
     assert reloaded["agent"]["reasoning_effort"] == "high"
 
@@ -326,9 +326,9 @@ def test_setup_copilot_acp_uses_model_picker_and_saves_provider(tmp_path, monkey
             assert choices[15] == "GitHub Copilot ACP (spawns `copilot --acp --stdio`)"
             return 15
         if question == "Select default model:":
-            assert "gpt-4.1" in choices
-            assert "gpt-5.4" in choices
-            return choices.index("gpt-5.4")
+            assert "gpt-4o" in choices
+            assert "gpt-4o.4" in choices
+            return choices.index("gpt-4o.4")
         if question == "Configure vision:":
             return len(choices) - 1
         tts_idx = _maybe_keep_current_tts(question, choices)
@@ -358,12 +358,12 @@ def test_setup_copilot_acp_uses_model_picker_and_saves_provider(tmp_path, monkey
         "hermes_cli.models.fetch_github_model_catalog",
         lambda api_key: [
             {
-                "id": "gpt-4.1",
+                "id": "gpt-4o",
                 "capabilities": {"type": "chat", "supports": {}},
                 "supported_endpoints": ["/chat/completions"],
             },
             {
-                "id": "gpt-5.4",
+                "id": "gpt-4o.4",
                 "capabilities": {"type": "chat", "supports": {"reasoning_effort": ["low", "medium", "high"]}},
                 "supported_endpoints": ["/responses"],
             },
@@ -378,7 +378,7 @@ def test_setup_copilot_acp_uses_model_picker_and_saves_provider(tmp_path, monkey
 
     assert reloaded["model"]["provider"] == "copilot-acp"
     assert reloaded["model"]["base_url"] == "acp://copilot"
-    assert reloaded["model"]["default"] == "gpt-5.4"
+    assert reloaded["model"]["default"] == "gpt-4o.4"
     assert reloaded["model"]["api_mode"] == "chat_completions"
 
 
@@ -424,7 +424,7 @@ def test_setup_switch_custom_to_codex_clears_custom_endpoint_and_updates_config(
     )
     monkeypatch.setattr(
         "hermes_cli.codex_models.get_codex_model_ids",
-        lambda **kwargs: ["openai/gpt-5.3-codex", "openai/gpt-5-codex-mini"],
+        lambda **kwargs: ["openai/gpt-4o.3-codex", "openai/gpt-4o-codex-mini"],
     )
 
     setup_model_provider(config)
@@ -436,7 +436,7 @@ def test_setup_switch_custom_to_codex_clears_custom_endpoint_and_updates_config(
     assert env.get("OPENAI_BASE_URL") == ""
     assert env.get("OPENAI_API_KEY") == ""
     assert reloaded["model"]["provider"] == "openai-codex"
-    assert reloaded["model"]["default"] == "openai/gpt-5.3-codex"
+    assert reloaded["model"]["default"] == "openai/gpt-4o.3-codex"
     assert reloaded["model"]["base_url"] == "https://chatgpt.com/backend-api/codex"
 
 

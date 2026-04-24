@@ -271,7 +271,7 @@ Returns the current configuration with secrets redacted. Useful for debugging an
               "name": "anthropic",
               "api_key": "***",
               "base_url": "",
-              "model": "claude-sonnet-4-20250514"
+              "model": "gpt-4o-20250514"
             }
           ]
         },
@@ -691,13 +691,13 @@ Lists providers with active indicator.
       {
         "name": "anthropic",
         "active": true,
-        "model": "claude-sonnet-4-20250514",
+        "model": "gpt-4o-20250514",
         "base_url": ""
       },
       {
         "name": "relay",
         "active": false,
-        "model": "claude-sonnet-4-20250514",
+        "model": "gpt-4o-20250514",
         "base_url": "https://api.relay.example.com"
       }
     ],
@@ -719,7 +719,7 @@ Adds a new provider.
   "name": "relay",
   "api_key": "sk-xxx",
   "base_url": "https://api.relay.example.com",
-  "model": "claude-sonnet-4-20250514",
+  "model": "gpt-4o-20250514",
   "thinking": "disabled",
   "env": {
     "CLAUDE_CODE_USE_BEDROCK": "1",
@@ -806,11 +806,11 @@ Lists available models for the project's agent type.
   "ok": true,
   "data": {
     "models": [
-      "claude-sonnet-4-20250514",
+      "gpt-4o-20250514",
       "claude-3-5-sonnet-20241022",
       "claude-3-opus-20240229"
     ],
-    "current": "claude-sonnet-4-20250514"
+    "current": "gpt-4o-20250514"
   }
 }
 ```

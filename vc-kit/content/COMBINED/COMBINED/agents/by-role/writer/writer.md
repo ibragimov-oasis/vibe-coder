@@ -1,7 +1,7 @@
 ---
 name: writer
 description: Technical documentation writer for README, API docs, and comments (Haiku)
-model: claude-haiku-4-5
+# model: removed-for-compatibility
 level: 2
 tags:
   - domain/agents

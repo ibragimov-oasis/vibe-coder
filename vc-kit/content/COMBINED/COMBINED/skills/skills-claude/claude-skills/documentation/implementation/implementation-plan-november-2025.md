@@ -179,7 +179,7 @@ name: cs-content-creator
 description: Create SEO-optimized marketing content with brand voice consistency
 skills: content-creator
 domain: marketing
-model: sonnet
+# model: removed-for-compatibility
 tools: [Read, Write, Bash, Grep, Glob]
 ---
 

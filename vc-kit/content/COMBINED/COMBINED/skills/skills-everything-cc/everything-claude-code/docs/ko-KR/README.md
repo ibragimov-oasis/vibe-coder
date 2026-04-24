@@ -440,7 +440,7 @@ cp -r everything-claude-code/skills/search-first ~/COMBINED/workspace-config/cla
 name: code-reviewer
 description: 코드의 품질, 보안, 유지보수성을 리뷰합니다
 tools: ["Read", "Grep", "Glob", "Bash"]
-model: opus
+# model: removed-for-compatibility
 ---
 
 당신은 시니어 코드 리뷰어입니다...

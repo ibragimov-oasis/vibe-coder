@@ -68,7 +68,7 @@ def test_openrouter_models_api_pricing_is_converted_from_per_token_to_per_millio
 
 def test_estimate_usage_cost_marks_subscription_routes_included():
     result = estimate_usage_cost(
-        "gpt-5.3-codex",
+        "gpt-4o.3-codex",
         CanonicalUsage(input_tokens=1000, output_tokens=500),
         provider="openai-codex",
         base_url="https://chatgpt.com/backend-api/codex",

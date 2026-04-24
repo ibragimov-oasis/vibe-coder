@@ -8,7 +8,7 @@ async def main():
 
     try:
         await client.start()
-        session = await client.create_session(SessionConfig(model="gpt-5",
+        session = await client.create_session(SessionConfig(model="gpt-4o",
         on_permission_request=PermissionHandler.approve_all))
 
         response = await session.send_and_wait(MessageOptions(prompt="Hello!"))

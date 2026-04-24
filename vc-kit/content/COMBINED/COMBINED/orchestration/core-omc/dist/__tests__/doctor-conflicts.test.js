@@ -176,7 +176,7 @@ describe('doctor-conflicts: hook ownership classification', () => {
                 gitnexus: { command: 'gitnexus', args: ['mcp'] },
             },
         }));
-        writeFileSync(join(codexDir, 'config.toml'), 'model = "gpt-5"\n');
+        writeFileSync(join(codexDir, 'config.toml'), 'model = "gpt-4o"\n');
         process.env.OMC_HOME = registryDir;
         process.env.CODEX_HOME = codexDir;
         const report = runConflictCheck();

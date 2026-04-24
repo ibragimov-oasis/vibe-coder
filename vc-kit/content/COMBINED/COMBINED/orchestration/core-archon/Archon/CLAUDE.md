@@ -472,7 +472,7 @@ assistants:
       - project      # Default: only project-level CLAUDE.md
       - user         # Optional: also load ~/.claude/CLAUDE.md
   codex:
-    model: gpt-5.3-codex
+    model: gpt-4o.3-codex
     modelReasoningEffort: medium  # 'minimal' | 'low' | 'medium' | 'high' | 'xhigh'
     webSearchMode: live  # 'disabled' | 'cached' | 'live'
     additionalDirectories:

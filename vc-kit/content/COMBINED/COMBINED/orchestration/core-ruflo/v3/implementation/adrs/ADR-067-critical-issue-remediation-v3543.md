@@ -25,7 +25,7 @@ This ADR documents all findings, root causes, and the remediation plan for v3.5.
 | **P0 — Critical** | Headless workers hang forever (stdin never closed) | #1395 (Bug 1) | `stdio: ['pipe','pipe','pipe']` — stdin opened but never closed; `claude --print` blocks on EOF |
 | **P0 — Critical** | Workers fail inside active Claude Code session | #1395 (Bug 2) | Nested session detection kills subprocess; workers can never succeed during normal use |
 | **P0 — Critical** | Swarm agents do not execute work | #1423, #1425 | `startSwarm()` updates metadata but has no task consumer/dispatcher; commands return hardcoded success |
-| **P1 — High** | Stale/nonexistent model IDs in daemon workers | #1431 | Hardcoded `claude-sonnet-4-5-20250929` and `claude-haiku-4-5-20251001` — both expired/invalid |
+| **P1 — High** | Stale/nonexistent model IDs in daemon workers | #1431 | Hardcoded `gpt-4o-5-20250929` and `claude-haiku-4-5-20251001` — both expired/invalid |
 | **P1 — High** | Daemons never terminate, accumulate across sessions | #1395 (Bug 3) | No PID singleton enforcement; each session spawns a new daemon |
 | **P1 — High** | `memory init` hangs after completion | #1428 | ONNX worker threads + SQLite connection never terminated; no `process.exit()` after init |
 | **P2 — Medium** | AgentDB bridge unavailable | #1399 | CLI bundles `@claude-flow/memory@alpha.11` (missing `ControllerRegistry`); runtime patch targets v1.x paths |
@@ -62,7 +62,7 @@ File: `v3/@claude-flow/cli/src/daemon/headless-worker-executor.ts`
 
 ```diff
   const MODEL_IDS = {
--   sonnet: 'claude-sonnet-4-5-20250929',
+-   sonnet: 'gpt-4o-5-20250929',
 -   opus: 'claude-opus-4-6',
 -   haiku: 'claude-haiku-4-5-20251001',
 +   sonnet: 'sonnet',

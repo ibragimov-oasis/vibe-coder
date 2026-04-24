@@ -2244,7 +2244,7 @@ const prompt = parser.parse(content);
 // Parse YAML
 const yamlPrompt = parser.parse(`
 name: Code Review
-model: gpt-4
+# model: removed-for-compatibility
 modelParameters:
   temperature: 0.7
 messages:
@@ -2262,7 +2262,7 @@ const jsonPrompt = parser.parse(`{
 const mdPrompt = parser.parse(`
 ---
 name: Creative Writer
-model: gpt-4
+# model: removed-for-compatibility
 ---
 You are a creative writing assistant.
 `, 'markdown');

@@ -2599,7 +2599,7 @@ var init_models = __esm({
     };
     CLAUDE_FAMILY_DEFAULTS = {
       HAIKU: "claude-haiku-4-5",
-      SONNET: "claude-sonnet-4-6",
+      SONNET: "gpt-4o-6",
       OPUS: "claude-opus-4-6"
     };
     BUILTIN_TIER_MODEL_DEFAULTS = {
@@ -2613,7 +2613,7 @@ var init_models = __esm({
       OPUS: `${CLAUDE_FAMILY_DEFAULTS.OPUS}-high`
     };
     BUILTIN_EXTERNAL_MODEL_DEFAULTS = {
-      codexModel: "gpt-5.3-codex",
+      codexModel: "gpt-4o.3-codex",
       geminiModel: "gemini-3.1-pro-preview"
     };
   }

@@ -5,11 +5,11 @@ gateway:
 agents:
   personal:
     instructions: "You are a helpful personal assistant"
-    model: gpt-4o-mini
+    model: gpt-4o
     memory: false
   support:
     instructions: "You are a customer support agent"
-    model: gpt-4o-mini
+    model: gpt-4o
 
 channels:
   telegram:

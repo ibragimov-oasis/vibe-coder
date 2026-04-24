@@ -2,7 +2,7 @@
 name: architect
 description: 시스템 설계, 확장성, 기술적 의사결정을 위한 소프트웨어 아키텍처 전문가입니다. 새로운 기능 계획, 대규모 시스템 refactor, 아키텍처 결정 시 사전에 적극적으로 활용하세요.
 tools: ["Read", "Grep", "Glob"]
-model: opus
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

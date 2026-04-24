@@ -82,7 +82,7 @@ This file documents HTTP error codes returned by the Claude API, their common ca
 
 **Causes:**
 
-- Typo in model ID (e.g., `claude-sonnet-4.6` instead of `claude-sonnet-4-6`)
+- Typo in model ID (e.g., `gpt-4o.6` instead of `gpt-4o-6`)
 - Using deprecated model ID
 - Invalid API endpoint
 

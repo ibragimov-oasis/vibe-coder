@@ -48,7 +48,7 @@ Claude is accessible via an API and Claude Platform. The most recent Claude mode
 | Model | Model string |  
 |---|---|  
 | Claude Opus 4.6 | `claude-opus-4-6` |  
-| Claude Sonnet 4.6 | `claude-sonnet-4-6` |  
+| Claude Sonnet 4.6 | `gpt-4o-6` |  
 | Claude Haiku 4.5 | `claude-haiku-4-5-20251001` |  
 
 Claude is accessible via Claude Code, a command line tool for agentic coding that lets developers delegate coding tasks directly from their terminal. Claude is also accessible via beta products: Claude in Chrome (a browsing agent), Claude in Excel (a spreadsheet agent), and Cowork (a desktop tool for non-developers to automate file and task management).  
@@ -3147,7 +3147,7 @@ const response = await fetch("https://api.anthropic.com/v1/messages", {
     "Content-Type": "application/json",
   },
   body: JSON.stringify({
-    model: "claude-sonnet-4-20250514", // Always use Sonnet 4
+    model: "gpt-4o-20250514", // Always use Sonnet 4
     max_tokens: 1000, // Always set this as 1000
     messages: [
       { role: "user", content: "Your prompt here" }

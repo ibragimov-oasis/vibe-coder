@@ -331,14 +331,14 @@ The TODO.md should be:
 
 **IMPORTANT**: When using AWS Bedrock, always use **cross-region inference profile IDs** for better reliability and availability:
 
-- **Global** (recommended): `global.anthropic.claude-sonnet-4-5-20250929-v1:0`
+- **Global** (recommended): `global.anthropic.gpt-4o-5-20250929-v1:0`
   - Routes to any commercial AWS region automatically
   - Best for reliability and performance
-- **US**: `us.anthropic.claude-sonnet-4-5-20250929-v1:0`
-- **EU**: `eu.anthropic.claude-sonnet-4-5-20250929-v1:0`
-- **APAC**: `apac.anthropic.claude-sonnet-4-5-20250929-v1:0`
+- **US**: `us.anthropic.gpt-4o-5-20250929-v1:0`
+- **EU**: `eu.anthropic.gpt-4o-5-20250929-v1:0`
+- **APAC**: `apac.anthropic.gpt-4o-5-20250929-v1:0`
 
-❌ **Avoid regional model IDs** (without prefix): `anthropic.claude-sonnet-4-5-20250929-v1:0`
+❌ **Avoid regional model IDs** (without prefix): `anthropic.gpt-4o-5-20250929-v1:0`
 
 - These only work in specific regions and often fail
 - Not recommended for production use

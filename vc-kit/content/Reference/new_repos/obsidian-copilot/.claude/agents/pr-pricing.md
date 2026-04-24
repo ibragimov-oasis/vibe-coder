@@ -1,7 +1,7 @@
 ---
 name: pr-pricing
 description: 'Use this agent to size and price a PR (or list of PRs) based on the project''s PR pricing tiers. Provide PR numbers as the prompt. Example: "Price PRs #2100 #2101 #2102"'
-model: sonnet
+# model: removed-for-compatibility
 color: green
 tags:
   - domain/skills

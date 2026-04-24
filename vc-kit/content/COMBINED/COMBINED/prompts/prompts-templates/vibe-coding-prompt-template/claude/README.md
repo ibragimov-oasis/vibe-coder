@@ -238,7 +238,7 @@ Skills are Markdown files with YAML frontmatter. To modify a skill:
 name: skill-name
 description: When to use this skill
 allowed-tools: Read, Write, Bash  # Restrict available tools
-model: sonnet  # Optional: sonnet, opus, haiku
+# model: removed-for-compatibility
 ---
 ```
 

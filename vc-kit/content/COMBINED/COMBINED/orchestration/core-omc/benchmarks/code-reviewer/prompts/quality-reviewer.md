@@ -1,7 +1,7 @@
 ---
 name: quality-reviewer
 description: Logic defects, maintainability, anti-patterns, SOLID principles
-model: claude-opus-4-6
+# model: removed-for-compatibility
 tags:
   - domain/orchestration
   - artifact/workflow

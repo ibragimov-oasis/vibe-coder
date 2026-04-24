@@ -680,7 +680,7 @@ await safeExec.run(command, { sanitize: true });
 # =============================================================================
 
 # Model selection
-model = "gpt-5.3-codex"
+model = "gpt-4o.3-codex"
 
 # Approval policy: untrusted | on-failure | on-request | never
 approval_policy = "on-request"
@@ -830,7 +830,7 @@ exclude_slash_tmp = false
 ```toml
 # Claude Flow V3 - Minimal Codex Configuration
 
-model = "gpt-5.3-codex"
+model = "gpt-4o.3-codex"
 approval_policy = "on-request"
 sandbox_mode = "workspace-write"
 
@@ -845,7 +845,7 @@ enabled = true
 ```toml
 # Claude Flow V3 - CI/CD Pipeline Configuration
 
-model = "gpt-5.3-codex"
+model = "gpt-4o.3-codex"
 approval_policy = "never"
 sandbox_mode = "workspace-write"
 web_search = "disabled"
@@ -966,7 +966,7 @@ const skill = await generateSkillMd({
 
 // Generate config.toml
 const config = await generateConfigToml({
-  model: 'gpt-5.3-codex',
+  model: 'gpt-4o.3-codex',
   approvalPolicy: 'on-request',
   sandboxMode: 'workspace-write',
   mcpServers: [

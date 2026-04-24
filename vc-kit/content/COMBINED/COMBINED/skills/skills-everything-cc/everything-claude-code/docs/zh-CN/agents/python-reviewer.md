@@ -2,7 +2,7 @@
 name: python-reviewer
 description: 专业的Python代码审查员，专精于PEP 8合规性、Pythonic惯用法、类型提示、安全性和性能。适用于所有Python代码变更。必须用于Python项目。
 tools: ["Read", "Grep", "Glob", "Bash"]
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

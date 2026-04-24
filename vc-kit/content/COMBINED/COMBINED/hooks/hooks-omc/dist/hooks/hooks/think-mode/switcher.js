@@ -42,8 +42,8 @@ const HIGH_VARIANT_MAP = {
     'gpt-4-turbo': 'gpt-4-turbo-high',
     'gpt-4o': 'gpt-4o-high',
     // GPT-5
-    'gpt-5': 'gpt-5-high',
-    'gpt-5-mini': 'gpt-5-mini-high',
+    'gpt-4o': 'gpt-4o-high',
+    'gpt-4o-mini': 'gpt-4o-mini-high',
     // Gemini
     'gemini-2-pro': 'gemini-2-pro-high',
     'gemini-3-pro': 'gemini-3-pro-high',
@@ -89,7 +89,7 @@ const THINKING_CAPABLE_MODELS = {
     anthropic: ['claude'],
     'amazon-bedrock': ['claude', 'anthropic'],
     google: ['gemini-2', 'gemini-3'],
-    openai: ['gpt-4', 'gpt-5', 'o1', 'o3'],
+    openai: ['gpt-4', 'gpt-4o', 'o1', 'o3'],
 };
 /**
  * Get the high-reasoning variant for a model ID.

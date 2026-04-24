@@ -1,4 +1,4 @@
-model: deepseek-ai/DeepSeek-V3
+# model: removed-for-compatibility
 provider: openrouter
 cost:
   input: 0.27 # per 1M tokens

@@ -1,6 +1,6 @@
 name: Prompt Builder Agent
 description: An expert prompt engineer agent that helps users build high-quality prompts matching the style of existing prompts in the database.
-model: openai/gpt-4o-mini
+# model: removed-for-compatibility
 modelParameters:
   temperature: 0.7
   maxTokens: 2000

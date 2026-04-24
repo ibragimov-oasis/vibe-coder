@@ -132,22 +132,22 @@ sqlite3 memory.db "SELECT problem, success_rate FROM patterns WHERE tags LIKE '%
 # DevOps agent with domain expertise
 npx agentic-flow agent devops \
   "Design a CI/CD pipeline for microservices" \
-  --model claude-sonnet-4-5-20250929
+  --model gpt-4o-5-20250929
 
 # Security agent with compliance patterns
 npx agentic-flow agent security-engineer \
   "Implement OAuth 2.0 with PKCE for mobile app" \
-  --model claude-sonnet-4-5-20250929
+  --model gpt-4o-5-20250929
 
 # Data engineer with ML patterns
 npx agentic-flow agent data-engineer \
   "Build a real-time ETL pipeline with quality checks" \
-  --model claude-sonnet-4-5-20250929
+  --model gpt-4o-5-20250929
 
 # API architect with design patterns
 npx agentic-flow agent system-architect \
   "Design a RESTful API with versioning and rate limiting" \
-  --model claude-sonnet-4-5-20250929
+  --model gpt-4o-5-20250929
 ```
 
 ## Advanced Queries

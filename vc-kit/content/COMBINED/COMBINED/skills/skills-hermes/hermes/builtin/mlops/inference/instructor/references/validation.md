@@ -66,7 +66,7 @@ class Contact(BaseModel):
     portfolio: AnyUrl  # Any valid URL scheme
 
 contact = client.messages.create(
-    model="claude-sonnet-4-5-20250929",
+    model="gpt-4o-5-20250929",
     max_tokens=1024,
     messages=[{
         "role": "user",
@@ -389,7 +389,7 @@ def extract_with_fallback(text: str):
     try:
         # Try full extraction
         return client.messages.create(
-            model="claude-sonnet-4-5-20250929",
+            model="gpt-4o-5-20250929",
             max_tokens=1024,
             messages=[{"role": "user", "content": text}],
             response_model=FullModel
@@ -397,7 +397,7 @@ def extract_with_fallback(text: str):
     except ValidationError:
         # Fall back to partial model
         return client.messages.create(
-            model="claude-sonnet-4-5-20250929",
+            model="gpt-4o-5-20250929",
             max_tokens=1024,
             messages=[{"role": "user", "content": text}],
             response_model=PartialModel
@@ -411,7 +411,7 @@ from pydantic import ValidationError
 
 try:
     result = client.messages.create(
-        model="claude-sonnet-4-5-20250929",
+        model="gpt-4o-5-20250929",
         max_tokens=1024,
         messages=[...],
         response_model=MyModel,

@@ -1,7 +1,7 @@
 ---
 name: code-simplifier
 description: Identifies code simplification opportunities for clarity and maintainability while preserving exact functionality. Use after writing or modifying code. Focuses on recently changed code unless told otherwise. Reports findings with before/after suggestions. Advisory only - does not modify files.
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/orchestration
   - artifact/workflow

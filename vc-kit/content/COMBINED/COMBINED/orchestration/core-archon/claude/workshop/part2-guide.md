@@ -249,7 +249,7 @@ Open `.claude/agents/triage-agent.md`:
 ```yaml
 ---
 name: triage-agent
-model: sonnet
+# model: removed-for-compatibility
 tools: Bash, Read, Glob, Grep
 hooks:
   PostToolUse:
@@ -458,7 +458,7 @@ isolation: worktree        # <-- own git worktree
 memory: project            # <-- remembers across runs
 permissionMode: acceptEdits # <-- auto-approve file edits
 maxTurns: 500              # <-- safety cap
-model: sonnet              # <-- specific model
+# model: removed-for-compatibility
 hooks:
   PostToolUse:
     - matcher: "Edit|Write"

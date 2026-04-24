@@ -46,7 +46,7 @@ Hermes environments are special because they run a **multi-turn agent loop with 
 
 **IMPORTANT:** Before running any test, evaluation, or data generation command, always ask the user how they want to handle inference. Do NOT assume OpenRouter or any specific endpoint. Present these options:
 
-1. **OpenRouter** — Ask which model they want to use (e.g., `anthropic/claude-sonnet-4.5`, `google/gemini-2.5-pro`, `meta-llama/llama-3.3-70b-instruct`, etc.). Requires `OPENROUTER_API_KEY` in environment.
+1. **OpenRouter** — Ask which model they want to use (e.g., `anthropic/gpt-4o.5`, `google/gemini-2.5-pro`, `meta-llama/llama-3.3-70b-instruct`, etc.). Requires `OPENROUTER_API_KEY` in environment.
 2. **Self-hosted VLLM endpoint** — Ask for their base URL (e.g., `http://localhost:8000/v1`) and model name. Set `--openai.server_type vllm`.
 3. **Other OpenAI-compatible API** — Ask for the base URL, model name, and any required API key. Set `--openai.server_type openai` and `--openai.health_check false`.
 4. **Local Atropos training server** — For `serve` mode with a live training loop. Default `http://localhost:8000/v1`.
@@ -54,7 +54,7 @@ Hermes environments are special because they run a **multi-turn agent loop with 
 Once the user tells you their setup, use those values in all CLI commands for that session. Example prompts:
 
 > "Before I run this, how would you like to handle inference?
-> 1. OpenRouter (I'll need your preferred model, e.g. claude-sonnet-4.5)
+> 1. OpenRouter (I'll need your preferred model, e.g. gpt-4o.5)
 > 2. A self-hosted VLLM endpoint (give me the URL and model name)
 > 3. Another OpenAI-compatible API (give me the URL, model, and any auth details)
 > 4. Local Atropos training server (serve mode)"

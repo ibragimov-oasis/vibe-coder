@@ -431,7 +431,7 @@ async def ui_run_praisonai(config, topic, tools_dict):
                 role=role_filled,
                 goal=goal_filled,
                 backstory=backstory_filled,
-                llm=details.get('llm', 'gpt-5-nano'),
+                llm=details.get('llm', 'gpt-4o-nano'),
                 verbose=True,
                 allow_delegation=details.get('allow_delegation', False),
                 max_iter=details.get('max_iter', 15),
@@ -540,7 +540,7 @@ async def ui_run_praisonai(config, topic, tools_dict):
                 tasks=tasks,
                 verbose=True,
                 process="hierarchical",
-                manager_llm=config.get('manager_llm', 'gpt-5-nano')
+                manager_llm=config.get('manager_llm', 'gpt-4o-nano')
             )
         else:
             prai_agents = AgentTeam(

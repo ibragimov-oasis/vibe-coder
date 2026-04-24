@@ -117184,8 +117184,8 @@
       "type": ".md"
     },
     {
-      "from": "COMBINED/agents/by-interface/agents-copilot/awesome-copilot/gpt-5-beast-mode.agent.md",
-      "to": "COMBINED/agents/by-interface/copilot/agents/gpt-5-beast-mode.agent.md",
+      "from": "COMBINED/agents/by-interface/agents-copilot/awesome-copilot/gpt-4o-beast-mode.agent.md",
+      "to": "COMBINED/agents/by-interface/copilot/agents/gpt-4o-beast-mode.agent.md",
       "category": "skills",
       "role": "copilot-skills",
       "type": ".md"
@@ -117527,8 +117527,8 @@
       "type": ".md"
     },
     {
-      "from": "COMBINED/agents/by-interface/agents-copilot/awesome-copilot/rust-gpt-4.1-beast-mode.agent.md",
-      "to": "COMBINED/agents/by-interface/copilot/agents/rust-gpt-4.1-beast-mode.agent.md",
+      "from": "COMBINED/agents/by-interface/agents-copilot/awesome-copilot/rust-gpt-4o-beast-mode.agent.md",
+      "to": "COMBINED/agents/by-interface/copilot/agents/rust-gpt-4o-beast-mode.agent.md",
       "category": "skills",
       "role": "copilot-skills",
       "type": ".md"
@@ -198041,8 +198041,8 @@
       "type": ".txt"
     },
     {
-      "from": "Prompts/system-prompts-and-models-of-ai-tools/VSCode Agent/gpt-5.txt",
-      "to": "COMBINED/prompts/system-prompts/VSCode Agent/gpt-5.txt",
+      "from": "Prompts/system-prompts-and-models-of-ai-tools/VSCode Agent/gpt-4o.txt",
+      "to": "COMBINED/prompts/system-prompts/VSCode Agent/gpt-4o.txt",
       "category": "prompts",
       "role": null,
       "type": ".txt"
@@ -198055,8 +198055,8 @@
       "type": ".txt"
     },
     {
-      "from": "Prompts/system-prompts-and-models-of-ai-tools/VSCode Agent/gpt-5-mini.txt",
-      "to": "COMBINED/prompts/system-prompts/VSCode Agent/gpt-5-mini.txt",
+      "from": "Prompts/system-prompts-and-models-of-ai-tools/VSCode Agent/gpt-4o-mini.txt",
+      "to": "COMBINED/prompts/system-prompts/VSCode Agent/gpt-4o-mini.txt",
       "category": "prompts",
       "role": null,
       "type": ".txt"
@@ -198069,29 +198069,29 @@
       "type": ".txt"
     },
     {
-      "from": "Prompts/system-prompts-and-models-of-ai-tools/VSCode Agent/gpt-4.1.txt",
-      "to": "COMBINED/prompts/system-prompts/VSCode Agent/gpt-4.1.txt",
+      "from": "Prompts/system-prompts-and-models-of-ai-tools/VSCode Agent/gpt-4o.txt",
+      "to": "COMBINED/prompts/system-prompts/VSCode Agent/gpt-4o.txt",
       "category": "prompts",
       "role": null,
       "type": ".txt"
     },
     {
-      "from": "Prompts/system-prompts-and-models-of-ai-tools/VSCode Agent/claude-sonnet-4.txt",
-      "to": "COMBINED/prompts/system-prompts/VSCode Agent/claude-sonnet-4.txt",
+      "from": "Prompts/system-prompts-and-models-of-ai-tools/VSCode Agent/gpt-4o.txt",
+      "to": "COMBINED/prompts/system-prompts/VSCode Agent/gpt-4o.txt",
       "category": "prompts",
       "role": null,
       "type": ".txt"
     },
     {
-      "from": "Prompts/system-prompts-and-models-of-ai-tools/Augment Code/gpt-5-tools.json",
-      "to": "COMBINED/prompts/system-prompts/Augment Code/gpt-5-tools.json",
+      "from": "Prompts/system-prompts-and-models-of-ai-tools/Augment Code/gpt-4o-tools.json",
+      "to": "COMBINED/prompts/system-prompts/Augment Code/gpt-4o-tools.json",
       "category": "prompts",
       "role": null,
       "type": ".json"
     },
     {
-      "from": "Prompts/system-prompts-and-models-of-ai-tools/Augment Code/gpt-5-agent-prompts.txt",
-      "to": "COMBINED/prompts/system-prompts/Augment Code/gpt-5-agent-prompts.txt",
+      "from": "Prompts/system-prompts-and-models-of-ai-tools/Augment Code/gpt-4o-agent-prompts.txt",
+      "to": "COMBINED/prompts/system-prompts/Augment Code/gpt-4o-agent-prompts.txt",
       "category": "prompts",
       "role": null,
       "type": ".txt"
@@ -198146,8 +198146,8 @@
       "type": ".yaml"
     },
     {
-      "from": "Prompts/system-prompts-and-models-of-ai-tools/Amp/gpt-5.yaml",
-      "to": "COMBINED/prompts/system-prompts/Amp/gpt-5.yaml",
+      "from": "Prompts/system-prompts-and-models-of-ai-tools/Amp/gpt-4o.yaml",
+      "to": "COMBINED/prompts/system-prompts/Amp/gpt-4o.yaml",
       "category": "prompts",
       "role": null,
       "type": ".yaml"
@@ -198839,8 +198839,8 @@
       "type": ".html"
     },
     {
-      "from": "Prompts/system_prompts_leaks/Anthropic/claude-sonnet-4.6.md",
-      "to": "COMBINED/prompts/leaked/Anthropic/claude-sonnet-4.6.md",
+      "from": "Prompts/system_prompts_leaks/Anthropic/gpt-4o.6.md",
+      "to": "COMBINED/prompts/leaked/Anthropic/gpt-4o.6.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
@@ -198860,8 +198860,8 @@
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/Anthropic/claude-sonnet-4.6-no-tools.md",
-      "to": "COMBINED/prompts/leaked/Anthropic/claude-sonnet-4.6-no-tools.md",
+      "from": "Prompts/system_prompts_leaks/Anthropic/gpt-4o.6-no-tools.md",
+      "to": "COMBINED/prompts/leaked/Anthropic/gpt-4o.6-no-tools.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
@@ -198923,8 +198923,8 @@
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5.1-professional.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5.1-professional.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o.1-professional.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o.1-professional.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
@@ -198951,8 +198951,8 @@
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5.4-thinking.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5.4-thinking.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o.4-thinking.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o.4-thinking.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
@@ -198965,15 +198965,15 @@
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5.2-mini-free-account.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5.2-mini-free-account.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o.2-mini-free-account.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o.2-mini-free-account.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5.3-codex.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5.3-codex.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o.3-codex.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o.3-codex.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
@@ -198986,8 +198986,8 @@
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5-nerdy-personality.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5-nerdy-personality.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o-nerdy-personality.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o-nerdy-personality.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
@@ -199000,50 +199000,50 @@
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5.3-codex-api.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5.3-codex-api.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o.3-codex-api.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o.3-codex-api.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5.1-candid.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5.1-candid.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o.1-candid.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o.1-candid.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5.3-chat-api.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5.3-chat-api.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o.3-chat-api.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o.3-chat-api.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5.4-api.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5.4-api.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o.4-api.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o.4-api.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5.1-default.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5.1-default.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o.1-default.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o.1-default.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5.1-friendly.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5.1-friendly.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o.1-friendly.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o.1-friendly.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5.1-efficient.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5.1-efficient.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o.1-efficient.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o.1-efficient.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
@@ -199105,15 +199105,15 @@
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5-robot-personality.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5-robot-personality.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o-robot-personality.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o-robot-personality.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5.1-nerdy.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5.1-nerdy.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o.1-nerdy.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o.1-nerdy.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
@@ -199126,15 +199126,15 @@
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5.2-thinking.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5.2-thinking.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o.2-thinking.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o.2-thinking.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5.1-cynical.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5.1-cynical.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o.1-cynical.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o.1-cynical.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
@@ -199161,15 +199161,15 @@
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5-cynic-personality.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5-cynic-personality.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o-cynic-personality.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o-cynic-personality.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5-thinking.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5-thinking.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o-thinking.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o-thinking.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
@@ -199196,15 +199196,15 @@
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5.1-quirky.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5.1-quirky.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o.1-quirky.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o.1-quirky.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5-listener-personality.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5-listener-personality.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o-listener-personality.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o-listener-personality.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
@@ -199238,8 +199238,8 @@
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-5.3-instant.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/gpt-5.3-instant.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/gpt-4o.3-instant.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/gpt-4o.3-instant.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
@@ -199518,8 +199518,8 @@
       "type": "dir"
     },
     {
-      "from": "Prompts/system_prompts_leaks/Anthropic/raw/claude-sonnet-4.6-no-tools-raw.md",
-      "to": "COMBINED/prompts/leaked/Anthropic/raw/claude-sonnet-4.6-no-tools-raw.md",
+      "from": "Prompts/system_prompts_leaks/Anthropic/raw/gpt-4o.6-no-tools-raw.md",
+      "to": "COMBINED/prompts/leaked/Anthropic/raw/gpt-4o.6-no-tools-raw.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
@@ -199539,8 +199539,8 @@
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/Anthropic/raw/claude-sonnet-4.6-raw.md",
-      "to": "COMBINED/prompts/leaked/Anthropic/raw/claude-sonnet-4.6-raw.md",
+      "from": "Prompts/system_prompts_leaks/Anthropic/raw/gpt-4o.6-raw.md",
+      "to": "COMBINED/prompts/leaked/Anthropic/raw/gpt-4o.6-raw.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
@@ -199609,8 +199609,8 @@
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/Anthropic/old/claude-sonnet-4.md",
-      "to": "COMBINED/prompts/leaked/Anthropic/old/claude-sonnet-4.md",
+      "from": "Prompts/system_prompts_leaks/Anthropic/old/gpt-4o.md",
+      "to": "COMBINED/prompts/leaked/Anthropic/old/gpt-4o.md",
       "category": "prompts",
       "role": null,
       "type": ".md"
@@ -199630,8 +199630,8 @@
       "type": ".md"
     },
     {
-      "from": "Prompts/system_prompts_leaks/OpenAI/API/gpt-5-reasoning-effort-high-API-NOT-CHATGPT.com.md",
-      "to": "COMBINED/prompts/leaked/OpenAI/API/gpt-5-reasoning-effort-high-API-NOT-CHATGPT.com.md",
+      "from": "Prompts/system_prompts_leaks/OpenAI/API/gpt-4o-reasoning-effort-high-API-NOT-CHATGPT.com.md",
+      "to": "COMBINED/prompts/leaked/OpenAI/API/gpt-4o-reasoning-effort-high-API-NOT-CHATGPT.com.md",
       "category": "prompts",
       "role": null,
       "type": ".md"

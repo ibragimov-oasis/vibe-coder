@@ -87,7 +87,7 @@ Use a dict for SessionConfig:
 ```python
 session = await client.create_session({
     "on_permission_request": PermissionHandler.approve_all,
-    "model": "gpt-5",
+    "model": "gpt-4o",
     "streaming": True,
     "tools": [...],
     "system_message": { ... },
@@ -100,7 +100,7 @@ session = await client.create_session({
 ### Session Config Options
 
 - `session_id` - Custom session ID (str)
-- `model` - Model name ("gpt-5", "claude-sonnet-4.5", etc.)
+- `model` - Model name ("gpt-4o", "gpt-4o.5", etc.)
 - `tools` - Custom tools exposed to the CLI (list[Tool])
 - `system_message` - System message customization (dict)
 - `available_tools` - Allowlist of tool names (list[str])
@@ -202,7 +202,7 @@ Set `streaming: True` in SessionConfig:
 ```python
 session = await client.create_session({
     "on_permission_request": PermissionHandler.approve_all,
-    "model": "gpt-5",
+    "model": "gpt-4o",
     "streaming": True
 })
 ```
@@ -256,7 +256,7 @@ async def fetch_issue(issue_id: str):
 
 session = await client.create_session({
     "on_permission_request": PermissionHandler.approve_all,
-    "model": "gpt-5",
+    "model": "gpt-4o",
     "tools": [
         define_tool(
             name="lookup_issue",
@@ -341,7 +341,7 @@ When Copilot invokes a tool, the client automatically:
 ```python
 session = await client.create_session({
     "on_permission_request": PermissionHandler.approve_all,
-    "model": "gpt-5",
+    "model": "gpt-4o",
     "system_message": {
         "mode": "append",
         "content": """
@@ -359,7 +359,7 @@ session = await client.create_session({
 ```python
 session = await client.create_session({
     "on_permission_request": PermissionHandler.approve_all,
-    "model": "gpt-5",
+    "model": "gpt-4o",
     "system_message": {
         "mode": "replace",
         "content": "You are a helpful assistant."
@@ -405,11 +405,11 @@ Sessions are independent and can run concurrently:
 ```python
 session1 = await client.create_session({
     "on_permission_request": PermissionHandler.approve_all,
-    "model": "gpt-5",
+    "model": "gpt-4o",
 })
 session2 = await client.create_session({
     "on_permission_request": PermissionHandler.approve_all,
-    "model": "claude-sonnet-4.5",
+    "model": "gpt-4o.5",
 })
 
 await asyncio.gather(
@@ -554,7 +554,7 @@ async def main():
     async with CopilotClient() as client:
         async with await client.create_session({
             "on_permission_request": PermissionHandler.approve_all,
-            "model": "gpt-5",
+            "model": "gpt-4o",
         }) as session:
             done = asyncio.Event()
 
@@ -720,7 +720,7 @@ await session.send(options)
 
 config: SessionConfig = {
     "on_permission_request": PermissionHandler.approve_all,
-    "model": "gpt-5",
+    "model": "gpt-4o",
     "streaming": True
 }
 session = await client.create_session(config)

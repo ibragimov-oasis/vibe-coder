@@ -2,7 +2,7 @@
 name: planner
 description: 복잡한 기능 및 리팩토링을 위한 전문 계획 스페셜리스트. 기능 구현, 아키텍처 변경, 복잡한 리팩토링 요청 시 자동으로 활성화됩니다.
 tools: ["Read", "Grep", "Glob"]
-model: opus
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

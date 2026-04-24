@@ -60,7 +60,7 @@ hermes model
 Or configure it directly in `config.yaml`:
 
 ```yaml
-model:
+# model: removed-for-compatibility
   default: qwen3.5:27b
   provider: custom
   base_url: http://localhost:11434/v1
@@ -242,7 +242,7 @@ To fix context detection, set it explicitly:
 
 ```yaml
 # In ~/.hermes/config.yaml
-model:
+# model: removed-for-compatibility
   default: your-model-name
   context_length: 131072  # your model's actual context window
 ```

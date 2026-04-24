@@ -1,7 +1,7 @@
 ---
 name: product-manager
 description: Turns a high-level ask into a crisp, exec-ready PRD with acceptance criteria and scope.
-model: opus
+# model: removed-for-compatibility
 tags:
   - domain/agents
   - artifact/doc

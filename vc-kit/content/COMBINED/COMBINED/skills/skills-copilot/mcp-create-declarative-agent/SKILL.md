@@ -12,7 +12,7 @@ tags:
 mode: 'agent'
 tools: ['changes', 'search/codebase', 'edit/editFiles', 'problems']
 description: 'Create a declarative agent for Microsoft 365 Copilot by integrating an MCP server with authentication, tool selection, and configuration'
-model: 'gpt-4.1'
+# model: removed-for-compatibility
 tags: [mcp, m365-copilot, declarative-agent, model-context-protocol, api-plugin]
 ---
 

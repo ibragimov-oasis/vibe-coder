@@ -86,18 +86,18 @@ DEFAULT_FALLBACK_CONTEXT = CONTEXT_PROBE_TIERS[0]
 # For provider-specific context lengths, models.dev is the primary source.
 DEFAULT_CONTEXT_LENGTHS = {
     # Anthropic Claude 4.6 (1M context) — bare IDs only to avoid
-    # fuzzy-match collisions (e.g. "anthropic/claude-sonnet-4" is a
-    # substring of "anthropic/claude-sonnet-4.6").
+    # fuzzy-match collisions (e.g. "anthropic/gpt-4o" is a
+    # substring of "anthropic/gpt-4o.6").
     # OpenRouter-prefixed models resolve via OpenRouter live API or models.dev.
     "claude-opus-4-6": 1000000,
-    "claude-sonnet-4-6": 1000000,
+    "gpt-4o-6": 1000000,
     "claude-opus-4.6": 1000000,
-    "claude-sonnet-4.6": 1000000,
+    "gpt-4o.6": 1000000,
     # Catch-all for older Claude models (must sort after specific entries)
     "claude": 200000,
     # OpenAI
-    "gpt-4.1": 1047576,
-    "gpt-5": 128000,
+    "gpt-4o": 1047576,
+    "gpt-4o": 128000,
     "gpt-4": 128000,
     # Google
     "gemini": 1048576,
@@ -693,8 +693,8 @@ def _query_local_context_length(model: str, base_url: str) -> Optional[int]:
 def _normalize_model_version(model: str) -> str:
     """Normalize version separators for matching.
 
-    Nous uses dashes: claude-opus-4-6, claude-sonnet-4-5
-    OpenRouter uses dots: claude-opus-4.6, claude-sonnet-4.5
+    Nous uses dashes: claude-opus-4-6, gpt-4o-5
+    OpenRouter uses dots: claude-opus-4.6, gpt-4o.5
     Normalize both to dashes for comparison.
     """
     return model.replace(".", "-")
@@ -875,7 +875,7 @@ def get_model_context_length(
     # 8. Hardcoded defaults (fuzzy match — longest key first for specificity)
     # Only check `default_model in model` (is the key a substring of the input).
     # The reverse (`model in default_model`) causes shorter names like
-    # "claude-sonnet-4" to incorrectly match "claude-sonnet-4-6" and return 1M.
+    # "gpt-4o" to incorrectly match "gpt-4o-6" and return 1M.
     model_lower = model.lower()
     for default_model, length in sorted(
         DEFAULT_CONTEXT_LENGTHS.items(), key=lambda x: len(x[0]), reverse=True

@@ -118,7 +118,7 @@ oh-my-claudecode의 전체 레퍼런스입니다. 빠른 시작은 메인 [READM
 name: architect
 description: Your custom description
 tools: Read, Grep, Glob, Bash, Edit
-model: opus # or sonnet, haiku
+# model: removed-for-compatibility
 ---
 Your custom system prompt here...
 ```

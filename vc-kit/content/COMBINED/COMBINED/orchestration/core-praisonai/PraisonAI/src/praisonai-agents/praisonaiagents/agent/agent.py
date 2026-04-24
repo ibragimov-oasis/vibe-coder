@@ -1637,7 +1637,7 @@ Your Goal: {self.goal}
             raise ValueError(
                 f"web_fetch is only supported on Anthropic/Claude models. "
                 f"Model '{self.llm}' does not support web fetch. "
-                f"Either use a Claude model (e.g., 'anthropic/claude-sonnet-4') or disable fetch with web=WebConfig(fetch=False)."
+                f"Either use a Claude model (e.g., 'anthropic/gpt-4o') or disable fetch with web=WebConfig(fetch=False)."
             )
         
         # Initialize guardrail settings

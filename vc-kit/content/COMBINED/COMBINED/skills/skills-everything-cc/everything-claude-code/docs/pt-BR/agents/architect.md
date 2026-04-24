@@ -2,7 +2,7 @@
 name: architect
 description: Especialista em arquitetura de software para design de sistemas, escalabilidade e tomada de decisões técnicas. Use PROATIVAMENTE ao planejar novas funcionalidades, refatorar sistemas grandes ou tomar decisões arquiteturais.
 tools: ["Read", "Grep", "Glob"]
-model: opus
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

@@ -18,7 +18,7 @@ class TestRenderCompact(unittest.TestCase):
             range_to="2026-01-31",
             generated_at="2026-01-31T12:00:00Z",
             mode="both",
-            openai_model_used="gpt-5.2",
+            openai_model_used="gpt-4o.2",
             xai_model_used="grok-4-latest",
         )
 
@@ -27,7 +27,7 @@ class TestRenderCompact(unittest.TestCase):
         self.assertIn("test topic", result)
         self.assertIn("2026-01-01", result)
         self.assertIn("both", result)
-        self.assertIn("gpt-5.2", result)
+        self.assertIn("gpt-4o.2", result)
 
     def test_renders_reddit_items(self):
         report = schema.Report(
@@ -94,7 +94,7 @@ class TestRenderFullReport(unittest.TestCase):
             range_to="2026-01-31",
             generated_at="2026-01-31T12:00:00Z",
             mode="both",
-            openai_model_used="gpt-5.2",
+            openai_model_used="gpt-4o.2",
             xai_model_used="grok-4-latest",
         )
 
@@ -102,7 +102,7 @@ class TestRenderFullReport(unittest.TestCase):
 
         self.assertIn("# test topic", result)
         self.assertIn("## Models Used", result)
-        self.assertIn("gpt-5.2", result)
+        self.assertIn("gpt-4o.2", result)
 
 
 class TestGetContextPath(unittest.TestCase):

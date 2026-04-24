@@ -2,7 +2,7 @@
 name: tdd-guide
 description: Especialista em Desenvolvimento Orientado a Testes que impõe a metodologia de escrever testes primeiro. Use PROATIVAMENTE ao escrever novas funcionalidades, corrigir bugs ou refatorar código. Garante cobertura de testes de 80%+.
 tools: ["Read", "Write", "Edit", "Bash", "Grep"]
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

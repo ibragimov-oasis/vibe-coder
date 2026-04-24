@@ -1,6 +1,6 @@
 name: Generate Example Code
 description: Generates creative example code using the prompts.chat library API
-model: openai/gpt-4o
+# model: removed-for-compatibility
 modelParameters:
   temperature: 0.9
   maxTokens: 2000

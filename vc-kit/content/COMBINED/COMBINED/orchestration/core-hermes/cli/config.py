@@ -1376,7 +1376,7 @@ _FALLBACK_COMMENT = """
 #
 # fallback_model:
 #   provider: openrouter
-#   model: anthropic/claude-sonnet-4
+#   model: anthropic/gpt-4o
 #
 # ── Smart Model Routing ────────────────────────────────────────────────
 # Optional cheap-vs-strong routing for simple turns.
@@ -1419,7 +1419,7 @@ _COMMENTED_SECTIONS = """
 #
 # fallback_model:
 #   provider: openrouter
-#   model: anthropic/claude-sonnet-4
+#   model: anthropic/gpt-4o
 #
 # ── Smart Model Routing ────────────────────────────────────────────────
 # Optional cheap-vs-strong routing for simple turns.
@@ -1973,7 +1973,7 @@ def config_command(args):
             print("Usage: hermes config set <key> <value>")
             print()
             print("Examples:")
-            print("  hermes config set model anthropic/claude-sonnet-4")
+            print("  hermes config set model anthropic/gpt-4o")
             print("  hermes config set terminal.backend docker")
             print("  hermes config set OPENROUTER_API_KEY sk-or-...")
             sys.exit(1)

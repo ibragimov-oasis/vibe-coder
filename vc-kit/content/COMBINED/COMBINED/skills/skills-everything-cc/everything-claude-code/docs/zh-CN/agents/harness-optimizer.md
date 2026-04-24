@@ -2,7 +2,7 @@
 name: harness-optimizer
 description: 分析并改进本地代理工具配置以提高可靠性、降低成本并增加吞吐量。
 tools: ["Read", "Grep", "Glob", "Bash", "Edit"]
-model: sonnet
+# model: removed-for-compatibility
 color: teal
 tags:
   - domain/skills

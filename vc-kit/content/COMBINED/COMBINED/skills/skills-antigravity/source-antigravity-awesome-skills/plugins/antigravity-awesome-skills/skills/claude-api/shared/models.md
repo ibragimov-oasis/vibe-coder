@@ -14,7 +14,7 @@ tags:
 | Friendly Name     | Alias (use this)    | Full ID                       | Context        | Max Output | Status |
 |-------------------|---------------------|-------------------------------|----------------|------------|--------|
 | Claude Opus 4.6   | `claude-opus-4-6`   | —                             | 200K (1M beta) | 128K       | Active |
-| Claude Sonnet 4.6 | `claude-sonnet-4-6` | -                             | 200K (1M beta) | 64K        | Active |
+| Claude Sonnet 4.6 | `gpt-4o-6` | -                             | 200K (1M beta) | 64K        | Active |
 | Claude Haiku 4.5  | `claude-haiku-4-5`  | `claude-haiku-4-5-20251001`   | 200K           | 64K        | Active |
 
 ### Model Descriptions
@@ -29,8 +29,8 @@ tags:
 |-------------------|---------------------|-------------------------------|--------|
 | Claude Opus 4.5   | `claude-opus-4-5`   | `claude-opus-4-5-20251101`    | Active |
 | Claude Opus 4.1   | `claude-opus-4-1`   | `claude-opus-4-1-20250805`    | Active |
-| Claude Sonnet 4.5 | `claude-sonnet-4-5` | `claude-sonnet-4-5-20250929`  | Active |
-| Claude Sonnet 4   | `claude-sonnet-4-0` | `claude-sonnet-4-20250514`    | Active |
+| Claude Sonnet 4.5 | `gpt-4o-5` | `gpt-4o-5-20250929`  | Active |
+| Claude Sonnet 4   | `gpt-4o-0` | `gpt-4o-20250514`    | Active |
 | Claude Opus 4     | `claude-opus-4-0`   | `claude-opus-4-20250514`      | Active |
 
 ## Deprecated Models (retiring soon)
@@ -63,12 +63,12 @@ When a user asks for a model by name, use this table to find the correct model I
 | "opus 4.5"                                | `claude-opus-4-5`              |
 | "opus 4.1"                                | `claude-opus-4-1`              |
 | "opus 4", "opus 4.0"                      | `claude-opus-4-0`              |
-| "sonnet", "balanced"                      | `claude-sonnet-4-6`            |
-| "sonnet 4.6"                              | `claude-sonnet-4-6`            |
-| "sonnet 4.5"                              | `claude-sonnet-4-5`            |
-| "sonnet 4", "sonnet 4.0"                  | `claude-sonnet-4-0`            |
-| "sonnet 3.7"                              | Retired — suggest `claude-sonnet-4-5` |
-| "sonnet 3.5"                              | Retired — suggest `claude-sonnet-4-5` |
+| "sonnet", "balanced"                      | `gpt-4o-6`            |
+| "sonnet 4.6"                              | `gpt-4o-6`            |
+| "sonnet 4.5"                              | `gpt-4o-5`            |
+| "sonnet 4", "sonnet 4.0"                  | `gpt-4o-0`            |
+| "sonnet 3.7"                              | Retired — suggest `gpt-4o-5` |
+| "sonnet 3.5"                              | Retired — suggest `gpt-4o-5` |
 | "haiku", "fast", "cheap"                  | `claude-haiku-4-5`             |
 | "haiku 4.5"                               | `claude-haiku-4-5`             |
 | "haiku 3.5"                               | Retired — suggest `claude-haiku-4-5` |

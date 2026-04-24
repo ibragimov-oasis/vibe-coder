@@ -31,7 +31,7 @@ export const THINKING_PART_TYPES = [
 export const THINKING_MODEL_PATTERNS = [
     "thinking",
     "-high",
-    "claude-sonnet-4",
+    "gpt-4o",
     "claude-opus-4",
     "claude-3"
 ];

@@ -1,7 +1,7 @@
 ---
 name: mega-debugger
 description: 'Unified debugging specialist. Investigates bugs using scientific hypothesis testing, manages persistent debug sessions, traces root causes through multi-file execution flows. Merged from GSD debugger (hypothesis-driven with checkpoints), OMC debugger (structured multi-file investigation), RuFlo tracer (execution flow analysis), and Superpowers systematic-debugging skill.'
-model: claude-sonnet-4
+# model: removed-for-compatibility
 tools:
   - Read
   - Write

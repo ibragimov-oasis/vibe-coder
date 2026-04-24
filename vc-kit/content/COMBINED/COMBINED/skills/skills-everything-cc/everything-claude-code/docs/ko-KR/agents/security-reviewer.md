@@ -2,7 +2,7 @@
 name: security-reviewer
 description: 보안 취약점 감지 및 수정 전문가. 사용자 입력 처리, 인증, API 엔드포인트, 민감한 데이터를 다루는 코드 작성 후 사용하세요. 시크릿, SSRF, 인젝션, 안전하지 않은 암호화, OWASP Top 10 취약점을 플래그합니다.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

@@ -532,7 +532,7 @@ npx ruflo@latest init --dual
 | Skill Syntax | `/skill-name` | `$skill-name` |
 | Settings | `settings.json` | `config.toml` |
 | MCP | Native | Via `codex mcp add` |
-| Default Model | claude-sonnet | gpt-5.3 |
+| Default Model | claude-sonnet | gpt-4o.3 |
 
 ### Key Concept: Execution Model
 
@@ -7143,7 +7143,7 @@ Ruflo looks for configuration in this order:
     "default": "anthropic",
     "fallback": ["openai", "google"],
     "anthropic": {
-      "model": "claude-sonnet-4-6-20250514",
+      "model": "gpt-4o-6-20250514",
       "maxTokens": 8192
     },
     "openai": {

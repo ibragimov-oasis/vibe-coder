@@ -170,7 +170,7 @@ Platform: linux
 OS Version: Linux 6.8.0-71-generic
 Today's date: 2025-09-29
 </env>
-You are powered by the model named Sonnet 4.5. The exact model ID is claude-sonnet-4-5-20250929.
+You are powered by the model named Sonnet 4.5. The exact model ID is gpt-4o-5-20250929.
 
 Assistant knowledge cutoff is January 2025.
 

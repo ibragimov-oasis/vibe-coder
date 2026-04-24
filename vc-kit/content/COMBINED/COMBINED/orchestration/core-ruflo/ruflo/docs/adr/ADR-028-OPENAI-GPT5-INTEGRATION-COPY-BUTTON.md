@@ -25,8 +25,8 @@ The chat system currently only supports Google Gemini models. Users want the abi
 
 ### Why GPT-5
 
-- OpenAI's GPT-5 (`gpt-5`) is the latest flagship reasoning model, offering strong instruction following and function calling.
-- `gpt-5-mini` provides a cost-effective alternative with comparable quality for most workflow/FAQ queries.
+- OpenAI's GPT-5 (`gpt-4o`) is the latest flagship reasoning model, offering strong instruction following and function calling.
+- `gpt-4o-mini` provides a cost-effective alternative with comparable quality for most workflow/FAQ queries.
 - Having multiple providers improves resilience -- if one provider is rate-limited or down, users can switch.
 
 ## Decision
@@ -71,7 +71,7 @@ Create `src/services/OpenAIService.ts` using the `openai` npm package (v4+):
 | Concern | Approach |
 |---------|----------|
 | **Client** | `new OpenAI({ apiKey, dangerouslyAllowBrowser: true })` -- same client-side key pattern as current Gemini setup |
-| **Model** | `gpt-5-mini` default (cost-effective), `gpt-5` available |
+| **Model** | `gpt-4o-mini` default (cost-effective), `gpt-4o` available |
 | **System prompt** | Native `role: 'system'` message (cleaner than Gemini's user-message workaround) |
 | **Function calling** | Wrap `FunctionDeclaration[]` into OpenAI `tools` format: `{ type: 'function', function: { name, description, parameters } }` |
 | **Streaming** | Standard `stream: true` on chat completions; accumulate `tool_calls` deltas before parsing |
@@ -253,8 +253,8 @@ ENV VITE_OPENAI_API_KEY=${OPENAI_API_KEY}
 |----------|-------|----------|----------------|
 | Google | `gemini-2.5-flash` | Fast, cost-effective (default) | 1M tokens |
 | Google | `gemini-2.5-pro` | Best Gemini reasoning | 1M tokens |
-| OpenAI | `gpt-5-mini` | GPT-5 mini reasoning | 1M tokens |
-| OpenAI | `gpt-5` | GPT-5 flagship | 1M tokens |
+| OpenAI | `gpt-4o-mini` | GPT-5 mini reasoning | 1M tokens |
+| OpenAI | `gpt-4o` | GPT-5 flagship | 1M tokens |
 
 ## Verification Criteria
 

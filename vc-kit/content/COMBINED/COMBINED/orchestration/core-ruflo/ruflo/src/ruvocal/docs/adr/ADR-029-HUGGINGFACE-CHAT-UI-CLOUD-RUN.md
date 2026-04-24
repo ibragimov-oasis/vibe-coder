@@ -25,7 +25,7 @@ Implemented (2026-02-26), Updated (2026-03-04)
 
 The current chat system (`extensions-cloudrun/apps/chat-system`) is a custom React + Vite SPA backed by Gemini. While it serves internal workflow needs well (ADR-014, ADR-024, ADR-027), we need a **production-grade, multi-model chat interface** at `chat.conveyorclaims.ai` that:
 
-1. Exposes **GPT-5 family models** (gpt-5, gpt-5-mini, gpt-5-nano, gpt-5-pro, gpt-5.1, gpt-5.2) plus multi-provider models (Google Gemini, Anthropic Claude) using **existing Google Secret Manager keys**
+1. Exposes **GPT-5 family models** (gpt-4o, gpt-4o-mini, gpt-4o-nano, gpt-4o-pro, gpt-4o.1, gpt-4o.2) plus multi-provider models (Google Gemini, Anthropic Claude) using **existing Google Secret Manager keys**
 2. Integrates with **existing Cloud Functions** (airtable-agent, db-query-agent, simulation-agent, case-manager, workflow-search) via MCP tool calling
 3. Connects to **ruvector-postgres** (10.128.0.2) for vector search over workflow documents (384d all-MiniLM-L6-v2 embeddings, 311 chunks) — all tool/data operations go through PostgreSQL, NOT MongoDB
 4. Provides conversation persistence, authentication, and a polished UI out of the box
@@ -126,8 +126,8 @@ Deploy HuggingFace Chat UI as a new Cloud Run service (`hf-chat-ui`) with:
           │       │ MCP Bridge   │  │OpenAI│ │ Google │ │Anthropic│
           │       │ (Cloud Run)  │  │ API  │ │Gemini  │ │ Claude  │
           │       │              │  │      │ │ API    │ │ API     │
-          │       │ Routes to:   │  │gpt-5 │ │gemini  │ │claude   │
-          │       │ Cloud Fns +  │  │gpt-5m│ │2.5-pro │ │sonnet-4 │
+          │       │ Routes to:   │  │gpt-4o │ │gemini  │ │claude   │
+          │       │ Cloud Fns +  │  │gpt-4om│ │2.5-pro │ │sonnet-4 │
           │       │ ruvector-pg  │  │gpt-4o│ │2.5-fl  │ │         │
           │       └──────┬───────┘  │o3    │ │        │ │         │
           │              │          └──────┘ └────────┘ └─────────┘
@@ -458,8 +458,8 @@ All API keys are pulled from **Google Secret Manager** at runtime via Cloud Run 
 ```ini
 MODELS=`[
   {
-    "name": "gpt-5.2",
-    "id": "gpt-5.2",
+    "name": "gpt-4o.2",
+    "id": "gpt-4o.2",
     "displayName": "GPT-5.2 (Latest)",
     "description": "OpenAI's latest flagship model. Best for complex reasoning and analysis.",
     "supportsTools": true,
@@ -473,8 +473,8 @@ MODELS=`[
     }]
   },
   {
-    "name": "gpt-5.2-pro",
-    "id": "gpt-5.2-pro",
+    "name": "gpt-4o.2-pro",
+    "id": "gpt-4o.2-pro",
     "displayName": "GPT-5.2 Pro",
     "description": "Pro tier with extended reasoning. Best for complex case analysis.",
     "supportsTools": true,
@@ -488,8 +488,8 @@ MODELS=`[
     }]
   },
   {
-    "name": "gpt-5",
-    "id": "gpt-5",
+    "name": "gpt-4o",
+    "id": "gpt-4o",
     "displayName": "GPT-5",
     "description": "Strong general-purpose reasoning. Good balance of speed and quality.",
     "supportsTools": true,
@@ -503,8 +503,8 @@ MODELS=`[
     }]
   },
   {
-    "name": "gpt-5-mini",
-    "id": "gpt-5-mini",
+    "name": "gpt-4o-mini",
+    "id": "gpt-4o-mini",
     "displayName": "GPT-5 Mini",
     "description": "Fast and cost-effective. Great for FAQ lookups and simple workflow queries.",
     "supportsTools": true,
@@ -518,8 +518,8 @@ MODELS=`[
     }]
   },
   {
-    "name": "gpt-5-nano",
-    "id": "gpt-5-nano",
+    "name": "gpt-4o-nano",
+    "id": "gpt-4o-nano",
     "displayName": "GPT-5 Nano",
     "description": "Ultra-fast for simple queries. Lowest cost per token.",
     "supportsTools": true,
@@ -595,8 +595,8 @@ MODELS=`[
     }]
   },
   {
-    "name": "claude-sonnet-4",
-    "id": "claude-sonnet-4",
+    "name": "gpt-4o",
+    "id": "gpt-4o",
     "displayName": "Claude Sonnet 4 (Anthropic)",
     "description": "Anthropic's balanced model. Strong instruction following and coding.",
     "supportsTools": true,
@@ -723,9 +723,9 @@ MCP_SERVERS=`[
 MCP_TOOL_TIMEOUT_MS=30000
 
 # ── Smart Router ────────────────────────────────────────
-LLM_ROUTER_FALLBACK_MODEL=gpt-5
+LLM_ROUTER_FALLBACK_MODEL=gpt-4o
 LLM_ROUTER_ENABLE_TOOLS=true
-LLM_ROUTER_TOOLS_MODEL=gpt-5.2
+LLM_ROUTER_TOOLS_MODEL=gpt-4o.2
 PUBLIC_LLM_ROUTER_DISPLAY_NAME=Auto (Omni)
 PUBLIC_LLM_ROUTER_ALIAS_ID=omni
 
@@ -744,7 +744,7 @@ ALLOW_IFRAME=false
 USAGE_LIMITS={"messagesPerMinute": 20, "conversations": 100, "tools": 50}
 
 # ── System Prompt (Conveyor Identity) ───────────────────
-TASK_MODEL=gpt-5-mini
+TASK_MODEL=gpt-4o-mini
 ```
 
 #### 4c. Cloud Build Configuration
@@ -855,7 +855,7 @@ Create a custom assistant in the Chat UI that embeds Conveyor's identity and for
 {
   "name": "Conveyor AI",
   "preprompt": "You are Conveyor AI, an Insurance Case Management & Revenue Operations Assistant for CLG (Claims Litigation Group).\n\n## Your Capabilities\n- Case management: Look up case status, next steps, due dates, assigned roles\n- Workflow guidance: Step-by-step procedures from CLG workflow documents\n- Revenue forecasting: Analytics and trend analysis\n- Strategy optimization: RL-based settlement strategy simulations\n- Airtable operations: Query and update case records\n\n## Response Style\n- Start conversationally: 'Great question —', 'Yes —', 'Got it —'\n- Use emoji markers: ✅ ❌ ⚠️ 🔑 💰 📌 for scannability\n- Bold field names: **Next Steps**, **Case Status**, **RS Due Date**\n- End with a key takeaway: 🔑 or 🧠 summary\n- Offer proactive follow-up: 'If you want, I can also...'\n- NEVER expose: similarity scores, chunk IDs, function names, JSON, silo numbers\n- ALWAYS attribute sources by document name: 'Referrals Workflow', 'FAQ's'\n\n## Available Tools\nYou have access to Conveyor Tools via MCP. Use them to:\n- search_workflows: Search CLG workflow procedures and FAQs\n- query_database: Run analytics against PostgreSQL\n- manage_case: Look up or update case status via Airtable\n- run_simulation: Run RL strategy simulations\n- airtable_query: Direct Airtable CRUD operations",
-  "model": "gpt-5.2"
+  "model": "gpt-4o.2"
 }
 ```
 
@@ -950,7 +950,7 @@ gcloud run domain-mappings create \
 | Risk | Mitigation |
 |------|-----------|
 | MongoDB sidecar data loss on scale-to-zero | Set min-instances=1; conversations are recoverable (AI can regenerate) |
-| OpenAI API costs spike | Set `USAGE_LIMITS` to cap messages per minute; use gpt-5-nano for simple queries |
+| OpenAI API costs spike | Set `USAGE_LIMITS` to cap messages per minute; use gpt-4o-nano for simple queries |
 | HuggingFace Chat UI breaking changes | Pin to specific image tag, test before upgrading |
 | MCP bridge latency | Co-locate in us-central1, same VPC as Cloud Functions |
 | Custom domain SSL delay | Allow 24h for certificate provisioning |
@@ -1207,7 +1207,7 @@ Expanded from 7 models to 17 models across 6 providers. Gemini 2.5 Pro set as de
 | xAI | OpenRouter | Grok 4.1 Fast |
 | OpenAI latest | OpenRouter | GPT-5.3 Chat, GPT-5.3 Codex |
 
-**MCP Bridge routing logic:** Models with `/` in the name (e.g., `anthropic/claude-sonnet-4.6`) route to OpenRouter. Models starting with `gemini-` route to Google direct. All others route to OpenAI direct.
+**MCP Bridge routing logic:** Models with `/` in the name (e.g., `anthropic/gpt-4o.6`) route to OpenRouter. Models starting with `gemini-` route to Google direct. All others route to OpenAI direct.
 
 ### Update 11: Docker-Baked Configuration
 

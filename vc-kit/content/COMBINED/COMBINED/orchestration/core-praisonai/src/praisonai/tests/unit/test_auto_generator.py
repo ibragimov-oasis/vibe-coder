@@ -29,7 +29,7 @@ class TestAutoGeneratorDefaultModel:
     """Test suite for default model configuration."""
     
     def test_default_model_is_gpt4o_mini(self):
-        """Test that default model is gpt-4o-mini, not gpt-5-nano."""
+        """Test that default model is gpt-4o-mini, not gpt-4o-nano."""
         # Clear environment variables to test defaults
         with patch.dict(os.environ, {}, clear=True):
             # Set required API key

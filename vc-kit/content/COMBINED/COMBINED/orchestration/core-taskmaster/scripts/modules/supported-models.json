@@ -1,7 +1,7 @@
 {
 	"anthropic": [
 		{
-			"id": "claude-sonnet-4-20250514",
+			"id": "gpt-4o-20250514",
 			"swe_score": 0.727,
 			"cost_per_1m_tokens": {
 				"input": 3.0,
@@ -45,7 +45,7 @@
 			"supported": true
 		},
 		{
-			"id": "claude-sonnet-4-5",
+			"id": "gpt-4o-5",
 			"name": "Claude Sonnet 4.5",
 			"swe_score": 0.772,
 			"cost_per_1m_tokens": {
@@ -130,7 +130,7 @@
 	],
 	"codex-cli": [
 		{
-			"id": "gpt-5.2-codex",
+			"id": "gpt-4o.2-codex",
 			"name": "GPT-5.2 Codex",
 			"swe_score": 0.82,
 			"cost_per_1m_tokens": {
@@ -143,7 +143,7 @@
 			"supported": true
 		},
 		{
-			"id": "gpt-5.1-codex-max",
+			"id": "gpt-4o.1-codex-max",
 			"name": "GPT-5.1 Codex Max",
 			"swe_score": 0.78,
 			"cost_per_1m_tokens": {
@@ -156,7 +156,7 @@
 			"supported": true
 		},
 		{
-			"id": "gpt-5.1-codex-mini",
+			"id": "gpt-4o.1-codex-mini",
 			"name": "GPT-5.1 Codex Mini",
 			"swe_score": 0.72,
 			"cost_per_1m_tokens": {
@@ -169,7 +169,7 @@
 			"supported": true
 		},
 		{
-			"id": "gpt-5.2",
+			"id": "gpt-4o.2",
 			"name": "GPT-5.2",
 			"swe_score": 0.8,
 			"cost_per_1m_tokens": {
@@ -427,7 +427,7 @@
 			"supported": true
 		},
 		{
-			"id": "gpt-5",
+			"id": "gpt-4o",
 			"swe_score": 0.749,
 			"cost_per_1m_tokens": {
 				"input": 5.0,
@@ -439,7 +439,7 @@
 			"supported": true
 		},
 		{
-			"id": "gpt-5.1",
+			"id": "gpt-4o.1",
 			"swe_score": 0.76,
 			"cost_per_1m_tokens": {
 				"input": 1.25,
@@ -451,7 +451,7 @@
 			"supported": true
 		},
 		{
-			"id": "gpt-5.1-codex-max",
+			"id": "gpt-4o.1-codex-max",
 			"swe_score": 0.78,
 			"cost_per_1m_tokens": {
 				"input": 1.25,
@@ -463,7 +463,7 @@
 			"supported": true
 		},
 		{
-			"id": "gpt-5.2",
+			"id": "gpt-4o.2",
 			"swe_score": 0.8,
 			"cost_per_1m_tokens": {
 				"input": 1.75,
@@ -475,7 +475,7 @@
 			"supported": true
 		},
 		{
-			"id": "gpt-5.2-pro",
+			"id": "gpt-4o.2-pro",
 			"swe_score": 0.82,
 			"cost_per_1m_tokens": {
 				"input": 21.0,
@@ -820,7 +820,7 @@
 			"supported": true
 		},
 		{
-			"id": "openai/gpt-4.1",
+			"id": "openai/gpt-4o",
 			"swe_score": 0,
 			"cost_per_1m_tokens": {
 				"input": 2,
@@ -831,7 +831,7 @@
 			"supported": true
 		},
 		{
-			"id": "openai/gpt-4.1-mini",
+			"id": "openai/gpt-4o-mini",
 			"swe_score": 0,
 			"cost_per_1m_tokens": {
 				"input": 0.4,
@@ -842,7 +842,7 @@
 			"supported": true
 		},
 		{
-			"id": "openai/gpt-4.1-nano",
+			"id": "openai/gpt-4o-nano",
 			"swe_score": 0,
 			"cost_per_1m_tokens": {
 				"input": 0.1,
@@ -1252,7 +1252,7 @@
 			"supported": true
 		},
 		{
-			"id": "gpt-5",
+			"id": "gpt-4o",
 			"name": "GPT-5",
 			"swe_score": 0.749,
 			"cost_per_1m_tokens": {
@@ -1318,7 +1318,7 @@
 			"api_type": "responses"
 		},
 		{
-			"id": "gpt-5.1",
+			"id": "gpt-4o.1",
 			"name": "GPT-5.1",
 			"swe_score": 0.76,
 			"cost_per_1m_tokens": {
@@ -1332,7 +1332,7 @@
 			"api_type": "responses"
 		},
 		{
-			"id": "gpt-5.2",
+			"id": "gpt-4o.2",
 			"name": "GPT-5.2",
 			"swe_score": 0.8,
 			"cost_per_1m_tokens": {
@@ -1419,7 +1419,7 @@
 			"supported": true
 		},
 		{
-			"id": "us.anthropic.claude-sonnet-4-20250514-v1:0",
+			"id": "us.anthropic.gpt-4o-20250514-v1:0",
 			"swe_score": 0.727,
 			"cost_per_1m_tokens": {
 				"input": 3,

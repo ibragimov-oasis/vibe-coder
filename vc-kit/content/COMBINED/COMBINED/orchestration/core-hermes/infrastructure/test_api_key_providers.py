@@ -551,13 +551,13 @@ class TestRuntimeProviderResolution:
         monkeypatch.setattr("hermes_cli.copilot_auth._try_gh_cli_token", lambda: "gho_cli_secret")
         monkeypatch.setattr(
             "hermes_cli.runtime_provider._get_model_config",
-            lambda: {"provider": "copilot", "default": "gpt-5.4"},
+            lambda: {"provider": "copilot", "default": "gpt-4o.4"},
         )
         monkeypatch.setattr(
             "hermes_cli.models.fetch_github_model_catalog",
             lambda api_key=None, timeout=5.0: [
                 {
-                    "id": "gpt-5.4",
+                    "id": "gpt-4o.4",
                     "supported_endpoints": ["/responses"],
                     "capabilities": {"type": "chat"},
                 }

@@ -306,7 +306,7 @@ chmod +x .kiro/scripts/*.sh
   "name": "my-agent",
   "description": "My custom agent",
   "prompt": "You are a specialized agent for...",
-  "model": "claude-sonnet-4-5"
+  "model": "gpt-4o-5"
 }
 ```
 

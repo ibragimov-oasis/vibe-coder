@@ -1085,7 +1085,7 @@ _This is a starter template repository designed to provide a complete developmen
 
 
 <a href="https://github.com/carlrannaberg/claudekit"><img src="../assets/badge-claudekit.svg" alt="claudekit"></a>  
-_Impressive CLI toolkit providing auto-save checkpointing, code quality hooks, specification generation and execution, and 20+ specialized subagents including oracle (gpt-5), code-reviewer (6-aspect deep analysis), ai-sdk-expert (Vercel AI SDK), typescript-expert and many more for Claude Code workflows._  
+_Impressive CLI toolkit providing auto-save checkpointing, code quality hooks, specification generation and execution, and 20+ specialized subagents including oracle (gpt-4o), code-reviewer (6-aspect deep analysis), ai-sdk-expert (Vercel AI SDK), typescript-expert and many more for Claude Code workflows._  
 ![GitHub Stats for claudekit](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=claudekit&username=carlrannaberg&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>

@@ -1,7 +1,7 @@
 ---
 name: security-reviewer
 description: Security vulnerability detection specialist (OWASP Top 10, secrets, unsafe patterns)
-model: claude-opus-4-6
+# model: removed-for-compatibility
 level: 3
 disallowedTools: Write, Edit
 tags:

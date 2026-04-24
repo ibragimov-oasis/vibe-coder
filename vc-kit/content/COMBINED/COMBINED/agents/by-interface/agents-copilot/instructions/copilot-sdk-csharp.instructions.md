@@ -70,7 +70,7 @@ Use `SessionConfig` for configuration:
 await using var session = await client.CreateSessionAsync(new SessionConfig
 {
     OnPermissionRequest = PermissionHandler.ApproveAll,
-    Model = "gpt-5",
+    Model = "gpt-4o",
     Streaming = true,
     Tools = [...],
     SystemMessage = new SystemMessageConfig { ... },
@@ -83,7 +83,7 @@ await using var session = await client.CreateSessionAsync(new SessionConfig
 ### Session Config Options
 
 - `SessionId` - Custom session ID
-- `Model` - Model name ("gpt-5", "claude-sonnet-4.5", etc.)
+- `Model` - Model name ("gpt-4o", "gpt-4o.5", etc.)
 - `Tools` - Custom tools exposed to the CLI
 - `SystemMessage` - System message customization
 - `AvailableTools` - Allowlist of tool names
@@ -188,7 +188,7 @@ Set `Streaming = true` in SessionConfig:
 var session = await client.CreateSessionAsync(new SessionConfig
 {
     OnPermissionRequest = PermissionHandler.ApproveAll,
-    Model = "gpt-5",
+    Model = "gpt-4o",
     Streaming = true
 });
 ```
@@ -247,7 +247,7 @@ using System.ComponentModel;
 var session = await client.CreateSessionAsync(new SessionConfig
 {
     OnPermissionRequest = PermissionHandler.ApproveAll,
-    Model = "gpt-5",
+    Model = "gpt-4o",
     Tools = [
         AIFunctionFactory.Create(
             async ([Description("Issue ID")] string id) => {
@@ -280,7 +280,7 @@ When Copilot invokes a tool, the client automatically:
 var session = await client.CreateSessionAsync(new SessionConfig
 {
     OnPermissionRequest = PermissionHandler.ApproveAll,
-    Model = "gpt-5",
+    Model = "gpt-4o",
     SystemMessage = new SystemMessageConfig
     {
         Mode = SystemMessageMode.Append,
@@ -300,7 +300,7 @@ var session = await client.CreateSessionAsync(new SessionConfig
 var session = await client.CreateSessionAsync(new SessionConfig
 {
     OnPermissionRequest = PermissionHandler.ApproveAll,
-    Model = "gpt-5",
+    Model = "gpt-4o",
     SystemMessage = new SystemMessageConfig
     {
         Mode = SystemMessageMode.Replace,
@@ -352,12 +352,12 @@ Sessions are independent and can run concurrently:
 var session1 = await client.CreateSessionAsync(new SessionConfig
 {
     OnPermissionRequest = PermissionHandler.ApproveAll,
-    Model = "gpt-5",
+    Model = "gpt-4o",
 });
 var session2 = await client.CreateSessionAsync(new SessionConfig
 {
     OnPermissionRequest = PermissionHandler.ApproveAll,
-    Model = "claude-sonnet-4.5",
+    Model = "gpt-4o.5",
 });
 
 await session1.SendAsync(new MessageOptions { Prompt = "Hello from session 1" });
@@ -500,7 +500,7 @@ await client.StartAsync();
 await using var session = await client.CreateSessionAsync(new SessionConfig
 {
     OnPermissionRequest = PermissionHandler.ApproveAll,
-    Model = "gpt-5"
+    Model = "gpt-4o"
 });
 
 var done = new TaskCompletionSource();

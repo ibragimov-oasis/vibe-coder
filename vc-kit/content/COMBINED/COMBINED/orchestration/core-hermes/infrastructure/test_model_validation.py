@@ -22,9 +22,9 @@ from hermes_cli.models import (
 
 FAKE_API_MODELS = [
     "anthropic/claude-opus-4.6",
-    "anthropic/claude-sonnet-4.5",
-    "openai/gpt-5.4-pro",
-    "openai/gpt-5.4",
+    "anthropic/gpt-4o.5",
+    "openai/gpt-4o.4-pro",
+    "openai/gpt-4o.4",
     "google/gemini-3-pro-preview",
 ]
 
@@ -47,14 +47,14 @@ def _validate(model, provider="openrouter", api_models=FAKE_API_MODELS, **kw):
 
 class TestParseModelInput:
     def test_plain_model_keeps_current_provider(self):
-        provider, model = parse_model_input("anthropic/claude-sonnet-4.5", "openrouter")
+        provider, model = parse_model_input("anthropic/gpt-4o.5", "openrouter")
         assert provider == "openrouter"
-        assert model == "anthropic/claude-sonnet-4.5"
+        assert model == "anthropic/gpt-4o.5"
 
     def test_provider_colon_model_switches_provider(self):
-        provider, model = parse_model_input("openrouter:anthropic/claude-sonnet-4.5", "nous")
+        provider, model = parse_model_input("openrouter:anthropic/gpt-4o.5", "nous")
         assert provider == "openrouter"
-        assert model == "anthropic/claude-sonnet-4.5"
+        assert model == "anthropic/gpt-4o.5"
 
     def test_provider_alias_resolved(self):
         provider, model = parse_model_input("glm:glm-5", "openrouter")
@@ -62,9 +62,9 @@ class TestParseModelInput:
         assert model == "glm-5"
 
     def test_no_slash_no_colon_keeps_provider(self):
-        provider, model = parse_model_input("gpt-5.4", "openrouter")
+        provider, model = parse_model_input("gpt-4o.4", "openrouter")
         assert provider == "openrouter"
-        assert model == "gpt-5.4"
+        assert model == "gpt-4o.4"
 
     def test_nous_provider_switch(self):
         provider, model = parse_model_input("nous:hermes-3", "openrouter")
@@ -179,20 +179,20 @@ class TestProviderModelIds:
 
     def test_copilot_prefers_live_catalog(self):
         with patch("hermes_cli.auth.resolve_api_key_provider_credentials", return_value={"api_key": "gh-token"}), \
-             patch("hermes_cli.models._fetch_github_models", return_value=["gpt-5.4", "claude-sonnet-4.6"]):
-            assert provider_model_ids("copilot") == ["gpt-5.4", "claude-sonnet-4.6"]
+             patch("hermes_cli.models._fetch_github_models", return_value=["gpt-4o.4", "gpt-4o.6"]):
+            assert provider_model_ids("copilot") == ["gpt-4o.4", "gpt-4o.6"]
 
     def test_copilot_acp_reuses_copilot_catalog(self):
         with patch("hermes_cli.auth.resolve_api_key_provider_credentials", return_value={"api_key": "gh-token"}), \
-             patch("hermes_cli.models._fetch_github_models", return_value=["gpt-5.4", "claude-sonnet-4.6"]):
-            assert provider_model_ids("copilot-acp") == ["gpt-5.4", "claude-sonnet-4.6"]
+             patch("hermes_cli.models._fetch_github_models", return_value=["gpt-4o.4", "gpt-4o.6"]):
+            assert provider_model_ids("copilot-acp") == ["gpt-4o.4", "gpt-4o.6"]
 
     def test_copilot_acp_falls_back_to_copilot_defaults(self):
         with patch("hermes_cli.auth.resolve_api_key_provider_credentials", side_effect=Exception("no token")), \
              patch("hermes_cli.models._fetch_github_models", return_value=None):
             ids = provider_model_ids("copilot-acp")
 
-        assert "gpt-5.4" in ids
+        assert "gpt-4o.4" in ids
         assert "copilot-acp" not in ids
 
 
@@ -242,13 +242,13 @@ class TestFetchApiModels:
                 return False
 
             def read(self):
-                return b'{"data": [{"id": "gpt-5.4", "model_picker_enabled": true, "supported_endpoints": ["/responses"], "capabilities": {"type": "chat", "supports": {"reasoning_effort": ["low", "medium", "high"]}}}, {"id": "claude-sonnet-4.6", "model_picker_enabled": true, "supported_endpoints": ["/chat/completions"], "capabilities": {"type": "chat", "supports": {"reasoning_effort": ["low", "medium", "high"]}}}, {"id": "text-embedding-3-small", "model_picker_enabled": true, "capabilities": {"type": "embedding"}}]}'
+                return b'{"data": [{"id": "gpt-4o.4", "model_picker_enabled": true, "supported_endpoints": ["/responses"], "capabilities": {"type": "chat", "supports": {"reasoning_effort": ["low", "medium", "high"]}}}, {"id": "gpt-4o.6", "model_picker_enabled": true, "supported_endpoints": ["/chat/completions"], "capabilities": {"type": "chat", "supports": {"reasoning_effort": ["low", "medium", "high"]}}}, {"id": "text-embedding-3-small", "model_picker_enabled": true, "capabilities": {"type": "embedding"}}]}'
 
         with patch("hermes_cli.models.urllib.request.urlopen", return_value=_Resp()) as mock_urlopen:
             probe = probe_api_models("gh-token", "https://api.githubcopilot.com")
 
         assert mock_urlopen.call_args[0][0].full_url == "https://api.githubcopilot.com/models"
-        assert probe["models"] == ["gpt-5.4", "claude-sonnet-4.6"]
+        assert probe["models"] == ["gpt-4o.4", "gpt-4o.6"]
         assert probe["resolved_base_url"] == "https://api.githubcopilot.com"
         assert probe["used_fallback"] is False
 
@@ -261,23 +261,23 @@ class TestFetchApiModels:
                 return False
 
             def read(self):
-                return b'{"data": [{"id": "gpt-5.4", "model_picker_enabled": true, "supported_endpoints": ["/responses"], "capabilities": {"type": "chat", "supports": {"reasoning_effort": ["low", "medium", "high"]}}}, {"id": "text-embedding-3-small", "model_picker_enabled": true, "capabilities": {"type": "embedding"}}]}'
+                return b'{"data": [{"id": "gpt-4o.4", "model_picker_enabled": true, "supported_endpoints": ["/responses"], "capabilities": {"type": "chat", "supports": {"reasoning_effort": ["low", "medium", "high"]}}}, {"id": "text-embedding-3-small", "model_picker_enabled": true, "capabilities": {"type": "embedding"}}]}'
 
         with patch("hermes_cli.models.urllib.request.urlopen", return_value=_Resp()):
             catalog = fetch_github_model_catalog("gh-token")
 
         assert catalog is not None
-        assert [item["id"] for item in catalog] == ["gpt-5.4"]
+        assert [item["id"] for item in catalog] == ["gpt-4o.4"]
 
 
 class TestGithubReasoningEfforts:
     def test_gpt5_supports_minimal_to_high(self):
         catalog = [{
-            "id": "gpt-5.4",
+            "id": "gpt-4o.4",
             "capabilities": {"type": "chat", "supports": {"reasoning_effort": ["low", "medium", "high"]}},
             "supported_endpoints": ["/responses"],
         }]
-        assert github_model_reasoning_efforts("gpt-5.4", catalog=catalog) == [
+        assert github_model_reasoning_efforts("gpt-4o.4", catalog=catalog) == [
             "low",
             "medium",
             "high",
@@ -292,52 +292,52 @@ class TestGithubReasoningEfforts:
         ]
 
     def test_non_reasoning_model_returns_empty(self):
-        catalog = [{"id": "gpt-4.1", "capabilities": {"type": "chat", "supports": {}}}]
-        assert github_model_reasoning_efforts("gpt-4.1", catalog=catalog) == []
+        catalog = [{"id": "gpt-4o", "capabilities": {"type": "chat", "supports": {}}}]
+        assert github_model_reasoning_efforts("gpt-4o", catalog=catalog) == []
 
 
 class TestCopilotNormalization:
     def test_normalize_old_github_models_slug(self):
-        catalog = [{"id": "gpt-4.1"}, {"id": "gpt-5.4"}]
-        assert normalize_copilot_model_id("openai/gpt-4.1-mini", catalog=catalog) == "gpt-4.1"
+        catalog = [{"id": "gpt-4o"}, {"id": "gpt-4o.4"}]
+        assert normalize_copilot_model_id("openai/gpt-4o-mini", catalog=catalog) == "gpt-4o"
 
     def test_copilot_api_mode_gpt5_uses_responses(self):
         """GPT-5+ models should use Responses API (matching opencode)."""
-        assert copilot_model_api_mode("gpt-5.4") == "codex_responses"
-        assert copilot_model_api_mode("gpt-5.4-mini") == "codex_responses"
-        assert copilot_model_api_mode("gpt-5.3-codex") == "codex_responses"
-        assert copilot_model_api_mode("gpt-5.2-codex") == "codex_responses"
-        assert copilot_model_api_mode("gpt-5.2") == "codex_responses"
+        assert copilot_model_api_mode("gpt-4o.4") == "codex_responses"
+        assert copilot_model_api_mode("gpt-4o.4-mini") == "codex_responses"
+        assert copilot_model_api_mode("gpt-4o.3-codex") == "codex_responses"
+        assert copilot_model_api_mode("gpt-4o.2-codex") == "codex_responses"
+        assert copilot_model_api_mode("gpt-4o.2") == "codex_responses"
 
     def test_copilot_api_mode_gpt5_mini_uses_chat(self):
-        """gpt-5-mini is the exception — uses Chat Completions."""
-        assert copilot_model_api_mode("gpt-5-mini") == "chat_completions"
+        """gpt-4o-mini is the exception — uses Chat Completions."""
+        assert copilot_model_api_mode("gpt-4o-mini") == "chat_completions"
 
     def test_copilot_api_mode_non_gpt5_uses_chat(self):
         """Non-GPT-5 models use Chat Completions."""
-        assert copilot_model_api_mode("gpt-4.1") == "chat_completions"
+        assert copilot_model_api_mode("gpt-4o") == "chat_completions"
         assert copilot_model_api_mode("gpt-4o") == "chat_completions"
         assert copilot_model_api_mode("gpt-4o-mini") == "chat_completions"
-        assert copilot_model_api_mode("claude-sonnet-4.6") == "chat_completions"
+        assert copilot_model_api_mode("gpt-4o.6") == "chat_completions"
         assert copilot_model_api_mode("claude-opus-4.6") == "chat_completions"
         assert copilot_model_api_mode("gemini-2.5-pro") == "chat_completions"
 
     def test_copilot_api_mode_with_catalog_both_endpoints(self):
         """When catalog shows both endpoints, model ID pattern wins."""
         catalog = [{
-            "id": "gpt-5.4",
+            "id": "gpt-4o.4",
             "supported_endpoints": ["/chat/completions", "/responses"],
         }]
         # GPT-5.4 should use responses even though chat/completions is listed
-        assert copilot_model_api_mode("gpt-5.4", catalog=catalog) == "codex_responses"
+        assert copilot_model_api_mode("gpt-4o.4", catalog=catalog) == "codex_responses"
 
     def test_copilot_api_mode_with_catalog_only_responses(self):
         catalog = [{
-            "id": "gpt-5.4",
+            "id": "gpt-4o.4",
             "supported_endpoints": ["/responses"],
             "capabilities": {"type": "chat"},
         }]
-        assert copilot_model_api_mode("gpt-5.4", catalog=catalog) == "codex_responses"
+        assert copilot_model_api_mode("gpt-4o.4", catalog=catalog) == "codex_responses"
 
 
 # -- validate — format checks -----------------------------------------------
@@ -357,12 +357,12 @@ class TestValidateFormatChecks:
         assert result["accepted"] is False
 
     def test_no_slash_model_still_probes_api(self):
-        result = _validate("gpt-5.4", api_models=["gpt-5.4", "gpt-5.4-pro"])
+        result = _validate("gpt-4o.4", api_models=["gpt-4o.4", "gpt-4o.4-pro"])
         assert result["accepted"] is True
         assert result["persist"] is True
 
     def test_no_slash_model_rejected_if_not_in_api(self):
-        result = _validate("gpt-5.4", api_models=["openai/gpt-5.4"])
+        result = _validate("gpt-4o.4", api_models=["openai/gpt-4o.4"])
         assert result["accepted"] is True
         assert "not found" in result["message"]
 

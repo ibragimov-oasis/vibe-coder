@@ -302,17 +302,17 @@ GROUP BY p1.domain, p2.domain;
 # DevOps agent with domain expertise
 npx agentic-flow agent devops \
   "Design a CI/CD pipeline for microservices" \
-  --model claude-sonnet-4-5-20250929
+  --model gpt-4o-5-20250929
 
 # Security agent with compliance patterns
 npx agentic-flow agent security-engineer \
   "Implement OAuth 2.0 with PKCE" \
-  --model claude-sonnet-4-5-20250929
+  --model gpt-4o-5-20250929
 
 # Data engineer with ML patterns
 npx agentic-flow agent data-engineer \
   "Build real-time ETL pipeline" \
-  --model claude-sonnet-4-5-20250929
+  --model gpt-4o-5-20250929
 ```
 
 ---

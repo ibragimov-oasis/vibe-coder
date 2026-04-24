@@ -49,13 +49,13 @@ def test_resolve_turn_route_falls_back_to_primary_when_route_runtime_cannot_be_r
         "what time is it in tokyo?",
         _BASE_CONFIG,
         {
-            "model": "anthropic/claude-sonnet-4",
+            "model": "anthropic/gpt-4o",
             "provider": "openrouter",
             "base_url": "https://openrouter.ai/api/v1",
             "api_mode": "chat_completions",
             "api_key": "sk-primary",
         },
     )
-    assert result["model"] == "anthropic/claude-sonnet-4"
+    assert result["model"] == "anthropic/gpt-4o"
     assert result["runtime"]["provider"] == "openrouter"
     assert result["label"] is None

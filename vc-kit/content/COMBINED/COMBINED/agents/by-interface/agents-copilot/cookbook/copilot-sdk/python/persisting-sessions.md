@@ -33,7 +33,7 @@ async def main():
     # Create session with a memorable ID
     session = await client.create_session(SessionConfig(
         session_id="user-123-conversation",
-        model="gpt-5",
+        model="gpt-4o",
         on_permission_request=PermissionHandler.approve_all))
 
     await session.send_and_wait(MessageOptions(prompt="Let's discuss TypeScript generics"))

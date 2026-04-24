@@ -56,11 +56,11 @@ Squad's **primary platform**. All features are fully supported.
   1. User override ("use opus")
   2. Agent charter preference (`## Model` section)
   3. Task-aware auto-select (cost-first: haiku for docs, sonnet for code, opus for design)
-  4. Default: `claude-haiku-4.5`
+  4. Default: `gpt-4o`
 - **Fallback chains:** 3 retries + nuclear (omit parameter → platform default)
-  - Premium: `claude-opus-4.6 → claude-opus-4.6-fast → claude-opus-4.5 → claude-sonnet-4.5 → (omit)`
-  - Standard: `claude-sonnet-4.5 → gpt-5.2-codex → claude-sonnet-4 → gpt-5.2 → (omit)`
-  - Fast: `claude-haiku-4.5 → gpt-5.1-codex-mini → gpt-4.1 → gpt-5-mini → (omit)`
+  - Premium: `claude-opus-4.6 → claude-opus-4.6-fast → claude-opus-4.5 → gpt-4o.5 → (omit)`
+  - Standard: `gpt-4o.5 → gpt-4o.2-codex → gpt-4o → gpt-4o.2 → (omit)`
+  - Fast: `gpt-4o → gpt-4o.1-codex-mini → gpt-4o → gpt-4o-mini → (omit)`
 
 ### Background/Async Execution
 

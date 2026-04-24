@@ -71,7 +71,7 @@ import { defineConfig } from '@bradygaster/squad-sdk';
 export default defineConfig({
   team: { name: 'my-squad', root: '.squad' },
   agents: {
-    backend: { model: 'claude-sonnet-4', tools: ['route', 'memory', 'decision'] },
+    backend: { model: 'gpt-4o', tools: ['route', 'memory', 'decision'] },
   },
   routing: {
     workTypes: [
@@ -79,11 +79,11 @@ export default defineConfig({
     ],
   },
   models: {
-    default: 'claude-sonnet-4',
+    default: 'gpt-4o',
     fallbackChains: {
-      premium: ['claude-opus-4', 'gpt-4.1'],
-      standard: ['claude-sonnet-4', 'gpt-4.1'],
-      fast: ['claude-haiku-3.5', 'gpt-4.1-mini'],
+      premium: ['claude-opus-4', 'gpt-4o'],
+      standard: ['gpt-4o', 'gpt-4o'],
+      fast: ['claude-haiku-3.5', 'gpt-4o-mini'],
     },
   },
 });
@@ -151,7 +151,7 @@ Define a single agent with role, tools, model, and capabilities.
 const edie = defineAgent({
   name: 'edie',
   role: 'TypeScript Engineer',
-  model: 'claude-sonnet-4',
+  model: 'gpt-4o',
   tools: ['grep', 'edit', 'powershell', 'view'],
   capabilities: [
     { name: 'type-system', level: 'expert' },
@@ -550,9 +550,9 @@ const members = await engine.castTeam([
 ```typescript
 import { MODELS, TIMEOUTS, AGENT_ROLES } from '@bradygaster/squad-sdk';
 
-MODELS.premium;  // ['claude-opus-4.6', 'gpt-5.2', ...]
-MODELS.standard; // ['claude-sonnet-4.5', 'gpt-5.1', ...]
-MODELS.fast;     // ['claude-haiku-4.5', 'gpt-5-mini', ...]
+MODELS.premium;  // ['claude-opus-4.6', 'gpt-4o.2', ...]
+MODELS.standard; // ['gpt-4o.5', 'gpt-4o.1', ...]
+MODELS.fast;     // ['gpt-4o', 'gpt-4o-mini', ...]
 
 TIMEOUTS.agentInitMs;        // 30000
 TIMEOUTS.agentExecuteMs;     // 300000

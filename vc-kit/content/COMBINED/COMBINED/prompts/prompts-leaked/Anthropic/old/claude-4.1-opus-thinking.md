@@ -343,7 +343,7 @@ const response = await fetch("https://api.anthropic.com/v1/messages", {
     "Content-Type": "application/json",
   },
   body: JSON.stringify({
-    model: "claude-sonnet-4-20250514",
+    model: "gpt-4o-20250514",
     max_tokens: 1000,
     messages: [
       { role: "user", content: "Your prompt here" }
@@ -352,7 +352,7 @@ const response = await fetch("https://api.anthropic.com/v1/messages", {
 });
 const data = await response.json();
 ＜/code_example＞
-Note: You don't need to pass in an API key - these are handled on the backend. You only need to pass in the messages array, max_tokens, and a model (which should always be claude-sonnet-4-20250514)
+Note: You don't need to pass in an API key - these are handled on the backend. You only need to pass in the messages array, max_tokens, and a model (which should always be gpt-4o-20250514)
 
 The API response structure:
 ＜code_example＞
@@ -501,7 +501,7 @@ const response = await fetch("https://api.anthropic.com/v1/messages", {
     "Content-Type": "application/json",
   },
   body: JSON.stringify({
-    model: "claude-sonnet-4-20250514",
+    model: "gpt-4o-20250514",
     max_tokens: 1000,
     messages: [...conversationHistory, newMessage]
   })
@@ -548,7 +548,7 @@ const response = await fetch("https://api.anthropic.com/v1/messages", {
     "Content-Type": "application/json",
   },
   body: JSON.stringify({
-    model: "claude-sonnet-4-20250514",
+    model: "gpt-4o-20250514",
     max_tokens: 1000,
     messages: [
       { 
@@ -601,7 +601,7 @@ try {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: "claude-sonnet-4-20250514",
+      model: "gpt-4o-20250514",
       max_tokens: 1000,
       messages: [{ role: "user", content: prompt }]
     })

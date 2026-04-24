@@ -168,7 +168,7 @@ directly.
 Edit `~/.hermes/config.yaml`:
 
 ```yaml
-model: openrouter/nous/hermes-3-llama-3.1-70b
+# model: removed-for-compatibility
 ```
 
 Or set the `HERMES_MODEL` environment variable.

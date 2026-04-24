@@ -11,7 +11,7 @@
 #   # Override model:
 #   python environments/benchmarks/terminalbench_2/terminalbench2_env.py evaluate \
 #       --config environments/benchmarks/terminalbench_2/default.yaml \
-#       --openai.model_name anthropic/claude-sonnet-4
+#       --openai.model_name anthropic/gpt-4o
 
 env:
   enabled_toolsets: ["terminal", "file"]

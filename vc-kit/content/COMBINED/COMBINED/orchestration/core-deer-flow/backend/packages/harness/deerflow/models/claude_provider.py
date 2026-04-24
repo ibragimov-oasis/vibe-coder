@@ -45,9 +45,9 @@ class ClaudeChatModel(ChatAnthropic):
     """ChatAnthropic with OAuth Bearer auth, prompt caching, and smart thinking.
 
     Config example:
-        - name: claude-sonnet-4.6
+        - name: gpt-4o.6
           use: deerflow.models.claude_provider:ClaudeChatModel
-          model: claude-sonnet-4-6
+          model: gpt-4o-6
           max_tokens: 16384
           enable_prompt_caching: true
     """

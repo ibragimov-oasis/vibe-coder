@@ -2,7 +2,7 @@
 name: e2e-runner
 description: E2E 테스트 전문가. Vercel Agent Browser (선호) 및 Playwright 폴백을 사용합니다. E2E 테스트 생성, 유지보수, 실행에 사용하세요. 테스트 여정 관리, 불안정한 테스트 격리, 아티팩트 업로드 (스크린샷, 동영상, 트레이스), 핵심 사용자 흐름 검증을 수행합니다.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

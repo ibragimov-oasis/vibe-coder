@@ -103,7 +103,7 @@ func main() {
 	cwd, _ := os.Getwd()
 	session, err := client.CreateSession(ctx, &copilot.SessionConfig{
 		OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-		Model: "gpt-5",
+		Model: "gpt-4o",
 		SystemMessage: &copilot.SystemMessageConfig{
 			Content: fmt.Sprintf(`
 <context>

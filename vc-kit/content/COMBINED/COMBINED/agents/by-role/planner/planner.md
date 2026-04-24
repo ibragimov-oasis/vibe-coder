@@ -1,7 +1,7 @@
 ---
 name: planner
 description: Strategic planning consultant with interview workflow (Opus)
-model: claude-opus-4-6
+# model: removed-for-compatibility
 level: 4
 tags:
   - domain/agents

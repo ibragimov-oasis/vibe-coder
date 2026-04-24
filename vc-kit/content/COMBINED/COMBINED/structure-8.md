@@ -662,7 +662,7 @@ tags:
     │   │   │   │   ├── 📄 github-actions-expert.agent.md
     │   │   │   │   ├── 📄 github-actions-node-upgrade.agent.md
     │   │   │   │   ├── 📄 go-mcp-expert.agent.md
-    │   │   │   │   ├── 📄 gpt-5-beast-mode.agent.md
+    │   │   │   │   ├── 📄 gpt-4o-beast-mode.agent.md
     │   │   │   │   ├── 📄 hlbpa.agent.md
     │   │   │   │   ├── 📄 implementation-plan.agent.md
     │   │   │   │   ├── 📄 insiders-a11y-tracker.agent.md
@@ -728,7 +728,7 @@ tags:
     │   │   │   │   ├── 📄 research-technical-spike.agent.md
     │   │   │   │   ├── 📄 ruby-mcp-expert.agent.md
     │   │   │   │   ├── 📄 rug-orchestrator.agent.md
-    │   │   │   │   ├── 📄 rust-gpt-4.1-beast-mode.agent.md
+    │   │   │   │   ├── 📄 rust-gpt-4o-beast-mode.agent.md
     │   │   │   │   ├── 📄 rust-mcp-expert.agent.md
     │   │   │   │   ├── 📄 salesforce-apex-triggers.agent.md
     │   │   │   │   ├── 📄 salesforce-aura-lwc.agent.md
@@ -24208,8 +24208,8 @@ tags:
     │   │   │   ├── 📄 claude-in-chrome.md
     │   │   │   ├── 📄 claude-opus-4.6-no-tools.md
     │   │   │   ├── 📄 claude-opus-4.6.md
-    │   │   │   ├── 📄 claude-sonnet-4.6-no-tools.md
-    │   │   │   ├── 📄 claude-sonnet-4.6.md
+    │   │   │   ├── 📄 gpt-4o.6-no-tools.md
+    │   │   │   ├── 📄 gpt-4o.6.md
     │   │   │   ├── 📄 claude.ai-human-readable.md
     │   │   │   ├── 📄 claude.ai-injections.md
     │   │   │   ├── 📄 claude.html
@@ -24229,12 +24229,12 @@ tags:
     │   │   │   │   ├── 📄 claude-4.1-opus-thinking.md
     │   │   │   │   ├── 📄 claude-4.5-sonnet.md
     │   │   │   │   ├── 📄 claude-opus-4.5.md
-    │   │   │   │   └── 📄 claude-sonnet-4.md
+    │   │   │   │   └── 📄 gpt-4o.md
     │   │   │   └── 📁 raw
     │   │   │       ├── 📄 claude-opus-4.6-no-tools-raw.md
     │   │   │       ├── 📄 claude-opus-4.6-raw.md
-    │   │   │       ├── 📄 claude-sonnet-4.6-no-tools-raw.md
-    │   │   │       └── 📄 claude-sonnet-4.6-raw.md
+    │   │   │       ├── 📄 gpt-4o.6-no-tools-raw.md
+    │   │   │       └── 📄 gpt-4o.6-raw.md
     │   │   ├── 📁 Google
     │   │   │   ├── 📄 Gemini CLI System.md
     │   │   │   ├── 📄 NotebookLM-chat.md
@@ -24281,27 +24281,27 @@ tags:
     │   │   │   ├── 📄 Study and learn.md
     │   │   │   ├── 📄 chatgpt-atlas.md
     │   │   │   ├── 📄 codex-cli.md
-    │   │   │   ├── 📄 gpt-5-cynic-personality.md
-    │   │   │   ├── 📄 gpt-5-listener-personality.md
-    │   │   │   ├── 📄 gpt-5-nerdy-personality.md
-    │   │   │   ├── 📄 gpt-5-robot-personality.md
-    │   │   │   ├── 📄 gpt-5-thinking.md
-    │   │   │   ├── 📄 gpt-5.1-candid.md
-    │   │   │   ├── 📄 gpt-5.1-cynical.md
-    │   │   │   ├── 📄 gpt-5.1-default.md
-    │   │   │   ├── 📄 gpt-5.1-efficient.md
-    │   │   │   ├── 📄 gpt-5.1-friendly.md
-    │   │   │   ├── 📄 gpt-5.1-nerdy.md
-    │   │   │   ├── 📄 gpt-5.1-professional.md
-    │   │   │   ├── 📄 gpt-5.1-quirky.md
-    │   │   │   ├── 📄 gpt-5.2-mini-free-account.md
-    │   │   │   ├── 📄 gpt-5.2-thinking.md
-    │   │   │   ├── 📄 gpt-5.3-chat-api.md
-    │   │   │   ├── 📄 gpt-5.3-codex-api.md
-    │   │   │   ├── 📄 gpt-5.3-codex.md
-    │   │   │   ├── 📄 gpt-5.3-instant.md
-    │   │   │   ├── 📄 gpt-5.4-api.md
-    │   │   │   ├── 📄 gpt-5.4-thinking.md
+    │   │   │   ├── 📄 gpt-4o-cynic-personality.md
+    │   │   │   ├── 📄 gpt-4o-listener-personality.md
+    │   │   │   ├── 📄 gpt-4o-nerdy-personality.md
+    │   │   │   ├── 📄 gpt-4o-robot-personality.md
+    │   │   │   ├── 📄 gpt-4o-thinking.md
+    │   │   │   ├── 📄 gpt-4o.1-candid.md
+    │   │   │   ├── 📄 gpt-4o.1-cynical.md
+    │   │   │   ├── 📄 gpt-4o.1-default.md
+    │   │   │   ├── 📄 gpt-4o.1-efficient.md
+    │   │   │   ├── 📄 gpt-4o.1-friendly.md
+    │   │   │   ├── 📄 gpt-4o.1-nerdy.md
+    │   │   │   ├── 📄 gpt-4o.1-professional.md
+    │   │   │   ├── 📄 gpt-4o.1-quirky.md
+    │   │   │   ├── 📄 gpt-4o.2-mini-free-account.md
+    │   │   │   ├── 📄 gpt-4o.2-thinking.md
+    │   │   │   ├── 📄 gpt-4o.3-chat-api.md
+    │   │   │   ├── 📄 gpt-4o.3-codex-api.md
+    │   │   │   ├── 📄 gpt-4o.3-codex.md
+    │   │   │   ├── 📄 gpt-4o.3-instant.md
+    │   │   │   ├── 📄 gpt-4o.4-api.md
+    │   │   │   ├── 📄 gpt-4o.4-thinking.md
     │   │   │   ├── 📄 o3.md
     │   │   │   ├── 📄 o4-mini-high.md
     │   │   │   ├── 📄 o4-mini.md
@@ -24317,7 +24317,7 @@ tags:
     │   │   │   ├── 📄 tool-python.md
     │   │   │   ├── 📄 tool-web-search.md
     │   │   │   ├── 📁 API
-    │   │   │   │   ├── 📄 gpt-5-reasoning-effort-high-API-NOT-CHATGPT.com.md
+    │   │   │   │   ├── 📄 gpt-4o-reasoning-effort-high-API-NOT-CHATGPT.com.md
     │   │   │   │   ├── 📄 o3-high-api.md
     │   │   │   │   ├── 📄 o3-low-api.md
     │   │   │   │   ├── 📄 o3-medium-api.md
@@ -24422,7 +24422,7 @@ tags:
     │   │   ├── 📁 Amp
     │   │   │   ├── 📄 README.md
     │   │   │   ├── 📄 claude-4-sonnet.yaml
-    │   │   │   └── 📄 gpt-5.yaml
+    │   │   │   └── 📄 gpt-4o.yaml
     │   │   ├── 📁 Anthropic
     │   │   │   ├── 📄 Claude Code 2.0.txt
     │   │   │   ├── 📄 Claude Sonnet 4.6.txt
@@ -24436,8 +24436,8 @@ tags:
     │   │   ├── 📁 Augment Code
     │   │   │   ├── 📄 claude-4-sonnet-agent-prompts.txt
     │   │   │   ├── 📄 claude-4-sonnet-tools.json
-    │   │   │   ├── 📄 gpt-5-agent-prompts.txt
-    │   │   │   └── 📄 gpt-5-tools.json
+    │   │   │   ├── 📄 gpt-4o-agent-prompts.txt
+    │   │   │   └── 📄 gpt-4o-tools.json
     │   │   ├── 📁 Cluely
     │   │   │   ├── 📄 Default Prompt.txt
     │   │   │   └── 📄 Enterprise Prompt.txt
@@ -24536,12 +24536,12 @@ tags:
     │   │   ├── 📁 VSCode Agent
     │   │   │   ├── 📄 Prompt.txt
     │   │   │   ├── 📄 chat-titles.txt
-    │   │   │   ├── 📄 claude-sonnet-4.txt
-    │   │   │   ├── 📄 gemini-2.5-pro.txt
-    │   │   │   ├── 📄 gpt-4.1.txt
     │   │   │   ├── 📄 gpt-4o.txt
-    │   │   │   ├── 📄 gpt-5-mini.txt
-    │   │   │   ├── 📄 gpt-5.txt
+    │   │   │   ├── 📄 gemini-2.5-pro.txt
+    │   │   │   ├── 📄 gpt-4o.txt
+    │   │   │   ├── 📄 gpt-4o.txt
+    │   │   │   ├── 📄 gpt-4o-mini.txt
+    │   │   │   ├── 📄 gpt-4o.txt
     │   │   │   └── 📄 nes-tab-completion.txt
     │   │   ├── 📁 Warp.dev
     │   │   │   └── 📄 Prompt.txt

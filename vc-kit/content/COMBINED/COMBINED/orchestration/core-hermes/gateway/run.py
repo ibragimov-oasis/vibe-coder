@@ -2161,7 +2161,7 @@ class GatewayRunner:
             # normal context management during its tool loop with accurate
             # real token counts.  Having hygiene at 0.50 caused premature
             # compression on every turn in long gateway sessions.
-            _hyg_model = "anthropic/claude-sonnet-4.6"
+            _hyg_model = "anthropic/gpt-4o.6"
             _hyg_threshold_pct = 0.85
             _hyg_compression_enabled = True
             _hyg_config_context_length = None

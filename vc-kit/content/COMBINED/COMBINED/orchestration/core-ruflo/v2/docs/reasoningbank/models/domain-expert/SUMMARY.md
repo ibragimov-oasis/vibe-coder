@@ -134,13 +134,13 @@ sqlite3 memory.db "SELECT problem, confidence FROM patterns WHERE confidence > 0
 ### Integration with Agentic-Flow
 ```bash
 # Use with DevOps agent
-npx agentic-flow agent devops "Design CI/CD pipeline" --model claude-sonnet-4-5-20250929
+npx agentic-flow agent devops "Design CI/CD pipeline" --model gpt-4o-5-20250929
 
 # Use with Security agent
-npx agentic-flow agent security-engineer "Implement OAuth 2.0" --model claude-sonnet-4-5-20250929
+npx agentic-flow agent security-engineer "Implement OAuth 2.0" --model gpt-4o-5-20250929
 
 # Use with Data Engineer
-npx agentic-flow agent data-engineer "Build ETL pipeline" --model claude-sonnet-4-5-20250929
+npx agentic-flow agent data-engineer "Build ETL pipeline" --model gpt-4o-5-20250929
 ```
 
 ## 📈 Performance Benchmarks

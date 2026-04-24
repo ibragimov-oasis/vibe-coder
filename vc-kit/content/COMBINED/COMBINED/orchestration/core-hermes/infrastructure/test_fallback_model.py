@@ -68,7 +68,7 @@ class TestTryActivateFallback:
         assert agent._try_activate_fallback() is False
 
     def test_returns_false_for_missing_provider(self):
-        agent = _make_agent(fallback_model={"model": "gpt-4.1"})
+        agent = _make_agent(fallback_model={"model": "gpt-4o"})
         assert agent._try_activate_fallback() is False
 
     def test_returns_false_for_missing_model(self):
@@ -77,7 +77,7 @@ class TestTryActivateFallback:
 
     def test_activates_openrouter_fallback(self):
         agent = _make_agent(
-            fallback_model={"provider": "openrouter", "model": "anthropic/claude-sonnet-4"},
+            fallback_model={"provider": "openrouter", "model": "anthropic/gpt-4o"},
         )
         mock_client = _mock_resolve(
             api_key="sk-or-fallback-key",
@@ -85,12 +85,12 @@ class TestTryActivateFallback:
         )
         with patch(
             "agent.auxiliary_client.resolve_provider_client",
-            return_value=(mock_client, "anthropic/claude-sonnet-4"),
+            return_value=(mock_client, "anthropic/gpt-4o"),
         ):
             result = agent._try_activate_fallback()
             assert result is True
             assert agent._fallback_activated is True
-            assert agent.model == "anthropic/claude-sonnet-4"
+            assert agent.model == "anthropic/gpt-4o"
             assert agent.provider == "openrouter"
             assert agent.api_mode == "chat_completions"
             assert agent.client is mock_client
@@ -148,7 +148,7 @@ class TestTryActivateFallback:
 
     def test_only_fires_once(self):
         agent = _make_agent(
-            fallback_model={"provider": "openrouter", "model": "anthropic/claude-sonnet-4"},
+            fallback_model={"provider": "openrouter", "model": "anthropic/gpt-4o"},
         )
         mock_client = _mock_resolve(
             api_key="sk-or-key",
@@ -156,7 +156,7 @@ class TestTryActivateFallback:
         )
         with patch(
             "agent.auxiliary_client.resolve_provider_client",
-            return_value=(mock_client, "anthropic/claude-sonnet-4"),
+            return_value=(mock_client, "anthropic/gpt-4o"),
         ):
             assert agent._try_activate_fallback() is True
             # Second attempt should return False
@@ -198,7 +198,7 @@ class TestTryActivateFallback:
 
     def test_prompt_caching_enabled_for_claude_on_openrouter(self):
         agent = _make_agent(
-            fallback_model={"provider": "openrouter", "model": "anthropic/claude-sonnet-4"},
+            fallback_model={"provider": "openrouter", "model": "anthropic/gpt-4o"},
         )
         mock_client = _mock_resolve(
             api_key="sk-or-key",
@@ -206,7 +206,7 @@ class TestTryActivateFallback:
         )
         with patch(
             "agent.auxiliary_client.resolve_provider_client",
-            return_value=(mock_client, "anthropic/claude-sonnet-4"),
+            return_value=(mock_client, "anthropic/gpt-4o"),
         ):
             agent._try_activate_fallback()
             assert agent._use_prompt_caching is True
@@ -260,7 +260,7 @@ class TestTryActivateFallback:
     def test_activates_codex_fallback(self):
         """OpenAI Codex fallback should use OAuth credentials and codex_responses mode."""
         agent = _make_agent(
-            fallback_model={"provider": "openai-codex", "model": "gpt-5.3-codex"},
+            fallback_model={"provider": "openai-codex", "model": "gpt-4o.3-codex"},
         )
         mock_client = _mock_resolve(
             api_key="codex-oauth-token",
@@ -268,11 +268,11 @@ class TestTryActivateFallback:
         )
         with patch(
             "agent.auxiliary_client.resolve_provider_client",
-            return_value=(mock_client, "gpt-5.3-codex"),
+            return_value=(mock_client, "gpt-4o.3-codex"),
         ):
             result = agent._try_activate_fallback()
             assert result is True
-            assert agent.model == "gpt-5.3-codex"
+            assert agent.model == "gpt-4o.3-codex"
             assert agent.provider == "openai-codex"
             assert agent.api_mode == "codex_responses"
             assert agent.client is mock_client
@@ -280,7 +280,7 @@ class TestTryActivateFallback:
     def test_codex_fallback_fails_gracefully_without_credentials(self):
         """Codex fallback should return False if no OAuth credentials available."""
         agent = _make_agent(
-            fallback_model={"provider": "openai-codex", "model": "gpt-5.3-codex"},
+            fallback_model={"provider": "openai-codex", "model": "gpt-4o.3-codex"},
         )
         with patch(
             "agent.auxiliary_client.resolve_provider_client",
@@ -329,7 +329,7 @@ class TestTryActivateFallback:
 class TestFallbackInit:
     def test_fallback_stored_when_configured(self):
         agent = _make_agent(
-            fallback_model={"provider": "openrouter", "model": "anthropic/claude-sonnet-4"},
+            fallback_model={"provider": "openrouter", "model": "anthropic/gpt-4o"},
         )
         assert agent._fallback_model is not None
         assert agent._fallback_model["provider"] == "openrouter"

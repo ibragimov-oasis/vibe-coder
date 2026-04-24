@@ -1,7 +1,7 @@
 ---
 name: mega-writer
 description: 'Unified documentation and technical writing agent. Creates clear, accurate technical documentation including README files, API docs, architecture docs, user guides, and code comments. All code examples are tested and verified. Merged from OMC writer and document-specialist, RuFlo documentation agents, and SPARC pseudocode generator.'
-model: claude-sonnet-4
+# model: removed-for-compatibility
 tools:
   - Read
   - Write

@@ -151,10 +151,10 @@ Choose specific AI models for different tasks:
 
 ```bash
 # Use GPT-5 for complex tasks
-droid exec --model gpt-5.1 "design comprehensive microservices architecture"
+droid exec --model gpt-4o.1 "design comprehensive microservices architecture"
 
 # Use Claude for code analysis
-droid exec --model claude-sonnet-4-5-20250929 "review and refactor this React component"
+droid exec --model gpt-4o-5-20250929 "review and refactor this React component"
 
 # Use faster models for simple tasks
 droid exec --model claude-haiku-4-5-20251001 "format this JSON file"
@@ -181,7 +181,7 @@ droid exec "Review this pull request for code quality, security issues, and best
 # Hook into GitHub Actions
 - name: AI Code Review
   run: |
-    droid exec --model claude-sonnet-4-5-20250929 "Review PR #${{ github.event.number }} for security and quality" \
+    droid exec --model gpt-4o-5-20250929 "Review PR #${{ github.event.number }} for security and quality" \
       --output-format json > review.json
 ```
 

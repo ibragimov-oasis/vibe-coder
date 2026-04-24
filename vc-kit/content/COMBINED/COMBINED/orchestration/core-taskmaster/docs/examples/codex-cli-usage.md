@@ -21,7 +21,7 @@ npm install -g @openai/codex
 codex login
 
 # 3. Codex CLI configured as your provider
-task-master models --set-main gpt-5-codex --codex-cli
+task-master models --set-main gpt-4o-codex --codex-cli
 ```
 
 ## Example 1: Basic Task Creation
@@ -116,7 +116,7 @@ Configure Codex CLI behavior for different commands:
   "models": {
     "main": {
       "provider": "codex-cli",
-      "modelId": "gpt-5-codex",
+      "modelId": "gpt-4o-codex",
       "maxTokens": 128000,
       "temperature": 0.2
     }
@@ -156,8 +156,8 @@ Complete workflow from PRD to implementation tracking:
 task-master init
 
 # Step 2: Set up Codex CLI
-task-master models --set-main gpt-5-codex --codex-cli
-task-master models --set-fallback gpt-5 --codex-cli
+task-master models --set-main gpt-4o-codex --codex-cli
+task-master models --set-fallback gpt-4o --codex-cli
 
 # Step 3: Create PRD
 cat > feature-prd.txt <<EOF
@@ -201,7 +201,7 @@ Use Codex CLI for main tasks, Perplexity for research:
   "models": {
     "main": {
       "provider": "codex-cli",
-      "modelId": "gpt-5-codex",
+      "modelId": "gpt-4o-codex",
       "maxTokens": 128000,
       "temperature": 0.2
     },
@@ -213,7 +213,7 @@ Use Codex CLI for main tasks, Perplexity for research:
     },
     "fallback": {
       "provider": "codex-cli",
-      "modelId": "gpt-5",
+      "modelId": "gpt-4o",
       "maxTokens": 128000,
       "temperature": 0.2
     }
@@ -322,7 +322,7 @@ jobs:
             "models": {
               "main": {
                 "provider": "codex-cli",
-                "modelId": "gpt-5"
+                "modelId": "gpt-4o"
               }
             },
             "codexCli": {
@@ -351,7 +351,7 @@ jobs:
 ```bash
 # For local development, use OAuth (no API key needed)
 codex login
-task-master models --set-main gpt-5-codex --codex-cli
+task-master models --set-main gpt-4o-codex --codex-cli
 ```
 
 ### 2. Configure Approval Modes Appropriately
@@ -398,7 +398,7 @@ task-master models --set-main gpt-5-codex --codex-cli
 
 ```bash
 # Always configure a fallback model
-task-master models --set-fallback gpt-5 --codex-cli
+task-master models --set-fallback gpt-4o --codex-cli
 
 # Or use a different provider as fallback
 task-master models --set-fallback claude-3-5-sonnet

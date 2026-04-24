@@ -412,8 +412,8 @@ import { defineSquad, defineTeam, defineAgent } from '@bradygaster/squad-sdk';
 export default defineSquad({
   team: defineTeam({ name: 'Platform Squad', members: ['@edie', '@mcmanus'] }),
   agents: [
-    defineAgent({ name: 'edie', role: 'TypeScript Engineer', model: 'claude-sonnet-4' }),
-    defineAgent({ name: 'mcmanus', role: 'DevRel', model: 'claude-haiku-4.5' }),
+    defineAgent({ name: 'edie', role: 'TypeScript Engineer', model: 'gpt-4o' }),
+    defineAgent({ name: 'mcmanus', role: 'DevRel', model: 'gpt-4o' }),
   ],
 });
 ```

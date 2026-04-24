@@ -1,7 +1,7 @@
 name: improve-prompt
 description: Improve and structure an AI prompt while preserving its original intent
 
-model: gpt-5.1-codex-max
+# model: removed-for-compatibility
 modelParameters:
   temperature: 0.7
   maxTokens: 4000

@@ -322,7 +322,7 @@ Until a fix is released, users can manually:
    mkdir -p ~/.claude-mem
    cat > ~/.claude-mem/settings.json << 'EOF'
    {
-     "CLAUDE_MEM_MODEL": "claude-sonnet-4-5",
+     "CLAUDE_MEM_MODEL": "gpt-4o-5",
      "CLAUDE_MEM_CONTEXT_OBSERVATIONS": "50",
      "CLAUDE_MEM_WORKER_PORT": "37777",
      "CLAUDE_MEM_WORKER_HOST": "127.0.0.1",

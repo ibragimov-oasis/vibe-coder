@@ -1,7 +1,7 @@
 ---
 name: test-engineer
 description: Test strategy, integration/e2e coverage, flaky test hardening, TDD workflows
-model: claude-sonnet-4-6
+# model: removed-for-compatibility
 level: 3
 tags:
   - domain/agents

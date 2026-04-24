@@ -172,7 +172,7 @@ Edit agent files in `~/COMBINED/workspace-config/claude/agents/` to customize be
 name: architect
 description: Your custom description
 tools: Read, Grep, Glob, Bash, Edit
-model: opus # or sonnet, haiku
+# model: removed-for-compatibility
 ---
 Your custom system prompt here...
 ```

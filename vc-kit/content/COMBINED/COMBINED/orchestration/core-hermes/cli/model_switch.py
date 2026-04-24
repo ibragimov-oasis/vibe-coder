@@ -57,7 +57,7 @@ def switch_model(
     mutation, or output formatting — those are caller responsibilities.
 
     Args:
-        raw_input: The user's model input (e.g. "claude-sonnet-4",
+        raw_input: The user's model input (e.g. "gpt-4o",
             "zai:glm-5", "custom:local:qwen").
         current_provider: The currently active provider.
         current_base_url: The currently active base URL (used for

@@ -525,7 +525,7 @@ cp -r everything-claude-code/skills/* ~/COMBINED/workspace-config/claude/skills/
 name: code-reviewer
 description: コードの品質、セキュリティ、保守性をレビュー
 tools: ["Read", "Grep", "Glob", "Bash"]
-model: opus
+# model: removed-for-compatibility
 ---
 
 あなたは経験豊富なコードレビュアーです...

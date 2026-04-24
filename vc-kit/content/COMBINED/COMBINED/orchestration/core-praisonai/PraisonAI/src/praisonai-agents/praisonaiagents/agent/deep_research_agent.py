@@ -1388,7 +1388,7 @@ GUIDELINES:
             return interaction.outputs[-1].text if interaction.outputs else ""
         else:
             response = self.openai_client.responses.create(
-                model=model or "gpt-4.1-2025-04-14",
+                model=model or "gpt-4o-2025-04-14",
                 instructions=clarifying_prompt,
                 input=query
             )
@@ -1432,7 +1432,7 @@ GUIDELINES:
             return interaction.outputs[-1].text if interaction.outputs else ""
         else:
             response = self.openai_client.responses.create(
-                model=model or "gpt-4.1-2025-04-14",
+                model=model or "gpt-4o-2025-04-14",
                 instructions=rewriting_prompt,
                 input=query
             )

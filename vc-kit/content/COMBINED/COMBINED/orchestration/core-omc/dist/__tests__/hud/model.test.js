@@ -7,7 +7,7 @@ describe('model element', () => {
             expect(formatModelName('claude-3-opus-20240229')).toBe('Opus');
         });
         it('returns Sonnet for sonnet model IDs', () => {
-            expect(formatModelName('claude-sonnet-4-20250514')).toBe('Sonnet');
+            expect(formatModelName('gpt-4o-20250514')).toBe('Sonnet');
             expect(formatModelName('claude-3-5-sonnet-20241022')).toBe('Sonnet');
         });
         it('returns Haiku for haiku model IDs', () => {
@@ -19,7 +19,7 @@ describe('model element', () => {
         });
         it('returns versioned name from model IDs', () => {
             expect(formatModelName('claude-opus-4-6-20260205', 'versioned')).toBe('Opus 4.6');
-            expect(formatModelName('claude-sonnet-4-6-20260217', 'versioned')).toBe('Sonnet 4.6');
+            expect(formatModelName('gpt-4o-6-20260217', 'versioned')).toBe('Sonnet 4.6');
             expect(formatModelName('claude-haiku-4-5-20251001', 'versioned')).toBe('Haiku 4.5');
         });
         it('returns versioned name from display names', () => {

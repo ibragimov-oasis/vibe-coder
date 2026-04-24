@@ -73,9 +73,9 @@ Like `resolveSquad()`, but creates the directory if it doesn't exist.
 All supported models, organized by tier.
 
 ```typescript
-MODELS.premium;   // ['claude-opus-4.6', 'gpt-5.2', ...]
-MODELS.standard;  // ['claude-sonnet-4.5', 'gpt-5.1', ...]
-MODELS.fast;      // ['claude-haiku-4.5', 'gpt-5-mini', ...]
+MODELS.premium;   // ['claude-opus-4.6', 'gpt-4o.2', ...]
+MODELS.standard;  // ['gpt-4o.5', 'gpt-4o.1', ...]
+MODELS.fast;      // ['gpt-4o', 'gpt-4o-mini', ...]
 ```
 
 ### `TIMEOUTS: TimeoutConfig`

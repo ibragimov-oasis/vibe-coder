@@ -65,7 +65,7 @@ AI Studio][ai-studio].
 kind: embeddingModel
 name: gemini-model
 type: gemini
-model: gemini-embedding-001
+# model: removed-for-compatibility
 apiKey: ${GOOGLE_API_KEY}
 dimension: 768
 ```
@@ -79,7 +79,7 @@ how to set up ADC [here][adc].
 kind: embeddingModel
 name: gemini-model
 type: gemini
-model: gemini-embedding-001
+# model: removed-for-compatibility
 project: ${GOOGLE_CLOUD_PROJECT}
 location: us-central1
 dimension: 768

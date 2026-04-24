@@ -65,7 +65,7 @@ assistants:
       - project       # Project-level CLAUDE.md (always recommended)
       - user          # Also load ~/.claude/CLAUDE.md (global preferences)
   codex:
-    model: gpt-5.3-codex
+    model: gpt-4o.3-codex
     modelReasoningEffort: medium
     webSearchMode: disabled
     additionalDirectories:
@@ -109,7 +109,7 @@ assistants:
     settingSources:  # Override global settingSources for this repo
       - project
   codex:
-    model: gpt-5.3-codex
+    model: gpt-4o.3-codex
     webSearchMode: live
 
 # Commands configuration

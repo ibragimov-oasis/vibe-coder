@@ -109,7 +109,7 @@ weather-svg-creator (skill — creates SVG inline)
 name: my-agent
 description: Use this agent PROACTIVELY when...
 tools: Read, Write, Edit, Bash
-model: sonnet
+# model: removed-for-compatibility
 maxTurns: 10
 permissionMode: acceptEdits
 memory: user
@@ -125,7 +125,7 @@ skills:
 description: Do something useful
 argument-hint: [issue-number]
 allowed-tools: Read, Edit, Bash(gh *)
-model: sonnet
+# model: removed-for-compatibility
 ---
 ```
 
@@ -139,7 +139,7 @@ argument-hint: [file-path]
 disable-model-invocation: false
 user-invocable: true
 allowed-tools: Read, Grep, Glob
-model: sonnet
+# model: removed-for-compatibility
 context: fork
 agent: general-purpose
 ---

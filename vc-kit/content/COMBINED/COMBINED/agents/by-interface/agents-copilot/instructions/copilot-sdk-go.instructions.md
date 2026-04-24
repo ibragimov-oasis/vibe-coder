@@ -77,7 +77,7 @@ Use `SessionConfig` for configuration:
 ```go
 session, err := client.CreateSession(&copilot.SessionConfig{
 	OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-    Model: "gpt-5",
+    Model: "gpt-4o",
     Streaming: true,
     Tools: []copilot.Tool{...},
     SystemMessage: &copilot.SystemMessageConfig{ ... },
@@ -93,7 +93,7 @@ if err != nil {
 ### Session Config Options
 
 - `SessionID` - Custom session ID
-- `Model` - Model name ("gpt-5", "claude-sonnet-4.5", etc.)
+- `Model` - Model name ("gpt-4o", "gpt-4o.5", etc.)
 - `Tools` - Custom tools exposed to the CLI ([]Tool)
 - `SystemMessage` - System message customization (\*SystemMessageConfig)
 - `AvailableTools` - Allowlist of tool names ([]string)
@@ -196,7 +196,7 @@ Set `Streaming: true` in SessionConfig:
 ```go
 session, err := client.CreateSession(&copilot.SessionConfig{
 	OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-    Model: "gpt-5",
+    Model: "gpt-4o",
     Streaming: true,
 })
 ```
@@ -250,7 +250,7 @@ Note: Final events (`AssistantMessage`, `AssistantReasoning`) are ALWAYS sent re
 ```go
 session, err := client.CreateSession(&copilot.SessionConfig{
 	OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-    Model: "gpt-5",
+    Model: "gpt-4o",
     Tools: []copilot.Tool{
         {
             Name:        "lookup_issue",
@@ -308,7 +308,7 @@ When Copilot invokes a tool, the client automatically:
 ```go
 session, err := client.CreateSession(&copilot.SessionConfig{
 	OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-    Model: "gpt-5",
+    Model: "gpt-4o",
     SystemMessage: &copilot.SystemMessageConfig{
         Mode: "append",
         Content: `
@@ -326,7 +326,7 @@ session, err := client.CreateSession(&copilot.SessionConfig{
 ```go
 session, err := client.CreateSession(&copilot.SessionConfig{
 	OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-    Model: "gpt-5",
+    Model: "gpt-4o",
     SystemMessage: &copilot.SystemMessageConfig{
         Mode:    "replace",
         Content: "You are a helpful assistant.",
@@ -372,11 +372,11 @@ Sessions are independent and can run concurrently:
 ```go
 session1, _ := client.CreateSession(&copilot.SessionConfig{
 	OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-	Model:               "gpt-5",
+	Model:               "gpt-4o",
 })
 session2, _ := client.CreateSession(&copilot.SessionConfig{
 	OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-	Model:               "claude-sonnet-4.5",
+	Model:               "gpt-4o.5",
 })
 
 session1.Send(copilot.MessageOptions{Prompt: "Hello from session 1"})
@@ -524,7 +524,7 @@ defer client.Stop()
 
 session, err := client.CreateSession(&copilot.SessionConfig{
 	OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-	Model:               "gpt-5",
+	Model:               "gpt-4o",
 })
 if err != nil {
     log.Fatal(err)

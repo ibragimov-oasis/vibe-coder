@@ -20,7 +20,7 @@ func main() {
 	// Create multiple independent sessions
 	session1, err := client.CreateSession(ctx, &copilot.SessionConfig{
 		OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-		Model:               "gpt-5",
+		Model:               "gpt-4o",
 	})
 	if err != nil {
 		log.Fatal(err)
@@ -29,7 +29,7 @@ func main() {
 
 	session2, err := client.CreateSession(ctx, &copilot.SessionConfig{
 		OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-		Model:               "gpt-5",
+		Model:               "gpt-4o",
 	})
 	if err != nil {
 		log.Fatal(err)
@@ -38,7 +38,7 @@ func main() {
 
 	session3, err := client.CreateSession(ctx, &copilot.SessionConfig{
 		OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-		Model:               "claude-sonnet-4.5",
+		Model:               "gpt-4o.5",
 	})
 	if err != nil {
 		log.Fatal(err)

@@ -2,7 +2,7 @@
 name: planner
 description: 複雑な機能とリファクタリングのための専門計画スペシャリスト。ユーザーが機能実装、アーキテクチャの変更、または複雑なリファクタリングを要求した際に積極的に使用します。計画タスク用に自動的に起動されます。
 tools: ["Read", "Grep", "Glob"]
-model: opus
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

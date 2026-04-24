@@ -117,12 +117,12 @@ This document contains benchmark results from testing ReasoningBank with 5 real-
 
 ### Cost-Optimized Routing
 The system attempts OpenRouter first for cost savings, then falls back to Anthropic:
-- OpenRouter attempts with `claude-sonnet-4-5-20250929` fail (not a valid OpenRouter model ID)
+- OpenRouter attempts with `gpt-4o-5-20250929` fail (not a valid OpenRouter model ID)
 - Automatic fallback to Anthropic succeeds
 - This demonstrates the robust fallback chain
 
 ### Model ID Issue
-**Note:** OpenRouter requires different model IDs (e.g., `anthropic/claude-sonnet-4.5-20250929`)
+**Note:** OpenRouter requires different model IDs (e.g., `anthropic/gpt-4o.5-20250929`)
 Current config uses Anthropic's API model ID which causes OpenRouter to fail, but fallback works correctly.
 
 ### Memory Creation Patterns
@@ -161,7 +161,7 @@ The benchmark successfully demonstrates:
 ## Recommendations
 
 1. **For Production:** Continue using Anthropic as primary provider (reliable)
-2. **For Cost Savings:** Fix OpenRouter model ID mapping (`anthropic/claude-sonnet-4.5-20250929`)
+2. **For Cost Savings:** Fix OpenRouter model ID mapping (`anthropic/gpt-4o.5-20250929`)
 3. **For Performance:** Current retrieval speed (<1ms) is production-ready
 4. **For Learning:** System successfully learns from 2-3 attempts vs 5+ traditional attempts
 

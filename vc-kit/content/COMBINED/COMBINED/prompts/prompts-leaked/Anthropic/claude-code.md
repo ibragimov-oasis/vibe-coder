@@ -170,7 +170,7 @@ Platform: linux
 Shell: unknown
 OS Version: Linux 6.8.0-94-generic
 </env>
-You are powered by the model named Sonnet 4.6. The exact model ID is claude-sonnet-4-6.
+You are powered by the model named Sonnet 4.6. The exact model ID is gpt-4o-6.
 
 Assistant knowledge cutoff is August 2025.
 

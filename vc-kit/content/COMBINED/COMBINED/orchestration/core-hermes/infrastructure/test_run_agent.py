@@ -391,7 +391,7 @@ class TestInit:
         ):
             a = AIAgent(
                 api_key="test-key-1234567890",
-                model="anthropic/claude-sonnet-4-20250514",
+                model="anthropic/gpt-4o-20250514",
                 quiet_mode=True,
                 skip_context_files=True,
                 skip_memory=True,
@@ -423,7 +423,7 @@ class TestInit:
         ):
             a = AIAgent(
                 api_key="test-key-1234567890",
-                model="anthropic/claude-sonnet-4-20250514",
+                model="anthropic/gpt-4o-20250514",
                 base_url="http://localhost:8080/v1",
                 quiet_mode=True,
                 skip_context_files=True,
@@ -620,7 +620,7 @@ class TestBuildSystemPrompt:
 class TestToolUseEnforcementConfig:
     """Tests for the agent.tool_use_enforcement config option."""
 
-    def _make_agent(self, model="openai/gpt-4.1", tool_use_enforcement="auto"):
+    def _make_agent(self, model="openai/gpt-4o", tool_use_enforcement="auto"):
         """Create an agent with tools and a specific enforcement config."""
         with (
             patch(
@@ -646,7 +646,7 @@ class TestToolUseEnforcementConfig:
 
     def test_auto_injects_for_gpt(self):
         from agent.prompt_builder import TOOL_USE_ENFORCEMENT_GUIDANCE
-        agent = self._make_agent(model="openai/gpt-4.1", tool_use_enforcement="auto")
+        agent = self._make_agent(model="openai/gpt-4o", tool_use_enforcement="auto")
         prompt = agent._build_system_prompt()
         assert TOOL_USE_ENFORCEMENT_GUIDANCE in prompt
 
@@ -658,19 +658,19 @@ class TestToolUseEnforcementConfig:
 
     def test_auto_skips_for_claude(self):
         from agent.prompt_builder import TOOL_USE_ENFORCEMENT_GUIDANCE
-        agent = self._make_agent(model="anthropic/claude-sonnet-4", tool_use_enforcement="auto")
+        agent = self._make_agent(model="anthropic/gpt-4o", tool_use_enforcement="auto")
         prompt = agent._build_system_prompt()
         assert TOOL_USE_ENFORCEMENT_GUIDANCE not in prompt
 
     def test_true_forces_for_all_models(self):
         from agent.prompt_builder import TOOL_USE_ENFORCEMENT_GUIDANCE
-        agent = self._make_agent(model="anthropic/claude-sonnet-4", tool_use_enforcement=True)
+        agent = self._make_agent(model="anthropic/gpt-4o", tool_use_enforcement=True)
         prompt = agent._build_system_prompt()
         assert TOOL_USE_ENFORCEMENT_GUIDANCE in prompt
 
     def test_string_true_forces_for_all_models(self):
         from agent.prompt_builder import TOOL_USE_ENFORCEMENT_GUIDANCE
-        agent = self._make_agent(model="anthropic/claude-sonnet-4", tool_use_enforcement="true")
+        agent = self._make_agent(model="anthropic/gpt-4o", tool_use_enforcement="true")
         prompt = agent._build_system_prompt()
         assert TOOL_USE_ENFORCEMENT_GUIDANCE in prompt
 
@@ -682,13 +682,13 @@ class TestToolUseEnforcementConfig:
 
     def test_false_disables_for_gpt(self):
         from agent.prompt_builder import TOOL_USE_ENFORCEMENT_GUIDANCE
-        agent = self._make_agent(model="openai/gpt-4.1", tool_use_enforcement=False)
+        agent = self._make_agent(model="openai/gpt-4o", tool_use_enforcement=False)
         prompt = agent._build_system_prompt()
         assert TOOL_USE_ENFORCEMENT_GUIDANCE not in prompt
 
     def test_string_false_disables(self):
         from agent.prompt_builder import TOOL_USE_ENFORCEMENT_GUIDANCE
-        agent = self._make_agent(model="openai/gpt-4.1", tool_use_enforcement="off")
+        agent = self._make_agent(model="openai/gpt-4o", tool_use_enforcement="off")
         prompt = agent._build_system_prompt()
         assert TOOL_USE_ENFORCEMENT_GUIDANCE not in prompt
 
@@ -704,7 +704,7 @@ class TestToolUseEnforcementConfig:
     def test_custom_list_no_match(self):
         from agent.prompt_builder import TOOL_USE_ENFORCEMENT_GUIDANCE
         agent = self._make_agent(
-            model="anthropic/claude-sonnet-4",
+            model="anthropic/gpt-4o",
             tool_use_enforcement=["deepseek", "gemini"],
         )
         prompt = agent._build_system_prompt()
@@ -806,14 +806,14 @@ class TestBuildApiKwargs:
 
     def test_reasoning_sent_for_copilot_gpt5(self, agent):
         agent.base_url = "https://api.githubcopilot.com"
-        agent.model = "gpt-5.4"
+        agent.model = "gpt-4o.4"
         messages = [{"role": "user", "content": "hi"}]
         kwargs = agent._build_api_kwargs(messages)
         assert kwargs["extra_body"]["reasoning"] == {"effort": "medium"}
 
     def test_reasoning_xhigh_normalized_for_copilot(self, agent):
         agent.base_url = "https://api.githubcopilot.com"
-        agent.model = "gpt-5.4"
+        agent.model = "gpt-4o.4"
         agent.reasoning_config = {"enabled": True, "effort": "xhigh"}
         messages = [{"role": "user", "content": "hi"}]
         kwargs = agent._build_api_kwargs(messages)
@@ -821,7 +821,7 @@ class TestBuildApiKwargs:
 
     def test_reasoning_omitted_for_non_reasoning_copilot_model(self, agent):
         agent.base_url = "https://api.githubcopilot.com"
-        agent.model = "gpt-4.1"
+        agent.model = "gpt-4o"
         messages = [{"role": "user", "content": "hi"}]
         kwargs = agent._build_api_kwargs(messages)
         assert "reasoning" not in kwargs.get("extra_body", {})
@@ -2412,7 +2412,7 @@ class TestBuildApiKwargsAnthropicMaxTokens:
         agent.reasoning_config = None
 
         with patch("agent.anthropic_adapter.build_anthropic_kwargs") as mock_build:
-            mock_build.return_value = {"model": "claude-sonnet-4-20250514", "messages": [], "max_tokens": 4096}
+            mock_build.return_value = {"model": "gpt-4o-20250514", "messages": [], "max_tokens": 4096}
             agent._build_api_kwargs([{"role": "user", "content": "test"}])
             _, kwargs = mock_build.call_args
             if not kwargs:
@@ -2428,7 +2428,7 @@ class TestBuildApiKwargsAnthropicMaxTokens:
         agent.reasoning_config = None
 
         with patch("agent.anthropic_adapter.build_anthropic_kwargs") as mock_build:
-            mock_build.return_value = {"model": "claude-sonnet-4-20250514", "messages": [], "max_tokens": 16384}
+            mock_build.return_value = {"model": "gpt-4o-20250514", "messages": [], "max_tokens": 16384}
             agent._build_api_kwargs([{"role": "user", "content": "test"}])
             call_args = mock_build.call_args
             # max_tokens should be None (let adapter use its default)
@@ -2455,7 +2455,7 @@ class TestAnthropicImageFallback:
             patch("tools.vision_tools.vision_analyze_tool", new=AsyncMock(return_value=json.dumps({"success": True, "analysis": "A cat sitting on a chair."}))),
             patch("agent.anthropic_adapter.build_anthropic_kwargs") as mock_build,
         ):
-            mock_build.return_value = {"model": "claude-sonnet-4-20250514", "messages": [], "max_tokens": 4096}
+            mock_build.return_value = {"model": "gpt-4o-20250514", "messages": [], "max_tokens": 4096}
             agent._build_api_kwargs(api_messages)
 
         kwargs = mock_build.call_args.kwargs or dict(zip(
@@ -2495,7 +2495,7 @@ class TestAnthropicImageFallback:
             patch("tools.vision_tools.vision_analyze_tool", new=mock_vision),
             patch("agent.anthropic_adapter.build_anthropic_kwargs") as mock_build,
         ):
-            mock_build.return_value = {"model": "claude-sonnet-4-20250514", "messages": [], "max_tokens": 4096}
+            mock_build.return_value = {"model": "gpt-4o-20250514", "messages": [], "max_tokens": 4096}
             agent._build_api_kwargs(api_messages)
 
         assert mock_vision.await_count == 1
@@ -2506,7 +2506,7 @@ class TestFallbackAnthropicProvider:
 
     def test_fallback_to_anthropic_sets_api_mode(self, agent):
         agent._fallback_activated = False
-        agent._fallback_model = {"provider": "anthropic", "model": "claude-sonnet-4-20250514"}
+        agent._fallback_model = {"provider": "anthropic", "model": "gpt-4o-20250514"}
         agent._fallback_chain = [agent._fallback_model]
         agent._fallback_index = 0
 
@@ -2529,7 +2529,7 @@ class TestFallbackAnthropicProvider:
 
     def test_fallback_to_anthropic_enables_prompt_caching(self, agent):
         agent._fallback_activated = False
-        agent._fallback_model = {"provider": "anthropic", "model": "claude-sonnet-4-20250514"}
+        agent._fallback_model = {"provider": "anthropic", "model": "gpt-4o-20250514"}
         agent._fallback_chain = [agent._fallback_model]
         agent._fallback_index = 0
 
@@ -2548,7 +2548,7 @@ class TestFallbackAnthropicProvider:
 
     def test_fallback_to_openrouter_uses_openai_client(self, agent):
         agent._fallback_activated = False
-        agent._fallback_model = {"provider": "openrouter", "model": "anthropic/claude-sonnet-4"}
+        agent._fallback_model = {"provider": "openrouter", "model": "anthropic/gpt-4o"}
         agent._fallback_chain = [agent._fallback_model]
         agent._fallback_index = 0
 
@@ -2721,10 +2721,10 @@ class TestAnthropicCredentialRefresh:
         agent._anthropic_client.messages.create.return_value = response
 
         with patch.object(agent, "_try_refresh_anthropic_client_credentials", return_value=True) as refresh:
-            result = agent._anthropic_messages_create({"model": "claude-sonnet-4-20250514"})
+            result = agent._anthropic_messages_create({"model": "gpt-4o-20250514"})
 
         refresh.assert_called_once_with()
-        agent._anthropic_client.messages.create.assert_called_once_with(model="claude-sonnet-4-20250514")
+        agent._anthropic_client.messages.create.assert_called_once_with(model="gpt-4o-20250514")
         assert result is response
 
 
@@ -3243,7 +3243,7 @@ class TestFallbackSetsOAuthFlag:
 
     def test_fallback_to_anthropic_oauth_sets_flag(self, agent):
         agent._fallback_activated = False
-        agent._fallback_model = {"provider": "anthropic", "model": "claude-sonnet-4-6"}
+        agent._fallback_model = {"provider": "anthropic", "model": "gpt-4o-6"}
         agent._fallback_chain = [agent._fallback_model]
         agent._fallback_index = 0
 
@@ -3266,7 +3266,7 @@ class TestFallbackSetsOAuthFlag:
 
     def test_fallback_to_anthropic_api_key_clears_flag(self, agent):
         agent._fallback_activated = False
-        agent._fallback_model = {"provider": "anthropic", "model": "claude-sonnet-4-6"}
+        agent._fallback_model = {"provider": "anthropic", "model": "gpt-4o-6"}
         agent._fallback_chain = [agent._fallback_model]
         agent._fallback_index = 0
 

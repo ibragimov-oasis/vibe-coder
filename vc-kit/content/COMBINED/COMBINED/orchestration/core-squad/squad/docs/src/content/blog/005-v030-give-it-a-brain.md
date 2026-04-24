@@ -41,7 +41,7 @@ The coordinator resolves model assignment through four layers, checked in order:
 3. **Role-based registry** — mapping of agent roles to default models
 4. **Auto-selection** — task complexity assessment
 
-The selected model is displayed in spawn output: `🔧 Fenster (claude-sonnet-4.5) — refactoring auth module`.
+The selected model is displayed in spawn output: `🔧 Fenster (gpt-4o.5) — refactoring auth module`.
 
 ### Fallback Chains
 

@@ -8,7 +8,7 @@ Resolution order for text tasks (auto mode):
   1. OpenRouter  (OPENROUTER_API_KEY)
   2. Nous Portal (~/.hermes/auth.json active provider)
   3. Custom endpoint (OPENAI_BASE_URL + OPENAI_API_KEY)
-  4. Codex OAuth (Responses API via chatgpt.com with gpt-5.3-codex,
+  4. Codex OAuth (Responses API via chatgpt.com with gpt-4o.3-codex,
      wrapped to look like a chat.completions client)
   5. Native Anthropic
   6. Direct API-key providers (z.ai/GLM, Kimi/Moonshot, MiniMax, MiniMax-CN)
@@ -18,7 +18,7 @@ Resolution order for vision/multimodal tasks (auto mode):
   1. Selected main provider, if it is one of the supported vision backends below
   2. OpenRouter
   3. Nous Portal
-  4. Codex OAuth (gpt-5.3-codex supports vision via Responses API)
+  4. Codex OAuth (gpt-4o.3-codex supports vision via Responses API)
   5. Native Anthropic
   6. Custom endpoint (for local vision models: Qwen-VL, LLaVA, Pixtral, etc.)
   7. None
@@ -89,10 +89,10 @@ _AUTH_JSON_PATH = get_hermes_home() / "auth.json"
 
 # Codex fallback: uses the Responses API (the only endpoint the Codex
 # OAuth token can access) with a fast model for auxiliary tasks.
-# ChatGPT-backed Codex accounts currently reject gpt-5.3-codex for these
-# auxiliary flows, while gpt-5.2-codex remains broadly available and supports
+# ChatGPT-backed Codex accounts currently reject gpt-4o.3-codex for these
+# auxiliary flows, while gpt-4o.2-codex remains broadly available and supports
 # vision via Responses.
-_CODEX_AUX_MODEL = "gpt-5.2-codex"
+_CODEX_AUX_MODEL = "gpt-4o.2-codex"
 _CODEX_AUX_BASE_URL = "https://chatgpt.com/backend-api/codex"
 
 
@@ -1212,7 +1212,7 @@ def auxiliary_max_tokens_param(value: int) -> dict:
     """Return the correct max tokens kwarg for the auxiliary client's provider.
     
     OpenRouter and local models use 'max_tokens'. Direct OpenAI with newer
-    models (gpt-4o, o-series, gpt-5+) requires 'max_completion_tokens'.
+    models (gpt-4o, o-series, gpt-4o+) requires 'max_completion_tokens'.
     The Codex adapter translates max_tokens internally, so we use max_tokens
     for it as well.
     """

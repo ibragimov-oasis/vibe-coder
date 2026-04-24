@@ -1,7 +1,7 @@
 ---
 name: observer
 description: 分析会话观察以检测模式并创建本能的背景代理。使用Haiku以实现成本效益。v2.1版本增加了项目范围的本能。
-model: haiku
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

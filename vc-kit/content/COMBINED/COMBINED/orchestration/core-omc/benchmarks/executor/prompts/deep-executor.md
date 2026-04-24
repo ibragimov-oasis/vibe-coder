@@ -1,7 +1,7 @@
 ---
 name: deep-executor
 description: Autonomous deep worker for complex goal-oriented tasks (Opus)
-model: claude-opus-4-6
+# model: removed-for-compatibility
 tags:
   - domain/orchestration
   - artifact/workflow

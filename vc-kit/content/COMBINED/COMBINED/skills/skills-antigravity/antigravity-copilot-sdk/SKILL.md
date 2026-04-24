@@ -41,7 +41,7 @@ All SDK usage follows this pattern: create a client, create a session, send mess
 import { CopilotClient } from "@github/copilot-sdk";
 
 const client = new CopilotClient();
-const session = await client.createSession({ model: "gpt-4.1" });
+const session = await client.createSession({ model: "gpt-4o" });
 
 const response = await session.sendAndWait({ prompt: "What is 2 + 2?" });
 console.log(response?.data.content);
@@ -58,7 +58,7 @@ from copilot import CopilotClient
 async def main():
     client = CopilotClient()
     await client.start()
-    session = await client.create_session({"model": "gpt-4.1"})
+    session = await client.create_session({"model": "gpt-4o"})
     response = await session.send_and_wait({"prompt": "What is 2 + 2?"})
     print(response.data.content)
     await client.stop()
@@ -73,7 +73,7 @@ client := copilot.NewClient(nil)
 if err := client.Start(ctx); err != nil { log.Fatal(err) }
 defer client.Stop()
 
-session, _ := client.CreateSession(ctx, &copilot.SessionConfig{Model: "gpt-4.1"})
+session, _ := client.CreateSession(ctx, &copilot.SessionConfig{Model: "gpt-4o"})
 response, _ := session.SendAndWait(ctx, copilot.MessageOptions{Prompt: "What is 2 + 2?"})
 fmt.Println(*response.Data.Content)
 ```
@@ -82,7 +82,7 @@ fmt.Println(*response.Data.Content)
 
 ```csharp
 await using var client = new CopilotClient();
-await using var session = await client.CreateSessionAsync(new SessionConfig { Model = "gpt-4.1" });
+await using var session = await client.CreateSessionAsync(new SessionConfig { Model = "gpt-4o" });
 var response = await session.SendAndWaitAsync(new MessageOptions { Prompt = "What is 2 + 2?" });
 Console.WriteLine(response?.Data.Content);
 ```
@@ -94,7 +94,7 @@ Console.WriteLine(response?.Data.Content);
 Enable real-time output by setting `streaming: true` and subscribing to delta events.
 
 ```typescript
-const session = await client.createSession({ model: "gpt-4.1", streaming: true });
+const session = await client.createSession({ model: "gpt-4o", streaming: true });
 
 session.on("assistant.message_delta", (event) => {
     process.stdout.write(event.data.deltaContent);
@@ -109,7 +109,7 @@ await session.sendAndWait({ prompt: "Tell me a joke" });
 ```python
 from copilot.generated.session_events import SessionEventType
 
-session = await client.create_session({"model": "gpt-4.1", "streaming": True})
+session = await client.create_session({"model": "gpt-4o", "streaming": True})
 
 def handle_event(event):
     if event.type == SessionEventType.ASSISTANT_MESSAGE_DELTA:
@@ -149,7 +149,7 @@ const getWeather = defineTool("get_weather", {
 });
 
 const session = await client.createSession({
-    model: "gpt-4.1",
+    model: "gpt-4o",
     tools: [getWeather],
 });
 ```
@@ -167,7 +167,7 @@ class GetWeatherParams(BaseModel):
 async def get_weather(params: GetWeatherParams) -> dict:
     return {"city": params.city, "temperature": "72°F", "condition": "sunny"}
 
-session = await client.create_session({"model": "gpt-4.1", "tools": [get_weather]})
+session = await client.create_session({"model": "gpt-4o", "tools": [get_weather]})
 ```
 
 ### Go
@@ -184,7 +184,7 @@ getWeather := copilot.DefineTool("get_weather", "Get weather for a city",
 )
 
 session, _ := client.CreateSession(ctx, &copilot.SessionConfig{
-    Model: "gpt-4.1",
+    Model: "gpt-4o",
     Tools: []copilot.Tool{getWeather},
 })
 ```
@@ -197,7 +197,7 @@ var getWeather = AIFunctionFactory.Create(
     "get_weather", "Get the current weather for a city");
 
 await using var session = await client.CreateSessionAsync(new SessionConfig {
-    Model = "gpt-4.1", Tools = [getWeather],
+    Model = "gpt-4o", Tools = [getWeather],
 });
 ```
 
@@ -308,7 +308,7 @@ Use your own API keys — no Copilot subscription required.
 
 ```typescript
 const session = await client.createSession({
-    model: "gpt-5.2-codex",
+    model: "gpt-4o.2-codex",
     provider: {
         type: "openai",
         baseUrl: "https://your-resource.openai.azure.com/openai/v1/",
@@ -338,7 +338,7 @@ Resume sessions across restarts by providing your own session ID.
 // Create with explicit ID
 const session = await client.createSession({
     sessionId: "user-123-task-456",
-    model: "gpt-4.1",
+    model: "gpt-4o",
 });
 
 // Resume later
@@ -466,7 +466,7 @@ const client = new CopilotClient({ cliUrl: "localhost:4321" });
 
 | Option | Type | Description |
 |--------|------|-------------|
-| `model` | string | Model to use (e.g., `"gpt-4.1"`) |
+| `model` | string | Model to use (e.g., `"gpt-4o"`) |
 | `sessionId` | string | Custom ID for resumable sessions |
 | `streaming` | boolean | Enable streaming responses |
 | `tools` | Tool[] | Custom tools |

@@ -3,7 +3,7 @@ name: cs-ceo-advisor
 description: Strategic leadership advisor for CEOs covering vision, strategy, board management, investor relations, and organizational culture
 skills: c-level-advisor/ceo-advisor
 domain: c-level
-model: opus
+# model: removed-for-compatibility
 tools: [Read, Write, Bash, Grep, Glob]
 tags:
   - domain/agents

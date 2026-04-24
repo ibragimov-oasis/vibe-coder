@@ -2,7 +2,7 @@
 name: rust-build-resolver
 description: Rust构建、编译和依赖错误解决专家。修复cargo构建错误、借用检查器问题和Cargo.toml问题，改动最小。适用于Rust构建失败时。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

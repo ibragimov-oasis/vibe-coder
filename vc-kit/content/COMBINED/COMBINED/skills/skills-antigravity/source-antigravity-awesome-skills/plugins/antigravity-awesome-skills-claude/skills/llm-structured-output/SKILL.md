@@ -102,7 +102,7 @@ import anthropic
 
 client = anthropic.Anthropic()
 response = client.messages.create(
-    model="claude-sonnet-4-20250514",
+    model="gpt-4o-20250514",
     max_tokens=1024,
     system="You are a data extraction system. Use the provided tool to return structured data.",
     tools=[{

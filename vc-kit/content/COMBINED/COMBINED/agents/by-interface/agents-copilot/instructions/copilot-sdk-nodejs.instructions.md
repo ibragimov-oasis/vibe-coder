@@ -79,7 +79,7 @@ Use `SessionConfig` for configuration:
 ```typescript
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-5",
+    model: "gpt-4o",
     streaming: true,
     tools: [...],
     systemMessage: { ... },
@@ -92,7 +92,7 @@ const session = await client.createSession({
 ### Session Config Options
 
 - `sessionId` - Custom session ID (string)
-- `model` - Model name ("gpt-5", "claude-sonnet-4.5", etc.)
+- `model` - Model name ("gpt-4o", "gpt-4o.5", etc.)
 - `tools` - Custom tools exposed to the CLI (Tool[])
 - `systemMessage` - System message customization (SystemMessageConfig)
 - `availableTools` - Allowlist of tool names (string[])
@@ -197,7 +197,7 @@ Set `streaming: true` in SessionConfig:
 ```typescript
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-5",
+    model: "gpt-4o",
     streaming: true,
 });
 ```
@@ -251,7 +251,7 @@ import { defineTool } from "@github/copilot-sdk";
 
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-5",
+    model: "gpt-4o",
   tools: [
     defineTool({
       name: "lookup_issue",
@@ -326,7 +326,7 @@ When Copilot invokes a tool, the client automatically:
 ```typescript
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-5",
+    model: "gpt-4o",
   systemMessage: {
     mode: "append",
     content: `
@@ -344,7 +344,7 @@ const session = await client.createSession({
 ```typescript
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-5",
+    model: "gpt-4o",
   systemMessage: {
     mode: "replace",
     content: "You are a helpful assistant.",
@@ -390,11 +390,11 @@ Sessions are independent and can run concurrently:
 ```typescript
 const session1 = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-5",
+    model: "gpt-4o",
 });
 const session2 = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "claude-sonnet-4.5",
+    model: "gpt-4o.5",
 });
 
 await Promise.all([
@@ -568,7 +568,7 @@ try {
 
   const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-5",
+    model: "gpt-4o",
   });
   try {
     await new Promise<void>((resolve) => {

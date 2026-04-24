@@ -18,7 +18,7 @@ function makeJob(overrides = {}) {
         status: 'running',
         promptFile: '/tmp/prompt.md',
         responseFile: '/tmp/response.md',
-        model: 'gpt-5.3-codex',
+        model: 'gpt-4o.3-codex',
         agentRole: 'architect',
         spawnedAt: new Date().toISOString(),
         ...overrides,

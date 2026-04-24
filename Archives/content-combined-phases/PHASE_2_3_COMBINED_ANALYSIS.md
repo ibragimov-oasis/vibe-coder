@@ -126,7 +126,7 @@ This document combines continued Phase 2 analysis (complete agent role analysis)
 ---
 
 #### **verifier.md** (OMC)
-**Model**: claude-sonnet-4-5
+**Model**: gpt-4o-5
 **Level**: 2
 **Specialty**: Quick verification of implemented changes
 

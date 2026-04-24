@@ -70,7 +70,7 @@ def sample_agent_config():
         'goal': 'Perform testing tasks',
         'backstory': 'An expert testing agent',
         'llm': {
-            'model': 'gpt-5-nano',
+            'model': 'gpt-4o-nano',
             'api_key': 'test-key'
         }
     }

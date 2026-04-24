@@ -1,7 +1,7 @@
 ---
 name: mega-researcher
 description: 'Unified research and analysis agent. Performs deep multi-step research, synthesizes findings from web and codebase sources, extracts reusable patterns, and creates new skills. Merged from Hermes (self-directed research with 3000+ tests, tool orchestration, skill marketplace), GSD researcher (technical codebase analysis), and DeerFlow (multi-step web research with LangGraph, report synthesis).'
-model: claude-opus-4-5
+# model: removed-for-compatibility
 tools:
   - Read
   - Write

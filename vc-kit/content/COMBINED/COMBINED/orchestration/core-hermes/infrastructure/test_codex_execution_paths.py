@@ -43,7 +43,7 @@ def _codex_message_response(text: str):
         ],
         usage=SimpleNamespace(input_tokens=5, output_tokens=3, total_tokens=8),
         status="completed",
-        model="gpt-5-codex",
+        model="gpt-4o-codex",
     )
 
 

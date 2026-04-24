@@ -86,7 +86,7 @@ describe('worker-restart', () => {
                 agentId: 'agent-1',
                 name: 'codex-worker',
                 agentType: 'mcp-codex',
-                model: 'gpt-5.3-codex',
+                model: 'gpt-4o.3-codex',
                 joinedAt: Date.now(),
                 tmuxPaneId: 'omc-team-test-codex-worker',
                 cwd: '/home/user/project',
@@ -98,7 +98,7 @@ describe('worker-restart', () => {
             expect(config.teamName).toBe('my-team');
             expect(config.workingDirectory).toBe('/home/user/project');
             expect(config.provider).toBe('codex');
-            expect(config.model).toBe('gpt-5.3-codex');
+            expect(config.model).toBe('gpt-4o.3-codex');
             expect(config.pollIntervalMs).toBe(3000);
             expect(config.taskTimeoutMs).toBe(600000);
             expect(config.maxConsecutiveErrors).toBe(3);

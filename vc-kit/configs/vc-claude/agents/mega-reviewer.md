@@ -1,7 +1,7 @@
 ---
 name: mega-reviewer
 description: 'Unified code review agent. Performs 7-dimension reviews covering correctness, security, performance, maintainability, tests, documentation, and style. Merged from RuFlo reviewer (multi-dimension scoring), OMC code-reviewer (opus-quality analysis), and Superpowers requesting-code-review skill.'
-model: claude-opus-4-5
+# model: removed-for-compatibility
 tools:
   - Read
   - Bash

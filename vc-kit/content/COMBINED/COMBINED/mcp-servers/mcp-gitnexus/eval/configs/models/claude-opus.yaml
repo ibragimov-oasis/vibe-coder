@@ -1,7 +1,7 @@
 # Claude Opus 4 — most capable, highest cost
 # Via OpenRouter (set OPENROUTER_API_KEY in .env)
 # To use Anthropic directly, change to: anthropic/claude-opus-4-20250514
-model:
+# model: removed-for-compatibility
   model_name: 'openrouter/anthropic/claude-opus-4'
   cost_tracking: 'ignore_errors'
   model_kwargs:

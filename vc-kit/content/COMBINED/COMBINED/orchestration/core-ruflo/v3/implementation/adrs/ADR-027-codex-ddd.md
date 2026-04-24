@@ -525,7 +525,7 @@ ${content}`;
 class ConfigurationMigrationService {
   migrateClaudeToCodex(claudeSettings: ClaudeSettings): CodexConfiguration {
     return {
-      model: 'gpt-5.3-codex',
+      model: 'gpt-4o.3-codex',
       approvalPolicy: this.mapApprovalPolicy(claudeSettings),
       sandboxMode: this.mapSandboxMode(claudeSettings),
       webSearch: 'cached',

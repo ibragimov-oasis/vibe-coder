@@ -17,7 +17,7 @@ Usage:
     claude = ClaudeCodeIntegration(workspace="/path/to/project")
     
     # Managed agent integration
-    managed = ManagedAgent(config={"model": "claude-sonnet-4-6"})
+    managed = ManagedAgent(config={"model": "gpt-4o-6"})
     
     # Use as agent tool
     tool = claude.as_tool()

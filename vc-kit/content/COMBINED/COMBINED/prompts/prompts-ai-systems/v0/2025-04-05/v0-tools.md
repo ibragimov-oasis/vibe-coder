@@ -398,7 +398,7 @@ The AI SDK provides several core functions and integrations:
 **Signature**:
 ```typescript
 function generateText(options: {
-model: AIModel;
+# model: removed-for-compatibility
 prompt: string;
 system?: string;
 }): Promise<{ text: string; finishReason: string; usage: Usage }>
@@ -412,7 +412,7 @@ system?: string;
 **Signature**:
 ```typescript
 function streamText(options: {
-model: AIModel;
+# model: removed-for-compatibility
 prompt: string;
 system?: string;
 onChunk?: (chunk: Chunk) => void;

@@ -2,7 +2,7 @@
 name: e2e-runner
 description: Especialista em testes end-to-end usando Vercel Agent Browser (preferido) com fallback para Playwright. Use PROATIVAMENTE para gerar, manter e executar testes E2E. Gerencia jornadas de teste, coloca testes instáveis em quarentena, faz upload de artefatos (screenshots, vídeos, traces) e garante que fluxos críticos de usuário funcionem.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

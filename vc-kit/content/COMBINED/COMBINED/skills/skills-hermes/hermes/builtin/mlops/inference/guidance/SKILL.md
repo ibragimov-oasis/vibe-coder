@@ -60,7 +60,7 @@ print(result["capital"])  # "Paris"
 from guidance import models, gen, system, user, assistant
 
 # Configure Claude
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 
 # Use context managers for chat format
 with system():
@@ -82,7 +82,7 @@ Guidance uses Pythonic context managers for chat-style interactions.
 ```python
 from guidance import system, user, assistant, gen
 
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 
 # System message
 with system():
@@ -113,7 +113,7 @@ Guidance ensures outputs match specified patterns using regex or grammars.
 ```python
 from guidance import models, gen
 
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 
 # Constrain to valid email format
 lm += "Email: " + gen("email", regex=r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}")
@@ -138,7 +138,7 @@ print(lm["date"])   # Guaranteed YYYY-MM-DD format
 ```python
 from guidance import models, gen, select
 
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 
 # Constrain to specific choices
 lm += "Sentiment: " + select(["positive", "negative", "neutral"], name="sentiment")
@@ -172,7 +172,7 @@ prompt = "The capital of France is "
 ```python
 from guidance import models, gen
 
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 
 # Token healing enabled by default
 lm += "The capital of France is " + gen("capital", max_tokens=5)
@@ -191,7 +191,7 @@ Define complex structures using context-free grammars.
 ```python
 from guidance import models, gen
 
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 
 # JSON grammar (simplified)
 json_grammar = """
@@ -229,7 +229,7 @@ def generate_person(lm):
     return lm
 
 # Use the function
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 lm = generate_person(lm)
 
 print(lm["name"])
@@ -273,7 +273,7 @@ def react_agent(lm, question, tools, max_rounds=5):
 from guidance import models
 
 lm = models.Anthropic(
-    model="claude-sonnet-4-5-20250929",
+    model="gpt-4o-5-20250929",
     api_key="your-api-key"  # Or set ANTHROPIC_API_KEY env var
 )
 ```
@@ -317,7 +317,7 @@ lm = LlamaCpp(
 ```python
 from guidance import models, gen, system, user, assistant
 
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 
 with system():
     lm += "You generate valid JSON."
@@ -340,7 +340,7 @@ print(lm)  # Valid JSON guaranteed
 ```python
 from guidance import models, gen, select
 
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 
 text = "This product is amazing! I love it."
 
@@ -371,7 +371,7 @@ def chain_of_thought(lm, question):
 
     return lm
 
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 lm = chain_of_thought(lm, "What is 15% of 200?")
 
 print(lm["answer"])
@@ -413,7 +413,7 @@ def react_agent(lm, question):
 
     return lm
 
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 lm = react_agent(lm, "What is 25 * 4 + 10?")
 print(lm["answer"])
 ```
@@ -444,7 +444,7 @@ def extract_entities(lm, text):
 
 text = "Tim Cook announced at Apple Park on 2024-09-15 in Cupertino."
 
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 lm = extract_entities(lm, text)
 
 print(f"Person: {lm['person']}")

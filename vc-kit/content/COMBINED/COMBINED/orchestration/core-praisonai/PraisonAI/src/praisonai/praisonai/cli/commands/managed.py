@@ -126,7 +126,7 @@ def managed_main(
 
     Examples:
         praisonai managed run "Say hello"
-        praisonai managed run "Write fibonacci" --model claude-sonnet-4-6
+        praisonai managed run "Write fibonacci" --model gpt-4o-6
         praisonai managed run "Analyze data" --provider local --model gpt-4o
         praisonai managed run --stream --provider ollama --model llama3 "Explain decorators"
     """
@@ -171,7 +171,7 @@ def managed_multi(
 
     Examples:
         praisonai managed multi
-        praisonai managed multi --model claude-sonnet-4-6
+        praisonai managed multi --model gpt-4o-6
         praisonai managed multi --provider local --model gpt-4o
     """
     managed = _build_managed(provider=provider, model=model, system=system, name=name, database_url=database_url)

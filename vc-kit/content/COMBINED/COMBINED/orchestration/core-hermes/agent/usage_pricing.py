@@ -95,7 +95,7 @@ _OFFICIAL_DOCS_PRICING: Dict[tuple[str, str], PricingEntry] = {
     ),
     (
         "anthropic",
-        "claude-sonnet-4-20250514",
+        "gpt-4o-20250514",
     ): PricingEntry(
         input_cost_per_million=Decimal("3.00"),
         output_cost_per_million=Decimal("15.00"),
@@ -130,7 +130,7 @@ _OFFICIAL_DOCS_PRICING: Dict[tuple[str, str], PricingEntry] = {
     ),
     (
         "openai",
-        "gpt-4.1",
+        "gpt-4o",
     ): PricingEntry(
         input_cost_per_million=Decimal("2.00"),
         output_cost_per_million=Decimal("8.00"),
@@ -141,7 +141,7 @@ _OFFICIAL_DOCS_PRICING: Dict[tuple[str, str], PricingEntry] = {
     ),
     (
         "openai",
-        "gpt-4.1-mini",
+        "gpt-4o-mini",
     ): PricingEntry(
         input_cost_per_million=Decimal("0.40"),
         output_cost_per_million=Decimal("1.60"),
@@ -152,7 +152,7 @@ _OFFICIAL_DOCS_PRICING: Dict[tuple[str, str], PricingEntry] = {
     ),
     (
         "openai",
-        "gpt-4.1-nano",
+        "gpt-4o-nano",
     ): PricingEntry(
         input_cost_per_million=Decimal("0.10"),
         output_cost_per_million=Decimal("0.40"),

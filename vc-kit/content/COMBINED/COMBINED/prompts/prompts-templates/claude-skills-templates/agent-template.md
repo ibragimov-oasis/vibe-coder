@@ -3,7 +3,7 @@ name: cs-agent-name
 description: One-line description of what this agent does (keep under 150 characters)
 skills: skill-folder-name
 domain: domain-name
-model: sonnet
+# model: removed-for-compatibility
 tools: [Read, Write, Bash, Grep, Glob]
 tags:
   - domain/prompts

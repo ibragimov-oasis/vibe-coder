@@ -24,15 +24,15 @@ import { BaseAIProvider } from './base-provider.js';
  */
 const REASONING_EFFORT_SUPPORT = {
 	// GPT-5.1 base does not support xhigh
-	'gpt-5.1': ['none', 'low', 'medium', 'high'],
+	'gpt-4o.1': ['none', 'low', 'medium', 'high'],
 	// GPT-5.1 Codex Max supports full range
-	'gpt-5.1-codex-max': ['none', 'low', 'medium', 'high', 'xhigh'],
+	'gpt-4o.1-codex-max': ['none', 'low', 'medium', 'high', 'xhigh'],
 	// GPT-5.2 supports full range
-	'gpt-5.2': ['none', 'low', 'medium', 'high', 'xhigh'],
+	'gpt-4o.2': ['none', 'low', 'medium', 'high', 'xhigh'],
 	// GPT-5.2 Pro only supports medium and above
-	'gpt-5.2-pro': ['medium', 'high', 'xhigh'],
+	'gpt-4o.2-pro': ['medium', 'high', 'xhigh'],
 	// GPT-5 supports full range
-	'gpt-5': ['none', 'low', 'medium', 'high', 'xhigh']
+	'gpt-4o': ['none', 'low', 'medium', 'high', 'xhigh']
 };
 
 // Default for models not explicitly listed

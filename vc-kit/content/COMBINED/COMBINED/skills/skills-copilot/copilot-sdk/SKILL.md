@@ -58,7 +58,7 @@ import { CopilotClient, approveAll } from "@github/copilot-sdk";
 const client = new CopilotClient();
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4.1",
+    model: "gpt-4o",
 });
 
 const response = await session.sendAndWait({ prompt: "What is 2 + 2?" });
@@ -81,7 +81,7 @@ async def main():
 
     session = await client.create_session({
         "on_permission_request": PermissionHandler.approve_all,
-        "model": "gpt-4.1",
+        "model": "gpt-4o",
     })
     response = await session.send_and_wait({"prompt": "What is 2 + 2?"})
 
@@ -111,7 +111,7 @@ func main() {
 
     session, err := client.CreateSession(&copilot.SessionConfig{
         OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-        Model:               "gpt-4.1",
+        Model:               "gpt-4o",
     })
     if err != nil {
         log.Fatal(err)
@@ -135,7 +135,7 @@ await using var client = new CopilotClient();
 await using var session = await client.CreateSessionAsync(new SessionConfig
 {
     OnPermissionRequest = PermissionHandler.ApproveAll,
-    Model = "gpt-4.1",
+    Model = "gpt-4o",
 });
 
 var response = await session.SendAndWaitAsync(new MessageOptions { Prompt = "What is 2 + 2?" });
@@ -155,7 +155,7 @@ import { CopilotClient, approveAll, SessionEvent } from "@github/copilot-sdk";
 const client = new CopilotClient();
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4.1",
+    model: "gpt-4o",
     streaming: true,
 });
 
@@ -187,7 +187,7 @@ async def main():
 
     session = await client.create_session({
         "on_permission_request": PermissionHandler.approve_all,
-        "model": "gpt-4.1",
+        "model": "gpt-4o",
         "streaming": True,
     })
 
@@ -209,7 +209,7 @@ asyncio.run(main())
 ```go
 session, err := client.CreateSession(&copilot.SessionConfig{
 	OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-    Model:     "gpt-4.1",
+    Model:     "gpt-4o",
     Streaming: true,
 })
 
@@ -230,7 +230,7 @@ _, err = session.SendAndWait(copilot.MessageOptions{Prompt: "Tell me a short jok
 await using var session = await client.CreateSessionAsync(new SessionConfig
 {
     OnPermissionRequest = PermissionHandler.ApproveAll,
-    Model = "gpt-4.1",
+    Model = "gpt-4o",
     Streaming = true,
 });
 
@@ -278,7 +278,7 @@ const getWeather = defineTool("get_weather", {
 const client = new CopilotClient();
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4.1",
+    model: "gpt-4o",
     streaming: true,
     tools: [getWeather],
 });
@@ -324,7 +324,7 @@ async def main():
 
     session = await client.create_session({
         "on_permission_request": PermissionHandler.approve_all,
-        "model": "gpt-4.1",
+        "model": "gpt-4o",
         "streaming": True,
         "tools": [get_weather],
     })
@@ -374,7 +374,7 @@ getWeather := copilot.DefineTool(
 
 session, _ := client.CreateSession(&copilot.SessionConfig{
 	OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-    Model:     "gpt-4.1",
+    Model:     "gpt-4o",
     Streaming: true,
     Tools:     []copilot.Tool{getWeather},
 })
@@ -401,7 +401,7 @@ var getWeather = AIFunctionFactory.Create(
 await using var session = await client.CreateSessionAsync(new SessionConfig
 {
     OnPermissionRequest = PermissionHandler.ApproveAll,
-    Model = "gpt-4.1",
+    Model = "gpt-4o",
     Streaming = true,
     Tools = [getWeather],
 });
@@ -446,7 +446,7 @@ const getWeather = defineTool("get_weather", {
 const client = new CopilotClient();
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4.1",
+    model: "gpt-4o",
     streaming: true,
     tools: [getWeather],
 });
@@ -509,7 +509,7 @@ async def main():
 
     session = await client.create_session({
         "on_permission_request": PermissionHandler.approve_all,
-        "model": "gpt-4.1",
+        "model": "gpt-4o",
         "streaming": True,
         "tools": [get_weather],
     })
@@ -550,7 +550,7 @@ Connect to MCP (Model Context Protocol) servers for pre-built tools. Connect to 
 ```typescript
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4.1",
+    model: "gpt-4o",
     mcpServers: {
         github: {
             type: "http",
@@ -564,7 +564,7 @@ const session = await client.createSession({
 ```python
 session = await client.create_session({
     "on_permission_request": PermissionHandler.approve_all,
-    "model": "gpt-4.1",
+    "model": "gpt-4o",
     "mcp_servers": {
         "github": {
             "type": "http",
@@ -578,7 +578,7 @@ session = await client.create_session({
 ```go
 session, _ := client.CreateSession(&copilot.SessionConfig{
 	OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-    Model: "gpt-4.1",
+    Model: "gpt-4o",
     MCPServers: map[string]copilot.MCPServerConfig{
         "github": {
             Type: "http",
@@ -593,7 +593,7 @@ session, _ := client.CreateSession(&copilot.SessionConfig{
 await using var session = await client.CreateSessionAsync(new SessionConfig
 {
     OnPermissionRequest = PermissionHandler.ApproveAll,
-    Model = "gpt-4.1",
+    Model = "gpt-4o",
     McpServers = new Dictionary<string, McpServerConfig>
     {
         ["github"] = new McpServerConfig
@@ -613,7 +613,7 @@ Define specialized AI personas for specific tasks:
 ```typescript
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4.1",
+    model: "gpt-4o",
     customAgents: [{
         name: "pr-reviewer",
         displayName: "PR Reviewer",
@@ -627,7 +627,7 @@ const session = await client.createSession({
 ```python
 session = await client.create_session({
     "on_permission_request": PermissionHandler.approve_all,
-    "model": "gpt-4.1",
+    "model": "gpt-4o",
     "custom_agents": [{
         "name": "pr-reviewer",
         "display_name": "PR Reviewer",
@@ -645,7 +645,7 @@ Customize the AI's behavior and personality:
 ```typescript
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4.1",
+    model: "gpt-4o",
     systemMessage: {
         content: "You are a helpful assistant for our engineering team. Always be concise.",
     },
@@ -656,7 +656,7 @@ const session = await client.createSession({
 ```python
 session = await client.create_session({
     "on_permission_request": PermissionHandler.approve_all,
-    "model": "gpt-4.1",
+    "model": "gpt-4o",
     "system_message": {
         "content": "You are a helpful assistant for our engineering team. Always be concise.",
     },
@@ -682,7 +682,7 @@ const client = new CopilotClient({
 
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4.1",
+    model: "gpt-4o",
 });
 ```
 
@@ -695,7 +695,7 @@ await client.start()
 
 session = await client.create_session({
     "on_permission_request": PermissionHandler.approve_all,
-    "model": "gpt-4.1",
+    "model": "gpt-4o",
 })
 ```
 
@@ -711,7 +711,7 @@ if err := client.Start(); err != nil {
 
 session, _ := client.CreateSession(&copilot.SessionConfig{
 	OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-	Model:               "gpt-4.1",
+	Model:               "gpt-4o",
 })
 ```
 
@@ -725,7 +725,7 @@ using var client = new CopilotClient(new CopilotClientOptions
 await using var session = await client.CreateSessionAsync(new SessionConfig
 {
     OnPermissionRequest = PermissionHandler.ApproveAll,
-    Model = "gpt-4.1",
+    Model = "gpt-4o",
 });
 ```
 
@@ -762,7 +762,7 @@ await using var session = await client.CreateSessionAsync(new SessionConfig
 
 | Option | Description |
 |--------|-------------|
-| `model` | LLM to use ("gpt-4.1", "claude-sonnet-4.5", etc.) |
+| `model` | LLM to use ("gpt-4o", "gpt-4o.5", etc.) |
 | `sessionId` | Custom session identifier |
 | `tools` | Custom tool definitions |
 | `mcpServers` | MCP server connections |
@@ -781,7 +781,7 @@ Save and resume conversations across restarts:
 const session = await client.createSession({
     onPermissionRequest: approveAll,
     sessionId: "user-123-conversation",
-    model: "gpt-4.1"
+    model: "gpt-4o"
 });
 ```
 
@@ -804,7 +804,7 @@ try {
     const client = new CopilotClient();
     const session = await client.createSession({
         onPermissionRequest: approveAll,
-        model: "gpt-4.1",
+        model: "gpt-4o",
     });
     const response = await session.sendAndWait(
         { prompt: "Hello!" },
@@ -839,7 +839,7 @@ process.on("SIGINT", async () => {
 ```typescript
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4.1",
+    model: "gpt-4o",
 });
 
 await session.sendAndWait({ prompt: "My name is Alice" });
@@ -878,7 +878,7 @@ Query available models at runtime:
 
 ```typescript
 const models = await client.getModels();
-// Returns: ["gpt-4.1", "gpt-4o", "claude-sonnet-4.5", ...]
+// Returns: ["gpt-4o", "gpt-4o", "gpt-4o.5", ...]
 ```
 
 ## Best Practices

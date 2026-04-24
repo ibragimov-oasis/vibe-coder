@@ -1,7 +1,7 @@
 ---
 name: document-specialist
 description: External Documentation & Reference Specialist
-model: claude-sonnet-4-6
+# model: removed-for-compatibility
 level: 2
 disallowedTools: Write, Edit
 tags:

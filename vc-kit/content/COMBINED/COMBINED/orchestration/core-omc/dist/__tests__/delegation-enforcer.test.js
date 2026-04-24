@@ -50,7 +50,7 @@ describe('delegation-enforcer', () => {
                 description: 'Test task',
                 prompt: 'Do something',
                 subagent_type: 'oh-my-claudecode:executor',
-                model: 'claude-sonnet-4-6'
+                model: 'gpt-4o-6'
             };
             const result = enforceModel(input);
             expect(result.injected).toBe(false);
@@ -61,7 +61,7 @@ describe('delegation-enforcer', () => {
                 description: 'Test task',
                 prompt: 'Do something',
                 subagent_type: 'oh-my-claudecode:executor',
-                model: 'us.anthropic.claude-sonnet-4-6-v1:0'
+                model: 'us.anthropic.gpt-4o-6-v1:0'
             };
             const result = enforceModel(input);
             expect(result.injected).toBe(false);
@@ -75,7 +75,7 @@ describe('delegation-enforcer', () => {
             };
             const result = enforceModel(input);
             expect(result.injected).toBe(true);
-            expect(result.modifiedInput.model).toBe('sonnet'); // executor defaults to claude-sonnet-4-6
+            expect(result.modifiedInput.model).toBe('sonnet'); // executor defaults to gpt-4o-6
             expect(result.originalInput.model).toBeUndefined();
         });
         it('handles agent type without prefix', () => {
@@ -86,7 +86,7 @@ describe('delegation-enforcer', () => {
             };
             const result = enforceModel(input);
             expect(result.injected).toBe(true);
-            expect(result.modifiedInput.model).toBe('sonnet'); // debugger defaults to claude-sonnet-4-6
+            expect(result.modifiedInput.model).toBe('sonnet'); // debugger defaults to gpt-4o-6
         });
         it('rewrites deprecated aliases to canonical agent names before injecting model', () => {
             const input = {
@@ -122,7 +122,7 @@ describe('delegation-enforcer', () => {
             const resultWithDebug = enforceModel(input);
             expect(resultWithDebug.warning).toBeDefined();
             expect(resultWithDebug.warning).toContain('Auto-injecting model');
-            expect(resultWithDebug.warning).toContain('claude-sonnet-4-6');
+            expect(resultWithDebug.warning).toContain('gpt-4o-6');
             expect(resultWithDebug.warning).toContain('executor');
         });
         it('does not log warning when OMC_DEBUG is false', () => {
@@ -298,7 +298,7 @@ describe('delegation-enforcer', () => {
     });
     describe('env-resolved agent defaults (issue #1415)', () => {
         it('injects Bedrock family env model IDs instead of hardcoded tier aliases', () => {
-            process.env.CLAUDE_CODE_BEDROCK_SONNET_MODEL = 'us.anthropic.claude-sonnet-4-6-v1:0';
+            process.env.CLAUDE_CODE_BEDROCK_SONNET_MODEL = 'us.anthropic.gpt-4o-6-v1:0';
             const input = {
                 description: 'Test task',
                 prompt: 'Do something',

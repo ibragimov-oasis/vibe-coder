@@ -76,7 +76,7 @@ name: cs-agent-name
 description: One-line description of what this agent does
 skills: skill-folder-name
 domain: domain-name
-model: sonnet
+# model: removed-for-compatibility
 tools: [Read, Write, Bash, Grep, Glob]
 ---
 ```
@@ -213,7 +213,7 @@ name: cs-agent-name
 description: One-line description
 skills: skill-folder-name
 domain: domain-name
-model: sonnet
+# model: removed-for-compatibility
 tools: [Read, Write, Bash, Grep, Glob]
 ---
 

@@ -62,7 +62,7 @@ nodes:
 
       Be specific and concrete. Each proposed node should have a clear type
       (bash, prompt, command, or loop) and a one-line description of what it does.
-    model: haiku
+    model: gpt-4o
     allowed_tools: []
     output_format:
       type: object

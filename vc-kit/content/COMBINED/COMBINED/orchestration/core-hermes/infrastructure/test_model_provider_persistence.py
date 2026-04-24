@@ -117,19 +117,19 @@ class TestProviderPersistsAfterModelSave:
             "hermes_cli.models.fetch_github_model_catalog",
             return_value=[
                 {
-                    "id": "gpt-4.1",
+                    "id": "gpt-4o",
                     "capabilities": {"type": "chat", "supports": {}},
                     "supported_endpoints": ["/chat/completions"],
                 },
                 {
-                    "id": "gpt-5.4",
+                    "id": "gpt-4o.4",
                     "capabilities": {"type": "chat", "supports": {"reasoning_effort": ["low", "medium", "high"]}},
                     "supported_endpoints": ["/responses"],
                 },
             ],
         ), patch(
             "hermes_cli.auth._prompt_model_selection",
-            return_value="gpt-5.4",
+            return_value="gpt-4o.4",
         ), patch(
             "hermes_cli.main._prompt_reasoning_effort_selection",
             return_value="high",
@@ -145,7 +145,7 @@ class TestProviderPersistsAfterModelSave:
         assert isinstance(model, dict), f"model should be dict, got {type(model)}"
         assert model.get("provider") == "copilot"
         assert model.get("base_url") == "https://api.githubcopilot.com"
-        assert model.get("default") == "gpt-5.4"
+        assert model.get("default") == "gpt-4o.4"
         assert model.get("api_mode") == "codex_responses"
         assert config["agent"]["reasoning_effort"] == "high"
 
@@ -183,19 +183,19 @@ class TestProviderPersistsAfterModelSave:
             "hermes_cli.models.fetch_github_model_catalog",
             return_value=[
                 {
-                    "id": "gpt-4.1",
+                    "id": "gpt-4o",
                     "capabilities": {"type": "chat", "supports": {}},
                     "supported_endpoints": ["/chat/completions"],
                 },
                 {
-                    "id": "gpt-5.4",
+                    "id": "gpt-4o.4",
                     "capabilities": {"type": "chat", "supports": {"reasoning_effort": ["low", "medium", "high"]}},
                     "supported_endpoints": ["/responses"],
                 },
             ],
         ), patch(
             "hermes_cli.auth._prompt_model_selection",
-            return_value="gpt-5.4",
+            return_value="gpt-4o.4",
         ), patch(
             "hermes_cli.auth.deactivate_provider",
         ):
@@ -208,5 +208,5 @@ class TestProviderPersistsAfterModelSave:
         assert isinstance(model, dict), f"model should be dict, got {type(model)}"
         assert model.get("provider") == "copilot-acp"
         assert model.get("base_url") == "acp://copilot"
-        assert model.get("default") == "gpt-5.4"
+        assert model.get("default") == "gpt-4o.4"
         assert model.get("api_mode") == "chat_completions"

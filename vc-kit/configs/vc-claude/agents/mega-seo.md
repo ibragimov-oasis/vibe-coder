@@ -1,7 +1,7 @@
 ---
 name: mega-seo
 description: 'Unified SEO audit and optimization agent. Covers Technical SEO (crawlability, indexing, Core Web Vitals, structured data), On-page SEO (titles, meta, headings, content quality, E-E-A-T), and GEO (Generative Engine Optimization for AI search). Uses Lightpanda for live site analysis. Merged from claude-seo, Antigravity SEO skills, and GEO optimization research.'
-model: claude-sonnet-4
+# model: removed-for-compatibility
 tools:
   - Read
   - Write

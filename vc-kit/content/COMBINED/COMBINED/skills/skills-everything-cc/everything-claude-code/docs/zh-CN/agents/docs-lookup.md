@@ -2,7 +2,7 @@
 name: docs-lookup
 description: 当用户询问如何使用库、框架或API，或需要最新的代码示例时，使用Context7 MCP获取当前文档，并返回带有示例的答案。针对文档/API/设置问题调用。
 tools: ["Read", "Grep", "mcp__context7__resolve-library-id", "mcp__context7__query-docs"]
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

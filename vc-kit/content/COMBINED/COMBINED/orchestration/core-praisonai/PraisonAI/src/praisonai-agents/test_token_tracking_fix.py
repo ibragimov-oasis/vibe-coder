@@ -78,7 +78,7 @@ try:
         role="Test Role", 
         goal="Test Goal",
         backstory="Test backstory",
-        llm="openai/gpt-5-nano",
+        llm="openai/gpt-4o-nano",
         metrics=True,
         api_key="test-key"
     )

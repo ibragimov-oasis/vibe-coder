@@ -4,7 +4,7 @@ from praisonaiagents.tools import wiki_search, wiki_summary, wiki_page, wiki_ran
 agent1 = Agent(
     instructions="You are a Wikipedia Agent", 
     tools=[wiki_search, wiki_summary, wiki_page, wiki_random, wiki_language],
-    llm="openai/gpt-5-nano",
+    llm="openai/gpt-4o-nano",
     verbose=10
 )
 agent1.start("history of AI in 1 line")

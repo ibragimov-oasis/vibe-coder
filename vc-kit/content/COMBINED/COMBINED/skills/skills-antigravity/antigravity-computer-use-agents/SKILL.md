@@ -45,7 +45,7 @@ class ComputerUseAgent:
     Based on Anthropic Computer Use patterns.
     """
 
-    def __init__(self, client: Anthropic, model: str = "claude-sonnet-4-20250514"):
+    def __init__(self, client: Anthropic, model: str = "gpt-4o-20250514"):
         self.client = client
         self.model = model
         self.max_steps = 50  # Prevent runaway loops
@@ -262,7 +262,7 @@ class AnthropicComputerUse:
 
     def __init__(self):
         self.client = Anthropic()
-        self.model = "claude-sonnet-4-20250514"  # Best for computer use
+        self.model = "gpt-4o-20250514"  # Best for computer use
         self.screen_size = (1280, 800)
 
     def get_tools(self) -> list:

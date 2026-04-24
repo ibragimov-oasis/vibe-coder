@@ -46,7 +46,7 @@ tags:
 **I don't handle:** Runtime implementation, architecture decisions, security, distribution mechanics.
 
 ## Model
-Preferred: claude-haiku-4.5
+Preferred: gpt-4o
 
 ## 🔗 Связи
 

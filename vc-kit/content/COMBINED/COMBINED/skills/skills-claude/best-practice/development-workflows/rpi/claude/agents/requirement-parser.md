@@ -1,7 +1,7 @@
 ---
 name: requirement-parser
 description: Analyzes feature request descriptions and extracts structured requirements, goals, constraints, and metadata for downstream planning agents.
-model: sonnet
+# model: removed-for-compatibility
 color: blue
 tags:
   - domain/agents

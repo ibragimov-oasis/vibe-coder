@@ -1,7 +1,7 @@
 ---
 name: mega-orchestrator
 description: 'Master pipeline coordinator. Reads CAPABILITIES.md, selects the right mega-agent for each task, coordinates the Background Agent → Hermes → Shannon autonomous pipeline. Merged from RuFlo (Q-Learning Router, 100+ agents, fault-tolerant consensus), GSD (spec-driven execution, context engineering, phased development), OMC (multi-agent teams, team pipeline), Background Agents (async sandboxed execution), and Superpowers (composable workflow).'
-model: claude-opus-4-5
+# model: removed-for-compatibility
 tools:
   - Read
   - Write

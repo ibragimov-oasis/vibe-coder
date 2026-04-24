@@ -14,7 +14,7 @@ function createTestJob(overrides = {}) {
         pid: 12345,
         promptFile: '/test/prompt.md',
         responseFile: '/test/response.md',
-        model: 'gpt-5.3-codex',
+        model: 'gpt-4o.3-codex',
         agentRole: 'architect',
         spawnedAt: new Date().toISOString(),
         ...overrides,
@@ -152,7 +152,7 @@ describe('job-state-db', () => {
             expect(result).not.toBeNull();
             expect(result.provider).toBe('codex');
             expect(result.jobId).toBe('abcd1234');
-            expect(result.model).toBe('gpt-5.3-codex');
+            expect(result.model).toBe('gpt-4o.3-codex');
             expect(result.agentRole).toBe('architect');
         });
         it('should return null for non-existent job', () => {
@@ -289,7 +289,7 @@ describe('job-state-db', () => {
             expect(result.status).toBe('completed');
             expect(result.completedAt).toBe('2024-01-01T00:00:00Z');
             // Unchanged fields should remain
-            expect(result.model).toBe('gpt-5.3-codex');
+            expect(result.model).toBe('gpt-4o.3-codex');
         });
         it('should return true even if no fields to update', () => {
             upsertJob(createTestJob());

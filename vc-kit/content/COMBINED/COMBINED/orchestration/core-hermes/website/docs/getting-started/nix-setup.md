@@ -101,7 +101,7 @@ This module requires NixOS. For non-NixOS systems (macOS, other Linux distros), 
 { config, ... }: {
   services.hermes-agent = {
     enable = true;
-    settings.model.default = "anthropic/claude-sonnet-4";
+    settings.model.default = "anthropic/gpt-4o";
     environmentFiles = [ config.sops.secrets."hermes-env".path ];
     addToSystemPackages = true;
   };
@@ -181,7 +181,7 @@ The `settings` option accepts an arbitrary attrset that is rendered as `config.y
 ```nix
 # base.nix
 services.hermes-agent.settings = {
-  model.default = "anthropic/claude-sonnet-4";
+  model.default = "anthropic/gpt-4o";
   toolsets = [ "all" ];
   terminal = { backend = "local"; timeout = 180; };
 };
@@ -196,7 +196,7 @@ services.hermes-agent.settings = {
 Both are deep-merged at evaluation time. Nix-declared keys always win over keys in an existing `config.yaml` on disk, but **user-added keys that Nix doesn't touch are preserved**. This means if the agent or a manual edit adds keys like `skills.disabled` or `streaming.enabled`, they survive `nixos-rebuild switch`.
 
 :::note Model naming
-`settings.model.default` uses the model identifier your provider expects. With [OpenRouter](https://openrouter.ai) (the default), these look like `"anthropic/claude-sonnet-4"` or `"google/gemini-3-flash"`. If you're using a provider directly (Anthropic, OpenAI), set `settings.model.base_url` to point at their API and use their native model IDs (e.g., `"claude-sonnet-4-20250514"`). When no `base_url` is set, Hermes defaults to OpenRouter.
+`settings.model.default` uses the model identifier your provider expects. With [OpenRouter](https://openrouter.ai) (the default), these look like `"anthropic/gpt-4o"` or `"google/gemini-3-flash"`. If you're using a provider directly (Anthropic, OpenAI), set `settings.model.base_url` to point at their API and use their native model IDs (e.g., `"gpt-4o-20250514"`). When no `base_url` is set, Hermes defaults to OpenRouter.
 :::
 
 :::tip Discovering available config keys
@@ -281,7 +281,7 @@ Quick reference for the most common things Nix users want to customize:
 
 | I want to... | Option | Example |
 |---|---|---|
-| Change the LLM model | `settings.model.default` | `"anthropic/claude-sonnet-4"` |
+| Change the LLM model | `settings.model.default` | `"anthropic/gpt-4o"` |
 | Use a different provider endpoint | `settings.model.base_url` | `"https://openrouter.ai/api/v1"` |
 | Add API keys | `environmentFiles` | `[ config.sops.secrets."hermes-env".path ]` |
 | Give the agent a personality | `documents."SOUL.md"` | `builtins.readFile ./my-soul.md` |

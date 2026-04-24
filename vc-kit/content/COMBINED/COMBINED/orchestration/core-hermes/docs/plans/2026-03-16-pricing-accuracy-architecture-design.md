@@ -336,7 +336,7 @@ class PricingEntry:
 
 The catalog should be route-aware:
 
-- `openai:gpt-5`
+- `openai:gpt-4o`
 - `anthropic:claude-opus-4-6`
 - `openrouter:anthropic/claude-opus-4.6`
 - `copilot:gpt-4o`

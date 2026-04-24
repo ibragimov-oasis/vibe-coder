@@ -1,7 +1,7 @@
 ---
 name: workflow-concepts-agent
 description: Research agent that fetches Claude Code docs and changelog, reads the local README CONCEPTS section, and analyzes drift
-model: opus
+# model: removed-for-compatibility
 color: green
 allowedTools:
   - "Bash(*)"

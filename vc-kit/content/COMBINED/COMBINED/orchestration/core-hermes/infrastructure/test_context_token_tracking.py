@@ -71,7 +71,7 @@ def _anthropic_resp(input_tok, output_tok, cache_read=0, cache_creation=0):
         content=[SimpleNamespace(type="text", text="ok")],
         stop_reason="end_turn",
         usage=SimpleNamespace(**usage_fields),
-        model="claude-sonnet-4-6",
+        model="gpt-4o-6",
     )
 
 
@@ -120,7 +120,7 @@ def test_codex_no_cache_fields(monkeypatch):
     resp = lambda: SimpleNamespace(
         output=[SimpleNamespace(type="message", content=[SimpleNamespace(type="output_text", text="ok")])],
         usage=SimpleNamespace(input_tokens=3000, output_tokens=50, total_tokens=3050),
-        status="completed", model="gpt-5-codex",
+        status="completed", model="gpt-4o-codex",
     )
     agent = _make_agent(monkeypatch, "codex_responses", "openai-codex", resp)
     agent.run_conversation("hi")

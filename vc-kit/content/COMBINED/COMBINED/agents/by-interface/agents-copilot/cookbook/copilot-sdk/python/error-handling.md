@@ -31,7 +31,7 @@ async def main():
 
     try:
         await client.start()
-        session = await client.create_session(SessionConfig(model="gpt-5",
+        session = await client.create_session(SessionConfig(model="gpt-4o",
         on_permission_request=PermissionHandler.approve_all))
 
         response = await session.send_and_wait(MessageOptions(prompt="Hello!"))
@@ -65,7 +65,7 @@ except Exception as e:
 ## Timeout handling
 
 ```python
-session = await client.create_session(SessionConfig(model="gpt-5",
+session = await client.create_session(SessionConfig(model="gpt-4o",
         on_permission_request=PermissionHandler.approve_all))
 
 try:
@@ -82,7 +82,7 @@ except TimeoutError:
 ## Aborting a request
 
 ```python
-session = await client.create_session(SessionConfig(model="gpt-5",
+session = await client.create_session(SessionConfig(model="gpt-4o",
         on_permission_request=PermissionHandler.approve_all))
 
 # Start a request (non-blocking send)

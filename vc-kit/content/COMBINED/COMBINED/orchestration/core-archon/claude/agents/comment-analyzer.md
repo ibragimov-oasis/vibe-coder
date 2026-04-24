@@ -1,7 +1,7 @@
 ---
 name: comment-analyzer
 description: Analyzes code comments for accuracy, completeness, and long-term value. Verifies comments match actual code behavior. Use after generating documentation, before PRs with comment changes, or when auditing for comment rot. Advisory only.
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/orchestration
   - artifact/workflow

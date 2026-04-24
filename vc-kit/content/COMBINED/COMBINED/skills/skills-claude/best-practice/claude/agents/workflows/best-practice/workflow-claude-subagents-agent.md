@@ -1,7 +1,7 @@
 ---
 name: workflow-claude-subagents-agent
 description: Research agent that fetches Claude Code docs, reads the local subagents report, and analyzes drift
-model: opus
+# model: removed-for-compatibility
 color: blue
 allowedTools:
   - "Bash(*)"

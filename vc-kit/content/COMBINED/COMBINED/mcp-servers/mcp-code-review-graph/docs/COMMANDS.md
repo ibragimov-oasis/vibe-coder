@@ -69,13 +69,13 @@ query: str           # Search string
 kind: str | None     # File, Class, Function, Type, Test
 limit: int = 20
 repo_root: str | None
-model: str | None    # Embedding model (falls back to CRG_EMBEDDING_MODEL env var)
+# model: removed-for-compatibility
 ```
 
 #### `embed_graph_tool`
 ```
 repo_root: str | None
-model: str | None    # Embedding model name
+# model: removed-for-compatibility
 ```
 Requires: `pip install code-review-graph[embeddings]`
 

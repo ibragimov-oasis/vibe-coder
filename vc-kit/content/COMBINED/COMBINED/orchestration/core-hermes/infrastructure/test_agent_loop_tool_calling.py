@@ -2,7 +2,7 @@
 
 Tests the full agent loop with real LLM calls via OpenRouter.
 Uses stepfun/step-3.5-flash:free by default (zero cost), falls back
-to anthropic/claude-sonnet-4 if the free model is unavailable.
+to anthropic/gpt-4o if the free model is unavailable.
 
 These tests verify:
 1. Single tool call: model calls a tool, gets result, responds
@@ -50,7 +50,7 @@ except ImportError:
 _MODELS = [
     "stepfun/step-3.5-flash:free",
     "google/gemini-2.0-flash-001",
-    "anthropic/claude-sonnet-4",
+    "anthropic/gpt-4o",
 ]
 
 def _get_api_key():

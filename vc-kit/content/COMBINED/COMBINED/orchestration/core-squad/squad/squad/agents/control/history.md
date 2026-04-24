@@ -44,10 +44,10 @@ When updating default models, touch these files in order:
 7. Tests: `test/agents.test.ts`, `test/config.test.ts`, `test/models.test.ts`, `test/compat-v041.test.ts`, `test/init.test.ts`
 
 ### Claude Haiku Stays at 4.5
-There is no `claude-haiku-4.6`. The latest haiku is `claude-haiku-4.5`. Never bump haiku beyond 4.5 until the platform explicitly lists a newer haiku variant.
+There is no `claude-haiku-4.6`. The latest haiku is `gpt-4o`. Never bump haiku beyond 4.5 until the platform explicitly lists a newer haiku variant.
 
 ### Standard Tier Fallback Chain (current)
-`claude-sonnet-4.6 → gpt-5.4 → claude-sonnet-4.5 → gpt-5.3-codex → claude-sonnet-4 → gpt-5.2`
+`gpt-4o.6 → gpt-4o.4 → gpt-4o.5 → gpt-4o.3-codex → gpt-4o → gpt-4o.2`
 
 ### ModelId Type
 `ModelId = string` in `runtime/config.ts` — not a discriminated union. New model IDs can be added to the catalog without TypeScript changes beyond the catalog and chain arrays.

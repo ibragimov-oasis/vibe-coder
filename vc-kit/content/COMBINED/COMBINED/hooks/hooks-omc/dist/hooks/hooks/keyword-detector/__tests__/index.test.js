@@ -513,7 +513,7 @@ World`);
                 expect(codexMatch).toBeUndefined();
             });
             it('should NOT detect gpt model names', () => {
-                const result = detectKeywordsWithType('gpt-5.3 model');
+                const result = detectKeywordsWithType('gpt-4o.3 model');
                 const codexMatch = result.find((r) => r.type === 'codex');
                 expect(codexMatch).toBeUndefined();
             });

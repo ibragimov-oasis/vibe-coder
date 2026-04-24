@@ -4,7 +4,7 @@ description: 慣用的なGo、並行処理パターン、エラー処理、パ�
 
 コード変更に使用してください。Goプロジェクトに必須です。
 tools: ["Read", "Grep", "Glob", "Bash"]
-model: opus
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

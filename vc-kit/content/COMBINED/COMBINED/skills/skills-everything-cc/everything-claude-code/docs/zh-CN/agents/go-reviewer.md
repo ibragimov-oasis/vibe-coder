@@ -2,7 +2,7 @@
 name: go-reviewer
 description: 专业的Go代码审查专家，专注于地道Go语言、并发模式、错误处理和性能优化。适用于所有Go代码变更。必须用于Go项目。
 tools: ["Read", "Grep", "Glob", "Bash"]
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

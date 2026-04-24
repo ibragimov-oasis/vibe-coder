@@ -34,7 +34,7 @@ def _build_agent(monkeypatch):
     _patch_agent_bootstrap(monkeypatch)
 
     agent = run_agent.AIAgent(
-        model="gpt-5-codex",
+        model="gpt-4o-codex",
         base_url="https://chatgpt.com/backend-api/codex",
         api_key="codex-token",
         quiet_mode=True,
@@ -49,7 +49,7 @@ def _build_agent(monkeypatch):
     return agent
 
 
-def _build_copilot_agent(monkeypatch, *, model="gpt-5.4"):
+def _build_copilot_agent(monkeypatch, *, model="gpt-4o.4"):
     _patch_agent_bootstrap(monkeypatch)
 
     agent = run_agent.AIAgent(
@@ -80,7 +80,7 @@ def _codex_message_response(text: str):
         ],
         usage=SimpleNamespace(input_tokens=5, output_tokens=3, total_tokens=8),
         status="completed",
-        model="gpt-5-codex",
+        model="gpt-4o-codex",
     )
 
 
@@ -97,7 +97,7 @@ def _codex_tool_call_response():
         ],
         usage=SimpleNamespace(input_tokens=12, output_tokens=4, total_tokens=16),
         status="completed",
-        model="gpt-5-codex",
+        model="gpt-4o-codex",
     )
 
 
@@ -112,7 +112,7 @@ def _codex_incomplete_message_response(text: str):
         ],
         usage=SimpleNamespace(input_tokens=4, output_tokens=2, total_tokens=6),
         status="in_progress",
-        model="gpt-5-codex",
+        model="gpt-4o-codex",
     )
 
 
@@ -128,7 +128,7 @@ def _codex_commentary_message_response(text: str):
         ],
         usage=SimpleNamespace(input_tokens=4, output_tokens=2, total_tokens=6),
         status="completed",
-        model="gpt-5-codex",
+        model="gpt-4o-codex",
     )
 
 
@@ -143,7 +143,7 @@ def _codex_ack_message_response(text: str):
         ],
         usage=SimpleNamespace(input_tokens=4, output_tokens=2, total_tokens=6),
         status="completed",
-        model="gpt-5-codex",
+        model="gpt-4o-codex",
     )
 
 
@@ -181,7 +181,7 @@ class _FakeCreateStream:
 
 def _codex_request_kwargs():
     return {
-        "model": "gpt-5-codex",
+        "model": "gpt-4o-codex",
         "instructions": "You are Hermes.",
         "input": [{"role": "user", "content": "Ping"}],
         "tools": None,
@@ -192,7 +192,7 @@ def _codex_request_kwargs():
 def test_api_mode_uses_explicit_provider_when_codex(monkeypatch):
     _patch_agent_bootstrap(monkeypatch)
     agent = run_agent.AIAgent(
-        model="gpt-5-codex",
+        model="gpt-4o-codex",
         base_url="https://openrouter.ai/api/v1",
         provider="openai-codex",
         api_key="codex-token",
@@ -208,7 +208,7 @@ def test_api_mode_uses_explicit_provider_when_codex(monkeypatch):
 def test_api_mode_normalizes_provider_case(monkeypatch):
     _patch_agent_bootstrap(monkeypatch)
     agent = run_agent.AIAgent(
-        model="gpt-5-codex",
+        model="gpt-4o-codex",
         base_url="https://openrouter.ai/api/v1",
         provider="OpenAI-Codex",
         api_key="codex-token",
@@ -224,7 +224,7 @@ def test_api_mode_normalizes_provider_case(monkeypatch):
 def test_api_mode_respects_explicit_openrouter_provider_over_codex_url(monkeypatch):
     _patch_agent_bootstrap(monkeypatch)
     agent = run_agent.AIAgent(
-        model="gpt-5-codex",
+        model="gpt-4o-codex",
         base_url="https://chatgpt.com/backend-api/codex",
         provider="openrouter",
         api_key="test-token",
@@ -246,7 +246,7 @@ def test_build_api_kwargs_codex(monkeypatch):
         ]
     )
 
-    assert kwargs["model"] == "gpt-5-codex"
+    assert kwargs["model"] == "gpt-4o-codex"
     assert kwargs["instructions"] == "You are Hermes."
     assert kwargs["store"] is False
     assert isinstance(kwargs["input"], list)
@@ -269,7 +269,7 @@ def test_build_api_kwargs_copilot_responses_omits_openai_only_fields(monkeypatch
     agent = _build_copilot_agent(monkeypatch)
     kwargs = agent._build_api_kwargs([{"role": "user", "content": "hi"}])
 
-    assert kwargs["model"] == "gpt-5.4"
+    assert kwargs["model"] == "gpt-4o.4"
     assert kwargs["store"] is False
     assert kwargs["tool_choice"] == "auto"
     assert kwargs["parallel_tool_calls"] is True
@@ -279,7 +279,7 @@ def test_build_api_kwargs_copilot_responses_omits_openai_only_fields(monkeypatch
 
 
 def test_build_api_kwargs_copilot_responses_omits_reasoning_for_non_reasoning_model(monkeypatch):
-    agent = _build_copilot_agent(monkeypatch, model="gpt-4.1")
+    agent = _build_copilot_agent(monkeypatch, model="gpt-4o")
     kwargs = agent._build_api_kwargs([{"role": "user", "content": "hi"}])
 
     assert "reasoning" not in kwargs
@@ -537,7 +537,7 @@ def test_preflight_codex_api_kwargs_strips_optional_function_call_id(monkeypatch
     agent = _build_agent(monkeypatch)
     preflight = agent._preflight_codex_api_kwargs(
         {
-            "model": "gpt-5-codex",
+            "model": "gpt-4o-codex",
             "instructions": "You are Hermes.",
             "input": [
                 {"role": "user", "content": "hi"},
@@ -565,7 +565,7 @@ def test_preflight_codex_api_kwargs_rejects_function_call_output_without_call_id
     with pytest.raises(ValueError, match="function_call_output is missing call_id"):
         agent._preflight_codex_api_kwargs(
             {
-                "model": "gpt-5-codex",
+                "model": "gpt-4o-codex",
                 "instructions": "You are Hermes.",
                 "input": [{"type": "function_call_output", "output": "{}"}],
                 "tools": [],
@@ -849,7 +849,7 @@ def _codex_reasoning_only_response(*, encrypted_content="enc_abc123", summary_te
         ],
         usage=SimpleNamespace(input_tokens=50, output_tokens=100, total_tokens=150),
         status="completed",
-        model="gpt-5-codex",
+        model="gpt-4o-codex",
     )
 
 
@@ -891,7 +891,7 @@ def test_normalize_codex_response_reasoning_with_content_is_stop(monkeypatch):
         ],
         usage=SimpleNamespace(input_tokens=50, output_tokens=100, total_tokens=150),
         status="completed",
-        model="gpt-5-codex",
+        model="gpt-4o-codex",
     )
     assistant_message, finish_reason = agent._normalize_codex_response(response)
 
@@ -938,7 +938,7 @@ def test_run_conversation_codex_preserves_encrypted_reasoning_in_interim(monkeyp
         ],
         usage=SimpleNamespace(input_tokens=50, output_tokens=100, total_tokens=150),
         status="completed",
-        model="gpt-5-codex",
+        model="gpt-4o-codex",
     )
     responses = [
         reasoning_response,
@@ -1005,7 +1005,7 @@ def test_duplicate_detection_distinguishes_different_codex_reasoning(monkeypatch
                 )
             ],
             usage=SimpleNamespace(input_tokens=50, output_tokens=100, total_tokens=150),
-            status="completed", model="gpt-5-codex",
+            status="completed", model="gpt-4o-codex",
         ),
         # Second reasoning-only response (different encrypted content)
         SimpleNamespace(
@@ -1016,7 +1016,7 @@ def test_duplicate_detection_distinguishes_different_codex_reasoning(monkeypatch
                 )
             ],
             usage=SimpleNamespace(input_tokens=50, output_tokens=100, total_tokens=150),
-            status="completed", model="gpt-5-codex",
+            status="completed", model="gpt-4o-codex",
         ),
         _codex_message_response("Final answer after thinking."),
     ]

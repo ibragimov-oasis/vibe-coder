@@ -475,7 +475,7 @@ Analyze the above codebase and provide your response.`;
         ...process.env,
         CLAUDE_CODE_HEADLESS: 'true',
         CLAUDE_CODE_SANDBOX_MODE: options.sandbox,
-        ANTHROPIC_MODEL: options.model || 'claude-sonnet-4-20250514',
+        ANTHROPIC_MODEL: options.model || 'gpt-4o-20250514',
       };
 
       // Use claude CLI directly

@@ -209,7 +209,7 @@ class TestBuildPromptRequestBody:
         """Non-Opus-4.6 Claude models should use manual thinking budgets."""
         body = bridge._build_prompt_request_body(
             "Hello",
-            "anthropic/claude-sonnet-4-5",
+            "anthropic/gpt-4o-5",
             reasoning_effort="max",
         )
 
@@ -232,7 +232,7 @@ class TestBuildPromptRequestBody:
         """Sonnet 4.6 should use adaptive thinking instead of manual budgets."""
         body = bridge._build_prompt_request_body(
             "Hello",
-            "anthropic/claude-sonnet-4-6",
+            "anthropic/gpt-4o-6",
             reasoning_effort="high",
         )
 

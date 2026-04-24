@@ -25,7 +25,7 @@ describe('worker-health', () => {
         vi.restoreAllMocks();
     });
     function registerWorker(name) {
-        registerMcpWorker(teamName, name, 'codex', 'gpt-5.3-codex', 'tmux-session', testDir, testDir);
+        registerMcpWorker(teamName, name, 'codex', 'gpt-4o.3-codex', 'tmux-session', testDir, testDir);
     }
     function writeWorkerHeartbeat(name, status, consecutiveErrors = 0, currentTaskId) {
         writeHeartbeat(testDir, {

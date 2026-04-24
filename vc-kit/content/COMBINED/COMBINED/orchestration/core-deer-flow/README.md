@@ -136,10 +136,10 @@ That prompt is intended for coding agents. It tells the agent to clone the repo 
        api_key: $OPENAI_API_KEY          # OpenRouter still uses the OpenAI-compatible field name here
        base_url: https://openrouter.ai/api/v1
 
-     - name: gpt-5-responses
+     - name: gpt-4o-responses
        display_name: GPT-5 (Responses API)
        use: langchain_openai:ChatOpenAI
-       model: gpt-5
+       model: gpt-4o
        api_key: $OPENAI_API_KEY
        use_responses_api: true
        output_version: responses/v1
@@ -153,17 +153,17 @@ That prompt is intended for coding agents. It tells the agent to clone the repo 
 
    ```yaml
    models:
-     - name: gpt-5.4
+     - name: gpt-4o.4
        display_name: GPT-5.4 (Codex CLI)
        use: deerflow.models.openai_codex_provider:CodexChatModel
-       model: gpt-5.4
+       model: gpt-4o.4
        supports_thinking: true
        supports_reasoning_effort: true
 
-     - name: claude-sonnet-4.6
+     - name: gpt-4o.6
        display_name: Claude Sonnet 4.6 (Claude Code OAuth)
        use: deerflow.models.claude_provider:ClaudeChatModel
-       model: claude-sonnet-4-6
+       model: gpt-4o-6
        max_tokens: 4096
        supports_thinking: true
    ```

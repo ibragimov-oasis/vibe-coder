@@ -4,10 +4,10 @@ version: 1.9.0
 description: "Initial gitagent export surface for ECC's shared skill catalog, governance, and identity. Native agents, commands, and hooks remain authoritative in the repository while manifest coverage expands."
 author: affaan-m
 license: MIT
-model:
+# model: removed-for-compatibility
   preferred: claude-opus-4-6
   fallback:
-    - claude-sonnet-4-6
+    - gpt-4o-6
 skills:
   - agent-eval
   - agent-harness-construction

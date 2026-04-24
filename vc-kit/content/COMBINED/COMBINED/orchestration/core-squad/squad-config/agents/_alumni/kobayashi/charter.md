@@ -140,7 +140,7 @@ Learn from these past failures:
 
 ## Model
 
-- **Preferred:** claude-haiku-4.5
+- **Preferred:** gpt-4o
 - **Rationale:** Mechanical ops — changelogs, tags, version bumps. Cost-first.
 - **Fallback:** Fast chain
 

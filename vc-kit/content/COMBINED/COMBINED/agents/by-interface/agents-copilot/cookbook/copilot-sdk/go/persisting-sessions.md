@@ -41,7 +41,7 @@ func main() {
     session, _ := client.CreateSession(ctx, &copilot.SessionConfig{
     	OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
         SessionID: "user-123-conversation",
-        Model:     "gpt-5",
+        Model:     "gpt-4o",
     })
 
     session.SendAndWait(ctx, copilot.MessageOptions{Prompt: "Let's discuss TypeScript generics"})

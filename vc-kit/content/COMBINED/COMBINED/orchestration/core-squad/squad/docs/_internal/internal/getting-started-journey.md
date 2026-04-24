@@ -272,7 +272,7 @@ const unsubscribe = costTracker.wireToEventBus(bus);
 costTracker.recordUsage({
   sessionId: 'backend-auth-001',
   agentName: 'Backend',
-  model: 'claude-sonnet-4-20250514',
+  model: 'gpt-4o-20250514',
   inputTokens: 12500,
   outputTokens: 3200,
   estimatedCost: 0.0234,
@@ -281,7 +281,7 @@ costTracker.recordUsage({
 costTracker.recordUsage({
   sessionId: 'frontend-ui-001',
   agentName: 'Frontend',
-  model: 'gpt-4.1-mini',
+  model: 'gpt-4o-mini',
   inputTokens: 8000,
   outputTokens: 1500,
   estimatedCost: 0.0089,

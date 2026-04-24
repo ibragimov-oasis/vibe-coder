@@ -32,7 +32,7 @@ await client.StartAsync();
 // Define tools for file operations
 var session = await client.CreateSessionAsync(new SessionConfig
 {
-    Model = "gpt-5",
+    Model = "gpt-4o",
     OnPermissionRequest = PermissionHandler.ApproveAll
 });
 

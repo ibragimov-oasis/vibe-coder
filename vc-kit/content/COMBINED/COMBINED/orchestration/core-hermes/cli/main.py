@@ -1521,18 +1521,18 @@ _PROVIDER_MODELS = {
         "copilot-acp",
     ],
     "copilot": [
-        "gpt-5.4",
-        "gpt-5.4-mini",
-        "gpt-5-mini",
-        "gpt-5.3-codex",
-        "gpt-5.2-codex",
-        "gpt-4.1",
+        "gpt-4o.4",
+        "gpt-4o.4-mini",
+        "gpt-4o-mini",
+        "gpt-4o.3-codex",
+        "gpt-4o.2-codex",
+        "gpt-4o",
         "gpt-4o",
         "gpt-4o-mini",
         "claude-opus-4.6",
-        "claude-sonnet-4.6",
-        "claude-sonnet-4.5",
-        "claude-haiku-4.5",
+        "gpt-4o.6",
+        "gpt-4o.5",
+        "gpt-4o",
         "gemini-2.5-pro",
         "grok-code-fast-1",
     ],
@@ -1568,8 +1568,8 @@ _PROVIDER_MODELS = {
     ],
     "kilocode": [
         "anthropic/claude-opus-4.6",
-        "anthropic/claude-sonnet-4.6",
-        "openai/gpt-5.4",
+        "anthropic/gpt-4o.6",
+        "openai/gpt-4o.4",
         "google/gemini-3-pro-preview",
         "google/gemini-3-flash-preview",
     ],
@@ -2356,7 +2356,7 @@ def _model_flow_anthropic(config, current_model=""):
         selected = _prompt_model_selection(model_list, current_model=current_model)
     else:
         try:
-            selected = input("Model name (e.g., claude-sonnet-4-20250514): ").strip()
+            selected = input("Model name (e.g., gpt-4o-20250514): ").strip()
         except (KeyboardInterrupt, EOFError):
             selected = None
 
@@ -3633,7 +3633,7 @@ For more help on a command:
     )
     chat_parser.add_argument(
         "-m", "--model",
-        help="Model to use (e.g., anthropic/claude-sonnet-4)"
+        help="Model to use (e.g., anthropic/gpt-4o)"
     )
     chat_parser.add_argument(
         "-t", "--toolsets",

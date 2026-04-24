@@ -75,7 +75,7 @@ export default defineSquad({
     defineAgent({
       name: 'tone-reviewer',
       role: 'Tone & Voice Analyst',
-      model: 'claude-sonnet-4',
+      model: 'gpt-4o',
       tools: ['grep', 'view'],
       capabilities: [
         { name: 'content-analysis', level: 'expert' },
@@ -85,7 +85,7 @@ export default defineSquad({
     defineAgent({
       name: 'technical-reviewer',
       role: 'Technical Accuracy Checker',
-      model: 'claude-sonnet-4',
+      model: 'gpt-4o',
       tools: ['grep', 'view', 'powershell'],
       capabilities: [
         { name: 'code-review', level: 'expert' },
@@ -95,7 +95,7 @@ export default defineSquad({
     defineAgent({
       name: 'copy-editor',
       role: 'Copy Editor',
-      model: 'claude-sonnet-4',
+      model: 'gpt-4o',
       tools: ['grep', 'view'],
       capabilities: [
         { name: 'grammar-check', level: 'expert' },

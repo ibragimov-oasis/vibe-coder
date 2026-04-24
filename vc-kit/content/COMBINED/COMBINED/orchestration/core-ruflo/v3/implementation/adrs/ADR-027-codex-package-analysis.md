@@ -483,9 +483,9 @@ agent in the Codex CLI on a user's computer."
 ```
 
 Available models include:
-- `gpt-5.3-codex` (latest)
-- `gpt-5.2-codex`
-- `gpt-5-codex`
+- `gpt-4o.3-codex` (latest)
+- `gpt-4o.2-codex`
+- `gpt-4o-codex`
 
 ## Claude Flow Integration Opportunities
 

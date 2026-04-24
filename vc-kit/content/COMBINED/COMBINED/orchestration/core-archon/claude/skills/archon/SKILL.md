@@ -147,7 +147,7 @@ Archon uses a single workflow format: **nodes** (DAG). Workflows are YAML files 
 name: my-workflow
 description: What this workflow does
 provider: claude          # Optional: 'claude' or 'codex'
-model: sonnet             # Optional: model override
+# model: removed-for-compatibility
 nodes:
   - id: first-node
     command: my-command    # Loads .archon/commands/my-command.md

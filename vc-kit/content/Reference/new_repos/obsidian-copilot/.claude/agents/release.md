@@ -1,7 +1,7 @@
 ---
 name: release
 description: Use this agent to create a release PR that triggers the automated release workflow. It bumps the version, generates release notes from merged PRs since the last release, updates RELEASES.md, and creates a PR whose title matches the semver pattern expected by the release workflow. Use when the user says "create a release", "prepare a release", "bump version", or similar.
-model: sonnet
+# model: removed-for-compatibility
 color: green
 tags:
   - domain/skills

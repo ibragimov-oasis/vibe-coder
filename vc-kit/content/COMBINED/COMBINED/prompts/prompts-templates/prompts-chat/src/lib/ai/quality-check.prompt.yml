@@ -1,6 +1,6 @@
 name: Quality Check
 description: A quality assurance system that evaluates if submitted prompts meet quality standards for an AI prompt sharing platform.
-model: openai/gpt-4o
+# model: removed-for-compatibility
 modelParameters:
   temperature: 0.1
   maxTokens: 300

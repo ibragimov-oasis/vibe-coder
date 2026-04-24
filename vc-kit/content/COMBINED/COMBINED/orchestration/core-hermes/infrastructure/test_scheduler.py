@@ -487,7 +487,7 @@ class TestRunJobPerJobOverrides:
         config_yaml = tmp_path / "config.yaml"
         config_yaml.write_text(
             "model:\n"
-            "  default: gpt-5.4\n"
+            "  default: gpt-4o.4\n"
             "  provider: openai-codex\n"
             "  base_url: https://chatgpt.com/backend-api/codex\n"
         )

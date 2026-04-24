@@ -22,7 +22,7 @@ hermes
 hermes chat -q "Hello"
 
 # With a specific model
-hermes chat --model "anthropic/claude-sonnet-4"
+hermes chat --model "anthropic/gpt-4o"
 
 # With a specific provider
 hermes chat --provider nous        # Use Nous Portal
@@ -59,7 +59,7 @@ The welcome banner shows your model, terminal backend, working directory, availa
 A persistent status bar sits above the input area, updating in real time:
 
 ```
- ⚕ claude-sonnet-4-20250514 │ 12.4K/200K │ [██████░░░░] 6% │ $0.06 │ 15m
+ ⚕ gpt-4o-20250514 │ 12.4K/200K │ [██████░░░░] 6% │ $0.06 │ 15m
 ```
 
 | Element | Description |

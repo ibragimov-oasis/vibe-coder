@@ -48,7 +48,7 @@ describe('isNonClaudeProvider (issue #1201)', () => {
         expect(isNonClaudeProvider()).toBe(true);
     });
     it('returns false when CLAUDE_MODEL contains "claude"', () => {
-        process.env.CLAUDE_MODEL = 'claude-sonnet-4-6';
+        process.env.CLAUDE_MODEL = 'gpt-4o-6';
         expect(isNonClaudeProvider()).toBe(false);
     });
     it('returns true when ANTHROPIC_BASE_URL is a non-Anthropic URL', () => {
@@ -77,7 +77,7 @@ describe('isNonClaudeProvider (issue #1201)', () => {
         expect(isNonClaudeProvider()).toBe(true);
     });
     it('returns true for Bedrock model ID with us.anthropic prefix', () => {
-        process.env.CLAUDE_MODEL = 'us.anthropic.claude-sonnet-4-6-v1:0';
+        process.env.CLAUDE_MODEL = 'us.anthropic.gpt-4o-6-v1:0';
         expect(isNonClaudeProvider()).toBe(true);
     });
     it('returns true for Bedrock model ID with global.anthropic prefix', () => {
@@ -89,7 +89,7 @@ describe('isNonClaudeProvider (issue #1201)', () => {
         expect(isNonClaudeProvider()).toBe(true);
     });
     it('returns true for Bedrock model ID with eu.anthropic prefix', () => {
-        process.env.CLAUDE_MODEL = 'eu.anthropic.claude-sonnet-4-6-v1:0';
+        process.env.CLAUDE_MODEL = 'eu.anthropic.gpt-4o-6-v1:0';
         expect(isNonClaudeProvider()).toBe(true);
     });
     // --- Vertex AI detection ---
@@ -98,7 +98,7 @@ describe('isNonClaudeProvider (issue #1201)', () => {
         expect(isNonClaudeProvider()).toBe(true);
     });
     it('returns true for Vertex model ID with vertex_ai/ prefix', () => {
-        process.env.CLAUDE_MODEL = 'vertex_ai/claude-sonnet-4-5';
+        process.env.CLAUDE_MODEL = 'vertex_ai/gpt-4o-5';
         expect(isNonClaudeProvider()).toBe(true);
     });
 });
@@ -133,7 +133,7 @@ describe('isBedrock()', () => {
         expect(isBedrock()).toBe(false);
     });
     it('detects us.anthropic.claude model ID pattern', () => {
-        process.env.CLAUDE_MODEL = 'us.anthropic.claude-sonnet-4-6-v1:0';
+        process.env.CLAUDE_MODEL = 'us.anthropic.gpt-4o-6-v1:0';
         expect(isBedrock()).toBe(true);
     });
     it('detects global.anthropic.claude model ID pattern', () => {
@@ -149,11 +149,11 @@ describe('isBedrock()', () => {
         expect(isBedrock()).toBe(true);
     });
     it('detects ap.anthropic.claude model ID pattern', () => {
-        process.env.ANTHROPIC_MODEL = 'ap.anthropic.claude-sonnet-4-6-v1:0';
+        process.env.ANTHROPIC_MODEL = 'ap.anthropic.gpt-4o-6-v1:0';
         expect(isBedrock()).toBe(true);
     });
     it('does not match standard Claude model IDs', () => {
-        process.env.CLAUDE_MODEL = 'claude-sonnet-4-6';
+        process.env.CLAUDE_MODEL = 'gpt-4o-6';
         expect(isBedrock()).toBe(false);
     });
     it('does not match non-Claude model IDs', () => {
@@ -196,7 +196,7 @@ describe('isVertexAI()', () => {
         expect(isVertexAI()).toBe(false);
     });
     it('detects vertex_ai/ prefix in CLAUDE_MODEL', () => {
-        process.env.CLAUDE_MODEL = 'vertex_ai/claude-sonnet-4-5';
+        process.env.CLAUDE_MODEL = 'vertex_ai/gpt-4o-5';
         expect(isVertexAI()).toBe(true);
     });
     it('detects vertex_ai/ prefix in ANTHROPIC_MODEL', () => {
@@ -204,15 +204,15 @@ describe('isVertexAI()', () => {
         expect(isVertexAI()).toBe(true);
     });
     it('is case-insensitive for vertex_ai/ prefix', () => {
-        process.env.CLAUDE_MODEL = 'Vertex_AI/claude-sonnet-4-5';
+        process.env.CLAUDE_MODEL = 'Vertex_AI/gpt-4o-5';
         expect(isVertexAI()).toBe(true);
     });
     it('does not match standard Claude model IDs', () => {
-        process.env.CLAUDE_MODEL = 'claude-sonnet-4-6';
+        process.env.CLAUDE_MODEL = 'gpt-4o-6';
         expect(isVertexAI()).toBe(false);
     });
     it('does not match Bedrock model IDs', () => {
-        process.env.CLAUDE_MODEL = 'us.anthropic.claude-sonnet-4-6-v1:0';
+        process.env.CLAUDE_MODEL = 'us.anthropic.gpt-4o-6-v1:0';
         expect(isVertexAI()).toBe(false);
     });
 });
@@ -278,7 +278,7 @@ describe('loadConfig auto-enables forceInherit for non-Claude providers (issue #
         expect(config.routing?.forceInherit).toBe(true);
     });
     it('auto-enables forceInherit when Bedrock model ID is detected', () => {
-        process.env.ANTHROPIC_MODEL = 'us.anthropic.claude-sonnet-4-6-v1:0';
+        process.env.ANTHROPIC_MODEL = 'us.anthropic.gpt-4o-6-v1:0';
         const config = loadConfig();
         expect(config.routing?.forceInherit).toBe(true);
     });
@@ -295,7 +295,7 @@ describe('loadConfig auto-enables forceInherit for non-Claude providers (issue #
         expect(config.routing?.forceInherit).toBe(true);
     });
     it('auto-enables forceInherit when Vertex model ID is detected', () => {
-        process.env.CLAUDE_MODEL = 'vertex_ai/claude-sonnet-4-5';
+        process.env.CLAUDE_MODEL = 'vertex_ai/gpt-4o-5';
         const config = loadConfig();
         expect(config.routing?.forceInherit).toBe(true);
     });

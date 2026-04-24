@@ -92,7 +92,7 @@ triggers:
   - "keyword1"
   - "keyword2"
 agent: executor  # Optional: which agent to use
-model: sonnet    # Optional: model override
+# model: removed-for-compatibility
 pipeline: [skill-name, follow-up-skill]  # Optional: standardized multi-skill flow
 next-skill: follow-up-skill              # Optional: explicit handoff target
 next-skill-args: --direct                # Optional: arguments for the next skill

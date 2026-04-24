@@ -465,7 +465,7 @@ class SandboxManager:
             repo_owner = session_config.get("repo_owner", "")
             repo_name = session_config.get("repo_name", "")
             provider = session_config.get("provider", "anthropic")
-            model = session_config.get("model", "claude-sonnet-4-6")
+            model = session_config.get("model", "gpt-4o-6")
             session_id = session_config.get("session_id", "")
             branch = session_config.get("branch")
         else:

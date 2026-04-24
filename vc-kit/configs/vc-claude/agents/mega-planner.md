@@ -1,7 +1,7 @@
 ---
 name: mega-planner
 description: 'Unified planning and architecture agent. Decomposes complex tasks into executable plans with phased milestones, cost estimation, risk analysis, and verification criteria. Merged from GSD planner (45KB, Nyquist validation, spec-driven development), OMC planner (opus strategic planning, team PRDs), and RuFlo architect (ADRs, system design, Q-Learning Router).'
-model: claude-opus-4-5
+# model: removed-for-compatibility
 tools:
   - Read
   - Write

@@ -54,7 +54,7 @@ A workflow that runs your preferred review checklist on every project:
 # ~/.archon/.archon/workflows/my-review.yaml
 name: my-review
 description: Personal code review with my standards
-model: sonnet
+# model: removed-for-compatibility
 
 nodes:
   - id: review
@@ -91,7 +91,7 @@ A simple workflow for understanding unfamiliar codebases:
 # ~/.archon/.archon/workflows/explain.yaml
 name: explain
 description: Quick explanation of a codebase or module
-model: haiku
+# model: removed-for-compatibility
 
 nodes:
   - id: explain

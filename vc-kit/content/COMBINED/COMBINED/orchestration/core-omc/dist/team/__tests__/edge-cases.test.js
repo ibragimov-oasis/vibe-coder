@@ -638,7 +638,7 @@ describe('team-registration edge cases', () => {
             const configPath = join(CONFIG_DIR, 'config.json');
             writeFileSync(configPath, '{bad json{{{');
             // Register in shadow only
-            registerMcpWorker(REG_TEAM, 'w1', 'codex', 'gpt-5', 'sess1', '/cwd', REG_DIR);
+            registerMcpWorker(REG_TEAM, 'w1', 'codex', 'gpt-4o', 'sess1', '/cwd', REG_DIR);
             const workers = listMcpWorkers(REG_TEAM, REG_DIR);
             expect(workers).toHaveLength(1);
             expect(workers[0].name).toBe('w1');
@@ -658,7 +658,7 @@ describe('team-registration edge cases', () => {
             writeFileSync(configPath, JSON.stringify({ teamName: REG_TEAM }));
             // Set probe to pass so registerInConfig is called
             writeProbeResult(REG_DIR, { probeResult: 'pass', probedAt: '', version: '' });
-            registerMcpWorker(REG_TEAM, 'w1', 'codex', 'gpt-5', 'sess1', '/cwd', REG_DIR);
+            registerMcpWorker(REG_TEAM, 'w1', 'codex', 'gpt-4o', 'sess1', '/cwd', REG_DIR);
             const config = JSON.parse(readFileSync(configPath, 'utf-8'));
             expect(config.members).toHaveLength(1);
             expect(config.members[0].name).toBe('w1');
@@ -719,7 +719,7 @@ describe('team-registration edge cases', () => {
             const shadowPath = join(REG_DIR, '.omc', 'state', 'team-mcp-workers.json');
             writeFileSync(shadowPath, JSON.stringify({ teamName: REG_TEAM }));
             // Should not throw
-            expect(() => registerMcpWorker(REG_TEAM, 'w1', 'codex', 'gpt-5', 'sess1', '/cwd', REG_DIR)).not.toThrow();
+            expect(() => registerMcpWorker(REG_TEAM, 'w1', 'codex', 'gpt-4o', 'sess1', '/cwd', REG_DIR)).not.toThrow();
             // Verify the worker was registered
             const workers = listMcpWorkers(REG_TEAM, REG_DIR);
             expect(workers.length).toBeGreaterThanOrEqual(1);

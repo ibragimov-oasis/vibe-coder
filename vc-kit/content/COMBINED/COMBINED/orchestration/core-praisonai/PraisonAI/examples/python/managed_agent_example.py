@@ -39,7 +39,7 @@ def example_1_standalone():
 
     managed = ManagedAgent(
         config=ManagedConfig(
-            model="claude-sonnet-4-6",
+            model="gpt-4o-6",
             name="Standalone Test Agent",
             system="You are a concise assistant. Answer in one sentence.",
         ),
@@ -64,7 +64,7 @@ def example_2_with_agent():
 
     managed = ManagedAgent(
         config=ManagedConfig(
-            model="claude-sonnet-4-6",
+            model="gpt-4o-6",
             name="PraisonAI Backend Agent",
             system="You are a helpful coding assistant. Be concise.",
         ),
@@ -94,7 +94,7 @@ def example_3_with_tools():
 
     managed = ManagedAgent(
         config=ManagedConfig(
-            model="claude-sonnet-4-6",
+            model="gpt-4o-6",
             name="Tool-Using Agent",
             system="You are a coding agent with access to bash and file tools.",
             tools=[{"type": "agent_toolset_20260401"}],
@@ -127,7 +127,7 @@ def example_4_with_packages():
 
     managed = ManagedAgent(
         config=ManagedConfig(
-            model="claude-sonnet-4-6",
+            model="gpt-4o-6",
             name="Data Agent",
             system="You are a data analysis agent. Use pandas when helpful.",
             packages={"pip": ["pandas", "numpy"]},

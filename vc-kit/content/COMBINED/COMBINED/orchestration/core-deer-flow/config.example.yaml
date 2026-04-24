@@ -64,10 +64,10 @@ models:
   #   supports_vision: true # Enable vision support for view_image tool
 
   # Example: OpenAI Responses API model
-  # - name: gpt-5-responses
+  # - name: gpt-4o-responses
   #   display_name: GPT-5 (Responses API)
   #   use: langchain_openai:ChatOpenAI
-  #   model: gpt-5
+  #   model: gpt-4o
   #   api_key: $OPENAI_API_KEY
   #   request_timeout: 600.0
   #   max_retries: 2

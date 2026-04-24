@@ -196,7 +196,7 @@ class TestFlushMemoriesCodexFallback:
             ],
             usage=SimpleNamespace(input_tokens=50, output_tokens=10, total_tokens=60),
             status="completed",
-            model="gpt-5-codex",
+            model="gpt-4o-codex",
         )
 
         with patch("agent.auxiliary_client.call_llm", side_effect=RuntimeError("no provider")), \
@@ -204,7 +204,7 @@ class TestFlushMemoriesCodexFallback:
              patch.object(agent, "_build_api_kwargs") as mock_build, \
              patch("tools.memory_tool.memory_tool", return_value="Saved.") as mock_memory:
             mock_build.return_value = {
-                "model": "gpt-5-codex",
+                "model": "gpt-4o-codex",
                 "instructions": "test",
                 "input": [],
                 "tools": [],

@@ -224,7 +224,7 @@ Provide ratings in JSON format:
 """
 
     result = openai.ChatCompletion.create(
-        model="gpt-5",
+        model="gpt-4o",
         messages=[{"role": "user", "content": prompt}],
         temperature=0
     )
@@ -255,7 +255,7 @@ Answer with JSON:
 """
 
     result = openai.ChatCompletion.create(
-        model="gpt-5",
+        model="gpt-4o",
         messages=[{"role": "user", "content": prompt}],
         temperature=0
     )

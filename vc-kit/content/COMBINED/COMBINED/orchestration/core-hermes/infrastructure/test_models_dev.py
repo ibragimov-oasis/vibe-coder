@@ -20,12 +20,12 @@ SAMPLE_REGISTRY = {
                 "id": "claude-opus-4-6",
                 "limit": {"context": 1000000, "output": 128000},
             },
-            "claude-sonnet-4-6": {
-                "id": "claude-sonnet-4-6",
+            "gpt-4o-6": {
+                "id": "gpt-4o-6",
                 "limit": {"context": 1000000, "output": 64000},
             },
-            "claude-sonnet-4-0": {
-                "id": "claude-sonnet-4-0",
+            "gpt-4o-0": {
+                "id": "gpt-4o-0",
                 "limit": {"context": 200000, "output": 64000},
             },
         },
@@ -44,8 +44,8 @@ SAMPLE_REGISTRY = {
         "id": "kilo",
         "name": "Kilo Gateway",
         "models": {
-            "anthropic/claude-sonnet-4.6": {
-                "id": "anthropic/claude-sonnet-4.6",
+            "anthropic/gpt-4o.6": {
+                "id": "anthropic/gpt-4o.6",
                 "limit": {"context": 1000000, "output": 128000},
             },
         },

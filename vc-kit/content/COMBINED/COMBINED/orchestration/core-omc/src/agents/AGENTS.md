@@ -115,7 +115,7 @@ export const newAgent: AgentConfig = {
 ---
 name: new-agent
 description: What this agent does
-model: sonnet
+# model: removed-for-compatibility
 tools: [Read, Glob, Grep]
 ---
 

@@ -2,7 +2,7 @@
 name: database-reviewer
 description: クエリ最適化、スキーマ設計、セキュリティ、パフォーマンスのためのPostgreSQLデータベーススペシャリスト。SQL作成、マイグレーション作成、スキーマ設計、データベースパフォーマンスのトラブルシューティング時に積極的に使用してください。Supabaseのベストプラクティスを組み込んでいます。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
-model: opus
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

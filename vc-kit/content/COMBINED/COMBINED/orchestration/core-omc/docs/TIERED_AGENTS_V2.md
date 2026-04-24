@@ -270,7 +270,7 @@ Each tiered agent file should include:
 name: [agent]-[tier]
 description: [tier-specific description]
 tools: [restricted tool list]
-model: [haiku|sonnet|opus]
+# model: removed-for-compatibility
 ---
 
 <Inherits_From>

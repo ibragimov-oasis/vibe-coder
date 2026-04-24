@@ -27,7 +27,7 @@ Introduced in **Claude Code v2.1.33** (February 2026), the `memory` frontmatter 
 name: code-reviewer
 description: Reviews code for quality and best practices
 tools: Read, Write, Edit, Bash
-model: sonnet
+# model: removed-for-compatibility
 memory: user
 ---
 
@@ -85,7 +85,7 @@ These systems are **complementary** — an agent reads both CLAUDE.md (project c
 name: api-developer
 description: Implement API endpoints following team conventions
 tools: Read, Write, Edit, Bash
-model: sonnet
+# model: removed-for-compatibility
 memory: project
 skills:
   - api-conventions

@@ -43,7 +43,7 @@ class TestResponsesAPIModelDetection:
         positive_models = [
             "gpt-4o", "gpt-4o-mini", "gpt-4o-2024-08-06",
             "gpt-4-turbo", "gpt-4-turbo-preview",
-            "gpt-4.1", "gpt-4.5-preview",
+            "gpt-4o", "gpt-4.5-preview",
             "o1-preview", "o1-mini", "o3-mini", "o4-mini",
             "chatgpt-4o-latest",
             "azure/gpt-4o", "azure/o3-mini",
@@ -291,7 +291,7 @@ class TestOpenAIClientResponsesAPI:
         assert OpenAIClient._supports_responses_api("gpt-4o")
         assert OpenAIClient._supports_responses_api("gpt-4-turbo")
         assert OpenAIClient._supports_responses_api("o3-mini")
-        assert OpenAIClient._supports_responses_api("gpt-4.1")
+        assert OpenAIClient._supports_responses_api("gpt-4o")
         assert OpenAIClient._supports_responses_api("chatgpt-4o-latest")
 
         # Negative cases  

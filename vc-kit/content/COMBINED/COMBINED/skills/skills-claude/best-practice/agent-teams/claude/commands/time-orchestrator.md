@@ -1,5 +1,5 @@
 ---
-model: haiku
+# model: removed-for-compatibility
 tags:
   - domain/agents
   - artifact/doc

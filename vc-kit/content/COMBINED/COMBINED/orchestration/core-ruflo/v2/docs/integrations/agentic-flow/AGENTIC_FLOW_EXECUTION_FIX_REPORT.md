@@ -366,7 +366,7 @@ $ claude-flow agent run coder "Create a user authentication system" \
 $ claude-flow agent run researcher \
   "Research quantum computing trends 2025" \
   --provider anthropic \
-  --model claude-sonnet-4-5-20250929 \
+  --model gpt-4o-5-20250929 \
   --temperature 0.7 \
   --max-tokens 4096 \
   --output-format markdown \

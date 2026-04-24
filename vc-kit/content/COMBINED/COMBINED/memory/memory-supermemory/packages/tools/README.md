@@ -42,7 +42,7 @@ const tools = supermemoryTools(process.env.SUPERMEMORY_API_KEY!, {
 
 // Use with AI SDK
 const result = await generateText({
-  model: openai("gpt-5"),
+  model: openai("gpt-4o"),
   messages: [
     {
       role: "user",
@@ -73,7 +73,7 @@ import { generateText } from "ai"
 import { withSupermemory } from "@supermemory/tools/ai-sdk"
 import { openai } from "@ai-sdk/openai"
 
-const modelWithMemory = withSupermemory(openai("gpt-5"), "user_id_life")
+const modelWithMemory = withSupermemory(openai("gpt-4o"), "user_id_life")
 
 const result = await generateText({
 	model: modelWithMemory,
@@ -92,7 +92,7 @@ import { generateText } from "ai"
 import { withSupermemory } from "@supermemory/tools/ai-sdk"
 import { openai } from "@ai-sdk/openai"
 
-const modelWithMemory = withSupermemory(openai("gpt-5"), "user_id_life", {
+const modelWithMemory = withSupermemory(openai("gpt-4o"), "user_id_life", {
 	conversationId: "conversation-456"
 })
 
@@ -113,7 +113,7 @@ import { generateText } from "ai"
 import { withSupermemory } from "@supermemory/tools/ai-sdk"
 import { openai } from "@ai-sdk/openai"
 
-const modelWithMemory = withSupermemory(openai("gpt-5"), "user_id_life", {
+const modelWithMemory = withSupermemory(openai("gpt-4o"), "user_id_life", {
 	verbose: true
 })
 
@@ -381,7 +381,7 @@ const executeToolCall = createToolCallExecutor(process.env.SUPERMEMORY_API_KEY!,
 
 // Use with OpenAI Chat Completions
 const completion = await client.chat.completions.create({
-  model: "gpt-5",
+  model: "gpt-4o",
   messages: [
     {
       role: "user",
@@ -643,7 +643,7 @@ const tools = {
 }
 
 const result = streamText({
-  model: openrouter.chat("openai/gpt-5-nano"),
+  model: openrouter.chat("openai/gpt-4o-nano"),
   messages: [...],
   tools,
 })
@@ -716,7 +716,7 @@ const memoryTool = createClaudeMemoryTool(process.env.SUPERMEMORY_API_KEY!, {
 async function chatWithMemory(userMessage: string) {
   // Send message to Claude with memory tool
   const response = await anthropic.beta.messages.create({
-    model: 'claude-sonnet-4-5',
+    model: 'gpt-4o-5',
     max_tokens: 2048,
     messages: [{ role: 'user', content: userMessage }],
     tools: [{ type: 'memory_20250818', name: 'memory' }],

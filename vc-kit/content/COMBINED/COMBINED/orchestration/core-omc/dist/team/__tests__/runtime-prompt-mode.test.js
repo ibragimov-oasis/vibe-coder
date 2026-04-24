@@ -344,13 +344,13 @@ describe('spawnWorkerForTask – model passthrough from environment variables', 
     it('claude worker propagates tiered Bedrock/env model selection variables', async () => {
         process.env.CLAUDE_CODE_USE_BEDROCK = '1';
         process.env.CLAUDE_CODE_BEDROCK_OPUS_MODEL = 'us.anthropic.claude-opus-4-6-v1:0';
-        process.env.CLAUDE_CODE_BEDROCK_SONNET_MODEL = 'us.anthropic.claude-sonnet-4-6-v1:0';
+        process.env.CLAUDE_CODE_BEDROCK_SONNET_MODEL = 'us.anthropic.gpt-4o-6-v1:0';
         process.env.CLAUDE_CODE_BEDROCK_HAIKU_MODEL = 'us.anthropic.claude-haiku-4-5-v1:0';
         process.env.ANTHROPIC_DEFAULT_OPUS_MODEL = 'claude-opus-4-6-custom';
-        process.env.ANTHROPIC_DEFAULT_SONNET_MODEL = 'claude-sonnet-4-6-custom';
+        process.env.ANTHROPIC_DEFAULT_SONNET_MODEL = 'gpt-4o-6-custom';
         process.env.ANTHROPIC_DEFAULT_HAIKU_MODEL = 'claude-haiku-4-5-custom';
         process.env.OMC_MODEL_HIGH = 'claude-opus-4-6-override';
-        process.env.OMC_MODEL_MEDIUM = 'claude-sonnet-4-6-override';
+        process.env.OMC_MODEL_MEDIUM = 'gpt-4o-6-override';
         process.env.OMC_MODEL_LOW = 'claude-haiku-4-5-override';
         const runtime = makeRuntime(cwd, 'claude');
         await spawnWorkerForTask(runtime, 'worker-1', 0);
@@ -361,25 +361,25 @@ describe('spawnWorkerForTask – model passthrough from environment variables', 
         expect(launchCmd).toContain('CLAUDE_CODE_BEDROCK_OPUS_MODEL=');
         expect(launchCmd).toContain('us.anthropic.claude-opus-4-6-v1:0');
         expect(launchCmd).toContain('CLAUDE_CODE_BEDROCK_SONNET_MODEL=');
-        expect(launchCmd).toContain('us.anthropic.claude-sonnet-4-6-v1:0');
+        expect(launchCmd).toContain('us.anthropic.gpt-4o-6-v1:0');
         expect(launchCmd).toContain('CLAUDE_CODE_BEDROCK_HAIKU_MODEL=');
         expect(launchCmd).toContain('us.anthropic.claude-haiku-4-5-v1:0');
         expect(launchCmd).toContain('ANTHROPIC_DEFAULT_OPUS_MODEL=');
         expect(launchCmd).toContain('claude-opus-4-6-custom');
         expect(launchCmd).toContain('ANTHROPIC_DEFAULT_SONNET_MODEL=');
-        expect(launchCmd).toContain('claude-sonnet-4-6-custom');
+        expect(launchCmd).toContain('gpt-4o-6-custom');
         expect(launchCmd).toContain('ANTHROPIC_DEFAULT_HAIKU_MODEL=');
         expect(launchCmd).toContain('claude-haiku-4-5-custom');
         expect(launchCmd).toContain('OMC_MODEL_HIGH=');
         expect(launchCmd).toContain('claude-opus-4-6-override');
         expect(launchCmd).toContain('OMC_MODEL_MEDIUM=');
-        expect(launchCmd).toContain('claude-sonnet-4-6-override');
+        expect(launchCmd).toContain('gpt-4o-6-override');
         expect(launchCmd).toContain('OMC_MODEL_LOW=');
         expect(launchCmd).toContain('claude-haiku-4-5-override');
         // With Bedrock env vars set, resolveClaudeWorkerModel returns the sonnet model
         // so --model IS expected now (this was the #1695 fix)
         expect(launchCmd).toContain("'--model'");
-        expect(launchCmd).toContain('us.anthropic.claude-sonnet-4-6-v1:0');
+        expect(launchCmd).toContain('us.anthropic.gpt-4o-6-v1:0');
     });
     it('codex worker does not pass model flag when no env var is set', async () => {
         const runtime = makeRuntime(cwd, 'codex');

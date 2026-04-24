@@ -103,7 +103,7 @@ chat-ui:
 [MCP] Loaded 1 server(s): AI Assistant Tools
 Listening on http://0.0.0.0:3000
 
-Models: gemini-2.5-pro, gemini-2.5-flash, gpt-4.1, gpt-4.1-mini, gpt-4o, gpt-4o-mini, o3-mini, o1-mini
+Models: gemini-2.5-pro, gemini-2.5-flash, gpt-4o, gpt-4o-mini, gpt-4o, gpt-4o-mini, o3-mini, o1-mini
 Bridge health: ok (3 tools: search, web_research, system_guide)
 Chat completions: working via Gemini proxy
 ```

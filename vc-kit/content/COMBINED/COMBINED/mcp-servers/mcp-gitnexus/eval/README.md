@@ -197,7 +197,7 @@ Create a YAML file in `configs/models/`:
 
 ```yaml
 # configs/models/my-model.yaml
-model:
+# model: removed-for-compatibility
   model_name: "openrouter/provider/model-name"
   cost_tracking: "ignore_errors"  # if not in litellm's cost DB
   model_kwargs:

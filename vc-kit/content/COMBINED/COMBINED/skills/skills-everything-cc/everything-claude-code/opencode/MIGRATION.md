@@ -141,7 +141,7 @@ opencode
 name: planner
 description: Expert planning specialist...
 tools: ["Read", "Grep", "Glob"]
-model: opus
+# model: removed-for-compatibility
 ---
 
 You are an expert planning specialist...
@@ -232,7 +232,7 @@ Create a detailed implementation plan for: $ARGUMENTS
 | Claude Code | OpenCode |
 |-------------|----------|
 | `opus` | `anthropic/claude-opus-4-5` |
-| `sonnet` | `anthropic/claude-sonnet-4-5` |
+| `sonnet` | `anthropic/gpt-4o-5` |
 | `haiku` | `anthropic/claude-haiku-4-5` |
 
 ## Available Commands

@@ -39,7 +39,7 @@ class TestGitIdentityConfiguration:
         cmd = {
             "messageId": "msg-1",
             "content": "fix the bug",
-            "model": "claude-sonnet-4-6",
+            "model": "gpt-4o-6",
             "author": {
                 "userId": "user-1",
                 "scmName": "Jane Dev",
@@ -68,7 +68,7 @@ class TestGitIdentityConfiguration:
         cmd = {
             "messageId": "msg-1",
             "content": "fix the bug",
-            "model": "claude-sonnet-4-6",
+            "model": "gpt-4o-6",
             "author": {
                 "userId": "user-1",
                 "scmName": None,
@@ -97,7 +97,7 @@ class TestGitIdentityConfiguration:
         cmd = {
             "messageId": "msg-1",
             "content": "fix the bug",
-            "model": "claude-sonnet-4-6",
+            "model": "gpt-4o-6",
             "author": {
                 "userId": "user-1",
                 "scmName": "Jane Dev",
@@ -126,7 +126,7 @@ class TestGitIdentityConfiguration:
         cmd = {
             "messageId": "msg-1",
             "content": "fix the bug",
-            "model": "claude-sonnet-4-6",
+            "model": "gpt-4o-6",
             "author": {
                 "userId": "user-1",
                 "scmName": None,
@@ -155,7 +155,7 @@ class TestGitIdentityConfiguration:
         cmd = {
             "messageId": "msg-1",
             "content": "fix the bug",
-            "model": "claude-sonnet-4-6",
+            "model": "gpt-4o-6",
             "author": {"userId": "user-1"},
         }
 

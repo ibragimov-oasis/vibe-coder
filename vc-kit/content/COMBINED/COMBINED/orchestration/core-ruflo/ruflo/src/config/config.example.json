@@ -43,7 +43,7 @@
       "supportsTools": true
     },
     {
-      "name": "gpt-4.1",
+      "name": "gpt-4o",
       "displayName": "GPT-4.1",
       "description": "OpenAI's latest flagship model (2026)",
       "provider": "openai",
@@ -51,7 +51,7 @@
       "supportsTools": true
     },
     {
-      "name": "gpt-4.1-mini",
+      "name": "gpt-4o-mini",
       "displayName": "GPT-4.1 Mini",
       "description": "Fast and affordable OpenAI model",
       "provider": "openai",

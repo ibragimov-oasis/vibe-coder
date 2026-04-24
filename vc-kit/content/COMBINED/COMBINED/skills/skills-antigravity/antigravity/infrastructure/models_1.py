@@ -7,7 +7,7 @@ from . import cache, http
 
 # OpenAI API
 OPENAI_MODELS_URL = "https://api.openai.com/v1/models"
-OPENAI_FALLBACK_MODELS = ["gpt-5.2", "gpt-5.1", "gpt-5", "gpt-4o"]
+OPENAI_FALLBACK_MODELS = ["gpt-4o.2", "gpt-4o.1", "gpt-4o", "gpt-4o"]
 
 # xAI API - Agent Tools API requires grok-4 family
 XAI_MODELS_URL = "https://api.x.ai/v1/models"
@@ -21,9 +21,9 @@ def parse_version(model_id: str) -> Optional[Tuple[int, ...]]:
     """Parse semantic version from model ID.
 
     Examples:
-        gpt-5 -> (5,)
-        gpt-5.2 -> (5, 2)
-        gpt-5.2.1 -> (5, 2, 1)
+        gpt-4o -> (5,)
+        gpt-4o.2 -> (5, 2)
+        gpt-4o.2.1 -> (5, 2, 1)
     """
     match = re.search(r'(\d+(?:\.\d+)*)', model_id)
     if match:
@@ -35,8 +35,8 @@ def is_mainline_openai_model(model_id: str) -> bool:
     """Check if model is a mainline GPT model (not mini/nano/chat/codex/pro)."""
     model_lower = model_id.lower()
 
-    # Must be gpt-5 series
-    if not re.match(r'^gpt-5(\.\d+)*$', model_lower):
+    # Must be gpt-4o series
+    if not re.match(r'^gpt-4o(\.\d+)*$', model_lower):
         return False
 
     # Exclude variants
@@ -89,7 +89,7 @@ def select_openai_model(
     candidates = [m for m in models if is_mainline_openai_model(m.get("id", ""))]
 
     if not candidates:
-        # No gpt-5 models found, use fallback
+        # No gpt-4o models found, use fallback
         return OPENAI_FALLBACK_MODELS[0]
 
     # Sort by version (descending), then by created timestamp

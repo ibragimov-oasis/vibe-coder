@@ -78,7 +78,7 @@ No subcommand defaults to `chat`.
 ```
 hermes chat [flags]
   -q, --query TEXT          Single query, non-interactive
-  -m, --model MODEL         Model (e.g. anthropic/claude-sonnet-4)
+  -m, --model MODEL         Model (e.g. anthropic/gpt-4o)
   -t, --toolsets LIST       Comma-separated toolsets
   --provider PROVIDER       Force provider (openrouter, anthropic, nous, etc.)
   -v, --verbose             Verbose output

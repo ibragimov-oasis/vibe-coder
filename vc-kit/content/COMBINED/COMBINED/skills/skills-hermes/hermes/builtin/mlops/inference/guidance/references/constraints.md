@@ -26,7 +26,7 @@ Guide to regex constraints, grammar-based generation, and token healing in Guida
 ```python
 from guidance import models, gen
 
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 
 # Integer (positive)
 lm += "Age: " + gen("age", regex=r"[0-9]+")
@@ -135,7 +135,7 @@ lm += "URL: " + gen(
 ```python
 from guidance import models, gen
 
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 
 # String field with quotes
 lm += '"name": ' + gen("name", regex=r'"[A-Za-z ]+"')
@@ -249,7 +249,7 @@ def json_object(lm):
     lm += "}"
     return lm
 
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 lm = json_object(lm)
 print(lm)  # Valid JSON guaranteed
 ```
@@ -371,7 +371,7 @@ prompt = "The capital of France is "
 ```python
 from guidance import models, gen
 
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 
 # Token healing enabled by default
 lm += "The capital of France is " + gen("capital", max_tokens=5)
@@ -434,7 +434,7 @@ lm += gen("text", token_healing=False)
 ```python
 from guidance import models, select
 
-lm = models.Anthropic("claude-sonnet-4-5-20250929")
+lm = models.Anthropic("gpt-4o-5-20250929")
 
 # Simple selection
 lm += "Status: " + select(["active", "inactive", "pending"], name="status")

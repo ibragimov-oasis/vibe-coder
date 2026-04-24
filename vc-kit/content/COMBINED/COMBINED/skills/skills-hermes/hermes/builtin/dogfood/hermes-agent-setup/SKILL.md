@@ -233,7 +233,7 @@ The main config file is `~/.hermes/config.yaml`. Key sections:
 
 ```yaml
 # Model and provider
-model:
+# model: removed-for-compatibility
   default: anthropic/claude-opus-4.6
   provider: openrouter
 

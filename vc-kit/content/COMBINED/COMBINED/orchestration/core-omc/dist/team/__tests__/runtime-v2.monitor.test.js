@@ -104,7 +104,7 @@ describe('monitorTeamV2 pane-based stall inference', () => {
         await writeConfigAndTask('pending');
         mocks.execFile.mockImplementation((_cmd, args, cb) => {
             if (args[0] === 'capture-pane') {
-                cb(null, 'model: loading\ngpt-5.3-codex high · 80% left\n', '');
+                cb(null, 'model: loading\ngpt-4o.3-codex high · 80% left\n', '');
                 return;
             }
             cb(null, '', '');

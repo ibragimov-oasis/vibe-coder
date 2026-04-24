@@ -157,9 +157,9 @@ export default defineSquad({
 
   defaults: defineDefaults({
     model: {
-      preferred: 'claude-sonnet-4',
+      preferred: 'gpt-4o',
       rationale: 'Good balance of speed and quality for docs generation',
-      fallback: 'claude-haiku-4.5',
+      fallback: 'gpt-4o',
     },
   }),
 });
@@ -326,7 +326,7 @@ async function runLoop(
       costTracker.recordUsage({
         sessionId: agent.sessionId,
         agentName: agent.member.name,
-        model: 'claude-sonnet-4-20250514',
+        model: 'gpt-4o-20250514',
         inputTokens: 1200,
         outputTokens: 800,
         estimatedCost: 0.006,
@@ -404,7 +404,7 @@ recordTokenUsage({
   type: 'usage',
   sessionId: 'session-lori-0',
   agentName: 'lori',
-  model: 'claude-sonnet-4-20250514',
+  model: 'gpt-4o-20250514',
   inputTokens: 1200,
   outputTokens: 800,
   estimatedCost: 0.006,
@@ -511,7 +511,7 @@ while (tasks.some(t => t.status !== 'done')) {
     costTracker.recordUsage({
       sessionId: agent.sessionId,
       agentName: agent.member.name,
-      model: 'claude-sonnet-4-20250514',
+      model: 'gpt-4o-20250514',
       inputTokens: 1000,
       outputTokens: 600,
       estimatedCost: 0.005,

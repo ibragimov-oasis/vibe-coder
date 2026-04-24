@@ -50,7 +50,7 @@ The `hermes config set` command automatically routes values to the right file �
 
 Settings are resolved in this order (highest priority first):
 
-1. **CLI arguments** — e.g., `hermes chat --model anthropic/claude-sonnet-4` (per-invocation override)
+1. **CLI arguments** — e.g., `hermes chat --model anthropic/gpt-4o` (per-invocation override)
 2. **`~/.hermes/config.yaml`** — the primary config file for all non-secret settings
 3. **`~/.hermes/.env`** — fallback for env vars; **required** for secrets (API keys, tokens, passwords)
 4. **Built-in defaults** — hardcoded safe defaults when nothing else is set
@@ -118,7 +118,7 @@ Use Claude models directly through the Anthropic API — no OpenRouter proxy nee
 ```bash
 # With an API key (pay-per-token)
 export ANTHROPIC_API_KEY=***
-hermes chat --provider anthropic --model claude-sonnet-4-6
+hermes chat --provider anthropic --model gpt-4o-6
 
 # Preferred: authenticate through `hermes model`
 # Hermes will use Claude Code's credential store directly when available
@@ -136,9 +136,9 @@ When you choose Anthropic OAuth through `hermes model`, Hermes prefers Claude Co
 
 Or set it permanently:
 ```yaml
-model:
+# model: removed-for-compatibility
   provider: "anthropic"
-  default: "claude-sonnet-4-6"
+  default: "gpt-4o-6"
 ```
 
 :::tip Aliases
@@ -152,7 +152,7 @@ Hermes supports GitHub Copilot as a first-class provider with two modes:
 **`copilot` — Direct Copilot API** (recommended). Uses your GitHub Copilot subscription to access GPT-5.x, Claude, Gemini, and other models through the Copilot API.
 
 ```bash
-hermes chat --provider copilot --model gpt-5.4
+hermes chat --provider copilot --model gpt-4o.4
 ```
 
 **Authentication options** (checked in this order):
@@ -176,7 +176,7 @@ The Copilot API does **not** support classic Personal Access Tokens (`ghp_*`). S
 If your `gh auth token` returns a `ghp_*` token, use `hermes model` to authenticate via OAuth instead.
 :::
 
-**API routing**: GPT-5+ models (except `gpt-5-mini`) automatically use the Responses API. All other models (GPT-4o, Claude, Gemini, etc.) use Chat Completions. Models are auto-detected from the live Copilot catalog.
+**API routing**: GPT-5+ models (except `gpt-4o-mini`) automatically use the Responses API. All other models (GPT-4o, Claude, Gemini, etc.) use Chat Completions. Models are auto-detected from the live Copilot catalog.
 
 **`copilot-acp` — Copilot ACP agent backend**. Spawns the local Copilot CLI as a subprocess:
 
@@ -187,9 +187,9 @@ hermes chat --provider copilot-acp --model copilot-acp
 
 **Permanent config:**
 ```yaml
-model:
+# model: removed-for-compatibility
   provider: "copilot"
-  default: "gpt-5.4"
+  default: "gpt-4o.4"
 ```
 
 | Environment variable | Description |
@@ -226,7 +226,7 @@ hermes chat --provider alibaba --model qwen3.5-plus
 
 Or set the provider permanently in `config.yaml`:
 ```yaml
-model:
+# model: removed-for-compatibility
   provider: "zai"       # or: kimi-coding, minimax, minimax-cn, alibaba
   default: "glm-4-plus"
 ```
@@ -248,7 +248,7 @@ hermes chat --provider hf --model deepseek-ai/DeepSeek-V3.2
 
 Or set it permanently in `config.yaml`:
 ```yaml
-model:
+# model: removed-for-compatibility
   provider: "huggingface"
   default: "Qwen/Qwen3-235B-A22B-Thinking-2507"
 ```
@@ -277,7 +277,7 @@ hermes model
 **Manual config (`config.yaml`):**
 ```yaml
 # In ~/.hermes/config.yaml
-model:
+# model: removed-for-compatibility
   default: your-model-name
   provider: custom
   base_url: http://localhost:8000/v1
@@ -301,7 +301,7 @@ Once a custom endpoint is configured, you can switch models mid-session:
 ```
 /model custom:qwen-2.5          # Switch to a model on your custom endpoint
 /model custom                    # Auto-detect the model from the endpoint
-/model openrouter:claude-sonnet-4 # Switch back to a cloud provider
+/model openrouter:gpt-4o # Switch back to a cloud provider
 ```
 
 If you have **named custom providers** configured (see below), use the triple syntax:
@@ -415,7 +415,7 @@ Download GGUF models from [Hugging Face](https://huggingface.co/models?library=g
 ```bash
 # Install and start
 pip install "litellm[proxy]"
-litellm --model anthropic/claude-sonnet-4 --port 4000
+litellm --model anthropic/gpt-4o --port 4000
 
 # Or with a config file for multiple models:
 litellm --config litellm_config.yaml --port 4000
@@ -423,7 +423,7 @@ litellm --config litellm_config.yaml --port 4000
 # Configure Hermes
 OPENAI_BASE_URL=http://localhost:4000/v1
 OPENAI_API_KEY=sk-your-litellm-key
-LLM_MODEL=anthropic/claude-sonnet-4
+LLM_MODEL=anthropic/gpt-4o
 ```
 
 Example `litellm_config.yaml` with fallback:
@@ -431,7 +431,7 @@ Example `litellm_config.yaml` with fallback:
 model_list:
   - model_name: "best"
     litellm_params:
-      model: anthropic/claude-sonnet-4
+      model: anthropic/gpt-4o
       api_key: sk-ant-...
   - model_name: "best"
     litellm_params:
@@ -517,7 +517,7 @@ For most setups this works out of the box. The system is provider-aware — the 
 To set the context length explicitly, add `context_length` to your model config:
 
 ```yaml
-model:
+# model: removed-for-compatibility
   default: "qwen3.5:9b"
   base_url: "http://localhost:8080/v1"
   context_length: 131072  # tokens
@@ -570,7 +570,7 @@ Switch between them mid-session with the triple syntax:
 ```
 /model custom:local:qwen-2.5       # Use the "local" endpoint with qwen-2.5
 /model custom:work:llama3-70b      # Use the "work" endpoint with llama3-70b
-/model custom:anthropic-proxy:claude-sonnet-4  # Use the proxy
+/model custom:anthropic-proxy:gpt-4o  # Use the proxy
 ```
 
 You can also select named custom providers from the interactive `hermes model` menu.
@@ -646,7 +646,7 @@ provider_routing:
   # data_collection: "deny"   # Exclude providers that may store/train on data
 ```
 
-**Shortcuts:** Append `:nitro` to any model name for throughput sorting (e.g., `anthropic/claude-sonnet-4:nitro`), or `:floor` for price sorting.
+**Shortcuts:** Append `:nitro` to any model name for throughput sorting (e.g., `anthropic/gpt-4o:nitro`), or `:floor` for price sorting.
 
 ## Fallback Model
 
@@ -655,7 +655,7 @@ Configure a backup provider:model that Hermes switches to automatically when you
 ```yaml
 fallback_model:
   provider: openrouter                    # required
-  model: anthropic/claude-sonnet-4        # required
+  model: anthropic/gpt-4o        # required
   # base_url: http://localhost:8000/v1    # optional, for custom endpoints
   # api_key_env: MY_CUSTOM_KEY           # optional, env var name for custom endpoint API key
 ```
@@ -1077,7 +1077,7 @@ AUXILIARY_VISION_MODEL=openai/gpt-4o
 | `"auto"` | Best available (default). Vision tries OpenRouter → Nous → Codex. | — |
 | `"openrouter"` | Force OpenRouter — routes to any model (Gemini, GPT-4o, Claude, etc.) | `OPENROUTER_API_KEY` |
 | `"nous"` | Force Nous Portal | `hermes login` |
-| `"codex"` | Force Codex OAuth (ChatGPT account). Supports vision (gpt-5.3-codex). | `hermes model` → Codex |
+| `"codex"` | Force Codex OAuth (ChatGPT account). Supports vision (gpt-4o.3-codex). | `hermes model` → Codex |
 | `"main"` | Use your active custom/main endpoint. This can come from `OPENAI_BASE_URL` + `OPENAI_API_KEY` or from a custom endpoint saved via `hermes model` / `config.yaml`. Works with OpenAI, local models, or any OpenAI-compatible API. | Custom endpoint credentials + base URL |
 
 ### Common Setups
@@ -1118,7 +1118,7 @@ auxiliary:
 auxiliary:
   vision:
     provider: "codex"     # uses your ChatGPT OAuth token
-    # model defaults to gpt-5.3-codex (supports vision)
+    # model defaults to gpt-4o.3-codex (supports vision)
 ```
 
 **Using a local/self-hosted model:**

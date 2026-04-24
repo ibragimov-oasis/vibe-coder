@@ -384,10 +384,10 @@ task-master models --set-main=my-local-llama --ollama
 task-master models --set-research=google/gemini-pro --openrouter
 
 # Set Codex CLI model for the main role (uses ChatGPT subscription via OAuth)
-task-master models --set-main=gpt-5-codex --codex-cli
+task-master models --set-main=gpt-4o-codex --codex-cli
 
 # Set Codex CLI model for the fallback role
-task-master models --set-fallback=gpt-5 --codex-cli
+task-master models --set-fallback=gpt-4o --codex-cli
 
 # Run interactive setup to configure models, including custom ones
 task-master models --setup

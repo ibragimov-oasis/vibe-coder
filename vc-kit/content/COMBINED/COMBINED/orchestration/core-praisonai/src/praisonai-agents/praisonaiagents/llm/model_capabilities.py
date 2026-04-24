@@ -161,7 +161,7 @@ def supports_web_search(model_name: str) -> bool:
     Supported providers:
     - OpenAI (gpt-4o-search-preview, gpt-4o-mini-search-preview)
     - xAI (grok-3)
-    - Anthropic (claude-3-5-sonnet-latest, claude-sonnet-4, etc.)
+    - Anthropic (claude-3-5-sonnet-latest, gpt-4o, etc.)
     - Google/Vertex AI (gemini-2.0-flash, gemini-2.5-*, etc.)
     - Perplexity (all models)
     
@@ -233,8 +233,8 @@ MODELS_SUPPORTING_WEB_FETCH = {
     "claude-opus-4-1",
     "claude-opus-4-20250514",
     "claude-opus-4",
-    "claude-sonnet-4-20250514",
-    "claude-sonnet-4",
+    "gpt-4o-20250514",
+    "gpt-4o",
     "claude-3-7-sonnet-20250219",
     "claude-3-7-sonnet-latest",
     "claude-3-5-sonnet-latest",
@@ -283,7 +283,7 @@ def supports_web_fetch(model_name: str) -> bool:
     model_lower = model_without_provider.lower()
     if 'claude' in model_lower:
         import re
-        # Match patterns like claude-4, claude-5, claude-sonnet-4, claude-opus-4, etc.
+        # Match patterns like claude-4, claude-5, gpt-4o, claude-opus-4, etc.
         version_match = re.search(r'claude-(?:sonnet-|opus-|haiku-)?(\d+)', model_lower)
         if version_match:
             version = int(version_match.group(1))

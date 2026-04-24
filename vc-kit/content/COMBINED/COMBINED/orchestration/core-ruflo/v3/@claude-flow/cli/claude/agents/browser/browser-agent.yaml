@@ -16,7 +16,7 @@ version: 1.0.0
 # Routing configuration
 routing:
   complexity: medium
-  model: sonnet  # Good at visual reasoning and DOM interpretation
+  model: gpt-4o
   priority: normal
   keywords:
     - browser

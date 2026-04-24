@@ -28,7 +28,7 @@ class TestManagedBackendProtocol:
     def test_config_defaults(self):
         from praisonai.integrations.managed_agents import ManagedConfig
         cfg = ManagedConfig()
-        assert cfg.model == "claude-sonnet-4-6"
+        assert cfg.model == "gpt-4o-6"
         assert cfg.name == "PraisonAI Managed Agent"
         assert cfg.tools == [{"type": "agent_toolset_20260401"}]
         assert cfg.networking == {"type": "unrestricted"}
@@ -181,10 +181,10 @@ class TestManagedAgent:
 
         m = ManagedAgent(
             api_key="test-key",
-            config={"model": "claude-sonnet-4-6"},
+            config={"model": "gpt-4o-6"},
             instructions="Be concise.",
         )
-        assert m._cfg["model"] == "claude-sonnet-4-6"
+        assert m._cfg["model"] == "gpt-4o-6"
         assert m.instructions == "Be concise."
 
     def test_init_config_dataclass(self):
@@ -398,7 +398,7 @@ class TestManagedAgent:
         m = ManagedAgent(
             api_key="test-key",
             config={
-                "model": "claude-sonnet-4-6",
+                "model": "gpt-4o-6",
                 "mcp_servers": [{"type": "url", "url": "https://mcp.example.com/sse"}],
                 "skills": [{"type": "anthropic", "name": "computer_use"}],
                 "callable_agents": [{"agent_id": "agent-other"}],

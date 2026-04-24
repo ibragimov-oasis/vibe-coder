@@ -530,7 +530,7 @@ class TestGetTextAuxiliaryClient:
         with patch("agent.auxiliary_client._read_nous_auth", return_value=None), \
              patch("agent.auxiliary_client.OpenAI") as mock_openai:
             client, model = get_text_auxiliary_client()
-        assert model == "gpt-5.2-codex"
+        assert model == "gpt-4o.2-codex"
         # Returns a CodexAuxiliaryClient wrapper, not a raw OpenAI client
         from agent.auxiliary_client import CodexAuxiliaryClient
         assert isinstance(client, CodexAuxiliaryClient)
@@ -599,10 +599,10 @@ class TestVisionClientFallback:
             ),
             patch("agent.auxiliary_client.OpenAI") as mock_openai,
         ):
-            client, model = resolve_provider_client("copilot", model="gpt-5.4")
+            client, model = resolve_provider_client("copilot", model="gpt-4o.4")
 
         assert client is not None
-        assert model == "gpt-5.4"
+        assert model == "gpt-4o.4"
         call_kwargs = mock_openai.call_args.kwargs
         assert call_kwargs["api_key"] == "gh-cli-token"
         assert call_kwargs["base_url"] == "https://api.githubcopilot.com"
@@ -626,7 +626,7 @@ class TestVisionClientFallback:
         monkeypatch.setenv("ANTHROPIC_API_KEY", "sk-ant-api03-key")
 
         def fake_load_config():
-            return {"model": {"provider": "anthropic", "default": "claude-sonnet-4-6"}}
+            return {"model": {"provider": "anthropic", "default": "gpt-4o-6"}}
 
         with (
             patch("agent.auxiliary_client._read_nous_auth", return_value=None),
@@ -643,12 +643,12 @@ class TestVisionClientFallback:
 
     def test_selected_codex_provider_short_circuits_vision_auto(self, monkeypatch):
         def fake_load_config():
-            return {"model": {"provider": "openai-codex", "default": "gpt-5.2-codex"}}
+            return {"model": {"provider": "openai-codex", "default": "gpt-4o.2-codex"}}
 
         codex_client = MagicMock()
         with (
             patch("hermes_cli.config.load_config", fake_load_config),
-            patch("agent.auxiliary_client._try_codex", return_value=(codex_client, "gpt-5.2-codex")) as mock_codex,
+            patch("agent.auxiliary_client._try_codex", return_value=(codex_client, "gpt-4o.2-codex")) as mock_codex,
             patch("agent.auxiliary_client._try_openrouter") as mock_openrouter,
             patch("agent.auxiliary_client._try_nous") as mock_nous,
             patch("agent.auxiliary_client._try_anthropic") as mock_anthropic,
@@ -658,7 +658,7 @@ class TestVisionClientFallback:
 
         assert provider == "openai-codex"
         assert client is codex_client
-        assert model == "gpt-5.2-codex"
+        assert model == "gpt-4o.2-codex"
         mock_codex.assert_called_once()
         mock_openrouter.assert_not_called()
         mock_nous.assert_not_called()
@@ -666,13 +666,13 @@ class TestVisionClientFallback:
         mock_custom.assert_not_called()
 
     def test_vision_auto_includes_codex(self, codex_auth_dir):
-        """Codex supports vision (gpt-5.3-codex), so auto mode should use it."""
+        """Codex supports vision (gpt-4o.3-codex), so auto mode should use it."""
         with patch("agent.auxiliary_client._read_nous_auth", return_value=None), \
              patch("agent.auxiliary_client.OpenAI"):
             client, model = get_vision_auxiliary_client()
         from agent.auxiliary_client import CodexAuxiliaryClient
         assert isinstance(client, CodexAuxiliaryClient)
-        assert model == "gpt-5.2-codex"
+        assert model == "gpt-4o.2-codex"
 
     def test_vision_auto_falls_back_to_custom_endpoint(self, monkeypatch):
         """Custom endpoint is used as fallback in vision auto mode.
@@ -756,7 +756,7 @@ class TestVisionClientFallback:
             client, model = get_vision_auxiliary_client()
         from agent.auxiliary_client import CodexAuxiliaryClient
         assert isinstance(client, CodexAuxiliaryClient)
-        assert model == "gpt-5.2-codex"
+        assert model == "gpt-4o.2-codex"
 
 
 class TestGetAuxiliaryProvider:
@@ -874,7 +874,7 @@ class TestResolveForcedProvider:
             client, model = _resolve_forced_provider("main")
         from agent.auxiliary_client import CodexAuxiliaryClient
         assert isinstance(client, CodexAuxiliaryClient)
-        assert model == "gpt-5.2-codex"
+        assert model == "gpt-4o.2-codex"
 
     def test_forced_codex(self, codex_auth_dir, monkeypatch):
         with patch("agent.auxiliary_client._read_nous_auth", return_value=None), \
@@ -882,7 +882,7 @@ class TestResolveForcedProvider:
             client, model = _resolve_forced_provider("codex")
         from agent.auxiliary_client import CodexAuxiliaryClient
         assert isinstance(client, CodexAuxiliaryClient)
-        assert model == "gpt-5.2-codex"
+        assert model == "gpt-4o.2-codex"
 
     def test_forced_codex_no_token(self, monkeypatch):
         with patch("agent.auxiliary_client._read_codex_access_token", return_value=None):

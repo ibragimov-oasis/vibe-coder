@@ -15,7 +15,7 @@ Usage::
     # Create managed backend
     managed = ManagedAgent(
         config=ManagedConfig(
-            model="claude-sonnet-4-6",
+            model="gpt-4o-6",
             system="You are a coding assistant.",
             tools=[{"type": "agent_toolset_20260401"}],
             packages={"pip": ["pandas"]},

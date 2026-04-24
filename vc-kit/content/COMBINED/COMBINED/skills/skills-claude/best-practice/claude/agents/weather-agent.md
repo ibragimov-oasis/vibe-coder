@@ -13,7 +13,7 @@ allowedTools:
   - "Agent"
   - "NotebookEdit"
   - "mcp__*"
-model: sonnet
+# model: removed-for-compatibility
 color: green
 maxTurns: 5
 permissionMode: acceptEdits

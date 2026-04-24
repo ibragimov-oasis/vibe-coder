@@ -1,4 +1,4 @@
 {
   "version": 1,
-  "defaultModel": "claude-sonnet-4.6"
+  "defaultModel": "gpt-4o.6"
 }

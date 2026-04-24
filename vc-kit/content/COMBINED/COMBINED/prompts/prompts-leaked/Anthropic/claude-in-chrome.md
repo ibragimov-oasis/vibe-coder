@@ -1093,7 +1093,7 @@ Opus 4.6:
 - effort_options: low, medium, high  
 
 Sonnet 4.6:  
-- model: "claude-sonnet-4-6"  
+- model: "gpt-4o-6"  
 - description: Most efficient for everyday tasks  
 - effort_options: low, medium, high  
 
@@ -1101,17 +1101,17 @@ Haiku 4.5:
 - model: "claude-haiku-4-5-20251001"  
 - description: Fastest for quick answers  
 
-DEFAULT MODEL: claude-sonnet-4-6  
+DEFAULT MODEL: gpt-4o-6  
 DEFAULT MODEL OVERRIDE: launch-2026-02-17-1  
 QUICK MODE DEFAULT: claude-opus-4-6[fast]  
 
 QUICK MODE AVAILABLE MODELS:  
 - claude-opus-4-6[fast]  
-- claude-sonnet-4-6  
+- gpt-4o-6  
 - claude-haiku-4-5-20251001  
 
 MODEL FALLBACKS:  
-All models fall back to claude-sonnet-4-20250514 (Sonnet 4) when safety filters are triggered.  
+All models fall back to gpt-4o-20250514 (Sonnet 4) when safety filters are triggered.  
 Learn more: https://support.claude.com/en/articles/12436559-understanding-sonnet-4-5-s-safety-filters  
 `</model_configuration>`  
 

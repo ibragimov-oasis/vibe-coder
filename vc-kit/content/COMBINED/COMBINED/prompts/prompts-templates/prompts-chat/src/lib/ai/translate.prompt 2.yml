@@ -1,6 +1,6 @@
 name: Translate Content
 description: Translates text to a target language while preserving formatting, variable placeholders, and original meaning.
-model: openai/gpt-4o-mini
+# model: removed-for-compatibility
 modelParameters:
   temperature: 0.3
   maxTokens: 4000

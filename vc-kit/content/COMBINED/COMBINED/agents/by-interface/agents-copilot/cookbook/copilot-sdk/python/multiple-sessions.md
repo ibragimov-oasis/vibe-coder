@@ -31,11 +31,11 @@ async def main():
     await client.start()
 
     # Create multiple independent sessions
-    session1 = await client.create_session(SessionConfig(model="gpt-5",
+    session1 = await client.create_session(SessionConfig(model="gpt-4o",
         on_permission_request=PermissionHandler.approve_all))
-    session2 = await client.create_session(SessionConfig(model="gpt-5",
+    session2 = await client.create_session(SessionConfig(model="gpt-4o",
         on_permission_request=PermissionHandler.approve_all))
-    session3 = await client.create_session(SessionConfig(model="claude-sonnet-4.5",
+    session3 = await client.create_session(SessionConfig(model="gpt-4o.5",
         on_permission_request=PermissionHandler.approve_all))
 
     # Each session maintains its own conversation history
@@ -65,7 +65,7 @@ Use custom IDs for easier tracking:
 ```python
 session = await client.create_session(SessionConfig(
     session_id="user-123-chat",
-    model="gpt-5",
+    model="gpt-4o",
         on_permission_request=PermissionHandler.approve_all))
 
 print(session.session_id)  # "user-123-chat"

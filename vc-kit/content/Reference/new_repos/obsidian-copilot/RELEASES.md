@@ -650,7 +650,7 @@ Adding GPT-5 series models as built-in models, fresh out of the oven! Supports t
 
 <img width="942" height="125" alt="SCR-20250808-jaok" src="https://github.com/user-attachments/assets/91d56c8d-9886-4d0e-b275-c251d62fec6b" />
 
-You can also add openrouter GPT-5 models such as `openai/gpt-5-chat` as a Custom Model with the OpenRouter provider.
+You can also add openrouter GPT-5 models such as `openai/gpt-4o-chat` as a Custom Model with the OpenRouter provider.
 
 This is an unscheduled release to add GPT-5. **Copilot v3** is under construction and will be released officially very soon, stay tuned!
 

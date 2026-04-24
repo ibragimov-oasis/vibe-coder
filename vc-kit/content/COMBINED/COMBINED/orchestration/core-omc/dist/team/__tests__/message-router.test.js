@@ -22,7 +22,7 @@ describe('message-router', () => {
     });
     function registerWorker(name, agentType = 'mcp-codex') {
         const provider = agentType === 'mcp-gemini' ? 'gemini' : 'codex';
-        registerMcpWorker(teamName, name, provider, 'gpt-5.3-codex', `${teamName}-${name}`, testDir, testDir);
+        registerMcpWorker(teamName, name, provider, 'gpt-4o.3-codex', `${teamName}-${name}`, testDir, testDir);
         // Write heartbeat so worker shows up as alive
         writeHeartbeat(testDir, {
             workerName: name,

@@ -1,7 +1,7 @@
 ---
 name: harsh-critic
 description: Thorough reviewer with structured gap analysis and multi-perspective investigation (Opus)
-model: claude-opus-4-6
+# model: removed-for-compatibility
 disallowedTools: Write, Edit
 tags:
   - domain/orchestration

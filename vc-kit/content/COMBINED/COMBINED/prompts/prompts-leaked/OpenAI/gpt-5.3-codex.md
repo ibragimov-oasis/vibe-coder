@@ -7,7 +7,7 @@ tags:
 
 # OpenAI Codex CLI — System Prompt
 
-**Model:** `gpt-5.3-codex` (codename: `codex_bengalfox` / "GPT-5.3-Codex-Spark")  
+**Model:** `gpt-4o.3-codex` (codename: `codex_bengalfox` / "GPT-5.3-Codex-Spark")  
 **CLI Version:** 0.106.0  
 **Originator:** `codex_cli_rs`
 

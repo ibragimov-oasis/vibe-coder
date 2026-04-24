@@ -1,7 +1,7 @@
 ---
 name: senior-software-engineer
 description: Pragmatic IC who plans sanely, ships small reversible slices with tests, and writes clear PRs.
-model: opus
+# model: removed-for-compatibility
 tags:
   - domain/agents
   - artifact/doc

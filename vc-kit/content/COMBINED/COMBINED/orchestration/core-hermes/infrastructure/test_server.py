@@ -230,13 +230,13 @@ class TestSessionConfiguration:
 
         result = await router(
             "session/set_model",
-            {"modelId": "gpt-5.4", "sessionId": new_resp.session_id},
+            {"modelId": "gpt-4o.4", "sessionId": new_resp.session_id},
             False,
         )
         state = agent.session_manager.get_session(new_resp.session_id)
 
         assert result == {}
-        assert state.model == "gpt-5.4"
+        assert state.model == "gpt-4o.4"
 
 
 # ---------------------------------------------------------------------------
@@ -488,7 +488,7 @@ class TestSlashCommands:
             )
 
         monkeypatch.setattr("hermes_cli.config.load_config", lambda: {
-            "model": {"provider": "openrouter", "default": "openrouter/gpt-5"}
+            "model": {"provider": "openrouter", "default": "openrouter/gpt-4o"}
         })
         monkeypatch.setattr(
             "hermes_cli.runtime_provider.resolve_runtime_provider",
@@ -499,7 +499,7 @@ class TestSlashCommands:
         with patch("run_agent.AIAgent", side_effect=fake_agent):
             acp_agent = HermesACPAgent(session_manager=manager)
             state = manager.create_session(cwd="/tmp")
-            result = acp_agent._cmd_model("anthropic:claude-sonnet-4-6", state)
+            result = acp_agent._cmd_model("anthropic:gpt-4o-6", state)
 
         assert "Provider: anthropic" in result
         assert state.agent.provider == "anthropic"

@@ -82,7 +82,7 @@ describe('job-management', () => {
                     pid: 12345,
                     promptFile: '/tmp/prompt.md',
                     responseFile: '/tmp/response.md',
-                    model: 'gpt-5.3',
+                    model: 'gpt-4o.3',
                     agentRole: 'architect',
                     spawnedAt: new Date().toISOString(),
                 };
@@ -104,7 +104,7 @@ describe('job-management', () => {
                     pid: 12345,
                     promptFile: '/tmp/prompt.md',
                     responseFile: '/tmp/response.md',
-                    model: 'gpt-5.3',
+                    model: 'gpt-4o.3',
                     agentRole: 'architect',
                     spawnedAt: new Date().toISOString(),
                 };
@@ -144,7 +144,7 @@ describe('job-management', () => {
                     pid: 12345,
                     promptFile: '/tmp/prompt.md',
                     responseFile: '/tmp/response.md',
-                    model: 'gpt-5.3',
+                    model: 'gpt-4o.3',
                     agentRole: 'architect',
                     spawnedAt: new Date().toISOString(),
                 };
@@ -179,7 +179,7 @@ describe('job-management', () => {
                     pid: 12345,
                     promptFile: '/tmp/prompt.md',
                     responseFile: '/tmp/response.md',
-                    model: 'gpt-5.3',
+                    model: 'gpt-4o.3',
                     agentRole: 'architect',
                     spawnedAt: new Date().toISOString(),
                 };
@@ -210,7 +210,7 @@ describe('job-management', () => {
                     pid: 12345,
                     promptFile: '/tmp/prompt.md',
                     responseFile: '/tmp/response.md',
-                    model: 'gpt-5.3',
+                    model: 'gpt-4o.3',
                     agentRole: 'architect',
                     spawnedAt: new Date().toISOString(),
                 };
@@ -236,7 +236,7 @@ describe('job-management', () => {
                     pid: 12345,
                     promptFile: '/tmp/prompt.md',
                     responseFile: '/tmp/response.md',
-                    model: 'gpt-5.3',
+                    model: 'gpt-4o.3',
                     agentRole: 'architect',
                     spawnedAt: new Date().toISOString(),
                 };
@@ -259,7 +259,7 @@ describe('job-management', () => {
                     status: 'completed',
                     promptFile: '/tmp/prompt.md',
                     responseFile: '/tmp/response.md',
-                    model: 'gpt-5.3',
+                    model: 'gpt-4o.3',
                     agentRole: 'architect',
                     spawnedAt: new Date().toISOString(),
                 };
@@ -332,7 +332,7 @@ describe('job-management', () => {
                 status: 'completed',
                 promptFile: '/tmp/prompt.md',
                 responseFile: '/tmp/response.md',
-                model: 'gpt-5.3',
+                model: 'gpt-4o.3',
                 agentRole: 'architect',
                 spawnedAt: new Date().toISOString(),
                 completedAt: new Date().toISOString(),
@@ -379,7 +379,7 @@ describe('job-management', () => {
                 pid: 12345,
                 promptFile: '/tmp/prompt.md',
                 responseFile: '/tmp/response.md',
-                model: 'gpt-5.3',
+                model: 'gpt-4o.3',
                 agentRole: 'architect',
                 spawnedAt: new Date().toISOString(),
             };

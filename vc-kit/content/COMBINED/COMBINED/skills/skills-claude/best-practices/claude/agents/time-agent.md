@@ -13,7 +13,7 @@ allowedTools:
   - "Agent"
   - "NotebookEdit"
   - "mcp__*"
-model: haiku
+# model: removed-for-compatibility
 maxTurns: 3
 tags:
   - domain/agents

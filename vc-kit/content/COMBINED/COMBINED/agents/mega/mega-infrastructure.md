@@ -1,7 +1,7 @@
 ---
 name: mega-infrastructure
 description: 'Unified infrastructure and swarm coordination agent. Manages consensus protocols (Raft/BFT/Gossip/CRDT), swarm topologies (mesh, hierarchical, ring, star), performance optimization, load balancing, neural networks, database management, payment systems, and HiveMind collective intelligence. Merged from 80+ RuFlo infrastructure agents covering consensus, optimization, swarm coordination, hive-mind, neural, sublinear algorithms, and specialized domain agents.'
-model: claude-opus-4-5
+# model: removed-for-compatibility
 tools:
   - Read
   - Write

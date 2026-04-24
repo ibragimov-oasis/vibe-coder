@@ -12,7 +12,7 @@
 #   # Override model:
 #   python environments/benchmarks/tblite/tblite_env.py evaluate \
 #       --config environments/benchmarks/tblite/default.yaml \
-#       --openai.model_name anthropic/claude-sonnet-4
+#       --openai.model_name anthropic/gpt-4o
 
 env:
   enabled_toolsets: ["terminal", "file"]

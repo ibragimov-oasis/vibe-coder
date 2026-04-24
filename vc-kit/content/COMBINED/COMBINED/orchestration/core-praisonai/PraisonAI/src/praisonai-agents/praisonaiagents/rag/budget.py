@@ -21,9 +21,9 @@ MODEL_CONTEXT_WINDOWS: Dict[str, int] = {
     "gpt-4-turbo-preview": 128000,
     "gpt-4o": 128000,
     "gpt-4o-mini": 128000,
-    "gpt-4.1": 1000000,
-    "gpt-4.1-mini": 1000000,
-    "gpt-4.1-nano": 1000000,
+    "gpt-4o": 1000000,
+    "gpt-4o-mini": 1000000,
+    "gpt-4o-nano": 1000000,
     "gpt-3.5-turbo": 16385,
     "gpt-3.5-turbo-16k": 16385,
     "o1": 200000,
@@ -41,7 +41,7 @@ MODEL_CONTEXT_WINDOWS: Dict[str, int] = {
     "claude-3.5-haiku": 200000,
     "claude-3.7-sonnet": 200000,
     "claude-4-sonnet": 200000,
-    "claude-sonnet-4": 200000,
+    "gpt-4o": 200000,
     
     # Google models
     "gemini-pro": 32768,

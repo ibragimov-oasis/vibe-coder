@@ -137,7 +137,7 @@ async def api_create_sandbox(
         "sandbox_auth_token": "...",
         "snapshot_id": null,
         "provider": "anthropic",
-        "model": "claude-sonnet-4-6"
+        "model": "gpt-4o-6"
     }
     """
     start_time = time.time()
@@ -165,7 +165,7 @@ async def api_create_sandbox(
             branch=request.get("branch"),
             opencode_session_id=request.get("opencode_session_id"),
             provider=request.get("provider", "anthropic"),
-            model=request.get("model", "claude-sonnet-4-6"),
+            model=request.get("model", "gpt-4o-6"),
         )
 
         config = SandboxConfig(
@@ -483,7 +483,7 @@ async def api_restore_sandbox(
             "repo_owner": "...",
             "repo_name": "...",
             "provider": "anthropic",
-            "model": "claude-sonnet-4-6"
+            "model": "gpt-4o-6"
         },
         "sandbox_id": "...",
         "control_plane_url": "...",

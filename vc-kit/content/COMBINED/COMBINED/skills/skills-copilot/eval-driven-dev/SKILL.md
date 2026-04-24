@@ -377,7 +377,7 @@ def answer_question(question: str) -> str:
     # This bypasses the entire app and calls OpenAI directly.
     # You're testing a script you just wrote, not the user's app.
     response = client.responses.create(
-        model="gpt-4.1",
+        model="gpt-4o",
         input=[{"role": "user", "content": question}],
     )
     return response.output_text

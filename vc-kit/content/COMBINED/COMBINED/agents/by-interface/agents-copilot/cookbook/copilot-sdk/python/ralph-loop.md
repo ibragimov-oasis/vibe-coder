@@ -70,7 +70,7 @@ async def ralph_loop(prompt_file: str, max_iterations: int = 50):
 
             # Fresh session each iteration — context isolation is the point
             session = await client.create_session(
-                SessionConfig(model="gpt-5.1-codex-mini",
+                SessionConfig(model="gpt-4o.1-codex-mini",
         on_permission_request=PermissionHandler.approve_all)
             )
             try:
@@ -121,7 +121,7 @@ async def ralph_loop(mode: str = "build", max_iterations: int = 50):
             print(f"\n=== Iteration {i}/{max_iterations} ===")
 
             session = await client.create_session(SessionConfig(
-                model="gpt-5.1-codex-mini",
+                model="gpt-4o.1-codex-mini",
                 # Pin the agent to the project directory
                 working_directory=str(Path.cwd()),
                 # Auto-approve tool calls for unattended operation

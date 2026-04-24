@@ -418,7 +418,7 @@ Place `.yaml` files in your repo's `.archon/workflows/`:
 ```yaml
 name: my-workflow
 description: Plan then implement a feature
-model: sonnet
+# model: removed-for-compatibility
 
 nodes:
   - id: plan

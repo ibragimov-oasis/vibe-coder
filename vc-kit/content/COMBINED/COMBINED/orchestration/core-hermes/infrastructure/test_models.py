@@ -92,7 +92,7 @@ class TestDetectProviderForModel:
 
     def test_current_provider_model_returns_none(self):
         """Models belonging to the current provider should not trigger a switch."""
-        assert detect_provider_for_model("gpt-5.3-codex", "openai-codex") is None
+        assert detect_provider_for_model("gpt-4o.3-codex", "openai-codex") is None
 
     def test_openrouter_slug_match(self):
         """Models in the OpenRouter catalog should be found."""

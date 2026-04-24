@@ -54,8 +54,8 @@ class TestCursorCLIIntegration:
         """Test model option can be set."""
         from praisonai.integrations.cursor_cli import CursorCLIIntegration
         
-        integration = CursorCLIIntegration(model="gpt-5")
-        assert integration.model == "gpt-5"
+        integration = CursorCLIIntegration(model="gpt-4o")
+        assert integration.model == "gpt-4o"
     
     def test_build_command_basic(self):
         """Test building basic command."""
@@ -83,11 +83,11 @@ class TestCursorCLIIntegration:
         """Test building command with model."""
         from praisonai.integrations.cursor_cli import CursorCLIIntegration
         
-        integration = CursorCLIIntegration(model="gpt-5")
+        integration = CursorCLIIntegration(model="gpt-4o")
         cmd = integration._build_command("Fix the bug")
         
         assert "-m" in cmd
-        assert "gpt-5" in cmd
+        assert "gpt-4o" in cmd
     
     def test_build_command_with_stream_partial(self):
         """Test building command with stream partial output."""

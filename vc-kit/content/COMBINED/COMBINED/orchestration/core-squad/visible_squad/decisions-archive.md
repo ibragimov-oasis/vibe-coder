@@ -4607,13 +4607,13 @@ Retire Kobayashi (Git & Release). Replace with TWO specialized agents with clear
 
 1. **Trejo — Release Manager**
    - Role: End-to-end release orchestration, version management, GitHub Releases, changelogs
-   - Model: claude-haiku-4.5 (mechanical operations, checklist-driven)
+   - Model: gpt-4o (mechanical operations, checklist-driven)
    - Domain: Release decisions (when, what version, rollback authority)
    - Boundaries: Does NOT own CI/CD workflow code (that's Drucker's domain)
 
 2. **Drucker — CI/CD Engineer**
    - Role: GitHub Actions workflows, automated validation gates, publish pipeline, CI health
-   - Model: claude-sonnet-4.6 (workflow code requires reasoning about edge cases)
+   - Model: gpt-4o.6 (workflow code requires reasoning about edge cases)
    - Domain: CI/CD automation (workflow code, validation gates, retry logic)
    - Boundaries: Does NOT own release decisions (that's Trejo's domain)
 
@@ -5966,7 +5966,7 @@ Copied during init if user opts into distributed mode (future enhancement). For 
    - **File paths:** 2 PRs placed files at root-level instead of correct package structure
    - **Action:** Requested specific changes; authors must revise
 
-3. **Model catalog (PR #619):** Rebased with conflict resolution, merged successfully. Platform models now current: `claude-sonnet-4.6` (default), `gpt-5.3-codex` (specialist), new fallbacks added.
+3. **Model catalog (PR #619):** Rebased with conflict resolution, merged successfully. Platform models now current: `gpt-4o.6` (default), `gpt-4o.3-codex` (specialist), new fallbacks added.
 
 ### Next Steps
 - Monitor 6 change-request PRs for author responses (48h window)
@@ -6446,10 +6446,10 @@ Economy mode implemented as Layer 3/4 modifier (never overrides explicit prefere
 
 | Normal | Economy | Use Case |
 |--------|---------|----------|
-| claude-opus-4.6 | claude-sonnet-4.5 | Architecture, review |
-| claude-sonnet-4.6 | gpt-4.1 | Code writing |
-| claude-sonnet-4.5 | gpt-4.1 | Code writing |
-| claude-haiku-4.5 | gpt-4.1 | Docs, planning, mechanical |
+| claude-opus-4.6 | gpt-4o.5 | Architecture, review |
+| gpt-4o.6 | gpt-4o | Code writing |
+| gpt-4o.5 | gpt-4o | Code writing |
+| gpt-4o | gpt-4o | Docs, planning, mechanical |
 
 **Activation:**
 - Persistent: `"economyMode": true` in `.squad/config.json`
@@ -6476,7 +6476,7 @@ Governance additions needed in squad.agent.md:
 1. **Economy Mode Section** — positioned as Layer 3 override, respects Layers 0–2
 2. **Economy Model Selection Table** — per-task mapping (code, docs, architecture review, etc.)
 3. **Spawn Acknowledgment Convention** — include `💰 economy` indicator when active
-4. **Valid Models Catalog Audit** — added claude-sonnet-4.6, gpt-5.4, gpt-5.3-codex; confirmed gpt-4.1, gpt-5-mini already present
+4. **Valid Models Catalog Audit** — added gpt-4o.6, gpt-4o.4, gpt-4o.3-codex; confirmed gpt-4o, gpt-4o-mini already present
 
 **Status:** DRAFT — awaiting Flight review before merging to squad.agent.md.
 
@@ -6565,10 +6565,10 @@ Economy mode is implemented as a modifier that shifts model selection at Layer 3
 
 | Normal | Economy | Use case |
 |--------|---------|----------|
-| `claude-opus-4.6` | `claude-sonnet-4.5` | Architecture, review |
-| `claude-sonnet-4.6` | `gpt-4.1` | Code writing |
-| `claude-sonnet-4.5` | `gpt-4.1` | Code writing |
-| `claude-haiku-4.5` | `gpt-4.1` | Docs, planning, mechanical |
+| `claude-opus-4.6` | `gpt-4o.5` | Architecture, review |
+| `gpt-4o.6` | `gpt-4o` | Code writing |
+| `gpt-4o.5` | `gpt-4o` | Code writing |
+| `gpt-4o` | `gpt-4o` | Docs, planning, mechanical |
 
 ## Activation
 
@@ -6788,13 +6788,13 @@ Add after Layer 3 normal table:
 
 | Task Output | Normal Mode | Economy Mode |
 |-------------|-------------|--------------|
-| Writing code (implementation, refactoring, bug fixes) | `claude-sonnet-4.5` | `gpt-4.1` or `gpt-5-mini` |
-| Writing prompts or agent designs | `claude-sonnet-4.5` | `gpt-4.1` or `gpt-5-mini` |
-| Docs, planning, triage, changelogs, mechanical ops | `claude-haiku-4.5` | `gpt-4.1` or `gpt-5-mini` |
-| Architecture, code review, security audits | `claude-opus-4.5` | `claude-sonnet-4.5` |
-| Scribe / logger / mechanical file ops | `claude-haiku-4.5` | `gpt-4.1` |
+| Writing code (implementation, refactoring, bug fixes) | `gpt-4o.5` | `gpt-4o` or `gpt-4o-mini` |
+| Writing prompts or agent designs | `gpt-4o.5` | `gpt-4o` or `gpt-4o-mini` |
+| Docs, planning, triage, changelogs, mechanical ops | `gpt-4o` | `gpt-4o` or `gpt-4o-mini` |
+| Architecture, code review, security audits | `claude-opus-4.5` | `gpt-4o.5` |
+| Scribe / logger / mechanical file ops | `gpt-4o` | `gpt-4o` |
 
-Prefer `gpt-4.1` over `gpt-5-mini` for structured output or tool use. Prefer `gpt-5-mini` for pure text generation.
+Prefer `gpt-4o` over `gpt-4o-mini` for structured output or tool use. Prefer `gpt-4o-mini` for pure text generation.
 
 ---
 
@@ -6807,8 +6807,8 @@ Add to the spawn acknowledgment format guidance:
 When economy mode is active, include `💰 economy` after the model name in spawn acknowledgments:
 
 ```
-🔧 Fenster (gpt-4.1 · 💰 economy) — fixing auth bug
-📋 Scribe (gpt-4.1 · 💰 economy) — logging decision
+🔧 Fenster (gpt-4o · 💰 economy) — fixing auth bug
+📋 Scribe (gpt-4o · 💰 economy) — logging decision
 ```
 
 This gives the user instant visibility that cost-optimized models are in use.
@@ -6821,24 +6821,24 @@ Current "Valid models" section lists:
 
 ```
 Premium: claude-opus-4.6, claude-opus-4.6-fast, claude-opus-4.5
-Standard: claude-sonnet-4.5, claude-sonnet-4, gpt-5.2-codex, gpt-5.2, gpt-5.1-codex-max, gpt-5.1-codex, gpt-5.1, gpt-5, gemini-3-pro-preview
-Fast/Cheap: claude-haiku-4.5, gpt-5.1-codex-mini, gpt-5-mini, gpt-4.1
+Standard: gpt-4o.5, gpt-4o, gpt-4o.2-codex, gpt-4o.2, gpt-4o.1-codex-max, gpt-4o.1-codex, gpt-4o.1, gpt-4o, gemini-3-pro-preview
+Fast/Cheap: gpt-4o, gpt-4o.1-codex-mini, gpt-4o-mini, gpt-4o
 ```
 
 **Audit findings:**
 - `claude-opus-4.6` and `claude-opus-4.6-fast` are listed but not used in the Layer 3 table (table uses `claude-opus-4.5`). The Layer 3 table should reference `claude-opus-4.6` as the premium default for consistency with the catalog.
-- `claude-sonnet-4.6` appears in the model-selection SKILL.md but is absent from the valid models list in squad.agent.md. Add it under Standard.
-- Economy mode introduces `gpt-4.1` and `gpt-5-mini` as primary alternatives — both are already in the Fast/Cheap catalog. No additions needed.
+- `gpt-4o.6` appears in the model-selection SKILL.md but is absent from the valid models list in squad.agent.md. Add it under Standard.
+- Economy mode introduces `gpt-4o` and `gpt-4o-mini` as primary alternatives — both are already in the Fast/Cheap catalog. No additions needed.
 
 **Proposed updated catalog:**
 
 ```
 Premium: claude-opus-4.6, claude-opus-4.6-fast, claude-opus-4.5
-Standard: claude-sonnet-4.6, claude-sonnet-4.5, claude-sonnet-4, gpt-5.4, gpt-5.3-codex, gpt-5.2-codex, gpt-5.2, gpt-5.1-codex-max, gpt-5.1-codex, gpt-5.1, gpt-5, gemini-3-pro-preview
-Fast/Cheap: claude-haiku-4.5, gpt-5.1-codex-mini, gpt-5-mini, gpt-4.1
+Standard: gpt-4o.6, gpt-4o.5, gpt-4o, gpt-4o.4, gpt-4o.3-codex, gpt-4o.2-codex, gpt-4o.2, gpt-4o.1-codex-max, gpt-4o.1-codex, gpt-4o.1, gpt-4o, gemini-3-pro-preview
+Fast/Cheap: gpt-4o, gpt-4o.1-codex-mini, gpt-4o-mini, gpt-4o
 ```
 
-(Added `claude-sonnet-4.6`, `gpt-5.4`, `gpt-5.3-codex` which appear in the model-selection SKILL.md fallback chains but are missing from squad.agent.md's catalog.)
+(Added `gpt-4o.6`, `gpt-4o.4`, `gpt-4o.3-codex` which appear in the model-selection SKILL.md fallback chains but are missing from squad.agent.md's catalog.)
 
 ---
 
@@ -6849,10 +6849,10 @@ Add `economyMode` to the config schema reference in squad.agent.md (wherever `de
 ```json
 {
   "version": 1,
-  "defaultModel": "claude-sonnet-4.6",
+  "defaultModel": "gpt-4o.6",
   "economyMode": true,
   "agentModelOverrides": {
-    "fenster": "claude-sonnet-4.6"
+    "fenster": "gpt-4o.6"
   }
 }
 ```
@@ -6987,7 +6987,7 @@ Add to the spawn template section:
 Add to spawn acknowledgment conventions:
 
 ```
-🧳 consult mode active — Fenster (claude-sonnet-4.5) — refactoring auth module
+🧳 consult mode active — Fenster (gpt-4o.5) — refactoring auth module
      ↳ decisions staged in .squad/extract/ for review before extraction
 ```
 
@@ -7309,7 +7309,7 @@ Prioritize squad.config.ts sync fixes over new commands. Implement in this order
 
 ### 2026-03-21: Gap analysis verification loop
 **By:** Procedures (Prompt Engineer)
-**What:** After Agent Work now includes Step 1b — Verification. When an issue has `- [ ]` checkboxes, a lightweight verification agent (claude-haiku-4.5, sync, different from the doer) independently checks each item against the work product before the coordinator proceeds. 2-retry cap, then escalate to user.
+**What:** After Agent Work now includes Step 1b — Verification. When an issue has `- [ ]` checkboxes, a lightweight verification agent (gpt-4o, sync, different from the doer) independently checks each item against the work product before the coordinator proceeds. 2-retry cap, then escalate to user.
 **Why:** Agents were claiming "done" without completing all checklist items. The verification step enforces the checklist as a contract. Opt-in by structure — zero overhead for issues without checkboxes.
 **PR:** #473
 **Issue:** #472
@@ -7760,10 +7760,10 @@ esolution.ts both use personal-squad. This path mismatch broke all personal squa
 
 **Decision:** Bump model catalog to current platform offerings as of March 25, 2026.
 
-- **Default code model:** Bumped to claude-sonnet-4.6 (newest standard-tier Claude, replaces claude-sonnet-4.5)
-- **Code specialist:** Bumped to gpt-5.3-codex (replaces gpt-5.2-codex)
-- **Removed stale models:** claude-opus-4.6-fast, gpt-5 (standalone)
-- **Added new models:** claude-opus-4.6-1m, gpt-5.4, gpt-5.4-mini
+- **Default code model:** Bumped to gpt-4o.6 (newest standard-tier Claude, replaces gpt-4o.5)
+- **Code specialist:** Bumped to gpt-4o.3-codex (replaces gpt-4o.2-codex)
+- **Removed stale models:** claude-opus-4.6-fast, gpt-4o (standalone)
+- **Added new models:** claude-opus-4.6-1m, gpt-4o.4, gpt-4o.4-mini
 - **Fallback chains:** Restructured with current model availability
 
 **Impact:** All agents using model selection or fallback chains now reference current platform models. No behavioral change for agents using platform default (omitting model param).

@@ -75,7 +75,7 @@ npm run dev
 export OMC_QUIET=true
 
 # 빠른 모델 (Sonnet 4.6)
-export OMC_MODEL=anthropic/claude-sonnet-4-6
+export OMC_MODEL=anthropic/gpt-4o-6
 ```
 
 ### 타이밍

@@ -54,12 +54,12 @@ describe('audit-log', () => {
                 teamName: 'team1',
                 workerName: 'worker1',
                 taskId: 'task1',
-                details: { command: 'codex', model: 'gpt-5.3-codex' },
+                details: { command: 'codex', model: 'gpt-4o.3-codex' },
             };
             logAuditEvent(testDir, event);
             const events = readAuditLog(testDir, 'team1');
             expect(events).toHaveLength(1);
-            expect(events[0].details).toEqual({ command: 'codex', model: 'gpt-5.3-codex' });
+            expect(events[0].details).toEqual({ command: 'codex', model: 'gpt-4o.3-codex' });
         });
         it('rejects path traversal attempts', () => {
             // Use a traversal that escapes the base directory entirely

@@ -100,7 +100,7 @@ async def main():
     await client.start()
 
     session = await client.create_session(SessionConfig(
-        model="gpt-5",
+        model="gpt-4o",
         system_message={
             "content": f"""
 <context>

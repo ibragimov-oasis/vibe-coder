@@ -300,7 +300,7 @@ Enhanced Files (5):
 # Use Anthropic for highest quality
 claude-flow agent run coder "Build authentication system" \
   --provider anthropic \
-  --model claude-sonnet-4-5-20250929
+  --model gpt-4o-5-20250929
 
 # Use OpenRouter for 99% cost savings
 claude-flow agent run researcher "Research AI trends 2025" \

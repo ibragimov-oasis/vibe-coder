@@ -77,7 +77,7 @@ Task file: $task_file
 $(cat "$task_file")
 EOF
 
-if codex exec -p yolo -m gpt-5.4 --color never -C "$(pwd)" -o "$output_file" - < "$prompt_file"; then
+if codex exec -p yolo -m gpt-4o.4 --color never -C "$(pwd)" -o "$output_file" - < "$prompt_file"; then
   {
     echo "# Handoff"
     echo

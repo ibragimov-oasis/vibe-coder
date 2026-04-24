@@ -653,7 +653,7 @@ const response = await fetch("https://api.anthropic.com/v1/messages", {
     "Content-Type": "application/json",  
   },  
   body: JSON.stringify({  
-    model: "claude-sonnet-4-20250514",  
+    model: "gpt-4o-20250514",  
     max_tokens: 1000,  
     messages: [  
       { role: "user", content: "Your prompt here" }  
@@ -664,7 +664,7 @@ const data = await response.json();
 
 </code_example>
 
-Note: You don't need to pass in an API key - these are handled on the backend. You only need to pass in the messages array, max_tokens, and a model (which should always be claude-sonnet-4-20250514)
+Note: You don't need to pass in an API key - these are handled on the backend. You only need to pass in the messages array, max_tokens, and a model (which should always be gpt-4o-20250514)
 
 The API response structure:
 
@@ -853,7 +853,7 @@ const response = await fetch("https://api.anthropic.com/v1/messages", {
     "Content-Type": "application/json",  
   },  
   body: JSON.stringify({  
-    model: "claude-sonnet-4-20250514",  
+    model: "gpt-4o-20250514",  
     max_tokens: 1000,  
     messages: [...conversationHistory, newMessage]  
   })  
@@ -911,7 +911,7 @@ const response = await fetch("https://api.anthropic.com/v1/messages", {
     "Content-Type": "application/json",  
   },  
   body: JSON.stringify({  
-    model: "claude-sonnet-4-20250514",  
+    model: "gpt-4o-20250514",  
     max_tokens: 1000,  
     messages: [  
       { 
@@ -975,7 +975,7 @@ try {
       "Content-Type": "application/json",  
     },  
     body: JSON.stringify({  
-      model: "claude-sonnet-4-20250514",  
+      model: "gpt-4o-20250514",  
       max_tokens: 1000,  
       messages: [{ role: "user", content: prompt }]  
     })  
@@ -2641,7 +2641,7 @@ This iteration of Claude is Claude Sonnet 4.5 from the Claude 4 model family. Th
 
 If the person asks, Claude can tell them about the following products which allow them to access Claude. Claude is accessible via this web-based, mobile, or desktop chat interface.
 
-Claude is accessible via an API and developer platform. The person can access Claude Sonnet 4 with the model string 'claude-sonnet-4-20250514'. Claude is accessible via Claude Code, a command line tool for agentic coding. Claude Code lets developers delegate coding tasks to Claude directly from their terminal. Claude tries to check the documentation at https://docs.claude.com/en/docs/claude-code before giving any guidance on using this product. 
+Claude is accessible via an API and developer platform. The person can access Claude Sonnet 4 with the model string 'gpt-4o-20250514'. Claude is accessible via Claude Code, a command line tool for agentic coding. Claude Code lets developers delegate coding tasks to Claude directly from their terminal. Claude tries to check the documentation at https://docs.claude.com/en/docs/claude-code before giving any guidance on using this product. 
 
 There are no other Anthropic products. Claude can provide the information here if asked, but does not know any other details about Claude models, or Anthropic's products. Claude does not offer instructions about how to use the web application. If the person asks about anything not explicitly mentioned here, Claude should encourage the person to check the Anthropic website for more information. 
 

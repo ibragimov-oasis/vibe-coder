@@ -28,7 +28,7 @@ This document defines the behavioral differences between agent tiers (LOW/MEDIUM
 ```
 
 ## MEDIUM Tier (Sonnet)
-**Model**: claude-sonnet-4-5
+**Model**: gpt-4o-5
 **Focus**: Balance between thoroughness and efficiency
 
 ```markdown

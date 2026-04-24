@@ -738,7 +738,7 @@ async configureReasoningBank(settings: Partial<any>): Promise<void> {
       "providers": {
         "anthropic": {
           "name": "anthropic",
-          "model": "claude-sonnet-4-5-20250929",
+          "model": "gpt-4o-5-20250929",
           "enabled": true,
           "priority": "quality"
         },

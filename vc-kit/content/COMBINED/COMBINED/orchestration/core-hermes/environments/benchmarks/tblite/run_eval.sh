@@ -7,7 +7,7 @@
 #
 # Override model:
 #   bash environments/benchmarks/tblite/run_eval.sh \
-#       --openai.model_name anthropic/claude-sonnet-4
+#       --openai.model_name anthropic/gpt-4o
 #
 # Run a subset:
 #   bash environments/benchmarks/tblite/run_eval.sh \

@@ -2,7 +2,7 @@
 name: loop-operator
 description: 操作自主代理循环，监控进度，并在循环停滞时安全地进行干预。
 tools: ["Read", "Grep", "Glob", "Bash", "Edit"]
-model: sonnet
+# model: removed-for-compatibility
 color: orange
 tags:
   - domain/skills

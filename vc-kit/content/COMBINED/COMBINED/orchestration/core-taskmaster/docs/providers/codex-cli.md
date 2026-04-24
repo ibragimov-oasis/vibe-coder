@@ -31,7 +31,7 @@ npm install -g @openai/codex
 codex login
 
 # 3. Configure Task Master to use Codex CLI
-task-master models --set-main gpt-5-codex --codex-cli
+task-master models --set-main gpt-4o-codex --codex-cli
 ```
 
 ## Requirements
@@ -126,17 +126,17 @@ The Codex CLI provider supports only models available through ChatGPT subscripti
 
 | Model ID | Description | Max Input Tokens | Max Output Tokens | Reasoning Efforts |
 |----------|-------------|------------------|-------------------|-------------------|
-| `gpt-5` | Latest GPT-5 model | 272K | 128K | - |
-| `gpt-5-codex` | GPT-5 optimized for agentic software engineering | 272K | 128K | - |
-| `gpt-5.1` | GPT-5.1 with optional reasoning | 272K | 128K | none, low, medium, high |
-| `gpt-5.1-codex-max` | GPT-5.1 Codex Max with enhanced reasoning | 272K | 128K | none, low, medium, high, xhigh |
-| `gpt-5.2` | Latest flagship model for coding and agentic tasks | 272K | 128K | none, low, medium, high, xhigh |
+| `gpt-4o` | Latest GPT-5 model | 272K | 128K | - |
+| `gpt-4o-codex` | GPT-5 optimized for agentic software engineering | 272K | 128K | - |
+| `gpt-4o.1` | GPT-5.1 with optional reasoning | 272K | 128K | none, low, medium, high |
+| `gpt-4o.1-codex-max` | GPT-5.1 Codex Max with enhanced reasoning | 272K | 128K | none, low, medium, high, xhigh |
+| `gpt-4o.2` | Latest flagship model for coding and agentic tasks | 272K | 128K | none, low, medium, high, xhigh |
 
 **Note**: These models are only available via OAuth subscription through Codex CLI (ChatGPT Plus, Pro, Business, Edu, or Enterprise plans). For other OpenAI models, use the standard `openai` provider with an API key.
 
 **Research Capabilities**: All GPT-5 models support web search tools, making them suitable for the `research` role in addition to `main` and `fallback` roles.
 
-**Reasoning Effort**: The `gpt-5.1-codex-max` and `gpt-5.2` models support the `xhigh` reasoning effort level, which provides maximum reasoning capability for complex tasks. Configure via `reasoningEffort` in your codexCli settings.
+**Reasoning Effort**: The `gpt-4o.1-codex-max` and `gpt-4o.2` models support the `xhigh` reasoning effort level, which provides maximum reasoning capability for complex tasks. Configure via `reasoningEffort` in your codexCli settings.
 
 ## Configuration
 
@@ -149,13 +149,13 @@ Add Codex CLI to your `.taskmaster/config.json`:
   "models": {
     "main": {
       "provider": "codex-cli",
-      "modelId": "gpt-5-codex",
+      "modelId": "gpt-4o-codex",
       "maxTokens": 128000,
       "temperature": 0.2
     },
     "fallback": {
       "provider": "codex-cli",
-      "modelId": "gpt-5",
+      "modelId": "gpt-4o",
       "maxTokens": 128000,
       "temperature": 0.2
     }
@@ -172,7 +172,7 @@ The `codexCli` section allows you to customize Codex CLI behavior:
   "models": {
     "main": {
       "provider": "codex-cli",
-      "modelId": "gpt-5-codex",
+      "modelId": "gpt-4o-codex",
       "maxTokens": 128000,
       "temperature": 0.2
     }
@@ -294,13 +294,13 @@ Override settings for specific Task Master commands:
 
 ```bash
 # Set Codex CLI for main role
-task-master models --set-main gpt-5-codex --codex-cli
+task-master models --set-main gpt-4o-codex --codex-cli
 
 # Set Codex CLI for fallback role
-task-master models --set-fallback gpt-5 --codex-cli
+task-master models --set-fallback gpt-4o --codex-cli
 
 # Set Codex CLI for research role
-task-master models --set-research gpt-5 --codex-cli
+task-master models --set-research gpt-4o --codex-cli
 
 # Verify configuration
 task-master models
@@ -431,8 +431,8 @@ To verify or configure:
 **Causes and Solutions**:
 
 1. **Using unsupported model**:
-   - Only GPT-5 family models (`gpt-5`, `gpt-5-codex`, `gpt-5.1`, `gpt-5.1-codex-max`, `gpt-5.2`) are available via Codex CLI
-   - For other OpenAI models or `gpt-5.2-pro`, use the standard `openai` provider
+   - Only GPT-5 family models (`gpt-4o`, `gpt-4o-codex`, `gpt-4o.1`, `gpt-4o.1-codex-max`, `gpt-4o.2`) are available via Codex CLI
+   - For other OpenAI models or `gpt-4o.2-pro`, use the standard `openai` provider
 
 2. **Subscription not active**:
    - Verify your ChatGPT subscription is active
@@ -507,7 +507,7 @@ To verify or configure:
 ## Important Notes
 
 - **OAuth subscription required**: No API key needed for basic operation, but requires active ChatGPT subscription
-- **Model selection**: GPT-5 family models available via OAuth (`gpt-5`, `gpt-5-codex`, `gpt-5.1`, `gpt-5.1-codex-max`, `gpt-5.2`)
+- **Model selection**: GPT-5 family models available via OAuth (`gpt-4o`, `gpt-4o-codex`, `gpt-4o.1`, `gpt-4o.1-codex-max`, `gpt-4o.2`)
 - **Pricing information**: Not available for OAuth models (shows as "Unknown" in cost calculations)
 - **No automatic dependency**: The `@openai/codex` package is not added to Task Master's dependencies - install it globally or enable `allowNpx`
 - **Codebase analysis**: Automatically enabled when using `codex-cli` provider

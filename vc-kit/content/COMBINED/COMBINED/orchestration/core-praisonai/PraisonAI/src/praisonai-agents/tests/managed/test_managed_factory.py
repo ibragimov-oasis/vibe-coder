@@ -373,8 +373,8 @@ class TestAnthropicManagedAgentBackwardCompat:
 
     def test_managed_config_exists(self):
         from praisonai.integrations.managed_agents import ManagedConfig
-        cfg = ManagedConfig(model="claude-sonnet-4-6")
-        assert cfg.model == "claude-sonnet-4-6"
+        cfg = ManagedConfig(model="gpt-4o-6")
+        assert cfg.model == "gpt-4o-6"
 
     def test_managed_config_tool_format(self):
         from praisonai.integrations.managed_agents import ManagedConfig

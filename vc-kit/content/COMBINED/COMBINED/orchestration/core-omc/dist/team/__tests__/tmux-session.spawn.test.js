@@ -27,7 +27,7 @@ describe('spawnWorkerInPane', () => {
                 OMC_TEAM_WORKER: 'safe-team/worker-1',
             },
             launchBinary: 'codex',
-            launchArgs: ['--full-auto', '--model', 'gpt-5;touch /tmp/pwn'],
+            launchArgs: ['--full-auto', '--model', 'gpt-4o;touch /tmp/pwn'],
             cwd: '/tmp',
         });
         const literalSend = mockedCalls.execFileArgs.find((args) => args[0] === 'send-keys' && args.includes('-l'));
@@ -35,7 +35,7 @@ describe('spawnWorkerInPane', () => {
         const launchLine = literalSend?.[literalSend.length - 1] ?? '';
         expect(launchLine).toContain('exec "$@"');
         expect(launchLine).toContain("'--'");
-        expect(launchLine).toContain("'gpt-5;touch /tmp/pwn'");
+        expect(launchLine).toContain("'gpt-4o;touch /tmp/pwn'");
         expect(launchLine).not.toContain('exec codex --full-auto');
     });
     it('rejects invalid team names before command construction', async () => {

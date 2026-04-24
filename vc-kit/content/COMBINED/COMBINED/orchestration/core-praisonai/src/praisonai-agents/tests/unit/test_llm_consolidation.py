@@ -149,7 +149,7 @@ class TestWebFetchGating:
         # This should work without error
         agent = Agent(
             instructions="Test",
-            llm="anthropic/claude-sonnet-4",  # Claude model - supports fetch
+            llm="anthropic/gpt-4o",  # Claude model - supports fetch
             web=WebConfig(fetch=True)
         )
         # Should not raise

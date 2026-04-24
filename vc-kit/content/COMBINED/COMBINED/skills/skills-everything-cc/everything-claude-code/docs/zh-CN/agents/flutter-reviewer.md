@@ -2,7 +2,7 @@
 name: flutter-reviewer
 description: Flutter和Dart代码审查员。审查Flutter代码，关注小部件最佳实践、状态管理模式、Dart惯用法、性能陷阱、可访问性和清洁架构违规。库无关——适用于任何状态管理解决方案和工具。
 tools: ["Read", "Grep", "Glob", "Bash"]
-model: sonnet
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

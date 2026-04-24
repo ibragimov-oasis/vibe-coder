@@ -1,7 +1,7 @@
 # MiniMax M2.5 — via OpenRouter (set OPENROUTER_API_KEY in .env)
 # Uses text-based model class because MiniMax doesn't support tool_calls natively.
 # The action_regex tells mini-swe-agent to parse ```bash blocks from responses.
-model:
+# model: removed-for-compatibility
   model_class: litellm_textbased
   model_name: 'openrouter/minimax/minimax-m2.5'
   action_regex: "```(?:bash|mswea_bash_command)\\s*\\n(.*?)\\n```"

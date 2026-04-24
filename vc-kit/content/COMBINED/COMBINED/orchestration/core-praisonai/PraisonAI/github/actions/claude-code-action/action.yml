@@ -26,7 +26,7 @@ inputs:
     description: "Timeout in minutes for execution"
     required: false
     default: "30"
-  model:
+  model: gpt-4o
     description: "Model to use (provider-specific format required for Bedrock/Vertex)"
     required: false
   use_bedrock:

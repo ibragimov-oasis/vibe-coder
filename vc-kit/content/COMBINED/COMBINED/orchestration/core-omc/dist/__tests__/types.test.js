@@ -46,13 +46,13 @@ describe('Type Tests', () => {
         it('should support agent configuration', () => {
             const config = {
                 agents: {
-                    omc: { model: 'claude-sonnet-4-6' },
+                    omc: { model: 'gpt-4o-6' },
                     architect: { model: 'claude-opus-4-6' },
                     explore: { model: 'claude-haiku-4-5' },
                     documentSpecialist: { model: 'claude-haiku-4-5' },
                 },
             };
-            expect(config.agents?.omc?.model).toBe('claude-sonnet-4-6');
+            expect(config.agents?.omc?.model).toBe('gpt-4o-6');
             expect(config.agents?.architect?.model).toBe('claude-opus-4-6');
         });
         it('should support routing configuration', () => {
@@ -64,7 +64,7 @@ describe('Type Tests', () => {
                     maxEscalations: 2,
                     tierModels: {
                         LOW: 'claude-haiku-4',
-                        MEDIUM: 'claude-sonnet-4-6',
+                        MEDIUM: 'gpt-4o-6',
                         HIGH: 'claude-opus-4-6',
                     },
                 },

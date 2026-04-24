@@ -4,7 +4,7 @@ description: |
   Specialized agent for triaging GitHub issues. Fetches issues, reads the codebase
   for context, and applies type/effort/priority/area labels via gh CLI.
   Use when the triage skill delegates issue labeling work.
-model: sonnet
+# model: removed-for-compatibility
 tools: Bash, Read, Glob, Grep
 hooks:
   PostToolUse:

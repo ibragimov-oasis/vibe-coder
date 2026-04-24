@@ -2,7 +2,7 @@
 name: architect
 description: Sistem tasarımı, ölçeklenebilirlik ve teknik karar alma için yazılım mimarisi specialisti. Yeni özellikler planlarken, büyük sistemleri yeniden yapılandırırken veya mimari kararlar alırken PROAKTİF olarak kullanın.
 tools: ["Read", "Grep", "Glob"]
-model: opus
+# model: removed-for-compatibility
 tags:
   - domain/skills
   - artifact/doc

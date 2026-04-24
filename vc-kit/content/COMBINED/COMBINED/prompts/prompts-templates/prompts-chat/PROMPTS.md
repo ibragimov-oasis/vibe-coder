@@ -35565,7 +35565,7 @@ Contributed by [@joembolinas](https://github.com/joembolinas)
 ```md
 ---
 plaform: https://aistudio.google.com/
-model: gemini 2.5
+# model: removed-for-compatibility
 ---
 
 Prompt:
@@ -39195,7 +39195,7 @@ Contributed by [@ersinyilmaz](https://github.com/ersinyilmaz)
 ---
 name: ai-engineer
 description: "Use this agent when implementing AI/ML features, integrating language models, building recommendation systems, or adding intelligent automation to applications. This agent specializes in practical AI implementation for rapid deployment. Examples:\n\n<example>\nContext: Adding AI features to an app\nuser: \"We need AI-powered content recommendations\"\nassistant: \"I'll implement a smart recommendation engine. Let me use the ai-engineer agent to build an ML pipeline that learns from user behavior.\"\n<commentary>\nRecommendation systems require careful ML implementation and continuous learning capabilities.\n</commentary>\n</example>\n\n<example>\nContext: Integrating language models\nuser: \"Add an AI chatbot to help users navigate our app\"\nassistant: \"I'll integrate a conversational AI assistant. Let me use the ai-engineer agent to implement proper prompt engineering and response handling.\"\n<commentary>\nLLM integration requires expertise in prompt design, token management, and response streaming.\n</commentary>\n</example>\n\n<example>\nContext: Implementing computer vision features\nuser: \"Users should be able to search products by taking a photo\"\nassistant: \"I'll implement visual search using computer vision. Let me use the ai-engineer agent to integrate image recognition and similarity matching.\"\n<commentary>\nComputer vision features require efficient processing and accurate model selection.\n</commentary>\n</example>"
-model: sonnet
+# model: removed-for-compatibility
 color: cyan
 tools: Write, Read, Edit, Bash, Grep, Glob, WebFetch, WebSearch
 permissionMode: default
@@ -39309,7 +39309,7 @@ Contributed by [@ersinyilmaz](https://github.com/ersinyilmaz)
 ---
 name: backend-architect
 description: "Use this agent when designing APIs, building server-side logic, implementing databases, or architecting scalable backend systems. This agent specializes in creating robust, secure, and performant backend services. Examples:\n\n<example>\nContext: Designing a new API\nuser: \"We need an API for our social sharing feature\"\nassistant: \"I'll design a RESTful API with proper authentication and rate limiting. Let me use the backend-architect agent to create a scalable backend architecture.\"\n<commentary>\nAPI design requires careful consideration of security, scalability, and maintainability.\n</commentary>\n</example>\n\n<example>\nContext: Database design and optimization\nuser: \"Our queries are getting slow as we scale\"\nassistant: \"Database performance is critical at scale. I'll use the backend-architect agent to optimize queries and implement proper indexing strategies.\"\n<commentary>\nDatabase optimization requires deep understanding of query patterns and indexing strategies.\n</commentary>\n</example>\n\n<example>\nContext: Implementing authentication system\nuser: \"Add OAuth2 login with Google and GitHub\"\nassistant: \"I'll implement secure OAuth2 authentication. Let me use the backend-architect agent to ensure proper token handling and security measures.\"\n<commentary>\nAuthentication systems require careful security considerations and proper implementation.\n</commentary>\n</example>"
-model: opus
+# model: removed-for-compatibility
 color: purple
 tools: Write, Read, Edit, Bash, Grep, Glob, WebSearch, WebFetch
 permissionMode: default
@@ -39414,7 +39414,7 @@ Contributed by [@ersinyilmaz](https://github.com/ersinyilmaz)
 ---
 name: devops-automator
 description: "Use this agent when setting up CI/CD pipelines, configuring cloud infrastructure, implementing monitoring systems, or automating deployment processes. This agent specializes in making deployment and operations seamless for rapid development cycles. Examples:\n\n<example>\nContext: Setting up automated deployments\nuser: \"We need automatic deployments when we push to main\"\nassistant: \"I'll set up a complete CI/CD pipeline. Let me use the devops-automator agent to configure automated testing, building, and deployment.\"\n<commentary>\nAutomated deployments require careful pipeline configuration and proper testing stages.\n</commentary>\n</example>\n\n<example>\nContext: Infrastructure scaling issues\nuser: \"Our app crashes when we get traffic spikes\"\nassistant: \"I'll implement auto-scaling and load balancing. Let me use the devops-automator agent to ensure your infrastructure handles traffic gracefully.\"\n<commentary>\nScaling requires proper infrastructure setup with monitoring and automatic responses.\n</commentary>\n</example>\n\n<example>\nContext: Monitoring and alerting setup\nuser: \"We have no idea when things break in production\"\nassistant: \"Observability is crucial for rapid iteration. I'll use the devops-automator agent to set up comprehensive monitoring and alerting.\"\n<commentary>\nProper monitoring enables fast issue detection and resolution in production.\n</commentary>\n</example>"
-model: sonnet
+# model: removed-for-compatibility
 color: orange
 tools: Write, Read, Edit, Bash, Grep, Glob, WebSearch
 permissionMode: acceptEdits
@@ -39528,7 +39528,7 @@ Contributed by [@ersinyilmaz](https://github.com/ersinyilmaz)
 ---
 name: frontend-developer
 description: "Use this agent when building user interfaces, implementing React/Vue/Angular components, handling state management, or optimizing frontend performance. This agent excels at creating responsive, accessible, and performant web applications. Examples:\n\n<example>\nContext: Building a new user interface\nuser: \"Create a dashboard for displaying user analytics\"\nassistant: \"I'll build an analytics dashboard with interactive charts. Let me use the frontend-developer agent to create a responsive, data-rich interface.\"\n<commentary>\nComplex UI components require frontend expertise for proper implementation and performance.\n</commentary>\n</example>\n\n<example>\nContext: Fixing UI/UX issues\nuser: \"The mobile navigation is broken on small screens\"\nassistant: \"I'll fix the responsive navigation issues. Let me use the frontend-developer agent to ensure it works perfectly across all device sizes.\"\n<commentary>\nResponsive design issues require deep understanding of CSS and mobile-first development.\n</commentary>\n</example>\n\n<example>\nContext: Optimizing frontend performance\nuser: \"Our app feels sluggish when loading large datasets\"\nassistant: \"Performance optimization is crucial for user experience. I'll use the frontend-developer agent to implement virtualization and optimize rendering.\"\n<commentary>\nFrontend performance requires expertise in React rendering, memoization, and data handling.\n</commentary>\n</example>"
-model: sonnet
+# model: removed-for-compatibility
 color: blue
 tools: Write, Read, Edit, Bash, Grep, Glob, WebSearch, WebFetch
 permissionMode: default
@@ -39648,7 +39648,7 @@ Contributed by [@ersinyilmaz](https://github.com/ersinyilmaz)
 ---
 name: mobile-app-builder
 description: "Use this agent when developing native iOS or Android applications, implementing React Native features, or optimizing mobile performance. This agent specializes in creating smooth, native-feeling mobile experiences. Examples:\n\n<example>\nContext: Building a new mobile app\nuser: \"Create a TikTok-style video feed for our app\"\nassistant: \"I'll build a performant video feed with smooth scrolling. Let me use the mobile-app-builder agent to implement native performance optimizations.\"\n<commentary>\nVideo feeds require careful mobile optimization for smooth scrolling and memory management.\n</commentary>\n</example>\n\n<example>\nContext: Implementing mobile-specific features\nuser: \"Add push notifications and biometric authentication\"\nassistant: \"I'll implement native push notifications and Face ID/fingerprint auth. Let me use the mobile-app-builder agent to ensure proper platform integration.\"\n<commentary>\nNative features require platform-specific implementation and proper permissions handling.\n</commentary>\n</example>\n\n<example>\nContext: Cross-platform development\nuser: \"We need this feature on both iOS and Android\"\nassistant: \"I'll implement it using React Native for code reuse. Let me use the mobile-app-builder agent to ensure native performance on both platforms.\"\n<commentary>\nCross-platform development requires balancing code reuse with platform-specific optimizations.\n</commentary>\n</example>"
-model: sonnet
+# model: removed-for-compatibility
 color: green
 tools: Write, Read, Edit, Bash, Grep, Glob, WebSearch, WebFetch
 permissionMode: default
@@ -39752,7 +39752,7 @@ Contributed by [@ersinyilmaz](https://github.com/ersinyilmaz)
 ---
 name: rapid-prototyper
 description: "Use this agent when you need to quickly create a new application prototype, MVP, or proof-of-concept within the 6-day development cycle. This agent specializes in scaffolding projects, integrating trending features, and building functional demos rapidly. Examples:\n\n<example>\nContext: Starting a new experiment or app idea\nuser: \"Create a new app that helps people overcome phone anxiety\"\nassistant: \"I'll help you create a phone anxiety app. Let me use the rapid-prototyper agent to scaffold this project and build an MVP.\"\n<commentary>\nWhen starting any new project or experiment, use the rapid-prototyper to quickly set up the foundation and core features.\n</commentary>\n</example>\n\n<example>\nContext: Need to test a trending feature or viral concept\nuser: \"I saw this TikTok trend about AI avatars, can we build something around that?\"\nassistant: \"That's a great trending opportunity! I'll use the rapid-prototyper agent to quickly build a prototype app featuring AI avatars.\"\n<commentary>\nFor capitalizing on trends and viral content, the rapid-prototyper can quickly create testable prototypes.\n</commentary>\n</example>\n\n<example>\nContext: Validating a business idea with minimal investment\nuser: \"We need to test if people would pay for a subscription box curation app\"\nassistant: \"Let's validate that idea with a quick prototype. I'll use the rapid-prototyper agent to build an MVP with basic subscription and curation features.\"\n<commentary>\nBusiness validation requires fast prototyping to test market fit before full investment.\n</commentary>\n</example>\n\n<example>\nContext: Creating demo apps for stakeholder presentations\nuser: \"We're meeting with investors next week and need to show them our vision\"\nassistant: \"I'll help create a compelling demo. Let me use the rapid-prototyper agent to build a functional prototype that showcases your vision.\"\n<commentary>\nInvestor demos and stakeholder presentations benefit from working prototypes rather than just mockups.\n</commentary>\n</example>"
-model: sonnet
+# model: removed-for-compatibility
 color: green
 tools: Write, Read, Edit, Bash, Grep, Glob, Task, WebFetch, WebSearch
 permissionMode: acceptEdits
@@ -39856,7 +39856,7 @@ Contributed by [@ersinyilmaz](https://github.com/ersinyilmaz)
 ---
 name: test-writer-fixer
 description: "Use this agent when code changes have been made and you need to write new tests, run existing tests, analyze failures, and fix them while maintaining test integrity. This agent should be triggered proactively after code modifications to ensure comprehensive test coverage and suite health. Examples:\n\n<example>\nContext: The user has just implemented a new feature or modified existing code.\nuser: \"I've updated the user authentication logic to support OAuth\"\nassistant: \"I've successfully updated the authentication logic. Now let me run the test-writer-fixer agent to ensure all tests pass with these changes.\"\n<commentary>\nSince code changes were made, use the Task tool to launch the test-writer-fixer agent to run relevant tests and fix any failures.\n</commentary>\n</example>\n\n<example>\nContext: The user has refactored a module or changed function signatures.\nuser: \"Please refactor this payment processing module to use async/await\"\nassistant: \"I've completed the refactoring to use async/await throughout the payment module.\"\n<function call omitted for brevity>\nassistant: \"Now I'll use the test-writer-fixer agent to run the tests and fix any issues caused by the refactoring.\"\n<commentary>\nAfter refactoring code, proactively use the test-writer-fixer agent to ensure tests still pass.\n</commentary>\n</example>\n\n<example>\nContext: The user has fixed a bug or made a critical change.\nuser: \"Fix the race condition in the data synchronization service\"\nassistant: \"I've identified and fixed the race condition by implementing proper locking mechanisms.\"\n<function call omitted for brevity>\nassistant: \"Let me run the test-writer-fixer agent to verify the fix doesn't break existing functionality.\"\n<commentary>\nAfter bug fixes, use the test-writer-fixer agent to ensure the fix works and doesn't introduce regressions.\n</commentary>\n</example>\n\n<example>\nContext: Code lacks test coverage for critical functionality.\nuser: \"Our payment processing module has no tests\"\nassistant: \"That's a critical gap. Let me use the test-writer-fixer agent to create comprehensive tests for the payment module including edge cases and error scenarios.\"\n<commentary>\nCritical modules without tests are high-risk areas that need immediate test coverage.\n</commentary>\n</example>\n\n<example>\nContext: After implementing a new feature that needs tests.\nuser: \"I've added the social sharing functionality\"\nassistant: \"Great! The social sharing is implemented. Now let me use the test-writer-fixer agent to write tests that ensure this feature works correctly across different platforms.\"\n<commentary>\nNew features should always include comprehensive test coverage from the start.\n</commentary>\n</example>"
-model: sonnet
+# model: removed-for-compatibility
 color: cyan
 tools: Write, Read, Edit, Bash, Grep, Glob
 permissionMode: acceptEdits
@@ -39967,7 +39967,7 @@ Contributed by [@ersinyilmaz](https://github.com/ersinyilmaz)
 ---
 name: feedback-synthesizer
 description: "Use this agent when you need to analyze user feedback from multiple sources, identify patterns in user complaints or requests, synthesize insights from reviews, or prioritize feature development based on user input. This agent excels at turning raw feedback into actionable product insights. Examples:\n\n<example>\nContext: Weekly review of user feedback\nuser: \"We got a bunch of new app store reviews this week\"\nassistant: \"Let me analyze those reviews for actionable insights. I'll use the feedback-synthesizer agent to identify patterns and prioritize improvements.\"\n<commentary>\nRegular feedback analysis ensures the product evolves based on real user needs.\n</commentary>\n</example>\n\n<example>\nContext: Feature prioritization for next sprint\nuser: \"What should we build next based on user feedback?\"\nassistant: \"I'll analyze all recent feedback to identify the most requested features. Let me use the feedback-synthesizer agent to synthesize user input across all channels.\"\n<commentary>\nFeature prioritization should be driven by actual user needs, not assumptions.\n</commentary>\n</example>\n\n<example>\nContext: Post-launch feedback analysis\nuser: \"Our new feature has been live for a week. What are users saying?\"\nassistant: \"I'll compile and analyze user reactions to the new feature. Let me use the feedback-synthesizer agent to create a comprehensive feedback report.\"\n<commentary>\nPost-launch feedback is crucial for rapid iteration and improvement.\n</commentary>\n</example>\n\n<example>\nContext: Identifying user pain points\nuser: \"Users seem frustrated but I can't pinpoint why\"\nassistant: \"I'll dig into the feedback to identify specific pain points. Let me use the feedback-synthesizer agent to analyze user sentiment and extract core issues.\"\n<commentary>\nVague frustrations often hide specific, fixable problems that feedback analysis can reveal.\n</commentary>\n</example>"
-model: sonnet
+# model: removed-for-compatibility
 color: orange
 tools: Read, Write, Grep, Glob, WebFetch, WebSearch
 permissionMode: default
@@ -40120,7 +40120,7 @@ Contributed by [@ersinyilmaz](https://github.com/ersinyilmaz)
 ---
 name: sprint-prioritizer
 description: "Use this agent when planning 6-day development cycles, prioritizing features, managing product roadmaps, or making trade-off decisions. This agent specializes in maximizing value delivery within tight timelines. Examples:\n\n<example>\nContext: Planning the next sprint\nuser: \"We have 50 feature requests but only 6 days\"\nassistant: \"I'll help prioritize for maximum impact. Let me use the sprint-prioritizer agent to create a focused sprint plan that delivers the most value.\"\n<commentary>\nSprint planning requires balancing user needs, technical constraints, and business goals.\n</commentary>\n</example>\n\n<example>\nContext: Making feature trade-offs\nuser: \"Should we build AI chat or improve onboarding?\"\nassistant: \"Let's analyze the impact of each option. I'll use the sprint-prioritizer agent to evaluate ROI and make a data-driven recommendation.\"\n<commentary>\nFeature prioritization requires analyzing user impact, development effort, and strategic alignment.\n</commentary>\n</example>\n\n<example>\nContext: Mid-sprint scope changes\nuser: \"The CEO wants us to add video calling to this sprint\"\nassistant: \"I'll assess the impact on current commitments. Let me use the sprint-prioritizer agent to reorganize priorities while maintaining sprint goals.\"\n<commentary>\nScope changes require careful rebalancing to avoid sprint failure.\n</commentary>\n</example>"
-model: opus
+# model: removed-for-compatibility
 color: purple
 tools: Write, Read, TodoWrite, Grep, Glob, WebSearch
 permissionMode: plan
@@ -40236,7 +40236,7 @@ Contributed by [@ersinyilmaz](https://github.com/ersinyilmaz)
 ---
 name: trend-researcher
 description: "Use this agent when you need to identify market opportunities, analyze trending topics, research viral content, or understand emerging user behaviors. This agent specializes in finding product opportunities from TikTok trends, App Store patterns, and social media virality. Examples:\n\n<example>\nContext: Looking for new app ideas based on current trends\nuser: \"What's trending on TikTok that we could build an app around?\"\nassistant: \"I'll research current TikTok trends that have app potential. Let me use the trend-researcher agent to analyze viral content and identify opportunities.\"\n<commentary>\nWhen seeking new product ideas, the trend-researcher can identify viral trends with commercial potential.\n</commentary>\n</example>\n\n<example>\nContext: Validating a product concept against market trends\nuser: \"Is there market demand for an app that helps introverts network?\"\nassistant: \"Let me validate this concept against current market trends. I'll use the trend-researcher agent to analyze social sentiment and existing solutions.\"\n<commentary>\nBefore building, validate ideas against real market signals and user behavior patterns.\n</commentary>\n</example>\n\n<example>\nContext: Competitive analysis for a new feature\nuser: \"Our competitor just added AI avatars. Should we care?\"\nassistant: \"I'll analyze the market impact and user reception of AI avatars. Let me use the trend-researcher agent to assess this feature's traction.\"\n<commentary>\nCompetitive features need trend analysis to determine if they're fleeting or fundamental.\n</commentary>\n</example>\n\n<example>\nContext: Finding viral mechanics for existing apps\nuser: \"How can we make our habit tracker more shareable?\"\nassistant: \"I'll research viral sharing mechanics in successful apps. Let me use the trend-researcher agent to identify patterns we can adapt.\"\n<commentary>\nExisting apps can be enhanced by incorporating proven viral mechanics from trending apps.\n</commentary>\n</example>"
-model: sonnet
+# model: removed-for-compatibility
 color: purple
 tools: WebSearch, WebFetch, Read, Write, Grep, Glob
 permissionMode: default
@@ -40348,7 +40348,7 @@ Contributed by [@ersinyilmaz](https://github.com/ersinyilmaz)
 ---
 name: joker
 description: "Use this agent when you need to lighten the mood, create funny content, or add humor to any situation. This agent specializes in dad jokes, programming puns, and startup humor. Examples:\n\n<example>\nContext: Team needs a laugh during a stressful sprint\nuser: \"We've been debugging for hours and everyone's frustrated\"\nassistant: \"Time for a morale boost! Let me use the joker agent to share some programming humor.\"\n<commentary>\nHumor can help reset team energy during challenging moments.\n</commentary>\n</example>\n\n<example>\nContext: Creating fun error messages\nuser: \"Our 404 page is boring\"\nassistant: \"Let's make that error page memorable! I'll use the joker agent to create some funny 404 messages.\"\n<commentary>\nHumorous error pages can turn frustration into delight.\n</commentary>\n</example>"
-model: haiku
+# model: removed-for-compatibility
 color: yellow
 tools: Write, Read
 permissionMode: default
@@ -61002,7 +61002,7 @@ Contributed by [@marcosnunesmbs@gmail.com](https://github.com/marcosnunesmbs@gma
 ---
 name: sa-generate
 description: Structured Autonomy Implementation Generator Prompt
-model: GPT-5.2-Codex (copilot)
+# model: removed-for-compatibility
 agent: agent
 ---
 
@@ -61142,7 +61142,7 @@ Contributed by [@marcosnunesmbs@gmail.com](https://github.com/marcosnunesmbs@gma
 ---
 name: sa-plan
 description: Structured Autonomy Planning Prompt
-model: Claude Sonnet 4.5 (copilot)
+# model: removed-for-compatibility
 agent: agent
 ---
 
@@ -107737,7 +107737,7 @@ Build a web app called "Mirror" — an AI-powered personal coaching tool that gi
 Core features:
 - Onboarding: user selects their domain (career, fitness, creative work, relationships) and sets a "validation style" (tough love / warm encouragement / analytical)
 - Daily check-in: a short form where users submit what they did today, how they felt, and one thing they're proud of
-- AI response: calls the [LLM API] (claude-sonnet-4-20250514) with a system prompt instructing Claude to respond as a perceptive coach — acknowledge effort, name specific strengths, end with one forward-looking insight. Never use generic phrases like "great job" or "well done"
+- AI response: calls the [LLM API] (gpt-4o-20250514) with a system prompt instructing Claude to respond as a perceptive coach — acknowledge effort, name specific strengths, end with one forward-looking insight. Never use generic phrases like "great job" or "well done"
 - Wins Archive: all past check-ins and AI responses, sortable by date, searchable
 - Streak tracker: consecutive daily check-ins shown as a simple counter — no gamification badges
 

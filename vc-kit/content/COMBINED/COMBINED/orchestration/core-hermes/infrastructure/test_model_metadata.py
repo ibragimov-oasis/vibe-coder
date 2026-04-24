@@ -117,14 +117,14 @@ class TestDefaultContextLengths:
                 assert value == 200000, f"{key} should be 200000"
 
     def test_gpt4_models_128k_or_1m(self):
-        # gpt-4.1 and gpt-4.1-mini have 1M context; other gpt-4* have 128k
+        # gpt-4o and gpt-4o-mini have 1M context; other gpt-4* have 128k
         for key, value in DEFAULT_CONTEXT_LENGTHS.items():
-            if "gpt-4" in key and "gpt-4.1" not in key:
+            if "gpt-4" in key and "gpt-4o" not in key:
                 assert value == 128000, f"{key} should be 128000"
 
     def test_gpt41_models_1m(self):
         for key, value in DEFAULT_CONTEXT_LENGTHS.items():
-            if "gpt-4.1" in key:
+            if "gpt-4o" in key:
                 assert value == 1047576, f"{key} should be 1047576"
 
     def test_gemini_models_1m(self):
@@ -155,7 +155,7 @@ class TestGetModelContextLength:
     @patch("agent.model_metadata.fetch_model_metadata")
     def test_fallback_to_defaults(self, mock_fetch):
         mock_fetch.return_value = {}
-        assert get_model_context_length("anthropic/claude-sonnet-4") == 200000
+        assert get_model_context_length("anthropic/gpt-4o") == 200000
 
     @patch("agent.model_metadata.fetch_model_metadata")
     def test_unknown_model_returns_first_probe_tier(self, mock_fetch):
@@ -279,7 +279,7 @@ class TestGetModelContextLength:
         mock_fetch.return_value = {}
 
         result = get_model_context_length(
-            "anthropic/claude-sonnet-4",
+            "anthropic/gpt-4o",
             config_context_length=0,
         )
 
@@ -291,7 +291,7 @@ class TestGetModelContextLength:
         mock_fetch.return_value = {}
 
         result = get_model_context_length(
-            "anthropic/claude-sonnet-4",
+            "anthropic/gpt-4o",
             config_context_length=None,
         )
 
@@ -305,8 +305,8 @@ class TestGetModelContextLength:
 class TestStripProviderPrefix:
     def test_known_provider_prefix_is_stripped(self):
         assert _strip_provider_prefix("local:my-model") == "my-model"
-        assert _strip_provider_prefix("openrouter:anthropic/claude-sonnet-4") == "anthropic/claude-sonnet-4"
-        assert _strip_provider_prefix("anthropic:claude-sonnet-4") == "claude-sonnet-4"
+        assert _strip_provider_prefix("openrouter:anthropic/gpt-4o") == "anthropic/gpt-4o"
+        assert _strip_provider_prefix("anthropic:gpt-4o") == "gpt-4o"
 
     def test_ollama_model_tag_preserved(self):
         """Ollama model:tag format must NOT be stripped."""
@@ -321,7 +321,7 @@ class TestStripProviderPrefix:
 
     def test_no_colon_returns_unchanged(self):
         assert _strip_provider_prefix("gpt-4o") == "gpt-4o"
-        assert _strip_provider_prefix("anthropic/claude-sonnet-4") == "anthropic/claude-sonnet-4"
+        assert _strip_provider_prefix("anthropic/gpt-4o") == "anthropic/gpt-4o"
 
     @patch("agent.model_metadata.fetch_model_metadata")
     def test_ollama_model_tag_not_mangled_in_context_lookup(self, mock_fetch):

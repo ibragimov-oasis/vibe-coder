@@ -12,7 +12,7 @@ tags:
 mode: 'agent'
 tools: ['changes', 'search/codebase', 'edit/editFiles', 'problems']
 description: 'Deploy and manage MCP-based declarative agents in Microsoft 365 admin center with governance, assignments, and organizational distribution'
-model: 'gpt-4.1'
+# model: removed-for-compatibility
 tags: [mcp, m365-copilot, deployment, admin, agent-management, governance]
 ---
 

@@ -12,7 +12,7 @@ tags:
 mode: 'agent'
 tools: ['changes', 'search/codebase', 'edit/editFiles', 'problems']
 description: 'Add Adaptive Card response templates to MCP-based API plugins for visual data presentation in Microsoft 365 Copilot'
-model: 'gpt-4.1'
+# model: removed-for-compatibility
 tags: [mcp, adaptive-cards, m365-copilot, api-plugin, response-templates]
 ---
 

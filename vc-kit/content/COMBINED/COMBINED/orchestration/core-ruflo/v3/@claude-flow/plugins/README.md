@@ -168,7 +168,7 @@ registry.register(new ClaudeProvider());
 
 // Execute with automatic fallback
 const response = await registry.execute({
-  model: 'claude-sonnet-4-20250514',
+  model: 'gpt-4o-20250514',
   messages: [{ role: 'user', content: 'Hello!' }]
 });
 ```
