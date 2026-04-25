@@ -12,12 +12,12 @@ aliases:
   - bytedance research
 created: 2026-04-18
 type: system-note
-source: "../COMBINED/orchestration/core-deer-flow/"
+source: "../.claude/orchestration/core-deer-flow/"
 ---
 
 # Orchestration: DeerFlow
 
-> **Источник:** `../COMBINED/orchestration/core-deer-flow/`
+> **Источник:** `../.claude/orchestration/core-deer-flow/`
 > **Stars:** 55k⭐ (ByteDance)
 
 ## Описание

@@ -17,7 +17,7 @@ In Antigravity Awesome Skills, a plugin is a packaged, installable distribution 
 
 Plugins are useful when you want:
 
-- a marketplace-style install instead of copying files into `COMBINED/workspace-config/claude/skills/` or `.codex/skills/`
+- a marketplace-style install instead of copying files into `.claude/workspace-config/claude/skills/` or `.codex/skills/`
 - a narrower install surface for a team or role
 - a safer default distribution for plugin ecosystems
 

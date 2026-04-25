@@ -12,17 +12,17 @@ aliases:
   - best practices
 created: 2026-04-19
 type: skills-index
-source: "../COMBINED/skills/skills-claude/"
+source: "../.claude/skills/skills-claude/"
 ---
 
 # Skills: Claude (Karpathy + Best Practices)
 
-> **Источник:** `../COMBINED/skills/skills-claude/`
+> **Источник:** `../.claude/skills/skills-claude/`
 > Две категории: **Karpathy 4 Principles** + **69 Claude Code Best Practices**
 
 ## Karpathy 4 Principles
 
-`COMBINED/skills/skills-claude/karpathy/`
+`.claude/skills/skills-claude/karpathy/`
 
 | Принцип | Файл | Суть |
 |---------|------|------|
@@ -35,7 +35,7 @@ source: "../COMBINED/skills/skills-claude/"
 
 ## 69 Claude Code Best Practices
 
-`COMBINED/skills/skills-claude/best-practice/`
+`.claude/skills/skills-claude/best-practice/`
 
 Охватывают:
 - Agent teams & orchestration workflows

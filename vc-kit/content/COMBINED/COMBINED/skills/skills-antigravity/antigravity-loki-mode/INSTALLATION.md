@@ -28,7 +28,7 @@ Complete installation instructions for all platforms and use cases.
 
 ```bash
 # Clone to your skills directory
-git clone https://github.com/asklokesh/loki-mode.git ~/COMBINED/workspace-config/claude/skills/loki-mode
+git clone https://github.com/asklokesh/loki-mode.git ~/.claude/workspace-config/claude/skills/loki-mode
 ```
 
 **Done!** Skip to [Verify Installation](#verify-installation).
@@ -43,7 +43,7 @@ Loki Mode can be installed for Claude Code in three ways:
 
 **Personal installation (available in all projects):**
 ```bash
-git clone https://github.com/asklokesh/loki-mode.git ~/COMBINED/workspace-config/claude/skills/loki-mode
+git clone https://github.com/asklokesh/loki-mode.git ~/.claude/workspace-config/claude/skills/loki-mode
 ```
 
 **Project-specific installation:**
@@ -52,7 +52,7 @@ git clone https://github.com/asklokesh/loki-mode.git ~/COMBINED/workspace-config
 cd /path/to/your/project
 
 # Clone to local skills directory
-git clone https://github.com/asklokesh/loki-mode.git COMBINED/workspace-config/claude/skills/loki-mode
+git clone https://github.com/asklokesh/loki-mode.git .claude/workspace-config/claude/skills/loki-mode
 ```
 
 ### Option B: Download from Releases
@@ -69,7 +69,7 @@ curl -L -o loki-mode.zip "https://github.com/asklokesh/loki-mode/releases/downlo
 unzip loki-mode.zip && rm loki-mode.zip
 ```
 
-**Result:** Creates `~/COMBINED/workspace-config/claude/skills/loki-mode/SKILL.md`
+**Result:** Creates `~/.claude/workspace-config/claude/skills/loki-mode/SKILL.md`
 
 ### Option C: Minimal Install (curl)
 
@@ -77,22 +77,22 @@ If you only want the essential files without the full repository:
 
 ```bash
 # Create directory structure
-mkdir -p ~/COMBINED/workspace-config/claude/skills/loki-mode/references
+mkdir -p ~/.claude/workspace-config/claude/skills/loki-mode/references
 
 # Download core skill file
-curl -o ~/COMBINED/workspace-config/claude/skills/loki-mode/SKILL.md \
+curl -o ~/.claude/workspace-config/claude/skills/loki-mode/SKILL.md \
   https://raw.githubusercontent.com/asklokesh/loki-mode/main/SKILL.md
 
 # Download agent definitions
-curl -o ~/COMBINED/workspace-config/claude/skills/loki-mode/references/agents.md \
+curl -o ~/.claude/workspace-config/claude/skills/loki-mode/references/agents.md \
   https://raw.githubusercontent.com/asklokesh/loki-mode/main/references/agents.md
 
 # Download deployment guides
-curl -o ~/COMBINED/workspace-config/claude/skills/loki-mode/references/deployment.md \
+curl -o ~/.claude/workspace-config/claude/skills/loki-mode/references/deployment.md \
   https://raw.githubusercontent.com/asklokesh/loki-mode/main/references/deployment.md
 
 # Download business operations reference
-curl -o ~/COMBINED/workspace-config/claude/skills/loki-mode/references/business-ops.md \
+curl -o ~/.claude/workspace-config/claude/skills/loki-mode/references/business-ops.md \
   https://raw.githubusercontent.com/asklokesh/loki-mode/main/references/business-ops.md
 ```
 
@@ -154,7 +154,7 @@ For using Loki Mode through the Anthropic API Console (console.anthropic.com):
 Check that the skill file is in place:
 
 ```bash
-cat ~/COMBINED/workspace-config/claude/skills/loki-mode/SKILL.md | head -10
+cat ~/.claude/workspace-config/claude/skills/loki-mode/SKILL.md | head -10
 ```
 
 **Expected output:** Should show YAML frontmatter starting with:
@@ -225,12 +225,12 @@ loki-mode/
 **Solutions:**
 1. **Check installation path:**
    ```bash
-   ls -la ~/COMBINED/workspace-config/claude/skills/loki-mode/SKILL.md
+   ls -la ~/.claude/workspace-config/claude/skills/loki-mode/SKILL.md
    ```
 
 2. **Verify YAML frontmatter:**
    ```bash
-   cat ~/COMBINED/workspace-config/claude/skills/loki-mode/SKILL.md | head -5
+   cat ~/.claude/workspace-config/claude/skills/loki-mode/SKILL.md | head -5
    ```
    Should show `name: loki-mode`
 
@@ -262,13 +262,13 @@ ls -la ~/.claude/
 2. **Try alternate download method:**
    ```bash
    # Use wget instead of curl
-   wget -O ~/COMBINED/workspace-config/claude/skills/loki-mode/SKILL.md \
+   wget -O ~/.claude/workspace-config/claude/skills/loki-mode/SKILL.md \
      https://raw.githubusercontent.com/asklokesh/loki-mode/main/SKILL.md
    ```
 
 3. **Manual download:**
    - Visit the URL in a browser
-   - Save file manually to `~/COMBINED/workspace-config/claude/skills/loki-mode/`
+   - Save file manually to `~/.claude/workspace-config/claude/skills/loki-mode/`
 
 ### Autonomous Runner Won't Start
 
@@ -283,7 +283,7 @@ ls -la ~/.claude/
 2. **Run from repository root:**
    ```bash
    # Make sure you're in the loki-mode directory
-   cd ~/COMBINED/workspace-config/claude/skills/loki-mode
+   cd ~/.claude/workspace-config/claude/skills/loki-mode
    ./autonomy/run.sh
    ```
 
@@ -303,7 +303,7 @@ ls -la ~/.claude/
 **Solution:**
 ```bash
 # Ensure all reference files are present
-ls -la ~/COMBINED/workspace-config/claude/skills/loki-mode/references/
+ls -la ~/.claude/workspace-config/claude/skills/loki-mode/references/
 
 # Should show:
 # agents.md
@@ -311,7 +311,7 @@ ls -la ~/COMBINED/workspace-config/claude/skills/loki-mode/references/
 # business-ops.md
 
 # If missing, download them:
-curl -o ~/COMBINED/workspace-config/claude/skills/loki-mode/references/agents.md \
+curl -o ~/.claude/workspace-config/claude/skills/loki-mode/references/agents.md \
   https://raw.githubusercontent.com/asklokesh/loki-mode/main/references/agents.md
 ```
 
@@ -322,7 +322,7 @@ curl -o ~/COMBINED/workspace-config/claude/skills/loki-mode/references/agents.md
 ### For Git Installations
 
 ```bash
-cd ~/COMBINED/workspace-config/claude/skills/loki-mode
+cd ~/.claude/workspace-config/claude/skills/loki-mode
 git pull origin main
 ```
 
@@ -335,7 +335,7 @@ git pull origin main
 ### Check Current Version
 
 ```bash
-cat ~/COMBINED/workspace-config/claude/skills/loki-mode/VERSION
+cat ~/.claude/workspace-config/claude/skills/loki-mode/VERSION
 ```
 
 ---
@@ -346,7 +346,7 @@ cat ~/COMBINED/workspace-config/claude/skills/loki-mode/VERSION
 
 ```bash
 # Remove the skill directory
-rm -rf ~/COMBINED/workspace-config/claude/skills/loki-mode
+rm -rf ~/.claude/workspace-config/claude/skills/loki-mode
 ```
 
 ### Claude.ai (Web)

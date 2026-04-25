@@ -7,7 +7,7 @@ tags:
 
 # 🎯 RESTRUCTURE EXECUTION PLAN: PREFIX-SOURCE MIGRATION
 
-> **7-Phase Plan to Transform COMBINED/ Structure**
+> **7-Phase Plan to Transform .claude/ Structure**
 > Project: Vibe-Coder Restructuring
 > Created: April 4, 2026
 
@@ -15,7 +15,7 @@ tags:
 
 ## 📋 Executive Summary
 
-**Objective:** Restructure COMBINED/ directory from nested hierarchy to PREFIX-SOURCE flat structure
+**Objective:** Restructure .claude/ directory from nested hierarchy to PREFIX-SOURCE flat structure
 
 **Approach:** In-place incremental restructuring (OPTION 1 - RECOMMENDED)
 
@@ -789,11 +789,11 @@ Part of Vibe-Coder restructuring project.
 #### 7.1 Update Documentation Files
 ```bash
 # Files to update:
-- COMBINED/README.md            # Update structure section
-- COMBINED/INDEX.md             # Update all paths
-- COMBINED/agents/INDEX.md      # Update agent paths
-- COMBINED/skills/INDEX.md      # Update skill paths
-- COMBINED/commands/INDEX.md    # Update command paths (if exists)
+- .claude/README.md            # Update structure section
+- .claude/INDEX.md             # Update all paths
+- .claude/agents/INDEX.md      # Update agent paths
+- .claude/skills/INDEX.md      # Update skill paths
+- .claude/commands/INDEX.md    # Update command paths (if exists)
 ```
 
 #### 7.2 Create Completion Report
@@ -840,8 +840,8 @@ Part of Vibe-Coder restructuring project.
 ```
 Phase 7: Update documentation for new PREFIX-SOURCE structure
 
-- Updated COMBINED/README.md with new structure
-- Updated COMBINED/INDEX.md with new paths
+- Updated .claude/README.md with new structure
+- Updated .claude/INDEX.md with new paths
 - Created RESTRUCTURE_COMPLETE.md report
 - Updated all internal path references
 - Validated complete restructure

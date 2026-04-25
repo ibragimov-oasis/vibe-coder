@@ -43,7 +43,7 @@ Reference/: 0 leftover files
 
 **Result**: ✅ All source directories clean
 
-### COMBINED/ Status:
+### .claude/ Status:
 - Total files: 52,386 (increased from 44,966 on April 3)
 - Total directories: 13,160 (increased from 8,848 on April 3)
 
@@ -71,7 +71,7 @@ Reference/: 0 leftover files
 9. **build**: 4 files (0.0%) - Build configuration
 
 **Processing Decision**: 
-- Important files (code, config, docs, scripts, data, assets, nix) → COMBINED/
+- Important files (code, config, docs, scripts, data, assets, nix) → .claude/
 - Build artifacts and misc → Skipped (not needed)
 
 ---
@@ -87,12 +87,12 @@ Reference/: 0 leftover files
 - Processing rules defined
 
 ### Phase 3.3: Processing ✅ COMPLETE
-- Important files moved to COMBINED/
+- Important files moved to .claude/
 - Build/misc files appropriately skipped
 
 ### Phase 3.4: Final Verification ✅ COMPLETE (This Document)
 - No leftover files remaining in source directories
-- COMBINED/ contains all migrated content
+- .claude/ contains all migrated content
 - File growth documented and explained
 
 ---
@@ -114,10 +114,10 @@ Reference/: 0 leftover files
 **Status**: ✅ These are intentional documentation files, not leftovers
 
 ### Configuration Directories:
-- .claude/ → Migrated to COMBINED/workspace-config/claude/
+- .claude/ → Migrated to .claude/workspace-config/claude/
 - .github/ → Contains GitHub Actions and Copilot config (intentional)
-- .cursor/ → Migrated to COMBINED/workspace-config/cursor/
-- .antigravity/ → Migrated to COMBINED/workspace-config/antigravity/
+- .cursor/ → Migrated to .claude/workspace-config/cursor/
+- .antigravity/ → Migrated to .claude/workspace-config/antigravity/
 
 **Status**: ✅ Properly handled
 
@@ -131,7 +131,7 @@ Reference/: 0 leftover files
 1. Phase 3 was successfully completed on April 3, 2026
 2. All leftover files properly processed
 3. No new leftover files detected as of April 8, 2026
-4. File growth in COMBINED/ is intentional (restoration + organization)
+4. File growth in .claude/ is intentional (restoration + organization)
 5. All source directories are clean
 
 **No Action Required**: Phase 3 objectives fully met

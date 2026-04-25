@@ -75,7 +75,7 @@ Sau khi cài đặt, bạn chỉ cần trò chuyện với AI một cách tự n
 
 | Công cụ          | Trạng thái      | Đường dẫn         |
 | :--------------- | :-------------- | :---------------- |
-| **Claude Code**  | ✅ Hỗ trợ đầy đủ | `COMBINED/workspace-config/claude/skills/` |
+| **Claude Code**  | ✅ Hỗ trợ đầy đủ | `.claude/workspace-config/claude/skills/` |
 | **Gemini CLI**   | ✅ Hỗ trợ đầy đủ | `.gemini/skills/` |
 | **Antigravity**  | ✅ Hỗ trợ gốc   | `.agent/skills/`  |
 | **Cursor**       | ✅ Hỗ trợ gốc   | `.cursor/skills/` |

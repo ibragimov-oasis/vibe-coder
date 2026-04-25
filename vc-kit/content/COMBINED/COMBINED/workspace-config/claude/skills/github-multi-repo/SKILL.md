@@ -200,7 +200,7 @@ mcp__claude-flow__swarm_init({
     branch: "feature/github-integration",
     files: [
       {
-        path: "claude-code-flow/COMBINED/workspace-config/claude/commands/github/github-modes.md",
+        path: "claude-code-flow/.claude/workspace-config/claude/commands/github/github-modes.md",
         content: "[GitHub modes documentation]"
       },
       {
@@ -282,7 +282,7 @@ mcp__claude-flow__swarm_init({
     repo: "claude-project-template",
     files: [
       {
-        path: "COMBINED/workspace-config/claude/commands/github/github-modes.md",
+        path: ".claude/workspace-config/claude/commands/github/github-modes.md",
         content: "[GitHub modes template]"
       },
       {

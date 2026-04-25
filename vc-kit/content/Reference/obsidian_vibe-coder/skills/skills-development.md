@@ -11,12 +11,12 @@ aliases:
   - development skills
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-development/"
+source: "../.claude/skills/skills-development/"
 ---
 
 # Skills: Development (Matt Pocock 20)
 
-> **Источник:** `../COMBINED/skills/skills-development/`
+> **Источник:** `../.claude/skills/skills-development/`
 > **Автор:** Matt Pocock
 
 ## 20 Навыков разработки

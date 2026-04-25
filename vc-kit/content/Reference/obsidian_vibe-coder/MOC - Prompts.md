@@ -14,17 +14,17 @@ type: moc
 # 🗺️ MOC — Prompts
 
 > **Map of Content** для домена `Prompts`.
-> 250+ промптов в 5 категориях. Источники: `COMBINED/prompts/`.
+> 250+ промптов в 5 категориях. Источники: `.claude/prompts/`.
 
 ## 📚 Категории промптов
 
 | Категория | Путь | Описание |
 |-----------|------|----------|
-| `prompts-leaked` | `COMBINED/prompts/prompts-leaked/` | Системные промпты AI-продуктов (Cursor, Devin, Manus, v0, Windsurf, Claude...) |
-| `prompts-templates` | `COMBINED/prompts/prompts-templates/` | Reusable шаблоны для задач разработки |
-| `prompts-ai-systems` | `COMBINED/prompts/prompts-ai-systems/` | Системные промпты AI-инструментов |
-| `prompts-system-models` | `COMBINED/prompts/prompts-system-models/` | Архивные промпты (Google, Anthropic, OpenAI) |
-| `prompts-system` | `COMBINED/prompts/prompts-system/` | Общие системные промпты |
+| `prompts-leaked` | `.claude/prompts/prompts-leaked/` | Системные промпты AI-продуктов (Cursor, Devin, Manus, v0, Windsurf, Claude...) |
+| `prompts-templates` | `.claude/prompts/prompts-templates/` | Reusable шаблоны для задач разработки |
+| `prompts-ai-systems` | `.claude/prompts/prompts-ai-systems/` | Системные промпты AI-инструментов |
+| `prompts-system-models` | `.claude/prompts/prompts-system-models/` | Архивные промпты (Google, Anthropic, OpenAI) |
+| `prompts-system` | `.claude/prompts/prompts-system/` | Общие системные промпты |
 
 ## 🔑 Ключевые промпты
 

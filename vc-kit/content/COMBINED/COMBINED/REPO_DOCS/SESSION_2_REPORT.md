@@ -42,13 +42,13 @@ tags:
 ## Files Created This Session
 
 ### Documentation Files
-1. `/home/runner/work/vibe-coder/vibe-coder/COMBINED/REPO_DOCS/04-1code/HOW_IT_WORKS.md`
-2. `/home/runner/work/vibe-coder/vibe-coder/COMBINED/REPO_DOCS/05-deer-flow/HOW_IT_WORKS.md`
-3. `/home/runner/work/vibe-coder/vibe-coder/COMBINED/REPO_DOCS/06-get-shit-done/HOW_IT_WORKS.md`
-4. `/home/runner/work/vibe-coder/vibe-coder/COMBINED/REPO_DOCS/07-oh-my-claudecode/HOW_IT_WORKS.md`
-5. `/home/runner/work/vibe-coder/vibe-coder/COMBINED/REPO_DOCS/08-ruflo/HOW_IT_WORKS.md`
-6. `/home/runner/work/vibe-coder/vibe-coder/COMBINED/REPO_DOCS/09-superpowers/HOW_IT_WORKS.md`
-7. `/home/runner/work/vibe-coder/vibe-coder/COMBINED/REPO_DOCS/10-vibe-kanban/HOW_IT_WORKS.md`
+1. `/home/runner/work/vibe-coder/vibe-coder/.claude/REPO_DOCS/04-1code/HOW_IT_WORKS.md`
+2. `/home/runner/work/vibe-coder/vibe-coder/.claude/REPO_DOCS/05-deer-flow/HOW_IT_WORKS.md`
+3. `/home/runner/work/vibe-coder/vibe-coder/.claude/REPO_DOCS/06-get-shit-done/HOW_IT_WORKS.md`
+4. `/home/runner/work/vibe-coder/vibe-coder/.claude/REPO_DOCS/07-oh-my-claudecode/HOW_IT_WORKS.md`
+5. `/home/runner/work/vibe-coder/vibe-coder/.claude/REPO_DOCS/08-ruflo/HOW_IT_WORKS.md`
+6. `/home/runner/work/vibe-coder/vibe-coder/.claude/REPO_DOCS/09-superpowers/HOW_IT_WORKS.md`
+7. `/home/runner/work/vibe-coder/vibe-coder/.claude/REPO_DOCS/10-vibe-kanban/HOW_IT_WORKS.md`
 
 ### Index Updates
 8. `MASTER_INDEX.md` updated (10/32 rows complete)

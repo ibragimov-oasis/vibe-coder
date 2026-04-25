@@ -5,7 +5,7 @@ tags:
   - artifact/mega-agent
   - agent/mega-infrastructure
   - status/active
-source: "../COMBINED/agents/mega/mega-infrastructure.md"
+source: "../.claude/agents/mega/mega-infrastructure.md"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -67,7 +67,7 @@ Enterprise-grade оркестрация:
 
 ## Исходник
 
-> 📂 `../COMBINED/agents/mega/mega-infrastructure.md`
+> 📂 `../.claude/agents/mega/mega-infrastructure.md`
 
 ## 🔗 Связи
 

@@ -38,8 +38,8 @@ type: governance
 
 ```
 # Тяжёлые или ненужные для графа области:
-COMBINED/orchestration/core-refly/
-COMBINED/orchestration/core-ruflo/
+.claude/orchestration/core-refly/
+.claude/orchestration/core-ruflo/
 new_repos/obsidian-copilot/
 new_repos/
 

@@ -19,7 +19,7 @@ type: moc
 ## 🛡️ Shannon Pro — 5-phase Security Audit
 
 **Заметка:** [[security/shannon-pro]]
-Путь: `COMBINED/security/security-shannon/`
+Путь: `.claude/security/security-shannon/`
 
 ### Фазы аудита
 
@@ -42,7 +42,7 @@ Shannon использует 13 специализированных агент�
 
 ## 📐 Code Review Graph
 
-Путь: `COMBINED/mcp-servers/mcp-code-review-graph/`
+Путь: `.claude/mcp-servers/mcp-code-review-graph/`
 
 | Функция | Детали |
 |---------|--------|

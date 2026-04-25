@@ -28,12 +28,12 @@ After a long session of coding with Opus 4.5, you want to clean out dead code an
 
 Commands are skills executed via slash commands. They overlap but are stored differently:
 
-- **Skills**: `~/COMBINED/workspace-config/claude/skills/` - broader workflow definitions
-- **Commands**: `~/COMBINED/workspace-config/claude/commands/` - quick executable prompts
+- **Skills**: `~/.claude/workspace-config/claude/skills/` - broader workflow definitions
+- **Commands**: `~/.claude/workspace-config/claude/commands/` - quick executable prompts
 
 ```bash
 # Example skill structure
-~/COMBINED/workspace-config/claude/skills/
+~/.claude/workspace-config/claude/skills/
   pmx-guidelines.md      # Project-specific patterns
   coding-standards.md    # Language best practices
   tdd-workflow/          # Multi-file skill with README.md
@@ -88,7 +88,7 @@ Subagents work nicely with skills - a subagent capable of executing a subset of 
 
 ```bash
 # Example subagent structure
-~/COMBINED/workspace-config/claude/agents/
+~/.claude/workspace-config/claude/agents/
   planner.md           # Feature implementation planning
   architect.md         # System design decisions
   tdd-guide.md         # Test-driven development
@@ -395,7 +395,7 @@ affoon:~ ctx:65% Opus 4.5 19:52
 ### Subagents
 
 ```
-~/COMBINED/workspace-config/claude/agents/
+~/.claude/workspace-config/claude/agents/
   planner.md           # Break down features
   architect.md         # System design
   tdd-guide.md         # Write tests first

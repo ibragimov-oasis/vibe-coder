@@ -175,14 +175,14 @@ Her proje 12 karakterlik bir hash ID alır (örn. `a1b2c3d4e5f6`). `~/.claude/ho
       "matcher": "*",
       "hooks": [{
         "type": "command",
-        "command": "~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/hooks/observe.sh"
+        "command": "~/.claude/workspace-config/claude/skills/continuous-learning-v2/hooks/observe.sh"
       }]
     }],
     "PostToolUse": [{
       "matcher": "*",
       "hooks": [{
         "type": "command",
-        "command": "~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/hooks/observe.sh"
+        "command": "~/.claude/workspace-config/claude/skills/continuous-learning-v2/hooks/observe.sh"
       }]
     }]
   }
@@ -345,7 +345,7 @@ Hook'lar **%100** deterministik olarak tetiklenir. Bu şu anlama gelir:
 
 v2.1, v2.0 ve v1 ile tamamen uyumludur:
 - `~/.claude/homunculus/instincts/` içindeki mevcut global instinct'ler hala global instinct olarak çalışır
-- v1'den `~/COMBINED/workspace-config/claude/skills/learned/` skill'leri hala çalışır
+- v1'den `~/.claude/workspace-config/claude/skills/learned/` skill'leri hala çalışır
 - Stop hook hala çalışır (ama şimdi v2'ye de beslenir)
 - Kademeli geçiş: her ikisini de paralel çalıştırın
 

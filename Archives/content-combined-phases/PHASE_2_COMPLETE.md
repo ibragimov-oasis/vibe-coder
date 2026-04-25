@@ -20,7 +20,7 @@ April 3, 2026
 **Result**: All required directories created with proper hierarchy
 
 ```
-COMBINED/
+.claude/
 ├── agents/
 │   ├── by-role/ (14 role subdirectories)
 │   ├── by-interface/ (6 interface subdirectories)
@@ -42,44 +42,44 @@ COMBINED/
 **Files Organized**: 9,996 files across 8 orchestration systems
 
 **Systems Migrated**:
-1. **RuFlo** → `COMBINED/orchestration/ruflo/`
+1. **RuFlo** → `.claude/orchestration/ruflo/`
    - Core system files
    - Plugin architecture
    - Version management
    - Documentation
 
-2. **Oh-My-ClaudeCode** → `COMBINED/orchestration/oh-my-claudecode/`
+2. **Oh-My-ClaudeCode** → `.claude/orchestration/oh-my-claudecode/`
    - 19 specialized agents
    - Skills library
    - Commands
    - Documentation
 
-3. **Get-Shit-Done** → `COMBINED/orchestration/get-shit-done/`
+3. **Get-Shit-Done** → `.claude/orchestration/get-shit-done/`
    - Core GSD system
    - 18 agents moved to `by-role/`
-   - 57 commands → `COMBINED/commands/general/gsd/`
-   - 5 hooks → `COMBINED/hooks/notification/gsd/`
+   - 57 commands → `.claude/commands/general/gsd/`
+   - 5 hooks → `.claude/hooks/notification/gsd/`
 
-4. **Superpowers** → `COMBINED/orchestration/superpowers/`
+4. **Superpowers** → `.claude/orchestration/superpowers/`
    - Workflow system
-   - Skills → `COMBINED/skills/development/superpowers/`
-   - Commands → `COMBINED/commands/plan/superpowers/`
-   - Hooks → `COMBINED/hooks/notification/superpowers/`
+   - Skills → `.claude/skills/development/superpowers/`
+   - Commands → `.claude/commands/plan/superpowers/`
+   - Hooks → `.claude/hooks/notification/superpowers/`
 
-5. **Deer-Flow** → `COMBINED/orchestration/deer-flow/`
+5. **Deer-Flow** → `.claude/orchestration/deer-flow/`
    - Backend system
    - Frontend application
    - 15 public skills distributed by category
 
-6. **1code** → `COMBINED/orchestration/1code/`
+6. **1code** → `.claude/orchestration/1code/`
    - Desktop application
    - Full codebase preserved
 
-7. **Vibe-Kanban** → `COMBINED/orchestration/vibe-kanban/`
+7. **Vibe-Kanban** → `.claude/orchestration/vibe-kanban/`
    - Agent kanban system
    - Documentation
 
-8. **Workflows** → `COMBINED/orchestration/workflows/`
+8. **Workflows** → `.claude/orchestration/workflows/`
    - CI/CD workflows
    - Terraform infrastructure
    - Background agent workflows
@@ -90,7 +90,7 @@ COMBINED/
 
 **Commands Migrated** (67 files):
 ```
-COMBINED/commands/
+.claude/commands/
 ├── debug/
 │   └── shannon-debug.md
 ├── general/
@@ -104,7 +104,7 @@ COMBINED/commands/
 
 **Hooks Migrated** (5+ files):
 ```
-COMBINED/hooks/
+.claude/hooks/
 ├── pre-commit/
 │   └── background-agents-husky/
 ├── post-commit/
@@ -121,12 +121,12 @@ COMBINED/hooks/
 
 **Prompts Organized**:
 
-1. **System Prompts** → `COMBINED/prompts/system-prompts/`
+1. **System Prompts** → `.claude/prompts/system-prompts/`
    - Claude, ChatGPT, Cursor, Copilot, Gemini
    - 30+ AI tool system prompts organized by tool
    - Merged from 3 source repositories
 
-2. **Leaked Prompts** → `COMBINED/prompts/leaked/`
+2. **Leaked Prompts** → `.claude/prompts/leaked/`
    - Anthropic (Claude variants)
    - OpenAI
    - Google
@@ -135,14 +135,14 @@ COMBINED/hooks/
    - GitHub
    - Misc providers
 
-3. **Templates** → `COMBINED/prompts/templates/`
+3. **Templates** → `.claude/prompts/templates/`
    - prompts.chat library (143k⭐)
    - Optimization prompts
    - Vibe-coding templates
    - Claude-skills templates
    - Self-hosted references
 
-4. **Security Prompts** → `COMBINED/prompts/security/`
+4. **Security Prompts** → `.claude/prompts/security/`
    - Shannon pentesting prompts (30+ files)
    - Exploit, vulnerability, reconnaissance prompts
    - Shared security templates
@@ -176,7 +176,7 @@ COMBINED/hooks/
 - **Phase 2.5**: Commands & Hooks (✅ Complete - 72 files)
 - **Phase 2.6**: Prompts (✅ Complete - 2,508 files)
 
-### Total Files in COMBINED/
+### Total Files in .claude/
 ```
 agents/         :    653 files
 orchestration/  :  9,996 files
@@ -264,7 +264,7 @@ TOTAL           : 31,122 files
 **Phase 2 Status**: ✅ **COMPLETE**
 **Generated**: 2026-04-03
 **Branch**: `claude/move-files-to-combined-structure`
-**INDEX File**: `COMBINED/INDEX_MOVEMENTS.json` (updated to Phase 2)
+**INDEX File**: `.claude/INDEX_MOVEMENTS.json` (updated to Phase 2)
 
 ## 🔗 Связи
 

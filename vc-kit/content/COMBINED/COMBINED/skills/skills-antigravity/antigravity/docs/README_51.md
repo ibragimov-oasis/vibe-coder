@@ -191,7 +191,7 @@ cd /path/to/loki-mode
 ./autonomy/run.sh
 
 # Option 2: Install skill globally
-cp -r . ~/COMBINED/workspace-config/claude/skills/loki-mode/
+cp -r . ~/.claude/workspace-config/claude/skills/loki-mode/
 ```
 
 ### "Max retries exceeded"

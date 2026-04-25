@@ -11,12 +11,12 @@ aliases:
   - dag workflows
 created: 2026-04-18
 type: system-note
-source: "../COMBINED/orchestration/core-archon/"
+source: "../.claude/orchestration/core-archon/"
 ---
 
 # Orchestration: Archon (YAML Workflows)
 
-> **Источник:** `../COMBINED/orchestration/core-archon/`
+> **Источник:** `../.claude/orchestration/core-archon/`
 > **CLI:** `npx archon run <workflow.yaml>`
 
 ## Описание

@@ -10,7 +10,7 @@ tags:
 # mcp-toolbox-sdk — How It Works
 
 **Category:** New Repo (Vibe-Coder v3.0 — original 54)
-**Local path in vibe-coder:** COMBINED/mcp-servers/mcp-toolbox-sdk/
+**Local path in vibe-coder:** .claude/mcp-servers/mcp-toolbox-sdk/
 
 ---
 
@@ -22,13 +22,13 @@ Python/JS/Go/Java SDKs for MCP Toolbox database access.
 
 ## Vibe-Coder Role
 
-Provides specialized capability as described above. See the files at `COMBINED/mcp-servers/mcp-toolbox-sdk/` for full documentation and usage instructions.
+Provides specialized capability as described above. See the files at `.claude/mcp-servers/mcp-toolbox-sdk/` for full documentation and usage instructions.
 
 ---
 
 ## Status
 
-- [x] Integrated into COMBINED/
+- [x] Integrated into .claude/
 - [x] Referenced in AGENTS.md and CAPABILITIES.md
 - [x] Added to MASTER_INDEX
 

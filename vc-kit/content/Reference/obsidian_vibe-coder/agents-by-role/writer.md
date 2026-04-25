@@ -9,12 +9,12 @@ aliases:
   - writer agents
 created: 2026-04-18
 type: agents-role
-source: "../COMBINED/agents/by-role/writer/"
+source: "../.claude/agents/by-role/writer/"
 ---
 
 # Agents By Role: Writer (4)
 
-> **Источник:** `../COMBINED/agents/by-role/writer/`
+> **Источник:** `../.claude/agents/by-role/writer/`
 > **Количество:** 4 агента
 
 ## Агенты

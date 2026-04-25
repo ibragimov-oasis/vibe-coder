@@ -31,13 +31,13 @@ type: moc
 
 | Фаза | Документ | Статус |
 |------|----------|--------|
-| Phase 1 | `COMBINED/PHASE_1_COMPLETE_SUMMARY.md` | ✅ Done |
-| Phase 1.2 | `COMBINED/PHASE_1.2_COMPLETE.md` | ✅ Done |
-| Phase 1.3 | `COMBINED/PHASE_1.3_COMPLETE.md` | ✅ Done |
-| Phase 1.4 | `COMBINED/PHASE_1.4_COMPLETE.md` | ✅ Done |
-| Phase 1.5 | `COMBINED/PHASE_1.5_COMPLETE.md` | ✅ Done |
-| Phase 2 | `COMBINED/PHASE_2_COMPLETE_SUMMARY.md` | ✅ Done |
-| Phase 3 | `COMBINED/PHASE_3_COMPLETE.md` | ✅ Done |
+| Phase 1 | `.claude/PHASE_1_COMPLETE_SUMMARY.md` | ✅ Done |
+| Phase 1.2 | `.claude/PHASE_1.2_COMPLETE.md` | ✅ Done |
+| Phase 1.3 | `.claude/PHASE_1.3_COMPLETE.md` | ✅ Done |
+| Phase 1.4 | `.claude/PHASE_1.4_COMPLETE.md` | ✅ Done |
+| Phase 1.5 | `.claude/PHASE_1.5_COMPLETE.md` | ✅ Done |
+| Phase 2 | `.claude/PHASE_2_COMPLETE_SUMMARY.md` | ✅ Done |
+| Phase 3 | `.claude/PHASE_3_COMPLETE.md` | ✅ Done |
 | All Phases | `ALL_PHASES_COMPLETE.md` | ✅ Done |
 
 ## 🔲 Запланированные волны (Obsidian integration)
@@ -57,8 +57,8 @@ type: moc
 |----------|----------|
 | [[root-docs/AUDIT]] | 172+ config files маппинг |
 | [[_audit/COVERAGE_REPORT]] | Текущее vault покрытие |
-| `COMBINED/STRUCTURE_VALIDATION_REPORT.md` | Структурная валидация |
-| `COMBINED/COMPLETE_STATUS_REPORT.md` | Полный статус |
+| `.claude/STRUCTURE_VALIDATION_REPORT.md` | Структурная валидация |
+| `.claude/COMPLETE_STATUS_REPORT.md` | Полный статус |
 
 ## Связанные MOC
 

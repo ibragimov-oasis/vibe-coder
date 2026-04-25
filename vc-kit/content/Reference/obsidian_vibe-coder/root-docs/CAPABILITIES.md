@@ -67,7 +67,7 @@ Done:     if clean             → deliver report
 ```
 После каждой задачи → Hermes:
 - Извлечь reusable patterns
-- Создать skill files в COMBINED/skills/{domain}/
+- Создать skill files в .claude/skills/{domain}/
 - Обновить supermemory
 ```
 

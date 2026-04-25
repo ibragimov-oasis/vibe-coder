@@ -15,34 +15,34 @@ PHASE 3 SUB-PHASES COMPLETED
    - Scanned all original directories (Agents/, Orchestration/, Skills/, etc.)
    - Found 9,213 leftover files in 3,952 directories
    - Excluded build artifacts (node_modules, .git, __pycache__, etc.)
-   - Results saved to: COMBINED/LEFTOVERS_SCAN.json
+   - Results saved to: .claude/LEFTOVERS_SCAN.json
 
 ✅ Phase 3.2: Categorizing Leftovers (~1 hour)
    - Categorized all 9,213 files into 9 types
    - Types: misc (72.3%), code (17.3%), config (3.7%), data (3.6%), 
      docs (2.0%), scripts (0.7%), assets (0.3%), nix (0.1%), build (0.0%)
-   - Results saved to: COMBINED/LEFTOVERS_CATEGORIZED.json
+   - Results saved to: .claude/LEFTOVERS_CATEGORIZED.json
 
 ✅ Phase 3.3: Processing Categorized Leftovers (~2 hours)
    - Processed all files according to category rules
-   - Moved 2,522 important files to COMBINED/
+   - Moved 2,522 important files to .claude/
    - Skipped 6,691 files (build/misc - intentionally left in originals)
    - 0 errors encountered
-   - Results saved to: COMBINED/LEFTOVERS_PROCESSED.json
+   - Results saved to: .claude/LEFTOVERS_PROCESSED.json
 
 ✅ Phase 3.4: Final Verification (~30 minutes)
    - Verified all file movements
    - Created comprehensive reports
    - Updated INDEX_MOVEMENTS.json to Phase 3
-   - Results saved to: COMBINED/PHASE_3_COMPLETE.md
-                       COMBINED/PHASE_3_FINAL_RU.md (Russian)
-                       COMBINED/PHASE_3_REPORT.json
+   - Results saved to: .claude/PHASE_3_COMPLETE.md
+                       .claude/PHASE_3_FINAL_RU.md (Russian)
+                       .claude/PHASE_3_REPORT.json
 
 ========================================================
 FINAL STATISTICS
 ========================================================
 
-📁 Files in COMBINED/:
+📁 Files in .claude/:
    Total files: 44,966
    Total directories: 8,848
 
@@ -67,7 +67,7 @@ FINAL STATISTICS
 WHAT WAS ACCOMPLISHED
 ========================================================
 
-✅ Moved to COMBINED/:
+✅ Moved to .claude/:
    - Documentation (README, CHANGELOG, etc.)
    - Important configuration files
    - Utility scripts (.sh, .py, .ps1, etc.)
@@ -99,23 +99,23 @@ DELIVERABLES CREATED
 ========================================================
 
 📄 Reports (English):
-   - COMBINED/PHASE_3_COMPLETE.md (comprehensive report)
-   - COMBINED/PHASE_3_REPORT.json (JSON data)
+   - .claude/PHASE_3_COMPLETE.md (comprehensive report)
+   - .claude/PHASE_3_REPORT.json (JSON data)
 
 📄 Report (Russian):
-   - COMBINED/PHASE_3_FINAL_RU.md (полный отчёт)
+   - .claude/PHASE_3_FINAL_RU.md (полный отчёт)
 
 📄 Tracking files:
-   - COMBINED/LEFTOVERS_SCAN.json (scan results)
-   - COMBINED/LEFTOVERS_CATEGORIZED.json (categorization)
-   - COMBINED/LEFTOVERS_PROCESSED.json (processing log)
-   - COMBINED/INDEX_MOVEMENTS.json (updated to Phase 3)
+   - .claude/LEFTOVERS_SCAN.json (scan results)
+   - .claude/LEFTOVERS_CATEGORIZED.json (categorization)
+   - .claude/LEFTOVERS_PROCESSED.json (processing log)
+   - .claude/INDEX_MOVEMENTS.json (updated to Phase 3)
 
 ========================================================
 STRUCTURE VERIFICATION
 ========================================================
 
-COMBINED/ structure follows READ.ME.md specification:
+.claude/ structure follows READ.ME.md specification:
 
 ✅ agents/
    ├── by-role/ (14 roles: debugger, planner, etc.)
@@ -182,6 +182,6 @@ All objectives from PHASED_MIGRATION_PLAN.md achieved:
 - Фаза 3.4: ✅ Финальная верификация
 
 Repository is now fully organized with 44,966 files
-ready for use in the COMBINED/ structure!
+ready for use in the .claude/ structure!
 
 ========================================================

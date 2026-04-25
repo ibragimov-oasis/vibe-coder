@@ -65,16 +65,16 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/16-everything-claude-code/ | Documentation |
-| .agents/skills/ | COMBINED/skills/by-domain/ | 60+ domain-specific skills |
-| .claude/commands/ | COMBINED/commands/everything-cc/ | 30+ slash commands |
-| rules/ | COMBINED/prompts/system/ecc-rules/ | Multi-language coding rules |
-| agents/ | COMBINED/agents/by-role/ | Specialized agent definitions |
-| hooks/ | COMBINED/hooks/ecc/ | Lifecycle hooks |
+| README.md | .claude/REPO_DOCS/16-everything-claude-code/ | Documentation |
+| .agents/skills/ | .claude/skills/by-domain/ | 60+ domain-specific skills |
+| .claude/commands/ | .claude/commands/everything-cc/ | 30+ slash commands |
+| rules/ | .claude/prompts/system/ecc-rules/ | Multi-language coding rules |
+| agents/ | .claude/agents/by-role/ | Specialized agent definitions |
+| hooks/ | .claude/hooks/ecc/ | Lifecycle hooks |
 
 ---
 

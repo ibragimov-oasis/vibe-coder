@@ -39,7 +39,7 @@ tags:
 ## 📁 COMPLETE DIRECTORY TREE
 
 ```
-COMBINED/
+.claude/
 │
 ├── 📂 REPO_DOCS/                      # Original repository documentation (32 repos)
 │   ├── 01-background-agents/

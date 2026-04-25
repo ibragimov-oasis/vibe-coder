@@ -170,7 +170,7 @@ It must contain a 5-step template: assess scope → cast agents → assign promp
 1. **Run this audit after every major change** to any canonical source file
 2. **Governance cadence**: Use `SYNC_CHECK.md` as a checklist after each run
 3. **Score interpretation**: 10/10 = all dimensions ✅; typical target after reconstruction is ≥8/10
-4. **This template itself lives at**: `COMBINED/prompts/prompts-templates/audit-and-reconstruct.md`
+4. **This template itself lives at**: `.claude/prompts/prompts-templates/audit-and-reconstruct.md`
 
 ## 🔗 Связи
 

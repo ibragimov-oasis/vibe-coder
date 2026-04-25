@@ -10,7 +10,7 @@ tags:
 # markitdown — How It Works
 
 **Category:** New Repo (Vibe-Coder v3.0 — original 54)
-**Local path in vibe-coder:** COMBINED/mcp-servers/mcp-markitdown/
+**Local path in vibe-coder:** .claude/mcp-servers/mcp-markitdown/
 
 ---
 
@@ -22,13 +22,13 @@ File to markdown converter: PDF, DOCX, XLSX, PPTX, images, audio, HTML, ZIP.
 
 ## Vibe-Coder Role
 
-Provides specialized capability as described above. See the files at `COMBINED/mcp-servers/mcp-markitdown/` for full documentation and usage instructions.
+Provides specialized capability as described above. See the files at `.claude/mcp-servers/mcp-markitdown/` for full documentation and usage instructions.
 
 ---
 
 ## Status
 
-- [x] Integrated into COMBINED/
+- [x] Integrated into .claude/
 - [x] Referenced in AGENTS.md and CAPABILITIES.md
 - [x] Added to MASTER_INDEX
 

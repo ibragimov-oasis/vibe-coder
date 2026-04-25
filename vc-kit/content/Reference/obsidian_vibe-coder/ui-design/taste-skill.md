@@ -11,12 +11,12 @@ aliases:
   - 3-dial design
 created: 2026-04-18
 type: ui-note
-source: "../COMBINED/ui-design/ui-taste-skill/"
+source: "../.claude/ui-design/ui-taste-skill/"
 ---
 
 # UI Design: Taste-Skill (7 Premium Skills)
 
-> **Источник:** `../COMBINED/ui-design/ui-taste-skill/`
+> **Источник:** `../.claude/ui-design/ui-taste-skill/`
 > **Rule #3:** Taste-skill — четвёртый в иерархии дизайна Vibe-Coder.
 
 ## О чём

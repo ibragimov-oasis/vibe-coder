@@ -49,7 +49,7 @@ Squad was built SPECIFICALLY for Copilot. Features:
 - **Decisions archive** — track all technical decisions
 - **Skills compound** — agents learn from each other's work
 
-Source: `COMBINED/orchestration/core-squad/`
+Source: `.claude/orchestration/core-squad/`
 
 ## 🔄 Orchestration Systems Available
 | System | Best For | Source |
@@ -61,4 +61,4 @@ Source: `COMBINED/orchestration/core-squad/`
 | Squad | Copilot team coordination | `orchestration/core-squad/` |
 
 ## Full Agent Definition
-Read: `COMBINED/agents/mega/mega-orchestrator.md`
+Read: `.claude/agents/mega/mega-orchestrator.md`

@@ -5,7 +5,7 @@ tags:
   - artifact/mega-agent
   - agent/mega-tester
   - status/active
-source: "../COMBINED/agents/mega/mega-tester.md"
+source: "../.claude/agents/mega/mega-tester.md"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -63,7 +63,7 @@ OMC + GSD + RuFlo + Superpowers + **Matt Pocock TDD + triage-issue**
 
 ## Исходник
 
-> 📂 `../COMBINED/agents/mega/mega-tester.md`
+> 📂 `../.claude/agents/mega/mega-tester.md`
 
 ## 🔗 Связи
 

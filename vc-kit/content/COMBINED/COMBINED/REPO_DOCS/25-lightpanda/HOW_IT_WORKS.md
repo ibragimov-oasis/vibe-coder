@@ -65,11 +65,11 @@ Step 6: AI reads `SECURITY.md` → understands security policy
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/25-lightpanda/ | Documentation |
+| README.md | .claude/REPO_DOCS/25-lightpanda/ | Documentation |
 
 ---
 

@@ -12,7 +12,7 @@ aliases:
   - safe git operations
 created: 2026-04-18
 type: skill
-source: "../COMBINED/skills/skills-development/git-guardrails-claude-code/"
+source: "../.claude/skills/skills-development/git-guardrails-claude-code/"
 ---
 
 # 🛡️ Skill: git-guardrails

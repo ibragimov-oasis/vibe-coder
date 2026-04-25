@@ -12,7 +12,7 @@ tags:
 Источник: фактическое сканирование `/home/runner/work/vibe-coder/vibe-coder/COMBINED`.
 
 ```text
-COMBINED/
+.claude/
 ├── agents/
 │   ├── agents-claude-skills/
 │   │   └── agents/

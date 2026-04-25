@@ -120,10 +120,10 @@ tags:
 
 ```bash
 # Find layout for specific use
-python COMBINED/workspace-config/claude/skills/design-system/scripts/search-slides.py "metrics dashboard" -d layout
+python .claude/workspace-config/claude/skills/design-system/scripts/search-slides.py "metrics dashboard" -d layout
 
 # Contextual recommendation
-python COMBINED/workspace-config/claude/skills/design-system/scripts/search-slides.py "traction slide" \
+python .claude/workspace-config/claude/skills/design-system/scripts/search-slides.py "traction slide" \
   --context --position 4 --total 10
 ```
 

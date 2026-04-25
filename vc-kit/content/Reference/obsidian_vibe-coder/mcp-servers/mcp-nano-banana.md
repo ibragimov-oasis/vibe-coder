@@ -12,12 +12,12 @@ aliases:
   - image generation mcp
 created: 2026-04-18
 type: mcp-note
-source: "../COMBINED/mcp-servers/mcp-nano-banana/"
+source: "../.claude/mcp-servers/mcp-nano-banana/"
 ---
 
 # MCP: Nano-Banana (Image Generation)
 
-> **Источник:** `../COMBINED/mcp-servers/mcp-nano-banana/`
+> **Источник:** `../.claude/mcp-servers/mcp-nano-banana/`
 > **CLI:** `npx -y nano-banana-2-mcp`
 > **Требует:** `GEMINI_API_KEY`
 

@@ -12,12 +12,12 @@ aliases:
   - pattern extraction
 created: 2026-04-18
 type: system-note
-source: "../COMBINED/orchestration/core-hermes/"
+source: "../.claude/orchestration/core-hermes/"
 ---
 
 # Orchestration: Hermes (Self-Learning)
 
-> **Источник:** `../COMBINED/orchestration/core-hermes/`
+> **Источник:** `../.claude/orchestration/core-hermes/`
 
 ## Описание
 
@@ -28,14 +28,14 @@ Self-learning loop: после каждой задачи Hermes извлекае
 ```
 Задача завершена → Hermes запускается
   → Извлечь паттерны
-  → Создать skill файл в COMBINED/skills/{domain}/
+  → Создать skill файл в .claude/skills/{domain}/
   → Сохранить в supermemory
   → Обновить OpenViking контекст
 ```
 
 ## Вывод
 
-Новые skills в `COMBINED/skills/{domain}/{skill-name}/SKILL.md`
+Новые skills в `.claude/skills/{domain}/{skill-name}/SKILL.md`
 
 ## Связи
 

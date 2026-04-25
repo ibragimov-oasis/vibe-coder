@@ -6,13 +6,13 @@ agent: agent
 
 Design and implement the described UI component using the Vibe-Coder design hierarchy:
 
-1. **Check Galaxy** (`COMBINED/ui-design/ui-components-galaxy/`) — 3,000+ ready-made components
+1. **Check Galaxy** (`.claude/ui-design/ui-components-galaxy/`) — 3,000+ ready-made components
    → Does a similar component already exist? Use it as starting point.
 
-2. **Check shadcn/ui** (`COMBINED/ui-design/ui-components-shadcn/`) — accessible React components
+2. **Check shadcn/ui** (`.claude/ui-design/ui-components-shadcn/`) — accessible React components
    → Any matching accessible component?
 
-3. **Apply Impeccable** (`COMBINED/ui-design/ui-impeccable/`) — anti-slop detection
+3. **Apply Impeccable** (`.claude/ui-design/ui-impeccable/`) — anti-slop detection
    - NO gray text on white
    - NO Inter font as default
    - NO purple gradients
@@ -28,4 +28,4 @@ Design and implement the described UI component using the Vibe-Coder design hier
 
 5. **Verify accessibility**: ARIA labels, focus rings, keyboard navigation
 
-Full methodology: `COMBINED/agents/mega/mega-designer.md`
+Full methodology: `.claude/agents/mega/mega-designer.md`

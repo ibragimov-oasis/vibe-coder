@@ -16,7 +16,7 @@ tags:
 1. ✅ Verify nothing was lost from original 31 repositories
 2. ✅ Check marshutization index completeness
 3. ✅ Validate INDEX.md accuracy
-4. ✅ Cross-reference original repositories with COMBINED/
+4. ✅ Cross-reference original repositories with .claude/
 5. ✅ Ensure all files accounted for
 
 ---
@@ -25,8 +25,8 @@ tags:
 
 ### Total Statistics:
 - **Original Repositories**: 31
-- **Files in COMBINED/**: 52,386
-- **Directories in COMBINED/**: 13,160
+- **Files in .claude/**: 52,386
+- **Directories in .claude/**: 13,160
 - **Total Size**: ~976 MB
 
 ---
@@ -195,9 +195,9 @@ tags:
 
 ### Cross-Reference Validation:
 **Checked Against**:
-- COMBINED/INDEX.md
-- COMBINED/INDEX_MOVEMENTS.json
-- COMBINED/MARSHUTIZATION.md
+- .claude/INDEX.md
+- .claude/INDEX_MOVEMENTS.json
+- .claude/MARSHUTIZATION.md
 - Git commit history
 
 **Result**: ✅ All movements documented
@@ -230,28 +230,28 @@ find agents/by-role -name "*.md" -o -name "*.yaml" | \
 
 ### 31 Repositories Validated:
 
-1. ✅ **background-agents** → COMBINED/agents/background-agents
-2. ✅ **hermes-agent** → COMBINED/agents/agents-hermes
-3. ✅ **shannon** → COMBINED/security/shannon
-4. ✅ **deer-flow** → COMBINED/orchestration/deer-flow
-5. ✅ **ruflo** → COMBINED/orchestration/ruflo + agents-ruflo + skills-ruflo
-6. ✅ **get-shit-done** → COMBINED/orchestration/get-shit-done + agents-gsd
-7. ✅ **oh-my-claudecode** → COMBINED/orchestration/oh-my-claudecode + agents-omc
-8. ✅ **superpowers** → COMBINED/orchestration/superpowers
-9. ✅ **claude-skills** → COMBINED/skills/skills-claude + agents-claude-skills
-10. ✅ **prompts.chat** → COMBINED/prompts/
-11. ✅ **browser** (Lightpanda) → COMBINED/mcp-servers/mcp-lightpanda
-12. ✅ **gitnexus** → COMBINED/mcp-servers/mcp-gitnexus
-13. ✅ **claude-mem** → COMBINED/memory/claude-mem
-14. ✅ **supermemory** → COMBINED/memory/supermemory
-15. ✅ **openviking** → COMBINED/mcp-servers/mcp-openviking + memory/openviking
-16. ✅ **galaxy** (Uiverse) → COMBINED/ui-design/galaxy
-17. ✅ **shadcn-ui** → COMBINED/ui-design/shadcn
-18. ✅ **ui-ux-pro-max** → COMBINED/ui-design/rules + styles
-19. ✅ **awesome-self-hosted** → COMBINED/reference/
+1. ✅ **background-agents** → .claude/agents/background-agents
+2. ✅ **hermes-agent** → .claude/agents/agents-hermes
+3. ✅ **shannon** → .claude/security/shannon
+4. ✅ **deer-flow** → .claude/orchestration/deer-flow
+5. ✅ **ruflo** → .claude/orchestration/ruflo + agents-ruflo + skills-ruflo
+6. ✅ **get-shit-done** → .claude/orchestration/get-shit-done + agents-gsd
+7. ✅ **oh-my-claudecode** → .claude/orchestration/oh-my-claudecode + agents-omc
+8. ✅ **superpowers** → .claude/orchestration/superpowers
+9. ✅ **claude-skills** → .claude/skills/skills-claude + agents-claude-skills
+10. ✅ **prompts.chat** → .claude/prompts/
+11. ✅ **browser** (Lightpanda) → .claude/mcp-servers/mcp-lightpanda
+12. ✅ **gitnexus** → .claude/mcp-servers/mcp-gitnexus
+13. ✅ **claude-mem** → .claude/memory/claude-mem
+14. ✅ **supermemory** → .claude/memory/supermemory
+15. ✅ **openviking** → .claude/mcp-servers/mcp-openviking + memory/openviking
+16. ✅ **galaxy** (Uiverse) → .claude/ui-design/galaxy
+17. ✅ **shadcn-ui** → .claude/ui-design/shadcn
+18. ✅ **ui-ux-pro-max** → .claude/ui-design/rules + styles
+19. ✅ **awesome-self-hosted** → .claude/reference/
 20-31. ✅ **Additional repositories** → Various COMBINED locations
 
-**Validation Method**: Cross-referenced with COMBINED/INDEX.md
+**Validation Method**: Cross-referenced with .claude/INDEX.md
 
 **Result**: ✅ ALL 31 REPOSITORIES ACCOUNTED FOR
 

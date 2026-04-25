@@ -7,5 +7,5 @@
   },
   "license": "MIT",
   "keywords": ["ui", "ux", "design", "styles", "typography", "color-palette", "accessibility", "charts", "components"],
-  "skills": ["./COMBINED/workspace-config/claude/skills/ui-ux-pro-max"]
+  "skills": ["./.claude/workspace-config/claude/skills/ui-ux-pro-max"]
 }

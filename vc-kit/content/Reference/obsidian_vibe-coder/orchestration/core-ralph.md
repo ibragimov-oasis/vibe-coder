@@ -11,12 +11,12 @@ aliases:
   - prd-driven loop
 created: 2026-04-18
 type: system-note
-source: "../COMBINED/orchestration/core-ralph/"
+source: "../.claude/orchestration/core-ralph/"
 ---
 
 # Orchestration: Ralph (PRD Loop)
 
-> **Источник:** `../COMBINED/orchestration/core-ralph/`
+> **Источник:** `../.claude/orchestration/core-ralph/`
 
 ## Описание
 

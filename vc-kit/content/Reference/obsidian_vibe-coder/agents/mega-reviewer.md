@@ -5,7 +5,7 @@ tags:
   - artifact/mega-agent
   - agent/mega-reviewer
   - status/active
-source: "../COMBINED/agents/mega/mega-reviewer.md"
+source: "../.claude/agents/mega/mega-reviewer.md"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -58,7 +58,7 @@ RuFlo + OMC + Superpowers + **code-review-graph (8.2x token reduction, blast-rad
 
 ## Исходник
 
-> 📂 `../COMBINED/agents/mega/mega-reviewer.md`
+> 📂 `../.claude/agents/mega/mega-reviewer.md`
 
 ## 🔗 Связи
 

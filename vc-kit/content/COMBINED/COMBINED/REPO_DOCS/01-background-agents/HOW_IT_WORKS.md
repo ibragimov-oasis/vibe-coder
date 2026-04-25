@@ -634,14 +634,14 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 | .vercelignore | VISIBLE_vercelignore | Custom hidden file/folder |
 | .prettierrc | VISIBLE_prettierrc | Custom hidden file/folder |
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|-----------------------|-----|
-| CLAUDE.md | COMBINED/prompts/system/ | System instructions |
-| .claude/skills/onboarding/SKILL.md | COMBINED/skills/background-agents/ | Agent skill definition |
-| README.md | COMBINED/REPO_DOCS/01-background-agents/ | Documentation |
-| AGENTS.md | COMBINED/agents/by-role/background-agents/ | Core agent files |
+| CLAUDE.md | .claude/prompts/system/ | System instructions |
+| .claude/skills/onboarding/SKILL.md | .claude/skills/background-agents/ | Agent skill definition |
+| README.md | .claude/REPO_DOCS/01-background-agents/ | Documentation |
+| AGENTS.md | .claude/agents/by-role/background-agents/ | Core agent files |
 
 ## Key insights for Vibe-Coder integration
 

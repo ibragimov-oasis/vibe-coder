@@ -27,7 +27,7 @@ MEMORY.md описывает 3-уровневую архитектуру пам�
 ### L1 — Claude-Mem (сессионная)
 - **Назначение**: краткосрочная память внутри сессии
 - **Особенность**: автоматическое сжатие контекста
-- **Путь**: `COMBINED/memory/memory-claude-mem/`
+- **Путь**: `.claude/memory/memory-claude-mem/`
 
 ### L2 — Supermemory (долгосрочная)
 - **Назначение**: cross-session память, паттерны, инсайты
@@ -38,7 +38,7 @@ MEMORY.md описывает 3-уровневую архитектуру пам�
 ### L3 — OpenViking (кодовая база)
 - **Назначение**: понимание структуры кодовой базы
 - **Особенность**: tiered loading L0/L1/L2
-- **Путь**: `COMBINED/mcp-servers/mcp-openviking/`
+- **Путь**: `.claude/mcp-servers/mcp-openviking/`
 
 ## Memory Bootstrap Protocol
 

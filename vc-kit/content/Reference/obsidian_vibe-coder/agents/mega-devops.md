@@ -5,7 +5,7 @@ tags:
   - artifact/mega-agent
   - agent/mega-devops
   - status/active
-source: "../COMBINED/agents/mega/mega-devops.md"
+source: "../.claude/agents/mega/mega-devops.md"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -68,7 +68,7 @@ git push && gh pr create --base dev
 
 ## Исходник
 
-> 📂 `../COMBINED/agents/mega/mega-devops.md`
+> 📂 `../.claude/agents/mega/mega-devops.md`
 
 ## 🔗 Связи
 

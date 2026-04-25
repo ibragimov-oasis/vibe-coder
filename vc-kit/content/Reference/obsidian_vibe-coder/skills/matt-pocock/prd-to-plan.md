@@ -10,7 +10,7 @@ aliases:
   - prd to execution plan
 created: 2026-04-18
 type: skill
-source: "../COMBINED/skills/skills-planning/prd-to-plan/"
+source: "../.claude/skills/skills-planning/prd-to-plan/"
 ---
 
 # 📋 Skill: prd-to-plan

@@ -385,7 +385,7 @@ export const githubCommand = {
 ```bash
 # V2
 npx claude-flow neural init
-npx claude-flow neural init --force --target COMBINED/workspace-config/claude/agents/neural
+npx claude-flow neural init --force --target .claude/workspace-config/claude/agents/neural
 
 # V3: Replaced by hooks pretrain
 npx claude-flow hooks pretrain

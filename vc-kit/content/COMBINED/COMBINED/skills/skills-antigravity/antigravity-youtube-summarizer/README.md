@@ -323,7 +323,7 @@ cd cli-ai-skills
 
 This creates symlinks in:
 - `~/.copilot/skills/youtube-summarizer/` (GitHub Copilot CLI)
-- `~/COMBINED/workspace-config/claude/skills/youtube-summarizer/` (Claude Code)
+- `~/.claude/workspace-config/claude/skills/youtube-summarizer/` (Claude Code)
 
 ### Repository Installation
 

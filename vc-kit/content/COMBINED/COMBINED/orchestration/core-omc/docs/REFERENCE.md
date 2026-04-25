@@ -165,7 +165,7 @@ If you need richer cross-machine behavior in the future, that would require a se
 
 ### Agent Customization
 
-Edit agent files in `~/COMBINED/workspace-config/claude/agents/` to customize behavior:
+Edit agent files in `~/.claude/workspace-config/claude/agents/` to customize behavior:
 
 ```yaml
 ---
@@ -829,8 +829,8 @@ Use Claude Code's plugin management:
 Or manually remove the installed files:
 
 ```bash
-rm ~/COMBINED/workspace-config/claude/agents/{architect,document-specialist,explore,designer,writer,vision,critic,analyst,executor,qa-tester}.md
-rm ~/COMBINED/workspace-config/claude/commands/{analyze,autopilot,deepsearch,plan,review,ultrawork}.md
+rm ~/.claude/workspace-config/claude/agents/{architect,document-specialist,explore,designer,writer,vision,critic,analyst,executor,qa-tester}.md
+rm ~/.claude/workspace-config/claude/commands/{analyze,autopilot,deepsearch,plan,review,ultrawork}.md
 ```
 
 ---

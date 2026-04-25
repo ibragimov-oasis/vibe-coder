@@ -8,7 +8,7 @@ agent: agent
 Create a detailed implementation plan for the described feature/task:
 
 1. **Understand**: What exactly does the user want? Clarify ambiguities.
-2. **Research**: Check `COMBINED/skills/skills-planning/` for relevant templates:
+2. **Research**: Check `.claude/skills/skills-planning/` for relevant templates:
    - `write-a-prd/` — PRD creation framework
    - `prd-to-plan/` — Convert PRD to executable plan
    - `grill-me/` — Challenge your own assumptions
@@ -36,4 +36,4 @@ Output format:
 - [risk]: [mitigation]
 ```
 
-Full methodology: `COMBINED/agents/mega/mega-planner.md`
+Full methodology: `.claude/agents/mega/mega-planner.md`

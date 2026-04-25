@@ -10,12 +10,12 @@ aliases:
   - antigravity skills
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-antigravity/"
+source: "../.claude/skills/skills-antigravity/"
 ---
 
 # Skills: Antigravity
 
-> **Источник:** `../COMBINED/skills/skills-antigravity/`
+> **Источник:** `../.claude/skills/skills-antigravity/`
 
 ## О чём
 

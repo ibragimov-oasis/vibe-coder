@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 ROOT="/Users/ibragimov/Desktop/GitHub/vibe-coder"
-OUT="$ROOT/COMBINED/MEGA_ORCHESTRATION.md"
+OUT="$ROOT/.claude/MEGA_ORCHESTRATION.md"
 
 cat > "$OUT" << 'HEADER'
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

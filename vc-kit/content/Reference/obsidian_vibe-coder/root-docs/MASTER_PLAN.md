@@ -20,20 +20,20 @@ aliases:
 
 ## О документе
 
-MASTER_PLAN.md определяет как должен быть организован репозиторий. Описывает категории, правила именования, структуру COMBINED/, маппинг репозиториев по категориям.
+MASTER_PLAN.md определяет как должен быть организован репозиторий. Описывает категории, правила именования, структуру .claude/, маппинг репозиториев по категориям.
 
 ## Ключевые разделы
 
 - **Repository Structure** — как всё организовано
 - **Category Mapping** — какой репо куда идёт
 - **Naming Conventions** — правила именования файлов
-- **COMBINED Structure** — детали директории COMBINED/
+- **COMBINED Structure** — детали директории .claude/
 - **Migration Phases** — фазы миграции
 
-## Структура COMBINED/
+## Структура .claude/
 
 ```
-COMBINED/
+.claude/
 ├── agents/        — Агенты (by-role, by-interface, mega)
 ├── audit/         — Аудит файлы
 ├── commands/      — Команды (gsd, omc, ruflo, shannon, superpowers)

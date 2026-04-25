@@ -21,7 +21,7 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 ### Key Results
 - **17 repositories** analyzed across 4 categories
 - **463 files** in source directories
-- **17,834 files** already in COMBINED/ (from Phase 1 MOVE operation)
+- **17,834 files** already in .claude/ (from Phase 1 MOVE operation)
 - **38.5x migration multiplier** (excellent consolidation)
 - **463 files remaining** (mostly build artifacts and configs)
 - **4 analysis JSON files** created (prompts, tools, ui, reference)
@@ -33,12 +33,12 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 ### Summary
 - **5 repositories** analyzed
 - **53 files** in source
-- **2,554 files** in COMBINED/prompts/
+- **2,554 files** in .claude/prompts/
 - **Migration:** 4817% (massive consolidation from Phase 1)
 
 ### 1.1 prompts.chat — 143k⭐ Prompt Library
 **Source:** `Prompts/prompts.chat/`
-**Combined:** `COMBINED/prompts/templates/prompts-chat/`
+**Combined:** `.claude/prompts/templates/prompts-chat/`
 
 **Statistics:**
 - Total files: 46
@@ -56,7 +56,7 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 
 ### 1.2 system-prompts-and-models-of-ai-tools
 **Source:** `Prompts/system-prompts-and-models-of-ai-tools/`
-**Combined:** `COMBINED/prompts/system-prompts/`
+**Combined:** `.claude/prompts/system-prompts/`
 
 **Statistics:**
 - Total files: 1
@@ -78,7 +78,7 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 
 ### 1.3 system_prompts_leaks
 **Source:** `Prompts/system_prompts_leaks/`
-**Combined:** `COMBINED/prompts/leaked/`
+**Combined:** `.claude/prompts/leaked/`
 
 **Statistics:**
 - Total files: 2
@@ -92,7 +92,7 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 
 ### 1.4 vibe-coding-prompt-template
 **Source:** `Prompts/vibe-coding-prompt-template/`
-**Combined:** `COMBINED/prompts/templates/vibe-coding-template/`
+**Combined:** `.claude/prompts/templates/vibe-coding-template/`
 
 **Statistics:**
 - Total files: 3
@@ -123,7 +123,7 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 ### Summary
 - **7 repositories** analyzed
 - **64 files** in source
-- **4,721 files** in COMBINED/ (memory + mcp-servers)
+- **4,721 files** in .claude/ (memory + mcp-servers)
 - **Migration:** 7377% (excellent consolidation)
 
 ### Subcategories:
@@ -133,8 +133,8 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 ---
 
 ### 2.1 claude-mem — Persistent Memory Compression
-**Source:** `COMBINED/memory/memory-claude-mem/`
-**Combined:** `COMBINED/memory/claude-mem/`
+**Source:** `.claude/memory/memory-claude-mem/`
+**Combined:** `.claude/memory/claude-mem/`
 
 **Statistics:**
 - Total files: 1
@@ -153,7 +153,7 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 
 ### 2.2 supermemory — State-of-the-Art Memory Engine
 **Source:** `Tools/supermemory/`
-**Combined:** `COMBINED/memory/supermemory/`
+**Combined:** `.claude/memory/supermemory/`
 
 **Statistics:**
 - Total files: 1
@@ -170,8 +170,8 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 ---
 
 ### 2.3 OpenViking — ByteDance Context Database
-**Source:** `COMBINED/mcp-servers/mcp-openviking/`
-**Combined:** `COMBINED/memory/openviking/`
+**Source:** `.claude/mcp-servers/mcp-openviking/`
+**Combined:** `.claude/memory/openviking/`
 
 **Statistics:**
 - Total files: 1
@@ -189,7 +189,7 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 
 ### 2.4 GitNexus — Codebase Knowledge Graph
 **Source:** `Tools/GitNexus/`
-**Combined:** `COMBINED/mcp-servers/gitnexus/`
+**Combined:** `.claude/mcp-servers/gitnexus/`
 
 **Statistics:**
 - Total files: 2
@@ -207,8 +207,8 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 ---
 
 ### 2.5 browser (lightpanda) — 9x Faster Browser ⭐️ CRITICAL
-**Source:** `COMBINED/mcp-servers/mcp-lightpanda/`
-**Combined:** `COMBINED/mcp-servers/lightpanda/`
+**Source:** `.claude/mcp-servers/mcp-lightpanda/`
+**Combined:** `.claude/mcp-servers/lightpanda/`
 
 **Statistics:**
 - Total files: 55
@@ -227,7 +227,7 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 
 ### 2.6 nano-banana-2-mcp — Gemini Image MCP
 **Source:** `Tools/nano-banana-2-mcp/`
-**Combined:** `COMBINED/mcp-servers/nano-banana/`
+**Combined:** `.claude/mcp-servers/nano-banana/`
 
 **Statistics:**
 - Total files: 2
@@ -243,8 +243,8 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 ---
 
 ### 2.7 pretext — Text Layout MCP
-**Source:** `COMBINED/mcp-servers/mcp-pretext/`
-**Combined:** `COMBINED/mcp-servers/pretext/`
+**Source:** `.claude/mcp-servers/mcp-pretext/`
+**Combined:** `.claude/mcp-servers/pretext/`
 
 **Statistics:**
 - Total files: 1
@@ -277,14 +277,14 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 ### Summary
 - **4 repositories** analyzed
 - **345 files** in source
-- **10,559 files** in COMBINED/ui-design/
+- **10,559 files** in .claude/ui-design/
 - **Migration:** 3061% (excellent consolidation)
 
 ---
 
 ### 3.1 galaxy — 3,000+ UI Elements from Uiverse.io
 **Source:** `UI-UX/galaxy/`
-**Combined:** `COMBINED/ui-design/components/galaxy/`
+**Combined:** `.claude/ui-design/components/galaxy/`
 
 **Statistics:**
 - Total files: 341
@@ -304,8 +304,8 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 ---
 
 ### 3.2 ui (shadcn) — React Component Library
-**Source:** `COMBINED/ui-design/ui-components-shadcn/`
-**Combined:** `COMBINED/ui-design/components/shadcn/`
+**Source:** `.claude/ui-design/ui-components-shadcn/`
+**Combined:** `.claude/ui-design/components/shadcn/`
 
 **Statistics:**
 - Total files: 1
@@ -325,7 +325,7 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 
 ### 3.3 ui-ux-pro-max-skill — 161 Rules + 67 Styles
 **Source:** `UI-UX/ui-ux-pro-max-skill/`
-**Combined:** `COMBINED/ui-design/rules/ui-ux-pro-max/`
+**Combined:** `.claude/ui-design/rules/ui-ux-pro-max/`
 
 **Statistics:**
 - Total files: 1
@@ -362,13 +362,13 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 ### Summary
 - **1 repository** analyzed
 - **1 file** in source
-- **0 files** in COMBINED/reference/ (not yet migrated)
+- **0 files** in .claude/reference/ (not yet migrated)
 
 ---
 
 ### 4.1 awesome-selfhosted-master — 200k⭐ Self-Hosted Tools Catalog
 **Source:** `Reference/awesome-selfhosted-master/`
-**Combined:** `COMBINED/reference/awesome-selfhosted/`
+**Combined:** `.claude/reference/awesome-selfhosted/`
 
 **Statistics:**
 - Total files: 1
@@ -425,15 +425,15 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 ### HIGH Priority (1 file)
 1. **system-prompts-and-models-of-ai-tools** — 30+ AI tools need organized structure
    - Phase 2.6.1: Merge 3 system-prompts sources
-   - Create tool-specific folders in COMBINED/prompts/system-prompts/
+   - Create tool-specific folders in .claude/prompts/system-prompts/
 
 ### MEDIUM Priority (60 files)
 1. **browser (lightpanda)** — 55 files — Critical web automation tool (9x faster)
-   - Phase 2.8: Complete migration to COMBINED/mcp-servers/lightpanda/
+   - Phase 2.8: Complete migration to .claude/mcp-servers/lightpanda/
 2. **system_prompts_leaks** — 2 files — Historical research value
-   - Phase 2.6.3: Complete migration to COMBINED/prompts/leaked/
+   - Phase 2.6.3: Complete migration to .claude/prompts/leaked/
 3. **vibe-coding-template** — 3 files — Template system
-   - Phase 2.6.2: Complete migration to COMBINED/prompts/templates/
+   - Phase 2.6.2: Complete migration to .claude/prompts/templates/
 
 ### LOW Priority (8 files)
 1. **supermemory** — 1 file — #1 benchmark memory engine
@@ -454,10 +454,10 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 ## DELIVERABLES
 
 ✅ **Created:**
-- `COMBINED/prompts_analysis.json` — 5 repositories analyzed
-- `COMBINED/tools_analysis.json` — 7 repositories analyzed
-- `COMBINED/ui_analysis.json` — 4 repositories analyzed
-- `COMBINED/reference_analysis.json` — 1 repository analyzed
+- `.claude/prompts_analysis.json` — 5 repositories analyzed
+- `.claude/tools_analysis.json` — 7 repositories analyzed
+- `.claude/ui_analysis.json` — 4 repositories analyzed
+- `.claude/reference_analysis.json` — 1 repository analyzed
 
 ✅ **Analysis Complete:**
 - All 17 repositories categorized
@@ -506,8 +506,8 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 4. Count total operations
 
 **Deliverables:**
-- `COMBINED/MASTER_INDEX.json` — Full repository map
-- `COMBINED/MIGRATION_MAP.json` — Migration plan
+- `.claude/MASTER_INDEX.json` — Full repository map
+- `.claude/MIGRATION_MAP.json` — Migration plan
 
 ### Phase 2: File Migration
 Execute the migration based on priorities identified in Phases 1.1-1.5
@@ -549,7 +549,7 @@ Execute the migration based on priorities identified in Phases 1.1-1.5
 
 **Target Structure:**
 ```
-COMBINED/prompts/system-prompts/
+.claude/prompts/system-prompts/
 ├── claude/ (All Claude prompts from 3 sources)
 ├── chatgpt/ (All ChatGPT prompts)
 ├── cursor/ (All Cursor prompts)

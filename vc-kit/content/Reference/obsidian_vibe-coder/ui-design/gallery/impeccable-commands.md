@@ -11,12 +11,12 @@ aliases:
   - anti-slop commands
 created: 2026-04-18
 type: ui-gallery
-source: "../COMBINED/ui-design/ui-impeccable/"
+source: "../.claude/ui-design/ui-impeccable/"
 ---
 
 # ✨ Impeccable — 18 Commands Reference
 
-> **Источник:** `../COMBINED/ui-design/ui-impeccable/`
+> **Источник:** `../.claude/ui-design/ui-impeccable/`
 > **Назначение:** Anti-slop detection + 18 design commands + 7 references
 > **Использовать:** Третий уровень иерархии (после Galaxy + shadcn)
 

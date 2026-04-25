@@ -11,12 +11,12 @@ aliases:
   - 20 databases
 created: 2026-04-18
 type: mcp-note
-source: "../COMBINED/mcp-servers/mcp-toolbox/"
+source: "../.claude/mcp-servers/mcp-toolbox/"
 ---
 
 # MCP: MCP Toolbox (Databases)
 
-> **Источник:** `../COMBINED/mcp-servers/mcp-toolbox/`
+> **Источник:** `../.claude/mcp-servers/mcp-toolbox/`
 
 ## Описание
 

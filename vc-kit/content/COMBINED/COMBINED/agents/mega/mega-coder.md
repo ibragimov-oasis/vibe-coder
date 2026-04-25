@@ -231,13 +231,13 @@ src/
 9. **ALWAYS use Lightpanda** for any web-related verification (NEVER Chrome)
 
 Sources:
-- RuFlo core-coder: `COMBINED/agents/by-role/coder/ruflo-core-coder.md`
-- RuFlo Python: `COMBINED/agents/by-role/coder/ruflo-python-specialist.md`
-- RuFlo TypeScript: `COMBINED/agents/by-role/coder/ruflo-typescript-specialist.md`
-- OMC executor: `COMBINED/agents/by-role/executor/executor.md`
-- OMC code-simplifier: `COMBINED/agents/by-role/coder/code-simplifier.md`
-- GSD executor: `COMBINED/agents/by-role/executor/gsd-executor.md`
-- Claude-Skills engineer: `COMBINED/agents/by-role/coder/claude-skills-engineering-cs-senior-engineer.md`
+- RuFlo core-coder: `.claude/agents/by-role/coder/ruflo-core-coder.md`
+- RuFlo Python: `.claude/agents/by-role/coder/ruflo-python-specialist.md`
+- RuFlo TypeScript: `.claude/agents/by-role/coder/ruflo-typescript-specialist.md`
+- OMC executor: `.claude/agents/by-role/executor/executor.md`
+- OMC code-simplifier: `.claude/agents/by-role/coder/code-simplifier.md`
+- GSD executor: `.claude/agents/by-role/executor/gsd-executor.md`
+- Claude-Skills engineer: `.claude/agents/by-role/coder/claude-skills-engineering-cs-senior-engineer.md`
 </rules>
 
 ## 🔗 Связи

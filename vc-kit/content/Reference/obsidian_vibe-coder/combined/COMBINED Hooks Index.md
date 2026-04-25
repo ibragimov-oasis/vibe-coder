@@ -11,12 +11,12 @@ aliases:
   - combined hooks
 created: 2026-04-18
 type: index
-source: "../COMBINED/hooks/"
+source: "../.claude/hooks/"
 ---
 
 # COMBINED Hooks Index
 
-> **Источник:** `../COMBINED/hooks/`
+> **Источник:** `../.claude/hooks/`
 
 ## Описание
 

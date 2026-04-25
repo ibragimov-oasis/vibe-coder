@@ -10,7 +10,7 @@ tags:
 # andrej-karpathy-skills — How It Works
 
 **Category:** New Repo (Vibe-Coder v3.0 — original 54)
-**Local path in vibe-coder:** COMBINED/skills/skills-claude/karpathy/
+**Local path in vibe-coder:** .claude/skills/skills-claude/karpathy/
 
 ---
 
@@ -22,13 +22,13 @@ tags:
 
 ## Vibe-Coder Role
 
-Provides specialized capability as described above. See the files at `COMBINED/skills/skills-claude/karpathy/` for full documentation and usage instructions.
+Provides specialized capability as described above. See the files at `.claude/skills/skills-claude/karpathy/` for full documentation and usage instructions.
 
 ---
 
 ## Status
 
-- [x] Integrated into COMBINED/
+- [x] Integrated into .claude/
 - [x] Referenced in AGENTS.md and CAPABILITIES.md
 - [x] Added to MASTER_INDEX
 

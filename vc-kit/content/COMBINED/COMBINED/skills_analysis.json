@@ -14,7 +14,7 @@
   "repositories": {
     "antigravity-awesome-skills": {
       "source": "Skills/antigravity-awesome-skills/",
-      "combined_location": "COMBINED/skills/development/antigravity/",
+      "combined_location": ".claude/skills/development/antigravity/",
       "type": "Massive skill library",
       "description": "1,340+ skills across 36 categories with plugin bundle system",
       "statistics": {
@@ -73,7 +73,7 @@
         "files_remaining": 8503,
         "status": "NOT_MIGRATED",
         "priority": "HIGH",
-        "recommended_action": "Migrate entire skills/ and plugins/ directories to COMBINED/skills/development/antigravity/ preserving structure"
+        "recommended_action": "Migrate entire skills/ and plugins/ directories to .claude/skills/development/antigravity/ preserving structure"
       },
       "key_insights": [
         "Two-tier architecture: 36 main skills + 38 plugin bundles",
@@ -87,12 +87,12 @@
     "claude-skills": {
       "source": "Skills/claude-skills/",
       "combined_locations": [
-        "COMBINED/skills/development/claude-skills/",
-        "COMBINED/skills/seo/claude-skills-marketing/",
-        "COMBINED/skills/skills-business/claude-skills-growth/",
-        "COMBINED/skills/skills-business/claude-skills-c-level/",
-        "COMBINED/skills/skills-data-analysis/claude-skills-finance/",
-        "COMBINED/skills/skills-business/claude-skills-ra-qm/"
+        ".claude/skills/development/claude-skills/",
+        ".claude/skills/seo/claude-skills-marketing/",
+        ".claude/skills/skills-business/claude-skills-growth/",
+        ".claude/skills/skills-business/claude-skills-c-level/",
+        ".claude/skills/skills-data-analysis/claude-skills-finance/",
+        ".claude/skills/skills-business/claude-skills-ra-qm/"
       ],
       "type": "Production-ready professional skills library",
       "description": "205 skills + 16 agents across 9 domains (engineering, marketing, product, C-level advisory, project management, compliance, business, finance)",
@@ -142,7 +142,7 @@
     },
     "awesome-copilot-main": {
       "source": "Skills/awesome-copilot-main/",
-      "combined_location": "COMBINED/agents/by-interface/copilot/awesome-copilot/",
+      "combined_location": ".claude/agents/by-interface/copilot/awesome-copilot/",
       "type": "GitHub Copilot agent and SDK library",
       "description": "230+ Copilot agents + SDK cookbook examples + instructions",
       "statistics": {
@@ -173,12 +173,12 @@
         "SDK cookbook provides implementation examples in 4 languages",
         "230+ agents cover wide range of technologies and frameworks",
         "Instructions provide Copilot-specific guidance",
-        "Already well-migrated to COMBINED/agents/by-interface/copilot/"
+        "Already well-migrated to .claude/agents/by-interface/copilot/"
       ]
     },
     "everything-claude-code": {
       "source": "Skills/everything-claude-code/",
-      "combined_location": "COMBINED/skills/development/everything-claude-code/",
+      "combined_location": ".claude/skills/development/everything-claude-code/",
       "type": "Comprehensive engineering resources",
       "description": "Top-notch, well-written resources covering core engineering domains (hackathon winner)",
       "statistics": {
@@ -215,7 +215,7 @@
     },
     "awesome-claude-code": {
       "source": "Skills/awesome-claude-code/",
-      "combined_location": "COMBINED/skills/development/awesome-claude-code/",
+      "combined_location": ".claude/skills/development/awesome-claude-code/",
       "type": "Curated skills, agents, plugins, hooks, tools",
       "description": "Curated list from Awesome Claude Code repository",
       "statistics": {
@@ -257,7 +257,7 @@
     },
     "claude-seo": {
       "source": "Skills/claude-seo/",
-      "combined_location": "COMBINED/skills/seo/claude-seo/",
+      "combined_location": ".claude/skills/seo/claude-seo/",
       "type": "SEO audit and optimization skill",
       "description": "Specialized SEO audit skill for Claude",
       "statistics": {
@@ -281,13 +281,13 @@
       },
       "key_insights": [
         "Specialized for SEO domain",
-        "Fully migrated to COMBINED/skills/seo/",
+        "Fully migrated to .claude/skills/seo/",
         "Single-purpose, focused skill"
       ]
     },
     "obsidian-skills": {
       "source": "Skills/obsidian-skills/",
-      "combined_location": "COMBINED/skills/skills-platform/obsidian/",
+      "combined_location": ".claude/skills/skills-platform/obsidian/",
       "type": "Obsidian platform integration skills",
       "description": "Skills for working with Obsidian knowledge management platform",
       "statistics": {
@@ -310,7 +310,7 @@
       },
       "key_insights": [
         "Platform-specific (Obsidian)",
-        "Fully migrated to COMBINED/skills/skills-platform/obsidian/",
+        "Fully migrated to .claude/skills/skills-platform/obsidian/",
         "Enables AI integration with Obsidian"
       ]
     }
@@ -367,7 +367,7 @@
       "action": "Migrate antigravity-awesome-skills",
       "details": {
         "source": "Skills/antigravity-awesome-skills/",
-        "destination": "COMBINED/skills/development/antigravity/",
+        "destination": ".claude/skills/development/antigravity/",
         "method": "MOVE entire skills/ and plugins/ directories preserving structure",
         "files": 8503,
         "complexity": "HIGH - requires preserving two-tier architecture (skills + plugin bundles)"
@@ -380,12 +380,12 @@
       "details": {
         "source": "Skills/claude-skills/",
         "destinations": [
-          "COMBINED/skills/development/claude-skills/engineering*",
-          "COMBINED/skills/seo/claude-skills-marketing/",
-          "COMBINED/skills/skills-business/claude-skills-growth/",
-          "COMBINED/skills/skills-business/claude-skills-c-level/",
-          "COMBINED/skills/skills-data-analysis/claude-skills-finance/",
-          "COMBINED/skills/skills-business/claude-skills-ra-qm/"
+          ".claude/skills/development/claude-skills/engineering*",
+          ".claude/skills/seo/claude-skills-marketing/",
+          ".claude/skills/skills-business/claude-skills-growth/",
+          ".claude/skills/skills-business/claude-skills-c-level/",
+          ".claude/skills/skills-data-analysis/claude-skills-finance/",
+          ".claude/skills/skills-business/claude-skills-ra-qm/"
         ],
         "method": "MOVE remaining 48 files by category",
         "files": 48,
@@ -398,7 +398,7 @@
       "action": "Review everything-claude-code leftovers",
       "details": {
         "source": "Skills/everything-claude-code/",
-        "destination": "COMBINED/skills/development/everything-claude-code/",
+        "destination": ".claude/skills/development/everything-claude-code/",
         "method": "Review remaining 72 files for unmigrated resources",
         "files": 72,
         "complexity": "LOW - likely build artifacts or configs"
@@ -410,7 +410,7 @@
       "action": "Review awesome-copilot-main leftovers",
       "details": {
         "source": "Skills/awesome-copilot-main/",
-        "destination": "COMBINED/agents/by-interface/copilot/awesome-copilot/",
+        "destination": ".claude/agents/by-interface/copilot/awesome-copilot/",
         "method": "Review remaining 20 files",
         "files": 20,
         "complexity": "LOW - likely build artifacts"

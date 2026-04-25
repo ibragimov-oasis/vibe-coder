@@ -203,15 +203,15 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 | .env.example | VISIBLE_env.example | Custom hidden file/folder |
 | .gitignore | VISIBLE_gitignore | Git ignore rules |
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|-----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/03-shannon/ | Documentation |
-| .claude/commands/pr.md | COMBINED/agents/by-role/shannon/ | Core agent files |
-| .claude/commands/review.md | COMBINED/agents/by-role/shannon/ | Core agent files |
-| CLAUDE.md | COMBINED/prompts/system/ | System instructions |
-| .claude/commands/debug.md | COMBINED/agents/by-role/shannon/ | Core agent files |
+| README.md | .claude/REPO_DOCS/03-shannon/ | Documentation |
+| .claude/commands/pr.md | .claude/agents/by-role/shannon/ | Core agent files |
+| .claude/commands/review.md | .claude/agents/by-role/shannon/ | Core agent files |
+| CLAUDE.md | .claude/prompts/system/ | System instructions |
+| .claude/commands/debug.md | .claude/agents/by-role/shannon/ | Core agent files |
 
 ## Key insights for Vibe-Coder integration
 

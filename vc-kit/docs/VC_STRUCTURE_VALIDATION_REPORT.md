@@ -6,7 +6,7 @@ tags:
 ---
 
 # STRUCTURE VALIDATION REPORT
-## COMBINED/ Directory vs READ.ME.md Target Structure
+## .claude/ Directory vs READ.ME.md Target Structure
 
 **Date:** April 4, 2026
 **Status:** ✅ **STRUCTURE MATCHES TARGET**
@@ -16,14 +16,14 @@ tags:
 
 ## Executive Summary
 
-The COMBINED/ directory structure **correctly matches** the target hierarchy specified in `COMBINED/READ.ME.md`. All major components have been successfully migrated from original repositories into the organized COMBINED structure during Phases 1-3.
+The .claude/ directory structure **correctly matches** the target hierarchy specified in `.claude/READ.ME.md`. All major components have been successfully migrated from original repositories into the organized COMBINED structure during Phases 1-3.
 
 ### Key Findings:
 - ✅ All 11 top-level directories exist and are populated
 - ✅ All subdirectory hierarchies match the target structure
-- ✅ File migration is complete (44,966 files in COMBINED/)
+- ✅ File migration is complete (44,966 files in .claude/)
 - ✅ Original directories contain only leftover build files
-- ⚠️ Minor: openviking missing from COMBINED/memory/ (only in mcp-servers/)
+- ⚠️ Minor: openviking missing from .claude/memory/ (only in mcp-servers/)
 
 ---
 
@@ -302,14 +302,14 @@ reference/
 | `Agents/hermes-agent/` | 3.0M | `agents/orchestrators/` | 13M | ✅ Migrated |
 | `Agents/shannon/` | 36K | `security/security-shannon/` | 328K | ✅ Migrated |
 | `Tools/GitNexus/` | 80K | `mcp-servers/gitnexus/` | 11M | ✅ Migrated |
-| `COMBINED/mcp-servers/mcp-openviking/` | 560K | `mcp-servers/openviking/` | 23M | ✅ Migrated |
-| `COMBINED/mcp-servers/mcp-lightpanda/` | 48K | `mcp-servers/lightpanda/` | 7.0M | ✅ Migrated |
-| `COMBINED/memory/memory-claude-mem/` | 252K | `memory/claude-mem/` | 68M | ✅ Migrated |
+| `.claude/mcp-servers/mcp-openviking/` | 560K | `mcp-servers/openviking/` | 23M | ✅ Migrated |
+| `.claude/mcp-servers/mcp-lightpanda/` | 48K | `mcp-servers/lightpanda/` | 7.0M | ✅ Migrated |
+| `.claude/memory/memory-claude-mem/` | 252K | `memory/claude-mem/` | 68M | ✅ Migrated |
 | `Tools/nano-banana-2-mcp/` | 16K | `mcp-servers/nano-banana/` | 324K | ✅ Migrated |
-| `COMBINED/mcp-servers/mcp-pretext/` | 32K | `mcp-servers/pretext/` | 7.2M | ✅ Migrated |
+| `.claude/mcp-servers/mcp-pretext/` | 32K | `mcp-servers/pretext/` | 7.2M | ✅ Migrated |
 | `Tools/supermemory/` | 12K | `memory/supermemory/` | 6.4M | ✅ Migrated |
 | `UI-UX/galaxy/` | 16K | `ui-design/ui-components-galaxy/` | Migrated | ✅ Migrated |
-| `COMBINED/ui-design/ui-components-shadcn/` | 120K | `ui-design/ui-components-shadcn/` | Migrated | ✅ Migrated |
+| `.claude/ui-design/ui-components-shadcn/` | 120K | `ui-design/ui-components-shadcn/` | Migrated | ✅ Migrated |
 | `UI-UX/ui-ux-pro-max-skill/` | 6.3M | `ui-design/ui-rules/ui-ux-pro-max/` | Migrated | ✅ Migrated |
 
 **Key Insight:** COMBINED directories are 10-100x larger than originals, confirming complete migration.
@@ -349,7 +349,7 @@ reference/
 - **Phase 1:** 39,122 files moved (smart migration)
 - **Phase 2:** Structure reorganization
 - **Phase 3:** 2,522 leftover files processed
-- **Total:** 44,966 files in COMBINED/
+- **Total:** 44,966 files in .claude/
 
 ---
 
@@ -358,7 +358,7 @@ reference/
 ### ✅ Verified Against READ.ME.md
 
 ```
-COMBINED/
+.claude/
 ├── agents/                    ✅ 3 subdirs (by-role, by-interface, orchestrators)
 ├── orchestration/             ✅ 8 systems
 ├── skills/                    ✅ 10 categories (9 required + 1 bonus)
@@ -382,7 +382,7 @@ COMBINED/
 
 ### Overall Assessment: ✅ EXCELLENT
 
-The COMBINED/ directory structure **perfectly matches** the target hierarchy defined in READ.ME.md with only one minor acceptable deviation (openviking location).
+The .claude/ directory structure **perfectly matches** the target hierarchy defined in READ.ME.md with only one minor acceptable deviation (openviking location).
 
 ### Achievements:
 1. ✅ All 11 top-level directories present
@@ -406,7 +406,7 @@ The COMBINED/ directory structure **perfectly matches** the target hierarchy def
 
 1. **Symlink for openviking:**
    ```bash
-   ln -s ../mcp-servers/openviking COMBINED/memory/openviking
+   ln -s ../mcp-servers/openviking .claude/memory/openviking
    ```
    This would make it accessible from both locations as specified in READ.ME.md
 
@@ -417,7 +417,7 @@ The COMBINED/ directory structure **perfectly matches** the target hierarchy def
 
 3. **Documentation:**
    - Update INDEX.md to reflect 100% migration completion
-   - Add this validation report to COMBINED/docs/ (if created)
+   - Add this validation report to .claude/docs/ (if created)
 
 ### No Critical Issues Found ✅
 
@@ -427,7 +427,7 @@ The structure is production-ready and matches the target specification.
 
 ## Final Verdict
 
-**СТРУКТУРА COMBINED/ ПОЛНОСТЬЮ СООТВЕТСТВУЕТ ЦЕЛЕВОЙ ИЕРАРХИИ ИЗ READ.ME.md** ✅
+**СТРУКТУРА .claude/ ПОЛНОСТЬЮ СООТВЕТСТВУЕТ ЦЕЛЕВОЙ ИЕРАРХИИ ИЗ READ.ME.md** ✅
 
 All requirements from the problem statement have been met:
 - ✅ Structure follows READ.ME.md exactly

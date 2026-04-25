@@ -11,12 +11,12 @@ aliases:
   - 10 seo agents
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-seo/"
+source: "../.claude/skills/skills-seo/"
 ---
 
 # Skills: SEO (SEOMachine)
 
-> **Источник:** `../COMBINED/skills/skills-seo/`
+> **Источник:** `../.claude/skills/skills-seo/`
 
 ## SEOMachine: 10 агентов, 26 навыков
 

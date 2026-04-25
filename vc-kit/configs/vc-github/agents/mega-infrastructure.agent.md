@@ -18,18 +18,18 @@ Use for: multi-agent swarm coordination, consensus protocol design, infrastructu
 - Q-Learning Router for intelligent task routing
 - Multiple topologies: mesh, hierarchical, ring, star
 - Fault-tolerant consensus: Raft, BFT, Gossip, CRDT
-- Source: `COMBINED/orchestration/core-ruflo/`
+- Source: `.claude/orchestration/core-ruflo/`
 
 ### Squad (Copilot-Native Teams)
 - Named agent casting for role assignment
 - Watch mode — agents monitor and react to changes
 - Decisions archive — track all architectural decisions
-- Source: `COMBINED/orchestration/core-squad/`
+- Source: `.claude/orchestration/core-squad/`
 
 ### Multica (Agent Platform)
 - Agents as teammates (board view)
 - Multi-workspace coordination
-- Source: `COMBINED/orchestration/core-multica/`
+- Source: `.claude/orchestration/core-multica/`
 
 ## 📋 Infrastructure Decision Framework
 1. **Single service** → Simple server, no swarm needed
@@ -46,4 +46,4 @@ Use for: multi-agent swarm coordination, consensus protocol design, infrastructu
 | Conflict resolution | CRDT |
 
 ## Full Agent Definition
-Read: `COMBINED/agents/mega/mega-infrastructure.md`
+Read: `.claude/agents/mega/mega-infrastructure.md`

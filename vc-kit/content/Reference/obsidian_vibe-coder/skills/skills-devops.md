@@ -10,12 +10,12 @@ aliases:
   - devops skills
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-devops/"
+source: "../.claude/skills/skills-devops/"
 ---
 
 # Skills: DevOps
 
-> **Источник:** `../COMBINED/skills/skills-devops/`
+> **Источник:** `../.claude/skills/skills-devops/`
 
 ## О чём
 

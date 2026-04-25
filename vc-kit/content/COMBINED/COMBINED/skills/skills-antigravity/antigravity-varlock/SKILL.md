@@ -429,12 +429,12 @@ Add these to your package.json:
 ### Clerk Skill
 - Test user passwords are `@sensitive`
 - Test emails are `@sensitive=false` (contain +clerk_test, not secret)
-- See: `~/COMBINED/workspace-config/claude/skills/clerk/SKILL.md`
+- See: `~/.claude/workspace-config/claude/skills/clerk/SKILL.md`
 
 ### Docker Skill
 - Mount `.env` file, never copy secrets to image
 - Use `varlock run` as entrypoint
-- See: `~/COMBINED/workspace-config/claude/skills/docker/SKILL.md`
+- See: `~/.claude/workspace-config/claude/skills/docker/SKILL.md`
 
 ---
 

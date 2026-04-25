@@ -289,14 +289,14 @@ Leader → AppendEntries → Followers
 9. **ALWAYS use Lightpanda** for any browser-based infrastructure testing
 
 Sources:
-- RuFlo consensus: `COMBINED/agents/by-role/manager/ruflo-consensus-*.md` (6 agents)
-- RuFlo swarm: `COMBINED/agents/by-role/manager/ruflo-swarm-*.md` (3 agents)
-- RuFlo HiveMind: `COMBINED/agents/by-role/manager/ruflo-hive-mind-*.md` (5 agents)
-- RuFlo optimization: `COMBINED/agents/by-role/manager/ruflo-optimization-*.md` (4 agents)
-- RuFlo sublinear: `COMBINED/agents/by-role/manager/ruflo-sublinear-*.md` (5 agents)
-- RuFlo neural: `COMBINED/agents/by-role/manager/ruflo-neural-*.md`
-- RuFlo database: `COMBINED/agents/by-role/manager/ruflo-database-specialist.md`
-- RuFlo templates: `COMBINED/agents/by-role/manager/ruflo-templates-*.md` (7 agents)
+- RuFlo consensus: `.claude/agents/by-role/manager/ruflo-consensus-*.md` (6 agents)
+- RuFlo swarm: `.claude/agents/by-role/manager/ruflo-swarm-*.md` (3 agents)
+- RuFlo HiveMind: `.claude/agents/by-role/manager/ruflo-hive-mind-*.md` (5 agents)
+- RuFlo optimization: `.claude/agents/by-role/manager/ruflo-optimization-*.md` (4 agents)
+- RuFlo sublinear: `.claude/agents/by-role/manager/ruflo-sublinear-*.md` (5 agents)
+- RuFlo neural: `.claude/agents/by-role/manager/ruflo-neural-*.md`
+- RuFlo database: `.claude/agents/by-role/manager/ruflo-database-specialist.md`
+- RuFlo templates: `.claude/agents/by-role/manager/ruflo-templates-*.md` (7 agents)
 </rules>
 
 ## 🔗 Связи

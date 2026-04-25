@@ -29,9 +29,9 @@ QUICKSTART.md — первый файл для новых пользовател
 1. Клонировать репозиторий: `git clone https://github.com/ibragimov-oasis/vibe-coder.git`
 2. Скопировать конфигурации в проект:
    ```bash
-   cp -r vibe-coder/COMBINED/claude/* YOUR_PROJECT/.claude/
-   cp -r vibe-coder/COMBINED/copilot/* YOUR_PROJECT/.github/
-   cp vibe-coder/COMBINED/cursor/COMBINED_CURSORRULES YOUR_PROJECT/.cursorrules
+   cp -r vibe-coder/.claude/claude/* YOUR_PROJECT/.claude/
+   cp -r vibe-coder/.claude/copilot/* YOUR_PROJECT/.github/
+   cp vibe-coder/.claude/cursor/COMBINED_CURSORRULES YOUR_PROJECT/.cursorrules
    ```
 3. Открыть проект в AI IDE → AI сразу имеет 54 репо worth of skills
 

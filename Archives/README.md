@@ -6,7 +6,7 @@
 
 - `root/` — архивные файлы из корня репозитория
 - `vc-kit-docs/` — завершённые фазовые/миграционные документы из `vc-kit/docs/`
-- `content-combined-phases/` — остаточные phase-артефакты из `vc-kit/content/COMBINED/COMBINED/`
+- `content-combined-phases/` — остаточные phase-артефакты из `vc-kit/content/.claude/.claude/`
 
 ## Что перенесено сейчас
 

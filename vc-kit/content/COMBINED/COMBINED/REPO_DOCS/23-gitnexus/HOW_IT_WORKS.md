@@ -65,14 +65,14 @@ Step 6: AI reads `.cursorrules` → loads Cursor AI rules for the project
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/23-gitnexus/ | Documentation |
-| .claude/skills/ | COMBINED/skills/by-domain/gitnexus/ | 7 code analysis skills |
-| .cursorrules | COMBINED/prompts/system/ | Cursor AI rules |
-| ARCHITECTURE.md | COMBINED/REPO_DOCS/23-gitnexus/ | Architecture reference |
+| README.md | .claude/REPO_DOCS/23-gitnexus/ | Documentation |
+| .claude/skills/ | .claude/skills/by-domain/gitnexus/ | 7 code analysis skills |
+| .cursorrules | .claude/prompts/system/ | Cursor AI rules |
+| ARCHITECTURE.md | .claude/REPO_DOCS/23-gitnexus/ | Architecture reference |
 
 ---
 

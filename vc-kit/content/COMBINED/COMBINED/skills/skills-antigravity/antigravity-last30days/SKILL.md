@@ -102,7 +102,7 @@ trap 'rm -f "$TOPIC_FILE"' EXIT
 cat <<'LAST30DAYS_TOPIC' > "$TOPIC_FILE"
 $ARGUMENTS
 LAST30DAYS_TOPIC
-python3 ~/COMBINED/workspace-config/claude/skills/last30days/scripts/last30days.py "$(cat "$TOPIC_FILE")" --emit=compact 2>&1
+python3 ~/.claude/workspace-config/claude/skills/last30days/scripts/last30days.py "$(cat "$TOPIC_FILE")" --emit=compact 2>&1
 ```
 
 The script will automatically:

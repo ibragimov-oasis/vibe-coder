@@ -53,8 +53,8 @@ This command runs **mega-security** (Shannon Pro) on your changed files.
 ## References
 
 - `.claude/agents/mega-security.md` — full agent spec (445 lines, Shannon Pro methodology)
-- `COMBINED/security/security-shannon/` — Shannon source
-- `COMBINED/security/security-shannon/SHANNON-PRO.md` — full pentesting methodology
+- `.claude/security/security-shannon/` — Shannon source
+- `.claude/security/security-shannon/SHANNON-PRO.md` — full pentesting methodology
 
 ## 🔗 Связи
 

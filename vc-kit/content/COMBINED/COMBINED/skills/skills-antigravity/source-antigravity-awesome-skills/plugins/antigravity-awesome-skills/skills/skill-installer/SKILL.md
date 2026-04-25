@@ -128,7 +128,7 @@ candidatos com timestamps e tamanho. Com --auto instala todos automaticamente.
 python C:\Users\renat\skills\skill-installer\scripts\install_skill.py --uninstall "nome-da-skill"
 ```
 
-Remove de `skills/`, `COMBINED/workspace-config/claude/skills/`, atualiza o registry e remove ZIP do Desktop.
+Remove de `skills/`, `.claude/workspace-config/claude/skills/`, atualiza o registry e remove ZIP do Desktop.
 Backup automatico e feito antes da remocao.
 
 ## Cenario 6: Health Check + Auto-Repair
@@ -159,7 +159,7 @@ Re-registra e atualiza o registry automaticamente.
 python C:\Users\renat\skills\skill-installer\scripts\install_skill.py --reinstall-all
 ```
 
-Re-registra TODAS as skills em `COMBINED/workspace-config/claude/skills/`, re-empacota todos os ZIPs,
+Re-registra TODAS as skills em `.claude/workspace-config/claude/skills/`, re-empacota todos os ZIPs,
 e atualiza o registry. Util apos mudancas em massa ou migracao.
 
 ## Cenario 9: Dashboard De Status
@@ -248,7 +248,7 @@ python C:\Users\renat\skills\skill-installer\scripts\package_skill.py --verify -
 4. **Verificar conflitos** - checa se ja existe no destino
 5. **Backup** - se sobrescrevendo, faz backup timestamped (exclui backups/ e staging/)
 6. **Copiar via staging** - copia para area temp, valida hash, depois move
-7. **Registrar no Claude Code CLI** - copia SKILL.md para COMBINED/workspace-config/claude/skills/<nome>/
+7. **Registrar no Claude Code CLI** - copia SKILL.md para .claude/workspace-config/claude/skills/<nome>/
 8. **Atualizar registry** - roda scan_registry.py --force (com deduplicacao por nome)
 9. **Verificar instalacao** - confirma arquivos, registry, registro (5 checks)
 10. **Empacotar ZIP** - cria ZIP para upload no Claude.ai web/desktop (validado)

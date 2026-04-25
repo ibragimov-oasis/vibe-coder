@@ -40,7 +40,7 @@ tags:
 
 ## 출력 형식
 
-`~/COMBINED/workspace-config/claude/skills/learned/[pattern-name].md`에 스킬 파일을 생성합니다:
+`~/.claude/workspace-config/claude/skills/learned/[pattern-name].md`에 스킬 파일을 생성합니다:
 
 ```markdown
 # [설명적인 패턴 이름]
@@ -67,7 +67,7 @@ tags:
 2. 가장 가치 있고 재사용 가능한 인사이트 식별
 3. 스킬 파일 초안 작성
 4. 저장 전 사용자 확인 요청
-5. `~/COMBINED/workspace-config/claude/skills/learned/`에 저장
+5. `~/.claude/workspace-config/claude/skills/learned/`에 저장
 
 ## 참고 사항
 

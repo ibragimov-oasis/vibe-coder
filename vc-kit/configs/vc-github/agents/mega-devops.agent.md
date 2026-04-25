@@ -25,7 +25,7 @@ Before ANY git operation:
 4. **Run tests**: All tests must pass before commit
 5. **Check secrets**: NO API keys, passwords, or tokens in code
 
-Source: `COMBINED/skills/skills-development/git-guardrails/`
+Source: `.claude/skills/skills-development/git-guardrails/`
 
 ## 🔄 CI/CD Process
 1. Lint → Test → Build → Deploy (in that order)
@@ -35,7 +35,7 @@ Source: `COMBINED/skills/skills-development/git-guardrails/`
 
 ## 🌐 Remote Access (cc-connect)
 For remote deployment management across 10 platforms (Telegram, Slack, Discord, etc.):
-Source: `COMBINED/orchestration/core-cc-connect/`
+Source: `.claude/orchestration/core-cc-connect/`
 
 ## ✅ Done Conditions
 - [ ] All tests pass
@@ -45,4 +45,4 @@ Source: `COMBINED/orchestration/core-cc-connect/`
 - [ ] Documentation updated if needed
 
 ## Full Agent Definition
-Read: `COMBINED/agents/mega/mega-devops.md`
+Read: `.claude/agents/mega/mega-devops.md`

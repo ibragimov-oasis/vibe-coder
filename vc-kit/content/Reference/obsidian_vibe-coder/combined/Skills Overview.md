@@ -1,11 +1,11 @@
 ---
-title: Skills Overview — COMBINED/skills
+title: Skills Overview — .claude/skills
 tags:
   - domain/skills
   - artifact/index
   - status/active
   - source/combined
-source: "../COMBINED/skills/"
+source: "../.claude/skills/"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -13,15 +13,15 @@ aliases:
   - skills directory
 ---
 
-# 📄 Skills Overview — COMBINED/skills
+# 📄 Skills Overview — .claude/skills
 
-> **Тип:** Domain overview | **Источник:** `../COMBINED/skills/`
-> **Краткое описание:** Структура директории COMBINED/skills — 3000+ навыков в 24 категориях.
+> **Тип:** Domain overview | **Источник:** `../.claude/skills/`
+> **Краткое описание:** Структура директории .claude/skills — 3000+ навыков в 24 категориях.
 
 ## Структура директории (24 категории)
 
 ```
-COMBINED/skills/
+.claude/skills/
 ├── skills-claude/            — Claude-specific + Karpathy + 69 best practices
 │   ├── karpathy/             — 4 принципа Karpathy
 │   └── best-practice/        — 69 Claude Code tips

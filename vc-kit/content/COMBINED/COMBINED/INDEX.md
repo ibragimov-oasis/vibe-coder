@@ -16,7 +16,7 @@ tags:
 
 ## 🎯 INDEX PURPOSE
 
-This document is the **complete map** of all 36 repositories in the Vibe-Coder Arsenal. Every file has been cataloged, typed, and assigned a target location in the COMBINED/ structure for Phase 1 migration.
+This document is the **complete map** of all 36 repositories in the Vibe-Coder Arsenal. Every file has been cataloged, typed, and assigned a target location in the .claude/ structure for Phase 1 migration.
 
 ---
 
@@ -933,7 +933,7 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 
 **Next Steps (Phase 1):**
 1. Create Python script for each file type to move files systematically
-2. Build COMBINED/ structure following MASTER_PLAN.md
+2. Build .claude/ structure following MASTER_PLAN.md
 3. Preserve original repository files (copy, don't move)
 4. Begin with Agents/shannon/ as instructed
 

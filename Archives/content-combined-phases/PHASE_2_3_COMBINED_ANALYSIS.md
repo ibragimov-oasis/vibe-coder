@@ -324,7 +324,7 @@ According to PHASE_1_SUMMARY.md, **9,450 leftover files** were identified:
 - **Config examples**: Should be in `security/shannon/config/`
 - **Package configs**: Should be in `security/shannon/`
 
-**Action**: Verify if already placed in COMBINED/security/
+**Action**: Verify if already placed in .claude/security/
 
 ---
 
@@ -339,7 +339,7 @@ According to PHASE_1_SUMMARY.md, **9,450 leftover files** were identified:
 - **Trajectory compressor**: Should be in `orchestration/core-hermes/tools/`
 - **Setup scripts**: Should be in `orchestration/core-hermes/scripts/`
 
-**Action**: Verify if already placed in COMBINED/orchestration/
+**Action**: Verify if already placed in .claude/orchestration/
 
 ---
 
@@ -354,7 +354,7 @@ According to PHASE_1_SUMMARY.md, **9,450 leftover files** were identified:
 - **Batch scripts**: Should be in `skills/skills-antigravity/tools/`
 - **Catalog files**: Should be in `skills/skills-antigravity/catalog/`
 
-**Action**: Check if in COMBINED/skills/ or .antigravity/
+**Action**: Check if in .claude/skills/ or .antigravity/
 
 ---
 
@@ -368,7 +368,7 @@ According to PHASE_1_SUMMARY.md, **9,450 leftover files** were identified:
 - **CLI tools**: Should be in `ui-design/ui-ux-pro-max/tools/`
 - **Preview files**: Should be in `ui-design/ui-ux-pro-max/previews/`
 
-**Action**: Verify if in COMBINED/ui-design/
+**Action**: Verify if in .claude/ui-design/
 
 ---
 

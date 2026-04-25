@@ -5,7 +5,7 @@ tags:
   - artifact/mega-agent
   - agent/mega-security
   - status/active
-source: "../COMBINED/agents/mega/mega-security.md"
+source: "../.claude/agents/mega/mega-security.md"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -65,7 +65,7 @@ Shannon Pro (35k⭐) + **code-review-graph (structural analysis)**
 
 ## Исходник
 
-> 📂 `../COMBINED/agents/mega/mega-security.md`
+> 📂 `../.claude/agents/mega/mega-security.md`
 
 ## 🔗 Связи
 

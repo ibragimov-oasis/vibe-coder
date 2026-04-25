@@ -10,12 +10,12 @@ aliases:
   - kanban tasks
 created: 2026-04-18
 type: system-note
-source: "../COMBINED/orchestration/core-vibe-kanban/"
+source: "../.claude/orchestration/core-vibe-kanban/"
 ---
 
 # Orchestration: Vibe-Kanban
 
-> **Источник:** `../COMBINED/orchestration/core-vibe-kanban/`
+> **Источник:** `../.claude/orchestration/core-vibe-kanban/`
 
 ## Описание
 

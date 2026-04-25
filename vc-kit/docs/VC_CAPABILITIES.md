@@ -39,7 +39,7 @@ For **ANY** web request, screenshot, or site check —
 # MCP server: see mcpServers.lightpanda in .cursor/mcp.json or .claude/settings.json
 ```
 
-Lightpanda docs: `COMBINED/mcp-servers/mcp-lightpanda/`
+Lightpanda docs: `.claude/mcp-servers/mcp-lightpanda/`
 
 ### RULE #2: MEMORY-FIRST — ⛔ Build Graph, Check BEFORE, Save AFTER
 
@@ -67,9 +67,9 @@ fi
 
 **Memory layers:**
 - **Code graph (⛔ mandatory)**: `.code-review-graph/graph.db` — SQLite AST graph, 22 MCP tools
-- **Short-term** (session): claude-mem → `COMBINED/memory/memory-claude-mem/`
+- **Short-term** (session): claude-mem → `.claude/memory/memory-claude-mem/`
 - **Long-term** (cross-session): supermemory → `https://mcp.supermemory.ai/mcp`
-- **Codebase context**: OpenViking → `COMBINED/mcp-servers/mcp-openviking/`
+- **Codebase context**: OpenViking → `.claude/mcp-servers/mcp-openviking/`
 
 **API keys**: Copy `.env.example` to `.env` and fill in your keys.
 
@@ -78,28 +78,28 @@ After **ANY** task: save learnings to supermemory + update code graph.
 
 ### RULE #3: UI / DESIGN
 If a task involves UI, frontend, or design:
-1. **First** → Galaxy (`COMBINED/ui-design/ui-components-galaxy/`) — 3,000+ components (Buttons, Cards, Checkboxes, Forms, Inputs, Notifications, Patterns, Radio-buttons, Toggle-switches, Tooltips, Loaders)
-2. **Then** → shadcn/ui (`COMBINED/ui-design/ui-components-shadcn/`) — accessible composable React components
-3. **Then** → Impeccable (`COMBINED/ui-design/ui-impeccable/`) — 18 design commands + 7 reference files + anti-pattern detection (fights AI slop: gray text, Inter font, purple gradients, nested cards, bounce easing)
-4. **Then** → Taste-skill (`COMBINED/ui-design/ui-taste-skill/`) — 7 premium frontend skills (taste, redesign, soft, output, minimalist, brutalist, stitch) with 3-dial parameterization (DESIGN_VARIANCE, MOTION_INTENSITY, VISUAL_DENSITY)
-5. **Then** → Stitch Skills (`COMBINED/ui-design/ui-stitch-skills/`) — Google Stitch design generation (design synthesis, prompt enhancement, React components, DESIGN.md, remotion videos)
-6. **Then** → UI/UX Pro Max rules (`COMBINED/ui-design/ui-rules/ui-ux-pro-max/`) — 161 rules
-7. **Also** → DeerFlow frontend design (`COMBINED/ui-design/ui-rules/deer-flow-frontend-design/`)
-8. **Also** → Cursor design rules (`COMBINED/ui-design/ui-cursor-rules/`)
-9. **Agent**: `mega-designer` → `COMBINED/agents/mega/mega-designer.md`
+1. **First** → Galaxy (`.claude/ui-design/ui-components-galaxy/`) — 3,000+ components (Buttons, Cards, Checkboxes, Forms, Inputs, Notifications, Patterns, Radio-buttons, Toggle-switches, Tooltips, Loaders)
+2. **Then** → shadcn/ui (`.claude/ui-design/ui-components-shadcn/`) — accessible composable React components
+3. **Then** → Impeccable (`.claude/ui-design/ui-impeccable/`) — 18 design commands + 7 reference files + anti-pattern detection (fights AI slop: gray text, Inter font, purple gradients, nested cards, bounce easing)
+4. **Then** → Taste-skill (`.claude/ui-design/ui-taste-skill/`) — 7 premium frontend skills (taste, redesign, soft, output, minimalist, brutalist, stitch) with 3-dial parameterization (DESIGN_VARIANCE, MOTION_INTENSITY, VISUAL_DENSITY)
+5. **Then** → Stitch Skills (`.claude/ui-design/ui-stitch-skills/`) — Google Stitch design generation (design synthesis, prompt enhancement, React components, DESIGN.md, remotion videos)
+6. **Then** → UI/UX Pro Max rules (`.claude/ui-design/ui-rules/ui-ux-pro-max/`) — 161 rules
+7. **Also** → DeerFlow frontend design (`.claude/ui-design/ui-rules/deer-flow-frontend-design/`)
+8. **Also** → Cursor design rules (`.claude/ui-design/ui-cursor-rules/`)
+9. **Agent**: `mega-designer` → `.claude/agents/mega/mega-designer.md`
 
 ### RULE #4: SELF-IMPROVEMENT
 After **EVERY** completed task: Hermes agent runs the self-learning loop.
 It extracts patterns, creates new skills, and updates supermemory.
-- Hermes source: `COMBINED/orchestration/core-hermes/`
-- Skills output: `COMBINED/skills/{domain}/{skill-name}/SKILL.md`
+- Hermes source: `.claude/orchestration/core-hermes/`
+- Skills output: `.claude/skills/{domain}/{skill-name}/SKILL.md`
 
 ### RULE #5: SECURITY
 After **EVERY** feature or fix: Shannon agent runs a security audit.
 If vulnerabilities found → fix them before marking complete.
-- Shannon source: `COMBINED/security/security-shannon/`
-- Shannon PRO methodology: `COMBINED/security/security-shannon/SHANNON-PRO.md`
-- Agent: `mega-security` → `COMBINED/agents/mega/mega-security.md`
+- Shannon source: `.claude/security/security-shannon/`
+- Shannon PRO methodology: `.claude/security/security-shannon/SHANNON-PRO.md`
+- Agent: `mega-security` → `.claude/agents/mega/mega-security.md`
 
 ### RULE #6: PROMPT QUALITY — Assess Before Acting
 
@@ -109,16 +109,16 @@ Before routing to a mega-agent, assess whether the user prompt is clear enough t
 IF prompt is vague ("make it better", "add a feature", "fix it") OR
    lacks specifics (no file, no error, no acceptance criteria):
 
-   → Check COMBINED/prompts/prompts-templates/ for a matching template
-   → Apply grill-me skill: COMBINED/skills/skills-planning/grill-me/
+   → Check .claude/prompts/prompts-templates/ for a matching template
+   → Apply grill-me skill: .claude/skills/skills-planning/grill-me/
    → Refine prompt with user before executing
 
 ELSE: proceed directly to agent routing
 ```
 
 **Prompt refinement resources:**
-- Templates: `COMBINED/prompts/prompts-templates/` (PRD, debug, design, audit, security, tdd, review)
-- Planning skills: `COMBINED/skills/skills-planning/grill-me/`, `write-a-prd/`, `design-an-interface/`
+- Templates: `.claude/prompts/prompts-templates/` (PRD, debug, design, audit, security, tdd, review)
+- Planning skills: `.claude/skills/skills-planning/grill-me/`, `write-a-prd/`, `design-an-interface/`
 
 ---
 
@@ -126,21 +126,21 @@ ELSE: proceed directly to agent routing
 
 | Agent | Best For | Sources |
 |-------|---------|---------|
-| [mega-orchestrator](COMBINED/agents/mega/mega-orchestrator.md) | Full pipeline, task routing | RuFlo + GSD + OMC + BG Agents + Superpowers + **Archon** + **Ralph** + **Squad** + **Multica** + **PraisonAI** + **Task Master** + **Refly** |
-| [mega-debugger](COMBINED/agents/mega/mega-debugger.md) | Bug investigation | GSD + OMC + RuFlo + Superpowers + **code-review-graph (blast-radius)** |
-| [mega-planner](COMBINED/agents/mega/mega-planner.md) | Architecture, roadmaps, PRDs | GSD 45kb + OMC + RuFlo + **Ralph** + **Matt Pocock (PRD, grill-me, prd-to-plan, prd-to-issues)** + **Task Master** |
-| [mega-researcher](COMBINED/agents/mega/mega-researcher.md) | Deep research | Hermes + GSD + DeerFlow + **PraisonAI** + **markitdown (file→markdown)** |
-| [mega-designer](COMBINED/agents/mega/mega-designer.md) | UI/UX design | Galaxy + shadcn + UI/UX Pro Max + **Impeccable (18 cmds)** + **Taste-skill (7 skills)** + **Stitch (design generation)** |
-| [mega-security](COMBINED/agents/mega/mega-security.md) | Security pentesting | Shannon Pro (35k⭐) + **code-review-graph (structural analysis)** |
-| [mega-seo](COMBINED/agents/mega/mega-seo.md) | SEO + Content Marketing | Claude-SEO + Antigravity + **SEOMachine (10 agents, 26 skills, GA4/GSC/DataForSEO)** |
-| [mega-reviewer](COMBINED/agents/mega/mega-reviewer.md) | Code review (7 dims) | RuFlo + OMC + Superpowers + **code-review-graph (8.2x token reduction, 22 MCP tools)** |
-| [mega-tester](COMBINED/agents/mega/mega-tester.md) | Testing & TDD | OMC + GSD + RuFlo + Superpowers + **Matt Pocock TDD + triage-issue** |
-| [mega-architect](COMBINED/agents/mega/mega-architect.md) | System architecture | OMC + RuFlo + GSD + **Matt Pocock improve-codebase-architecture** + **code-review-graph (community detection)** |
-| [mega-coder](COMBINED/agents/mega/mega-coder.md) | Code implementation | RuFlo + OMC + Superpowers + Claude-Skills + **PraisonAI** + **Karpathy 4 principles** + **69 best practices** |
-| [mega-executor](COMBINED/agents/mega/mega-executor.md) | Plan execution | OMC + GSD + **Ralph PRD loop** + **Archon YAML workflows** + **Task Master MCP** |
-| [mega-writer](COMBINED/agents/mega/mega-writer.md) | Documentation | OMC + RuFlo + doc-specialist + **markitdown** + **Matt Pocock edit-article** |
-| [mega-devops](COMBINED/agents/mega/mega-devops.md) | Git, CI/CD, deploy | OMC + RuFlo DevOps + **Matt Pocock git-guardrails** + **cc-connect (remote access)** |
-| [mega-infrastructure](COMBINED/agents/mega/mega-infrastructure.md) | Swarm/consensus/infra | RuFlo (80+ agents) + **Squad** + **Multica** |
+| [mega-orchestrator](.claude/agents/mega/mega-orchestrator.md) | Full pipeline, task routing | RuFlo + GSD + OMC + BG Agents + Superpowers + **Archon** + **Ralph** + **Squad** + **Multica** + **PraisonAI** + **Task Master** + **Refly** |
+| [mega-debugger](.claude/agents/mega/mega-debugger.md) | Bug investigation | GSD + OMC + RuFlo + Superpowers + **code-review-graph (blast-radius)** |
+| [mega-planner](.claude/agents/mega/mega-planner.md) | Architecture, roadmaps, PRDs | GSD 45kb + OMC + RuFlo + **Ralph** + **Matt Pocock (PRD, grill-me, prd-to-plan, prd-to-issues)** + **Task Master** |
+| [mega-researcher](.claude/agents/mega/mega-researcher.md) | Deep research | Hermes + GSD + DeerFlow + **PraisonAI** + **markitdown (file→markdown)** |
+| [mega-designer](.claude/agents/mega/mega-designer.md) | UI/UX design | Galaxy + shadcn + UI/UX Pro Max + **Impeccable (18 cmds)** + **Taste-skill (7 skills)** + **Stitch (design generation)** |
+| [mega-security](.claude/agents/mega/mega-security.md) | Security pentesting | Shannon Pro (35k⭐) + **code-review-graph (structural analysis)** |
+| [mega-seo](.claude/agents/mega/mega-seo.md) | SEO + Content Marketing | Claude-SEO + Antigravity + **SEOMachine (10 agents, 26 skills, GA4/GSC/DataForSEO)** |
+| [mega-reviewer](.claude/agents/mega/mega-reviewer.md) | Code review (7 dims) | RuFlo + OMC + Superpowers + **code-review-graph (8.2x token reduction, 22 MCP tools)** |
+| [mega-tester](.claude/agents/mega/mega-tester.md) | Testing & TDD | OMC + GSD + RuFlo + Superpowers + **Matt Pocock TDD + triage-issue** |
+| [mega-architect](.claude/agents/mega/mega-architect.md) | System architecture | OMC + RuFlo + GSD + **Matt Pocock improve-codebase-architecture** + **code-review-graph (community detection)** |
+| [mega-coder](.claude/agents/mega/mega-coder.md) | Code implementation | RuFlo + OMC + Superpowers + Claude-Skills + **PraisonAI** + **Karpathy 4 principles** + **69 best practices** |
+| [mega-executor](.claude/agents/mega/mega-executor.md) | Plan execution | OMC + GSD + **Ralph PRD loop** + **Archon YAML workflows** + **Task Master MCP** |
+| [mega-writer](.claude/agents/mega/mega-writer.md) | Documentation | OMC + RuFlo + doc-specialist + **markitdown** + **Matt Pocock edit-article** |
+| [mega-devops](.claude/agents/mega/mega-devops.md) | Git, CI/CD, deploy | OMC + RuFlo DevOps + **Matt Pocock git-guardrails** + **cc-connect (remote access)** |
+| [mega-infrastructure](.claude/agents/mega/mega-infrastructure.md) | Swarm/consensus/infra | RuFlo (80+ agents) + **Squad** + **Multica** |
 
 ---
 
@@ -149,8 +149,8 @@ ELSE: proceed directly to agent routing
 ### 🐛 coding / debugging
 ```
 agents:  mega-debugger
-         → COMBINED/agents/mega/mega-debugger.md
-         → COMBINED/agents/by-role/debugger/
+         → .claude/agents/mega/mega-debugger.md
+         → .claude/agents/by-role/debugger/
 
 sources: GSD debugger (hypothesis testing, debug sessions, checkpoints)
          OMC debugger (structured investigation, multi-file tracing)
@@ -165,8 +165,8 @@ memory:  openviking (codebase context)
 ### 💻 code implementation
 ```
 agents:  mega-coder
-         → COMBINED/agents/mega/mega-coder.md
-         → COMBINED/agents/by-role/coder/
+         → .claude/agents/mega/mega-coder.md
+         → .claude/agents/by-role/coder/
 
 sources: RuFlo core-coder (SOLID, design patterns, clean code)
          RuFlo language specialists (Python, TypeScript, Go, Rust)
@@ -183,8 +183,8 @@ tools:   gitnexus (codebase map)
 ### ⚡ plan execution
 ```
 agents:  mega-executor
-         → COMBINED/agents/mega/mega-executor.md
-         → COMBINED/agents/by-role/executor/
+         → .claude/agents/mega/mega-executor.md
+         → .claude/agents/by-role/executor/
 
 sources: OMC executor (TodoWrite tracking, 3-failure escalation)
          GSD executor (spec-driven execution, deviation handling)
@@ -196,10 +196,10 @@ tools:   gitnexus (affected areas)
 ### 🔒 security / pentesting
 ```
 agents:  mega-security
-         → COMBINED/agents/mega/mega-security.md
-         → COMBINED/security/security-shannon/
+         → .claude/agents/mega/mega-security.md
+         → .claude/security/security-shannon/
 
-methodology: Shannon PRO (COMBINED/security/security-shannon/SHANNON-PRO.md)
+methodology: Shannon PRO (.claude/security/security-shannon/SHANNON-PRO.md)
   Stage 1: Agentic Static Analysis
     - SAST data flow (CPG-based source→sink taint tracing)
     - SAST point issues (weak crypto, hardcoded creds, insecure config)
@@ -226,14 +226,14 @@ tools:   lightpanda (browser-based attacks: XSS, injection, SSRF)
 ### 🔬 research / analysis
 ```
 agents:  mega-researcher
-         → COMBINED/agents/mega/mega-researcher.md
+         → .claude/agents/mega/mega-researcher.md
 
 sources: Hermes (self-directed research, pattern extraction, learning loops)
-           → COMBINED/orchestration/core-hermes/
+           → .claude/orchestration/core-hermes/
          GSD researcher (technical analysis, codebase mapping)
-           → COMBINED/orchestration/core-gsd/
+           → .claude/orchestration/core-gsd/
          DeerFlow deep research (multi-step web research, synthesis)
-           → COMBINED/orchestration/core-deer-flow/
+           → .claude/orchestration/core-deer-flow/
 
 tools:   lightpanda (web browsing)
 memory:  supermemory (prior research)
@@ -242,20 +242,20 @@ memory:  supermemory (prior research)
 ### 🎨 design / ui / ux
 ```
 agents:  mega-designer
-         → COMBINED/agents/mega/mega-designer.md
-         → COMBINED/agents/by-role/ui-specialist/
+         → .claude/agents/mega/mega-designer.md
+         → .claude/agents/by-role/ui-specialist/
 
 sources: Galaxy / Uiverse — 3,000+ community components
-           → COMBINED/ui-design/ui-components-galaxy/
+           → .claude/ui-design/ui-components-galaxy/
            Categories: Buttons, Cards, Checkboxes, Forms, Inputs,
                        Notifications, Patterns, Radio-buttons,
                        Toggle-switches, Tooltips, Loaders
          shadcn/ui — accessible, composable React components
-           → COMBINED/ui-design/ui-components-shadcn/
+           → .claude/ui-design/ui-components-shadcn/
          UI/UX Pro Max — 161 professional design rules
-           → COMBINED/ui-design/ui-rules/ui-ux-pro-max/
+           → .claude/ui-design/ui-rules/ui-ux-pro-max/
          DeerFlow frontend design patterns
-           → COMBINED/ui-design/ui-rules/deer-flow-frontend-design/
+           → .claude/ui-design/ui-rules/deer-flow-frontend-design/
 
 tools:   nano-banana-mcp (image generation via Gemini)
          lightpanda (visual verification, screenshots)
@@ -264,11 +264,11 @@ tools:   nano-banana-mcp (image generation via Gemini)
 ### 📈 seo / content
 ```
 agents:  mega-seo
-         → COMBINED/agents/mega/mega-seo.md
+         → .claude/agents/mega/mega-seo.md
 
-skills:  COMBINED/skills/skills-seo/
+skills:  .claude/skills/skills-seo/
          → seo-audit, technical-seo, geo, content-optimization
-         → COMBINED/skills/skills-seo/seomachine/ (10 agents, 26 skills)
+         → .claude/skills/skills-seo/seomachine/ (10 agents, 26 skills)
 
 coverage: Technical SEO (crawlability, Core Web Vitals, indexing, structured data)
           On-page SEO (titles, meta, headings, content quality, E-E-A-T)
@@ -301,16 +301,16 @@ tools:   lightpanda (web crawling, SERP analysis)
 ### 🗓️ planning / architecture
 ```
 agents:  mega-planner, mega-architect, mega-orchestrator
-         → COMBINED/agents/mega/mega-planner.md
-         → COMBINED/agents/mega/mega-architect.md
-         → COMBINED/agents/mega/mega-orchestrator.md
+         → .claude/agents/mega/mega-planner.md
+         → .claude/agents/mega/mega-architect.md
+         → .claude/agents/mega/mega-orchestrator.md
 
 sources: GSD planner (detailed phased execution, Nyquist validation)
-           → COMBINED/orchestration/core-gsd/
+           → .claude/orchestration/core-gsd/
          OMC planner (multi-agent team planning, sprint organization)
-           → COMBINED/orchestration/core-omc/
+           → .claude/orchestration/core-omc/
          RuFlo architect (ADRs, system design, Q-Learning Router)
-           → COMBINED/orchestration/core-ruflo/
+           → .claude/orchestration/core-ruflo/
          OMC architect (strategic analysis, SPARC framework, read-only advisory)
 
 tools:   gitnexus (codebase map)
@@ -320,8 +320,8 @@ tools:   gitnexus (codebase map)
 ### 📖 code review
 ```
 agents:  mega-reviewer
-         → COMBINED/agents/mega/mega-reviewer.md
-         → COMBINED/agents/by-role/reviewer/
+         → .claude/agents/mega/mega-reviewer.md
+         → .claude/agents/by-role/reviewer/
 
 methodology: 7-dimension review
   1. Correctness (logic, edge cases, null handling, async)
@@ -339,8 +339,8 @@ tools:   gitnexus (codebase map)
 ### 🧪 testing
 ```
 agents:  mega-tester
-         → COMBINED/agents/mega/mega-tester.md
-         → COMBINED/agents/by-role/tester/
+         → .claude/agents/mega/mega-tester.md
+         → .claude/agents/by-role/tester/
 
 sources: OMC test-engineer (TDD enforcement, test strategy, flaky test hardening)
          OMC qa-tester (full QA workflows, acceptance testing)
@@ -362,8 +362,8 @@ tools:   gitnexus (codebase analysis)
 ### ✍️ documentation
 ```
 agents:  mega-writer
-         → COMBINED/agents/mega/mega-writer.md
-         → COMBINED/agents/by-role/writer/
+         → .claude/agents/mega/mega-writer.md
+         → .claude/agents/by-role/writer/
 
 sources: OMC writer (active voice, verified examples)
          OMC document-specialist (API docs, SDK documentation)
@@ -381,8 +381,8 @@ tools:   gitnexus (codebase understanding)
 ### 🔧 DevOps / Git / CI/CD
 ```
 agents:  mega-devops
-         → COMBINED/agents/mega/mega-devops.md
-         → COMBINED/agents/by-role/devops/
+         → .claude/agents/mega/mega-devops.md
+         → .claude/agents/by-role/devops/
 
 sources: OMC git-master (atomic commits, style detection, rebasing, branch management)
          RuFlo CI/CD (GitHub Actions, pipeline configuration)
@@ -401,8 +401,8 @@ tools:   gitnexus (repository analysis)
 ### 🏭 infrastructure / swarm coordination
 ```
 agents:  mega-infrastructure
-         → COMBINED/agents/mega/mega-infrastructure.md
-         → COMBINED/agents/by-role/manager/ (80+ agents)
+         → .claude/agents/mega/mega-infrastructure.md
+         → .claude/agents/by-role/manager/ (80+ agents)
 
 sources: RuFlo consensus (Raft, BFT, Gossip, CRDT, Quorum)
          RuFlo swarm (adaptive, hierarchical, mesh coordinators)
@@ -425,13 +425,13 @@ tools:   gitnexus (system analysis)
 ### 🧠 self-improvement / learning
 ```
 agents:  Hermes self-learning loop
-         → COMBINED/orchestration/core-hermes/
+         → .claude/orchestration/core-hermes/
 
 trigger: automatically after every completed task
 
 actions: 1. Analyze what was done
          2. Extract reusable patterns
-         3. Create skill files in COMBINED/skills/{domain}/{skill-name}/SKILL.md
+         3. Create skill files in .claude/skills/{domain}/{skill-name}/SKILL.md
          4. Update supermemory with insights
          5. Optionally update CAPABILITIES.md if new capability discovered
 ```
@@ -439,57 +439,57 @@ actions: 1. Analyze what was done
 ### 🔄 orchestration / pipeline
 ```
 agents:  mega-orchestrator
-         → COMBINED/agents/mega/mega-orchestrator.md
+         → .claude/agents/mega/mega-orchestrator.md
 
 systems (23 total):
   [1]  RuFlo (agent workflows, Q-Learning Router, 100+ agents)
-         → COMBINED/orchestration/core-ruflo/
+         → .claude/orchestration/core-ruflo/
   [2]  GSD (task execution, context engineering, spec-driven dev)
-         → COMBINED/orchestration/core-gsd/
+         → .claude/orchestration/core-gsd/
   [3]  OMC (multi-agent teams, team pipeline)
-         → COMBINED/orchestration/core-omc/
+         → .claude/orchestration/core-omc/
   [4]  DeerFlow (deep research, LangGraph + FastAPI)
-         → COMBINED/orchestration/core-deer-flow/
+         → .claude/orchestration/core-deer-flow/
   [5]  Hermes (self-learning, tool orchestration, 3000+ tests)
-         → COMBINED/orchestration/core-hermes/
+         → .claude/orchestration/core-hermes/
   [6]  Background Agents (async task execution, sandboxed envs)
-         → COMBINED/orchestration/core-background-agents/
+         → .claude/orchestration/core-background-agents/
   [7]  1Code (lightweight orchestration)
-         → COMBINED/orchestration/core-1code/
+         → .claude/orchestration/core-1code/
   [8]  Superpowers (composable development workflow)
-         → COMBINED/orchestration/superpowers/
+         → .claude/orchestration/superpowers/
   [9]  Vibe Kanban (kanban-based task management, merged with Task Master)
-         → COMBINED/orchestration/core-vibe-kanban/
+         → .claude/orchestration/core-vibe-kanban/
   [10] Terraform (infrastructure-as-code workflows)
-         → COMBINED/orchestration/workflows-terraform/
+         → .claude/orchestration/workflows-terraform/
   [11] Archon — YAML workflow engine (deterministic, repeatable AI coding flows)
-         → COMBINED/orchestration/core-archon/
+         → .claude/orchestration/core-archon/
          17 default workflows: idea-to-pr, fix-github-issue, smart-pr-review,
          plan-to-pr, architect, refactor-safely, resolve-conflicts, and more
          COMPLEMENTS Background Agent — not a replacement
   [12] Ralph — PRD-driven autonomous loop (fresh context each iteration)
-         → COMBINED/orchestration/core-ralph/
+         → .claude/orchestration/core-ralph/
          progress.txt persistence, git memory, quality gates per iteration
   [13] Squad — AI team orchestration via GitHub Copilot
-         → COMBINED/orchestration/core-squad/
+         → .claude/orchestration/core-squad/
          Named agents, casting, watch mode, decisions log, skills compound
   [14] Multica — Managed agent platform (agents-as-teammates)
-         → COMBINED/orchestration/core-multica/
+         → .claude/orchestration/core-multica/
          Board view, task assignment, reusable skills, multi-workspace
   [15] PraisonAI — Multi-agent framework (100+ LLMs, MCP, planning, research)
-         → COMBINED/orchestration/core-praisonai/
+         → .claude/orchestration/core-praisonai/
          Workflow patterns: route, parallel, loop, repeat; agent handoffs;
          doom loop detection; shadow git checkpoints; A2A protocol
   [16] Task Master — MCP-based AI task management (merged with Vibe-Kanban)
-         → COMBINED/orchestration/core-taskmaster/
+         → .claude/orchestration/core-taskmaster/
          PRD parsing, complexity analysis, 36 MCP tools, multi-model support,
          task dependencies, status tracking, expansion/subtask creation
   [17] Refly — Skills builder platform (visual workflow → executable skill)
-         → COMBINED/orchestration/core-refly/
+         → .claude/orchestration/core-refly/
          Skill registry, export to Claude Code/Cursor/MCP, workflow API,
          3,000+ native tool integrations, intervenable runtime
   [18] cc-connect — Remote agent control from 10 chat platforms
-         → COMBINED/orchestration/core-cc-connect/
+         → .claude/orchestration/core-cc-connect/
          7 AI agents × 10 platforms: Telegram, Slack, Discord, Feishu,
          DingTalk, LINE, WeChat Work, Weixin (personal), QQ, QQ Bot
          Multi-agent orchestration, cron jobs, voice/images, session management
@@ -537,7 +537,7 @@ vibe-coder/
 │
 ├── .claude/                     ← Claude Code configuration
 │   ├── CLAUDE.md                  Master Vibe-Coder v3.0 identity & instructions
-│   ├── agents/                    Mega-agents (synced from COMBINED/agents/mega/)
+│   ├── agents/                    Mega-agents (synced from .claude/agents/mega/)
 │   ├── skills/                    39+ specialized skills
 │   ├── commands/                  Slash commands
 │   ├── helpers/                   Hook scripts (session, memory, status)
@@ -563,7 +563,7 @@ vibe-coder/
 │   ├── plugins/                   Plugin configs
 │   └── skills/                    Antigravity skills
 │
-└── COMBINED/                    ← All combined content from 54 repos
+└── .claude/                    ← All combined content from 54 repos
     ├── agents/
     │   ├── mega/                   15 MEGA AGENTS (start here for any task)
     │   ├── by-role/                19 role-based agent categories (336+ agents)
@@ -630,7 +630,7 @@ Monitored by Claude HUD in real-time throughout.
 Remote delivery via cc-connect (Telegram, Slack, Discord, etc.)
 
 See `AGENTS.md` for the complete agent catalog (54 repositories).
-See `COMBINED/agents/mega/README.md` for mega-agent documentation.
+See `.claude/agents/mega/README.md` for mega-agent documentation.
 
 ## 🔗 Связи
 

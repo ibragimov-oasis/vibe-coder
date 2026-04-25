@@ -65369,33 +65369,33 @@ tags:
 
 # History Log
 
-- [4/7/2026, 11:52:11 PM] MOVE from COMBINED/agents/agents-gsd/gsd-research-synthesizer.md
-COMBINED/agents/agents-gsd/gsd-project-researcher.md
-COMBINED/agents/agents-gsd/gsd-planner.md
-COMBINED/agents/agents-gsd/gsd-plan-checker.md
-COMBINED/agents/agents-gsd/gsd-phase-researcher.md
-COMBINED/agents/agents-gsd/gsd-executor.md
-COMBINED/agents/agents-gsd/gsd-roadmapper.md
-COMBINED/agents/agents-gsd/gsd-verifier.md to COMBINED/agents/by-role - Move 8 items to COMBINED/agents/by-role: "gsd-research-synthesizer.md", "gsd-project-researcher.md", "gsd-planner.md", "gsd-plan-checker.md", "gsd-phase-researcher.md", "gsd-executor.md", "gsd-roadmapper.md", "gsd-verifier.md"
-- [4/7/2026, 11:54:01 PM] MOVE from COMBINED/agents/agents-omc/analyst.md
-COMBINED/agents/agents-omc/architect.md
-COMBINED/agents/agents-omc/code-reviewer.md
-COMBINED/agents/agents-omc/code-simplifier.md
-COMBINED/agents/agents-omc/critic.md
-COMBINED/agents/agents-omc/debugger.md
-COMBINED/agents/agents-omc/designer.md
-COMBINED/agents/agents-omc/document-specialist.md
-COMBINED/agents/agents-omc/executor.md
-COMBINED/agents/agents-omc/explore.md
-COMBINED/agents/agents-omc/git-master.md
-COMBINED/agents/agents-omc/planner.md
-COMBINED/agents/agents-omc/qa-tester.md
-COMBINED/agents/agents-omc/scientist.md
-COMBINED/agents/agents-omc/security-reviewer.md
-COMBINED/agents/agents-omc/test-engineer.md
-COMBINED/agents/agents-omc/tracer.md
-COMBINED/agents/agents-omc/verifier.md
-COMBINED/agents/agents-omc/writer.md to COMBINED/agents/by-role - Move 19 items to COMBINED/agents/by-role: "analyst.md", "architect.md", "code-reviewer.md", "code-simplifier.md", "critic.md", "debugger.md", "designer.md", "document-specialist.md", "executor.md", "explore.md", "git-master.md", "planner.md", "qa-tester.md", "scientist.md", "security-reviewer.md", "test-engineer.md", "tracer.md", "verifier.md", "writer.md"
+- [4/7/2026, 11:52:11 PM] MOVE from .claude/agents/agents-gsd/gsd-research-synthesizer.md
+.claude/agents/agents-gsd/gsd-project-researcher.md
+.claude/agents/agents-gsd/gsd-planner.md
+.claude/agents/agents-gsd/gsd-plan-checker.md
+.claude/agents/agents-gsd/gsd-phase-researcher.md
+.claude/agents/agents-gsd/gsd-executor.md
+.claude/agents/agents-gsd/gsd-roadmapper.md
+.claude/agents/agents-gsd/gsd-verifier.md to .claude/agents/by-role - Move 8 items to .claude/agents/by-role: "gsd-research-synthesizer.md", "gsd-project-researcher.md", "gsd-planner.md", "gsd-plan-checker.md", "gsd-phase-researcher.md", "gsd-executor.md", "gsd-roadmapper.md", "gsd-verifier.md"
+- [4/7/2026, 11:54:01 PM] MOVE from .claude/agents/agents-omc/analyst.md
+.claude/agents/agents-omc/architect.md
+.claude/agents/agents-omc/code-reviewer.md
+.claude/agents/agents-omc/code-simplifier.md
+.claude/agents/agents-omc/critic.md
+.claude/agents/agents-omc/debugger.md
+.claude/agents/agents-omc/designer.md
+.claude/agents/agents-omc/document-specialist.md
+.claude/agents/agents-omc/executor.md
+.claude/agents/agents-omc/explore.md
+.claude/agents/agents-omc/git-master.md
+.claude/agents/agents-omc/planner.md
+.claude/agents/agents-omc/qa-tester.md
+.claude/agents/agents-omc/scientist.md
+.claude/agents/agents-omc/security-reviewer.md
+.claude/agents/agents-omc/test-engineer.md
+.claude/agents/agents-omc/tracer.md
+.claude/agents/agents-omc/verifier.md
+.claude/agents/agents-omc/writer.md to .claude/agents/by-role - Move 19 items to .claude/agents/by-role: "analyst.md", "architect.md", "code-reviewer.md", "code-simplifier.md", "critic.md", "debugger.md", "designer.md", "document-specialist.md", "executor.md", "explore.md", "git-master.md", "planner.md", "qa-tester.md", "scientist.md", "security-reviewer.md", "test-engineer.md", "tracer.md", "verifier.md", "writer.md"
 
 ## 🔗 Связи
 

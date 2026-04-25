@@ -403,7 +403,7 @@ everything-claude-code/
 git clone https://github.com/affaan-m/everything-claude-code.git
 
 # 将代理复制到你的 Claude 配置
-cp everything-claude-code/agents/*.md ~/COMBINED/workspace-config/claude/agents/
+cp everything-claude-code/agents/*.md ~/.claude/workspace-config/claude/agents/
 
 # 复制规则目录（通用 + 语言特定）
 mkdir -p ~/.claude/rules
@@ -414,10 +414,10 @@ cp -r everything-claude-code/rules/golang ~/.claude/rules/
 cp -r everything-claude-code/rules/perl ~/.claude/rules/
 
 # 复制命令
-cp everything-claude-code/commands/*.md ~/COMBINED/workspace-config/claude/commands/
+cp everything-claude-code/commands/*.md ~/.claude/workspace-config/claude/commands/
 
 # 复制技能
-cp -r everything-claude-code/skills/* ~/COMBINED/workspace-config/claude/skills/
+cp -r everything-claude-code/skills/* ~/.claude/workspace-config/claude/skills/
 ```
 
 #### 将钩子添加到 settings.json

@@ -11,12 +11,12 @@ aliases:
   - headless browser mcp
 created: 2026-04-18
 type: mcp-note
-source: "../COMBINED/mcp-servers/mcp-lightpanda/"
+source: "../.claude/mcp-servers/mcp-lightpanda/"
 ---
 
 # MCP: Lightpanda Browser
 
-> **Источник:** `../COMBINED/mcp-servers/mcp-lightpanda/`
+> **Источник:** `../.claude/mcp-servers/mcp-lightpanda/`
 > **CLI:** `npx -y lightpanda-mcp` или `./lightpanda serve`
 > **⚠️ ОБЯЗАТЕЛЬНО:** Rule #1 — ВСЕГДА использовать Lightpanda, НИКОГДА Chrome.
 

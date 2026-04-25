@@ -204,7 +204,7 @@ if [[ "$PLATFORM" =~ "copilot" ]]; then
 fi
 
 if [[ "$PLATFORM" =~ "claude" ]]; then
-    mkdir -p "COMBINED/workspace-config/claude/skills/$SKILL_NAME"/{references,examples,scripts}
+    mkdir -p ".claude/workspace-config/claude/skills/$SKILL_NAME"/{references,examples,scripts}
 fi
 
 if [[ "$PLATFORM" =~ "codex" ]]; then
@@ -269,7 +269,7 @@ fi
 ```
 ✅ Created:
    .github/skills/your-skill-name/ (if Copilot selected)
-   COMBINED/workspace-config/claude/skills/your-skill-name/ (if Claude selected)
+   .claude/workspace-config/claude/skills/your-skill-name/ (if Claude selected)
    .codex/skills/your-skill-name/ (if Codex selected)
    ├── SKILL.md (832 lines)
    ├── README.md (347 lines)
@@ -385,8 +385,8 @@ fi
 
 # Claude Code
 if [[ " ${INSTALL_TARGETS[*]} " =~ " claude " ]]; then
-    ln -sf "$SKILLS_REPO/COMBINED/workspace-config/claude/skills/$SKILL_NAME" \
-           "$HOME/COMBINED/workspace-config/claude/skills/$SKILL_NAME"
+    ln -sf "$SKILLS_REPO/.claude/workspace-config/claude/skills/$SKILL_NAME" \
+           "$HOME/.claude/workspace-config/claude/skills/$SKILL_NAME"
     echo "✅ Installed for Claude Code"
 fi
 
@@ -403,7 +403,7 @@ fi
 ```bash
 # Check symlinks
 ls -la ~/.copilot/skills/$SKILL_NAME 2>/dev/null
-ls -la ~/COMBINED/workspace-config/claude/skills/$SKILL_NAME 2>/dev/null
+ls -la ~/.claude/workspace-config/claude/skills/$SKILL_NAME 2>/dev/null
 ls -la ~/.codex/skills/$SKILL_NAME 2>/dev/null
 ```
 

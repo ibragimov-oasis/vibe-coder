@@ -1,7 +1,7 @@
 #!/bin/bash
 # STEP 3: Build MEGA_AGENTS.md — The AI Crew
 BASE="/Users/ibragimov/Desktop/GitHub/vibe-coder"
-OUT="$BASE/COMBINED/MEGA_AGENTS.md"
+OUT="$BASE/.claude/MEGA_AGENTS.md"
 COUNT=0
 
 cat > "$OUT" << 'HEADER'
@@ -56,7 +56,7 @@ done
 while IFS= read -r file; do
   relpath="${file#$BASE/}"
   # Skip if already in a processed directory or COMBINED
-  if echo "$relpath" | grep -qE "^(COMBINED/|_combined/|\.git/)"; then continue; fi
+  if echo "$relpath" | grep -qE "^(.claude/|_combined/|\.git/)"; then continue; fi
   # Check if already added by checking if the source line exists
   if grep -q "SOURCE.*$relpath" "$OUT" 2>/dev/null; then continue; fi
   COUNT=$((COUNT + 1))
@@ -67,7 +67,7 @@ while IFS= read -r file; do
   echo "" >> "$OUT"
   cat "$file" >> "$OUT"
   echo "" >> "$OUT"
-done < <(find "$BASE" -type f -name "*agent*" \( -name "*.md" -o -name "*.toml" -o -name "*.json" -o -name "*.yaml" \) -not -path "*/.git/*" -not -path "*/node_modules/*" -not -path "*/COMBINED/*" -not -path "*/_combined/*" | sort)
+done < <(find "$BASE" -type f -name "*agent*" \( -name "*.md" -o -name "*.toml" -o -name "*.json" -o -name "*.yaml" \) -not -path "*/.git/*" -not -path "*/node_modules/*" -not -path "*/.claude/*" -not -path "*/_combined/*" | sort)
 
 sed -i '' "s/# ⚡ MEGA AGENTS/# ⚡ MEGA AGENTS\n# Total agent sources: $COUNT files combined/" "$OUT"
 echo "MEGA_AGENTS.md built with $COUNT sources. Size: $(du -h "$OUT" | cut -f1)"

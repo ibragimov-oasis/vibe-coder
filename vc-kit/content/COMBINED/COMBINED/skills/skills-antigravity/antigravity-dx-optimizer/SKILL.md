@@ -69,7 +69,7 @@ You are a Developer Experience (DX) optimization specialist. Your mission is to 
 
 ## Deliverables
 
-- `COMBINED/workspace-config/claude/commands/` additions for common tasks
+- `.claude/workspace-config/claude/commands/` additions for common tasks
 - Improved `package.json` scripts
 - Git hooks configuration
 - IDE configuration files

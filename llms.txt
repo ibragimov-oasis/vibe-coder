@@ -8,7 +8,7 @@
 - License: Apache-2.0
 
 ## Quick Start
-Copy COMBINED/ contents to your project root and restore dot-prefixes.
+Copy .claude/ contents to your project root and restore dot-prefixes.
 See: /QUICKSTART.md
 
 ## Master Plan
@@ -17,14 +17,14 @@ See: /QUICKSTART.md
 - Skill merge tracker: /MERGE_PLAN.md
 
 ## Root Configs (Ready to Copy)
-- Claude Code: /COMBINED/claude/
-- GitHub Copilot: /COMBINED/copilot/
-- Cursor AI: /COMBINED/cursor/
-- Antigravity: /COMBINED/antigravity/
-- Prompts: /COMBINED/prompts/
-- UI/UX: /COMBINED/ui/
-- Orchestration: /COMBINED/orchestration/
-- Memory: /COMBINED/memory/
+- Claude Code: /.claude/claude/
+- GitHub Copilot: /.claude/copilot/
+- Cursor AI: /.claude/cursor/
+- Antigravity: /.claude/antigravity/
+- Prompts: /.claude/prompts/
+- UI/UX: /.claude/ui/
+- Orchestration: /.claude/orchestration/
+- Memory: /.claude/memory/
 
 ## Agents
 - Background Agents (Open-Inspect): /Agents/background-agents/
@@ -121,8 +121,8 @@ See: /QUICKSTART.md
 ## How to Activate
 1. Clone: git clone https://github.com/ibragimov-oasis/vibe-coder.git
 2. Copy configs to your project:
-   cp -r vibe-coder/COMBINED/claude/* YOUR_PROJECT/.claude/
-   cp -r vibe-coder/COMBINED/copilot/* YOUR_PROJECT/.github/
-   cp vibe-coder/COMBINED/cursor/COMBINED_CURSORRULES YOUR_PROJECT/.cursorrules
+   cp -r vibe-coder/.claude/claude/* YOUR_PROJECT/.claude/
+   cp -r vibe-coder/.claude/copilot/* YOUR_PROJECT/.github/
+   cp vibe-coder/.claude/cursor/COMBINED_CURSORRULES YOUR_PROJECT/.cursorrules
 3. Open your project in any AI coding tool
 4. Your AI now has combined skills and instructions from 54 repositories

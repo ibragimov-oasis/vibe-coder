@@ -11,12 +11,12 @@ aliases:
   - codebase map
 created: 2026-04-18
 type: mcp-note
-source: "../COMBINED/mcp-servers/mcp-gitnexus/"
+source: "../.claude/mcp-servers/mcp-gitnexus/"
 ---
 
 # MCP: GitNexus (Code Map)
 
-> **Источник:** `../COMBINED/mcp-servers/mcp-gitnexus/`
+> **Источник:** `../.claude/mcp-servers/mcp-gitnexus/`
 > **CLI:** `npx -y gitnexus@latest mcp`
 
 ## Описание

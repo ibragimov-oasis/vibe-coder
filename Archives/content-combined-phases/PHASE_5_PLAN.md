@@ -1,7 +1,7 @@
 # Phase 5: Audit & Verification
 
 ## Summary
-Phase 5 performs comprehensive audit and verification of the entire COMBINED/ structure, ensuring data integrity, fixing broken references, validating frontmatter, and creating a final quality report.
+Phase 5 performs comprehensive audit and verification of the entire .claude/ structure, ensuring data integrity, fixing broken references, validating frontmatter, and creating a final quality report.
 
 ## Status
 🔄 **Ready to Execute** (after Phase 4)
@@ -12,7 +12,7 @@ April 4, 2026
 ## Objectives
 
 ### Goal
-Systematically verify the integrity, completeness, and quality of all 44,966 files in COMBINED/, fix any issues found, and generate comprehensive audit reports.
+Systematically verify the integrity, completeness, and quality of all 44,966 files in .claude/, fix any issues found, and generate comprehensive audit reports.
 
 ### Why This Matters
 - **Data Integrity**: Ensure no files were corrupted or lost
@@ -71,7 +71,7 @@ find COMBINED -type f | wc -l  # Should be 44,966
 find COMBINED -type f -size 0  # Should be minimal
 
 # Verify directory structure
-ls -la COMBINED/  # Should have all expected directories
+ls -la .claude/  # Should have all expected directories
 
 # Check permissions
 find COMBINED -type f ! -perm 644  # Identify permission issues
@@ -82,7 +82,7 @@ find COMBINED -type f ! -perm 644  # Identify permission issues
 2. Spot-check random files from each category
 3. Verify no critical files missing
 
-**Deliverable:** `COMBINED/audit/FILE_INTEGRITY_REPORT.md`
+**Deliverable:** `.claude/audit/FILE_INTEGRITY_REPORT.md`
 
 ### Phase 5.2: Reference & Link Validation (4-6 hours)
 
@@ -118,8 +118,8 @@ def find_broken_links(directory):
 3. Validate MCP server references
 
 **Deliverable:**
-- `COMBINED/audit/BROKEN_LINKS_REPORT.md`
-- `COMBINED/audit/BROKEN_LINKS_FIXED.md` (after fixes)
+- `.claude/audit/BROKEN_LINKS_REPORT.md`
+- `.claude/audit/BROKEN_LINKS_FIXED.md` (after fixes)
 
 ### Phase 5.3: Frontmatter Validation (3-4 hours)
 
@@ -164,8 +164,8 @@ def validate_skill_frontmatter(skill_file):
 ```
 
 **Deliverables:**
-- `COMBINED/audit/FRONTMATTER_VALIDATION_REPORT.md`
-- `COMBINED/audit/INVALID_FRONTMATTER.json`
+- `.claude/audit/FRONTMATTER_VALIDATION_REPORT.md`
+- `.claude/audit/INVALID_FRONTMATTER.json`
 - Fixed frontmatter in all files
 
 ### Phase 5.4: Content Quality Audit (6-8 hours)
@@ -208,7 +208,7 @@ def audit_naming_conventions(directory):
     return issues
 ```
 
-**Deliverable:** `COMBINED/audit/QUALITY_AUDIT_REPORT.md`
+**Deliverable:** `.claude/audit/QUALITY_AUDIT_REPORT.md`
 
 ### Phase 5.5: Metadata Verification (2-3 hours)
 
@@ -237,7 +237,7 @@ def verify_index_accuracy():
     for category in ['agents', 'skills', 'commands', 'hooks',
                      'prompts', 'orchestration', 'memory',
                      'mcp-servers', 'ui-design', 'security']:
-        path = Path(f'COMBINED/{category}')
+        path = Path(f'.claude/{category}')
         actual_counts[category] = len(list(path.rglob('*.*')))
 
     # Compare with INDEX.md claims
@@ -245,7 +245,7 @@ def verify_index_accuracy():
     return actual_counts
 ```
 
-**Deliverable:** `COMBINED/audit/METADATA_VERIFICATION_REPORT.md`
+**Deliverable:** `.claude/audit/METADATA_VERIFICATION_REPORT.md`
 
 ### Phase 5.6: Integration Testing (3-4 hours)
 
@@ -271,7 +271,7 @@ def verify_index_accuracy():
    - Are hook configurations valid?
    - Do hook dependencies exist?
 
-**Deliverable:** `COMBINED/audit/INTEGRATION_TEST_REPORT.md`
+**Deliverable:** `.claude/audit/INTEGRATION_TEST_REPORT.md`
 
 ### Phase 5.7: Generate Final Audit Report (2 hours)
 
@@ -283,12 +283,12 @@ def verify_index_accuracy():
 4. Recommendations for Phase 6
 5. Quality score (0-100)
 
-**Deliverable:** `COMBINED/audit/FINAL_AUDIT_REPORT.md`
+**Deliverable:** `.claude/audit/FINAL_AUDIT_REPORT.md`
 
 ## Directory Structure
 
 ```
-COMBINED/audit/
+.claude/audit/
 ├── README.md                           # Audit overview
 ├── FILE_INTEGRITY_REPORT.md            # Phase 5.1 results
 ├── BROKEN_LINKS_REPORT.md              # Phase 5.2 initial findings
@@ -418,7 +418,7 @@ if __name__ == '__main__':
 1. **Reports** (8 markdown files)
 2. **Scripts** (4 Python scripts)
 3. **Data** (3 JSON files with detailed findings)
-4. **Fixes** (Applied to COMBINED/ files)
+4. **Fixes** (Applied to .claude/ files)
 5. **Documentation** (Audit process documentation)
 
 ## Quality Metrics

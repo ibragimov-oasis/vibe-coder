@@ -58,7 +58,7 @@ This spawns 3 headless Codex workers in background.
 
 ## Related Agents
 
-See `COMBINED/workspace-config/claude/agents/dual-mode/` for agent definitions:
+See `.claude/workspace-config/claude/agents/dual-mode/` for agent definitions:
 - `dual-orchestrator` - Hybrid workflow orchestration
 - `codex-coordinator` - Parallel worker coordination
 - `codex-worker` - Headless execution worker
@@ -74,7 +74,7 @@ All workers share memory via claude-flow MCP tools for seamless coordination.
 
 ## Installation
 
-Skills are pre-installed in `COMBINED/workspace-config/claude/skills/dual-mode/`.
+Skills are pre-installed in `.claude/workspace-config/claude/skills/dual-mode/`.
 Invoke with `/skill-name` in Claude Code.
 
 ## 🔗 Связи

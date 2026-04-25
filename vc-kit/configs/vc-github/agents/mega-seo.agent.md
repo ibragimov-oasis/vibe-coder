@@ -37,7 +37,7 @@ Use for: technical SEO audit, meta tags optimization, sitemap generation, struct
 - DataForSEO for keyword and competitor data
 - WordPress publishing automation (26 marketing skills)
 
-Source: `COMBINED/skills/skills-seo/`
+Source: `.claude/skills/skills-seo/`
 
 ## Full Agent Definition
-Read: `COMBINED/agents/mega/mega-seo.md`
+Read: `.claude/agents/mega/mega-seo.md`

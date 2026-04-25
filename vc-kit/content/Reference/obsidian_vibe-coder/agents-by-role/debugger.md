@@ -9,12 +9,12 @@ aliases:
   - debugger agents
 created: 2026-04-18
 type: agents-role
-source: "../COMBINED/agents/by-role/debugger/"
+source: "../.claude/agents/by-role/debugger/"
 ---
 
 # Agents By Role: Debugger (3)
 
-> **Источник:** `../COMBINED/agents/by-role/debugger/`
+> **Источник:** `../.claude/agents/by-role/debugger/`
 > **Количество:** 3 агента
 
 ## Агенты

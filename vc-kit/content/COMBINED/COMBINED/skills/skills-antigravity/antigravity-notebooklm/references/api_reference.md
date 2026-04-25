@@ -189,7 +189,7 @@ is_auth = auth.is_authenticated()
 
 ## Data Storage
 
-Location: `~/COMBINED/workspace-config/claude/skills/notebooklm/data/`
+Location: `~/.claude/workspace-config/claude/skills/notebooklm/data/`
 
 ```
 data/

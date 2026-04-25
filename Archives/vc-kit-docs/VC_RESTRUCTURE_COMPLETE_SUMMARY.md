@@ -119,7 +119,7 @@ agents/
 5. **RESTRUCTURE_VALIDATION_REPORT.md** - Comprehensive validation (this is the detailed report)
 6. **RESTRUCTURE_COMPLETE_SUMMARY.md** - This quick summary
 
-All documents located in: `/home/runner/work/vibe-coder/vibe-coder/COMBINED/`
+All documents located in: `/home/runner/work/vibe-coder/vibe-coder/.claude/`
 
 ---
 
@@ -134,7 +134,7 @@ All documents located in: `/home/runner/work/vibe-coder/vibe-coder/COMBINED/`
 - ✅ Documentation updated
 - ✅ Git history preserved
 
-**Full validation details:** See `COMBINED/RESTRUCTURE_VALIDATION_REPORT.md`
+**Full validation details:** See `.claude/RESTRUCTURE_VALIDATION_REPORT.md`
 
 ---
 
@@ -160,17 +160,17 @@ The restructure is complete. The repository is now ready for:
 - Release v1.0.0
 - Estimated time: 2-3 weeks
 
-**See:** `COMBINED/QUICK_START_PHASES_4-6.md` for detailed next steps.
+**See:** `.claude/QUICK_START_PHASES_4-6.md` for detailed next steps.
 
 ---
 
 ## 📞 Quick Links
 
-- **Detailed Validation Report:** [COMBINED/RESTRUCTURE_VALIDATION_REPORT.md](COMBINED/RESTRUCTURE_VALIDATION_REPORT.md)
-- **Original Plan:** [COMBINED/RESTRUCTURE_PLAN.md](COMBINED/RESTRUCTURE_PLAN.md)
-- **Next Steps Guide:** [COMBINED/QUICK_START_PHASES_4-6.md](COMBINED/QUICK_START_PHASES_4-6.md)
-- **Project Status:** [COMBINED/COMPLETE_STATUS_REPORT.md](COMBINED/COMPLETE_STATUS_REPORT.md)
-- **Main Index:** [COMBINED/INDEX.md](COMBINED/INDEX.md)
+- **Detailed Validation Report:** [.claude/RESTRUCTURE_VALIDATION_REPORT.md](.claude/RESTRUCTURE_VALIDATION_REPORT.md)
+- **Original Plan:** [.claude/RESTRUCTURE_PLAN.md](.claude/RESTRUCTURE_PLAN.md)
+- **Next Steps Guide:** [.claude/QUICK_START_PHASES_4-6.md](.claude/QUICK_START_PHASES_4-6.md)
+- **Project Status:** [.claude/COMPLETE_STATUS_REPORT.md](.claude/COMPLETE_STATUS_REPORT.md)
+- **Main Index:** [.claude/INDEX.md](.claude/INDEX.md)
 
 ---
 

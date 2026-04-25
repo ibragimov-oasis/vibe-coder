@@ -48,7 +48,7 @@ Detaylı yönergeler `~/.claude/rules/` içinde:
 
 ## Kullanılabilir Agent'lar
 
-`~/COMBINED/workspace-config/claude/agents/` konumunda bulunur:
+`~/.claude/workspace-config/claude/agents/` konumunda bulunur:
 
 | Agent | Amaç |
 |-------|------|

@@ -94,7 +94,7 @@ name: project-catalog-developer
 
 **Check:**
 ```bash
-cat COMBINED/workspace-config/claude/skills/skill-rules.json | jq .
+cat .claude/workspace-config/claude/skills/skill-rules.json | jq .
 ```
 
 If invalid JSON, jq will show the error.

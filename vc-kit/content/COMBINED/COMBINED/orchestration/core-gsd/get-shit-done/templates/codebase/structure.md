@@ -241,7 +241,7 @@ get-shit-done/
 - Committed: Yes (source of truth)
 
 **commands/**
-- Purpose: Slash commands installed to ~/COMBINED/workspace-config/claude/commands/
+- Purpose: Slash commands installed to ~/.claude/workspace-config/claude/commands/
 - Source: Copied by bin/install.js during installation
 - Committed: Yes (source of truth)
 

@@ -35,7 +35,7 @@ Read STATE.md before any operation to load project context.
 </required_reading>
 
 <available_agent_types>
-These are the valid GSD subagent types registered in COMBINED/workspace-config/claude/agents/ (or equivalent for your runtime).
+These are the valid GSD subagent types registered in .claude/workspace-config/claude/agents/ (or equivalent for your runtime).
 Always use the exact name from this list — do not fall back to 'general-purpose' or other built-in types:
 
 - gsd-executor — Executes plan tasks, commits, creates SUMMARY.md
@@ -263,7 +263,7 @@ Execute each selected wave in sequence. Within a wave: parallel if `PARALLELIZAT
        - .planning/STATE.md (State)
        - .planning/config.json (Config, if exists)
        - ./CLAUDE.md (Project instructions, if exists — follow project-specific guidelines and coding conventions)
-       - COMBINED/workspace-config/claude/skills/ or .agents/skills/ (Project skills, if either exists — list skills, read SKILL.md for each, follow relevant rules during implementation)
+       - .claude/workspace-config/claude/skills/ or .agents/skills/ (Project skills, if either exists — list skills, read SKILL.md for each, follow relevant rules during implementation)
        </files_to_read>
 
        ${AGENT_SKILLS}

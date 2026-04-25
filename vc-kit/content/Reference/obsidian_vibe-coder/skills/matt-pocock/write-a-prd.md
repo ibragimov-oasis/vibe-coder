@@ -11,7 +11,7 @@ aliases:
   - product requirements document
 created: 2026-04-18
 type: skill
-source: "../COMBINED/skills/skills-planning/write-a-prd/"
+source: "../.claude/skills/skills-planning/write-a-prd/"
 ---
 
 # ✍️ Skill: write-a-prd

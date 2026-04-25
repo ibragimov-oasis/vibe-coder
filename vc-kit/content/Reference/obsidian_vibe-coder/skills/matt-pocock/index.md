@@ -11,7 +11,7 @@ aliases:
   - 20 skills index
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-planning/"
+source: "../.claude/skills/skills-planning/"
 ---
 
 # 📚 Matt Pocock Skills — Index

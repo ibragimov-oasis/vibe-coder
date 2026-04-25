@@ -43,5 +43,5 @@ If 3 fix attempts fail → STOP and escalate:
 3. Suggest alternative approaches or team members to involve
 
 ## 📚 Resources
-- `COMBINED/agents/mega/mega-debugger.md` — full specification
-- `COMBINED/skills/skills-development/triage-issue/` — Matt Pocock triage methodology
+- `.claude/agents/mega/mega-debugger.md` — full specification
+- `.claude/skills/skills-development/triage-issue/` — Matt Pocock triage methodology

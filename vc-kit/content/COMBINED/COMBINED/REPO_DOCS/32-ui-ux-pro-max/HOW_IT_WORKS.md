@@ -66,15 +66,15 @@ Step 6: AI reads `src/ui-ux-pro-max/scripts/` → loads Python scripts (core.py,
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/32-ui-ux-pro-max/ | Documentation |
-| .claude/skills/ui-ux-pro-max/ | COMBINED/skills/by-domain/ui-ux/ | Main UI/UX skill |
-| .claude/skills/ui-styling/ | COMBINED/skills/by-domain/ui-styling/ | UI styling skill with fonts/references |
-| CLAUDE.md | COMBINED/prompts/system/ | Claude system instructions |
-| src/ui-ux-pro-max/data/ | COMBINED/ui-design/ui-rules/ | Design data (colors, fonts, styles) |
+| README.md | .claude/REPO_DOCS/32-ui-ux-pro-max/ | Documentation |
+| .claude/skills/ui-ux-pro-max/ | .claude/skills/by-domain/ui-ux/ | Main UI/UX skill |
+| .claude/skills/ui-styling/ | .claude/skills/by-domain/ui-styling/ | UI styling skill with fonts/references |
+| CLAUDE.md | .claude/prompts/system/ | Claude system instructions |
+| src/ui-ux-pro-max/data/ | .claude/ui-design/ui-rules/ | Design data (colors, fonts, styles) |
 
 ---
 

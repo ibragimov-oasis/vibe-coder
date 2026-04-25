@@ -49,12 +49,12 @@ Step 3: AI references uiverse.io → browses elements visually with search and i
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/30-galaxy/ | Documentation |
-| Elements/ | COMBINED/ui-design/ui-components-galaxy/ | 3000+ copy-paste UI elements |
+| README.md | .claude/REPO_DOCS/30-galaxy/ | Documentation |
+| Elements/ | .claude/ui-design/ui-components-galaxy/ | 3000+ copy-paste UI elements |
 
 ---
 

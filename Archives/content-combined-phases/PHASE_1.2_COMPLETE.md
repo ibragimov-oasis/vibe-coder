@@ -31,7 +31,7 @@ Phase 1.2 has successfully completed the comprehensive analysis of the **Agents/
 ### 1.1 Shannon — AI Pentester
 **Type:** Security Testing Agent
 **Source:** `Agents/shannon/`
-**Combined Location:** `COMBINED/security/shannon/`
+**Combined Location:** `.claude/security/shannon/`
 
 **Files Remaining:** 62
 - **Commands:** 3 files (debug.md, review.md, pr.md)
@@ -44,13 +44,13 @@ Phase 1.2 has successfully completed the comprehensive analysis of the **Agents/
 - **Configs:** 29 files (Docker, package.json, tsconfig, GitHub workflows)
 
 **Migration Status:**
-- ✅ Main shannon files migrated to COMBINED/security/shannon/
-- ⚠️ Commands NOT yet in COMBINED/commands/
-- ⚠️ Security prompts NOT yet in COMBINED/prompts/security/shannon/
+- ✅ Main shannon files migrated to .claude/security/shannon/
+- ⚠️ Commands NOT yet in .claude/commands/
+- ⚠️ Security prompts NOT yet in .claude/prompts/security/shannon/
 
 **Recommended Actions:**
-1. Migrate `claude/commands/` → `COMBINED/commands/debug/` and `COMBINED/commands/review/`
-2. Migrate `apps/worker/prompts/` → `COMBINED/prompts/security/shannon/`
+1. Migrate `claude/commands/` → `.claude/commands/debug/` and `.claude/commands/review/`
+2. Migrate `apps/worker/prompts/` → `.claude/prompts/security/shannon/`
 3. Skip build artifacts (Dockerfile, docker-compose.yml, package configs)
 
 ---
@@ -58,7 +58,7 @@ Phase 1.2 has successfully completed the comprehensive analysis of the **Agents/
 ### 1.2 Background-Agents — Open-Inspect Platform
 **Type:** Orchestration Platform
 **Source:** `Agents/background-agents/`
-**Combined Location:** `COMBINED/agents/orchestrators/background-agents/`
+**Combined Location:** `.claude/agents/orchestrators/background-agents/`
 
 **Files Remaining:** 7
 - Python test files: 3
@@ -67,7 +67,7 @@ Phase 1.2 has successfully completed the comprehensive analysis of the **Agents/
 - Other: 1 (.DS_Store)
 
 **Migration Status:**
-- ✅ Main platform code migrated to COMBINED/agents/orchestrators/background-agents/
+- ✅ Main platform code migrated to .claude/agents/orchestrators/background-agents/
 - ✅ Minimal leftovers (tests, build artifacts)
 
 **Recommended Actions:**
@@ -80,8 +80,8 @@ Phase 1.2 has successfully completed the comprehensive analysis of the **Agents/
 **Type:** Autonomous Agent with MCP Integration
 **Source:** `Agents/hermes-agent/`
 **Combined Locations:**
-- `COMBINED/agents/orchestrators/hermes/`
-- `COMBINED/mcp-servers/hermes/`
+- `.claude/agents/orchestrators/hermes/`
+- `.claude/mcp-servers/hermes/`
 
 **Files Remaining:** 792 (largest category)
 
@@ -116,22 +116,22 @@ Phase 1.2 has successfully completed the comprehensive analysis of the **Agents/
 12. **Productivity:** memento-flashcards, canvas, siyuan, telephony
 
 **Migration Status:**
-- ✅ Main hermes code migrated to COMBINED/
-- ⚠️ Optional skills may need redistribution to COMBINED/skills/[category]/
+- ✅ Main hermes code migrated to .claude/
+- ⚠️ Optional skills may need redistribution to .claude/skills/[category]/
 - ⚠️ 792 files remain (infrastructure, tests, Nix configs)
 
 **Recommended Actions:**
-1. Review optional-skills for proper categorization in COMBINED/skills/
+1. Review optional-skills for proper categorization in .claude/skills/
 2. Skip infrastructure files (Nix, Docker, Terraform)
 3. Skip test files (unless reusable utilities)
 4. Document leftover files in Phase 3
 
 ---
 
-## 2. AGENTS IN COMBINED/ (FROM PHASE 1)
+## 2. AGENTS IN .claude/ (FROM PHASE 1)
 
 ### 2.1 By Interface
-- **Copilot:** 230+ agents from awesome-copilot-main in `COMBINED/agents/by-interface/copilot/`
+- **Copilot:** 230+ agents from awesome-copilot-main in `.claude/agents/by-interface/copilot/`
 - **Claude:** Agents from shannon, RuFlo, Superpowers, OMC, Claude Skills
 - **Antigravity:** Agents from antigravity-awesome-skills
 
@@ -155,7 +155,7 @@ Agents from orchestration systems (GSD, OMC, RuFlo, Superpowers, Claude Skills) 
 ### 2.3 Orchestrators
 - **background-agents:** Open-Inspect platform (Web, Control Plane, Data Plane)
 - **hermes:** Self-learning agent with MCP/ACP/Gateway
-- **oh-my-claudecode:** Multi-agent orchestration in `COMBINED/orchestration/oh-my-claudecode/`
+- **oh-my-claudecode:** Multi-agent orchestration in `.claude/orchestration/oh-my-claudecode/`
 
 ---
 
@@ -178,7 +178,7 @@ Agents from orchestration systems (GSD, OMC, RuFlo, Superpowers, Claude Skills) 
 
 ## 4. DELIVERABLES
 
-✅ **Created:** `COMBINED/agents_analysis.json` (7.2 KB)
+✅ **Created:** `.claude/agents_analysis.json` (7.2 KB)
 - Complete repository breakdown
 - File classification
 - Migration mapping
@@ -195,19 +195,19 @@ Agents from orchestration systems (GSD, OMC, RuFlo, Superpowers, Claude Skills) 
 
 ### 5.1 Immediate Actions (Phase 2.2)
 1. **Migrate shannon commands:**
-   - `Agents/shannon/claude/commands/debug.md` → `COMBINED/commands/debug/shannon-debug.md`
-   - `Agents/shannon/claude/commands/review.md` → `COMBINED/commands/review/shannon-review.md`
-   - `Agents/shannon/claude/commands/pr.md` → `COMBINED/commands/review/shannon-pr.md`
+   - `Agents/shannon/claude/commands/debug.md` → `.claude/commands/debug/shannon-debug.md`
+   - `Agents/shannon/claude/commands/review.md` → `.claude/commands/review/shannon-review.md`
+   - `Agents/shannon/claude/commands/pr.md` → `.claude/commands/review/shannon-pr.md`
 
 2. **Migrate shannon security prompts:**
-   - `Agents/shannon/apps/worker/prompts/` → `COMBINED/prompts/security/shannon/`
+   - `Agents/shannon/apps/worker/prompts/` → `.claude/prompts/security/shannon/`
    - Organize by category: recon/, vuln/, exploit/, shared/, pipeline-testing/
 
 ### 5.2 Review Actions (Phase 2.4 - Skills)
 3. **Review hermes optional-skills:**
-   - Map to COMBINED/skills/[category]/ structure
-   - Example: `optional-skills/security/oss-forensics/` → `COMBINED/skills/security/hermes-oss-forensics/`
-   - Example: `optional-skills/creative/meme-generation/` → `COMBINED/skills/design/hermes-meme-generation/`
+   - Map to .claude/skills/[category]/ structure
+   - Example: `optional-skills/security/oss-forensics/` → `.claude/skills/security/hermes-oss-forensics/`
+   - Example: `optional-skills/creative/meme-generation/` → `.claude/skills/design/hermes-meme-generation/`
 
 ### 5.3 Skip Actions
 4. **Skip build artifacts:**
@@ -240,7 +240,7 @@ Agents from orchestration systems (GSD, OMC, RuFlo, Superpowers, Claude Skills) 
 - superpowers
 - vibe-kanban
 
-**Expected Deliverable:** `COMBINED/orchestration_analysis.json`
+**Expected Deliverable:** `.claude/orchestration_analysis.json`
 
 ---
 

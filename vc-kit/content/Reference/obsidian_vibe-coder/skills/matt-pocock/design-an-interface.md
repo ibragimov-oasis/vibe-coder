@@ -12,7 +12,7 @@ aliases:
   - ui design skill
 created: 2026-04-18
 type: skill
-source: "../COMBINED/skills/skills-planning/design-an-interface/"
+source: "../.claude/skills/skills-planning/design-an-interface/"
 ---
 
 # 🎨 Skill: design-an-interface

@@ -20,12 +20,12 @@ All 4 critical steps have been completed to fix the COMBINED directory structure
 
 **Reference Directory:**
 - **Problem:** `Reference/awesome-selfhosted-master/` was not migrated to COMBINED
-- **Solution:** Moved to `COMBINED/reference/awesome-selfhosted/`
+- **Solution:** Moved to `.claude/reference/awesome-selfhosted/`
 - **Files migrated:** 1 file (README.md with 1000+ self-hosted tools catalog)
 - **Status:** ✅ Complete
 
 **Memory Directory:**
-- **Status:** Already correct at `COMBINED/memory/` with subdirectories:
+- **Status:** Already correct at `.claude/memory/` with subdirectories:
   - `claude-mem/` - Memory compression system
   - `supermemory/` - State-of-the-art memory engine
 - **Action:** No changes needed ✅
@@ -33,8 +33,8 @@ All 4 critical steps have been completed to fix the COMBINED directory structure
 ### ✅ Step 2: Added Missing Role Subdirectories
 
 **New Roles Created:**
-- `COMBINED/agents/by-role/scientist/` - Scientific research agents
-- `COMBINED/agents/by-role/devops/` - DevOps and infrastructure agents
+- `.claude/agents/by-role/scientist/` - Scientific research agents
+- `.claude/agents/by-role/devops/` - DevOps and infrastructure agents
 
 **Documentation Added:**
 - `scientist/README.md` - Complete documentation for scientific roles
@@ -60,12 +60,12 @@ All 4 critical steps have been completed to fix the COMBINED directory structure
 
 **Cursor Rules Integration:**
 - **Source:** `.cursorrules` (root)
-- **Destination:** `COMBINED/ui-design/rules/cursor-rules.md`
+- **Destination:** `.claude/ui-design/rules/cursor-rules.md`
 - **Status:** ✅ Integrated
 
 **Current ui-design Structure:**
 ```
-COMBINED/ui-design/
+.claude/ui-design/
 ├── CLAUDE.md
 ├── README.md
 ├── components/
@@ -100,11 +100,11 @@ COMBINED/ui-design/
 - `package-lock.json`
 
 **Moved to Better Locations:**
-- **251 skills** moved from `copilot/skills/` → `COMBINED/skills/skills-copilot/`
+- **251 skills** moved from `copilot/skills/` → `.claude/skills/skills-copilot/`
 
 **Clean Copilot Structure (8 items):**
 ```
-COMBINED/agents/by-interface/copilot/
+.claude/agents/by-interface/copilot/
 ├── AGENTS.md          - Agent definitions
 ├── README.md          - Documentation
 ├── agents/            - Agent configurations
@@ -135,7 +135,7 @@ COMBINED/agents/by-interface/copilot/
 
 ### Reference ✅
 ```bash
-$ ls -la COMBINED/reference/
+$ ls -la .claude/reference/
 total 12
 drwxrwxr-x  3 runner runner 4096 Apr  3 10:38 .
 drwxrwxr-x 13 runner runner 4096 Apr  3 10:38 ..
@@ -144,7 +144,7 @@ drwxrwxr-x  3 runner runner 4096 Apr  3 10:38 awesome-selfhosted
 
 ### Memory ✅
 ```bash
-$ ls -la COMBINED/memory/
+$ ls -la .claude/memory/
 total 16
 drwxrwxr-x  4 runner runner 4096 Apr  3 10:37 .
 drwxrwxr-x 13 runner runner 4096 Apr  3 10:38 ..
@@ -154,7 +154,7 @@ drwxrwxr-x  6 runner runner 4096 Apr  3 10:37 supermemory
 
 ### Roles ✅
 ```bash
-$ ls -1 COMBINED/agents/by-role/
+$ ls -1 .claude/agents/by-role/
 architect
 business
 coder
@@ -173,7 +173,7 @@ writer
 
 ### UI-Design ✅
 ```bash
-$ ls -la COMBINED/ui-design/rules/
+$ ls -la .claude/ui-design/rules/
 total 16
 drwxrwxr-x 4 runner runner 4096 Apr  3 10:49 .
 drwxrwxr-x 4 runner runner 4096 Apr  3 10:37 ..
@@ -184,7 +184,7 @@ drwxrwxr-x 5 runner runner 4096 Apr  3 10:37 ui-ux-pro-max
 
 ### Copilot ✅
 ```bash
-$ ls -1 COMBINED/agents/by-interface/copilot/
+$ ls -1 .claude/agents/by-interface/copilot/
 AGENTS.md
 README.md
 agents
@@ -194,13 +194,13 @@ plugins
 scripts
 workflows
 
-$ du -sh COMBINED/agents/by-interface/copilot/
-5.4M    COMBINED/agents/by-interface/copilot/
+$ du -sh .claude/agents/by-interface/copilot/
+5.4M    .claude/agents/by-interface/copilot/
 ```
 
 ### Skills ✅
 ```bash
-$ ls -1 COMBINED/skills/
+$ ls -1 .claude/skills/
 business
 copilot     ← NEW (251 skills moved here)
 data-analysis

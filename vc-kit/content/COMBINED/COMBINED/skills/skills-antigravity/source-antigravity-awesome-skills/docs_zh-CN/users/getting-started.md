@@ -104,7 +104,7 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skill
 
 | 工具            | 状态          | 路径                                                                  |
 | :-------------- | :-------------- | :-------------------------------------------------------------------- |
-| **Claude Code** | ✅ 完全支持 | `COMBINED/workspace-config/claude/skills/` 或通过 `/plugin marketplace add sickn33/antigravity-awesome-skills` 安装 |
+| **Claude Code** | ✅ 完全支持 | `.claude/workspace-config/claude/skills/` 或通过 `/plugin marketplace add sickn33/antigravity-awesome-skills` 安装 |
 | **Gemini CLI**  | ✅ 完全支持 | `.gemini/skills/`                                                     |
 | **Codex CLI**   | ✅ 完全支持 | `.codex/skills/`                                                      |
 | **Kiro CLI**    | ✅ 完全支持 | 全局：`~/.kiro/skills/` · 工作区：`.kiro/skills/`                |
@@ -133,7 +133,7 @@ _查看 [技能目录](../../CATALOG.md) 获取完整列表。_
 
 ## FAQ
 
-如果您更喜欢使用 Claude Code 的插件市场流程而不是复制到 `COMBINED/workspace-config/claude/skills/`，请使用：
+如果您更喜欢使用 Claude Code 的插件市场流程而不是复制到 `.claude/workspace-config/claude/skills/`，请使用：
 
 ```text
 /plugin marketplace add sickn33/antigravity-awesome-skills

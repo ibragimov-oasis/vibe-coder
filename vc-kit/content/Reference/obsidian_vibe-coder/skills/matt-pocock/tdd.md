@@ -12,7 +12,7 @@ aliases:
   - tdd cycle
 created: 2026-04-18
 type: skill
-source: "../COMBINED/skills/skills-development/tdd/"
+source: "../.claude/skills/skills-development/tdd/"
 ---
 
 # 🔴🟢🔵 Skill: tdd

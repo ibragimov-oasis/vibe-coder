@@ -11,12 +11,12 @@ aliases:
   - 67 styles
 created: 2026-04-18
 type: ui-note
-source: "../COMBINED/ui-design/ui-rules/ui-ux-pro-max/"
+source: "../.claude/ui-design/ui-rules/ui-ux-pro-max/"
 ---
 
 # UI Design: UI/UX Pro Max (161 Rules)
 
-> **Источник:** `../COMBINED/ui-design/ui-rules/ui-ux-pro-max/`
+> **Источник:** `../.claude/ui-design/ui-rules/ui-ux-pro-max/`
 > **Rule #3:** UI/UX Pro Max — шестой (финальный) в иерархии дизайна Vibe-Coder.
 > **Применяется к ЛЮБОМУ дизайн-выводу.**
 

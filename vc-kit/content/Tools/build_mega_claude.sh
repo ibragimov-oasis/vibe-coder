@@ -1,7 +1,7 @@
 #!/bin/bash
 # STEP 1: Build MEGA_CLAUDE.md — The Engine
 BASE="/Users/ibragimov/Desktop/GitHub/vibe-coder"
-OUT="$BASE/COMBINED/MEGA_CLAUDE.md"
+OUT="$BASE/.claude/MEGA_CLAUDE.md"
 COUNT=0
 
 # Also include root instruction files
@@ -35,7 +35,7 @@ while IFS= read -r file; do
   echo "" >> "$OUT"
   cat "$file" >> "$OUT"
   echo "" >> "$OUT"
-done < <(find "$BASE" -type f \( -name "CLAUDE.md" -o -name "AGENTS.md" -o -name "CLAUDE.local.md" -o -name "AGENTS 2.md" \) -not -path "*/.git/*" -not -path "*/COMBINED/*" -not -path "*/_combined/*" | sort)
+done < <(find "$BASE" -type f \( -name "CLAUDE.md" -o -name "AGENTS.md" -o -name "CLAUDE.local.md" -o -name "AGENTS 2.md" \) -not -path "*/.git/*" -not -path "*/.claude/*" -not -path "*/_combined/*" | sort)
 
 # Add root instruction files
 for file in "${EXTRA_FILES[@]}"; do

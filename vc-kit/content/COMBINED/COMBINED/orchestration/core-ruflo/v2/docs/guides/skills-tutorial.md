@@ -27,12 +27,12 @@ I'm transitioning claude-flow from slash commands to Claude Code's native skills
 
 ### The Old Way: Slash Commands
 
-Previously, claude-flow used slash commands stored in `COMBINED/workspace-config/claude/commands/`:
+Previously, claude-flow used slash commands stored in `.claude/workspace-config/claude/commands/`:
 ```bash
 # Old approach
-/COMBINED/workspace-config/claude/commands/sparc-tdd.md
-/COMBINED/workspace-config/claude/commands/github-review.md
-/COMBINED/workspace-config/claude/commands/swarm-init.md
+/.claude/workspace-config/claude/commands/sparc-tdd.md
+/.claude/workspace-config/claude/commands/github-review.md
+/.claude/workspace-config/claude/commands/swarm-init.md
 ```
 
 When you typed `/sparc-tdd`, Claude would load that markdown file as a prompt and execute it. This worked, but had limitations:
@@ -50,9 +50,9 @@ Anthropic released the skills API in October 2025, and I immediately saw the pot
 
 ```bash
 # New approach
-/COMBINED/workspace-config/claude/skills/sparc-methodology/SKILL.md
-/COMBINED/workspace-config/claude/skills/github-code-review/SKILL.md
-/COMBINED/workspace-config/claude/skills/swarm-orchestration/SKILL.md
+/.claude/workspace-config/claude/skills/sparc-methodology/SKILL.md
+/.claude/workspace-config/claude/skills/github-code-review/SKILL.md
+/.claude/workspace-config/claude/skills/swarm-orchestration/SKILL.md
 ```
 
 Each skill has YAML frontmatter with metadata:
@@ -227,7 +227,7 @@ Claude Flow includes 25 specialized skills that activate automatically based on 
 This command initializes your project with Claude Flow's complete skills system:
 
 **What It Does:**
-1. **Creates `COMBINED/workspace-config/claude/skills/` directory** - Where all 25 skills are installed
+1. **Creates `.claude/workspace-config/claude/skills/` directory** - Where all 25 skills are installed
 2. **Copies skill modules** - Installs pre-built skills for development, GitHub, memory, and more
 3. **Sets up configuration** - Creates `claude-flow.json` with default settings
 4. **Initializes hooks** - Installs automation hooks for pre/post task coordination
@@ -246,7 +246,7 @@ This command initializes your project with Claude Flow's complete skills system:
 npx claude-flow@alpha init --force
 
 # What you'll see:
-# ✓ Created COMBINED/workspace-config/claude/skills/ directory
+# ✓ Created .claude/workspace-config/claude/skills/ directory
 # ✓ Installed 25 skills
 # ✓ Configured hooks automation
 # ✓ Setup statusline integration
@@ -292,7 +292,7 @@ Think of it as a "skill factory" - it teaches Claude how to build new skills tha
 - Properly formatted `SKILL.md` file
 - YAML frontmatter with metadata
 - Progressive disclosure sections
-- Auto-organized in `COMBINED/workspace-config/claude/skills/`
+- Auto-organized in `.claude/workspace-config/claude/skills/`
 
 ---
 

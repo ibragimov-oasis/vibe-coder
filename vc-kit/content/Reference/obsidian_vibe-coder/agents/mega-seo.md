@@ -5,7 +5,7 @@ tags:
   - artifact/mega-agent
   - agent/mega-seo
   - status/active
-source: "../COMBINED/agents/mega/mega-seo.md"
+source: "../.claude/agents/mega/mega-seo.md"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -69,7 +69,7 @@ Claude-SEO + Antigravity + **SEOMachine (10 агентов, 26 навыков, G
 
 ## Исходник
 
-> 📂 `../COMBINED/agents/mega/mega-seo.md`
+> 📂 `../.claude/agents/mega/mega-seo.md`
 
 ## 🔗 Связи
 

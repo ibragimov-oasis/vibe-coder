@@ -254,14 +254,14 @@ describe('shopping cart', () => {
 8. **Descriptive names** — test names describe expected behavior
 
 Sources:
-- OMC test-engineer: `COMBINED/agents/by-role/tester/test-engineer.md`
-- OMC qa-tester: `COMBINED/agents/by-role/tester/qa-tester.md`
-- GSD integration-checker: `COMBINED/agents/by-role/tester/gsd-integration-checker.md`
-- GSD ui-checker: `COMBINED/agents/by-role/tester/gsd-ui-checker.md`
-- GSD verifier: `COMBINED/agents/by-role/verifier/gsd-verifier.md`
-- RuFlo core-tester: `COMBINED/agents/by-role/tester/ruflo-core-tester.md`
-- RuFlo TDD London: `COMBINED/agents/by-role/tester/ruflo-testing-tdd-london-swarm.md`
-- Superpowers TDD: `COMBINED/agents/agents-superpowers/`
+- OMC test-engineer: `.claude/agents/by-role/tester/test-engineer.md`
+- OMC qa-tester: `.claude/agents/by-role/tester/qa-tester.md`
+- GSD integration-checker: `.claude/agents/by-role/tester/gsd-integration-checker.md`
+- GSD ui-checker: `.claude/agents/by-role/tester/gsd-ui-checker.md`
+- GSD verifier: `.claude/agents/by-role/verifier/gsd-verifier.md`
+- RuFlo core-tester: `.claude/agents/by-role/tester/ruflo-core-tester.md`
+- RuFlo TDD London: `.claude/agents/by-role/tester/ruflo-testing-tdd-london-swarm.md`
+- Superpowers TDD: `.claude/agents/agents-superpowers/`
 </rules>
 
 ## 🔗 Связи

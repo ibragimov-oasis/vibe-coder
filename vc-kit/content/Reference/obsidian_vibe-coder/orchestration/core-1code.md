@@ -10,12 +10,12 @@ aliases:
   - lightweight orchestration
 created: 2026-04-18
 type: system-note
-source: "../COMBINED/orchestration/core-1code/"
+source: "../.claude/orchestration/core-1code/"
 ---
 
 # Orchestration: 1Code
 
-> **Источник:** `../COMBINED/orchestration/core-1code/`
+> **Источник:** `../.claude/orchestration/core-1code/`
 
 ## Описание
 

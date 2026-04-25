@@ -56,31 +56,31 @@ type: audit
 
 ---
 
-## 🟡 Зона 2: COMBINED/agents — Мега-агенты (High)
+## 🟡 Зона 2: .claude/agents — Мега-агенты (High)
 
 | Источник | Vault-путь | Статус | MOC |
 |----------|-----------|--------|-----|
-| `COMBINED/agents/mega/mega-orchestrator.md` | `agents/mega-orchestrator.md` | ✅ Done | [[MOC - Agents]] |
-| `COMBINED/agents/mega/mega-coder.md` | `agents/mega-coder.md` | ✅ Done | [[MOC - Agents]] |
-| `COMBINED/agents/mega/mega-debugger.md` | `agents/mega-debugger.md` | ✅ Done | [[MOC - Agents]] |
-| `COMBINED/agents/mega/mega-planner.md` | `agents/mega-planner.md` | ✅ Done | [[MOC - Agents]] |
-| `COMBINED/agents/mega/mega-researcher.md` | `agents/mega-researcher.md` | ✅ Done | [[MOC - Agents]] |
-| `COMBINED/agents/mega/mega-designer.md` | `agents/mega-designer.md` | ✅ Done | [[MOC - Agents]] |
-| `COMBINED/agents/mega/mega-security.md` | `agents/mega-security.md` | ✅ Done | [[MOC - Agents]] |
-| `COMBINED/agents/mega/mega-seo.md` | `agents/mega-seo.md` | ✅ Done | [[MOC - Agents]] |
-| `COMBINED/agents/mega/mega-reviewer.md` | `agents/mega-reviewer.md` | ✅ Done | [[MOC - Agents]] |
-| `COMBINED/agents/mega/mega-tester.md` | `agents/mega-tester.md` | ✅ Done | [[MOC - Agents]] |
-| `COMBINED/agents/mega/mega-architect.md` | `agents/mega-architect.md` | ✅ Done | [[MOC - Agents]] |
-| `COMBINED/agents/mega/mega-executor.md` | `agents/mega-executor.md` | ✅ Done | [[MOC - Agents]] |
-| `COMBINED/agents/mega/mega-writer.md` | `agents/mega-writer.md` | ✅ Done | [[MOC - Agents]] |
-| `COMBINED/agents/mega/mega-devops.md` | `agents/mega-devops.md` | ✅ Done | [[MOC - Agents]] |
-| `COMBINED/agents/mega/mega-infrastructure.md` | `agents/mega-infrastructure.md` | ✅ Done | [[MOC - Agents]] |
+| `.claude/agents/mega/mega-orchestrator.md` | `agents/mega-orchestrator.md` | ✅ Done | [[MOC - Agents]] |
+| `.claude/agents/mega/mega-coder.md` | `agents/mega-coder.md` | ✅ Done | [[MOC - Agents]] |
+| `.claude/agents/mega/mega-debugger.md` | `agents/mega-debugger.md` | ✅ Done | [[MOC - Agents]] |
+| `.claude/agents/mega/mega-planner.md` | `agents/mega-planner.md` | ✅ Done | [[MOC - Agents]] |
+| `.claude/agents/mega/mega-researcher.md` | `agents/mega-researcher.md` | ✅ Done | [[MOC - Agents]] |
+| `.claude/agents/mega/mega-designer.md` | `agents/mega-designer.md` | ✅ Done | [[MOC - Agents]] |
+| `.claude/agents/mega/mega-security.md` | `agents/mega-security.md` | ✅ Done | [[MOC - Agents]] |
+| `.claude/agents/mega/mega-seo.md` | `agents/mega-seo.md` | ✅ Done | [[MOC - Agents]] |
+| `.claude/agents/mega/mega-reviewer.md` | `agents/mega-reviewer.md` | ✅ Done | [[MOC - Agents]] |
+| `.claude/agents/mega/mega-tester.md` | `agents/mega-tester.md` | ✅ Done | [[MOC - Agents]] |
+| `.claude/agents/mega/mega-architect.md` | `agents/mega-architect.md` | ✅ Done | [[MOC - Agents]] |
+| `.claude/agents/mega/mega-executor.md` | `agents/mega-executor.md` | ✅ Done | [[MOC - Agents]] |
+| `.claude/agents/mega/mega-writer.md` | `agents/mega-writer.md` | ✅ Done | [[MOC - Agents]] |
+| `.claude/agents/mega/mega-devops.md` | `agents/mega-devops.md` | ✅ Done | [[MOC - Agents]] |
+| `.claude/agents/mega/mega-infrastructure.md` | `agents/mega-infrastructure.md` | ✅ Done | [[MOC - Agents]] |
 
 **Итого Zone 2:** 15/15 ✅
 
 ---
 
-## 🟡 Зона 3: COMBINED/orchestration (High)
+## 🟡 Зона 3: .claude/orchestration (High)
 
 | Источник | Vault-путь | Статус |
 |----------|-----------|--------|
@@ -106,7 +106,7 @@ type: audit
 
 ---
 
-## 🟡 Зона 4: COMBINED/skills (High → Long-tail)
+## 🟡 Зона 4: .claude/skills (High → Long-tail)
 
 ### 4a. Категории навыков (overview level) — Выполнено
 
@@ -163,7 +163,7 @@ type: audit
 
 ---
 
-## 🟡 Зона 5: COMBINED/mcp-servers (High)
+## 🟡 Зона 5: .claude/mcp-servers (High)
 
 | Источник | Vault-путь | Статус |
 |----------|-----------|--------|
@@ -183,7 +183,7 @@ type: audit
 
 ---
 
-## 🟡 Зона 6: COMBINED/ui-design (High)
+## 🟡 Зона 6: .claude/ui-design (High)
 
 ### 6a. Overview notes — Выполнено
 

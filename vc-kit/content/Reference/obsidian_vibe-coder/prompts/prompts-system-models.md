@@ -10,12 +10,12 @@ aliases:
   - 35 ai prompts archive
 created: 2026-04-18
 type: prompts-note
-source: "../COMBINED/prompts/prompts-system-models/"
+source: "../.claude/prompts/prompts-system-models/"
 ---
 
 # Prompts: System Models Archive (35+)
 
-> **Источник:** `../COMBINED/prompts/prompts-system-models/`
+> **Источник:** `../.claude/prompts/prompts-system-models/`
 
 ## О чём
 

@@ -22,20 +22,20 @@ AI-powered logo design with 55+ styles, 30 color palettes, 25 industry guides. U
 ### Design Brief (Start Here)
 
 ```bash
-python3 ~/COMBINED/workspace-config/claude/skills/design/scripts/logo/search.py "tech startup modern" --design-brief -p "BrandName"
+python3 ~/.claude/workspace-config/claude/skills/design/scripts/logo/search.py "tech startup modern" --design-brief -p "BrandName"
 ```
 
 ### Search Domains
 
 ```bash
 # Styles
-python3 ~/COMBINED/workspace-config/claude/skills/design/scripts/logo/search.py "minimalist clean" --domain style
+python3 ~/.claude/workspace-config/claude/skills/design/scripts/logo/search.py "minimalist clean" --domain style
 
 # Color palettes
-python3 ~/COMBINED/workspace-config/claude/skills/design/scripts/logo/search.py "tech professional" --domain color
+python3 ~/.claude/workspace-config/claude/skills/design/scripts/logo/search.py "tech professional" --domain color
 
 # Industry guidelines
-python3 ~/COMBINED/workspace-config/claude/skills/design/scripts/logo/search.py "healthcare medical" --domain industry
+python3 ~/.claude/workspace-config/claude/skills/design/scripts/logo/search.py "healthcare medical" --domain industry
 ```
 
 ### Generate Logo
@@ -43,8 +43,8 @@ python3 ~/COMBINED/workspace-config/claude/skills/design/scripts/logo/search.py 
 **ALWAYS** use white background for output logos.
 
 ```bash
-python3 ~/COMBINED/workspace-config/claude/skills/design/scripts/logo/generate.py --brand "TechFlow" --style minimalist --industry tech
-python3 ~/COMBINED/workspace-config/claude/skills/design/scripts/logo/generate.py --prompt "coffee shop vintage badge" --style vintage
+python3 ~/.claude/workspace-config/claude/skills/design/scripts/logo/generate.py --brand "TechFlow" --style minimalist --industry tech
+python3 ~/.claude/workspace-config/claude/skills/design/scripts/logo/generate.py --prompt "coffee shop vintage badge" --style vintage
 ```
 
 Options: `--style`, `--industry`, `--prompt`

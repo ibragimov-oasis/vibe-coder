@@ -11,12 +11,12 @@ aliases:
   - 3000 components
 created: 2026-04-18
 type: ui-note
-source: "../COMBINED/ui-design/ui-components-galaxy/"
+source: "../.claude/ui-design/ui-components-galaxy/"
 ---
 
 # UI Design: Galaxy (3000+ Components)
 
-> **Источник:** `../COMBINED/ui-design/ui-components-galaxy/`
+> **Источник:** `../.claude/ui-design/ui-components-galaxy/`
 > **Rule #3:** Galaxy — первый в иерархии дизайна Vibe-Coder.
 
 ## О чём

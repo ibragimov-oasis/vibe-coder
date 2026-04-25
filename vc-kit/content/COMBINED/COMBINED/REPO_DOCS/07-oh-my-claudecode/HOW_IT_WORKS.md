@@ -36,11 +36,11 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 |---------------|--------------------|---------|
 | None found | N/A | N/A |
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|-----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/07-oh-my-claudecode/ | Documentation |
+| README.md | .claude/REPO_DOCS/07-oh-my-claudecode/ | Documentation |
 
 ## Key insights for Vibe-Coder integration
 

@@ -5,7 +5,7 @@ tags:
   - source/.claude
 ---
 
-# COMBINED/agents/mega — Mega Agents
+# .claude/agents/mega — Mega Agents
 
 > **The unified best-of-breed agents from all 31 repositories.**
 > Each mega-agent merges the capabilities of its source agents into one comprehensive specialist.
@@ -48,7 +48,7 @@ In Cursor:
 
 In any interface — reference the agent file directly:
 ```
-See: COMBINED/agents/mega/mega-orchestrator.md
+See: .claude/agents/mega/mega-orchestrator.md
 ```
 
 ---
@@ -57,24 +57,24 @@ See: COMBINED/agents/mega/mega-orchestrator.md
 
 | Source System | Location |
 |--------------|---------|
-| RuFlo agents | `COMBINED/agents/agents-ruflo/` |
-| GSD agents | `COMBINED/agents/by-role/` (gsd-* prefixed) |
-| OMC agents | `COMBINED/orchestration/core-omc/` |
-| DeerFlow agents | `COMBINED/agents/agents-deer-flow/` |
-| Hermes agents | `COMBINED/agents/agents-hermes/` |
-| Shannon (security) | `COMBINED/security/security-shannon/` |
-| Background agents | `COMBINED/agents/background-agents/` |
+| RuFlo agents | `.claude/agents/agents-ruflo/` |
+| GSD agents | `.claude/agents/by-role/` (gsd-* prefixed) |
+| OMC agents | `.claude/orchestration/core-omc/` |
+| DeerFlow agents | `.claude/agents/agents-deer-flow/` |
+| Hermes agents | `.claude/agents/agents-hermes/` |
+| Shannon (security) | `.claude/security/security-shannon/` |
+| Background agents | `.claude/agents/background-agents/` |
 
 ---
 
 ## Creating New Mega Agents
 
 Follow this process:
-1. Identify all source agents for the domain (grep `COMBINED/agents/`)
+1. Identify all source agents for the domain (grep `.claude/agents/`)
 2. Read each source agent's system prompt
 3. Extract: best role definition, strongest heuristics, clearest output format
 4. Merge into a single agent file in this directory
-5. Update this README and `COMBINED/agents/INDEX.md`
+5. Update this README and `.claude/agents/INDEX.md`
 
 ## 🔗 Связи
 

@@ -14,7 +14,7 @@ type: moc
 # 🗺️ MOC — Skills
 
 > **Map of Content** для домена `Skills`.
-> 3,000+ навыков в 24 категориях. Все в `COMBINED/skills/`.
+> 3,000+ навыков в 24 категориях. Все в `.claude/skills/`.
 
 ## 📚 Библиотека навыков по категориям
 
@@ -47,7 +47,7 @@ type: moc
 ## 🔑 Ключевые навыки (must-know)
 
 ### Karpathy 4 Principles
-`COMBINED/skills/skills-claude/karpathy/`
+`.claude/skills/skills-claude/karpathy/`
 1. [[skills/karpathy/think-before-coding]] — чётко формулируй задачу
 2. [[skills/karpathy/simplicity-first]] — минимальный код
 3. [[skills/karpathy/surgical-changes]] — трогай только нужное
@@ -56,7 +56,7 @@ type: moc
 → **Полный индекс:** [[skills/karpathy/index]]
 
 ### Matt Pocock Skills (20 навыков)
-`COMBINED/skills/skills-planning/` + `skills-development/`
+`.claude/skills/skills-planning/` + `skills-development/`
 - [[skills/matt-pocock/grill-me]] — задать уточняющие вопросы
 - [[skills/matt-pocock/write-a-prd]] — написать PRD
 - [[skills/matt-pocock/prd-to-plan]] — PRD → execution plan
@@ -74,7 +74,7 @@ type: moc
 → **Полный индекс:** [[skills/matt-pocock/index]]
 
 ### Obsidian Skills
-`COMBINED/skills/platform/obsidian/` (из new_repos/obsidian-skills)
+`.claude/skills/platform/obsidian/` (из new_repos/obsidian-skills)
 - `obsidian-markdown` — OFM: wikilinks, embeds, callouts, properties
 - `obsidian-bases` — Obsidian Bases (.base) syntax
 - `obsidian-cli` — CLI для vault разработки
@@ -96,7 +96,7 @@ description: Что делает навык
 
 - [[MOC - Agents]] — Агенты используют навыки
 - [[MOC - Orchestration]] — Hermes создаёт навыки
-- [[combined/Skills Overview]] — Структура COMBINED/skills
+- [[combined/Skills Overview]] — Структура .claude/skills
 - [[000 - Map of Maps]] — Главная карта
 
 ## 🔬 Deep-Dive Notes (Wave 9)

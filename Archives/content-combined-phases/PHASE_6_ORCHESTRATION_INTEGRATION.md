@@ -11,7 +11,7 @@
 
 **User Experience**:
 > "Claude, I need a designer" 
-> → System knows to check COMBINED/workspace-config/claude/
+> → System knows to check .claude/workspace-config/claude/
 > → Finds role in agents/by-role/ui-specialist/
 > → Loads relevant skills from skills/
 > → Uses UI components from ui-design/
@@ -27,7 +27,7 @@
 ### 5 Core Orchestration Systems:
 
 #### 1. **RuFlo v3.5** (Enterprise AI Orchestration)
-**Location**: `COMBINED/orchestration/ruflo/`
+**Location**: `.claude/orchestration/ruflo/`
 **Capabilities**:
 - 130+ skills, 27 hooks
 - Self-learning with Q-Learning Router
@@ -42,7 +42,7 @@
 **Usage**: Enterprise-grade multi-agent swarms with learning
 
 #### 2. **GET SHIT DONE (GSD)** (Meta-Prompting & Context Engineering)
-**Location**: `COMBINED/orchestration/get-shit-done/`
+**Location**: `.claude/orchestration/get-shit-done/`
 **Capabilities**:
 - Solves context rot
 - Spec-driven development
@@ -56,7 +56,7 @@
 **Usage**: Light-weight system for focused execution
 
 #### 3. **oh-my-claudecode (OMC)** (Multi-Agent Orchestration Layer)
-**Location**: `COMBINED/orchestration/oh-my-claudecode/`
+**Location**: `.claude/orchestration/oh-my-claudecode/`
 **Capabilities**:
 - 19 specialized agents
 - Model routing (haiku/sonnet/opus)
@@ -71,7 +71,7 @@
 **Usage**: Intelligent work delegation across specialized agents
 
 #### 4. **DeerFlow** (Full-Stack Super Agent Harness)
-**Location**: `COMBINED/orchestration/deer-flow/`
+**Location**: `.claude/orchestration/deer-flow/`
 **Capabilities**:
 - Backend: Python 3.12, LangGraph, FastAPI
 - Frontend: Next.js 16 + React 19 + TypeScript
@@ -84,7 +84,7 @@
 **Usage**: Full-stack development with unified endpoint
 
 #### 5. **Superpowers** (Composable Skills Workflow)
-**Location**: `COMBINED/orchestration/superpowers/`
+**Location**: `.claude/orchestration/superpowers/`
 **Capabilities**:
 - Complete software development workflow
 - Test-Driven Development enforcement
@@ -110,7 +110,7 @@
 - Antigravity Plugin
 - Codex
 
-**Configuration**: `COMBINED/workspace-config/{interface}/`
+**Configuration**: `.claude/workspace-config/{interface}/`
 
 ### Layer 2: Orchestration Router
 **Function**: Determine which orchestration system to use
@@ -127,7 +127,7 @@
 ### Layer 3: Agent Selection
 **Function**: Route to appropriate agent based on role
 
-**Location**: `COMBINED/agents/by-role/{role}/`
+**Location**: `.claude/agents/by-role/{role}/`
 
 **Example Flow**:
 ```
@@ -141,7 +141,7 @@ User: "Debug this error"
 ### Layer 4: Skill Loading
 **Function**: Load relevant skills for the agent
 
-**Location**: `COMBINED/skills/{domain}/`
+**Location**: `.claude/skills/{domain}/`
 
 **Example**:
 ```
@@ -261,7 +261,7 @@ Working in RuFlo system? → Ruflo planner variant
 
 **Shannon Pentester**:
 ```
-Location: COMBINED/security/shannon/
+Location: .claude/security/shannon/
 Use: Automated vulnerability scanning
 When: After code changes, before deployment
 Integration: Can be triggered automatically by hooks
@@ -282,7 +282,7 @@ Integration: Can be triggered automatically by hooks
 
 **Lightpanda Browser**:
 ```
-Location: COMBINED/mcp-servers/mcp-lightpanda/
+Location: .claude/mcp-servers/mcp-lightpanda/
 Advantages: 9x faster, 16x less memory, instant startup
 Use: UI testing, web scraping, verification
 Compatible with: Playwright, Puppeteer, chromedp
@@ -359,7 +359,7 @@ const browser = await puppeteer.connect({
 1. **Read** `CAPABILITIES.md` (the single source of truth)
 2. **Read** `PIPELINE.md` (the autonomous pipeline)
 3. **Choose** an orchestration system (start with GSD if unsure)
-4. **Use** mega-agents from `COMBINED/agents/mega/` for all tasks
+4. **Use** mega-agents from `.claude/agents/mega/` for all tasks
 5. **Configure** your IDE using the appropriate config file (.claude, .cursor, .github, .codex, .gemini)
 6. **Try** a simple task — the system will auto-route to the right mega-agent
 7. **Expand** — the Hermes self-learning loop creates new skills as you work
@@ -386,8 +386,8 @@ const browser = await puppeteer.connect({
 ### Beginner:
 1. Start with `CAPABILITIES.md` — understand the 5 rules
 2. Use `mega-coder` or `mega-executor` for simple tasks
-3. Explore `COMBINED/skills/` directory
-4. Read `COMBINED/agents/mega/README.md` for the agent selection guide
+3. Explore `.claude/skills/` directory
+4. Read `.claude/agents/mega/README.md` for the agent selection guide
 
 ### Intermediate:
 1. Try OMC with team coordination (`/team`)

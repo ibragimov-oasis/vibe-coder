@@ -42,23 +42,23 @@ tags:
 ## Files Created This Session
 
 ### Documentation Files (17)
-1. `COMBINED/REPO_DOCS/16-everything-claude-code/HOW_IT_WORKS.md`
-2. `COMBINED/REPO_DOCS/17-obsidian-skills/HOW_IT_WORKS.md`
-3. `COMBINED/REPO_DOCS/18-awesome-chatgpt-prompts/HOW_IT_WORKS.md`
-4. `COMBINED/REPO_DOCS/19-system-prompts-by-tool/HOW_IT_WORKS.md`
-5. `COMBINED/REPO_DOCS/20-system-prompts-leaks/HOW_IT_WORKS.md`
-6. `COMBINED/REPO_DOCS/21-vibe-coding-template/HOW_IT_WORKS.md`
-7. `COMBINED/REPO_DOCS/22-awesome-selfhosted/HOW_IT_WORKS.md`
-8. `COMBINED/REPO_DOCS/23-gitnexus/HOW_IT_WORKS.md`
-9. `COMBINED/REPO_DOCS/24-openviking/HOW_IT_WORKS.md`
-10. `COMBINED/REPO_DOCS/25-lightpanda/HOW_IT_WORKS.md`
-11. `COMBINED/REPO_DOCS/26-claude-mem/HOW_IT_WORKS.md`
-12. `COMBINED/REPO_DOCS/27-nano-banana-mcp/HOW_IT_WORKS.md`
-13. `COMBINED/REPO_DOCS/28-pretext/HOW_IT_WORKS.md`
-14. `COMBINED/REPO_DOCS/29-supermemory/HOW_IT_WORKS.md`
-15. `COMBINED/REPO_DOCS/30-galaxy/HOW_IT_WORKS.md`
-16. `COMBINED/REPO_DOCS/31-shadcn/HOW_IT_WORKS.md`
-17. `COMBINED/REPO_DOCS/32-ui-ux-pro-max/HOW_IT_WORKS.md`
+1. `.claude/REPO_DOCS/16-everything-claude-code/HOW_IT_WORKS.md`
+2. `.claude/REPO_DOCS/17-obsidian-skills/HOW_IT_WORKS.md`
+3. `.claude/REPO_DOCS/18-awesome-chatgpt-prompts/HOW_IT_WORKS.md`
+4. `.claude/REPO_DOCS/19-system-prompts-by-tool/HOW_IT_WORKS.md`
+5. `.claude/REPO_DOCS/20-system-prompts-leaks/HOW_IT_WORKS.md`
+6. `.claude/REPO_DOCS/21-vibe-coding-template/HOW_IT_WORKS.md`
+7. `.claude/REPO_DOCS/22-awesome-selfhosted/HOW_IT_WORKS.md`
+8. `.claude/REPO_DOCS/23-gitnexus/HOW_IT_WORKS.md`
+9. `.claude/REPO_DOCS/24-openviking/HOW_IT_WORKS.md`
+10. `.claude/REPO_DOCS/25-lightpanda/HOW_IT_WORKS.md`
+11. `.claude/REPO_DOCS/26-claude-mem/HOW_IT_WORKS.md`
+12. `.claude/REPO_DOCS/27-nano-banana-mcp/HOW_IT_WORKS.md`
+13. `.claude/REPO_DOCS/28-pretext/HOW_IT_WORKS.md`
+14. `.claude/REPO_DOCS/29-supermemory/HOW_IT_WORKS.md`
+15. `.claude/REPO_DOCS/30-galaxy/HOW_IT_WORKS.md`
+16. `.claude/REPO_DOCS/31-shadcn/HOW_IT_WORKS.md`
+17. `.claude/REPO_DOCS/32-ui-ux-pro-max/HOW_IT_WORKS.md`
 
 ### Index Updates
 18. `MASTER_INDEX.md` — updated (32/32 rows complete, all ✅)
@@ -131,7 +131,7 @@ tags:
 - ✅ AI startup sequence
 - ✅ File manifest
 - ✅ Hidden config identification
-- ✅ Routing map to COMBINED/
+- ✅ Routing map to .claude/
 - ✅ Key integration insights
 - ✅ Restore commands for hidden files
 - ✅ Status checklist

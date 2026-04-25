@@ -44,8 +44,8 @@ Use for: writing tests, test-driven development, increasing coverage, fixing fla
 - [ ] No **test pollution** (clean up after each test)
 
 ## 🔧 Matt Pocock TDD Skills
-- `COMBINED/skills/skills-development/tdd/` — TDD methodology
-- `COMBINED/skills/skills-development/triage-issue/` — Issue triage for test prioritization
+- `.claude/skills/skills-development/tdd/` — TDD methodology
+- `.claude/skills/skills-development/triage-issue/` — Issue triage for test prioritization
 
 ## Full Agent Definition
-Read: `COMBINED/agents/mega/mega-tester.md`
+Read: `.claude/agents/mega/mega-tester.md`

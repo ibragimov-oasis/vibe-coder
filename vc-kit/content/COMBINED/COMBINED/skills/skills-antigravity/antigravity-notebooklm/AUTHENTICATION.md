@@ -105,7 +105,7 @@ with open("state.json", 'r') as f:
 ## File Structure
 
 ```
-~/COMBINED/workspace-config/claude/skills/notebooklm/data/
+~/.claude/workspace-config/claude/skills/notebooklm/data/
 ├── auth_info.json              # Metadata about authentication
 ├── browser_state/
 │   ├── state.json             # Cookies + localStorage (for manual injection)

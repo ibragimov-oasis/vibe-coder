@@ -19,7 +19,7 @@ tags:
 
 **The system**: 15 mega-agents (specialized AI roles), 23 orchestration systems (task coordination), 3 memory systems (context persistence), 12 MCP servers (tool integration), 3,000+ UI components, 3,000+ skills, 4,000+ prompts.
 
-**How it works**: You read a mega-agent file (`COMBINED/agents/mega/`), which gives you the full methodology for that task type. The agent file tells you which skills to apply, which tools to use, and what process to follow.
+**How it works**: You read a mega-agent file (`.claude/agents/mega/`), which gives you the full methodology for that task type. The agent file tells you which skills to apply, which tools to use, and what process to follow.
 
 ---
 
@@ -27,7 +27,7 @@ tags:
 
 ```
 1. What type of task? → Select agent from routing tree below
-2. Read the agent file → COMBINED/agents/mega/<agent>.md
+2. Read the agent file → .claude/agents/mega/<agent>.md
 3. Execute using the agent's methodology
 4. After → Run Shannon security check + save learnings
 ```
@@ -109,7 +109,7 @@ Root files:
   PIPELINE.md            ← Extended pipeline architecture
   MEMORY_BOOTSTRAP.md    ← THIS FILE (quick-start context)
 
-COMBINED/ directory:
+.claude/ directory:
   agents/mega/           ← 15 mega-agent files (START HERE)
   agents/by-role/        ← 336+ agents organized by role
   skills/                ← 3,000+ skills in 24 categories

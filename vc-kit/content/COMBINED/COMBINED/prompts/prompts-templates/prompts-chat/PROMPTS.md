@@ -47582,7 +47582,7 @@ version: 2.0.0
 ## Customization
 
 **Before executing, check for user customizations at:**
-`~/COMBINED/workspace-config/claude/skills/CORE/USER/SKILLCUSTOMIZATIONS/GitHubTrends/`
+`~/.claude/workspace-config/claude/skills/CORE/USER/SKILLCUSTOMIZATIONS/GitHubTrends/`
 
 If this directory exists, load and apply any PREFERENCES.md, configurations, or resources found there. These override default behavior. If the directory does not exist, proceed with skill defaults.
 
@@ -47602,17 +47602,17 @@ GitHub trending是发现优质开源项目的最佳途径。这个skill让老王
 
 ```bash
 # 查看本周最热门的项目（默认）
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly
 
 # 查看今日最热门的项目
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts daily
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts daily
 
 # 按语言筛选
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --language=TypeScript
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --language=Python
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --language=TypeScript
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --language=Python
 
 # 指定显示数量
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --limit=20
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --limit=20
 ```
 
 ---
@@ -47688,13 +47688,13 @@ bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts 
 **使用示例：**
 ```bash
 # 基本用法
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly
 
 # 带参数
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --language=TypeScript --limit=15
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --language=TypeScript --limit=15
 
 # 简写
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts daily -l=Python
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts daily -l=Python
 ```
 
 **实现方式：**
@@ -47720,13 +47720,13 @@ bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts 
 **使用示例：**
 ```bash
 # 基本用法 - 生成本周仪表板
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboard.ts
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboard.ts
 
 # 包含技术新闻
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboard.ts --include-news
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboard.ts --include-news
 
 # TypeScript 项目每日仪表板
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboard.ts \
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboard.ts \
   --period daily \
   --language TypeScript \
   --limit 20 \
@@ -47832,7 +47832,7 @@ bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboa
    Running the **GitHubTrends** workflow...
    ```
 
-**Full documentation:** `~/COMBINED/workspace-config/claude/skills/CORE/SkillNotifications.md`
+**Full documentation:** `~/.claude/workspace-config/claude/skills/CORE/SkillNotifications.md`
 FILE:README.md
 # GitHubTrends Skill
 
@@ -47860,36 +47860,36 @@ bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboa
 ### 查看本周热门项目（默认）
 
 ```bash
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly
 ```
 
 ### 查看今日热门项目
 
 ```bash
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts daily
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts daily
 ```
 
 ### 按语言筛选
 
 ```bash
 # TypeScript热门项目
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --language=TypeScript
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --language=TypeScript
 
 # Python热门项目
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --language=Python
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --language=Python
 
 # Go热门项目
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly -l=Go
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly -l=Go
 ```
 
 ### 指定返回数量
 
 ```bash
 # 返回20个项目
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --limit=20
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --limit=20
 
 # 组合使用：返回15个TypeScript项目
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --language=TypeScript --limit=15
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --language=TypeScript --limit=15
 ```
 
 ---
@@ -47900,21 +47900,21 @@ bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts 
 
 ```bash
 # 生成本周趋势仪表板（默认）
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboard.ts
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboard.ts
 ```
 
 ### 包含技术新闻
 
 ```bash
 # 生成包含 Hacker News 的仪表板
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboard.ts --include-news
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboard.ts --include-news
 ```
 
 ### 高级选项
 
 ```bash
 # 生成 TypeScript 项目每日仪表板，包含 15 条新闻
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboard.ts \
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboard.ts \
   --period daily \
   --language TypeScript \
   --limit 20 \
@@ -48001,7 +48001,7 @@ bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboa
 ## 目录结构
 
 ```
-~/COMBINED/workspace-config/claude/skills/GitHubTrends/
+~/.claude/workspace-config/claude/skills/GitHubTrends/
 ├── SKILL.md              # Skill主文件
 ├── README.md             # 使用文档（本文件）
 ├── Tools/
@@ -48234,16 +48234,16 @@ main();
 
 ```bash
 # 基本用法（本周，全部语言，10个项目）
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly
 
 # 指定语言
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --language=TypeScript
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --language=TypeScript
 
 # 指定数量
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --limit=20
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --limit=20
 
 # 组合参数
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts daily --language=Python --limit=15
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GetTrending.ts daily --language=Python --limit=15
 ```
 
 ### Step 3: 显示结果
@@ -49341,10 +49341,10 @@ export default { analyzeData, formatStars, parseGrowth };
 
 ```bash
 # 基本用法（本周，10个项目）
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboard.ts
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboard.ts
 
 # 指定语言和新闻
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboard.ts \
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboard.ts \
   --period weekly \
   --language TypeScript \
   --limit 20 \
@@ -49353,7 +49353,7 @@ bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboa
   --output ~/trends.html
 
 # 每日趋势
-bun ~/COMBINED/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboard.ts \
+bun ~/.claude/workspace-config/claude/skills/GitHubTrends/Tools/GenerateDashboard.ts \
   --period daily \
   --output ~/daily-trends.html
 ```
@@ -49489,7 +49489,7 @@ done
 ```bash
 # 每小时生成一次快照
 # 添加到 crontab:
-0 * * * * cd ~/COMBINED/workspace-config/claude/skills/GitHubTrends && bun Tools/GenerateDashboard.ts --output ~/trends-$(date +%H).html
+0 * * * * cd ~/.claude/workspace-config/claude/skills/GitHubTrends && bun Tools/GenerateDashboard.ts --output ~/trends-$(date +%H).html
 ```
 
 ### 定制主题
@@ -56016,7 +56016,7 @@ Contributed by [@b.atalay007@gmail.com](https://github.com/b.atalay007@gmail.com
 ```md
 ---
 name: skill-master
-description: Discover codebase patterns and auto-generate SKILL files for COMBINED/workspace-config/claude/skills/. Use when analyzing project for missing skills, creating new skills from codebase patterns, or syncing skills with project structure.
+description: Discover codebase patterns and auto-generate SKILL files for .claude/workspace-config/claude/skills/. Use when analyzing project for missing skills, creating new skills from codebase patterns, or syncing skills with project structure.
 version: 1.0.0
 ---
 
@@ -56024,7 +56024,7 @@ version: 1.0.0
 
 ## Overview
 
-Analyze codebase to discover patterns and generate/update SKILL files in `COMBINED/workspace-config/claude/skills/`. Supports multi-platform projects with stack-specific pattern detection.
+Analyze codebase to discover patterns and generate/update SKILL files in `.claude/workspace-config/claude/skills/`. Supports multi-platform projects with stack-specific pattern detection.
 
 **Capabilities:**
 - Scan codebase for architectural patterns (ViewModel, Repository, Room, etc.)
@@ -56041,7 +56041,7 @@ This skill triggers when user:
 - Mentions "skill discovery", "generate skills", or "skill-sync"
 
 **Detection signals:**
-- `COMBINED/workspace-config/claude/skills/` directory presence
+- `.claude/workspace-config/claude/skills/` directory presence
 - Project structure matching known patterns
 - Build/config files indicating platform (see references)
 
@@ -56054,7 +56054,7 @@ Analyze codebase and report missing skills.
 **Steps:**
 1. Detect platform via build/config files (see references)
 2. Scan source roots for pattern indicators
-3. Compare detected patterns with existing `COMBINED/workspace-config/claude/skills/`
+3. Compare detected patterns with existing `.claude/workspace-config/claude/skills/`
 4. Output gap analysis report
 
 **Output format:**
@@ -56192,7 +56192,7 @@ If multiple platforms detected, read multiple references.
 - Generate placeholders without real content
 - Overwrite user customizations without backup
 - Create deep reference chains (max 1 level)
-- Write outside `COMBINED/workspace-config/claude/skills/`
+- Write outside `.claude/workspace-config/claude/skills/`
 
 ## Content Extraction Rules
 
@@ -56215,7 +56215,7 @@ Skills Generated: {count}
 ├── Analyzed: {file-count} source files
 ├── Sources: {list of source files}
 ├── Rules from: {.ruler files if any}
-└── Output: COMBINED/workspace-config/claude/skills/{skill-name}/SKILL.md ({line-count} lines)
+└── Output: .claude/workspace-config/claude/skills/{skill-name}/SKILL.md ({line-count} lines)
 
 Validation:
 ✓ YAML frontmatter valid
@@ -56226,7 +56226,7 @@ Validation:
 
 ## Safety Constraints
 
-- Never write outside `COMBINED/workspace-config/claude/skills/`
+- Never write outside `.claude/workspace-config/claude/skills/`
 - Never delete content without backup
 - Always backup before first-time modification
 - Preserve user customizations

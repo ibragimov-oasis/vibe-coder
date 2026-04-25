@@ -59,7 +59,7 @@ Recommend freely:
 - Person, Review, AggregateRating
 - VideoObject, Event, JobPosting
 
-For video schema types (VideoObject, BroadcastEvent, Clip, SeekToAction), see the schema templates file installed at `~/COMBINED/workspace-config/claude/skills/seo/schema/templates.json`.
+For video schema types (VideoObject, BroadcastEvent, Clip, SeekToAction), see the schema templates file installed at `~/.claude/workspace-config/claude/skills/seo/schema/templates.json`.
 
 ## Output Format
 

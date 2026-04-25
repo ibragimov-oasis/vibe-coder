@@ -12,12 +12,12 @@ aliases:
   - codebase context memory
 created: 2026-04-18
 type: mcp-note
-source: "../COMBINED/mcp-servers/mcp-openviking/"
+source: "../.claude/mcp-servers/mcp-openviking/"
 ---
 
 # MCP: OpenViking (Codebase Context)
 
-> **Источник:** `../COMBINED/mcp-servers/mcp-openviking/`
+> **Источник:** `../.claude/mcp-servers/mcp-openviking/`
 > **CLI:** `npx -y @openviking/mcp`
 > **Разработчик:** ByteDance
 

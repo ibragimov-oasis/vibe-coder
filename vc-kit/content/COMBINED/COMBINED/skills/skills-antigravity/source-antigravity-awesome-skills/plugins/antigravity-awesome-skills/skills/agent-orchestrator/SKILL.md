@@ -107,7 +107,7 @@ agent-orchestrator/data/registry.json
 ## Locais De Busca
 
 O scanner procura SKILL.md em:
-1. `COMBINED/workspace-config/claude/skills/*/` (skills registradas no Claude Code)
+1. `.claude/workspace-config/claude/skills/*/` (skills registradas no Claude Code)
 2. `*/` (skills standalone no top-level)
 3. `*/*\` (skills em subpastas, ate profundidade 3)
 
@@ -121,7 +121,7 @@ Cada entrada no registry contem:
 | description    | Descricao completa (triggers inclusos)             |
 | location       | Caminho absoluto do diretorio                      |
 | skill_md       | Caminho absoluto do SKILL.md                       |
-| registered     | Se esta em COMBINED/workspace-config/claude/skills/ (true/false)            |
+| registered     | Se esta em .claude/workspace-config/claude/skills/ (true/false)            |
 | capabilities   | Tags de capacidade (auto-extraidas + explicitas)   |
 | triggers       | Keywords de ativacao extraidas da description      |
 | language       | Linguagem principal (python/nodejs/bash/none)      |
@@ -263,7 +263,7 @@ description: "Descricao com keywords de ativacao..."
 3. **Pronto!** O auto-discovery detecta automaticamente na proxima solicitacao.
 
 Opcionalmente, para discovery nativo do Claude Code:
-4. Copiar o SKILL.md para `COMBINED/workspace-config/claude/skills/<nome>/SKILL.md`
+4. Copiar o SKILL.md para `.claude/workspace-config/claude/skills/<nome>/SKILL.md`
 
 ## Tags De Capacidade Explicitas (Opcional)
 

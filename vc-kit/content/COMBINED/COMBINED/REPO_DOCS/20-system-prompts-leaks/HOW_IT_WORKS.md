@@ -60,15 +60,15 @@ Step 6: AI reads `CONTRIBUTING.md` → understands how to submit new prompt extr
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| readme.md | COMBINED/REPO_DOCS/20-system-prompts-leaks/ | Documentation |
-| Anthropic/ | COMBINED/prompts/leaked/anthropic/ | Claude system prompts (versioned) |
-| OpenAI/ | COMBINED/prompts/leaked/openai/ | GPT system prompts (versioned) |
-| Google/ | COMBINED/prompts/leaked/google/ | Gemini system prompts |
-| Misc/ | COMBINED/prompts/leaked/misc/ | Other AI tool prompts |
+| readme.md | .claude/REPO_DOCS/20-system-prompts-leaks/ | Documentation |
+| Anthropic/ | .claude/prompts/leaked/anthropic/ | Claude system prompts (versioned) |
+| OpenAI/ | .claude/prompts/leaked/openai/ | GPT system prompts (versioned) |
+| Google/ | .claude/prompts/leaked/google/ | Gemini system prompts |
+| Misc/ | .claude/prompts/leaked/misc/ | Other AI tool prompts |
 
 ---
 

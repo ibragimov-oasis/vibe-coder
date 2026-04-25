@@ -11,12 +11,12 @@ aliases:
   - design patterns gallery
 created: 2026-04-18
 type: ui-gallery
-source: "COMBINED/ui-design/ui-rules/ui-ux-pro-max/"
+source: ".claude/ui-design/ui-rules/ui-ux-pro-max/"
 ---
 
 # 🎭 UI Patterns — Anti-Slop Reference
 
-> **Источник:** `../COMBINED/ui-design/ui-rules/ui-ux-pro-max/`
+> **Источник:** `../.claude/ui-design/ui-rules/ui-ux-pro-max/`
 > **Основан на:** UI/UX Pro Max (161 правило) + Taste-skill + Impeccable
 > **Назначение:** Проверять UI против известных плохих паттернов
 

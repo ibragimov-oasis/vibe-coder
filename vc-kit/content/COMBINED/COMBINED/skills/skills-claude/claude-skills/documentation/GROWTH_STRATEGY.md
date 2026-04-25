@@ -313,7 +313,7 @@ Expert agent for {domain} using the {Skill Name} skill.
    - Document agent capabilities
 
 3. **Create Slash Command** (if appropriate)
-   - Create `COMBINED/workspace-config/claude/commands/{command-name}.md`
+   - Create `.claude/workspace-config/claude/commands/{command-name}.md`
    - Command invokes agent with skill context
    - Example: `/optimize-aso` → loads cs-app-store-optimizer agent
 
@@ -696,7 +696,7 @@ Expert agent for {domain} using the {Skill Name} skill.
    - Document coordination patterns if skill works with others
    - Update routing logic documentation
 
-3. **Create Slash Command** (`COMBINED/workspace-config/claude/commands/{command-name}.md`)
+3. **Create Slash Command** (`.claude/workspace-config/claude/commands/{command-name}.md`)
    ```markdown
    # /{command-name}
 

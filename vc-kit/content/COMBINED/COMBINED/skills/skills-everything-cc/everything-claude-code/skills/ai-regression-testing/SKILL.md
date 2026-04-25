@@ -201,7 +201,7 @@ describe("GET /api/user/messages (conversation list)", () => {
 ### Custom Command Definition
 
 ```markdown
-<!-- COMBINED/workspace-config/claude/commands/bug-check.md -->
+<!-- .claude/workspace-config/claude/commands/bug-check.md -->
 # Bug Check
 
 ## Step 1: Automated Tests (mandatory, cannot skip)

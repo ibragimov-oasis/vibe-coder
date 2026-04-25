@@ -70,7 +70,7 @@ type: moc
 
 - [[MOC - Skills]] — Дизайн навыки в skills-design/
 - [[MOC - Agents]] — mega-designer
-- [[combined/UI Design Overview]] — COMBINED/ui-design структура
+- [[combined/UI Design Overview]] — .claude/ui-design структура
 - [[000 - Map of Maps]] — Главная карта
 
 ## 🖼️ UI Gallery (Wave 11)

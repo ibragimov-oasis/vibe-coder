@@ -10,12 +10,12 @@ aliases:
   - text layout mcp
 created: 2026-04-18
 type: mcp-note
-source: "../COMBINED/mcp-servers/mcp-pretext/"
+source: "../.claude/mcp-servers/mcp-pretext/"
 ---
 
 # MCP: Pretext
 
-> **Источник:** `../COMBINED/mcp-servers/mcp-pretext/`
+> **Источник:** `../.claude/mcp-servers/mcp-pretext/`
 > **Статус:** ⚠️ PLANNED — ещё не настроен
 
 ## Описание

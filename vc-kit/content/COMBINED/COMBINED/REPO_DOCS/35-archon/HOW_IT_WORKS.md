@@ -10,7 +10,7 @@ tags:
 # Archon — How It Works
 
 **Category:** New Repo (Vibe-Coder v3.0 — original 54)
-**Local path in vibe-coder:** COMBINED/orchestration/core-archon/
+**Local path in vibe-coder:** .claude/orchestration/core-archon/
 
 ---
 
@@ -22,13 +22,13 @@ YAML workflow engine with 17 pre-built DAG templates for deterministic task exec
 
 ## Vibe-Coder Role
 
-Provides specialized capability as described above. See the files at `COMBINED/orchestration/core-archon/` for full documentation and usage instructions.
+Provides specialized capability as described above. See the files at `.claude/orchestration/core-archon/` for full documentation and usage instructions.
 
 ---
 
 ## Status
 
-- [x] Integrated into COMBINED/
+- [x] Integrated into .claude/
 - [x] Referenced in AGENTS.md and CAPABILITIES.md
 - [x] Added to MASTER_INDEX
 

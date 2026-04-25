@@ -73,10 +73,10 @@ tags:
 
 ```bash
 # Find formula for slide type
-python COMBINED/workspace-config/claude/skills/design-system/scripts/search-slides.py "problem agitation" -d copy
+python .claude/workspace-config/claude/skills/design-system/scripts/search-slides.py "problem agitation" -d copy
 
 # Get emotion-appropriate formula
-python COMBINED/workspace-config/claude/skills/design-system/scripts/search-slides.py "urgency cta" -d copy
+python .claude/workspace-config/claude/skills/design-system/scripts/search-slides.py "urgency cta" -d copy
 ```
 
 ## Quick Reference

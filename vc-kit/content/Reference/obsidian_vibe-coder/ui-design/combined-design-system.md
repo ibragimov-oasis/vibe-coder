@@ -10,12 +10,12 @@ aliases:
   - design system reference
 created: 2026-04-18
 type: ui-note
-source: "../COMBINED/ui-design/COMBINED_DESIGN_SYSTEM.md"
+source: "../.claude/ui-design/COMBINED_DESIGN_SYSTEM.md"
 ---
 
 # UI Design: Combined Design System
 
-> **Источник:** `../COMBINED/ui-design/COMBINED_DESIGN_SYSTEM.md`
+> **Источник:** `../.claude/ui-design/COMBINED_DESIGN_SYSTEM.md`
 > **Master reference:** единый источник правды для дизайн-системы Vibe-Coder.
 
 ## О чём

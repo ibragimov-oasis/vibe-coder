@@ -10,12 +10,12 @@ aliases:
   - awesome claude skills
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-awesome-claude/"
+source: "../.claude/skills/skills-awesome-claude/"
 ---
 
 # Skills: Awesome Claude
 
-> **Источник:** `../COMBINED/skills/skills-awesome-claude/`
+> **Источник:** `../.claude/skills/skills-awesome-claude/`
 
 ## О чём
 

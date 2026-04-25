@@ -41,5 +41,5 @@ Use for: technology research, competitive analysis, best-practice investigation,
 - **After research** → hand off to mega-coder for implementation
 
 ## Full Agent Definition
-Read: `COMBINED/agents/mega/mega-researcher.md`
-Source: `COMBINED/orchestration/core-deer-flow/` (DeerFlow research system)
+Read: `.claude/agents/mega/mega-researcher.md`
+Source: `.claude/orchestration/core-deer-flow/` (DeerFlow research system)

@@ -41,7 +41,7 @@ Or clone manually into your agent's skills directory:
 
 ```bash
 # Claude Code
-git clone https://github.com/Xquik-dev/x-twitter-scraper.git COMBINED/workspace-config/claude/skills/x-twitter-scraper
+git clone https://github.com/Xquik-dev/x-twitter-scraper.git .claude/workspace-config/claude/skills/x-twitter-scraper
 
 # Cursor / Codex / Gemini CLI / Copilot
 git clone https://github.com/Xquik-dev/x-twitter-scraper.git .agents/skills/x-twitter-scraper

@@ -9,12 +9,12 @@ aliases:
   - architect agents
 created: 2026-04-18
 type: agents-role
-source: "../COMBINED/agents/by-role/architect/"
+source: "../.claude/agents/by-role/architect/"
 ---
 
 # Agents By Role: Architect (5)
 
-> **Источник:** `../COMBINED/agents/by-role/architect/`
+> **Источник:** `../.claude/agents/by-role/architect/`
 > **Количество:** 5 агентов
 
 ## Источники

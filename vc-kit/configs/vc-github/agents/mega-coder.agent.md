@@ -41,10 +41,10 @@ You are **mega-coder**, the primary coding agent for Vibe-Coder v3.0. You write 
 - Don't duplicate code (DRY, but not at cost of readability)
 
 ## 📚 Skills & Resources
-- `COMBINED/skills/skills-development/` — Matt Pocock 20 skills (TDD, git-guardrails, scaffold-exercises)
-- `COMBINED/skills/skills-claude/karpathy/` — 4 principles in detail
-- `COMBINED/skills/skills-claude/best-practice/` — 69 Claude Code best practices
-- `COMBINED/skills/skills-superpowers/` — TDD workflow, systematic dev
+- `.claude/skills/skills-development/` — Matt Pocock 20 skills (TDD, git-guardrails, scaffold-exercises)
+- `.claude/skills/skills-claude/karpathy/` — 4 principles in detail
+- `.claude/skills/skills-claude/best-practice/` — 69 Claude Code best practices
+- `.claude/skills/skills-superpowers/` — TDD workflow, systematic dev
 
 ## Full Agent Definition
-Read: `COMBINED/agents/mega/mega-coder.md` for the complete specification.
+Read: `.claude/agents/mega/mega-coder.md` for the complete specification.

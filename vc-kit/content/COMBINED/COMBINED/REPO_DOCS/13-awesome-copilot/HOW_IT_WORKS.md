@@ -78,15 +78,15 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/13-awesome-copilot/ | Documentation |
-| .github/copilot-instructions.md | COMBINED/prompts/system/ | System instructions for Copilot |
-| data/*.json | COMBINED/REPO_DOCS/13-awesome-copilot/data/ | Structured resource catalogs |
-| workflows/*.md | COMBINED/agents/by-role/copilot-workflows/ | Operational agent workflows |
-| website/src/content/docs/learning-hub/ | COMBINED/REPO_DOCS/13-awesome-copilot/learning-hub/ | Tutorial content |
+| README.md | .claude/REPO_DOCS/13-awesome-copilot/ | Documentation |
+| .github/copilot-instructions.md | .claude/prompts/system/ | System instructions for Copilot |
+| data/*.json | .claude/REPO_DOCS/13-awesome-copilot/data/ | Structured resource catalogs |
+| workflows/*.md | .claude/agents/by-role/copilot-workflows/ | Operational agent workflows |
+| website/src/content/docs/learning-hub/ | .claude/REPO_DOCS/13-awesome-copilot/learning-hub/ | Tutorial content |
 
 ---
 

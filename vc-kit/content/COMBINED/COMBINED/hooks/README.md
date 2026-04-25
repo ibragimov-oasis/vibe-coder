@@ -5,7 +5,7 @@ tags:
   - source/hooks
 ---
 
-# COMBINED/hooks/ — Lifecycle Hooks Documentation (prefix-source layout)
+# .claude/hooks/ — Lifecycle Hooks Documentation (prefix-source layout)
 
 ## Current Structure
 
@@ -34,7 +34,7 @@ hooks/
 
 ## Hook Types from READ.ME.md Specification
 
-According to `/COMBINED/READ.ME.md` (lines 243-259), the expected structure includes:
+According to `/.claude/READ.ME.md` (lines 243-259), the expected structure includes:
 
 1. **pre-commit/** ✅ — Git pre-commit hooks (EXISTS via prefix folders above)
 2. **post-commit/** ❌ — Git post-commit hooks (NOT FOUND)

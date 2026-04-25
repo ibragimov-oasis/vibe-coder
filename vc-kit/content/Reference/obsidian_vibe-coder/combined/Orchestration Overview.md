@@ -1,11 +1,11 @@
 ---
-title: Orchestration Overview — COMBINED/orchestration
+title: Orchestration Overview — .claude/orchestration
 tags:
   - domain/orchestration
   - artifact/index
   - status/active
   - source/combined
-source: "../COMBINED/orchestration/"
+source: "../.claude/orchestration/"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -13,15 +13,15 @@ aliases:
   - orchestration directory
 ---
 
-# 📄 Orchestration Overview — COMBINED/orchestration
+# 📄 Orchestration Overview — .claude/orchestration
 
-> **Тип:** Domain overview | **Источник:** `../COMBINED/orchestration/`
-> **Краткое описание:** Структура директории COMBINED/orchestration — 23 системы оркестрации.
+> **Тип:** Domain overview | **Источник:** `../.claude/orchestration/`
+> **Краткое описание:** Структура директории .claude/orchestration — 23 системы оркестрации.
 
 ## Структура директории
 
 ```
-COMBINED/orchestration/
+.claude/orchestration/
 ├── core-ruflo/              — RuFlo v3.5 (100+ агентов, Q-Learning)
 ├── core-gsd/                — GSD (spec-driven, context engineering)
 ├── core-omc/                — OMC (19 ролей, team pipeline)

@@ -19,7 +19,7 @@ This document details the optimization strategy for the four core extensibility 
 
 ### 1.1 Current State Analysis
 
-**Location**: `COMBINED/workspace-config/claude/agents/`
+**Location**: `.claude/workspace-config/claude/agents/`
 **Count**: 76 agents across 22 directories (scattered organization)
 
 ```
@@ -125,7 +125,7 @@ agents/
 ### 1.3 Agent Template Enhancement (v3)
 
 ```markdown
-<!-- COMBINED/workspace-config/claude/agents/core/coder.md -->
+<!-- .claude/workspace-config/claude/agents/core/coder.md -->
 ---
 name: coder
 version: 3.0.0
@@ -214,19 +214,19 @@ Task("Implement feature", "Create user authentication", "coder", {
 # migrate-agents.sh
 
 # Create new structure
-mkdir -p COMBINED/workspace-config/claude/agents/{core,orchestration,platform/github,platform/flow-nexus,platform/devops,specialized,methodology,consensus,testing}
+mkdir -p .claude/workspace-config/claude/agents/{core,orchestration,platform/github,platform/flow-nexus,platform/devops,specialized,methodology,consensus,testing}
 
 # Move core agents
-mv COMBINED/workspace-config/claude/agents/core/*.md COMBINED/workspace-config/claude/agents/core/ 2>/dev/null
+mv .claude/workspace-config/claude/agents/core/*.md .claude/workspace-config/claude/agents/core/ 2>/dev/null
 
 # Consolidate orchestration
-mv COMBINED/workspace-config/claude/agents/swarm/*.md COMBINED/workspace-config/claude/agents/orchestration/
-mv COMBINED/workspace-config/claude/agents/hive-mind/*.md COMBINED/workspace-config/claude/agents/orchestration/
+mv .claude/workspace-config/claude/agents/swarm/*.md .claude/workspace-config/claude/agents/orchestration/
+mv .claude/workspace-config/claude/agents/hive-mind/*.md .claude/workspace-config/claude/agents/orchestration/
 
 # Consolidate platform
-mv COMBINED/workspace-config/claude/agents/github/*.md COMBINED/workspace-config/claude/agents/platform/github/
-mv COMBINED/workspace-config/claude/agents/flow-nexus/*.md COMBINED/workspace-config/claude/agents/platform/flow-nexus/
-mv COMBINED/workspace-config/claude/agents/devops/*.md COMBINED/workspace-config/claude/agents/platform/devops/
+mv .claude/workspace-config/claude/agents/github/*.md .claude/workspace-config/claude/agents/platform/github/
+mv .claude/workspace-config/claude/agents/flow-nexus/*.md .claude/workspace-config/claude/agents/platform/flow-nexus/
+mv .claude/workspace-config/claude/agents/devops/*.md .claude/workspace-config/claude/agents/platform/devops/
 
 # ... continue for other categories
 
@@ -242,7 +242,7 @@ echo "Agent migration complete"
 
 ### 2.1 Current State
 
-**Location**: `COMBINED/workspace-config/claude/skills/`
+**Location**: `.claude/workspace-config/claude/skills/`
 **Count**: 28 skills (flat structure)
 
 ```
@@ -325,7 +325,7 @@ skills/
 ### 2.3 Skill Template Enhancement (v3)
 
 ```yaml
-# COMBINED/workspace-config/claude/skills/ai-coordination/swarm-orchestration/SKILL.md
+# .claude/workspace-config/claude/skills/ai-coordination/swarm-orchestration/SKILL.md
 ---
 name: swarm-orchestration
 version: 3.0.0
@@ -396,7 +396,7 @@ await adapter.initializeSwarm({
 
 ### 3.1 Current State
 
-**Location**: `COMBINED/workspace-config/claude/commands/`
+**Location**: `.claude/workspace-config/claude/commands/`
 **Count**: 93 commands across 16 categories
 
 ```
@@ -500,7 +500,7 @@ commands/
 ### 3.3 Command Template Enhancement (v3)
 
 ```markdown
-<!-- COMBINED/workspace-config/claude/commands/core/swarm-init.md -->
+<!-- .claude/workspace-config/claude/commands/core/swarm-init.md -->
 ---
 name: swarm-init
 version: 3.0.0
@@ -785,7 +785,7 @@ echo "Hook migration complete. Review changes in config.json"
 ### 5.1 Agent + Skill Linking
 
 ```yaml
-# COMBINED/workspace-config/claude/agents/core/coder.md
+# .claude/workspace-config/claude/agents/core/coder.md
 ---
 name: coder
 skills:
@@ -798,7 +798,7 @@ skills:
 ### 5.2 Command + Hook Linking
 
 ```yaml
-# COMBINED/workspace-config/claude/commands/core/swarm-init.md
+# .claude/workspace-config/claude/commands/core/swarm-init.md
 ---
 name: swarm-init
 hooks:
@@ -810,7 +810,7 @@ hooks:
 ### 5.3 Skill + Agent Requirements
 
 ```yaml
-# COMBINED/workspace-config/claude/skills/ai-coordination/swarm-orchestration/SKILL.md
+# .claude/workspace-config/claude/skills/ai-coordination/swarm-orchestration/SKILL.md
 ---
 name: swarm-orchestration
 required-agents:

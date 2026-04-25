@@ -12,12 +12,12 @@ aliases:
   - design system tokens
 created: 2026-04-18
 type: ui-gallery
-source: "../COMBINED/ui-design/COMBINED_DESIGN_SYSTEM.md"
+source: "../.claude/ui-design/COMBINED_DESIGN_SYSTEM.md"
 ---
 
 # 🎨 Design Tokens & Variables
 
-> **Источник:** `../COMBINED/ui-design/`
+> **Источник:** `../.claude/ui-design/`
 > **Назначение:** Единые переменные для всей дизайн-системы Vibe-Coder
 > **Стандарт:** W3C Design Tokens Community Group
 

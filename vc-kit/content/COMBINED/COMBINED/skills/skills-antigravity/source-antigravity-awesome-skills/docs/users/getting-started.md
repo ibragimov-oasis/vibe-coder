@@ -107,7 +107,7 @@ Once installed, just talk to your AI naturally.
 
 | Tool            | Status          | Path                                                                  |
 | :-------------- | :-------------- | :-------------------------------------------------------------------- |
-| **Claude Code** | ✅ Full Support | `COMBINED/workspace-config/claude/skills/` or install via `/plugin marketplace add sickn33/antigravity-awesome-skills` |
+| **Claude Code** | ✅ Full Support | `.claude/workspace-config/claude/skills/` or install via `/plugin marketplace add sickn33/antigravity-awesome-skills` |
 | **Gemini CLI**  | ✅ Full Support | `.gemini/skills/`                                                     |
 | **Codex CLI**   | ✅ Full Support | `.codex/skills/` or use the repo-local plugin metadata described in [plugins.md](plugins.md) |
 | **Kiro CLI**    | ✅ Full Support | Global: `~/.kiro/skills/` · Workspace: `.kiro/skills/`                |

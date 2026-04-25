@@ -13,7 +13,7 @@
   "repositories": {
     "awesome-selfhosted-master": {
       "source": "Reference/awesome-selfhosted-master/",
-      "combined_location": "COMBINED/reference/awesome-selfhosted/",
+      "combined_location": ".claude/reference/awesome-selfhosted/",
       "type": "Self-hosted tools catalog",
       "description": "Comprehensive catalog of Free Software network services and web applications which can be hosted on your own server",
       "statistics": {
@@ -100,7 +100,7 @@
       "migration_status": {
         "status": "NOT_MIGRATED",
         "priority": "LOW",
-        "recommended_action": "Migrate to COMBINED/reference/awesome-selfhosted/ - valuable reference material"
+        "recommended_action": "Migrate to .claude/reference/awesome-selfhosted/ - valuable reference material"
       },
       "use_cases": [
         "Discovering self-hosted alternatives to cloud services",
@@ -128,7 +128,7 @@
       "action": "Migrate awesome-selfhosted",
       "details": {
         "source": "Reference/awesome-selfhosted-master/",
-        "destination": "COMBINED/reference/awesome-selfhosted/",
+        "destination": ".claude/reference/awesome-selfhosted/",
         "method": "MOVE entire repository preserving structure",
         "files": 1,
         "complexity": "LOW"

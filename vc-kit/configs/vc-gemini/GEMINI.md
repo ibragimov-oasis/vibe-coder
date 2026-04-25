@@ -48,7 +48,7 @@ You are running as **Gemini CLI**. Your interface-specific capabilities:
 - ✅ **Gemini model powers** (multimodal understanding, long context window up to 2M tokens)
 - ✅ **nano-banana image generation** (powered by Gemini API — your NATIVE advantage)
 - ✅ **Search grounding** (native web search integration for real-time information)
-- ✅ **File access** (read mega-agent files from `COMBINED/agents/mega/`)
+- ✅ **File access** (read mega-agent files from `.claude/agents/mega/`)
 - ✅ **Terminal commands** (execute CLI tools for MCP-equivalent functionality)
 - ❌ **No MCP servers natively** (use CLI commands as workaround — see below)
 - ❌ **No hooks system** (follow startup/post-task sequences manually)
@@ -66,7 +66,7 @@ nano-banana uses Gemini's own API — you have a natural affinity for this:
 npx -y nano-banana-2-mcp generate "<prompt>"
 ```
 Use for: UI mockups, icons, brand assets, design concepts.
-Source: `COMBINED/mcp-servers/mcp-nano-banana/`
+Source: `.claude/mcp-servers/mcp-nano-banana/`
 
 ---
 
@@ -96,8 +96,8 @@ fi
    # If not available: skip gracefully, proceed without prior context
    ```
 5. **Assess prompt quality** — Is the user request clear, specific, and actionable?
-   - Weak/vague → check `COMBINED/prompts/prompts-templates/` → refine first
-   - Skill: `COMBINED/skills/skills-planning/` (grill-me, write-a-prd)
+   - Weak/vague → check `.claude/prompts/prompts-templates/` → refine first
+   - Skill: `.claude/skills/skills-planning/` (grill-me, write-a-prd)
    - Use your **Search Grounding** to find examples of well-formed prompts for similar tasks
 6. **Select mega-agent** using the AGENT ROUTING section below
 7. **Query code graph** (instead of reading files):
@@ -131,9 +131,9 @@ You are not just Gemini. **You are Vibe-Coder v3.0** — a unified system combin
    ./lightpanda serve --host 127.0.0.1 --port 9222
    ```
 2. **Memory**: Check memory BEFORE any task; save learnings AFTER.
-   - Short-term: `COMBINED/memory/memory-claude-mem/`
+   - Short-term: `.claude/memory/memory-claude-mem/`
    - Long-term: `https://mcp.supermemory.ai/mcp`
-   - Codebase: `COMBINED/mcp-servers/mcp-openviking/`
+   - Codebase: `.claude/mcp-servers/mcp-openviking/`
    - **If MCP unavailable**: Use CLI commands or skip gracefully. Don't let missing memory block your work.
 3. **UI/Design**: Galaxy → shadcn → Impeccable → Taste-skill → Stitch → UI/UX Pro Max. 200+ rules total.
 4. **Self-Improvement**: Hermes self-learning loop after every task — patterns → skills → memory → Refly.
@@ -147,47 +147,47 @@ Classify the user's task and select the correct mega-agent:
 
 ```
 IF task mentions bug/error/crash/fix/broken/не работает
-  → READ COMBINED/agents/mega/mega-debugger.md
+  → READ .claude/agents/mega/mega-debugger.md
 
 IF task mentions UI/design/frontend/component/CSS/layout/страница/дизайн
-  → READ COMBINED/agents/mega/mega-designer.md
+  → READ .claude/agents/mega/mega-designer.md
 
 IF task mentions plan/architecture/roadmap/PRD/design-doc/план/архитектура
-  → READ COMBINED/agents/mega/mega-planner.md
+  → READ .claude/agents/mega/mega-planner.md
 
 IF task mentions research/analyze/investigate/compare/исследуй/сравни
-  → READ COMBINED/agents/mega/mega-researcher.md
+  → READ .claude/agents/mega/mega-researcher.md
 
 IF task mentions security/vulnerability/audit/pentest/безопасность
-  → READ COMBINED/agents/mega/mega-security.md
+  → READ .claude/agents/mega/mega-security.md
 
 IF task mentions SEO/meta/sitemap/search-ranking/поисковая оптимизация
-  → READ COMBINED/agents/mega/mega-seo.md
+  → READ .claude/agents/mega/mega-seo.md
 
 IF task mentions review/code-review/PR-review/проверь код
-  → READ COMBINED/agents/mega/mega-reviewer.md
+  → READ .claude/agents/mega/mega-reviewer.md
 
 IF task mentions test/TDD/coverage/unit-test/тест
-  → READ COMBINED/agents/mega/mega-tester.md
+  → READ .claude/agents/mega/mega-tester.md
 
 IF task mentions docs/README/documentation/API-docs/документация
-  → READ COMBINED/agents/mega/mega-writer.md
+  → READ .claude/agents/mega/mega-writer.md
 
 IF task mentions deploy/CI/CD/git/pipeline/docker/деплой
-  → READ COMBINED/agents/mega/mega-devops.md
+  → READ .claude/agents/mega/mega-devops.md
 
 IF task mentions infrastructure/swarm/scaling/consensus/инфраструктура
-  → READ COMBINED/agents/mega/mega-infrastructure.md
+  → READ .claude/agents/mega/mega-infrastructure.md
 
 IF task mentions system-design/ADR/trade-off/системный дизайн
-  → READ COMBINED/agents/mega/mega-architect.md
+  → READ .claude/agents/mega/mega-architect.md
 
 IF task is complex (multiple concerns, full feature, admin panel, dashboard)
-  → READ COMBINED/agents/mega/mega-orchestrator.md
+  → READ .claude/agents/mega/mega-orchestrator.md
   → Orchestrator decomposes into sub-tasks and delegates
 
 DEFAULT (simple coding task)
-  → READ COMBINED/agents/mega/mega-coder.md
+  → READ .claude/agents/mega/mega-coder.md
 ```
 
 ---
@@ -213,8 +213,8 @@ Step 2 — Cast agents in sequence:
     mega-security     → security review (Shannon SAST + dynamic via Lightpanda)
     mega-reviewer     → final code review (7 dimensions)
 
-Step 3 — Assign clear prompt to each agent (use COMBINED/prompts/prompts-templates/)
-          Weak user prompt → apply grill-me skill first: COMBINED/skills/skills-planning/
+Step 3 — Assign clear prompt to each agent (use .claude/prompts/prompts-templates/)
+          Weak user prompt → apply grill-me skill first: .claude/skills/skills-planning/
 
 Step 4 — Execute in sequence: planner → researcher → designer → coder → tester → security → reviewer
           Gemini advantage: use your 2M context to read ALL agent files in one pass
@@ -231,7 +231,7 @@ Step 5 — POST-TASK: Follow checklist (Shannon + Hermes + Obsidian + Quality Re
 You can process up to 2M tokens. Use this to:
 - Read entire mega-agent files in one pass
 - Analyze large codebases without truncation
-- Process multiple COMBINED/ files simultaneously
+- Process multiple .claude/ files simultaneously
 
 ### 🔍 Search Grounding
 Your native search capability complements the mega-researcher agent:
@@ -265,7 +265,7 @@ Supports: PDF, DOCX, XLSX, PPTX, images, audio, HTML, ZIP
 
 ## 🤖 15 Mega Agents
 
-All agents: `COMBINED/agents/mega/`. Full catalog: `AGENTS.md`
+All agents: `.claude/agents/mega/`. Full catalog: `AGENTS.md`
 
 | Agent | Purpose | Sources |
 |-------|---------| --------|
@@ -291,46 +291,46 @@ All agents: `COMBINED/agents/mega/`. Full catalog: `AGENTS.md`
 
 ### Need to CODE?
 ```
-Agent:   COMBINED/agents/mega/mega-coder.md
-Skills:  COMBINED/skills/skills-development/ (Matt Pocock TDD, git-guardrails)
-         COMBINED/skills/skills-claude/karpathy/ (4 principles)
-         COMBINED/skills/skills-claude/best-practice/ (69 tips)
+Agent:   .claude/agents/mega/mega-coder.md
+Skills:  .claude/skills/skills-development/ (Matt Pocock TDD, git-guardrails)
+         .claude/skills/skills-claude/karpathy/ (4 principles)
+         .claude/skills/skills-claude/best-practice/ (69 tips)
 Tools:   GitNexus (code map), code-review-graph (blast-radius)
 ```
 
 ### Need to DEBUG?
 ```
-Agent:   COMBINED/agents/mega/mega-debugger.md
+Agent:   .claude/agents/mega/mega-debugger.md
 Process: hypothesis → test → fix → verify → 3-failure circuit breaker
 ```
 
 ### Need to PLAN?
 ```
-Agent:   COMBINED/agents/mega/mega-planner.md
-Also:    COMBINED/orchestration/core-gsd/ + COMBINED/skills/skills-planning/
+Agent:   .claude/agents/mega/mega-planner.md
+Also:    .claude/orchestration/core-gsd/ + .claude/skills/skills-planning/
 ```
 
 ### Need DESIGN / UI?
 ```
-Agent:   COMBINED/agents/mega/mega-designer.md
+Agent:   .claude/agents/mega/mega-designer.md
 Sources: Galaxy (3,000+) → shadcn → Impeccable → Taste-skill → Stitch → UI/UX Pro Max
 ```
 
 ### Need SECURITY?
 ```
-Agent:   COMBINED/agents/mega/mega-security.md
+Agent:   .claude/agents/mega/mega-security.md
 Flow:    Static analysis → Dynamic pentesting → fix → re-test until clean
 ```
 
 ### Need CODE REVIEW?
 ```
-Agent:   COMBINED/agents/mega/mega-reviewer.md
+Agent:   .claude/agents/mega/mega-reviewer.md
 Methodology: 7 dimensions (Correctness, Security, Performance, Maintainability, Tests, Docs, Style)
 ```
 
 ### Need to ORCHESTRATE agents?
 ```
-Agent:   COMBINED/agents/mega/mega-orchestrator.md
+Agent:   .claude/agents/mega/mega-orchestrator.md
 Systems: RuFlo (enterprise), GSD (spec-driven), OMC (multi-agent teams),
          DeerFlow (research), Hermes (self-learning), Ralph (PRD loop),
          Squad (Copilot teams), Archon (YAML DAG), Task Master (MCP tasks)
@@ -369,7 +369,7 @@ Systems: RuFlo (enterprise), GSD (spec-driven), OMC (multi-agent teams),
 6. **code-review** → Reviews against plan
 7. **finishing-branch** → Verify tests, present options
 
-Source: `COMBINED/orchestration/superpowers/`
+Source: `.claude/orchestration/superpowers/`
 
 Philosophy: Test-Driven Development, Systematic over ad-hoc, Complexity reduction, Evidence over claims.
 
@@ -382,7 +382,7 @@ Lightweight spec-driven system. **Solves context rot**.
 - `gsd:plan` → Generate implementation plan
 - `gsd:exec` → Execute the plan
 
-Source: `COMBINED/orchestration/core-gsd/`
+Source: `.claude/orchestration/core-gsd/`
 
 ---
 
@@ -403,7 +403,7 @@ OMC (oh-my-claudecode) provides a multi-agent coordination framework. While desi
 
 **Team pipeline**: `team-plan` → `team-prd` → `team-exec` → `team-verify` → `team-fix` (loop).
 
-Source: `COMBINED/orchestration/core-omc/`
+Source: `.claude/orchestration/core-omc/`
 
 ---
 
@@ -465,7 +465,7 @@ Source: `COMBINED/orchestration/core-omc/`
 
 ## 📚 Skills Library (3,000+ skills in 24 categories)
 
-All in `COMBINED/skills/`: ruflo, superpowers, omc, claude (**Karpathy** + **best practices**), design (**Impeccable** + **Taste-skill**), seo (**SEOMachine**), development (**Matt Pocock 20 skills**), planning (**PRD, grill-me**), writing, devops, research, hermes, deer-flow, antigravity, awesome-claude, background, business, copilot, data-analysis, everything-cc, platform, stitch
+All in `.claude/skills/`: ruflo, superpowers, omc, claude (**Karpathy** + **best practices**), design (**Impeccable** + **Taste-skill**), seo (**SEOMachine**), development (**Matt Pocock 20 skills**), planning (**PRD, grill-me**), writing, devops, research, hermes, deer-flow, antigravity, awesome-claude, background, business, copilot, data-analysis, everything-cc, platform, stitch
 
 ---
 
@@ -506,9 +506,9 @@ Since Gemini CLI doesn't have native MCP support, use these CLI commands directl
 
 | System | Purpose | Location |
 |--------|---------|----------|
-| Claude-Mem | Session memory | `COMBINED/memory/memory-claude-mem/` |
+| Claude-Mem | Session memory | `.claude/memory/memory-claude-mem/` |
 | Supermemory | Long-term (#1 benchmarks) | `https://mcp.supermemory.ai/mcp` |
-| OpenViking | Codebase context (ByteDance) | `COMBINED/mcp-servers/mcp-openviking/` |
+| OpenViking | Codebase context (ByteDance) | `.claude/mcp-servers/mcp-openviking/` |
 
 ---
 
@@ -535,15 +535,15 @@ CAPABILITIES.md                ← Full capability registry and rules
 INTERFACE_MATRIX.md            ← What tools/MCP/skills work in which interface
 PIPELINE.md                    ← Extended pipeline: Task Master → Archon → BG → Hermes → Shannon → CRG
 AGENTS.md                      ← Full agent catalog (54 repos, 15 mega-agents)
-COMBINED/agents/mega/          ← 15 mega-agents (start here)
-COMBINED/skills/               ← 3,000+ skills (24 categories)
-COMBINED/orchestration/        ← 23 orchestration systems
-COMBINED/security/             ← Shannon pentester
-COMBINED/ui-design/            ← Galaxy, shadcn, Impeccable, Taste-skill, Stitch, UI/UX Pro Max
-COMBINED/mcp-servers/          ← MCP server configs
-COMBINED/memory/               ← Memory systems
-COMBINED/prompts/              ← 4,000+ prompts
-COMBINED/reference/            ← Claude HUD, 500+ cursor rules, selfhosted
+.claude/agents/mega/          ← 15 mega-agents (start here)
+.claude/skills/               ← 3,000+ skills (24 categories)
+.claude/orchestration/        ← 23 orchestration systems
+.claude/security/             ← Shannon pentester
+.claude/ui-design/            ← Galaxy, shadcn, Impeccable, Taste-skill, Stitch, UI/UX Pro Max
+.claude/mcp-servers/          ← MCP server configs
+.claude/memory/               ← Memory systems
+.claude/prompts/              ← 4,000+ prompts
+.claude/reference/            ← Claude HUD, 500+ cursor rules, selfhosted
 ```
 
 ---
@@ -551,7 +551,7 @@ COMBINED/reference/            ← Claude HUD, 500+ cursor rules, selfhosted
 ## 📝 Prompt Improvement
 
 If the user's request is vague, weak, or poorly structured:
-1. Check `COMBINED/prompts/prompts-templates/` for structured prompt templates
+1. Check `.claude/prompts/prompts-templates/` for structured prompt templates
 2. Rewrite the request using a relevant template as a guide
 3. Confirm the refined request with the user before executing
 
@@ -568,10 +568,10 @@ If the user's request is vague, weak, or poorly structured:
    - 🔴 Hardcoded secrets or credentials
    - 🔴 SSRF / path traversal
    - 🔴 IDOR (insecure direct object references)
-   - Full methodology: `COMBINED/security/security-shannon/SHANNON-PRO.md`
+   - Full methodology: `.claude/security/security-shannon/SHANNON-PRO.md`
    - If vulnerabilities found → **fix immediately**, then re-check
 2. **Self-learning** (Hermes): If you discovered a novel pattern:
-   - Create skill: `COMBINED/skills/{domain}/{pattern-name}/SKILL.md`
+   - Create skill: `.claude/skills/{domain}/{pattern-name}/SKILL.md`
    - Document: what worked, what failed, what was novel
 3. **Obsidian Vault Auto-Save** (⛔ MANDATORY after every non-trivial task):
    ```bash

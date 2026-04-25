@@ -9,7 +9,7 @@ tags:
 
 ## 可用 Agents
 
-位於 `~/COMBINED/workspace-config/claude/agents/`：
+位於 `~/.claude/workspace-config/claude/agents/`：
 
 | Agent | 用途 | 何時使用 |
 |-------|------|----------|

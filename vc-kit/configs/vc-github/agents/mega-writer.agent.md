@@ -45,9 +45,9 @@ markitdown <filename>
 ```
 
 ## 📚 Skills
-- `COMBINED/skills/skills-writing/edit-article/` — Article editing methodology
-- `COMBINED/skills/skills-writing/write-a-skill/` — Skill file creation
-- `COMBINED/skills/skills-writing/ubiquitous-language/` — Domain language consistency
+- `.claude/skills/skills-writing/edit-article/` — Article editing methodology
+- `.claude/skills/skills-writing/write-a-skill/` — Skill file creation
+- `.claude/skills/skills-writing/ubiquitous-language/` — Domain language consistency
 
 ## Full Agent Definition
-Read: `COMBINED/agents/mega/mega-writer.md`
+Read: `.claude/agents/mega/mega-writer.md`

@@ -49,7 +49,7 @@ April 3, 2026
 
 ## Verification Results
 
-### Files in COMBINED/
+### Files in .claude/
 - Total files: 44966
 - Total directories: 8848
 

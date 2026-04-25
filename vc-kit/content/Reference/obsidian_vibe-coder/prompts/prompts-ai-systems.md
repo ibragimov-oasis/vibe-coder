@@ -11,12 +11,12 @@ aliases:
   - leaked system prompts
 created: 2026-04-18
 type: prompts-note
-source: "../COMBINED/prompts/prompts-ai-systems/"
+source: "../.claude/prompts/prompts-ai-systems/"
 ---
 
 # Prompts: AI Systems (30+)
 
-> **Источник:** `../COMBINED/prompts/prompts-ai-systems/`
+> **Источник:** `../.claude/prompts/prompts-ai-systems/`
 
 ## О чём
 

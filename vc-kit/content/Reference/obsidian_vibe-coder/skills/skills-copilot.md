@@ -10,12 +10,12 @@ aliases:
   - github copilot skills
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-copilot/"
+source: "../.claude/skills/skills-copilot/"
 ---
 
 # Skills: Copilot
 
-> **Источник:** `../COMBINED/skills/skills-copilot/`
+> **Источник:** `../.claude/skills/skills-copilot/`
 
 ## О чём
 

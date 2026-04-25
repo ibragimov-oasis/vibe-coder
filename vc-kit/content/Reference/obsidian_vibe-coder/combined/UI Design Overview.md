@@ -1,11 +1,11 @@
 ---
-title: UI Design Overview — COMBINED/ui-design
+title: UI Design Overview — .claude/ui-design
 tags:
   - domain/ui
   - artifact/index
   - status/active
   - source/combined
-source: "../COMBINED/ui-design/"
+source: "../.claude/ui-design/"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -13,15 +13,15 @@ aliases:
   - design system directory
 ---
 
-# 📄 UI Design Overview — COMBINED/ui-design
+# 📄 UI Design Overview — .claude/ui-design
 
-> **Тип:** Domain overview | **Источник:** `../COMBINED/ui-design/`
-> **Краткое описание:** Структура директории COMBINED/ui-design — 6 дизайн-ресурсов + master reference.
+> **Тип:** Domain overview | **Источник:** `../.claude/ui-design/`
+> **Краткое описание:** Структура директории .claude/ui-design — 6 дизайн-ресурсов + master reference.
 
 ## Структура директории
 
 ```
-COMBINED/ui-design/
+.claude/ui-design/
 ├── ui-components-galaxy/    — Galaxy: 3,000+ UI компонентов
 │   ├── elements/            — buttons, cards, loaders, forms
 │   └── README.md

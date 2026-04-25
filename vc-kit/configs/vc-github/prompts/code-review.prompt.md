@@ -21,4 +21,4 @@ Perform a comprehensive code review on the current changes:
 
 3. Output format: Scored by dimension with actionable comments at severity levels (🚨 CRITICAL, ⚠️ HIGH, 💡 MEDIUM, 📝 LOW, 👍 PRAISE)
 
-Full methodology: `COMBINED/agents/mega/mega-reviewer.md`
+Full methodology: `.claude/agents/mega/mega-reviewer.md`

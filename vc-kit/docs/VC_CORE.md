@@ -69,50 +69,50 @@ npx -y supermemory search "<task keywords>"
 
 ```
 IF task mentions bug/error/crash/fix/broken/не работает
-  → READ COMBINED/agents/mega/mega-debugger.md
+  → READ .claude/agents/mega/mega-debugger.md
 
 IF task mentions UI/design/frontend/component/CSS/layout/страница/дизайн
-  → READ COMBINED/agents/mega/mega-designer.md
+  → READ .claude/agents/mega/mega-designer.md
 
 IF task mentions plan/architecture/roadmap/PRD/design-doc/план/архитектура
-  → READ COMBINED/agents/mega/mega-planner.md
+  → READ .claude/agents/mega/mega-planner.md
 
 IF task mentions research/analyze/investigate/compare/исследуй/сравни
-  → READ COMBINED/agents/mega/mega-researcher.md
+  → READ .claude/agents/mega/mega-researcher.md
 
 IF task mentions security/vulnerability/audit/pentest/безопасность
-  → READ COMBINED/agents/mega/mega-security.md
+  → READ .claude/agents/mega/mega-security.md
 
 IF task mentions SEO/meta/sitemap/search-ranking/поисковая оптимизация
-  → READ COMBINED/agents/mega/mega-seo.md
+  → READ .claude/agents/mega/mega-seo.md
 
 IF task mentions review/code-review/PR-review/проверь код
-  → READ COMBINED/agents/mega/mega-reviewer.md
+  → READ .claude/agents/mega/mega-reviewer.md
 
 IF task mentions test/TDD/coverage/unit-test/тест
-  → READ COMBINED/agents/mega/mega-tester.md
+  → READ .claude/agents/mega/mega-tester.md
 
 IF task mentions docs/README/documentation/API-docs/документация
-  → READ COMBINED/agents/mega/mega-writer.md
+  → READ .claude/agents/mega/mega-writer.md
 
 IF task mentions deploy/CI/CD/git/pipeline/docker/деплой
-  → READ COMBINED/agents/mega/mega-devops.md
+  → READ .claude/agents/mega/mega-devops.md
 
 IF task mentions infrastructure/swarm/scaling/consensus/инфраструктура
-  → READ COMBINED/agents/mega/mega-infrastructure.md
+  → READ .claude/agents/mega/mega-infrastructure.md
 
 IF task mentions system-design/ADR/trade-off/системный дизайн
-  → READ COMBINED/agents/mega/mega-architect.md
+  → READ .claude/agents/mega/mega-architect.md
 
 IF task is COMPLEX (multiple concerns / full feature / dashboard / admin panel / e-commerce)
-  → READ COMBINED/agents/mega/mega-orchestrator.md
+  → READ .claude/agents/mega/mega-orchestrator.md
   → Decompose into sub-tasks, spawn sub-agents per concern
   → [Copilot] Use Squad casting (see copilot-instructions.md)
   → [Claude]  Use agent teams (CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1)
   → [Cursor]  Use Composer mode for multi-file coordination
 
 DEFAULT (simple, single-file coding task)
-  → READ COMBINED/agents/mega/mega-coder.md
+  → READ .claude/agents/mega/mega-coder.md
 ```
 
 ---
@@ -140,32 +140,32 @@ npx -y gitnexus@latest map
 # CLI (all interfaces):         npx -y lightpanda-mcp
 # Antigravity:                  use built-in browser subagent
 ```
-Lightpanda docs: `COMBINED/mcp-servers/mcp-lightpanda/`
+Lightpanda docs: `.claude/mcp-servers/mcp-lightpanda/`
 
 ### Rule 2 — Memory: Check Before, Save After
 Check supermemory before every task. Save learnings after every task.
 Tools: `supermemory` (MCP/CLI), `openviking` (MCP/CLI), `code-review-graph` (mandatory graph)
 
 ### Rule 3 — UI/Design: Hierarchy (check in order, stop when found)
-1. Galaxy: `COMBINED/ui-design/ui-components-galaxy/` (3,000+ components)
-2. shadcn/ui: `COMBINED/ui-design/ui-components-shadcn/`
-3. Impeccable: `COMBINED/ui-design/ui-impeccable/` (18 cmds, anti-slop)
-4. Taste-skill: `COMBINED/ui-design/ui-taste-skill/` (7 skills, 3-dial)
-5. Stitch: `COMBINED/ui-design/ui-stitch-skills/` (Google Stitch)
-6. UI/UX Pro Max: `COMBINED/ui-design/ui-rules/ui-ux-pro-max/` (161 rules)
+1. Galaxy: `.claude/ui-design/ui-components-galaxy/` (3,000+ components)
+2. shadcn/ui: `.claude/ui-design/ui-components-shadcn/`
+3. Impeccable: `.claude/ui-design/ui-impeccable/` (18 cmds, anti-slop)
+4. Taste-skill: `.claude/ui-design/ui-taste-skill/` (7 skills, 3-dial)
+5. Stitch: `.claude/ui-design/ui-stitch-skills/` (Google Stitch)
+6. UI/UX Pro Max: `.claude/ui-design/ui-rules/ui-ux-pro-max/` (161 rules)
 7. Custom — only if 1–6 have nothing; document reason
 
 ### Rule 4 — Self-Improvement: Hermes After Every Task
 ```
-Extract patterns → create COMBINED/skills/{domain}/{name}/SKILL.md → save to supermemory
-Source: COMBINED/orchestration/core-hermes/
+Extract patterns → create .claude/skills/{domain}/{name}/SKILL.md → save to supermemory
+Source: .claude/orchestration/core-hermes/
 ```
 
 ### Rule 5 — Security: Shannon After Every Code Change
 ```
 Static SAST → Dynamic (Lightpanda/CLI) → fix CRITICAL/HIGH → re-audit (max 3 loops)
-Agent: COMBINED/agents/mega/mega-security.md
-Method: COMBINED/security/security-shannon/SHANNON-PRO.md
+Agent: .claude/agents/mega/mega-security.md
+Method: .claude/security/security-shannon/SHANNON-PRO.md
 ```
 
 ---
@@ -186,7 +186,7 @@ If vulnerabilities found → fix → re-check. Max 3 loops. Escalate if still fa
 ### B — Self-Learning (Hermes)
 Novel pattern discovered?
 ```
-YES → Create: COMBINED/skills/{domain}/{name}/SKILL.md
+YES → Create: .claude/skills/{domain}/{name}/SKILL.md
       Save:   npx -y supermemory add "<insight>" --tags "<domain>"
 NO  → Continue
 ```
@@ -237,12 +237,12 @@ SYNC_CHECK.md           ← Governance drift checklist
 AGENTS.md               ← 15 mega-agent catalog
 memory-bootstrap.sh     ← Run FIRST: builds SQL graph + initializes Obsidian vault
 obsidian-update.sh      ← Run AFTER every task: saves output as Obsidian note
-COMBINED/agents/mega/   ← Mega-agent definition files
-COMBINED/skills/        ← 3,000+ skills (see INDEX.md for portability)
-COMBINED/orchestration/ ← 23 orchestration systems
-COMBINED/ui-design/     ← UI component libraries
-COMBINED/security/      ← Shannon pentesting
-COMBINED/REPO_DOCS/     ← HOW_IT_WORKS.md for all 54 repos
+.claude/agents/mega/   ← Mega-agent definition files
+.claude/skills/        ← 3,000+ skills (see INDEX.md for portability)
+.claude/orchestration/ ← 23 orchestration systems
+.claude/ui-design/     ← UI component libraries
+.claude/security/      ← Shannon pentesting
+.claude/REPO_DOCS/     ← HOW_IT_WORKS.md for all 54 repos
 obsidian_vibe-coder/    ← Obsidian vault (MOCs, sessions, governance)
 ```
 

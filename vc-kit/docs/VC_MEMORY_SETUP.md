@@ -41,7 +41,7 @@ Get your API key at: https://supermemory.ai
 ### Step 3 — Start OpenViking (codebase context)
 
 ```bash
-cd COMBINED/mcp-servers/mcp-openviking
+cd .claude/mcp-servers/mcp-openviking
 npm install && npm start
 # Runs on port 3000 by default
 ```
@@ -127,7 +127,7 @@ The Vibe-Coder Arsenal includes 3 powerful memory systems:
 
 ## 🧠 Claude-Mem — Persistent Memory for Claude Code
 
-**Location:** `COMBINED/memory/memory-claude-mem/`
+**Location:** `.claude/memory/memory-claude-mem/`
 
 ### What It Is
 
@@ -309,7 +309,7 @@ Or with API key:
 
 ## 📁 OpenViking — Context Database for AI Agents
 
-**Location:** `COMBINED/mcp-servers/mcp-openviking/`
+**Location:** `.claude/mcp-servers/mcp-openviking/`
 
 ### What It Is
 
@@ -500,11 +500,11 @@ pip install openviking --upgrade --force-reinstall
 
 | System | Documentation |
 |--------|---------------|
-| Claude-Mem | `COMBINED/memory/memory-claude-mem/README.md` |
+| Claude-Mem | `.claude/memory/memory-claude-mem/README.md` |
 | | [docs.claude-mem.ai](https://docs.claude-mem.ai/) |
 | Supermemory | `Tools/supermemory/README.md` |
 | | [supermemory.ai/docs](https://supermemory.ai/docs) |
-| OpenViking | `COMBINED/mcp-servers/mcp-openviking/README.md` |
+| OpenViking | `.claude/mcp-servers/mcp-openviking/README.md` |
 | | [openviking.ai/docs](https://www.openviking.ai/docs) |
 
 ---

@@ -11,12 +11,12 @@ aliases:
   - shannon prompts
 created: 2026-04-18
 type: prompts-note
-source: "../COMBINED/prompts/prompts-security/"
+source: "../.claude/prompts/prompts-security/"
 ---
 
 # Prompts: Security
 
-> **Источник:** `../COMBINED/prompts/prompts-security/`
+> **Источник:** `../.claude/prompts/prompts-security/`
 
 ## О чём
 

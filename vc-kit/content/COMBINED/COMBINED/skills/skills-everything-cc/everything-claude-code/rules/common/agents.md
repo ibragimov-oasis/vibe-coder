@@ -9,7 +9,7 @@ tags:
 
 ## Available Agents
 
-Located in `~/COMBINED/workspace-config/claude/agents/`:
+Located in `~/.claude/workspace-config/claude/agents/`:
 
 | Agent | Purpose | When to Use |
 |-------|---------|-------------|

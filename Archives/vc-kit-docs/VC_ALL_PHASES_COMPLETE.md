@@ -58,7 +58,7 @@ All 31 repositories' worth of AI-powered development resources have been success
 **Status**: Dual-location system working (originals + organized)
 
 ### Phase 1: Comprehensive Scan ✅ COMPLETE (3:41 UTC)
-**Objective**: Inventory entire COMBINED/ structure
+**Objective**: Inventory entire .claude/ structure
 **Result**: Complete inventory of 52,386 files across 12 categories
 **Deliverable**: PHASE_1_INVENTORY.json + PHASE_1_SUMMARY.md
 **Key Finding**: Repository successfully contains all 31 source repos
@@ -114,8 +114,8 @@ All 31 repositories' worth of AI-powered development resources have been success
 - AUDIT.md (Configuration audit)
 - ORCHESTRATION.md (Orchestration guide)
 - MEMORY_SETUP.md (Memory system setup)
-- COMBINED/INDEX.md (File inventory)
-- COMBINED/MARSHUTIZATION.md (Movement tracking)
+- .claude/INDEX.md (File inventory)
+- .claude/MARSHUTIZATION.md (Movement tracking)
 - And 50+ more documentation files
 
 ---
@@ -198,10 +198,10 @@ All 31 repositories' worth of AI-powered development resources have been success
 - **Need UI testing?** → Read PHASE_6, Section "Guide 5: Browser Testing"
 
 ### For Developers:
-- **Browse agents**: COMBINED/agents/by-role/
-- **Browse skills**: COMBINED/skills/
-- **Browse prompts**: COMBINED/prompts/
-- **Browse UI components**: COMBINED/ui-design/
+- **Browse agents**: .claude/agents/by-role/
+- **Browse skills**: .claude/skills/
+- **Browse prompts**: .claude/prompts/
+- **Browse UI components**: .claude/ui-design/
 - **Set up memory**: MEMORY_SETUP.md
 
 ---
@@ -215,14 +215,14 @@ All 31 repositories' worth of AI-powered development resources have been success
 4. PHASE_6_ORCHESTRATION_INTEGRATION.md - How it all connects
 
 ### Intermediate Resources:
-1. Individual orchestration system docs (COMBINED/orchestration/)
+1. Individual orchestration system docs (.claude/orchestration/)
 2. Agent-specific README files
 3. Skill SKILL.md files
 4. Integration guides (PHASE_6)
 
 ### Advanced Resources:
-1. Marshutization tracking (COMBINED/MARSHUTIZATION.md)
-2. Movement logs (COMBINED/INDEX_MOVEMENTS.json)
+1. Marshutization tracking (.claude/MARSHUTIZATION.md)
+2. Movement logs (.claude/INDEX_MOVEMENTS.json)
 3. Source code in original directories
 4. Contributing guidelines (CONTRIBUTING.md)
 

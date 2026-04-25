@@ -19,4 +19,4 @@ Generate comprehensive documentation for the specified code/feature:
    - Include error handling in examples
    - Link to related docs
 
-Full methodology: `COMBINED/agents/mega/mega-writer.md`
+Full methodology: `.claude/agents/mega/mega-writer.md`

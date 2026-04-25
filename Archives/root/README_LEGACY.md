@@ -161,7 +161,7 @@ flowchart TD
 | **Step 0** | 🗂️ **Task Master** | Parses your request (or PRD) into structured tasks. Analyzes complexity. Creates execution order with dependencies. 36 MCP tools available. Merged with Vibe-Kanban for visual tracking. |
 | **Step 0.5** | ⚙️ **Archon** *(optional)* | Loads a YAML workflow (17 built-in or custom). Builds a deterministic DAG from task dependencies. Executes: plan → implement → validate → PR. Complements the Background Agent for structured flows. |
 | **Step 1** | 🤖 **Background Agent** | The main executor. Reads CAPABILITIES.md, checks Supermemory for prior work, maps codebase via GitNexus, selects the right mega-agent, and executes. Enhanced with Ralph (PRD loop), PraisonAI (multi-agent), Squad (team), Multica (platform). Applies Karpathy 4 principles + 69 best practices. |
-| **Step 2** | 🧠 **Hermes** | Self-learning loop. Analyzes what worked, what failed, what was novel. Extracts reusable patterns. Creates skills in `COMBINED/skills/`. Updates Supermemory. Registers in Refly skills registry. |
+| **Step 2** | 🧠 **Hermes** | Self-learning loop. Analyzes what worked, what failed, what was novel. Extracts reusable patterns. Creates skills in `.claude/skills/`. Updates Supermemory. Registers in Refly skills registry. |
 | **Step 3** | 🛡️ **Shannon** | Full security audit. Static analysis (SAST + SCA) + code-review-graph blast-radius analysis + dynamic attacks via Lightpanda (XSS, SQLi, SSRF, auth bypass). Generates CVSS-rated vulnerability report. If vulnerabilities found → back to Step 1. Max 3 retries. |
 | **Step 4** | 📐 **Code Review Graph** | Structural verification. Builds code graph (19 languages, Tree-sitter). Blast-radius analysis (8.2x token reduction). Dead code detection. Architecture overview. Risk-scored review. |
 | **Always On** | 📡 **Claude HUD** | Real-time monitoring: context health, tool activity, agent status, todo progress, session cost, git status. |
@@ -238,12 +238,12 @@ flowchart LR
 
 | Step | Tool | What It Does | Location |
 |:-----|:-----|:-------------|:---------|
-| **1** | **Galaxy** (Uiverse.io) | Search 3,000+ ready-made UI components: buttons, cards, forms, loaders, toggles, notifications, tooltips | `COMBINED/ui-design/ui-components-galaxy/` |
-| **2** | **shadcn/ui** | Accessible, customizable React components. The most popular component library. | `COMBINED/ui-design/ui-components-shadcn/` |
-| **3** | **Impeccable** | Anti-slop design enforcement. 18 commands + 7 references. Detects AI design mistakes: gray text, Inter font abuse, purple gradients, nested cards, bounce easing. | `COMBINED/ui-design/ui-impeccable/` |
-| **4** | **Taste-skill** | 7 premium frontend skills with 3 dials: `DESIGN_VARIANCE`, `MOTION_INTENSITY`, `VISUAL_DENSITY`. Skills: taste, redesign, soft, output, minimalist, brutalist, stitch. | `COMBINED/ui-design/ui-taste-skill/` |
-| **5** | **Stitch Skills** | Google Stitch design generation. React component synthesis, prompt enhancement, DESIGN.md creation, remotion videos. | `COMBINED/ui-design/ui-stitch-skills/` |
-| **6** | **UI/UX Pro Max** | 161 reasoning rules + 67 styles. Covers accessibility, touch targets, breakpoints, animation, performance, and more. | `COMBINED/ui-design/ui-rules/ui-ux-pro-max/` |
+| **1** | **Galaxy** (Uiverse.io) | Search 3,000+ ready-made UI components: buttons, cards, forms, loaders, toggles, notifications, tooltips | `.claude/ui-design/ui-components-galaxy/` |
+| **2** | **shadcn/ui** | Accessible, customizable React components. The most popular component library. | `.claude/ui-design/ui-components-shadcn/` |
+| **3** | **Impeccable** | Anti-slop design enforcement. 18 commands + 7 references. Detects AI design mistakes: gray text, Inter font abuse, purple gradients, nested cards, bounce easing. | `.claude/ui-design/ui-impeccable/` |
+| **4** | **Taste-skill** | 7 premium frontend skills with 3 dials: `DESIGN_VARIANCE`, `MOTION_INTENSITY`, `VISUAL_DENSITY`. Skills: taste, redesign, soft, output, minimalist, brutalist, stitch. | `.claude/ui-design/ui-taste-skill/` |
+| **5** | **Stitch Skills** | Google Stitch design generation. React component synthesis, prompt enhancement, DESIGN.md creation, remotion videos. | `.claude/ui-design/ui-stitch-skills/` |
+| **6** | **UI/UX Pro Max** | 161 reasoning rules + 67 styles. Covers accessibility, touch targets, breakpoints, animation, performance, and more. | `.claude/ui-design/ui-rules/ui-ux-pro-max/` |
 | **7** | **Custom** | Only if steps 1-6 have nothing suitable. Must document why. | — |
 
 **Key Design Rules (auto-enforced):**
@@ -465,7 +465,7 @@ From lightweight single-agent to enterprise swarms:
 | **Platform** | `skills-platform/` | Platform & meta skills |
 | **Stitch** | `skills-stitch/` | Google Stitch design generation |
 
-All in `COMBINED/skills/`
+All in `.claude/skills/`
 
 ---
 
@@ -626,7 +626,7 @@ vibe-coder/
 ├── .antigravity/                ← Antigravity
 │   └── AGENTS.md                   Vibe-Coder v3.0 identity
 │
-└── COMBINED/                    ← All content from 54 repositories
+└── .claude/                    ← All content from 54 repositories
     ├── agents/
     │   ├── mega/                    15 MEGA AGENTS (start here)
     │   ├── by-role/                 19 role categories (336+ agents)
@@ -761,7 +761,7 @@ Want to add a repo to this collection? Here's how:
 ### How to Contribute
 
 1. Fork this repo
-2. Add the new project to the correct `COMBINED/` category folder
+2. Add the new project to the correct `.claude/` category folder
 3. Update `AGENTS.md` with the new project entry
 4. Update `CAPABILITIES.md` if it adds new capabilities
 5. Update this `README.md` with the new project description

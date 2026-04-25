@@ -10,12 +10,12 @@ aliases:
   - 100 llm orchestration
 created: 2026-04-18
 type: system-note
-source: "../COMBINED/orchestration/core-praisonai/"
+source: "../.claude/orchestration/core-praisonai/"
 ---
 
 # Orchestration: PraisonAI
 
-> **Источник:** `../COMBINED/orchestration/core-praisonai/`
+> **Источник:** `../.claude/orchestration/core-praisonai/`
 
 ## Описание
 

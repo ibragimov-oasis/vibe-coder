@@ -66,7 +66,7 @@ This is the core execution loop. When a user assigns a task and goes offline:
 ║ 2. Ask: "What worked? What failed? What was novel?"             ║
 ║ 3. Extract reusable patterns                                    ║
 ║ 4. If pattern is new and valuable:                              ║
-║    → Create skill in COMBINED/skills/{domain}/{name}/SKILL.md   ║
+║    → Create skill in .claude/skills/{domain}/{name}/SKILL.md   ║
 ║ 5. Update supermemory with insights                             ║
 ║ 6. Update CAPABILITIES.md if new capability discovered          ║
 ╠══════════════════════════════════════════════════════════════════╣

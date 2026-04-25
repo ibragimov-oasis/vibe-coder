@@ -11,7 +11,7 @@ tags:
 
 ---
 
-## 📊 COMBINED/ Directory Overview
+## 📊 .claude/ Directory Overview
 
 **Total Statistics**:
 - **Directories**: 13,160

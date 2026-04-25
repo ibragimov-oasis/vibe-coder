@@ -10,12 +10,12 @@ aliases:
   - everything claude code skills
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-everything-cc/"
+source: "../.claude/skills/skills-everything-cc/"
 ---
 
 # Skills: Everything Claude Code
 
-> **Источник:** `../COMBINED/skills/skills-everything-cc/`
+> **Источник:** `../.claude/skills/skills-everything-cc/`
 
 ## О чём
 

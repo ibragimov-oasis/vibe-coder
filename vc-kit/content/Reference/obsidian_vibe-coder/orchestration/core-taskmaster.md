@@ -11,12 +11,12 @@ aliases:
   - ai task management
 created: 2026-04-18
 type: system-note
-source: "../COMBINED/orchestration/core-taskmaster/"
+source: "../.claude/orchestration/core-taskmaster/"
 ---
 
 # Orchestration: Task Master
 
-> **Источник:** `../COMBINED/orchestration/core-taskmaster/`
+> **Источник:** `../.claude/orchestration/core-taskmaster/`
 > **CLI:** `npx -y task-master-ai`
 > **Статус:** ✅ ACTIVE
 

@@ -11,12 +11,12 @@ aliases:
   - accessible react components
 created: 2026-04-18
 type: ui-note
-source: "../COMBINED/ui-design/ui-components-shadcn/"
+source: "../.claude/ui-design/ui-components-shadcn/"
 ---
 
 # UI Design: shadcn/ui
 
-> **Источник:** `../COMBINED/ui-design/ui-components-shadcn/`
+> **Источник:** `../.claude/ui-design/ui-components-shadcn/`
 > **Rule #3:** shadcn — второй в иерархии дизайна Vibe-Coder.
 
 ## О чём

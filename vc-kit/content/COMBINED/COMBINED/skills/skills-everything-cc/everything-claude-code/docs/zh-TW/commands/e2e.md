@@ -116,7 +116,7 @@ npx playwright show-report
 ## 相關 Agent
 
 此指令呼叫位於以下位置的 `e2e-runner` Agent：
-`~/COMBINED/workspace-config/claude/agents/e2e-runner.md`
+`~/.claude/workspace-config/claude/agents/e2e-runner.md`
 
 ## 🔗 Связи
 

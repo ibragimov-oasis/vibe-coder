@@ -10,12 +10,12 @@ aliases:
   - shannon reports
 created: 2026-04-18
 type: security-note
-source: "../COMBINED/security/security-reports/"
+source: "../.claude/security/security-reports/"
 ---
 
 # Security: Reports Index
 
-> **Источник:** `../COMBINED/security/security-reports/`
+> **Источник:** `../.claude/security/security-reports/`
 
 ## О чём
 

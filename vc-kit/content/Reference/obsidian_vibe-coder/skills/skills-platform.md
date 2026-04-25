@@ -10,12 +10,12 @@ aliases:
   - platform meta-skills
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-platform/"
+source: "../.claude/skills/skills-platform/"
 ---
 
 # Skills: Platform
 
-> **Источник:** `../COMBINED/skills/skills-platform/`
+> **Источник:** `../.claude/skills/skills-platform/`
 
 ## О чём
 

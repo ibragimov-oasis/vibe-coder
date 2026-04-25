@@ -99,7 +99,7 @@ Call AskUserQuestion with gap table and options:
 
 ```
 Task(
-  prompt="Read ~/COMBINED/workspace-config/claude/agents/gsd-nyquist-auditor.md for instructions.\n\n" +
+  prompt="Read ~/.claude/workspace-config/claude/agents/gsd-nyquist-auditor.md for instructions.\n\n" +
     "<files_to_read>{PLAN, SUMMARY, impl files, VALIDATION.md}</files_to_read>" +
     "<gaps>{gap list}</gaps>" +
     "<test_infrastructure>{framework, config, commands}</test_infrastructure>" +

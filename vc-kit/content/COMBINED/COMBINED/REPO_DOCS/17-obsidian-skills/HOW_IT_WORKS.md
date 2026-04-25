@@ -61,13 +61,13 @@ Step 6: AI reads `skills/defuddle/SKILL.md` → learns web content extraction (c
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/17-obsidian-skills/ | Documentation |
-| skills/*/SKILL.md | COMBINED/skills/by-domain/obsidian/ | 5 Obsidian-specific skills |
-| .claude-plugin/ | COMBINED/REPO_DOCS/17-obsidian-skills/plugin/ | Plugin configuration |
+| README.md | .claude/REPO_DOCS/17-obsidian-skills/ | Documentation |
+| skills/*/SKILL.md | .claude/skills/by-domain/obsidian/ | 5 Obsidian-specific skills |
+| .claude-plugin/ | .claude/REPO_DOCS/17-obsidian-skills/plugin/ | Plugin configuration |
 
 ---
 

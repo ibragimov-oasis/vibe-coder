@@ -11,12 +11,12 @@ aliases:
   - file conversion mcp
 created: 2026-04-18
 type: mcp-note
-source: "../COMBINED/mcp-servers/mcp-markitdown/"
+source: "../.claude/mcp-servers/mcp-markitdown/"
 ---
 
 # MCP: MarkItDown (File to Markdown)
 
-> **Источник:** `../COMBINED/mcp-servers/mcp-markitdown/`
+> **Источник:** `../.claude/mcp-servers/mcp-markitdown/`
 > **CLI:** `markitdown <filename>`
 > **Установка:** `pip install markitdown`
 

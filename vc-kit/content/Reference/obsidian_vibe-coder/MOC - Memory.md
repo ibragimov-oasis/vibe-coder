@@ -22,7 +22,7 @@ type: moc
 
 - **#1** на LongMemEval, LoCoMo, ConvoMem
 - URL: `https://mcp.supermemory.ai/mcp`
-- Путь: `COMBINED/memory/memory-supermemory/`
+- Путь: `.claude/memory/memory-supermemory/`
 - Использование: `mcp supermemory search "<query>"` / `mcp supermemory add "..."`
 - CLI: `npx -y supermemory search "<query>"`
 
@@ -36,13 +36,13 @@ type: moc
 ### 2. Claude-Mem — Краткосрочная память
 
 - Сессионная память с автоматическим сжатием
-- Путь: `COMBINED/memory/memory-claude-mem/`
+- Путь: `.claude/memory/memory-claude-mem/`
 - Назначение: сохранять контекст внутри сессии
 
 ### 3. OpenViking — Контекст кодовой базы
 
 - Разработка ByteDance
-- Путь: `COMBINED/mcp-servers/mcp-openviking/`
+- Путь: `.claude/mcp-servers/mcp-openviking/`
 - Tiered loading: L0 / L1 / L2
 - Назначение: filesystem paradigm для понимания кодовой базы
 
@@ -65,7 +65,7 @@ fi
 ## 📖 Документация
 
 - [[root-docs/MEMORY]] — 3-уровневая архитектура памяти (детали)
-- `COMBINED/memory/` — Все файлы систем памяти
+- `.claude/memory/` — Все файлы систем памяти
 - `MEMORY_SETUP.md` — Инструкции установки 3 систем памяти
 
 ## Связанные MOC

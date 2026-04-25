@@ -11,12 +11,12 @@ aliases:
   - claude monitoring
 created: 2026-04-18
 type: reference-note
-source: "../COMBINED/reference/claude-hud/"
+source: "../.claude/reference/claude-hud/"
 ---
 
 # Reference: Claude HUD
 
-> **Источник:** `../COMBINED/reference/claude-hud/`
+> **Источник:** `../.claude/reference/claude-hud/`
 
 ## О чём
 
@@ -36,7 +36,7 @@ Real-time мониторинг плагин для Claude Code. Отобража
 ## Установка
 
 ```bash
-# Из COMBINED/reference/claude-hud/
+# Из .claude/reference/claude-hud/
 # Следовать README.md
 ```
 

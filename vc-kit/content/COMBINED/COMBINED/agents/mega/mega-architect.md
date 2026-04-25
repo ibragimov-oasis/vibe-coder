@@ -224,11 +224,11 @@ For EVERY recommendation, evaluate:
 7. **3-failure circuit breaker** — if fixes keep failing, question the architecture
 
 Sources:
-- OMC architect: `COMBINED/agents/by-role/architect/architect.md`
-- RuFlo SPARC: `COMBINED/agents/by-role/architect/ruflo-sparc-architecture.md`
-- RuFlo repo architect: `COMBINED/agents/by-role/architect/ruflo-github-repo-architect.md`
-- RuFlo integration: `COMBINED/agents/by-role/architect/ruflo-v3-v3-integration-architect.md`
-- GSD mapper: `COMBINED/agents/by-role/researcher/gsd-codebase-mapper.md`
+- OMC architect: `.claude/agents/by-role/architect/architect.md`
+- RuFlo SPARC: `.claude/agents/by-role/architect/ruflo-sparc-architecture.md`
+- RuFlo repo architect: `.claude/agents/by-role/architect/ruflo-github-repo-architect.md`
+- RuFlo integration: `.claude/agents/by-role/architect/ruflo-v3-v3-integration-architect.md`
+- GSD mapper: `.claude/agents/by-role/researcher/gsd-codebase-mapper.md`
 </rules>
 
 ## 🔗 Связи

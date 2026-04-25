@@ -64,15 +64,15 @@ Step 6: AI reads other company dirs → Augment Code, Kiro, Devin AI, Junie, etc
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/19-system-prompts-by-tool/ | Documentation |
-| Anthropic/ | COMBINED/prompts/leaked/anthropic/ | Claude system prompts |
-| OpenAI/ | COMBINED/prompts/leaked/openai/ | GPT system prompts |
-| Google/ | COMBINED/prompts/leaked/google/ | Gemini system prompts |
-| Cursor Prompts/ | COMBINED/prompts/leaked/cursor/ | Cursor system prompts |
+| README.md | .claude/REPO_DOCS/19-system-prompts-by-tool/ | Documentation |
+| Anthropic/ | .claude/prompts/leaked/anthropic/ | Claude system prompts |
+| OpenAI/ | .claude/prompts/leaked/openai/ | GPT system prompts |
+| Google/ | .claude/prompts/leaked/google/ | Gemini system prompts |
+| Cursor Prompts/ | .claude/prompts/leaked/cursor/ | Cursor system prompts |
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: 'Guidelines for creating high-quality Agent Skills for GitHub Copilot'
-applyTo: '**/.github/skills/**/SKILL.md, **/COMBINED/workspace-config/claude/skills/**/SKILL.md'
+applyTo: '**/.github/skills/**/SKILL.md, **/.claude/workspace-config/claude/skills/**/SKILL.md'
 tags:
   - domain/agents
   - artifact/agent
@@ -28,9 +28,9 @@ Skills are stored in specific locations:
 | Location | Scope | Recommendation |
 |----------|-------|----------------|
 | `.github/skills/<skill-name>/` | Project/repository | Recommended for project skills |
-| `COMBINED/workspace-config/claude/skills/<skill-name>/` | Project/repository | Legacy, for backward compatibility |
+| `.claude/workspace-config/claude/skills/<skill-name>/` | Project/repository | Legacy, for backward compatibility |
 | `~/.github/skills/<skill-name>/` | Personal (user-wide) | Recommended for personal skills |
-| `~/COMBINED/workspace-config/claude/skills/<skill-name>/` | Personal (user-wide) | Legacy, for backward compatibility |
+| `~/.claude/workspace-config/claude/skills/<skill-name>/` | Personal (user-wide) | Legacy, for backward compatibility |
 
 Each skill **must** have its own subdirectory containing at minimum a `SKILL.md` file.
 

@@ -117,7 +117,7 @@ cat .env
 Run the setup check to verify your configuration:
 
 ```bash
-npx tsx ~/COMBINED/workspace-config/claude/skills/linear/scripts/setup.ts
+npx tsx ~/.claude/workspace-config/claude/skills/linear/scripts/setup.ts
 ```
 
 This will check:
@@ -150,7 +150,7 @@ echo 'LINEAR_API_KEY=lin_api_your_key_here' >> ~/.claude/.env
 Verify everything works:
 
 ```bash
-npx tsx ~/COMBINED/workspace-config/claude/skills/linear/scripts/query.ts "query { viewer { name } }"
+npx tsx ~/.claude/workspace-config/claude/skills/linear/scripts/query.ts "query { viewer { name } }"
 ```
 
 You should see your name from Linear.
@@ -477,7 +477,7 @@ See **api.md** for complete documentation including:
 **Quick ad-hoc query:**
 
 ```bash
-npx tsx ~/COMBINED/workspace-config/claude/skills/linear/scripts/query.ts "query { viewer { name } }"
+npx tsx ~/.claude/workspace-config/claude/skills/linear/scripts/query.ts "query { viewer { name } }"
 ```
 
 ## Projects & Initiatives

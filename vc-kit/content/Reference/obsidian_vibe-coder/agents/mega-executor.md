@@ -5,7 +5,7 @@ tags:
   - artifact/mega-agent
   - agent/mega-executor
   - status/active
-source: "../COMBINED/agents/mega/mega-executor.md"
+source: "../.claude/agents/mega/mega-executor.md"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -62,7 +62,7 @@ workflow:
 
 ## Исходник
 
-> 📂 `../COMBINED/agents/mega/mega-executor.md`
+> 📂 `../.claude/agents/mega/mega-executor.md`
 
 ## 🔗 Связи
 

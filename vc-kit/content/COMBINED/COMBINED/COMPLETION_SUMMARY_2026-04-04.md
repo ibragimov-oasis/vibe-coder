@@ -84,7 +84,7 @@ I have successfully **continued and finished** all planning and documentation fo
 - 6,691 files intentionally kept in originals
 
 **Current State:**
-- **44,966 files** in COMBINED/
+- **44,966 files** in .claude/
 - **8,848 directories**
 - **336+ agents**, **1,500+ skills**, **2,500+ prompts**, **3,000+ UI components**
 - **7 orchestration systems**, **3 memory systems**, **7+ MCP servers**
@@ -134,9 +134,9 @@ I have successfully **continued and finished** all planning and documentation fo
 
 ## 🗂️ File Organization
 
-All new files created in `COMBINED/`:
+All new files created in `.claude/`:
 ```
-COMBINED/
+.claude/
 ├── README.md                      ← Master navigation hub
 ├── COMPLETE_STATUS_REPORT.md      ← Full project status
 ├── PHASE_4_PLAN.md                ← Mega-agent merging plan
@@ -147,9 +147,9 @@ COMBINED/
 ```
 
 ### Structure Update (v1.0.0 milestone tracking)
-- Agent role routing was realigned under `COMBINED/agents/by-role/` with dedicated folders for `analyst`, `executor`, `plan-checker`, `synthesizer`, and `verifier`.
+- Agent role routing was realigned under `.claude/agents/by-role/` with dedicated folders for `analyst`, `executor`, `plan-checker`, `synthesizer`, and `verifier`.
 - Requested GSD/OMC/Ruflo role moves were executed from source catalogs (`agents-gsd`, `agents-omc`, `agents-ruflo`) into the role-based structure.
-- Ruflo skills were consolidated in `COMBINED/skills/skills-ruflo` (with `COMBINED/agents/agents-ruflo/skills` cleaned out).
+- Ruflo skills were consolidated in `.claude/skills/skills-ruflo` (with `.claude/agents/agents-ruflo/skills` cleaned out).
 - This keeps the project aligned with the role-based discovery model for ongoing v1.0.0 consolidation work.
 
 ---
@@ -176,27 +176,27 @@ Target v1.0.0: May 2026 🎯
 ### Option 1: Execute Phase 4 (Recommended)
 ```bash
 git checkout -b phase-4-mega-agents
-mkdir -p COMBINED/agents/mega
-cat COMBINED/PHASE_4_PLAN.md
-cat COMBINED/QUICK_START_PHASES_4-6.md
+mkdir -p .claude/agents/mega
+cat .claude/PHASE_4_PLAN.md
+cat .claude/QUICK_START_PHASES_4-6.md
 # Start with mega-debugger...
 ```
 
 ### Option 2: Review Everything First
 ```bash
-cat COMBINED/README.md
-cat COMBINED/COMPLETE_STATUS_REPORT.md
-cat COMBINED/PHASE_4_PLAN.md
-cat COMBINED/PHASE_5_PLAN.md
-cat COMBINED/PHASE_6_PLAN.md
+cat .claude/README.md
+cat .claude/COMPLETE_STATUS_REPORT.md
+cat .claude/PHASE_4_PLAN.md
+cat .claude/PHASE_5_PLAN.md
+cat .claude/PHASE_6_PLAN.md
 ```
 
 ### Option 3: Explore The Structure
 ```bash
-ls -la COMBINED/
-cat COMBINED/agents/INDEX.md
-cat COMBINED/skills/INDEX.md
-find COMBINED/agents -name "*debugger*"
+ls -la .claude/
+cat .claude/agents/INDEX.md
+cat .claude/skills/INDEX.md
+find .claude/agents -name "*debugger*"
 ```
 
 ---
@@ -265,9 +265,9 @@ All remaining phases (4-6) are now:
 ## 📞 Support Information
 
 **Documentation:**
-- Main README: `COMBINED/README.md`
-- Status Report: `COMBINED/COMPLETE_STATUS_REPORT.md`
-- Quick Start: `COMBINED/QUICK_START_PHASES_4-6.md`
+- Main README: `.claude/README.md`
+- Status Report: `.claude/COMPLETE_STATUS_REPORT.md`
+- Quick Start: `.claude/QUICK_START_PHASES_4-6.md`
 - Plans: `PHASE_4_PLAN.md`, `PHASE_5_PLAN.md`, `PHASE_6_PLAN.md`
 
 **Questions?**

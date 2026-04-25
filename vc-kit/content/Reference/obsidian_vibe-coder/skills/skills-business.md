@@ -10,12 +10,12 @@ aliases:
   - business skills
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-business/"
+source: "../.claude/skills/skills-business/"
 ---
 
 # Skills: Business
 
-> **Источник:** `../COMBINED/skills/skills-business/`
+> **Источник:** `../.claude/skills/skills-business/`
 
 ## О чём
 

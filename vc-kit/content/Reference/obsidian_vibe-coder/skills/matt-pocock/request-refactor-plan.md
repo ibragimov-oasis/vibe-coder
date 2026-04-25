@@ -11,7 +11,7 @@ aliases:
   - refactoring skill
 created: 2026-04-18
 type: skill
-source: "../COMBINED/skills/skills-planning/request-refactor-plan/"
+source: "../.claude/skills/skills-planning/request-refactor-plan/"
 ---
 
 # 🔧 Skill: request-refactor-plan

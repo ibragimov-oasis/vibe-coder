@@ -130,9 +130,9 @@ mega-debugger.md =
 
 ### Existing Mega-Agent:
 According to repository memories, a mega-agent structure already exists:
-- Location: `COMBINED/agents/mega/`
+- Location: `.claude/agents/mega/`
 - Example: `mega-debugger.md` (merges GSD, OMC, Copilot sources)
-- Documentation: `COMBINED/agents/mega/README.md`
+- Documentation: `.claude/agents/mega/README.md`
 
 ---
 
@@ -151,7 +151,7 @@ According to repository memories, a mega-agent structure already exists:
 **Rationale**: Provide unified variants without destroying originals
 
 **Actions**:
-1. Expand `COMBINED/agents/mega/` directory
+1. Expand `.claude/agents/mega/` directory
 2. Create mega variants for key roles:
    - mega-planner.md
    - mega-executor.md
@@ -231,7 +231,7 @@ According to repository memories, a mega-agent structure already exists:
 - Provide discovery tools (search, categorization)
 - Enable informed selection by users
 
-**Alternative Path**: Mega-agents already exist in `COMBINED/agents/mega/` for users who want unified variants
+**Alternative Path**: Mega-agents already exist in `.claude/agents/mega/` for users who want unified variants
 
 **Ready for Phase 5**: ✅ YES
 

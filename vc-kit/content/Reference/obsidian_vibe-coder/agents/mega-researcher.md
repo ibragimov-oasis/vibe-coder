@@ -5,7 +5,7 @@ tags:
   - artifact/mega-agent
   - agent/mega-researcher
   - status/active
-source: "../COMBINED/agents/mega/mega-researcher.md"
+source: "../.claude/agents/mega/mega-researcher.md"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -63,7 +63,7 @@ Hermes + GSD + DeerFlow + **PraisonAI** + **markitdown (file→markdown)**
 
 ## Исходник
 
-> 📂 `../COMBINED/agents/mega/mega-researcher.md`
+> 📂 `../.claude/agents/mega/mega-researcher.md`
 
 ## 🔗 Связи
 

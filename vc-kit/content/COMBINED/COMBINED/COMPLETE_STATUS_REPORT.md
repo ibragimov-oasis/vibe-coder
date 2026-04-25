@@ -16,7 +16,7 @@ tags:
 
 ## 📊 Executive Summary
 
-The Vibe-Coder project has successfully completed the foundational reorganization phases (1-3), organizing **44,966 files** from **31 repositories** into a unified, well-structured COMBINED/ directory. The remaining phases (4-6) are now fully planned and documented, providing a clear path to v1.0.0 production release.
+The Vibe-Coder project has successfully completed the foundational reorganization phases (1-3), organizing **44,966 files** from **31 repositories** into a unified, well-structured .claude/ directory. The remaining phases (4-6) are now fully planned and documented, providing a clear path to v1.0.0 production release.
 
 ### Project Progress: **50% Complete** ✅
 
@@ -49,7 +49,7 @@ Phase 6: ░░░░░░░░░░░░░░░░░░░░   0% 📋 
 
 **Structure Created:**
 ```
-COMBINED/
+.claude/
 ├── agents/           653 files
 ├── skills/         2,021 files
 ├── commands/          67 files
@@ -69,7 +69,7 @@ COMBINED/
 - ✅ Skip patterns applied (node_modules, .git, __pycache__, etc.)
 - ✅ No data loss or corruption
 
-**Documentation:** `COMBINED/PHASE_1_SUMMARY.md`
+**Documentation:** `.claude/PHASE_1_SUMMARY.md`
 
 ---
 
@@ -85,10 +85,10 @@ COMBINED/
 - Improved discoverability
 
 **Index Files Created:**
-- `COMBINED/INDEX.md` - Main repository index (51,655 files cataloged)
-- `COMBINED/agents/INDEX.md` - Agent catalog (336+ agents)
-- `COMBINED/skills/INDEX.md` - Skills library index
-- `COMBINED/commands/INDEX.md` - Command reference
+- `.claude/INDEX.md` - Main repository index (51,655 files cataloged)
+- `.claude/agents/INDEX.md` - Agent catalog (336+ agents)
+- `.claude/skills/INDEX.md` - Skills library index
+- `.claude/commands/INDEX.md` - Command reference
 
 **Key Achievements:**
 - ✅ Logical directory hierarchy established
@@ -96,7 +96,7 @@ COMBINED/
 - ✅ Interface-specific grouping (Claude, Copilot, Cursor)
 - ✅ Comprehensive navigation documentation
 
-**Documentation:** `COMBINED/PHASE_2_COMPLETE.md`
+**Documentation:** `.claude/PHASE_2_COMPLETE.md`
 
 ---
 
@@ -137,7 +137,7 @@ build:        4 files (0.0%)
 - ✅ Build files preserved in original repos as intended
 - ✅ Complete tracking in LEFTOVERS_PROCESSED.json
 
-**Documentation:** `COMBINED/PHASE_3_COMPLETE.md`
+**Documentation:** `.claude/PHASE_3_COMPLETE.md`
 
 ---
 
@@ -147,7 +147,7 @@ build:        4 files (0.0%)
 
 **Status:** 🔄 **Fully Planned - Ready to Execute**
 **Estimated Time:** 26-39 hours (2-3 weeks part-time, 1 week full-time)
-**Plan Document:** `COMBINED/PHASE_4_PLAN.md`
+**Plan Document:** `.claude/PHASE_4_PLAN.md`
 
 **Objective:**
 Merge duplicate agent roles from multiple repositories into unified "mega-agents" that combine the best features from all implementations.
@@ -169,7 +169,7 @@ Merge duplicate agent roles from multiple repositories into unified "mega-agents
 **Total: 10 mega-agents to create**
 
 **Deliverables:**
-- 10 mega-agent files in `COMBINED/agents/mega/`
+- 10 mega-agent files in `.claude/agents/mega/`
 - Merge decisions documentation
 - Source attribution documentation
 - Updated INDEX.md with mega-agents section
@@ -187,7 +187,7 @@ Merge duplicate agent roles from multiple repositories into unified "mega-agents
 
 **Status:** 🔄 **Fully Planned - Ready to Execute**
 **Estimated Time:** 22-30 hours (1.5-2 weeks part-time, 4-5 days full-time)
-**Plan Document:** `COMBINED/PHASE_5_PLAN.md`
+**Plan Document:** `.claude/PHASE_5_PLAN.md`
 
 **Objective:**
 Comprehensive audit and verification of all 44,966 files, ensuring data integrity, fixing broken references, validating frontmatter, and achieving quality score ≥ 95/100.
@@ -207,7 +207,7 @@ Comprehensive audit and verification of all 44,966 files, ensuring data integrit
 - 8 audit reports (one per category + final)
 - 4 automated audit scripts (Python)
 - 3 JSON data files with detailed findings
-- Fixes applied to COMBINED/ files
+- Fixes applied to .claude/ files
 - Complete audit documentation
 
 **Quality Metrics:**
@@ -224,11 +224,11 @@ Comprehensive audit and verification of all 44,966 files, ensuring data integrit
 
 **Status:** 🔄 **Fully Planned - Ready to Execute**
 **Estimated Time:** 56-77 hours (2-3 weeks part-time, 10-14 days full-time)
-**Plan Document:** `COMBINED/PHASE_6_PLAN.md`
+**Plan Document:** `.claude/PHASE_6_PLAN.md`
 **Target:** **v1.0.0 Production Release** 🎉
 
 **Objective:**
-Transform COMBINED/ from an organized repository into a fully integrated, production-ready system with unified workflows, master configurations, and complete orchestration.
+Transform .claude/ from an organized repository into a fully integrated, production-ready system with unified workflows, master configurations, and complete orchestration.
 
 **Sub-Phases:**
 1. **Workflow Mapping** (4-6h) - Design 6+ workflows
@@ -377,19 +377,19 @@ A production-ready AI development platform with:
 
 ### Existing Documentation
 - `PHASED_MIGRATION_PLAN.md` - Original migration plan
-- `COMBINED/PHASE_1_SUMMARY.md` - Phase 1 results
-- `COMBINED/PHASE_2_COMPLETE.md` - Phase 2 results
-- `COMBINED/PHASE_3_COMPLETE.md` - Phase 3 results
-- `COMBINED/INDEX.md` - Main repository index
-- `COMBINED/READ.ME.md` - Structure analysis
+- `.claude/PHASE_1_SUMMARY.md` - Phase 1 results
+- `.claude/PHASE_2_COMPLETE.md` - Phase 2 results
+- `.claude/PHASE_3_COMPLETE.md` - Phase 3 results
+- `.claude/INDEX.md` - Main repository index
+- `.claude/READ.ME.md` - Structure analysis
 
 ### New Planning Documentation (Created April 4, 2026)
-- `COMBINED/PHASE_4_PLAN.md` - Mega-agent merging plan ✅
-- `COMBINED/PHASE_5_PLAN.md` - Audit & verification plan ✅
-- `COMBINED/PHASE_6_PLAN.md` - Orchestration & linking plan ✅
-- `COMBINED/COMPLETE_STATUS_REPORT.md` - This document ✅
-- `COMBINED/QUICK_START_PHASES_4-6.md` - Quick start guide (pending)
-- `COMBINED/README.md` - Master README (pending)
+- `.claude/PHASE_4_PLAN.md` - Mega-agent merging plan ✅
+- `.claude/PHASE_5_PLAN.md` - Audit & verification plan ✅
+- `.claude/PHASE_6_PLAN.md` - Orchestration & linking plan ✅
+- `.claude/COMPLETE_STATUS_REPORT.md` - This document ✅
+- `.claude/QUICK_START_PHASES_4-6.md` - Quick start guide (pending)
+- `.claude/README.md` - Master README (pending)
 
 ---
 
@@ -400,27 +400,27 @@ A production-ready AI development platform with:
 **Option 1: Execute Phase 4 (Recommended)**
 ```bash
 git checkout -b phase-4-mega-agents
-mkdir -p COMBINED/agents/mega
+mkdir -p .claude/agents/mega
 # Follow PHASE_4_PLAN.md step-by-step
 ```
 
 **Option 2: Skip to Phase 5**
 ```bash
 git checkout -b phase-5-audit
-mkdir -p COMBINED/audit
+mkdir -p .claude/audit
 # Follow PHASE_5_PLAN.md step-by-step
 ```
 
 **Option 3: Explore and Learn**
 ```bash
 # Read the planning documents
-cat COMBINED/PHASE_4_PLAN.md
-cat COMBINED/PHASE_5_PLAN.md
-cat COMBINED/PHASE_6_PLAN.md
+cat .claude/PHASE_4_PLAN.md
+cat .claude/PHASE_5_PLAN.md
+cat .claude/PHASE_6_PLAN.md
 
 # Explore the structure
-ls -la COMBINED/
-cat COMBINED/agents/INDEX.md
+ls -la .claude/
+cat .claude/agents/INDEX.md
 ```
 
 ### Recommended Sequence
@@ -501,15 +501,15 @@ cat COMBINED/agents/INDEX.md
 ## 📞 Support & Resources
 
 ### Quick References
-- Main Index: `COMBINED/INDEX.md`
-- Agents: `COMBINED/agents/INDEX.md`
-- Skills: `COMBINED/skills/INDEX.md`
-- Commands: `COMBINED/commands/INDEX.md`
+- Main Index: `.claude/INDEX.md`
+- Agents: `.claude/agents/INDEX.md`
+- Skills: `.claude/skills/INDEX.md`
+- Commands: `.claude/commands/INDEX.md`
 
 ### Planning Documents
-- Phase 4: `COMBINED/PHASE_4_PLAN.md`
-- Phase 5: `COMBINED/PHASE_5_PLAN.md`
-- Phase 6: `COMBINED/PHASE_6_PLAN.md`
+- Phase 4: `.claude/PHASE_4_PLAN.md`
+- Phase 5: `.claude/PHASE_5_PLAN.md`
+- Phase 6: `.claude/PHASE_6_PLAN.md`
 
 ### Project Documentation
 - Master Plan: `MASTER_PLAN.md`

@@ -163,8 +163,8 @@ After 3 failed attempts on the same issue:
 10. **Report deviations** — document any differences from the original plan
 
 Sources:
-- OMC executor: `COMBINED/agents/by-role/executor/executor.md`
-- GSD executor: `COMBINED/agents/by-role/executor/gsd-executor.md`
+- OMC executor: `.claude/agents/by-role/executor/executor.md`
+- GSD executor: `.claude/agents/by-role/executor/gsd-executor.md`
 </rules>
 
 ## 🔗 Связи

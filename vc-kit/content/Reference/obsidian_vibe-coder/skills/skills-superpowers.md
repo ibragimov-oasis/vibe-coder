@@ -10,12 +10,12 @@ aliases:
   - superpowers skills
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-superpowers/"
+source: "../.claude/skills/skills-superpowers/"
 ---
 
 # Skills: Superpowers
 
-> **Источник:** `../COMBINED/skills/skills-superpowers/`
+> **Источник:** `../.claude/skills/skills-superpowers/`
 > **Stars:** 129k⭐
 
 ## Навыки из Superpowers системы

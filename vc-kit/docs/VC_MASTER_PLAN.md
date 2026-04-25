@@ -108,7 +108,7 @@ Memory сохраняет контекст (Claude-Mem / Supermemory)
 | ✅ Читай README сначала | Перед любым репо — СНАЧАЛА читай его README.md |
 | ✅ Сохраняй оригинальные форматы | `.py → .py`, `.yaml → .yaml`, `.json → .json` — НИКОГДА не конвертируй в markdown |
 | ✅ Создавай подпапки | По ролям, категориям, интерфейсам — никогда не дампи всё в одну папку |
-| ✅ Оставляй оригиналы нетронутыми | Только КОПИИ в COMBINED/ — оригиналы священны |
+| ✅ Оставляй оригиналы нетронутыми | Только КОПИИ в .claude/ — оригиналы священны |
 | ✅ Веди INDEX.md | Откуда скопировал → куда → что сделал — логируй каждое действие |
 | ✅ Каждый болт важен | Даже если файлы похожи — включай оба. В Vibe-Coder каждый болт имеет значение |
 | ✅ При сомнении — включай | Лучше включить лишнее, чем пропустить важное |
@@ -148,12 +148,12 @@ Memory сохраняет контекст (Claude-Mem / Supermemory)
 
 ### Фаза 0 — Настройка
 - Репозиторий создан, 31 исходный репо скачан
-- Структура `COMBINED/` спроектирована и утверждена
+- Структура `.claude/` спроектирована и утверждена
 - Железные правила установлены
 
 ### Фаза 1 — Миграция файлов ✅
 - Все 31 репо просканированы, README прочитаны
-- Все файлы скопированы в `COMBINED/` с правильной структурой
+- Все файлы скопированы в `.claude/` с правильной структурой
 - `INDEX.md` и `MIGRATION_MAP.json` ведутся
 - Остаточные файлы (leftovers) категоризированы и обработаны
 
@@ -169,14 +169,14 @@ Memory сохраняет контекст (Claude-Mem / Supermemory)
 - Оркестрация разделена по `core-*` папкам
 - `workspace-config/` добавлен для IDE-конфигов Claude/Cursor/Antigravity
 - `REPO_DOCS/` добавлен с документацией всех 32 исходных репо
-- Отчёт валидации: `COMBINED/RESTRUCTURE_VALIDATION_REPORT.md`
+- Отчёт валидации: `.claude/RESTRUCTURE_VALIDATION_REPORT.md`
 
 ---
 
-## 📁 Текущая Структура COMBINED/
+## 📁 Текущая Структура .claude/
 
 ```
-COMBINED/
+.claude/
 │
 ├── agents/                          # 336+ AI агентов
 │   ├── by-role/                     # По функции
@@ -384,23 +384,23 @@ COMBINED/
 
 Повторить для: `tester`, `planner`, `seo`, `designer`, `researcher`, `reviewer`, `executor`, `security`, `roadmapper`, `advisor` + все скиллы, хуки, команды.
 
-**Ссылки:** `COMBINED/PHASE_4_PLAN.md`, `COMBINED/PHASE_4_MERGE_RECOMMENDATIONS.md`
+**Ссылки:** `.claude/PHASE_4_PLAN.md`, `.claude/PHASE_4_MERGE_RECOMMENDATIONS.md`
 
 ---
 
 ### Фаза 5 — Полный Аудит
 
-**Цель:** Убедиться что ничего не пропущено. Проверить каждый исходный репо против `COMBINED/`.
+**Цель:** Убедиться что ничего не пропущено. Проверить каждый исходный репо против `.claude/`.
 
 **Формат INDEX.md:**
 | Исходный путь | Тип | Куда скопировано | Что сделано | Статус |
 |---|---|---|---|---|
-| Agents/shannon/CLAUDE.md | agent | COMBINED/agents/by-interface/agents-claude/ | скопировано | ✅ |
-| Orchestration/ruflo/agents/ruflo-planner.md | agent | COMBINED/agents/by-role/planner/ | скопировано | ✅ |
+| Agents/shannon/CLAUDE.md | agent | .claude/agents/by-interface/agents-claude/ | скопировано | ✅ |
+| Orchestration/ruflo/agents/ruflo-planner.md | agent | .claude/agents/by-role/planner/ | скопировано | ✅ |
 
-**Результат:** `COMBINED/audit/PHASE_5_AUDIT_REPORT.md`
+**Результат:** `.claude/audit/PHASE_5_AUDIT_REPORT.md`
 
-**Ссылки:** `COMBINED/PHASE_5_PLAN.md`, `COMBINED/PHASE_5_VALIDATION_AUDIT.md`
+**Ссылки:** `.claude/PHASE_5_PLAN.md`, `.claude/PHASE_5_VALIDATION_AUDIT.md`
 
 ---
 
@@ -420,22 +420,22 @@ COMBINED/
 **Quick Start после настройки:**
 ```
 # Claude Code — 3 минуты
-1. Скопируй COMBINED/workspace-config/claude/ → .claude/ в твоём проекте
-2. Скопируй нужные скиллы из COMBINED/skills/ → .claude/skills/
-3. Используй /команды из COMBINED/workspace-config/claude/commands/
+1. Скопируй .claude/workspace-config/claude/ → .claude/ в твоём проекте
+2. Скопируй нужные скиллы из .claude/skills/ → .claude/skills/
+3. Используй /команды из .claude/workspace-config/claude/commands/
 4. Запусти: claude "построй [твою идею]"
    → Claude теперь имеет интеллект 31 репо
 
 # Cursor — 3 минуты
-1. Скопируй COMBINED/workspace-config/cursor/rules/ → .cursor/rules/ в твоём проекте
-2. Добавь нужных агентов из COMBINED/agents/by-interface/agents-cursor/
+1. Скопируй .claude/workspace-config/cursor/rules/ → .cursor/rules/ в твоём проекте
+2. Добавь нужных агентов из .claude/agents/by-interface/agents-cursor/
 
 # GitHub Copilot — 3 минуты
-1. Используй COMBINED/agents/by-interface/agents-copilot/
-2. Добавь инструкции из COMBINED/workspace-config/antigravity/
+1. Используй .claude/agents/by-interface/agents-copilot/
+2. Добавь инструкции из .claude/workspace-config/antigravity/
 ```
 
-**Ссылки:** `COMBINED/PHASE_6_PLAN.md`, `COMBINED/PHASE_6_ORCHESTRATION_INTEGRATION.md`
+**Ссылки:** `.claude/PHASE_6_PLAN.md`, `.claude/PHASE_6_ORCHESTRATION_INTEGRATION.md`
 
 ---
 
@@ -498,17 +498,17 @@ COMBINED/
 
 | Документ | Назначение |
 |----------|-----------|
-| `COMBINED/README.md` | Главный обзор тулкита и быстрый старт |
-| `COMBINED/INDEX.md` | Полный лог перемещения файлов |
-| `COMBINED/agents/INDEX.md` | Каталог агентов |
-| `COMBINED/skills/INDEX.md` | Каталог скиллов |
+| `.claude/README.md` | Главный обзор тулкита и быстрый старт |
+| `.claude/INDEX.md` | Полный лог перемещения файлов |
+| `.claude/agents/INDEX.md` | Каталог агентов |
+| `.claude/skills/INDEX.md` | Каталог скиллов |
 | `ORCHESTRATION.md` | Гид по всем 7 системам оркестрации |
 | `MEMORY_SETUP.md` | Настройка систем памяти |
 | `QUICKSTART.md` | Как быстро начать работу |
 | `AUDIT.md` | Результаты аудита |
-| `COMBINED/PHASE_4_PLAN.md` | Детальный план фазы 4 (Мега-Агенты) |
-| `COMBINED/PHASE_5_PLAN.md` | Детальный план фазы 5 (Аудит) |
-| `COMBINED/PHASE_6_PLAN.md` | Детальный план фазы 6 (Оркестрация) |
+| `.claude/PHASE_4_PLAN.md` | Детальный план фазы 4 (Мега-Агенты) |
+| `.claude/PHASE_5_PLAN.md` | Детальный план фазы 5 (Аудит) |
+| `.claude/PHASE_6_PLAN.md` | Детальный план фазы 6 (Оркестрация) |
 
 ---
 

@@ -308,7 +308,7 @@ description: "Brief description of what this skill does and when Claude should u
 
 4. **Create skill directory structure**:
 ```
-COMBINED/workspace-config/claude/skills/
+.claude/workspace-config/claude/skills/
   ├── skill-builder/
   │   └── SKILL.md
   ├── pair-programming/
@@ -324,8 +324,8 @@ COMBINED/workspace-config/claude/skills/
 ## 🚫 Preventing Duplicates
 
 ### Current State
-- **Commands**: 150 files in `COMBINED/workspace-config/claude/commands/`
-- **Skills**: 1 file in `COMBINED/workspace-config/claude/skills/` (skill-builder)
+- **Commands**: 150 files in `.claude/workspace-config/claude/commands/`
+- **Skills**: 1 file in `.claude/workspace-config/claude/skills/` (skill-builder)
 
 ### After Migration
 - **Commands**: ~115 files (simple CLI operations)

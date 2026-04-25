@@ -311,7 +311,7 @@ These commands work seamlessly with the GitHub automation:
 ## 📍 Command Locations
 
 ```
-COMBINED/workspace-config/claude/commands/
+.claude/workspace-config/claude/commands/
 ├── git/
 │   ├── cm.md           # Commit (no push)
 │   ├── cp.md           # Commit and push

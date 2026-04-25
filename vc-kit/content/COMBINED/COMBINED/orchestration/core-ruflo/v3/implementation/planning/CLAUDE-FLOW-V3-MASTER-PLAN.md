@@ -623,7 +623,7 @@ agents/
 #### Agent Template Enhancement
 
 ```typescript
-// COMBINED/workspace-config/claude/agents/core/coder.md (v3 enhanced)
+// .claude/workspace-config/claude/agents/core/coder.md (v3 enhanced)
 ---
 name: coder
 version: 3.0.0
@@ -657,7 +657,7 @@ Implementation specialist leveraging agentic-flow@alpha for enhanced code genera
 #### v3: 28 skills in 5 domain groups
 
 ```yaml
-# COMBINED/workspace-config/claude/skills/ai-coordination/swarm-orchestration/SKILL.md
+# .claude/workspace-config/claude/skills/ai-coordination/swarm-orchestration/SKILL.md
 ---
 name: swarm-orchestration
 domain: ai-coordination

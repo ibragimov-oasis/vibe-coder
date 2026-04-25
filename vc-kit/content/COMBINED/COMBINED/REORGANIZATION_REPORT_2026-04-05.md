@@ -25,21 +25,21 @@ Successfully completed comprehensive repository reorganization for the vibe-code
 **Duration:** ~5 minutes
 
 ### Mapping Sources Processed:
-1. `COMBINED/MARSHUTIZATION.md` - 35 existing mappings
-2. `COMBINED/LEFTOVERS_CATEGORIZED.json` - 9,213 leftover files cataloged
-3. `COMBINED/LEFTOVERS_SCAN.json` - Structure validation
-4. `COMBINED/RESTRUCTURE_NEW_STRUCTURE.md` - New PREFIX-SOURCE structure
-5. `COMBINED/README.md` - Current state documentation
+1. `.claude/MARSHUTIZATION.md` - 35 existing mappings
+2. `.claude/LEFTOVERS_CATEGORIZED.json` - 9,213 leftover files cataloged
+3. `.claude/LEFTOVERS_SCAN.json` - Structure validation
+4. `.claude/RESTRUCTURE_NEW_STRUCTURE.md` - New PREFIX-SOURCE structure
+5. `.claude/README.md` - Current state documentation
 6. `MASTER_PLAN.md` - Project requirements
 
 ### Key Mappings Identified:
-- Workspace configs (`.antigravity`, `.claude`, `.cursor`) → `COMBINED/workspace-config/`
-- Copilot agents `Skills/awesome-copilot-main/` → `COMBINED/agents/by-interface/agents-copilot/`
-- OpenViking `Tools/OpenViking/` → `COMBINED/mcp-servers/mcp-openviking/`
-- Claude-Mem `Tools/claude-mem/` → `COMBINED/memory/memory-claude-mem/`
-- Lightpanda `Tools/browser/` → `COMBINED/mcp-servers/mcp-lightpanda/`
-- shadcn UI `UI-UX/ui/` → `COMBINED/ui-design/ui-components-shadcn/`
-- Skills from `_combined/skills/` → `COMBINED/skills/skills-*/`
+- Workspace configs (`.antigravity`, `.claude`, `.cursor`) → `.claude/workspace-config/`
+- Copilot agents `Skills/awesome-copilot-main/` → `.claude/agents/by-interface/agents-copilot/`
+- OpenViking `Tools/OpenViking/` → `.claude/mcp-servers/mcp-openviking/`
+- Claude-Mem `Tools/claude-mem/` → `.claude/memory/memory-claude-mem/`
+- Lightpanda `Tools/browser/` → `.claude/mcp-servers/mcp-lightpanda/`
+- shadcn UI `UI-UX/ui/` → `.claude/ui-design/ui-components-shadcn/`
+- Skills from `_combined/skills/` → `.claude/skills/skills-*/`
 
 ---
 
@@ -49,15 +49,15 @@ Successfully completed comprehensive repository reorganization for the vibe-code
 **Duration:** ~3 minutes
 
 ### Directories Moved:
-1. **`.antigravity/`** → `COMBINED/workspace-config/antigravity/`
+1. **`.antigravity/`** → `.claude/workspace-config/antigravity/`
    - 4 files (plugin.json, marketplace.json, hooks/README.md)
    - Marker file created: `.antigravity/.moved`
 
-2. **`.claude/`** → `COMBINED/workspace-config/claude/`
+2. **`.claude/`** → `.claude/workspace-config/claude/`
    - 200+ files (skills, commands, agents, CLAUDE.md, settings.json)
    - Marker file created: `.claude/.moved`
 
-3. **`.cursor/`** → `COMBINED/workspace-config/cursor/`
+3. **`.cursor/`** → `.claude/workspace-config/cursor/`
    - 1 file (rules/registry-bases-parity.mdc)
    - Marker file created: `.cursor/.moved`
 
@@ -102,32 +102,32 @@ Successfully completed comprehensive repository reorganization for the vibe-code
 **Duration:** ~20 minutes
 
 ### Priority 1 Files Fixed (7 files):
-1. ✅ `COMBINED/README.md` - Structure references updated
+1. ✅ `.claude/README.md` - Structure references updated
 2. ✅ `.claude/CLAUDE.md` - Repository structure diagram updated
-3. ✅ `COMBINED/workspace-config/claude/CLAUDE.md` - Updated copy
-4. ✅ `.github/copilot-instructions.md` - Tools/browser → COMBINED/mcp-servers/mcp-lightpanda
+3. ✅ `.claude/workspace-config/claude/CLAUDE.md` - Updated copy
+4. ✅ `.github/copilot-instructions.md` - Tools/browser → .claude/mcp-servers/mcp-lightpanda
 5. ✅ `MASTER_PLAN.md` - (checked, no changes needed)
-6. ✅ `COMBINED/RESTRUCTURE_NEW_STRUCTURE.md` - (checked, no changes needed)
-7. ✅ `COMBINED/MARSHUTIZATION.md` - Added workspace-config mappings
+6. ✅ `.claude/RESTRUCTURE_NEW_STRUCTURE.md` - (checked, no changes needed)
+7. ✅ `.claude/MARSHUTIZATION.md` - Added workspace-config mappings
 
 ### Priority 2 & 3 Files Fixed (722 files):
 - Batch processing via Python script
-- All `.md`, `.json`, `.yaml`, `.yml`, `.toml`, `.txt` files in COMBINED/
+- All `.md`, `.json`, `.yaml`, `.yml`, `.toml`, `.txt` files in .claude/
 - Root-level documentation files
 
 ### Replacement Operations Performed:
 | Old Path | New Path | Files Updated |
 |----------|----------|---------------|
-| `.claude/skills/` | `COMBINED/workspace-config/claude/skills/` | ~368 |
-| `.claude/commands/` | `COMBINED/workspace-config/claude/commands/` | ~273 |
-| `.claude/agents/` | `COMBINED/workspace-config/claude/agents/` | ~50 |
-| `Skills/awesome-copilot-main/` | `COMBINED/agents/by-interface/agents-copilot/` | 16 |
-| `Tools/OpenViking/` | `COMBINED/mcp-servers/mcp-openviking/` | 15 |
-| `Tools/claude-mem/` | `COMBINED/memory/memory-claude-mem/` | 19 |
-| `Tools/browser/` | `COMBINED/mcp-servers/mcp-lightpanda/` | 17 |
-| `Tools/pretext/` | `COMBINED/mcp-servers/mcp-pretext/` | 5 |
-| `UI-UX/ui/` | `COMBINED/ui-design/ui-components-shadcn/` | 17 |
-| `_combined/skills/*` | `COMBINED/skills/skills-*/` | 8 |
+| `.claude/skills/` | `.claude/workspace-config/claude/skills/` | ~368 |
+| `.claude/commands/` | `.claude/workspace-config/claude/commands/` | ~273 |
+| `.claude/agents/` | `.claude/workspace-config/claude/agents/` | ~50 |
+| `Skills/awesome-copilot-main/` | `.claude/agents/by-interface/agents-copilot/` | 16 |
+| `Tools/OpenViking/` | `.claude/mcp-servers/mcp-openviking/` | 15 |
+| `Tools/claude-mem/` | `.claude/memory/memory-claude-mem/` | 19 |
+| `Tools/browser/` | `.claude/mcp-servers/mcp-lightpanda/` | 17 |
+| `Tools/pretext/` | `.claude/mcp-servers/mcp-pretext/` | 5 |
+| `UI-UX/ui/` | `.claude/ui-design/ui-components-shadcn/` | 17 |
+| `_combined/skills/*` | `.claude/skills/skills-*/` | 8 |
 
 ### Total Files Fixed: **729 files**
 
@@ -145,7 +145,7 @@ Successfully completed comprehensive repository reorganization for the vibe-code
 4. ✅ `mcp-servers/mcp-configs/` - Only contained `.gitkeep`
 
 ### Rationale:
-All actual content from these directories was already migrated to COMBINED/. The placeholder directories served no purpose and were removed to clean up the repository structure.
+All actual content from these directories was already migrated to .claude/. The placeholder directories served no purpose and were removed to clean up the repository structure.
 
 ---
 
@@ -168,7 +168,7 @@ All actual content from these directories was already migrated to COMBINED/. The
 
 ### Files Modified Summary:
 - **Configuration files:** `.claude/CLAUDE.md`, `.github/copilot-instructions.md`
-- **Documentation:** COMBINED/README.md, COMBINED/MARSHUTIZATION.md, workspace-config/claude/CLAUDE.md
+- **Documentation:** .claude/README.md, .claude/MARSHUTIZATION.md, workspace-config/claude/CLAUDE.md
 - **COMBINED directory:** 722 files (`.md`, `.json`, `.yaml`, `.toml` files)
 - **Root documentation:** Various `.md` files
 
@@ -185,12 +185,12 @@ The batch replacement script successfully processed all files. Some symlink erro
 ## Recommendations for Follow-Up Work
 
 ### 1. Update IDE Configuration Symlinks
-**Action:** Create symlinks from root-level `.claude`, `.cursor`, `.antigravity` to `COMBINED/workspace-config/` for IDE compatibility
+**Action:** Create symlinks from root-level `.claude`, `.cursor`, `.antigravity` to `.claude/workspace-config/` for IDE compatibility
 **Priority:** Medium
 **Reason:** IDEs expect configs in root `.claude/` etc. Symlinks would maintain compatibility.
 
 ### 2. Validate All Cross-References
-**Action:** Run automated link checker on all COMBINED/ markdown files
+**Action:** Run automated link checker on all .claude/ markdown files
 **Priority:** Low
 **Reason:** Ensure no broken internal links remain after path updates.
 
@@ -207,7 +207,7 @@ The batch replacement script successfully processed all files. Some symlink erro
 ### 5. Test Workspace Configs
 **Action:** Test `.claude/`, `.cursor/`, `.antigravity/` configs work correctly from new locations
 **Priority:** High
-**Reason:** Ensure AI assistants can find and use configs in `COMBINED/workspace-config/`.
+**Reason:** Ensure AI assistants can find and use configs in `.claude/workspace-config/`.
 
 ---
 
@@ -215,9 +215,9 @@ The batch replacement script successfully processed all files. Some symlink erro
 
 ```
 vibe-coder/
-├── .antigravity/.moved         # Marker file (content moved to COMBINED/)
-├── .claude/.moved              # Marker file (content moved to COMBINED/)
-├── .cursor/.moved              # Marker file (content moved to COMBINED/)
+├── .antigravity/.moved         # Marker file (content moved to .claude/)
+├── .claude/.moved              # Marker file (content moved to .claude/)
+├── .cursor/.moved              # Marker file (content moved to .claude/)
 ├── .github/                    # GitHub Copilot config (updated)
 ├── Agents/                     # Original files (preserved)
 ├── Orchestration/              # Original files (preserved)
@@ -225,7 +225,7 @@ vibe-coder/
 ├── Tools/                      # Original files (preserved)
 ├── UI-UX/                      # Original files (preserved)
 ├── Reference/                  # Original files (preserved)
-└── COMBINED/                   # ← All organized content
+└── .claude/                   # ← All organized content
     ├── workspace-config/       # ← NEW: IDE configurations
     │   ├── antigravity/        # From .antigravity/
     │   ├── claude/             # From .claude/
@@ -275,7 +275,7 @@ vibe-coder/
 1. **Commit changes** - `git add . && git commit -m "chore: reorganize workspace configs and fix 729 path references"`
 2. **Test IDE integrations** - Verify Claude Code, Cursor, Antigravity can find configs
 3. **Update CI/CD** - Review GitHub Actions, build scripts for old path references
-4. **Create symlinks** (optional) - Link root configs to COMBINED/workspace-config/
+4. **Create symlinks** (optional) - Link root configs to .claude/workspace-config/
 5. **Run validation** - Execute automated tests to verify no regressions
 
 ---

@@ -28,5 +28,5 @@ Implement the described feature using strict TDD (Test-Driven Development):
 - Mock external dependencies, not internal modules
 - Follow testing pyramid: 70% unit, 20% integration, 10% e2e
 
-Full methodology: `COMBINED/agents/mega/mega-tester.md`
-Source: `COMBINED/orchestration/superpowers/` (Step 5: test-driven-development)
+Full methodology: `.claude/agents/mega/mega-tester.md`
+Source: `.claude/orchestration/superpowers/` (Step 5: test-driven-development)

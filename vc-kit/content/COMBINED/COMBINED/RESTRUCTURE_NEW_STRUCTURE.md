@@ -26,11 +26,11 @@ This document defines the **new target structure** for the COMBINED directory us
 
 ### Latest Leftover Moves (2026-04-05)
 
-- Copilot interface: migrated remaining awesome-copilot agents (prompt-builder, polyglot-test-builder, python-notebook-sample-builder), the Learning Hub `building-custom-agents` doc, and the `build-website` workflow into `COMBINED/agents/by-interface/agents-copilot/`.
-- MCP/OpenViking: restored missing build/test assets (docker build scripts, `build_support` helpers, tree builder modules, sparse distance header, leveldb/krl/spdlog/AGFS vendor files, dedup test) under `COMBINED/mcp-servers/mcp-openviking/` to match the published structure.
-- MCP/Lightpanda: added `build.zig` and `build.zig.zon` to `COMBINED/mcp-servers/mcp-lightpanda/` so the browser server can build from the COMBINED root.
-- Memory/Pretext: placed Claude-Mem report/plan/build artifacts and Pretext `tsconfig.build.json` in their `COMBINED/memory` and `COMBINED/mcp-servers/mcp-pretext` homes; installer dist folder recreated.
-- UI design: restored shadcn v4 build scripts (`build-registry.mts`, `build-test-app.mts`) inside `COMBINED/ui-design/ui-components-shadcn/apps/v4/scripts/`.
+- Copilot interface: migrated remaining awesome-copilot agents (prompt-builder, polyglot-test-builder, python-notebook-sample-builder), the Learning Hub `building-custom-agents` doc, and the `build-website` workflow into `.claude/agents/by-interface/agents-copilot/`.
+- MCP/OpenViking: restored missing build/test assets (docker build scripts, `build_support` helpers, tree builder modules, sparse distance header, leveldb/krl/spdlog/AGFS vendor files, dedup test) under `.claude/mcp-servers/mcp-openviking/` to match the published structure.
+- MCP/Lightpanda: added `build.zig` and `build.zig.zon` to `.claude/mcp-servers/mcp-lightpanda/` so the browser server can build from the COMBINED root.
+- Memory/Pretext: placed Claude-Mem report/plan/build artifacts and Pretext `tsconfig.build.json` in their `.claude/memory` and `.claude/mcp-servers/mcp-pretext` homes; installer dist folder recreated.
+- UI design: restored shadcn v4 build scripts (`build-registry.mts`, `build-test-app.mts`) inside `.claude/ui-design/ui-components-shadcn/apps/v4/scripts/`.
 - Phase 4 status: no mega-agent or Phase 4 work executed—this pass only finishes Phase 1–3 leftovers and path marshutization.
 
 ---
@@ -38,7 +38,7 @@ This document defines the **new target structure** for the COMBINED directory us
 ## 📂 Complete Directory Structure
 
 ```
-NEW COMBINED/
+NEW .claude/
 │
 ├── agents/                          # TOP-LEVEL CATEGORY
 │   ├── by-role/                     # Cross-repo aggregate (SPECIAL)
@@ -194,7 +194,7 @@ NEW COMBINED/
 
 ### Finding Agents
 ```bash
-cd COMBINED/agents/
+cd .claude/agents/
 
 # See all agent sources
 ls
@@ -212,7 +212,7 @@ cd ../by-interface/agents-claude/
 
 ### Finding Skills
 ```bash
-cd COMBINED/skills/
+cd .claude/skills/
 
 # See all skill sources
 ls
@@ -227,7 +227,7 @@ cd ../skills-claude/
 
 ### Finding Commands
 ```bash
-cd COMBINED/commands/
+cd .claude/commands/
 
 # See all command sources
 ls
@@ -263,7 +263,7 @@ cd commands-gsd/
 - "I need GSD skills" → `cd skills/skills-gsd/`
 
 ### 6. **Flat File Manager View**
-- Open `COMBINED/agents/` in file manager → see all agent sources
+- Open `.claude/agents/` in file manager → see all agent sources
 - No need to drill down through multiple levels
 
 ### 7. **Scalable**

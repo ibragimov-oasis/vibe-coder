@@ -9,8 +9,8 @@ tags:
 # Vibe-Coder Migration - Phased Implementation Plan
 
 **Дата создания:** 2 апреля 2026
-**Источники:** MASTER_PLAN.md + COMBINED/READ.ME.md
-**Цель:** Организовать 31 репозиторий (39,122 файла) в структурированную систему COMBINED/
+**Источники:** MASTER_PLAN.md + .claude/READ.ME.md
+**Цель:** Организовать 31 репозиторий (39,122 файла) в структурированную систему .claude/
 
 ---
 
@@ -52,7 +52,7 @@ tags:
 
 **Задачи:**
 1. Проверить наличие всех 31 репозитория
-2. Проверить текущее состояние COMBINED/ (что уже есть из Phase 1)
+2. Проверить текущее состояние .claude/ (что уже есть из Phase 1)
 3. Создать список всех top-level директорий
 4. Подсчитать количество файлов в каждой категории
 
@@ -67,11 +67,11 @@ find Tools/ -type f | wc -l
 find UI-UX/ -type f | wc -l
 find Reference/ -type f | wc -l
 
-# Проверка COMBINED/
-ls -la COMBINED/
+# Проверка .claude/
+ls -la .claude/
 ```
 
-**Результат:** Файл `COMBINED/PHASE_2_INVENTORY.md` со статистикой
+**Результат:** Файл `.claude/PHASE_2_INVENTORY.md` со статистикой
 
 ---
 
@@ -106,7 +106,7 @@ find Agents/ -name "README.md" -o -name "CLAUDE.md"
 tree -L 3 Agents/
 ```
 
-**Результат:** Файл `COMBINED/agents_analysis.json` с полной структурой
+**Результат:** Файл `.claude/agents_analysis.json` с полной структурой
 
 ---
 
@@ -140,7 +140,7 @@ find Orchestration/ -name "*.md" | grep -i skill | wc -l
 tree -L 3 Orchestration/
 ```
 
-**Результат:** Файл `COMBINED/orchestration_analysis.json`
+**Результат:** Файл `.claude/orchestration_analysis.json`
 
 ---
 
@@ -167,14 +167,14 @@ tree -L 3 Orchestration/
 # Подсчёт skills
 find Skills/antigravity-awesome-skills/skills/ -type d -mindepth 1 -maxdepth 1 | wc -l
 find Skills/claude-skills/ -name "SKILL.md" | wc -l
-find COMBINED/agents/by-interface/agents-copilot/_github/agents/ -name "*.agent.md" | wc -l
+find .claude/agents/by-interface/agents-copilot/_github/agents/ -name "*.agent.md" | wc -l
 
 # Категории antigravity
 ls -1 Skills/antigravity-awesome-skills/skills/
 ```
 
-**Результат:** Файл `COMBINED/skills_analysis.json` с полной картой
-**Статус выполнения:** ✅ Завершено — см. `COMBINED/PHASE_1.4_COMPLETE.md` и `COMBINED/skills_analysis.json` (структура по 7 репозиториям + приоритеты миграции)
+**Результат:** Файл `.claude/skills_analysis.json` с полной картой
+**Статус выполнения:** ✅ Завершено — см. `.claude/PHASE_1.4_COMPLETE.md` и `.claude/skills_analysis.json` (структура по 7 репозиториям + приоритеты миграции)
 
 ---
 
@@ -212,11 +212,11 @@ ls -la Tools/
 
 # UI-UX анализ
 find UI-UX/galaxy/ -name "*.html" | wc -l
-find COMBINED/ui-design/ui-components-shadcn/ -name "*.tsx" -o -name "*.jsx" | wc -l
+find .claude/ui-design/ui-components-shadcn/ -name "*.tsx" -o -name "*.jsx" | wc -l
 ```
 
-**Результат:** Файлы `COMBINED/prompts_analysis.json`, `COMBINED/tools_analysis.json`, `COMBINED/ui_analysis.json`
-**Статус выполнения:** ✅ Завершено — см. `COMBINED/PHASE_1.5_COMPLETE.md` и соответствующие *_analysis.json (17 репозиториев, приоритеты миграции по Prompts/Tools/UI-UX/Reference)
+**Результат:** Файлы `.claude/prompts_analysis.json`, `.claude/tools_analysis.json`, `.claude/ui_analysis.json`
+**Статус выполнения:** ✅ Завершено — см. `.claude/PHASE_1.5_COMPLETE.md` и соответствующие *_analysis.json (17 репозиториев, приоритеты миграции по Prompts/Tools/UI-UX/Reference)
 
 ---
 
@@ -247,7 +247,7 @@ master_index = {
 }
 
 # Читаем все analysis.json файлы
-for analysis_file in glob.glob("COMBINED/*_analysis.json"):
+for analysis_file in glob.glob(".claude/*_analysis.json"):
     with open(analysis_file) as f:
         data = json.load(f)
         category = Path(analysis_file).stem.replace("_analysis", "")
@@ -261,7 +261,7 @@ for cat_name, cat_data in master_index["categories"].items():
                 master_index["total_files"] += repo_data["file_count"]
 
 # Сохранить
-with open("COMBINED/MASTER_INDEX.json", "w") as f:
+with open(".claude/MASTER_INDEX.json", "w") as f:
     json.dump(master_index, f, indent=2, ensure_ascii=False)
 
 print(f"✅ Создан MASTER_INDEX.json с {master_index['total_files']} файлами")
@@ -271,39 +271,39 @@ python3 /tmp/create_master_index.py
 ```
 
 **Результат:**
-- `COMBINED/MASTER_INDEX.json` - полная карта репозитория
-- `COMBINED/MIGRATION_MAP.json` - план перемещения файлов
+- `.claude/MASTER_INDEX.json` - полная карта репозитория
+- `.claude/MIGRATION_MAP.json` - план перемещения файлов
 
 ---
 
 ## ЭТАП 2: ПЕРЕМЕЩЕНИЕ ФАЙЛОВ
 
-**Цель:** Систематическое перемещение файлов в структуру COMBINED/
+**Цель:** Систематическое перемещение файлов в структуру .claude/
 
 ### Фаза 2.1: Создание целевой структуры папок
 **Время:** ~15 минут
 
 **Задачи:**
-1. Создать все папки верхнего уровня в COMBINED/
+1. Создать все папки верхнего уровня в .claude/
 2. Создать подпапки второго уровня
 3. Создать подпапки третьего уровня (по необходимости)
 
 **Команды:**
 ```bash
 # Создание структуры
-mkdir -p COMBINED/agents/{by-role,by-interface,orchestrators}
-mkdir -p COMBINED/agents/by-role/{architect,coder,debugger,planner,reviewer,security,tester,researcher,ui-specialist,writer,manager,scientist,devops,business}
-mkdir -p COMBINED/agents/by-interface/{claude,copilot,cursor,codex,antigravity,opencode}
-mkdir -p COMBINED/orchestration/{ruflo,oh-my-claudecode,get-shit-done,superpowers,deer-flow,1code,vibe-kanban,workflows}
-mkdir -p COMBINED/skills/{development,seo,research,data-analysis,design,writing,devops,platform,business}
-mkdir -p COMBINED/commands/{general,plan,review,debug}
-mkdir -p COMBINED/hooks/{pre-commit,post-commit,notification}
-mkdir -p COMBINED/prompts/{system-prompts,leaked,templates,security}
-mkdir -p COMBINED/memory/{claude-mem,supermemory,openviking,configs}
-mkdir -p COMBINED/mcp-servers/{gitnexus,lightpanda,hermes,nano-banana,pretext,configs}
-mkdir -p COMBINED/security/{shannon,reports}
-mkdir -p COMBINED/ui-design/{components,rules,cursor-rules}
-mkdir -p COMBINED/reference
+mkdir -p .claude/agents/{by-role,by-interface,orchestrators}
+mkdir -p .claude/agents/by-role/{architect,coder,debugger,planner,reviewer,security,tester,researcher,ui-specialist,writer,manager,scientist,devops,business}
+mkdir -p .claude/agents/by-interface/{claude,copilot,cursor,codex,antigravity,opencode}
+mkdir -p .claude/orchestration/{ruflo,oh-my-claudecode,get-shit-done,superpowers,deer-flow,1code,vibe-kanban,workflows}
+mkdir -p .claude/skills/{development,seo,research,data-analysis,design,writing,devops,platform,business}
+mkdir -p .claude/commands/{general,plan,review,debug}
+mkdir -p .claude/hooks/{pre-commit,post-commit,notification}
+mkdir -p .claude/prompts/{system-prompts,leaked,templates,security}
+mkdir -p .claude/memory/{claude-mem,supermemory,openviking,configs}
+mkdir -p .claude/mcp-servers/{gitnexus,lightpanda,hermes,nano-banana,pretext,configs}
+mkdir -p .claude/security/{shannon,reports}
+mkdir -p .claude/ui-design/{components,rules,cursor-rules}
+mkdir -p .claude/reference
 ```
 
 **Результат:** Полная структура папок готова для миграции
@@ -313,108 +313,108 @@ mkdir -p COMBINED/reference
 ### Фаза 2.2: Миграция Agents (HIGH Priority)
 **Время:** ~3-4 часа
 
-#### Подфаза 2.2.1: Agents/shannon/ → COMBINED/
+#### Подфаза 2.2.1: Agents/shannon/ → .claude/
 **Задачи:**
 ```bash
 # 1. Команды
-mv Agents/shannon/COMBINED/workspace-config/claude/commands/debug.md COMBINED/commands/debug/shannon-debug.md
-mv Agents/shannon/COMBINED/workspace-config/claude/commands/pr.md COMBINED/commands/review/shannon-pr.md
-mv Agents/shannon/COMBINED/workspace-config/claude/commands/review.md COMBINED/commands/review/shannon-review.md
+mv Agents/shannon/.claude/workspace-config/claude/commands/debug.md .claude/commands/debug/shannon-debug.md
+mv Agents/shannon/.claude/workspace-config/claude/commands/pr.md .claude/commands/review/shannon-pr.md
+mv Agents/shannon/.claude/workspace-config/claude/commands/review.md .claude/commands/review/shannon-review.md
 
 # 2. Конфиги Claude
-mv Agents/shannon/CLAUDE.md COMBINED/agents/by-interface/claude/shannon-CLAUDE.md
-mv Agents/shannon/COVERAGE.md COMBINED/security/security-shannon/COVERAGE.md
+mv Agents/shannon/CLAUDE.md .claude/agents/by-interface/claude/shannon-CLAUDE.md
+mv Agents/shannon/COVERAGE.md .claude/security/security-shannon/COVERAGE.md
 
 # 3. Security файлы
-mv Agents/shannon/sample-reports/* COMBINED/security/security-reports/shannon-samples/
-mv Agents/shannon/apps/ COMBINED/security/security-shannon/apps/
-mv Agents/shannon/workspaces/ COMBINED/security/security-shannon/workspaces/
-mv Agents/shannon/repos/ COMBINED/security/security-shannon/repos/
+mv Agents/shannon/sample-reports/* .claude/security/security-reports/shannon-samples/
+mv Agents/shannon/apps/ .claude/security/security-shannon/apps/
+mv Agents/shannon/workspaces/ .claude/security/security-shannon/workspaces/
+mv Agents/shannon/repos/ .claude/security/security-shannon/repos/
 
 # 4. Security prompts
-mv Agents/shannon/apps/worker/prompts/* COMBINED/prompts/security/security-shannon/
+mv Agents/shannon/apps/worker/prompts/* .claude/prompts/security/security-shannon/
 ```
 
 **Индексация:** Записать каждое перемещение в INDEX_MOVEMENTS.json
 
 ---
 
-#### Подфаза 2.2.2: Agents/background-agents/ → COMBINED/
+#### Подфаза 2.2.2: Agents/background-agents/ → .claude/
 **Задачи:**
 ```bash
 # 1. Документация агентов
-mv Agents/background-agents/CLAUDE.md COMBINED/agents/by-interface/claude/background-agents-CLAUDE.md
-mv Agents/background-agents/AGENTS.md COMBINED/agents/orchestrators/background-agents/AGENTS.md
+mv Agents/background-agents/CLAUDE.md .claude/agents/by-interface/claude/background-agents-CLAUDE.md
+mv Agents/background-agents/AGENTS.md .claude/agents/orchestrators/background-agents/AGENTS.md
 
 # 2. Пакеты
-mv Agents/background-agents/packages/ COMBINED/agents/orchestrators/background-agents/packages/
+mv Agents/background-agents/packages/ .claude/agents/orchestrators/background-agents/packages/
 
 # 3. Скрипты (сохранить .py формат)
-mv Agents/background-agents/scripts/ COMBINED/agents/orchestrators/background-agents/scripts/
+mv Agents/background-agents/scripts/ .claude/agents/orchestrators/background-agents/scripts/
 
 # 4. Документация
-mv Agents/background-agents/docs/ COMBINED/agents/orchestrators/background-agents/docs/
+mv Agents/background-agents/docs/ .claude/agents/orchestrators/background-agents/docs/
 
 # 5. Terraform
-mv Agents/background-agents/terraform/ COMBINED/orchestration/workflows/terraform/
+mv Agents/background-agents/terraform/ .claude/orchestration/workflows/terraform/
 
 # 6. Workflows
-mv Agents/background-agents/VISIBLE_github/workflows/ COMBINED/orchestration/workflows/background-agents/
+mv Agents/background-agents/VISIBLE_github/workflows/ .claude/orchestration/workflows/background-agents/
 
 # 7. Skills
-mv Agents/background-agents/VISIBLE_claude/skills/onboarding/ COMBINED/skills/development/onboarding/
+mv Agents/background-agents/VISIBLE_claude/skills/onboarding/ .claude/skills/development/onboarding/
 
 # 8. Hooks
-mv Agents/background-agents/VISIBLE_husky/ COMBINED/hooks/pre-commit/background-agents-husky/
+mv Agents/background-agents/VISIBLE_husky/ .claude/hooks/pre-commit/background-agents-husky/
 ```
 
 ---
 
-#### Подфаза 2.2.3: Agents/hermes-agent/ → COMBINED/
+#### Подфаза 2.2.3: Agents/hermes-agent/ → .claude/
 **Задачи:**
 ```bash
 # 1. Core agent
-mv Agents/hermes-agent/agent/ COMBINED/agents/orchestrators/hermes/agent/
+mv Agents/hermes-agent/agent/ .claude/agents/orchestrators/hermes/agent/
 
 # 2. CLI
-mv Agents/hermes-agent/hermes_cli/ COMBINED/agents/orchestrators/hermes/cli/
+mv Agents/hermes-agent/hermes_cli/ .claude/agents/orchestrators/hermes/cli/
 
 # 3. Gateway
-mv Agents/hermes-agent/gateway/ COMBINED/agents/orchestrators/hermes/gateway/
+mv Agents/hermes-agent/gateway/ .claude/agents/orchestrators/hermes/gateway/
 
 # 4. Environments
-mv Agents/hermes-agent/environments/ COMBINED/agents/orchestrators/hermes/environments/
+mv Agents/hermes-agent/environments/ .claude/agents/orchestrators/hermes/environments/
 
 # 5. ACP components
-mv Agents/hermes-agent/acp_adapter/ COMBINED/agents/orchestrators/hermes/acp_adapter/
-mv Agents/hermes-agent/acp_registry/ COMBINED/agents/orchestrators/hermes/acp_registry/
+mv Agents/hermes-agent/acp_adapter/ .claude/agents/orchestrators/hermes/acp_adapter/
+mv Agents/hermes-agent/acp_registry/ .claude/agents/orchestrators/hermes/acp_registry/
 
 # 6. Cron
-mv Agents/hermes-agent/cron/ COMBINED/agents/orchestrators/hermes/cron/
+mv Agents/hermes-agent/cron/ .claude/agents/orchestrators/hermes/cron/
 
 # 7. Integrations
-mv Agents/hermes-agent/honcho_integration/ COMBINED/agents/orchestrators/hermes/integrations/
+mv Agents/hermes-agent/honcho_integration/ .claude/agents/orchestrators/hermes/integrations/
 
 # 8. Plans
-mv Agents/hermes-agent/_plans/ COMBINED/agents/orchestrators/hermes/plans/
+mv Agents/hermes-agent/_plans/ .claude/agents/orchestrators/hermes/plans/
 
 # 9. Configs
-mv Agents/hermes-agent/datagen-config-examples/ COMBINED/agents/orchestrators/hermes/configs/
+mv Agents/hermes-agent/datagen-config-examples/ .claude/agents/orchestrators/hermes/configs/
 
 # 10. Docs
-mv Agents/hermes-agent/docs/ COMBINED/agents/orchestrators/hermes/docs/
+mv Agents/hermes-agent/docs/ .claude/agents/orchestrators/hermes/docs/
 
 # 11. Workflows
-mv Agents/hermes-agent/_github/workflows/ COMBINED/orchestration/workflows/hermes/
+mv Agents/hermes-agent/_github/workflows/ .claude/orchestration/workflows/hermes/
 
 # 12. MCP Server
-mv Agents/hermes-agent/mcp_serve.py COMBINED/mcp-servers/hermes/mcp_serve.py
+mv Agents/hermes-agent/mcp_serve.py .claude/mcp-servers/hermes/mcp_serve.py
 
 # 13. Skills
 # Для каждого skill в builtin/ и optional-skills/:
 # - Прочитать SKILL.md
 # - Определить категорию
-# - Переместить в COMBINED/skills/[category]/hermes-[skill_name]/
+# - Переместить в .claude/skills/[category]/hermes-[skill_name]/
 ```
 
 ---
@@ -425,43 +425,43 @@ mv Agents/hermes-agent/mcp_serve.py COMBINED/mcp-servers/hermes/mcp_serve.py
 **Superpowers агенты:**
 ```bash
 # Прочитать каждый агент, определить роль, переместить
-# Orchestration/superpowers/agents/*.md → COMBINED/agents/by-role/[role]/superpowers-[name].md
+# Orchestration/superpowers/agents/*.md → .claude/agents/by-role/[role]/superpowers-[name].md
 ```
 
 **Get-Shit-Done агенты (18 файлов):**
 ```bash
 # По ролям из имён файлов:
-mv Orchestration/get-shit-done/agents/gsd-debugger.md COMBINED/agents/by-role/debugger/
-mv Orchestration/get-shit-done/agents/gsd-executor.md COMBINED/agents/by-role/coder/
-mv Orchestration/get-shit-done/agents/gsd-planner.md COMBINED/agents/by-role/planner/
-mv Orchestration/get-shit-done/agents/gsd-*-researcher.md COMBINED/agents/by-role/researcher/
-mv Orchestration/get-shit-done/agents/gsd-roadmapper.md COMBINED/agents/by-role/manager/
+mv Orchestration/get-shit-done/agents/gsd-debugger.md .claude/agents/by-role/debugger/
+mv Orchestration/get-shit-done/agents/gsd-executor.md .claude/agents/by-role/coder/
+mv Orchestration/get-shit-done/agents/gsd-planner.md .claude/agents/by-role/planner/
+mv Orchestration/get-shit-done/agents/gsd-*-researcher.md .claude/agents/by-role/researcher/
+mv Orchestration/get-shit-done/agents/gsd-roadmapper.md .claude/agents/by-role/manager/
 # ... и т.д. для всех 18 агентов
 ```
 
 **RuFlo агенты:**
 ```bash
 # Прочитать, определить роль, переместить по ролям
-# Orchestration/ruflo/agents/*.yaml → COMBINED/agents/by-role/[role]/ruflo-[name].yaml
+# Orchestration/ruflo/agents/*.yaml → .claude/agents/by-role/[role]/ruflo-[name].yaml
 ```
 
 **Claude Skills агенты (16 файлов):**
 ```bash
 # Skills/claude-skills/agents/ → определить роль каждого
-# Переместить в COMBINED/agents/by-role/[role]/claude-skills-[name].md
+# Переместить в .claude/agents/by-role/[role]/claude-skills-[name].md
 ```
 
 **Awesome Copilot агенты (230+ файлов):**
 ```bash
 # Особый случай - Copilot specific, сохранить структуру
-mv COMBINED/agents/by-interface/agents-copilot/_github/agents/ COMBINED/agents/by-interface/copilot/awesome-copilot/
-mv Skills/awesome-copilot-main/cookbook/ COMBINED/agents/by-interface/copilot/cookbook/
-mv Skills/awesome-copilot-main/instructions/ COMBINED/agents/by-interface/copilot/instructions/
+mv .claude/agents/by-interface/agents-copilot/_github/agents/ .claude/agents/by-interface/copilot/awesome-copilot/
+mv Skills/awesome-copilot-main/cookbook/ .claude/agents/by-interface/copilot/cookbook/
+mv Skills/awesome-copilot-main/instructions/ .claude/agents/by-interface/copilot/instructions/
 ```
 
 **Antigravity агенты:**
 ```bash
-mv Skills/antigravity-awesome-skills/_agents/ COMBINED/agents/by-interface/antigravity/
+mv Skills/antigravity-awesome-skills/_agents/ .claude/agents/by-interface/antigravity/
 ```
 
 **Результат:** Все агенты распределены по ролям и интерфейсам
@@ -474,34 +474,34 @@ mv Skills/antigravity-awesome-skills/_agents/ COMBINED/agents/by-interface/antig
 **Задачи:**
 ```bash
 # 1. RuFlo
-mv Orchestration/ruflo/ COMBINED/orchestration/ruflo/
+mv Orchestration/ruflo/ .claude/orchestration/ruflo/
 # Внутри ruflo: core/, plugin/, versions/, docs/
 
 # 2. Oh-My-ClaudeCode
-mv Orchestration/oh-my-claudecode/ COMBINED/orchestration/oh-my-claudecode/
+mv Orchestration/oh-my-claudecode/ .claude/orchestration/oh-my-claudecode/
 
 # 3. Get-Shit-Done
-mv Orchestration/get-shit-done/get-shit-done/ COMBINED/orchestration/get-shit-done/core/
-mv Orchestration/get-shit-done/hooks/ COMBINED/hooks/notification/gsd/
-mv Orchestration/get-shit-done/commands/gsd/ COMBINED/commands/general/gsd/
+mv Orchestration/get-shit-done/get-shit-done/ .claude/orchestration/get-shit-done/core/
+mv Orchestration/get-shit-done/hooks/ .claude/hooks/notification/gsd/
+mv Orchestration/get-shit-done/commands/gsd/ .claude/commands/general/gsd/
 
 # 4. Superpowers
-mv Orchestration/superpowers/skills/ COMBINED/skills/development/superpowers/
-mv Orchestration/superpowers/commands/ COMBINED/commands/plan/superpowers/
-mv Orchestration/superpowers/hooks/ COMBINED/hooks/notification/superpowers/
-mv Orchestration/superpowers/.claude-plugin/ COMBINED/mcp-servers/configs/superpowers-plugin/
-mv Orchestration/superpowers/.cursor-plugin/ COMBINED/agents/by-interface/cursor/superpowers-cursor/
+mv Orchestration/superpowers/skills/ .claude/skills/development/superpowers/
+mv Orchestration/superpowers/commands/ .claude/commands/plan/superpowers/
+mv Orchestration/superpowers/hooks/ .claude/hooks/notification/superpowers/
+mv Orchestration/superpowers/.claude-plugin/ .claude/mcp-servers/configs/superpowers-plugin/
+mv Orchestration/superpowers/.cursor-plugin/ .claude/agents/by-interface/cursor/superpowers-cursor/
 
 # 5. Deer-Flow
 # Skills уже обработаны в Фаза 2.4, остальное:
-mv Orchestration/deer-flow/backend/ COMBINED/orchestration/deer-flow/backend/
-mv Orchestration/deer-flow/frontend/ COMBINED/orchestration/deer-flow/frontend/
+mv Orchestration/deer-flow/backend/ .claude/orchestration/deer-flow/backend/
+mv Orchestration/deer-flow/frontend/ .claude/orchestration/deer-flow/frontend/
 
 # 6. 1code
-mv Orchestration/1code/ COMBINED/orchestration/1code/
+mv Orchestration/1code/ .claude/orchestration/1code/
 
 # 7. Vibe-Kanban
-mv Orchestration/vibe-kanban/ COMBINED/orchestration/vibe-kanban/
+mv Orchestration/vibe-kanban/ .claude/orchestration/vibe-kanban/
 ```
 
 ---
@@ -514,9 +514,9 @@ mv Orchestration/vibe-kanban/ COMBINED/orchestration/vibe-kanban/
 
 ```bash
 # Для каждой категории в Skills/antigravity-awesome-skills/skills/:
-# 1. ai/ → COMBINED/skills/development/antigravity/ai/
-# 2. backend/ → COMBINED/skills/development/antigravity/backend/
-# 3. frontend/ → COMBINED/skills/development/antigravity/frontend/
+# 1. ai/ → .claude/skills/development/antigravity/ai/
+# 2. backend/ → .claude/skills/development/antigravity/backend/
+# 3. frontend/ → .claude/skills/development/antigravity/frontend/
 # ... и т.д. для всех категорий
 
 # Сохранить полную структуру со всеми SKILL.md, scripts/, references/, assets/
@@ -548,29 +548,29 @@ done
 
 ```bash
 # Development skills
-mv Skills/claude-skills/engineering-team/ COMBINED/skills/development/claude-skills/engineering-team/
-mv Skills/claude-skills/engineering/ COMBINED/skills/development/claude-skills/engineering/
-mv Skills/claude-skills/product-team/ COMBINED/skills/development/claude-skills/product-team/
-mv Skills/claude-skills/project-management/ COMBINED/skills/development/claude-skills/project-management/
+mv Skills/claude-skills/engineering-team/ .claude/skills/development/claude-skills/engineering-team/
+mv Skills/claude-skills/engineering/ .claude/skills/development/claude-skills/engineering/
+mv Skills/claude-skills/product-team/ .claude/skills/development/claude-skills/product-team/
+mv Skills/claude-skills/project-management/ .claude/skills/development/claude-skills/project-management/
 
 # SEO & Marketing
-mv Skills/claude-skills/marketing-skill/ COMBINED/skills/seo/claude-skills-marketing/
+mv Skills/claude-skills/marketing-skill/ .claude/skills/seo/claude-skills-marketing/
 
 # Business
-mv Skills/claude-skills/business-growth/ COMBINED/skills/business/claude-skills-growth/
-mv Skills/claude-skills/c-level-advisor/ COMBINED/skills/business/claude-skills-c-level/
+mv Skills/claude-skills/business-growth/ .claude/skills/business/claude-skills-growth/
+mv Skills/claude-skills/c-level-advisor/ .claude/skills/business/claude-skills-c-level/
 
 # Finance & Analysis
-mv Skills/claude-skills/finance/ COMBINED/skills/data-analysis/claude-skills-finance/
+mv Skills/claude-skills/finance/ .claude/skills/data-analysis/claude-skills-finance/
 
 # Healthcare/Compliance
-mv Skills/claude-skills/ra-qm-team/ COMBINED/skills/business/claude-skills-ra-qm/
+mv Skills/claude-skills/ra-qm-team/ .claude/skills/business/claude-skills-ra-qm/
 
 # Python scripts (268 файлов)
-mv Skills/claude-skills/*/scripts/*.py COMBINED/skills/development/claude-skills/scripts/
+mv Skills/claude-skills/*/scripts/*.py .claude/skills/development/claude-skills/scripts/
 
 # Templates
-mv Skills/claude-skills/templates/ COMBINED/prompts/templates/claude-skills-templates/
+mv Skills/claude-skills/templates/ .claude/prompts/templates/claude-skills-templates/
 ```
 
 ---
@@ -578,7 +578,7 @@ mv Skills/claude-skills/templates/ COMBINED/prompts/templates/claude-skills-temp
 #### Подфаза 2.4.3: Superpowers Skills (14)
 ```bash
 # Уже перемещено в Фаза 2.3, проверить:
-ls -la COMBINED/skills/development/superpowers/
+ls -la .claude/skills/development/superpowers/
 ```
 
 ---
@@ -587,35 +587,35 @@ ls -la COMBINED/skills/development/superpowers/
 **Распределить по типам:**
 ```bash
 # Development
-mv Orchestration/deer-flow/skills/public/bootstrap/ COMBINED/skills/development/deer-flow-bootstrap/
-mv Orchestration/deer-flow/skills/public/find-skills/ COMBINED/skills/development/deer-flow-find-skills/
-mv Orchestration/deer-flow/skills/public/skill-creator/ COMBINED/skills/development/deer-flow-skill-creator/
-mv Orchestration/deer-flow/skills/public/surprise-me/ COMBINED/skills/development/deer-flow-surprise/
+mv Orchestration/deer-flow/skills/public/bootstrap/ .claude/skills/development/deer-flow-bootstrap/
+mv Orchestration/deer-flow/skills/public/find-skills/ .claude/skills/development/deer-flow-find-skills/
+mv Orchestration/deer-flow/skills/public/skill-creator/ .claude/skills/development/deer-flow-skill-creator/
+mv Orchestration/deer-flow/skills/public/surprise-me/ .claude/skills/development/deer-flow-surprise/
 
 # Data Analysis
-mv Orchestration/deer-flow/skills/public/chart-visualization/ COMBINED/skills/data-analysis/deer-flow-chart/
-mv Orchestration/deer-flow/skills/public/data-analysis/ COMBINED/skills/data-analysis/deer-flow-data-analysis/
+mv Orchestration/deer-flow/skills/public/chart-visualization/ .claude/skills/data-analysis/deer-flow-chart/
+mv Orchestration/deer-flow/skills/public/data-analysis/ .claude/skills/data-analysis/deer-flow-data-analysis/
 
 # Research
-mv Orchestration/deer-flow/skills/public/consulting-analysis/ COMBINED/skills/research/deer-flow-consulting/
-mv Orchestration/deer-flow/skills/public/deep-research/ COMBINED/skills/research/deer-flow-deep-research/
-mv Orchestration/deer-flow/skills/public/github-deep-research/ COMBINED/skills/research/deer-flow-github/
+mv Orchestration/deer-flow/skills/public/consulting-analysis/ .claude/skills/research/deer-flow-consulting/
+mv Orchestration/deer-flow/skills/public/deep-research/ .claude/skills/research/deer-flow-deep-research/
+mv Orchestration/deer-flow/skills/public/github-deep-research/ .claude/skills/research/deer-flow-github/
 
 # Design
-mv Orchestration/deer-flow/skills/public/frontend-design/ COMBINED/skills/design/deer-flow-frontend-design/
-mv Orchestration/deer-flow/skills/public/image-generation/ COMBINED/skills/design/deer-flow-image-generation/
+mv Orchestration/deer-flow/skills/public/frontend-design/ .claude/skills/design/deer-flow-frontend-design/
+mv Orchestration/deer-flow/skills/public/image-generation/ .claude/skills/design/deer-flow-image-generation/
 # Также создать симлинк в UI (НЕ копировать):
-# ln -s ../../skills/design/deer-flow-frontend-design/ COMBINED/ui-design/ui-rules/deer-flow-frontend-design
+# ln -s ../../skills/design/deer-flow-frontend-design/ .claude/ui-design/ui-rules/deer-flow-frontend-design
 
 # Writing
-mv Orchestration/deer-flow/skills/public/podcast-generation/ COMBINED/skills/writing/deer-flow-podcast/
-mv Orchestration/deer-flow/skills/public/ppt-generation/ COMBINED/skills/writing/deer-flow-ppt/
+mv Orchestration/deer-flow/skills/public/podcast-generation/ .claude/skills/writing/deer-flow-podcast/
+mv Orchestration/deer-flow/skills/public/ppt-generation/ .claude/skills/writing/deer-flow-ppt/
 
 # DevOps
-mv Orchestration/deer-flow/skills/public/vercel-deploy-claimable/ COMBINED/skills/devops/deer-flow-vercel-deploy/
+mv Orchestration/deer-flow/skills/public/vercel-deploy-claimable/ .claude/skills/devops/deer-flow-vercel-deploy/
 
 # Integration (не skill)
-mv Orchestration/deer-flow/skills/public/claude-to-deerflow/ COMBINED/orchestration/deer-flow/claude-integration/
+mv Orchestration/deer-flow/skills/public/claude-to-deerflow/ .claude/orchestration/deer-flow/claude-integration/
 ```
 
 ---
@@ -625,19 +625,19 @@ mv Orchestration/deer-flow/skills/public/claude-to-deerflow/ COMBINED/orchestrat
 # Hermes skills - уже обработано в 2.2.3
 
 # Awesome Copilot skills
-mv Skills/awesome-copilot-main/skills/ COMBINED/skills/development/awesome-copilot/
+mv Skills/awesome-copilot-main/skills/ .claude/skills/development/awesome-copilot/
 
 # Awesome Claude Code
-mv Skills/awesome-claude-code/ COMBINED/skills/development/awesome-claude-code/
+mv Skills/awesome-claude-code/ .claude/skills/development/awesome-claude-code/
 
 # Everything Claude Code
-mv Skills/everything-claude-code/ COMBINED/skills/development/everything-claude-code/
+mv Skills/everything-claude-code/ .claude/skills/development/everything-claude-code/
 
 # Claude SEO
-mv Skills/claude-seo/ COMBINED/skills/seo/claude-seo/
+mv Skills/claude-seo/ .claude/skills/seo/claude-seo/
 
 # Obsidian
-mv Skills/obsidian-skills/ COMBINED/skills/platform/obsidian/
+mv Skills/obsidian-skills/ .claude/skills/platform/obsidian/
 ```
 
 ---
@@ -652,7 +652,7 @@ mv Skills/obsidian-skills/ COMBINED/skills/platform/obsidian/
 # Get-Shit-Done - уже перемещено в 2.3
 
 # Claude Skills commands (если есть)
-mv Skills/claude-skills/commands/ COMBINED/commands/general/claude-skills/
+mv Skills/claude-skills/commands/ .claude/commands/general/claude-skills/
 ```
 
 #### Hooks:
@@ -662,8 +662,8 @@ mv Skills/claude-skills/commands/ COMBINED/commands/general/claude-skills/
 # Background Agents - уже перемещено в 2.2.2
 
 # RuFlo hooks
-mv Orchestration/ruflo/.claude-plugin/hooks/ COMBINED/hooks/notification/ruflo/
-mv Orchestration/ruflo/.githooks/ COMBINED/hooks/pre-commit/ruflo/
+mv Orchestration/ruflo/.claude-plugin/hooks/ .claude/hooks/notification/ruflo/
+mv Orchestration/ruflo/.githooks/ .claude/hooks/pre-commit/ruflo/
 ```
 
 ---
@@ -682,13 +682,13 @@ mv Orchestration/ruflo/.githooks/ COMBINED/hooks/pre-commit/ruflo/
 ```bash
 # Для каждого AI инструмента (Claude, ChatGPT, Cursor, Copilot, Gemini, etc.):
 # 1. Найти все промпты этого инструмента в 3 источниках
-# 2. Переместить в COMBINED/prompts/system-prompts/[tool_name]/
+# 2. Переместить в .claude/prompts/system-prompts/[tool_name]/
 # 3. Если дубликаты - добавить суффикс (source1, source2, source3)
 
 # Пример для Claude:
-mkdir -p COMBINED/prompts/system-prompts/claude/
-mv Prompts/system-prompts-and-models-of-ai-tools/claude*.md COMBINED/prompts/system-prompts/claude/
-mv Prompts/system-prompts/claude*.md COMBINED/prompts/system-prompts/claude/
+mkdir -p .claude/prompts/system-prompts/claude/
+mv Prompts/system-prompts-and-models-of-ai-tools/claude*.md .claude/prompts/system-prompts/claude/
+mv Prompts/system-prompts/claude*.md .claude/prompts/system-prompts/claude/
 
 # Повторить для всех 30+ инструментов
 ```
@@ -698,14 +698,14 @@ mv Prompts/system-prompts/claude*.md COMBINED/prompts/system-prompts/claude/
 #### Подфаза 2.6.2: Template Prompts
 ```bash
 # Prompts.chat (огромная библиотека)
-mv Prompts/prompts.chat/ COMBINED/prompts/templates/prompts-chat/
+mv Prompts/prompts.chat/ .claude/prompts/templates/prompts-chat/
 
 # Optimization prompts
-mv Prompts/optimization/ COMBINED/prompts/templates/optimization/
+mv Prompts/optimization/ .claude/prompts/templates/optimization/
 
 # Vibe Coding
-mv Prompts/vibe-coding/ COMBINED/prompts/templates/vibe-coding/
-mv Prompts/vibe-coding-prompt-template/ COMBINED/prompts/templates/vibe-coding-template/
+mv Prompts/vibe-coding/ .claude/prompts/templates/vibe-coding/
+mv Prompts/vibe-coding-prompt-template/ .claude/prompts/templates/vibe-coding-template/
 
 # Claude Skills templates - уже перемещено в 2.4.2
 ```
@@ -714,7 +714,7 @@ mv Prompts/vibe-coding-prompt-template/ COMBINED/prompts/templates/vibe-coding-t
 
 #### Подфаза 2.6.3: Leaked Prompts
 ```bash
-mv Prompts/system_prompts_leaks/ COMBINED/prompts/leaked/system_prompts_leaks/
+mv Prompts/system_prompts_leaks/ .claude/prompts/leaked/system_prompts_leaks/
 ```
 
 ---
@@ -723,7 +723,7 @@ mv Prompts/system_prompts_leaks/ COMBINED/prompts/leaked/system_prompts_leaks/
 ```bash
 # Shannon security prompts - уже перемещено в 2.2.1
 # Проверить:
-ls -la COMBINED/prompts/security/security-shannon/
+ls -la .claude/prompts/security/security-shannon/
 ```
 
 ---
@@ -733,16 +733,16 @@ ls -la COMBINED/prompts/security/security-shannon/
 
 ```bash
 # Claude-Mem
-mv COMBINED/memory/memory-claude-mem/ COMBINED/memory/claude-mem/
+mv .claude/memory/memory-claude-mem/ .claude/memory/claude-mem/
 
 # Supermemory
-mv Tools/supermemory/ COMBINED/memory/supermemory/
+mv Tools/supermemory/ .claude/memory/supermemory/
 
 # OpenViking
-mv COMBINED/mcp-servers/mcp-openviking/ COMBINED/memory/openviking/
+mv .claude/mcp-servers/mcp-openviking/ .claude/memory/openviking/
 
 # Memory configs
-mv MEMORY_SETUP.md COMBINED/memory/configs/MEMORY_SETUP.md
+mv MEMORY_SETUP.md .claude/memory/configs/MEMORY_SETUP.md
 
 # Everything Claude Code memory configs (если есть)
 # Уже в skills/development/everything-claude-code/
@@ -755,22 +755,22 @@ mv MEMORY_SETUP.md COMBINED/memory/configs/MEMORY_SETUP.md
 
 ```bash
 # GitNexus
-mv Tools/GitNexus/ COMBINED/mcp-servers/gitnexus/
+mv Tools/GitNexus/ .claude/mcp-servers/gitnexus/
 
 # Lightpanda browser
-mv COMBINED/mcp-servers/mcp-lightpanda/ COMBINED/mcp-servers/lightpanda/
+mv .claude/mcp-servers/mcp-lightpanda/ .claude/mcp-servers/lightpanda/
 
 # Nano Banana (Gemini image MCP)
-mv Tools/nano-banana-2-mcp/ COMBINED/mcp-servers/nano-banana/
+mv Tools/nano-banana-2-mcp/ .claude/mcp-servers/nano-banana/
 
 # Pretext
-mv COMBINED/mcp-servers/mcp-pretext/ COMBINED/mcp-servers/pretext/
+mv .claude/mcp-servers/mcp-pretext/ .claude/mcp-servers/pretext/
 
 # Hermes MCP - уже перемещено в 2.2.3
 
 # Plugin configs - уже перемещены в 2.3 и 2.4
 # Проверить:
-ls -la COMBINED/mcp-servers/configs/
+ls -la .claude/mcp-servers/configs/
 ```
 
 ---
@@ -780,17 +780,17 @@ ls -la COMBINED/mcp-servers/configs/
 
 ```bash
 # Galaxy (3,000+ components)
-mv UI-UX/galaxy/ COMBINED/ui-design/ui-components-galaxy/
+mv UI-UX/galaxy/ .claude/ui-design/ui-components-galaxy/
 
 # shadcn/ui
-mv COMBINED/ui-design/ui-components-shadcn/ COMBINED/ui-design/ui-components-shadcn/
+mv .claude/ui-design/ui-components-shadcn/ .claude/ui-design/ui-components-shadcn/
 
 # UI UX Pro Max (161 rules + 67 styles)
-mv UI-UX/ui-ux-pro-max-skill/ COMBINED/ui-design/ui-rules/ui-ux-pro-max/
+mv UI-UX/ui-ux-pro-max-skill/ .claude/ui-design/ui-rules/ui-ux-pro-max/
 
 # Cursor rules
-mv .cursorrules COMBINED/ui-design/ui-cursor-rules/root-cursorrules
-mv .cursor/rules/ COMBINED/ui-design/ui-cursor-rules/cursor-rules/
+mv .cursorrules .claude/ui-design/ui-cursor-rules/root-cursorrules
+mv .cursor/rules/ .claude/ui-design/ui-cursor-rules/cursor-rules/
 ```
 
 ---
@@ -800,7 +800,7 @@ mv .cursor/rules/ COMBINED/ui-design/ui-cursor-rules/cursor-rules/
 
 ```bash
 # Awesome Self-Hosted
-mv Reference/reference-selfhosted/ COMBINED/reference/reference-selfhosted/
+mv Reference/reference-selfhosted/ .claude/reference/reference-selfhosted/
 ```
 
 ---
@@ -810,12 +810,12 @@ mv Reference/reference-selfhosted/ COMBINED/reference/reference-selfhosted/
 
 **Задачи:**
 1. Создать финальный INDEX_MOVEMENTS.json со всеми перемещениями
-2. Создать COMBINED/INDEX.md с человекочитаемой картой
+2. Создать .claude/INDEX.md с человекочитаемой картой
 3. Создать INDEX.md для каждой категории:
-   - COMBINED/agents/INDEX.md
-   - COMBINED/skills/INDEX.md
-   - COMBINED/commands/INDEX.md
-   - COMBINED/orchestration/INDEX.md
+   - .claude/agents/INDEX.md
+   - .claude/skills/INDEX.md
+   - .claude/commands/INDEX.md
+   - .claude/orchestration/INDEX.md
 4. Подсчитать статистику перемещений
 
 ---
@@ -841,14 +841,14 @@ mv Reference/reference-selfhosted/ COMBINED/reference/reference-selfhosted/
 # Найти все файлы в исходных папках
 find Agents/ Orchestration/ Skills/ Prompts/ Tools/ UI-UX/ Reference/ -type f > /tmp/all_original_files.txt
 
-# Найти все файлы в COMBINED/
-find COMBINED/ -type f > /tmp/all_combined_files.txt
+# Найти все файлы в .claude/
+find .claude/ -type f > /tmp/all_combined_files.txt
 
 # Сравнить и найти разницу (с учётом переименования)
 # Это требует сравнения по содержимому или по записям в INDEX_MOVEMENTS.json
 ```
 
-**Результат:** Файл `COMBINED/LEFTOVERS.txt` со списком необработанных файлов
+**Результат:** Файл `.claude/LEFTOVERS.txt` со списком необработанных файлов
 
 ---
 
@@ -882,8 +882,8 @@ cat "$parent_dir/README.md"
 ```
 
 **Результат:**
-- `COMBINED/LEFTOVERS_CATEGORIZED.json` - категоризированный список
-- `COMBINED/LEFTOVERS_SKIPPED.txt` - список пропущенных (build artifacts, etc.)
+- `.claude/LEFTOVERS_CATEGORIZED.json` - категоризированный список
+- `.claude/LEFTOVERS_SKIPPED.txt` - список пропущенных (build artifacts, etc.)
 
 ---
 
@@ -901,13 +901,13 @@ cat "$parent_dir/README.md"
 **Пример:**
 ```bash
 # Если найден agent который не попал в миграцию:
-mv "$leftover_agent" COMBINED/agents/by-role/[role]/leftover-[name].md
+mv "$leftover_agent" .claude/agents/by-role/[role]/leftover-[name].md
 
 # Если найден skill:
-mv "$leftover_skill" COMBINED/skills/[category]/leftover-[name]/
+mv "$leftover_skill" .claude/skills/[category]/leftover-[name]/
 
 # Если найден config:
-mv "$leftover_config" COMBINED/[appropriate_category]/configs/
+mv "$leftover_config" .claude/[appropriate_category]/configs/
 ```
 
 ---
@@ -929,12 +929,12 @@ mv "$leftover_config" COMBINED/[appropriate_category]/configs/
 ```bash
 # Финальный подсчёт
 find Agents/ -type f | grep -v node_modules | grep -v ".git" | wc -l
-find COMBINED/ -type f | wc -l
+find .claude/ -type f | wc -l
 
 # Создать статистику
 python3 << EOF
 import json
-with open('COMBINED/INDEX_MOVEMENTS.json') as f:
+with open('.claude/INDEX_MOVEMENTS.json') as f:
     movements = json.load(f)
 
 print(f"Total files moved: {len(movements['moved'])}")
@@ -944,15 +944,15 @@ EOF
 ```
 
 **Результат:**
-- `COMBINED/MIGRATION_COMPLETE.md` - финальный отчёт
-- `COMBINED/STATISTICS.json` - статистика миграции
+- `.claude/MIGRATION_COMPLETE.md` - финальный отчёт
+- `.claude/STATISTICS.json` - статистика миграции
 
 ---
 
-## ЦЕЛЕВАЯ СТРУКТУРА COMBINED/
+## ЦЕЛЕВАЯ СТРУКТУРА .claude/
 
 ```
-COMBINED/
+.claude/
 │
 ├── agents/                          # ВСЕ определения агентов
 │   ├── by-role/                     # Сортировка по роли
@@ -1110,8 +1110,8 @@ COMBINED/
   "moved": [
     {
       "id": 1,
-      "source": "Agents/shannon/COMBINED/workspace-config/claude/commands/debug.md",
-      "destination": "COMBINED/commands/debug/shannon-debug.md",
+      "source": "Agents/shannon/.claude/workspace-config/claude/commands/debug.md",
+      "destination": ".claude/commands/debug/shannon-debug.md",
       "type": "command",
       "timestamp": "2026-04-02T10:30:00Z",
       "status": "completed"
@@ -1119,7 +1119,7 @@ COMBINED/
     {
       "id": 2,
       "source": "Agents/shannon/CLAUDE.md",
-      "destination": "COMBINED/agents/by-interface/claude/shannon-CLAUDE.md",
+      "destination": ".claude/agents/by-interface/claude/shannon-CLAUDE.md",
       "type": "config",
       "timestamp": "2026-04-02T10:31:00Z",
       "status": "completed"
@@ -1173,7 +1173,7 @@ COMBINED/
 - ✅ Понимание объёма работы
 
 ### По завершении ЭТАПА 2:
-- ✅ Все 35,000+ файлов перемещены в структуру COMBINED/
+- ✅ Все 35,000+ файлов перемещены в структуру .claude/
 - ✅ Оригинальный формат файлов сохранён
 - ✅ Агенты распределены по ролям
 - ✅ Skills распределены по категориям

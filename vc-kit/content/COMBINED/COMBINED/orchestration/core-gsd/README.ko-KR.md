@@ -744,7 +744,7 @@ GSD의 코드베이스 매핑 및 분석 명령어는 프로젝트를 이해하�
 
 **설치 후 명령어를 찾을 수 없나요?**
 - 런타임을 재시작해 명령어/스킬을 다시 로드하세요
-- `~/COMBINED/workspace-config/claude/commands/gsd/` (전역) 또는 `./COMBINED/workspace-config/claude/commands/gsd/` (로컬)에 파일이 있는지 확인하세요
+- `~/.claude/workspace-config/claude/commands/gsd/` (전역) 또는 `./.claude/workspace-config/claude/commands/gsd/` (로컬)에 파일이 있는지 확인하세요
 - Codex의 경우 `~/.codex/skills/gsd-*/SKILL.md` (전역) 또는 `./.codex/skills/gsd-*/SKILL.md` (로컬)에 스킬이 있는지 확인하세요
 
 **명령어가 예상대로 작동하지 않나요?**

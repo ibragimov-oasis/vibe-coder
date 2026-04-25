@@ -43,7 +43,7 @@ Use for: system design analysis, Architecture Decision Records (ADRs), trade-off
 ## 🔧 Analysis Tools
 - `uv run code-review-graph serve` — AST structural analysis, community detection, 8.2x token reduction
 - `npx -y gitnexus@latest map` — Codebase map and structure
-- Matt Pocock improve-codebase-architecture: `COMBINED/skills/skills-development/improve-codebase-architecture/`
+- Matt Pocock improve-codebase-architecture: `.claude/skills/skills-development/improve-codebase-architecture/`
 
 ## Full Agent Definition
-Read: `COMBINED/agents/mega/mega-architect.md`
+Read: `.claude/agents/mega/mega-architect.md`

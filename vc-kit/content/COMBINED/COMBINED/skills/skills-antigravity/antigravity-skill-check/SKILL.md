@@ -61,7 +61,7 @@ Return structured results: score, grade (Excellent/Good/Needs Work/Poor), issue 
 ### Example 1: Validating a skill
 
 ```
-User: check my skill at ~/COMBINED/workspace-config/claude/skills/weekly-report/SKILL.md
+User: check my skill at ~/.claude/workspace-config/claude/skills/weekly-report/SKILL.md
 
 SkillCheck output:
 ## weekly-report Check Results [FREE]
@@ -81,7 +81,7 @@ Score: 85/100 (Good)
 ### Example 2: Clean skill passes all checks
 
 ```
-User: skillcheck ~/COMBINED/workspace-config/claude/skills/processing-pdfs/SKILL.md
+User: skillcheck ~/.claude/workspace-config/claude/skills/processing-pdfs/SKILL.md
 
 Score: 100/100 (Excellent)
 All 31 checks passed. No issues found.

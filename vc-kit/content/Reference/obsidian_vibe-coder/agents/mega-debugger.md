@@ -5,7 +5,7 @@ tags:
   - artifact/mega-agent
   - agent/mega-debugger
   - status/active
-source: "../COMBINED/agents/mega/mega-debugger.md"
+source: "../.claude/agents/mega/mega-debugger.md"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -57,7 +57,7 @@ GSD + OMC + RuFlo + Superpowers + **code-review-graph (blast-radius)**
 
 ## Исходник
 
-> 📂 `../COMBINED/agents/mega/mega-debugger.md`
+> 📂 `../.claude/agents/mega/mega-debugger.md`
 
 ## 🔗 Связи
 

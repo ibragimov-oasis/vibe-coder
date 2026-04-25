@@ -14,15 +14,15 @@ This command activates **mega-designer** with the full design system stack.
 
 ```
 Level 1: Galaxy/Uiverse (3,000+ components)
-         COMBINED/ui-design/ui-components-galaxy/
+         .claude/ui-design/ui-components-galaxy/
          → Search here FIRST
 
 Level 2: shadcn/ui (accessible React components)
-         COMBINED/ui-design/ui-components-shadcn/
+         .claude/ui-design/ui-components-shadcn/
          → If Galaxy doesn't have what you need
 
 Level 3: UI/UX Pro Max (161 rules)
-         COMBINED/ui-design/ui-rules/ui-ux-pro-max/
+         .claude/ui-design/ui-rules/ui-ux-pro-max/
          → Apply these rules to EVERYTHING you create
 
 Level 4: Custom build
@@ -41,7 +41,7 @@ Level 4: Custom build
 ## Design system generator
 
 ```bash
-python3 COMBINED/ui-design/ui-rules/ui-ux-pro-max/claude/skills/ui-ux-pro-max/scripts/search.py "<keywords>" --design-system -p "<ProjectName>"
+python3 .claude/ui-design/ui-rules/ui-ux-pro-max/claude/skills/ui-ux-pro-max/scripts/search.py "<keywords>" --design-system -p "<ProjectName>"
 ```
 
 ## Use cases
@@ -71,9 +71,9 @@ mcp nano-banana generate "{description}"
 ## References
 
 - `.claude/agents/mega-designer.md` — full agent spec (314 lines)
-- `COMBINED/ui-design/ui-components-galaxy/` — 3,000+ components
-- `COMBINED/ui-design/ui-components-shadcn/` — accessible React components
-- `COMBINED/ui-design/ui-rules/ui-ux-pro-max/` — 161 rules + search CLI
+- `.claude/ui-design/ui-components-galaxy/` — 3,000+ components
+- `.claude/ui-design/ui-components-shadcn/` — accessible React components
+- `.claude/ui-design/ui-rules/ui-ux-pro-max/` — 161 rules + search CLI
 
 ## 🔗 Связи
 

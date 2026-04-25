@@ -837,35 +837,35 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 | .github/ | VISIBLE_github/ | GitHub workflows |
 | .env.example | VISIBLE_env.example | Custom hidden file/folder |
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|-----------------------|-----|
-| skills/public/data-analysis/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| backend/AGENTS.md | COMBINED/agents/by-role/deer-flow/ | Core agent files |
-| skills/public/surprise-me/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| skills/public/academic-paper-review/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| frontend/CLAUDE.md | COMBINED/prompts/system/ | System instructions |
-| skills/public/web-design-guidelines/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| skills/public/newsletter-generation/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| skills/public/frontend-design/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| skills/public/github-deep-research/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| README.md | COMBINED/REPO_DOCS/05-deer-flow/ | Documentation |
-| skills/public/consulting-analysis/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| skills/public/ppt-generation/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| skills/public/vercel-deploy-claimable/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| skills/public/bootstrap/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| skills/public/find-skills/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| skills/public/podcast-generation/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| skills/public/deep-research/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| skills/public/video-generation/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| skills/public/claude-to-deerflow/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| skills/public/image-generation/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| skills/public/skill-creator/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| frontend/AGENTS.md | COMBINED/agents/by-role/deer-flow/ | Core agent files |
-| skills/public/chart-visualization/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| skills/public/code-documentation/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
-| backend/CLAUDE.md | COMBINED/prompts/system/ | System instructions |
+| skills/public/data-analysis/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| backend/AGENTS.md | .claude/agents/by-role/deer-flow/ | Core agent files |
+| skills/public/surprise-me/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| skills/public/academic-paper-review/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| frontend/CLAUDE.md | .claude/prompts/system/ | System instructions |
+| skills/public/web-design-guidelines/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| skills/public/newsletter-generation/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| skills/public/frontend-design/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| skills/public/github-deep-research/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| README.md | .claude/REPO_DOCS/05-deer-flow/ | Documentation |
+| skills/public/consulting-analysis/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| skills/public/ppt-generation/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| skills/public/vercel-deploy-claimable/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| skills/public/bootstrap/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| skills/public/find-skills/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| skills/public/podcast-generation/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| skills/public/deep-research/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| skills/public/video-generation/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| skills/public/claude-to-deerflow/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| skills/public/image-generation/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| skills/public/skill-creator/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| frontend/AGENTS.md | .claude/agents/by-role/deer-flow/ | Core agent files |
+| skills/public/chart-visualization/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| skills/public/code-documentation/SKILL.md | .claude/skills/deer-flow/ | Agent skill definition |
+| backend/CLAUDE.md | .claude/prompts/system/ | System instructions |
 
 ## Key insights for Vibe-Coder integration
 

@@ -27,8 +27,8 @@ You are merged from:
 - UI/UX Pro Max (161 rules, 50+ styles, 161 palettes, 57 font pairings, 25 chart types, 10 stacks)
 - DeerFlow frontend design patterns (research-focused UI architecture)
 - Cursor design rules (IDE-compatible styling guidelines)
-- **Impeccable** (18 design commands + anti-pattern detector — fights AI slop: gray text, Inter font, purple gradients, nested cards, placeholder content) → `COMBINED/ui-design/ui-impeccable/`
-- **Taste-skill** (7 premium frontend design skills with 3-dial parameterization: DESIGN_VARIANCE, MOTION_INTENSITY, VISUAL_DENSITY) → `COMBINED/skills/skills-design/taste-skill/`
+- **Impeccable** (18 design commands + anti-pattern detector — fights AI slop: gray text, Inter font, purple gradients, nested cards, placeholder content) → `.claude/ui-design/ui-impeccable/`
+- **Taste-skill** (7 premium frontend design skills with 3-dial parameterization: DESIGN_VARIANCE, MOTION_INTENSITY, VISUAL_DENSITY) → `.claude/skills/skills-design/taste-skill/`
   - taste-skill: main premium design (layout, typography, colors, spacing, motion)
   - redesign-skill: audit + fix existing projects
   - soft-skill: expensive soft UI look (premium fonts, whitespace, depth, spring animations)
@@ -70,7 +70,7 @@ These four principles (from Andrej Karpathy) govern how this agent works:
 ## MANDATORY COMPONENT SEARCH ORDER
 
 ### Level 1: Galaxy / Uiverse (3,000+ Components)
-**Location**: `COMBINED/ui-design/ui-components-galaxy/`
+**Location**: `.claude/ui-design/ui-components-galaxy/`
 
 Search here FIRST for any UI component need. Available categories:
 | Category | Path | Contents |
@@ -90,7 +90,7 @@ Search here FIRST for any UI component need. Available categories:
 **How to use**: Copy the HTML/CSS directly. These are ready-to-use, minimal dependencies.
 
 ### Level 2: shadcn/ui
-**Location**: `COMBINED/ui-design/ui-components-shadcn/`
+**Location**: `.claude/ui-design/ui-components-shadcn/`
 
 If Galaxy doesn't have what you need, use shadcn/ui:
 - Built on Radix UI primitives (accessible by default)
@@ -100,15 +100,15 @@ If Galaxy doesn't have what you need, use shadcn/ui:
 - Theming via CSS variables
 
 ### Level 3: UI/UX Pro Max Rules
-**Location**: `COMBINED/ui-design/ui-rules/ui-ux-pro-max/`
+**Location**: `.claude/ui-design/ui-rules/ui-ux-pro-max/`
 
 Apply these 161 rules to EVERYTHING you create. Use the search CLI:
 ```bash
 # Generate complete design system for a project
-python3 COMBINED/ui-design/ui-rules/ui-ux-pro-max/claude/skills/ui-ux-pro-max/scripts/search.py "<keywords>" --design-system -p "<ProjectName>"
+python3 .claude/ui-design/ui-rules/ui-ux-pro-max/claude/skills/ui-ux-pro-max/scripts/search.py "<keywords>" --design-system -p "<ProjectName>"
 
 # Search specific design domains
-python3 COMBINED/ui-design/ui-rules/ui-ux-pro-max/claude/skills/ui-ux-pro-max/scripts/search.py "<keyword>" --domain <domain>
+python3 .claude/ui-design/ui-rules/ui-ux-pro-max/claude/skills/ui-ux-pro-max/scripts/search.py "<keyword>" --domain <domain>
 ```
 
 Available domains: `product`, `style`, `color`, `typography`, `landing`, `chart`, `ux`, `google-fonts`, `react`, `web`, `prompt`
@@ -227,7 +227,7 @@ Only if Levels 1-3 have NOTHING suitable. Document why you went custom.
 1. **Analyze requirements**: product type, audience, platform, style keywords
 2. **Generate design system**:
    ```bash
-   python3 COMBINED/ui-design/ui-rules/ui-ux-pro-max/claude/skills/ui-ux-pro-max/scripts/search.py "<keywords>" --design-system -p "<ProjectName>"
+   python3 .claude/ui-design/ui-rules/ui-ux-pro-max/claude/skills/ui-ux-pro-max/scripts/search.py "<keywords>" --design-system -p "<ProjectName>"
    ```
 3. **Search Galaxy** for existing components matching the design system
 4. **Build layout**: semantic HTML, CSS Grid/Flexbox, responsive breakpoints
@@ -293,12 +293,12 @@ mcp lightpanda screenshot "verify-<page>.png"
 ### Design System Search
 ```bash
 # Full design system
-python3 COMBINED/ui-design/ui-rules/ui-ux-pro-max/claude/skills/ui-ux-pro-max/scripts/search.py "<keywords>" --design-system
+python3 .claude/ui-design/ui-rules/ui-ux-pro-max/claude/skills/ui-ux-pro-max/scripts/search.py "<keywords>" --design-system
 
 # Specific domain
-python3 COMBINED/ui-design/ui-rules/ui-ux-pro-max/claude/skills/ui-ux-pro-max/scripts/search.py "<keyword>" --domain color
-python3 COMBINED/ui-design/ui-rules/ui-ux-pro-max/claude/skills/ui-ux-pro-max/scripts/search.py "<keyword>" --domain typography
-python3 COMBINED/ui-design/ui-rules/ui-ux-pro-max/claude/skills/ui-ux-pro-max/scripts/search.py "<keyword>" --domain style
+python3 .claude/ui-design/ui-rules/ui-ux-pro-max/claude/skills/ui-ux-pro-max/scripts/search.py "<keyword>" --domain color
+python3 .claude/ui-design/ui-rules/ui-ux-pro-max/claude/skills/ui-ux-pro-max/scripts/search.py "<keyword>" --domain typography
+python3 .claude/ui-design/ui-rules/ui-ux-pro-max/claude/skills/ui-ux-pro-max/scripts/search.py "<keyword>" --domain style
 ```
 </tools>
 

@@ -26,8 +26,8 @@ Run this checklist when ANY of the following files change:
 | `.claude/settings.json` (MCP servers added/removed) | `INTERFACE_MATRIX.md` + `AUDIT_MATRIX.md` + `.cursor/mcp.json` (check parity) |
 | `.cursor/mcp.json` (MCP servers added/removed) | `INTERFACE_MATRIX.md` + `AUDIT_MATRIX.md` + `.claude/settings.json` |
 | `CORE.md` | All 6 interface configs (verify they reference CORE.md) |
-| New mega-agent added to `COMBINED/agents/mega/` | `AGENTS.md` + `CAPABILITIES.md` + `INTERFACE_MATRIX.md` + All 6 interface configs |
-| New skill category added to `COMBINED/skills/` | `COMBINED/skills/INDEX.md` (portability table) |
+| New mega-agent added to `.claude/agents/mega/` | `AGENTS.md` + `CAPABILITIES.md` + `INTERFACE_MATRIX.md` + All 6 interface configs |
+| New skill category added to `.claude/skills/` | `.claude/skills/INDEX.md` (portability table) |
 
 ---
 

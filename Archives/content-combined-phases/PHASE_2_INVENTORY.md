@@ -20,9 +20,9 @@ This inventory provides a complete snapshot of the vibe-coder repository before 
 ### Key Statistics
 - **Total Repositories:** 31 (across 7 categories)
 - **Total Source Files:** 12,533 files
-- **COMBINED/ Files:** 39,128 files (from Phase 1 MOVE operation)
-- **COMBINED/ Directories:** 8,229 directories
-- **Files Remaining to Process:** ~12,533 files (source) to verify against COMBINED/
+- **.claude/ Files:** 39,128 files (from Phase 1 MOVE operation)
+- **.claude/ Directories:** 8,229 directories
+- **Files Remaining to Process:** ~12,533 files (source) to verify against .claude/
 
 ---
 
@@ -106,11 +106,11 @@ This inventory provides a complete snapshot of the vibe-coder repository before 
 ### 2.5 Tools/ (7 repositories)
 ```
 1. Tools/GitNexus/                     # Codebase knowledge graph
-2. COMBINED/mcp-servers/mcp-openviking/                   # ByteDance context DB
-3. COMBINED/mcp-servers/mcp-lightpanda/                      # Lightpanda browser (9x faster)
-4. COMBINED/memory/memory-claude-mem/                   # Persistent memory compression
+2. .claude/mcp-servers/mcp-openviking/                   # ByteDance context DB
+3. .claude/mcp-servers/mcp-lightpanda/                      # Lightpanda browser (9x faster)
+4. .claude/memory/memory-claude-mem/                   # Persistent memory compression
 5. Tools/nano-banana-2-mcp/            # Gemini image MCP
-6. COMBINED/mcp-servers/mcp-pretext/                      # Text layout
+6. .claude/mcp-servers/mcp-pretext/                      # Text layout
 7. Tools/supermemory/                  # #1 benchmark memory engine
 ```
 
@@ -122,7 +122,7 @@ This inventory provides a complete snapshot of the vibe-coder repository before 
 ### 2.6 UI-UX/ (3 repositories)
 ```
 1. UI-UX/galaxy/                       # 3,000+ Uiverse components
-2. COMBINED/ui-design/ui-components-shadcn/                           # shadcn/ui React components
+2. .claude/ui-design/ui-components-shadcn/                           # shadcn/ui React components
 3. UI-UX/ui-ux-pro-max-skill/          # 161 rules + 67 styles
 ```
 
@@ -144,11 +144,11 @@ This inventory provides a complete snapshot of the vibe-coder repository before 
 
 ---
 
-## 3. COMBINED/ DIRECTORY STATUS
+## 3. .claude/ DIRECTORY STATUS
 
 ### 3.1 Current Structure
 ```
-COMBINED/
+.claude/
 ├── agents/              # Agent definitions
 ├── mcp-servers/         # MCP server implementations
 ├── memory/              # Memory systems
@@ -159,18 +159,18 @@ COMBINED/
 └── ui-design/           # UI/UX resources
 ```
 
-### 3.2 COMBINED/ Statistics
+### 3.2 .claude/ Statistics
 - **Total Files:** 39,128 files
 - **Total Directories:** 8,229 directories
 - **Status:** ✅ Phase 1 MOVE operation completed
 
 ### 3.3 Existing Index Files
-- ✅ `COMBINED/INDEX.md` (35,921 bytes)
-- ✅ `COMBINED/INDEX_MOVEMENTS.json` (10,661,491 bytes = ~10.6 MB)
-- ✅ `COMBINED/PHASE_1_SUMMARY.md` (3,938 bytes)
-- ✅ `COMBINED/READ.ME.md` (29,101 bytes)
-- ✅ `COMBINED/REPORT_RU.md` (8,281 bytes)
-- ✅ `COMBINED/SUPER-INDEX.md` (2,091,256 bytes = ~2 MB)
+- ✅ `.claude/INDEX.md` (35,921 bytes)
+- ✅ `.claude/INDEX_MOVEMENTS.json` (10,661,491 bytes = ~10.6 MB)
+- ✅ `.claude/PHASE_1_SUMMARY.md` (3,938 bytes)
+- ✅ `.claude/READ.ME.md` (29,101 bytes)
+- ✅ `.claude/REPORT_RU.md` (8,281 bytes)
+- ✅ `.claude/SUPER-INDEX.md` (2,091,256 bytes = ~2 MB)
 
 ---
 
@@ -197,7 +197,7 @@ Reference/               # 1 repository, 1 file
 
 ### 4.3 Combined/Output Directories
 ```
-COMBINED/                # Phase 1 output (39,128 files)
+.claude/                # Phase 1 output (39,128 files)
 _combined/               # Legacy combined directory
 ```
 
@@ -268,15 +268,15 @@ vibe-coder_build.py
 - ✅ No missing repositories
 - ✅ All categories populated
 
-### 6.2 COMBINED/ Status
-- ✅ COMBINED/ directory exists
+### 6.2 .claude/ Status
+- ✅ .claude/ directory exists
 - ✅ Phase 1 MOVE operation completed (39,128 files)
 - ✅ INDEX files present and valid
 - ✅ 8 top-level categories created
 
 ### 6.3 File Integrity
 - ✅ Total source files: 12,533
-- ✅ COMBINED/ files: 39,128 (includes moved files from Phase 1)
+- ✅ .claude/ files: 39,128 (includes moved files from Phase 1)
 - ✅ No empty categories
 - ✅ All file counts verified
 
@@ -288,18 +288,18 @@ vibe-coder_build.py
 - Scan `Agents/shannon/`
 - Scan `Agents/background-agents/`
 - Scan `Agents/hermes-agent/`
-- Create `COMBINED/agents_analysis.json`
+- Create `.claude/agents_analysis.json`
 
 ### Phase 1.3: Analyze Orchestration/ Category (~1 hour)
 - Scan all 7 orchestration repositories
 - Identify agent roles
-- Create `COMBINED/orchestration_analysis.json`
+- Create `.claude/orchestration_analysis.json`
 
 ### Phase 1.4: Analyze Skills/ Category (~2 hours)
 - Scan 1,340+ Antigravity skills
 - Scan 205 Claude skills
 - Scan 230+ Copilot agents
-- Create `COMBINED/skills_analysis.json`
+- Create `.claude/skills_analysis.json`
 
 ### Phase 1.5: Analyze Prompts/, Tools/, UI-UX/, Reference/ (~1.5 hours)
 - Scan all remaining categories
@@ -307,8 +307,8 @@ vibe-coder_build.py
 
 ### Phase 1.6: Create Master Index (~30 minutes)
 - Combine all *_analysis.json files
-- Create `COMBINED/MASTER_INDEX.json`
-- Create `COMBINED/MIGRATION_MAP.json`
+- Create `.claude/MASTER_INDEX.json`
+- Create `.claude/MIGRATION_MAP.json`
 
 ---
 
@@ -319,14 +319,14 @@ According to repository memory and INDEX_MOVEMENTS.json:
 - **Phase 1 Status:** COMPLETED
 - **Operation:** MOVE (not copy)
 - **Files Migrated:** 39,122 files from 31 repositories
-- **Result:** 10 categories in COMBINED/ structure
+- **Result:** 10 categories in .claude/ structure
 - **Leftovers:** 9,450 files identified for Phase 3
 
 ### 8.2 Important Observations
 1. Phase 1 used MOVE operation (files were moved, not copied)
 2. The source directories still contain 12,533 files (may include build artifacts, configs, etc.)
-3. COMBINED/ now has 39,128 files (slightly different from Phase 1 summary of 39,122)
-4. Need to verify what remains in source directories vs. what's in COMBINED/
+3. .claude/ now has 39,128 files (slightly different from Phase 1 summary of 39,122)
+4. Need to verify what remains in source directories vs. what's in .claude/
 
 ### 8.3 Repository Quality
 - ✅ Well-organized root structure
@@ -354,7 +354,7 @@ According to repository memory and INDEX_MOVEMENTS.json:
 ### 9.3 Quality Assurance
 - Cross-check file counts with Phase 1 summary
 - Verify no data loss during Phase 1 MOVE operation
-- Ensure all critical files are in COMBINED/
+- Ensure all critical files are in .claude/
 - Document any discrepancies
 
 ---
@@ -366,7 +366,7 @@ According to repository memory and INDEX_MOVEMENTS.json:
 **Key Achievements:**
 - ✅ Verified all 31 repositories present
 - ✅ Counted files per category (12,533 total)
-- ✅ Assessed COMBINED/ status (39,128 files, 8,229 directories)
+- ✅ Assessed .claude/ status (39,128 files, 8,229 directories)
 - ✅ Created comprehensive inventory
 - ✅ Identified next steps for Phase 1.2-1.6
 

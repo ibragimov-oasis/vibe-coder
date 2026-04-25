@@ -11,12 +11,12 @@ aliases:
   - enterprise orchestration agents
 created: 2026-04-18
 type: agents-deepdive
-source: "../COMBINED/orchestration/core-ruflo/"
+source: "../.claude/orchestration/core-ruflo/"
 ---
 
 # 🏭 RuFlo Core Roles — Agents Deep-Dive
 
-> **Источник:** `../COMBINED/orchestration/core-ruflo/`
+> **Источник:** `../.claude/orchestration/core-ruflo/`
 > **Репозиторий:** RuFlo (29k⭐) — Enterprise agent orchestration
 > **Агентов:** 80+ (самая большая категория)
 > **Мета-агент:** [[agents/mega-infrastructure]]

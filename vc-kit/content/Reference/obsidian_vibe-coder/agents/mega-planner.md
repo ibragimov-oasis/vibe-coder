@@ -5,7 +5,7 @@ tags:
   - artifact/mega-agent
   - agent/mega-planner
   - status/active
-source: "../COMBINED/agents/mega/mega-planner.md"
+source: "../.claude/agents/mega/mega-planner.md"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -58,7 +58,7 @@ Phase 5: Polish       — чистка, документация
 
 ## Исходник
 
-> 📂 `../COMBINED/agents/mega/mega-planner.md`
+> 📂 `../.claude/agents/mega/mega-planner.md`
 
 ## 🔗 Связи
 

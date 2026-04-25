@@ -9,7 +9,7 @@ tags:
 
 ## 사용 가능한 에이전트
 
-`~/COMBINED/workspace-config/claude/agents/`에 위치:
+`~/.claude/workspace-config/claude/agents/`에 위치:
 
 | 에이전트 | 용도 | 사용 시점 |
 |---------|------|----------|

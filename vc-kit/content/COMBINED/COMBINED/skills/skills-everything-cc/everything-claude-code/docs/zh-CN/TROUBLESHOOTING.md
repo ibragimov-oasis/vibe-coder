@@ -115,7 +115,7 @@ ls ~/.claude/plugins/cache/
 ls ~/.claude/plugins/cache/*/agents/
 
 # For manual install, agents should be in:
-ls ~/COMBINED/workspace-config/claude/agents/  # Custom agents only
+ls ~/.claude/workspace-config/claude/agents/  # Custom agents only
 
 # Reload plugin
 # Claude Code → Settings → Extensions → Reload

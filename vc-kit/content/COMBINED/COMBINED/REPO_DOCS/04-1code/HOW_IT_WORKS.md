@@ -637,14 +637,14 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 | .env.example | VISIBLE_env.example | Custom hidden file/folder |
 | .gitignore | VISIBLE_gitignore | Git ignore rules |
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|-----------------------|-----|
-| openspec/AGENTS.md | COMBINED/agents/by-role/1code/ | Core agent files |
-| AGENTS.md | COMBINED/agents/by-role/1code/ | Core agent files |
-| README.md | COMBINED/REPO_DOCS/04-1code/ | Documentation |
-| CLAUDE.md | COMBINED/prompts/system/ | System instructions |
+| openspec/AGENTS.md | .claude/agents/by-role/1code/ | Core agent files |
+| AGENTS.md | .claude/agents/by-role/1code/ | Core agent files |
+| README.md | .claude/REPO_DOCS/04-1code/ | Documentation |
+| CLAUDE.md | .claude/prompts/system/ | System instructions |
 
 ## Key insights for Vibe-Coder integration
 

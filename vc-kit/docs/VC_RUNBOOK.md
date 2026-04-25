@@ -49,12 +49,12 @@ Manual (if hooks not firing):
   3. Assess prompt quality → refine if vague
   4. Route to mega-agent (decision tree in PIPELINE_TRIGGER.md)
   5. mcp gitnexus map → mcp openviking read
-  6. Read selected agent file: COMBINED/agents/mega/<agent>.md
+  6. Read selected agent file: .claude/agents/mega/<agent>.md
   7. Execute with Karpathy principles
 
 Post-task (auto via TaskCompleted hook, or manual):
   A. Shannon check (mcp lightpanda + code-review-graph blast-radius)
-  B. Hermes: mcp supermemory add + create COMBINED/skills/{domain}/SKILL.md
+  B. Hermes: mcp supermemory add + create .claude/skills/{domain}/SKILL.md
   C. bash obsidian-update.sh --title "..." --content "..." --tags "..."
   D. Quality report displayed
 
@@ -79,7 +79,7 @@ Manual (no hooks — must execute consciously):
   IF complex task (2+ of: UI, logic, data, security, tests):
     → ACTIVATE SQUAD (see ⚙️ ORCHESTRATOR AUTO-TRIGGER section)
     Cast agents: planner → researcher → designer → coder → tester → security → reviewer
-    Source: COMBINED/orchestration/core-squad/
+    Source: .claude/orchestration/core-squad/
 
   IF GitHub-native task (PR review, issue triage, code suggestion):
     → Use native Copilot capabilities + skills-copilot/ (486 skills)
@@ -96,7 +96,7 @@ Post-task (manual checklist in copilot-instructions.md):
      ✅ Tests:    [status]
 
 Unique strengths to use:
-  - Squad: native agent team casting (COMBINED/orchestration/core-squad/)
+  - Squad: native agent team casting (.claude/orchestration/core-squad/)
   - GitHub: PR creation, issue management, code suggestions
   - skills-copilot/: 486 specialized Copilot skills
 ```
@@ -289,7 +289,7 @@ Unique strengths to use:
 | `REALITY_TEST.md` | Execution trace validation | After config changes |
 | `INTERFACE_MATRIX.md` | What works in which interface | Cross-interface work |
 | `MEMORY.md` | 3-layer memory architecture | Memory debugging |
-| `COMBINED/prompts/prompts-templates/audit-and-reconstruct.md` | Full audit prompt template | When auditing configs |
+| `.claude/prompts/prompts-templates/audit-and-reconstruct.md` | Full audit prompt template | When auditing configs |
 
 ---
 

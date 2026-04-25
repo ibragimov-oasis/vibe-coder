@@ -17,7 +17,7 @@ tags:
 
 ```bash
 # Clone the repo
-git clone https://github.com/mvanhorn/last30days-skill.git ~/COMBINED/workspace-config/claude/skills/last30days
+git clone https://github.com/mvanhorn/last30days-skill.git ~/.claude/workspace-config/claude/skills/last30days
 
 # Add your API keys
 mkdir -p ~/.config/last30days

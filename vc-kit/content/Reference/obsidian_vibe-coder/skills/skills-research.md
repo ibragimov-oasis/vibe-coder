@@ -12,12 +12,12 @@ aliases:
   - research skills
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-research/"
+source: "../.claude/skills/skills-research/"
 ---
 
 # Skills: Research (DeerFlow)
 
-> **Источник:** `../COMBINED/skills/skills-research/`
+> **Источник:** `../.claude/skills/skills-research/`
 
 ## О чём
 

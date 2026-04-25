@@ -34,5 +34,5 @@ Identify what code paths are affected by the changes.
 ═══════════════════════════════════
 ```
 
-Full methodology: `COMBINED/security/security-shannon/SHANNON-PRO.md`
-Full agent: `COMBINED/agents/mega/mega-security.md`
+Full methodology: `.claude/security/security-shannon/SHANNON-PRO.md`
+Full agent: `.claude/agents/mega/mega-security.md`

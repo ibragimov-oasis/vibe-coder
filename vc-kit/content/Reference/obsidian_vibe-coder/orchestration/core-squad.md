@@ -11,12 +11,12 @@ aliases:
   - agent casting
 created: 2026-04-18
 type: system-note
-source: "../COMBINED/orchestration/core-squad/"
+source: "../.claude/orchestration/core-squad/"
 ---
 
 # Orchestration: Squad (Copilot Teams)
 
-> **Источник:** `../COMBINED/orchestration/core-squad/`
+> **Источник:** `../.claude/orchestration/core-squad/`
 > **Нативно:** GitHub Copilot
 
 ## Описание

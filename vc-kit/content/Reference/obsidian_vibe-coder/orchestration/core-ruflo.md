@@ -10,12 +10,12 @@ aliases:
   - ruflo orchestration
 created: 2026-04-18
 type: system-note
-source: "../COMBINED/orchestration/core-ruflo/"
+source: "../.claude/orchestration/core-ruflo/"
 ---
 
 # Orchestration: RuFlo
 
-> **Источник:** `../COMBINED/orchestration/core-ruflo/`
+> **Источник:** `../.claude/orchestration/core-ruflo/`
 > **Stars:** 29k⭐
 
 ## Описание
@@ -27,7 +27,7 @@ Enterprise-оркестрация агентов с Q-Learning Router. 80+ сп�
 - **Q-Learning Router** — умная маршрутизация задач к агентам
 - **80+ агентов** — роли от `core-coder` до `security-auditor`
 - **Enterprise-паттерны** — надёжность, логирование, fallback
-- **Skills библиотека** — `COMBINED/skills/skills-ruflo/`
+- **Skills библиотека** — `.claude/skills/skills-ruflo/`
 
 ## Когда использовать
 

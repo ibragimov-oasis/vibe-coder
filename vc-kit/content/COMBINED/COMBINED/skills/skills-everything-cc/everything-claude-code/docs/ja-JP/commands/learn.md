@@ -40,7 +40,7 @@ tags:
 
 ## 出力形式
 
-`~/COMBINED/workspace-config/claude/skills/learned/[パターン名].md` にスキルファイルを作成します:
+`~/.claude/workspace-config/claude/skills/learned/[パターン名].md` にスキルファイルを作成します:
 
 ```markdown
 # [説明的なパターン名]
@@ -67,7 +67,7 @@ tags:
 2. 最も価値がある/再利用可能な洞察を特定
 3. スキルファイルを下書き
 4. 保存前にユーザーに確認を求める
-5. `~/COMBINED/workspace-config/claude/skills/learned/` に保存
+5. `~/.claude/workspace-config/claude/skills/learned/` に保存
 
 ## 注意事項
 

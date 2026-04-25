@@ -45,7 +45,7 @@ Install via symlinks to make the skill available everywhere:
 ln -sf "$(pwd)/.github/skills/skill-creator" ~/.copilot/skills/skill-creator
 
 # For Claude Code
-ln -sf "$(pwd)/COMBINED/workspace-config/claude/skills/skill-creator" ~/COMBINED/workspace-config/claude/skills/skill-creator
+ln -sf "$(pwd)/.claude/workspace-config/claude/skills/skill-creator" ~/.claude/workspace-config/claude/skills/skill-creator
 ```
 
 **Benefits of global installation:**

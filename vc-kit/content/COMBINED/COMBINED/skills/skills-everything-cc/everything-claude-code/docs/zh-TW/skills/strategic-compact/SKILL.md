@@ -42,7 +42,7 @@ tags:
       "matcher": "tool == \"Edit\" || tool == \"Write\"",
       "hooks": [{
         "type": "command",
-        "command": "~/COMBINED/workspace-config/claude/skills/strategic-compact/suggest-compact.sh"
+        "command": "~/.claude/workspace-config/claude/skills/strategic-compact/suggest-compact.sh"
       }]
     }]
   }

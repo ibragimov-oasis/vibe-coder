@@ -9,12 +9,12 @@ aliases:
   - coder agents
 created: 2026-04-18
 type: agents-role
-source: "../COMBINED/agents/by-role/coder/"
+source: "../.claude/agents/by-role/coder/"
 ---
 
 # Agents By Role: Coder (17)
 
-> **Источник:** `../COMBINED/agents/by-role/coder/`
+> **Источник:** `../.claude/agents/by-role/coder/`
 > **Количество:** 17 агентов
 
 ## Агенты

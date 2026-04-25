@@ -16,7 +16,7 @@ tags:
 ## ⚡ TL;DR - What You Need to Know
 
 **What's Done:**
-- ✅ 44,966 files organized into COMBINED/
+- ✅ 44,966 files organized into .claude/
 - ✅ All 31 repositories processed
 - ✅ Clear structure with comprehensive indices
 
@@ -54,19 +54,19 @@ tags:
 git checkout -b phase-4-mega-agents
 
 # Create directory
-mkdir -p COMBINED/agents/mega
+mkdir -p .claude/agents/mega
 
 # Read the full plan
-cat COMBINED/PHASE_4_PLAN.md
+cat .claude/PHASE_4_PLAN.md
 ```
 
 #### 2. Start with First Mega-Agent: Debugger (3-4 hours)
 
 **Find all debugger implementations:**
 ```bash
-find COMBINED/agents -type f -name "*debug*"
-find COMBINED/skills -type f -name "*debug*"
-grep -r "debugger" COMBINED/agents/ --include="*.md" --include="*.yaml" | head -20
+find .claude/agents -type f -name "*debug*"
+find .claude/skills -type f -name "*debug*"
+grep -r "debugger" .claude/agents/ --include="*.md" --include="*.yaml" | head -20
 ```
 
 **Read each implementation:**
@@ -77,7 +77,7 @@ grep -r "debugger" COMBINED/agents/ --include="*.md" --include="*.yaml" | head -
 **Create mega-debugger.md:**
 ```bash
 # Use template from PHASE_4_PLAN.md
-nano COMBINED/agents/mega/mega-debugger.md
+nano .claude/agents/mega/mega-debugger.md
 ```
 
 **Template structure:**
@@ -164,7 +164,7 @@ Work through in this order (hardest first):
 | TDD debugging | mega-debugger | Superpowers | path/to/file |
 ```
 
-**Update COMBINED/agents/INDEX.md:**
+**Update .claude/agents/INDEX.md:**
 Add new section at top:
 ```markdown
 ## 🌟 Mega-Agents (Unified Implementations)
@@ -201,7 +201,7 @@ Add to top of each original agent:
 
 **Commit:**
 ```bash
-git add COMBINED/agents/mega/
+git add .claude/agents/mega/
 git commit -m "feat(agents): create 10 unified mega-agents
 
 - Merged debugger from 5 repos (GSD, Superpowers, OMC, Ruflo, CS)
@@ -238,9 +238,9 @@ Run comprehensive quality audit on all 44,966 files, fix issues, achieve quality
 #### 1. Setup (10 minutes)
 ```bash
 git checkout -b phase-5-audit
-mkdir -p COMBINED/audit/scripts
-mkdir -p COMBINED/audit/data
-cat COMBINED/PHASE_5_PLAN.md
+mkdir -p .claude/audit/scripts
+mkdir -p .claude/audit/data
+cat .claude/PHASE_5_PLAN.md
 ```
 
 #### 2. File Integrity Check (2 hours)
@@ -252,10 +252,10 @@ find COMBINED -type f | wc -l  # Should be ~44,966
 find COMBINED -type f -size 0
 
 # Verify structure
-ls -la COMBINED/
+ls -la .claude/
 
 # Document results
-nano COMBINED/audit/FILE_INTEGRITY_REPORT.md
+nano .claude/audit/FILE_INTEGRITY_REPORT.md
 ```
 
 #### 3. Link Validation (4-6 hours)
@@ -291,7 +291,7 @@ if __name__ == '__main__':
 
 **Run and fix:**
 ```bash
-python3 COMBINED/audit/scripts/check_links.py
+python3 .claude/audit/scripts/check_links.py
 # Fix broken links
 # Document in BROKEN_LINKS_REPORT.md
 ```
@@ -324,7 +324,7 @@ def validate_skill(skill_file):
 
 **Run and fix:**
 ```bash
-python3 COMBINED/audit/scripts/validate_frontmatter.py
+python3 .claude/audit/scripts/validate_frontmatter.py
 # Fix invalid frontmatter
 # Document in FRONTMATTER_VALIDATION_REPORT.md
 ```
@@ -347,7 +347,7 @@ Target: ≥ 95/100
 
 **Commit:**
 ```bash
-git add COMBINED/audit/
+git add .claude/audit/
 git commit -m "feat(audit): complete Phase 5 quality audit
 
 - Verified all 44,966 files present
@@ -475,7 +475,7 @@ Phase 6 assumes mega-agents exist and quality is verified.
 **Solution:** Use find and grep:
 ```bash
 find COMBINED -name "*debugger*"
-grep -r "debugger" COMBINED/agents/
+grep -r "debugger" .claude/agents/
 ```
 
 ### "The structure doesn't match the plan"
@@ -523,7 +523,7 @@ grep -r "debugger" COMBINED/agents/
 
 **Before Phase 4:**
 - PHASE_4_PLAN.md (20 min)
-- COMBINED/agents/INDEX.md (10 min)
+- .claude/agents/INDEX.md (10 min)
 - 2-3 example agent files (30 min)
 
 **Before Phase 5:**
@@ -544,24 +544,24 @@ grep -r "debugger" COMBINED/agents/
 **Phase 4:**
 ```bash
 git checkout -b phase-4-mega-agents
-mkdir -p COMBINED/agents/mega
-cat COMBINED/PHASE_4_PLAN.md
+mkdir -p .claude/agents/mega
+cat .claude/PHASE_4_PLAN.md
 # Start with debugger...
 ```
 
 **Phase 5:**
 ```bash
 git checkout -b phase-5-audit
-mkdir -p COMBINED/audit/{scripts,data}
-cat COMBINED/PHASE_5_PLAN.md
+mkdir -p .claude/audit/{scripts,data}
+cat .claude/PHASE_5_PLAN.md
 # Create first audit script...
 ```
 
 **Phase 6:**
 ```bash
 git checkout -b phase-6-orchestration
-mkdir -p COMBINED/{config,workflows,docs}
-cat COMBINED/PHASE_6_PLAN.md
+mkdir -p .claude/{config,workflows,docs}
+cat .claude/PHASE_6_PLAN.md
 # Start workflow mapping...
 ```
 

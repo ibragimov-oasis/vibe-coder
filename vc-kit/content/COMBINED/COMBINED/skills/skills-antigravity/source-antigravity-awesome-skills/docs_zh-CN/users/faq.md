@@ -130,7 +130,7 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skill
 
 **特定于工具的路径：**
 
-- Claude Code: `COMBINED/workspace-config/claude/skills/`
+- Claude Code: `.claude/workspace-config/claude/skills/`
 - Gemini CLI: `.gemini/skills/`
 - Codex CLI: `.codex/skills/`
 - Cursor: `.cursor/skills/` 或项目根目录

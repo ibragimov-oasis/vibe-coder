@@ -37,7 +37,7 @@ ORCHESTRATION.md сравнивает ключевые 5 оркестрацио�
 
 - [[MOC - Orchestration]] — родительский хаб (23 системы)
 - [[root-docs/PIPELINE]] — как системы используются в pipeline
-- [[combined/Orchestration Overview]] — COMBINED/orchestration детали
+- [[combined/Orchestration Overview]] — .claude/orchestration детали
 
 ## Исходник
 

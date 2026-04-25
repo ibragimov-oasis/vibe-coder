@@ -11,12 +11,12 @@ aliases:
   - stitch skills
 created: 2026-04-18
 type: ui-note
-source: "../COMBINED/ui-design/ui-stitch-skills/"
+source: "../.claude/ui-design/ui-stitch-skills/"
 ---
 
 # UI Design: Stitch (Google Stitch)
 
-> **Источник:** `../COMBINED/ui-design/ui-stitch-skills/`
+> **Источник:** `../.claude/ui-design/ui-stitch-skills/`
 > **Rule #3:** Stitch — пятый в иерархии дизайна Vibe-Coder.
 
 ## О чём

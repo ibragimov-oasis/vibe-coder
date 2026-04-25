@@ -11,7 +11,7 @@ aliases:
   - requirements grilling
 created: 2026-04-18
 type: skill
-source: "../COMBINED/skills/skills-planning/grill-me/"
+source: "../.claude/skills/skills-planning/grill-me/"
 ---
 
 # 🔥 Skill: grill-me

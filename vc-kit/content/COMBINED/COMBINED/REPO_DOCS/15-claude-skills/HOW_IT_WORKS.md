@@ -71,16 +71,16 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/15-claude-skills/ | Documentation |
-| .claude/commands/ | COMBINED/commands/claude-skills/ | 10+ reusable slash commands |
-| skills/*/SKILL.md | COMBINED/skills/by-domain/ | 248 domain-specific skills |
-| agents/ | COMBINED/agents/by-role/ | 23 specialized agents |
-| scripts/ | COMBINED/REPO_DOCS/15-claude-skills/scripts/ | 332 Python CLI tools |
-| .claude-plugin/ | COMBINED/REPO_DOCS/15-claude-skills/plugin/ | Plugin configuration reference |
+| README.md | .claude/REPO_DOCS/15-claude-skills/ | Documentation |
+| .claude/commands/ | .claude/commands/claude-skills/ | 10+ reusable slash commands |
+| skills/*/SKILL.md | .claude/skills/by-domain/ | 248 domain-specific skills |
+| agents/ | .claude/agents/by-role/ | 23 specialized agents |
+| scripts/ | .claude/REPO_DOCS/15-claude-skills/scripts/ | 332 Python CLI tools |
+| .claude-plugin/ | .claude/REPO_DOCS/15-claude-skills/plugin/ | Plugin configuration reference |
 
 ---
 

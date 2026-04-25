@@ -151,8 +151,8 @@ The system uses a manifest file (`migration-manifest.json`) to define:
   "files": {
     "commands": {
       "sparc.md": {
-        "source": "COMBINED/workspace-config/claude/commands/sparc.md",
-        "target": "COMBINED/workspace-config/claude/commands/sparc.md",
+        "source": ".claude/workspace-config/claude/commands/sparc.md",
+        "target": ".claude/workspace-config/claude/commands/sparc.md",
         "transform": "replace",
         "priority": 1
       }
@@ -338,7 +338,7 @@ claude-flow migrate --strategy selective --preserve-custom
 claude-flow migrate validate --verbose
 
 # Check for missing files or corruption
-ls -la COMBINED/workspace-config/claude/commands/
+ls -la .claude/workspace-config/claude/commands/
 ```
 
 #### Rollback Not Working

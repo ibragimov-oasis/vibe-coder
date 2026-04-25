@@ -11,12 +11,12 @@ aliases:
   - sandboxed execution
 created: 2026-04-18
 type: system-note
-source: "../COMBINED/orchestration/core-background-agents/"
+source: "../.claude/orchestration/core-background-agents/"
 ---
 
 # Orchestration: Background Agents
 
-> **Источник:** `../COMBINED/orchestration/core-background-agents/`
+> **Источник:** `../.claude/orchestration/core-background-agents/`
 
 ## Описание
 

@@ -11,12 +11,12 @@ aliases:
   - multi-agent team
 created: 2026-04-18
 type: agents-deepdive
-source: "../COMBINED/orchestration/core-omc/"
+source: "../.claude/orchestration/core-omc/"
 ---
 
 # 👥 OMC Team Roles — Agents Deep-Dive
 
-> **Источник:** `../COMBINED/orchestration/core-omc/`
+> **Источник:** `../.claude/orchestration/core-omc/`
 > **OMC = Oh My Claude** — Multi-agent coordination methodology
 > **Агентов:** 19 специализированных ролей
 > **Работает:** в ЛЮБОМ AI интерфейсе (Claude, Copilot, Cursor)

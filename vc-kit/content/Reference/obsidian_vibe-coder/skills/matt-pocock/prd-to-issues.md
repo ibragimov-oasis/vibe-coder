@@ -10,7 +10,7 @@ aliases:
   - prd to github issues
 created: 2026-04-18
 type: skill
-source: "../COMBINED/skills/skills-planning/prd-to-issues/"
+source: "../.claude/skills/skills-planning/prd-to-issues/"
 ---
 
 # 🐛 Skill: prd-to-issues

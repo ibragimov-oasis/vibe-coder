@@ -1,7 +1,7 @@
 #!/bin/bash
 # STEP 4: Build MEGA_PROMPTS.md — The Fuel
 BASE="/Users/ibragimov/Desktop/GitHub/vibe-coder"
-OUT="$BASE/COMBINED/MEGA_PROMPTS.md"
+OUT="$BASE/.claude/MEGA_PROMPTS.md"
 COUNT=0
 
 cat > "$OUT" << 'HEADER'

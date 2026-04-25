@@ -5,7 +5,7 @@ tags:
   - source/INDEX.md
 ---
 
-# COMBINED/agents - Master Agent Index
+# .claude/agents - Master Agent Index
 
 > **Complete catalog of all AI agents across all repositories**
 > Last updated: 2026-04-04
@@ -541,10 +541,10 @@ Full guide: `MEMORY_SETUP.md`
 
 ---
 
-- **Orchestration Systems:** Core platforms remain in `COMBINED/orchestration/` (RuFlo, OMC, GSD, Superpowers)
-- **Skills:** See `COMBINED/skills/INDEX.md` for agent capabilities
-- **Commands:** See `COMBINED/commands/INDEX.md` for slash commands
-- **Hooks:** See `COMBINED/hooks/README.md` for automation
+- **Orchestration Systems:** Core platforms remain in `.claude/orchestration/` (RuFlo, OMC, GSD, Superpowers)
+- **Skills:** See `.claude/skills/INDEX.md` for agent capabilities
+- **Commands:** See `.claude/commands/INDEX.md` for slash commands
+- **Hooks:** See `.claude/hooks/README.md` for automation
 
 ---
 
@@ -569,8 +569,8 @@ When adding new agents:
 
 ---
 
-*For detailed orchestration capabilities, see `COMBINED/orchestration/README.md`*
-*For skill-specific capabilities, see `COMBINED/skills/INDEX.md`*
+*For detailed orchestration capabilities, see `.claude/orchestration/README.md`*
+*For skill-specific capabilities, see `.claude/skills/INDEX.md`*
 
 ## 🔗 Связи
 

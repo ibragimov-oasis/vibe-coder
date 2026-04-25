@@ -62,13 +62,13 @@ Step 5: AI reads `CHANGELOG.md` → tracks version history and feature additions
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/27-nano-banana-mcp/ | Documentation |
-| skills/ | COMBINED/skills/by-domain/image-gen/ | Image generation skill |
-| src/ | COMBINED/mcp-servers/nano-banana/ | MCP server source |
+| README.md | .claude/REPO_DOCS/27-nano-banana-mcp/ | Documentation |
+| skills/ | .claude/skills/by-domain/image-gen/ | Image generation skill |
+| src/ | .claude/mcp-servers/nano-banana/ | MCP server source |
 
 ---
 

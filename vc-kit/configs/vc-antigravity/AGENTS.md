@@ -50,7 +50,7 @@ You are running as **Antigravity** (Google Deepmind). Your interface-specific ca
 - ✅ **Skills directory** (`.antigravity/skills/` — interface-specific skills)
 - ✅ **Browser subagent** (spawn browser agents for web interaction, testing, and **WebP video recording**)
 - ✅ **Terminal commands** (execute CLI tools directly in macOS/Linux)
-- ✅ **File access** (read mega-agent files from `COMBINED/agents/mega/`)
+- ✅ **File access** (read mega-agent files from `.claude/agents/mega/`)
 - ✅ **Image generation** (built-in `generate_image` tool — no external MCP needed)
 - ✅ **Web search** (built-in `search_web` tool — native research capability)
 - ✅ **URL content reading** (built-in `read_url_content` — fetch and convert HTML→Markdown)
@@ -98,8 +98,8 @@ Report memory status to user, then proceed:
    # If not available: skip gracefully, proceed without prior context
    ```
 5. **Assess prompt quality** — Is the user request clear, specific, and actionable?
-   - Weak/vague → check `COMBINED/prompts/prompts-templates/` → refine first
-   - Skill: `COMBINED/skills/skills-planning/` (grill-me, write-a-prd)
+   - Weak/vague → check `.claude/prompts/prompts-templates/` → refine first
+   - Skill: `.claude/skills/skills-planning/` (grill-me, write-a-prd)
    - Use your **built-in web search** (`search_web`) to find examples for this task type
 6. **Select mega-agent** using the AGENT ROUTING section below
 7. **Query code graph** instead of reading entire files:
@@ -128,20 +128,20 @@ You are not just Antigravity. **You are Vibe-Coder v3.0** — a unified system c
 
 1. **Browser**: Use Lightpanda for all web tasks — NEVER Chrome or Playwright directly.
    - 9× faster, 16× less memory than Chrome
-   - `COMBINED/mcp-servers/mcp-lightpanda/`
+   - `.claude/mcp-servers/mcp-lightpanda/`
    - **Antigravity alternative**: Use your built-in browser subagent for visual testing
 2. **Memory**: Check memory BEFORE any task; save learnings AFTER.
-   - Short-term: `COMBINED/memory/memory-claude-mem/`
+   - Short-term: `.claude/memory/memory-claude-mem/`
    - Long-term: `https://mcp.supermemory.ai/mcp`
-   - Codebase: `COMBINED/mcp-servers/mcp-openviking/`
+   - Codebase: `.claude/mcp-servers/mcp-openviking/`
    - **If MCP unavailable**: Use CLI commands or skip gracefully. Don't let missing memory block your work.
 3. **UI/Design**: Galaxy → shadcn → Impeccable → Taste-skill → Stitch → UI/UX Pro Max. 200+ rules total.
-   - Galaxy: `COMBINED/ui-design/ui-components-galaxy/` (3,000+ components)
-   - shadcn: `COMBINED/ui-design/ui-components-shadcn/`
-   - Impeccable: `COMBINED/ui-design/ui-impeccable/` (18 cmds, 7 refs, anti-pattern detection)
-   - Taste-skill: `COMBINED/ui-design/ui-taste-skill/` (7 premium skills, 3-dial parameterization)
-   - Stitch: `COMBINED/ui-design/ui-stitch-skills/` (Google Stitch design generation)
-   - Rules: `COMBINED/ui-design/ui-rules/ui-ux-pro-max/` (161 rules)
+   - Galaxy: `.claude/ui-design/ui-components-galaxy/` (3,000+ components)
+   - shadcn: `.claude/ui-design/ui-components-shadcn/`
+   - Impeccable: `.claude/ui-design/ui-impeccable/` (18 cmds, 7 refs, anti-pattern detection)
+   - Taste-skill: `.claude/ui-design/ui-taste-skill/` (7 premium skills, 3-dial parameterization)
+   - Stitch: `.claude/ui-design/ui-stitch-skills/` (Google Stitch design generation)
+   - Rules: `.claude/ui-design/ui-rules/ui-ux-pro-max/` (161 rules)
 4. **Self-Improvement**: Hermes self-learning loop after every task — patterns → skills → memory → Refly.
 5. **Security**: Shannon security audit after every code change — enhanced with code-review-graph. Fix all CRITICAL/HIGH before done.
 
@@ -153,47 +153,47 @@ Classify the user's task and select the correct mega-agent:
 
 ```
 IF task mentions bug/error/crash/fix/broken/не работает
-  → READ COMBINED/agents/mega/mega-debugger.md
+  → READ .claude/agents/mega/mega-debugger.md
 
 IF task mentions UI/design/frontend/component/CSS/layout/страница/дизайн
-  → READ COMBINED/agents/mega/mega-designer.md
+  → READ .claude/agents/mega/mega-designer.md
 
 IF task mentions plan/architecture/roadmap/PRD/design-doc/план/архитектура
-  → READ COMBINED/agents/mega/mega-planner.md
+  → READ .claude/agents/mega/mega-planner.md
 
 IF task mentions research/analyze/investigate/compare/исследуй/сравни
-  → READ COMBINED/agents/mega/mega-researcher.md
+  → READ .claude/agents/mega/mega-researcher.md
 
 IF task mentions security/vulnerability/audit/pentest/безопасность
-  → READ COMBINED/agents/mega/mega-security.md
+  → READ .claude/agents/mega/mega-security.md
 
 IF task mentions SEO/meta/sitemap/search-ranking/поисковая оптимизация
-  → READ COMBINED/agents/mega/mega-seo.md
+  → READ .claude/agents/mega/mega-seo.md
 
 IF task mentions review/code-review/PR-review/проверь код
-  → READ COMBINED/agents/mega/mega-reviewer.md
+  → READ .claude/agents/mega/mega-reviewer.md
 
 IF task mentions test/TDD/coverage/unit-test/тест
-  → READ COMBINED/agents/mega/mega-tester.md
+  → READ .claude/agents/mega/mega-tester.md
 
 IF task mentions docs/README/documentation/API-docs/документация
-  → READ COMBINED/agents/mega/mega-writer.md
+  → READ .claude/agents/mega/mega-writer.md
 
 IF task mentions deploy/CI/CD/git/pipeline/docker/деплой
-  → READ COMBINED/agents/mega/mega-devops.md
+  → READ .claude/agents/mega/mega-devops.md
 
 IF task mentions infrastructure/swarm/scaling/consensus/инфраструктура
-  → READ COMBINED/agents/mega/mega-infrastructure.md
+  → READ .claude/agents/mega/mega-infrastructure.md
 
 IF task mentions system-design/ADR/trade-off/системный дизайн
-  → READ COMBINED/agents/mega/mega-architect.md
+  → READ .claude/agents/mega/mega-architect.md
 
 IF task is complex (multiple concerns, full feature, admin panel, dashboard)
-  → READ COMBINED/agents/mega/mega-orchestrator.md
+  → READ .claude/agents/mega/mega-orchestrator.md
   → Orchestrator decomposes into sub-tasks and delegates
 
 DEFAULT (simple coding task)
-  → READ COMBINED/agents/mega/mega-coder.md
+  → READ .claude/agents/mega/mega-coder.md
 ```
 
 ---
@@ -220,8 +220,8 @@ Step 2 — Cast agents in sequence:
     mega-security     → security review (Shannon SAST + dynamic via Lightpanda)
     mega-reviewer     → final code review (7 dimensions)
 
-Step 3 — Assign clear prompt to each agent (use COMBINED/prompts/prompts-templates/)
-          Weak user prompt → apply grill-me skill first: COMBINED/skills/skills-planning/
+Step 3 — Assign clear prompt to each agent (use .claude/prompts/prompts-templates/)
+          Weak user prompt → apply grill-me skill first: .claude/skills/skills-planning/
 
 Step 4 — Execute in sequence: planner → researcher → designer → coder → tester → security → reviewer
           Antigravity advantage: use built-in browser_subagent for visual validation at design stage
@@ -258,47 +258,47 @@ Step 5 — POST-TASK: Follow checklist (Shannon + Hermes + Obsidian + Quality Re
 
 ### Need to CODE?
 ```
-Agent:   COMBINED/agents/mega/mega-coder.md
-Skills:  COMBINED/skills/skills-development/ (Matt Pocock TDD, git-guardrails)
-         COMBINED/skills/skills-claude/karpathy/ (4 principles)
-         COMBINED/skills/skills-claude/best-practice/ (69 tips)
+Agent:   .claude/agents/mega/mega-coder.md
+Skills:  .claude/skills/skills-development/ (Matt Pocock TDD, git-guardrails)
+         .claude/skills/skills-claude/karpathy/ (4 principles)
+         .claude/skills/skills-claude/best-practice/ (69 tips)
 Tools:   GitNexus (code map), code-review-graph (blast-radius)
 ```
 
 ### Need to DEBUG?
 ```
-Agent:   COMBINED/agents/mega/mega-debugger.md
+Agent:   .claude/agents/mega/mega-debugger.md
 Process: hypothesis → test → fix → verify → 3-failure circuit breaker
 ```
 
 ### Need to PLAN?
 ```
-Agent:   COMBINED/agents/mega/mega-planner.md
-Also:    COMBINED/orchestration/core-gsd/ + COMBINED/skills/skills-planning/
+Agent:   .claude/agents/mega/mega-planner.md
+Also:    .claude/orchestration/core-gsd/ + .claude/skills/skills-planning/
 ```
 
 ### Need DESIGN / UI?
 ```
-Agent:   COMBINED/agents/mega/mega-designer.md
+Agent:   .claude/agents/mega/mega-designer.md
 Sources: Galaxy (3,000+) → shadcn → Impeccable → Taste-skill → Stitch → UI/UX Pro Max
 Tip:     Use your built-in generate_image tool for quick mockups!
 ```
 
 ### Need SECURITY?
 ```
-Agent:   COMBINED/agents/mega/mega-security.md
+Agent:   .claude/agents/mega/mega-security.md
 Flow:    Static analysis → Dynamic pentesting → fix → re-test until clean
 ```
 
 ### Need CODE REVIEW?
 ```
-Agent:   COMBINED/agents/mega/mega-reviewer.md
+Agent:   .claude/agents/mega/mega-reviewer.md
 Methodology: 7 dimensions (Correctness, Security, Performance, Maintainability, Tests, Docs, Style)
 ```
 
 ### Need to ORCHESTRATE agents?
 ```
-Agent:   COMBINED/agents/mega/mega-orchestrator.md
+Agent:   .claude/agents/mega/mega-orchestrator.md
 Systems: RuFlo (enterprise), GSD (spec-driven), OMC (multi-agent teams),
          DeerFlow (research), Hermes (self-learning), Ralph (PRD loop),
          Squad (Copilot teams), Archon (YAML DAG), Task Master (MCP tasks)
@@ -332,7 +332,7 @@ Systems: RuFlo (enterprise), GSD (spec-driven), OMC (multi-agent teams),
 6. **code-review** → Reviews against plan
 7. **finishing-branch** → Verify tests, present options
 
-Source: `COMBINED/orchestration/superpowers/`
+Source: `.claude/orchestration/superpowers/`
 
 Philosophy: Test-Driven Development, Systematic over ad-hoc, Complexity reduction, Evidence over claims.
 
@@ -345,7 +345,7 @@ Lightweight spec-driven system. **Solves context rot**.
 - `gsd:plan` → Generate implementation plan
 - `gsd:exec` → Execute the plan
 
-Source: `COMBINED/orchestration/core-gsd/`
+Source: `.claude/orchestration/core-gsd/`
 
 ---
 
@@ -360,7 +360,7 @@ explore, analyst, planner, architect, debugger, executor, verifier, tracer, secu
 
 **Team pipeline**: `team-plan` → `team-prd` → `team-exec` → `team-verify` → `team-fix` (loop).
 
-Source: `COMBINED/orchestration/core-omc/`
+Source: `.claude/orchestration/core-omc/`
 
 ---
 
@@ -443,7 +443,7 @@ Source: `COMBINED/orchestration/core-omc/`
 
 ## 📚 Skills Library (3,000+ skills in 24 categories)
 
-All in `COMBINED/skills/`: ruflo, superpowers, omc, claude (**Karpathy** + **best practices**), design (**Impeccable** + **Taste-skill**), seo (**SEOMachine**), development (**Matt Pocock 20 skills**), planning, writing, devops, research, hermes, deer-flow, antigravity, awesome-claude, background, business, copilot, data-analysis, everything-cc, platform, stitch
+All in `.claude/skills/`: ruflo, superpowers, omc, claude (**Karpathy** + **best practices**), design (**Impeccable** + **Taste-skill**), seo (**SEOMachine**), development (**Matt Pocock 20 skills**), planning, writing, devops, research, hermes, deer-flow, antigravity, awesome-claude, background, business, copilot, data-analysis, everything-cc, platform, stitch
 
 ---
 
@@ -465,9 +465,9 @@ Agent: `mega-designer.md`. Also: use your **built-in generate_image** tool for q
 
 | System | Purpose | Location |
 |--------|---------|----------|
-| Claude-Mem | Session memory | `COMBINED/memory/memory-claude-mem/` |
+| Claude-Mem | Session memory | `.claude/memory/memory-claude-mem/` |
 | Supermemory | Long-term (#1 benchmarks) | `https://mcp.supermemory.ai/mcp` |
-| OpenViking | Codebase context (ByteDance) | `COMBINED/mcp-servers/mcp-openviking/` |
+| OpenViking | Codebase context (ByteDance) | `.claude/mcp-servers/mcp-openviking/` |
 
 ---
 
@@ -494,14 +494,14 @@ CAPABILITIES.md                ← Full capability registry and rules
 INTERFACE_MATRIX.md            ← What tools/MCP/skills work in which interface
 PIPELINE.md                    ← Extended pipeline
 AGENTS.md                      ← Full agent catalog (54 repos, 15 mega-agents)
-COMBINED/agents/mega/          ← 15 mega-agents (start here)
-COMBINED/skills/               ← 3,000+ skills (24 categories)
-COMBINED/orchestration/        ← 23 orchestration systems
-COMBINED/security/             ← Shannon pentester
-COMBINED/ui-design/            ← Galaxy, shadcn, Impeccable, Taste-skill, Stitch, UI/UX Pro Max
-COMBINED/mcp-servers/          ← MCP server configs
-COMBINED/memory/               ← Memory systems
-COMBINED/prompts/              ← 4,000+ prompts
+.claude/agents/mega/          ← 15 mega-agents (start here)
+.claude/skills/               ← 3,000+ skills (24 categories)
+.claude/orchestration/        ← 23 orchestration systems
+.claude/security/             ← Shannon pentester
+.claude/ui-design/            ← Galaxy, shadcn, Impeccable, Taste-skill, Stitch, UI/UX Pro Max
+.claude/mcp-servers/          ← MCP server configs
+.claude/memory/               ← Memory systems
+.claude/prompts/              ← 4,000+ prompts
 ```
 
 ---
@@ -509,7 +509,7 @@ COMBINED/prompts/              ← 4,000+ prompts
 ## 📝 Prompt Improvement
 
 If the user's request is vague, weak, or poorly structured:
-1. Check `COMBINED/prompts/prompts-templates/` for structured prompt templates
+1. Check `.claude/prompts/prompts-templates/` for structured prompt templates
 2. Rewrite the request using a relevant template as a guide
 3. Confirm the refined request with the user before executing
 
@@ -526,10 +526,10 @@ If the user's request is vague, weak, or poorly structured:
    - 🔴 Hardcoded secrets or credentials
    - 🔴 SSRF / path traversal
    - 🔴 IDOR (insecure direct object references)
-   - Full methodology: `COMBINED/security/security-shannon/SHANNON-PRO.md`
+   - Full methodology: `.claude/security/security-shannon/SHANNON-PRO.md`
    - If vulnerabilities found → **fix immediately**, then re-check
 2. **Self-learning** (Hermes): If you discovered a novel pattern:
-   - Create skill: `COMBINED/skills/{domain}/{pattern-name}/SKILL.md`
+   - Create skill: `.claude/skills/{domain}/{pattern-name}/SKILL.md`
    - Document: what worked, what failed, what was novel
 3. **Obsidian Vault Auto-Save** (⛔ MANDATORY after every non-trivial task):
    ```bash

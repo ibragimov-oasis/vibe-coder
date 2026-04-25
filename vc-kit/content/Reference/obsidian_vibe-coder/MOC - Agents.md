@@ -89,7 +89,7 @@ DEFAULT (simple code)  → mega-coder
 - [[MOC - System]] — Routing logic и pipeline
 - [[MOC - Orchestration]] — Системы оркестрации под агентами
 - [[MOC - Security]] — Shannon и security агент
-- [[combined/Agents Overview]] — COMBINED/agents структура
+- [[combined/Agents Overview]] — .claude/agents структура
 - [[agents-by-role/index]] — 19 ролей, 189 агентов
 - [[000 - Map of Maps]] — Главная карта
 

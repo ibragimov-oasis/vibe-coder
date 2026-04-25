@@ -3,13 +3,13 @@
   "generatedBy": "ecc-tools",
   "profile": "full",
   "sharedSkills": [
-    "COMBINED/workspace-config/claude/skills/everything-claude-code/SKILL.md",
+    ".claude/workspace-config/claude/skills/everything-claude-code/SKILL.md",
     ".agents/skills/everything-claude-code/SKILL.md"
   ],
   "commandFiles": [
-    "COMBINED/workspace-config/claude/commands/database-migration.md",
-    "COMBINED/workspace-config/claude/commands/feature-development.md",
-    "COMBINED/workspace-config/claude/commands/add-language-rules.md"
+    ".claude/workspace-config/claude/commands/database-migration.md",
+    ".claude/workspace-config/claude/commands/feature-development.md",
+    ".claude/workspace-config/claude/commands/add-language-rules.md"
   ],
   "updatedAt": "2026-03-20T12:07:36.496Z"
 }

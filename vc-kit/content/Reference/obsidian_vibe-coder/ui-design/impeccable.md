@@ -11,12 +11,12 @@ aliases:
   - 18 design commands
 created: 2026-04-18
 type: ui-note
-source: "../COMBINED/ui-design/ui-impeccable/"
+source: "../.claude/ui-design/ui-impeccable/"
 ---
 
 # UI Design: Impeccable (Anti-Slop)
 
-> **Источник:** `../COMBINED/ui-design/ui-impeccable/`
+> **Источник:** `../.claude/ui-design/ui-impeccable/`
 > **Rule #3:** Impeccable — третий в иерархии дизайна Vibe-Coder.
 
 ## О чём

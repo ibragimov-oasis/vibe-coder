@@ -324,10 +324,10 @@ PASS: TDD 세션 완료!
 ## 관련 에이전트
 
 이 커맨드는 `tdd-guide` 에이전트를 호출합니다:
-`~/COMBINED/workspace-config/claude/agents/tdd-guide.md`
+`~/.claude/workspace-config/claude/agents/tdd-guide.md`
 
 그리고 `tdd-workflow` 스킬을 참조할 수 있습니다:
-`~/COMBINED/workspace-config/claude/skills/tdd-workflow/`
+`~/.claude/workspace-config/claude/skills/tdd-workflow/`
 
 ## 🔗 Связи
 

@@ -32,12 +32,12 @@ tags:
 ## Files Created
 
 ### Documentation Files
-1. `/home/runner/work/vibe-coder/vibe-coder/COMBINED/REPO_DOCS/01-background-agents/HOW_IT_WORKS.md`
-2. `/home/runner/work/vibe-coder/vibe-coder/COMBINED/REPO_DOCS/02-hermes-agent/HOW_IT_WORKS.md`
-3. `/home/runner/work/vibe-coder/vibe-coder/COMBINED/REPO_DOCS/03-shannon/HOW_IT_WORKS.md`
+1. `/home/runner/work/vibe-coder/vibe-coder/.claude/REPO_DOCS/01-background-agents/HOW_IT_WORKS.md`
+2. `/home/runner/work/vibe-coder/vibe-coder/.claude/REPO_DOCS/02-hermes-agent/HOW_IT_WORKS.md`
+3. `/home/runner/work/vibe-coder/vibe-coder/.claude/REPO_DOCS/03-shannon/HOW_IT_WORKS.md`
 
 ### Index Files
-4. `/home/runner/work/vibe-coder/vibe-coder/COMBINED/REPO_DOCS/MASTER_INDEX.md` (partial - 3 rows completed, 29 pending)
+4. `/home/runner/work/vibe-coder/vibe-coder/.claude/REPO_DOCS/MASTER_INDEX.md` (partial - 3 rows completed, 29 pending)
 
 ---
 
@@ -108,13 +108,13 @@ tags:
 
 ### Blocked/Failed Fetches
 - ❌ GitHub API tree endpoints blocked by DNS monitoring proxy
-- ❌ Used local COMBINED/ copies instead (all originals already present in vibe-coder repo)
+- ❌ Used local .claude/ copies instead (all originals already present in vibe-coder repo)
 
 ### Workaround Applied
-Instead of fetching from GitHub API, I used the local COMBINED/ directory which already contains all 32 repos:
-- `COMBINED/orchestration/core-background-agents/`
-- `COMBINED/orchestration/core-hermes/`
-- `COMBINED/security/security-shannon/`
+Instead of fetching from GitHub API, I used the local .claude/ directory which already contains all 32 repos:
+- `.claude/orchestration/core-background-agents/`
+- `.claude/orchestration/core-hermes/`
+- `.claude/security/security-shannon/`
 
 ---
 
@@ -134,7 +134,7 @@ Instead of fetching from GitHub API, I used the local COMBINED/ directory which 
 ### Bottlenecks Identified
 1. **Reading comprehensive READMEs** — Large docs like Hermes (21k stars) take longer
 2. **Finding hidden config files** — Manual discovery of VISIBLE_* files
-3. **Writing detailed routing maps** — Mapping every file to COMBINED/ destinations
+3. **Writing detailed routing maps** — Mapping every file to .claude/ destinations
 4. **Network latency** — Raw GitHub fetches (though local copies used as fallback)
 
 ---
@@ -147,7 +147,7 @@ Instead of fetching from GitHub API, I used the local COMBINED/ directory which 
 - Startup sequence (how AI reads the repo)
 - Complete file table
 - Hidden config files mapping
-- Routing table to COMBINED/
+- Routing table to .claude/
 - Key insights for Vibe-Coder integration
 - Restore commands for hidden files
 - Status checklist
@@ -167,12 +167,12 @@ Instead of fetching from GitHub API, I used the local COMBINED/ directory which 
 
 ### Starting Point
 **Resume from REPO 4:** 1code (5.4k ⭐)
-**Local path:** `COMBINED/orchestration/core-1code/`
+**Local path:** `.claude/orchestration/core-1code/`
 
 ### Optimization Strategies for Next Session
 
 1. **Batch processing:** Process 3-5 repos in parallel by reading all READMEs first, then writing all docs
-2. **Skip GitHub API:** Use local COMBINED/ copies exclusively (already complete)
+2. **Skip GitHub API:** Use local .claude/ copies exclusively (already complete)
 3. **Streamline routing maps:** Many files follow predictable patterns
 4. **Template reuse:** Create more boilerplate for common sections
 5. **Time boxing:** Allocate max 5 minutes per repo for smaller repos (<10k stars)
@@ -210,7 +210,7 @@ Instead of fetching from GitHub API, I used the local COMBINED/ directory which 
 ## Learnings
 
 ### What Worked
-1. Using local COMBINED/ copies instead of GitHub API (faster, no network issues)
+1. Using local .claude/ copies instead of GitHub API (faster, no network issues)
 2. Following exact template structure (ensures consistency)
 3. Parallel tool calls for reading multiple files
 4. Clear time tracking every 5 repos
@@ -226,11 +226,11 @@ Instead of fetching from GitHub API, I used the local COMBINED/ directory which 
 ## Critical Files for Continuation
 
 Next session should start by reading:
-1. `COMBINED/orchestration/core-1code/README.md`
-2. `COMBINED/orchestration/core-deer-flow/README.md`
-3. `COMBINED/orchestration/core-gsd/README.md`
-4. `COMBINED/orchestration/core-omc/README.md`
-5. `COMBINED/orchestration/core-ruflo/README.md`
+1. `.claude/orchestration/core-1code/README.md`
+2. `.claude/orchestration/core-deer-flow/README.md`
+3. `.claude/orchestration/core-gsd/README.md`
+4. `.claude/orchestration/core-omc/README.md`
+5. `.claude/orchestration/core-ruflo/README.md`
 
 ---
 

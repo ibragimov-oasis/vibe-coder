@@ -64,7 +64,7 @@ Blueprint is for multi-session, multi-agent engineering projects where each step
 
 ```bash
 mkdir -p ~/.claude/skills
-git clone https://github.com/antbotlab/blueprint.git ~/COMBINED/workspace-config/claude/skills/blueprint
+git clone https://github.com/antbotlab/blueprint.git ~/.claude/workspace-config/claude/skills/blueprint
 ```
 
 ## Additional Resources

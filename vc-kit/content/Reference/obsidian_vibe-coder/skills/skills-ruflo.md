@@ -10,12 +10,12 @@ aliases:
   - ruflo skills
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-ruflo/"
+source: "../.claude/skills/skills-ruflo/"
 ---
 
 # Skills: RuFlo
 
-> **Источник:** `../COMBINED/skills/skills-ruflo/`
+> **Источник:** `../.claude/skills/skills-ruflo/`
 > **Stars:** 29k⭐
 
 ## О чём

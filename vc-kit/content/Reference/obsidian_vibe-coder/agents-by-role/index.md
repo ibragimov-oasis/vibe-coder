@@ -11,12 +11,12 @@ aliases:
   - 336 agents
 created: 2026-04-18
 type: agents-index
-source: "../COMBINED/agents/by-role/"
+source: "../.claude/agents/by-role/"
 ---
 
 # Agents By Role: Index
 
-> **Источник:** `../COMBINED/agents/by-role/`
+> **Источник:** `../.claude/agents/by-role/`
 > **Итого:** 189 агентов в 19 категориях
 
 ## 19 Ролей — Полная таблица

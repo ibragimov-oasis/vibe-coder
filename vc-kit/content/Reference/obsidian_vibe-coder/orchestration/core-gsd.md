@@ -11,12 +11,12 @@ aliases:
   - spec-driven development
 created: 2026-04-18
 type: system-note
-source: "../COMBINED/orchestration/core-gsd/"
+source: "../.claude/orchestration/core-gsd/"
 ---
 
 # Orchestration: GSD (Get-Shit-Done)
 
-> **Источник:** `../COMBINED/orchestration/core-gsd/`
+> **Источник:** `../.claude/orchestration/core-gsd/`
 > **Stars:** 46k⭐
 
 ## Описание

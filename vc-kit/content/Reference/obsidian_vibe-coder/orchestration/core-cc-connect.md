@@ -11,12 +11,12 @@ aliases:
   - telegram agents
 created: 2026-04-18
 type: system-note
-source: "../COMBINED/orchestration/core-cc-connect/"
+source: "../.claude/orchestration/core-cc-connect/"
 ---
 
 # Orchestration: cc-connect (Remote Access)
 
-> **Источник:** `../COMBINED/orchestration/core-cc-connect/`
+> **Источник:** `../.claude/orchestration/core-cc-connect/`
 
 ## Описание
 

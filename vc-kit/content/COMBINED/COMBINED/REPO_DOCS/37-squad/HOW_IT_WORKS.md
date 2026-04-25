@@ -10,7 +10,7 @@ tags:
 # Squad — How It Works
 
 **Category:** New Repo (Vibe-Coder v3.0 — original 54)
-**Local path in vibe-coder:** COMBINED/orchestration/core-squad/
+**Local path in vibe-coder:** .claude/orchestration/core-squad/
 
 ---
 
@@ -22,13 +22,13 @@ AI team coordination for GitHub Copilot — agent casting, watch mode, decisions
 
 ## Vibe-Coder Role
 
-Provides specialized capability as described above. See the files at `COMBINED/orchestration/core-squad/` for full documentation and usage instructions.
+Provides specialized capability as described above. See the files at `.claude/orchestration/core-squad/` for full documentation and usage instructions.
 
 ---
 
 ## Status
 
-- [x] Integrated into COMBINED/
+- [x] Integrated into .claude/
 - [x] Referenced in AGENTS.md and CAPABILITIES.md
 - [x] Added to MASTER_INDEX
 

@@ -8,7 +8,7 @@ tags:
 # Analysis Commands Compliance Report
 
 ## Overview
-Reviewed all command files in `COMBINED/workspace-config/claude/commands/analysis/` directory to ensure proper usage of:
+Reviewed all command files in `.claude/workspace-config/claude/commands/analysis/` directory to ensure proper usage of:
 - `mcp__claude-flow__*` tools (preferred)
 - `npx claude-flow` commands (as fallback)
 - No direct implementation calls

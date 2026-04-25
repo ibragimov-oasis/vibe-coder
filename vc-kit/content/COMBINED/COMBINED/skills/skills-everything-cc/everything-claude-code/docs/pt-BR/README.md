@@ -357,17 +357,17 @@ Ou adicione diretamente ao seu `~/.claude/settings.json`:
 git clone https://github.com/affaan-m/everything-claude-code.git
 
 # Copiar agentes para sua config Claude
-cp everything-claude-code/agents/*.md ~/COMBINED/workspace-config/claude/agents/
+cp everything-claude-code/agents/*.md ~/.claude/workspace-config/claude/agents/
 
 # Copiar regras (comuns + específicas da linguagem)
 cp -r everything-claude-code/rules/common/* ~/.claude/rules/
 cp -r everything-claude-code/rules/typescript/* ~/.claude/rules/
 
 # Copiar comandos
-cp everything-claude-code/commands/*.md ~/COMBINED/workspace-config/claude/commands/
+cp everything-claude-code/commands/*.md ~/.claude/workspace-config/claude/commands/
 
 # Copiar skills (core vs nicho)
-cp -r everything-claude-code/.agents/skills/* ~/COMBINED/workspace-config/claude/skills/
+cp -r everything-claude-code/.agents/skills/* ~/.claude/workspace-config/claude/skills/
 ```
 
 ---

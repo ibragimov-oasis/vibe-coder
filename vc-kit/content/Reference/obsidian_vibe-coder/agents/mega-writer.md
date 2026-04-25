@@ -5,7 +5,7 @@ tags:
   - artifact/mega-agent
   - agent/mega-writer
   - status/active
-source: "../COMBINED/agents/mega/mega-writer.md"
+source: "../.claude/agents/mega/mega-writer.md"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -61,7 +61,7 @@ markitdown presentation.pptx > outline.md
 
 ## Исходник
 
-> 📂 `../COMBINED/agents/mega/mega-writer.md`
+> 📂 `../.claude/agents/mega/mega-writer.md`
 
 ## 🔗 Связи
 

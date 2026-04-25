@@ -58,7 +58,7 @@ tags:
 
 ## 🤖 Mega Agents (Universal — work in ALL interfaces)
 
-All mega-agents are file-based (`COMBINED/agents/mega/*.md`). Any interface that can read files can use them.
+All mega-agents are file-based (`.claude/agents/mega/*.md`). Any interface that can read files can use them.
 
 | Agent | File | Best For | Routing Trigger |
 |-------|------|----------|-----------------|
@@ -84,19 +84,19 @@ All mega-agents are file-based (`COMBINED/agents/mega/*.md`). Any interface that
 
 | Skill Category | Path | Best In | Notes |
 |---------------|------|:-------:|-------|
-| skills-claude | `COMBINED/skills/skills-claude/` | All | Karpathy + 69 best practices — universal |
-| skills-development | `COMBINED/skills/skills-development/` | All | Matt Pocock 20 skills — TDD, git-guardrails |
-| skills-planning | `COMBINED/skills/skills-planning/` | All | PRD, grill-me, design-interface |
-| skills-design | `COMBINED/skills/skills-design/` | All | Impeccable + Taste-skill |
-| skills-seo | `COMBINED/skills/skills-seo/` | All | SEOMachine (10 agents, 26 skills) |
-| skills-writing | `COMBINED/skills/skills-writing/` | All | edit-article, write-a-skill |
-| skills-ruflo | `COMBINED/skills/skills-ruflo/` | Claude | Enterprise orchestration (uses subagents) |
-| skills-superpowers | `COMBINED/skills/skills-superpowers/` | All | TDD, systematic dev |
-| skills-omc | `COMBINED/skills/skills-omc/` | Claude | OMC delegation best in Claude (subagent system), methodology works everywhere |
-| skills-copilot | `COMBINED/skills/skills-copilot/` | Copilot | Best in Copilot (native integration) |
-| skills-hermes | `COMBINED/skills/skills-hermes/` | All | Self-learning patterns |
-| skills-devops | `COMBINED/skills/skills-devops/` | All | CI/CD, deployment |
-| skills-research | `COMBINED/skills/skills-research/` | All | Deep research methods |
+| skills-claude | `.claude/skills/skills-claude/` | All | Karpathy + 69 best practices — universal |
+| skills-development | `.claude/skills/skills-development/` | All | Matt Pocock 20 skills — TDD, git-guardrails |
+| skills-planning | `.claude/skills/skills-planning/` | All | PRD, grill-me, design-interface |
+| skills-design | `.claude/skills/skills-design/` | All | Impeccable + Taste-skill |
+| skills-seo | `.claude/skills/skills-seo/` | All | SEOMachine (10 agents, 26 skills) |
+| skills-writing | `.claude/skills/skills-writing/` | All | edit-article, write-a-skill |
+| skills-ruflo | `.claude/skills/skills-ruflo/` | Claude | Enterprise orchestration (uses subagents) |
+| skills-superpowers | `.claude/skills/skills-superpowers/` | All | TDD, systematic dev |
+| skills-omc | `.claude/skills/skills-omc/` | Claude | OMC delegation best in Claude (subagent system), methodology works everywhere |
+| skills-copilot | `.claude/skills/skills-copilot/` | Copilot | Best in Copilot (native integration) |
+| skills-hermes | `.claude/skills/skills-hermes/` | All | Self-learning patterns |
+| skills-devops | `.claude/skills/skills-devops/` | All | CI/CD, deployment |
+| skills-research | `.claude/skills/skills-research/` | All | Deep research methods |
 
 ---
 
@@ -153,11 +153,11 @@ All mega-agents are file-based (`COMBINED/agents/mega/*.md`). Any interface that
 
 **I'm using Copilot**: No MCP but you have Squad and GitHub integration. Best for PR reviews, issue-driven development, team coordination. Use CLI workarounds for tools. 15 mega-agents available as `.agent.md` files!
 
-**I'm using Codex**: Sandboxed execution is your strength. Good for batch processing. Use CLI workarounds for tools. Read mega-agent files from `COMBINED/`.
+**I'm using Codex**: Sandboxed execution is your strength. Good for batch processing. Use CLI workarounds for tools. Read mega-agent files from `.claude/`.
 
 **I'm using Gemini**: Image generation with nano-banana is natural. Long context lets you read entire files. Use CLI workarounds and leverage multimodal understanding.
 
-**I'm using Antigravity**: Browser subagent + built-in image generation are your strengths. Use CLI workarounds for tools. Read mega-agent files from `COMBINED/`.
+**I'm using Antigravity**: Browser subagent + built-in image generation are your strengths. Use CLI workarounds for tools. Read mega-agent files from `.claude/`.
 
 ## 🔗 Связи
 

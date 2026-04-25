@@ -130,7 +130,7 @@ combining intelligence, agents, skills, and tools from **54 elite repositories**
 ### RULE 1: BROWSER — Always Lightpanda, NEVER Chrome
 
 For **ANY** web task, screenshot, URL check, site verification, or browser testing:
-- **ALWAYS** use Lightpanda Browser (`COMBINED/mcp-servers/mcp-lightpanda/`)
+- **ALWAYS** use Lightpanda Browser (`.claude/mcp-servers/mcp-lightpanda/`)
 - It is **9× faster** than Chrome and uses **16× less memory**
 - **NEVER** use regular browser, Chrome, or Playwright directly
 - **MANDATORY** — no exceptions
@@ -173,24 +173,24 @@ fi
 
 **Memory Locations:**
 - **Code graph (mandatory)**: `.code-review-graph/graph.db` (SQLite, 8.2x token reduction)
-- Short-term (session): `COMBINED/memory/memory-claude-mem/`
+- Short-term (session): `.claude/memory/memory-claude-mem/`
 - Long-term (cross-session): `https://mcp.supermemory.ai/mcp`
-- Codebase context: `COMBINED/mcp-servers/mcp-openviking/`
+- Codebase context: `.claude/mcp-servers/mcp-openviking/`
 
 ### RULE 3: DESIGN — Galaxy → shadcn → Impeccable → Taste-skill → Stitch → UI/UX Pro Max
 
 If a task involves **any** UI, frontend, or design work:
 
-1. **FIRST** → Check Galaxy (`COMBINED/ui-design/ui-components-galaxy/`) — 3,000+ components
+1. **FIRST** → Check Galaxy (`.claude/ui-design/ui-components-galaxy/`) — 3,000+ components
    - Categories: Buttons, Cards, Checkboxes, Forms, Inputs, Notifications, Patterns, Radio-buttons, Toggle-switches, Tooltips, Loaders
-2. **THEN** → Check shadcn/ui (`COMBINED/ui-design/ui-components-shadcn/`) — accessible React components
-3. **THEN** → Apply Impeccable (`COMBINED/ui-design/ui-impeccable/`) — 18 design commands + 7 references + anti-pattern detection
-4. **THEN** → Apply Taste-skill (`COMBINED/ui-design/ui-taste-skill/`) — 7 premium skills, 3-dial parameterization
-5. **THEN** → Apply Stitch Skills (`COMBINED/ui-design/ui-stitch-skills/`) — Google Stitch design generation, React components
-6. **THEN** → Apply UI/UX Pro Max rules (`COMBINED/ui-design/ui-rules/ui-ux-pro-max/`) — 161 rules
-7. **ALSO** → DeerFlow frontend design (`COMBINED/ui-design/ui-rules/deer-flow-frontend-design/`)
-8. **ALSO** → Cursor design rules (`COMBINED/ui-design/ui-cursor-rules/`)
-9. **Agent**: `COMBINED/agents/mega/mega-designer.md`
+2. **THEN** → Check shadcn/ui (`.claude/ui-design/ui-components-shadcn/`) — accessible React components
+3. **THEN** → Apply Impeccable (`.claude/ui-design/ui-impeccable/`) — 18 design commands + 7 references + anti-pattern detection
+4. **THEN** → Apply Taste-skill (`.claude/ui-design/ui-taste-skill/`) — 7 premium skills, 3-dial parameterization
+5. **THEN** → Apply Stitch Skills (`.claude/ui-design/ui-stitch-skills/`) — Google Stitch design generation, React components
+6. **THEN** → Apply UI/UX Pro Max rules (`.claude/ui-design/ui-rules/ui-ux-pro-max/`) — 161 rules
+7. **ALSO** → DeerFlow frontend design (`.claude/ui-design/ui-rules/deer-flow-frontend-design/`)
+8. **ALSO** → Cursor design rules (`.claude/ui-design/ui-cursor-rules/`)
+9. **Agent**: `.claude/agents/mega/mega-designer.md`
 10. **Custom build** — ONLY if steps 1-6 have nothing suitable; document why
 
 ### RULE 4: AUTONOMOUS PIPELINE — Runs Without User Input
@@ -225,7 +225,7 @@ For complex tasks, automatically run this extended pipeline:
 ║ Step 2: HERMES AGENT — Self-learning loop                    ║
 ║   • Analyze what worked, failed, was novel                   ║
 ║   • Extract reusable patterns                                ║
-║   • Create skills → COMBINED/skills/{domain}/SKILL.md        ║
+║   • Create skills → .claude/skills/{domain}/SKILL.md        ║
 ║   • Update supermemory with insights                         ║
 ║   • Update CAPABILITIES.md if new capability discovered      ║
 ║   • Optionally register in Refly skills registry             ║
@@ -264,12 +264,12 @@ For complex tasks, automatically run this extended pipeline:
 
 After **EVERY** completed task:
 1. Hermes agent extracts patterns and lessons
-2. Creates new skills in `COMBINED/skills/{domain}/{skill-name}/SKILL.md`
+2. Creates new skills in `.claude/skills/{domain}/{skill-name}/SKILL.md`
 3. Updates supermemory with insights for future sessions
 4. Optionally updates CAPABILITIES.md if new capability discovered
 
-**Hermes source:** `COMBINED/orchestration/core-hermes/`
-**Skills output:** `COMBINED/skills/{domain}/{skill-name}/SKILL.md`
+**Hermes source:** `.claude/orchestration/core-hermes/`
+**Skills output:** `.claude/skills/{domain}/{skill-name}/SKILL.md`
 
 ---
 
@@ -278,16 +278,16 @@ After **EVERY** completed task:
 ### Need to CODE something?
 
 ```
-Agent:   COMBINED/agents/mega/mega-coder.md
+Agent:   .claude/agents/mega/mega-coder.md
          (Merged from RuFlo coder, OMC executor, Superpowers, GSD executor,
           Claude-Skills engineers, language specialists + PraisonAI + Karpathy + 69 best practices)
 
-Skills:  COMBINED/skills/skills-everything-cc/
-         COMBINED/skills/skills-ruflo/
-         COMBINED/skills/skills-superpowers/
-         COMBINED/skills/skills-development/ (Matt Pocock TDD, git-guardrails)
-         COMBINED/skills/skills-claude/karpathy/ (4 principles)
-         COMBINED/skills/skills-claude/best-practice/ (69 tips)
+Skills:  .claude/skills/skills-everything-cc/
+         .claude/skills/skills-ruflo/
+         .claude/skills/skills-superpowers/
+         .claude/skills/skills-development/ (Matt Pocock TDD, git-guardrails)
+         .claude/skills/skills-claude/karpathy/ (4 principles)
+         .claude/skills/skills-claude/best-practice/ (69 tips)
 
 Tools:   GitNexus (code map), Lightpanda (testing), code-review-graph (blast-radius)
 Memory:  OpenViking (codebase context)
@@ -296,7 +296,7 @@ Memory:  OpenViking (codebase context)
 ### Need to DEBUG?
 
 ```
-Agent:   COMBINED/agents/mega/mega-debugger.md
+Agent:   .claude/agents/mega/mega-debugger.md
          (Combined from GSD-debugger + OMC-debugger + RuFlo-tracer + Superpowers)
 
 Process: hypothesis → test → fix → verify
@@ -310,15 +310,15 @@ Memory:  openviking (codebase context)
 ### Need to PLAN?
 
 ```
-Agent:   COMBINED/agents/mega/mega-planner.md
+Agent:   .claude/agents/mega/mega-planner.md
          (Combined from GSD 45kb planner + OMC planner + RuFlo planner + Ralph + Matt Pocock + Task Master)
 
-Also:    COMBINED/orchestration/core-gsd/  (spec-driven execution)
-         COMBINED/orchestration/core-omc/  (team planning)
-         COMBINED/orchestration/core-ruflo/ (enterprise planning)
-         COMBINED/orchestration/core-ralph/ (PRD-driven autonomous loop)
-         COMBINED/orchestration/core-taskmaster/ (MCP task management, 36 tools)
-         COMBINED/skills/skills-planning/ (write-a-prd, prd-to-plan, grill-me)
+Also:    .claude/orchestration/core-gsd/  (spec-driven execution)
+         .claude/orchestration/core-omc/  (team planning)
+         .claude/orchestration/core-ruflo/ (enterprise planning)
+         .claude/orchestration/core-ralph/ (PRD-driven autonomous loop)
+         .claude/orchestration/core-taskmaster/ (MCP task management, 36 tools)
+         .claude/skills/skills-planning/ (write-a-prd, prd-to-plan, grill-me)
 
 Tools:   gitnexus (codebase map), supermemory (project conventions), taskmaster (MCP tasks)
 ```
@@ -326,7 +326,7 @@ Tools:   gitnexus (codebase map), supermemory (project conventions), taskmaster 
 ### Need to RESEARCH?
 
 ```
-Agent:   COMBINED/agents/mega/mega-researcher.md
+Agent:   .claude/agents/mega/mega-researcher.md
          (Combined from Hermes + GSD + DeerFlow + PraisonAI + markitdown)
 
 Uses:    Lightpanda for web research (NEVER Chrome)
@@ -339,15 +339,15 @@ Uses:    Lightpanda for web research (NEVER Chrome)
 ### Need DESIGN / UI?
 
 ```
-Agent:   COMBINED/agents/mega/mega-designer.md
+Agent:   .claude/agents/mega/mega-designer.md
          (Galaxy → shadcn → Impeccable → Taste-skill → Stitch → UI/UX Pro Max)
 
-Sources: COMBINED/ui-design/ui-components-galaxy/     (3,000+ components)
-         COMBINED/ui-design/ui-components-shadcn/      (accessible React)
-         COMBINED/ui-design/ui-impeccable/             (18 cmds, 7 refs, anti-pattern)
-         COMBINED/ui-design/ui-taste-skill/            (7 premium skills, 3-dial)
-         COMBINED/ui-design/ui-stitch-skills/          (Google Stitch, React components)
-         COMBINED/ui-design/ui-rules/ui-ux-pro-max/    (161 rules)
+Sources: .claude/ui-design/ui-components-galaxy/     (3,000+ components)
+         .claude/ui-design/ui-components-shadcn/      (accessible React)
+         .claude/ui-design/ui-impeccable/             (18 cmds, 7 refs, anti-pattern)
+         .claude/ui-design/ui-taste-skill/            (7 premium skills, 3-dial)
+         .claude/ui-design/ui-stitch-skills/          (Google Stitch, React components)
+         .claude/ui-design/ui-rules/ui-ux-pro-max/    (161 rules)
 
 Tools:   nano-banana-mcp (image generation)
          lightpanda (visual verification)
@@ -356,8 +356,8 @@ Tools:   nano-banana-mcp (image generation)
 ### Need SECURITY audit?
 
 ```
-Agent:   COMBINED/agents/mega/mega-security.md
-         Shannon core: COMBINED/security/security-shannon/
+Agent:   .claude/agents/mega/mega-security.md
+         Shannon core: .claude/security/security-shannon/
 
 Flow:    Stage 1: Static analysis (SAST + SCA + secrets + business logic)
          Stage 2: Dynamic pentesting via Lightpanda (5 parallel attack agents)
@@ -370,10 +370,10 @@ Tools:   lightpanda (browser-based attacks: XSS, injection, SSRF)
 ### Need SEO?
 
 ```
-Agent:   COMBINED/agents/mega/mega-seo.md
-Skills:  COMBINED/skills/skills-seo/
+Agent:   .claude/agents/mega/mega-seo.md
+Skills:  .claude/skills/skills-seo/
          → seo-audit, technical-seo, geo, content-optimization
-         → COMBINED/skills/skills-seo/seomachine/ (10 agents, 26 marketing skills)
+         → .claude/skills/skills-seo/seomachine/ (10 agents, 26 marketing skills)
 
 Coverage: Technical SEO, On-page SEO, GEO (Generative Engine Optimization)
            GA4/GSC/DataForSEO integration, WordPress publishing
@@ -383,7 +383,7 @@ Coverage: Technical SEO, On-page SEO, GEO (Generative Engine Optimization)
 ### Need CODE REVIEW?
 
 ```
-Agent:   COMBINED/agents/mega/mega-reviewer.md
+Agent:   .claude/agents/mega/mega-reviewer.md
          (Combined from RuFlo + OMC + Superpowers + code-review-graph — 7 review dims)
 
 Methodology: 7-dimension review
@@ -396,13 +396,13 @@ Methodology: 7-dimension review
   7. Style & Conventions (project standards, consistency)
 
 Enhanced: code-review-graph MCP (8.2x token reduction, blast-radius, 22 tools)
-         COMBINED/mcp-servers/mcp-code-review-graph/
+         .claude/mcp-servers/mcp-code-review-graph/
 ```
 
 ### Need TESTING?
 
 ```
-Agent:   COMBINED/agents/mega/mega-tester.md
+Agent:   .claude/agents/mega/mega-tester.md
          (Combined from OMC test-engineer + GSD checkers + RuFlo testers + Superpowers TDD)
 
 Enforces: TDD RED-GREEN-REFACTOR cycle
@@ -413,7 +413,7 @@ Enforces: TDD RED-GREEN-REFACTOR cycle
 ### Need ARCHITECTURE?
 
 ```
-Agent:   COMBINED/agents/mega/mega-architect.md
+Agent:   .claude/agents/mega/mega-architect.md
          (Combined from OMC architect + RuFlo architects + GSD mapper)
 
 Focus:   System design, ADRs, trade-off analysis
@@ -424,7 +424,7 @@ Focus:   System design, ADRs, trade-off analysis
 ### Need EXECUTION (plan → code)?
 
 ```
-Agent:   COMBINED/agents/mega/mega-executor.md
+Agent:   .claude/agents/mega/mega-executor.md
          (Combined from OMC executor + GSD executor + Ralph PRD loop + Archon YAML + Task Master MCP)
 
 Focus:   Precise implementation following plans
@@ -438,7 +438,7 @@ Focus:   Precise implementation following plans
 ### Need DOCUMENTATION / WRITING?
 
 ```
-Agent:   COMBINED/agents/mega/mega-writer.md
+Agent:   .claude/agents/mega/mega-writer.md
          (Combined from OMC writer + document-specialist + RuFlo docs)
 
 Focus:   README, API docs, architecture docs, user guides
@@ -449,7 +449,7 @@ Focus:   README, API docs, architecture docs, user guides
 ### Need DevOps / Git / CI/CD?
 
 ```
-Agent:   COMBINED/agents/mega/mega-devops.md
+Agent:   .claude/agents/mega/mega-devops.md
          (Combined from OMC git-master + RuFlo DevOps + CI/CD agents)
 
 Focus:   Git workflow, atomic commits, CI/CD pipelines
@@ -460,7 +460,7 @@ Focus:   Git workflow, atomic commits, CI/CD pipelines
 ### Need INFRASTRUCTURE / Swarm Coordination?
 
 ```
-Agent:   COMBINED/agents/mega/mega-infrastructure.md
+Agent:   .claude/agents/mega/mega-infrastructure.md
          (Combined from 80+ RuFlo infrastructure agents)
 
 Focus:   Consensus protocols (Raft/BFT/Gossip/CRDT)
@@ -473,35 +473,35 @@ Focus:   Consensus protocols (Raft/BFT/Gossip/CRDT)
 ### Need to ORCHESTRATE agents?
 
 ```
-Agent:   COMBINED/agents/mega/mega-orchestrator.md
+Agent:   .claude/agents/mega/mega-orchestrator.md
          (Merged from RuFlo + GSD + OMC + BG Agents + Superpowers + Archon + Ralph + Squad + Multica + PraisonAI + Task Master + Refly)
 
 Systems (23 total):
-         RuFlo    → COMBINED/orchestration/core-ruflo/          (enterprise, 29k⭐, Q-Learning Router)
-         GSD      → COMBINED/orchestration/core-gsd/            (46k⭐, spec-driven execution)
-         OMC      → COMBINED/orchestration/core-omc/            (multi-agent teams)
-         DeerFlow → COMBINED/orchestration/core-deer-flow/      (ByteDance, 55k⭐, deep research)
-         Hermes   → COMBINED/orchestration/core-hermes/         (self-learning, 3000+ tests)
-         BG Agent → COMBINED/orchestration/core-background-agents/ (async sandboxed)
-         1Code    → COMBINED/orchestration/core-1code/          (lightweight)
-         Super    → COMBINED/orchestration/superpowers/          (composable workflow)
-         Kanban   → COMBINED/orchestration/core-vibe-kanban/    (task management, merged with Task Master)
-         Archon   → COMBINED/orchestration/core-archon/         (YAML DAG workflows, 17 defaults)
-         Ralph    → COMBINED/orchestration/core-ralph/          (PRD autonomous loop)
-         Squad    → COMBINED/orchestration/core-squad/          (AI teams, casting, watch mode)
-         Multica  → COMBINED/orchestration/core-multica/        (agent platform, board view)
-         PraisonAI → COMBINED/orchestration/core-praisonai/     (100+ LLMs, route/parallel/loop)
-         cc-connect → COMBINED/orchestration/core-cc-connect/   (remote access, 10 platforms)
-         TaskMaster → COMBINED/orchestration/core-taskmaster/   (MCP tasks, 36 tools, PRD→tasks)
-         Refly    → COMBINED/orchestration/core-refly/          (skills builder, visual workflow)
+         RuFlo    → .claude/orchestration/core-ruflo/          (enterprise, 29k⭐, Q-Learning Router)
+         GSD      → .claude/orchestration/core-gsd/            (46k⭐, spec-driven execution)
+         OMC      → .claude/orchestration/core-omc/            (multi-agent teams)
+         DeerFlow → .claude/orchestration/core-deer-flow/      (ByteDance, 55k⭐, deep research)
+         Hermes   → .claude/orchestration/core-hermes/         (self-learning, 3000+ tests)
+         BG Agent → .claude/orchestration/core-background-agents/ (async sandboxed)
+         1Code    → .claude/orchestration/core-1code/          (lightweight)
+         Super    → .claude/orchestration/superpowers/          (composable workflow)
+         Kanban   → .claude/orchestration/core-vibe-kanban/    (task management, merged with Task Master)
+         Archon   → .claude/orchestration/core-archon/         (YAML DAG workflows, 17 defaults)
+         Ralph    → .claude/orchestration/core-ralph/          (PRD autonomous loop)
+         Squad    → .claude/orchestration/core-squad/          (AI teams, casting, watch mode)
+         Multica  → .claude/orchestration/core-multica/        (agent platform, board view)
+         PraisonAI → .claude/orchestration/core-praisonai/     (100+ LLMs, route/parallel/loop)
+         cc-connect → .claude/orchestration/core-cc-connect/   (remote access, 10 platforms)
+         TaskMaster → .claude/orchestration/core-taskmaster/   (MCP tasks, 36 tools, PRD→tasks)
+         Refly    → .claude/orchestration/core-refly/          (skills builder, visual workflow)
 ```
 
 ### Need MEMORY?
 
 ```
-Short-term (session):     COMBINED/memory/memory-claude-mem/
-Long-term (cross-session): COMBINED/memory/memory-supermemory/
-Codebase context:          COMBINED/mcp-servers/mcp-openviking/
+Short-term (session):     .claude/memory/memory-claude-mem/
+Long-term (cross-session): .claude/memory/memory-supermemory/
+Codebase context:          .claude/mcp-servers/mcp-openviking/
 
 Setup guide: MEMORY_SETUP.md (at repo root)
 ```
@@ -509,9 +509,9 @@ Setup guide: MEMORY_SETUP.md (at repo root)
 ### Need PROMPTS?
 
 ```
-Templates:    COMBINED/prompts/prompts-templates/
-System:       COMBINED/prompts/prompts-system/
-Security:     COMBINED/prompts/prompts-security/
+Templates:    .claude/prompts/prompts-templates/
+System:       .claude/prompts/prompts-system/
+Security:     .claude/prompts/prompts-security/
 Auto-improve: if prompt is weak → find better one from prompts-templates/
 ```
 
@@ -547,7 +547,7 @@ Full config: `.claude/settings.json`, `.cursor/mcp.json`
 
 ## 🤖 15 MEGA AGENTS — Complete Catalog
 
-All agents live in `COMBINED/agents/mega/`. Use the table to pick the right one:
+All agents live in `.claude/agents/mega/`. Use the table to pick the right one:
 
 | Agent | File | Purpose | Sources |
 |-------|------|---------|---------|
@@ -580,7 +580,7 @@ vibe-coder/
 │
 ├── .claude/                     ← Claude Code configuration
 │   ├── CLAUDE.md                  YOU ARE HERE — master Vibe-Coder v3.0 identity
-│   ├── agents/                    Mega-agents (synced from COMBINED/agents/mega/)
+│   ├── agents/                    Mega-agents (synced from .claude/agents/mega/)
 │   ├── skills/                    39+ specialized skills
 │   ├── commands/                  Slash commands
 │   ├── helpers/                   Hook scripts (session, memory, status)
@@ -599,7 +599,7 @@ vibe-coder/
 ├── .gemini/                     ← Gemini CLI v3.0 configuration
 ├── .antigravity/                ← Antigravity v3.0 configuration
 │
-└── COMBINED/                    ← All combined content from 54 repos
+└── .claude/                    ← All combined content from 54 repos
     ├── agents/
     │   ├── mega/                   15 MEGA AGENTS (start here for any task)
     │   ├── by-role/                19 role-based agent categories (336+ agents)
@@ -661,10 +661,10 @@ Tell the user: **"🧠 Memory loaded — graph ready."**
 1. **Identify yourself** — You are Vibe-Coder v3.0 running as Claude Code (most capable interface)
 2. **Check memory**: `mcp supermemory search "<task keywords>"` — was this done before?
 3. **Assess prompt quality** — Is the user request clear, specific, and actionable?
-   - Weak/vague prompt → check `COMBINED/prompts/prompts-templates/` → refine prompt first
-   - Skill for this: `COMBINED/skills/skills-planning/` (grill-me, write-a-prd)
+   - Weak/vague prompt → check `.claude/prompts/prompts-templates/` → refine prompt first
+   - Skill for this: `.claude/skills/skills-planning/` (grill-me, write-a-prd)
 4. **Select mega-agent** using the AGENT ROUTING below
-5. **Read the agent file**: `COMBINED/agents/mega/<selected-agent>.md`
+5. **Read the agent file**: `.claude/agents/mega/<selected-agent>.md`
 6. **Map codebase**: `mcp gitnexus map` — understand the codebase (if coding task)
 7. **Load context**: `mcp openviking read` — load prior context and decisions
 8. **Execute** using the selected agent's methodology
@@ -675,47 +675,47 @@ Tell the user: **"🧠 Memory loaded — graph ready."**
 
 ```
 IF task mentions bug/error/crash/fix/broken/не работает
-  → READ COMBINED/agents/mega/mega-debugger.md
+  → READ .claude/agents/mega/mega-debugger.md
 
 IF task mentions UI/design/frontend/component/CSS/layout/страница/дизайн
-  → READ COMBINED/agents/mega/mega-designer.md
+  → READ .claude/agents/mega/mega-designer.md
 
 IF task mentions plan/architecture/roadmap/PRD/design-doc/план/архитектура
-  → READ COMBINED/agents/mega/mega-planner.md
+  → READ .claude/agents/mega/mega-planner.md
 
 IF task mentions research/analyze/investigate/compare/исследуй/сравни
-  → READ COMBINED/agents/mega/mega-researcher.md
+  → READ .claude/agents/mega/mega-researcher.md
 
 IF task mentions security/vulnerability/audit/pentest/безопасность
-  → READ COMBINED/agents/mega/mega-security.md
+  → READ .claude/agents/mega/mega-security.md
 
 IF task mentions SEO/meta/sitemap/search-ranking/поисковая оптимизация
-  → READ COMBINED/agents/mega/mega-seo.md
+  → READ .claude/agents/mega/mega-seo.md
 
 IF task mentions review/code-review/PR-review/проверь код
-  → READ COMBINED/agents/mega/mega-reviewer.md
+  → READ .claude/agents/mega/mega-reviewer.md
 
 IF task mentions test/TDD/coverage/unit-test/тест
-  → READ COMBINED/agents/mega/mega-tester.md
+  → READ .claude/agents/mega/mega-tester.md
 
 IF task mentions docs/README/documentation/API-docs/документация
-  → READ COMBINED/agents/mega/mega-writer.md
+  → READ .claude/agents/mega/mega-writer.md
 
 IF task mentions deploy/CI/CD/git/pipeline/docker/деплой
-  → READ COMBINED/agents/mega/mega-devops.md
+  → READ .claude/agents/mega/mega-devops.md
 
 IF task mentions infrastructure/swarm/scaling/consensus/инфраструктура
-  → READ COMBINED/agents/mega/mega-infrastructure.md
+  → READ .claude/agents/mega/mega-infrastructure.md
 
 IF task mentions system-design/ADR/trade-off/системный дизайн
-  → READ COMBINED/agents/mega/mega-architect.md
+  → READ .claude/agents/mega/mega-architect.md
 
 IF task is complex (multiple concerns, full feature, admin panel, dashboard)
-  → READ COMBINED/agents/mega/mega-orchestrator.md
+  → READ .claude/agents/mega/mega-orchestrator.md
   → Orchestrator decomposes into sub-tasks and delegates
 
 DEFAULT (simple coding task)
-  → READ COMBINED/agents/mega/mega-coder.md
+  → READ .claude/agents/mega/mega-coder.md
 ```
 
 ---
@@ -1060,7 +1060,7 @@ const page = await browser.newPage();
 await page.goto('https://example.com');
 ```
 
-See: `COMBINED/mcp-servers/mcp-lightpanda/README.md` for full documentation.
+See: `.claude/mcp-servers/mcp-lightpanda/README.md` for full documentation.
 
 ---
 
@@ -1093,28 +1093,28 @@ See: `MEMORY_SETUP.md` for configuration instructions.
 ## 🎨 UI/UX Resources
 
 ### Galaxy (Uiverse.io)
-3,000+ unique UI elements available in `COMBINED/ui-design/ui-components-galaxy/`.
+3,000+ unique UI elements available in `.claude/ui-design/ui-components-galaxy/`.
 
 ### shadcn/ui
-Beautifully designed, customizable React components in `COMBINED/ui-design/ui-components-shadcn/`.
+Beautifully designed, customizable React components in `.claude/ui-design/ui-components-shadcn/`.
 
 ### Impeccable
-18 design commands + 7 reference files + anti-pattern detection in `COMBINED/ui-design/ui-impeccable/`.
+18 design commands + 7 reference files + anti-pattern detection in `.claude/ui-design/ui-impeccable/`.
 Fights AI slop: gray text, Inter font, purple gradients, nested cards, bounce easing.
 
 ### Taste-skill
-7 premium frontend skills with 3-dial parameterization in `COMBINED/ui-design/ui-taste-skill/`.
+7 premium frontend skills with 3-dial parameterization in `.claude/ui-design/ui-taste-skill/`.
 Skills: taste, redesign, soft, output, minimalist, brutalist, stitch.
 Dials: DESIGN_VARIANCE, MOTION_INTENSITY, VISUAL_DENSITY.
 
 ### Stitch Skills
-Google Stitch design generation in `COMBINED/ui-design/ui-stitch-skills/`.
+Google Stitch design generation in `.claude/ui-design/ui-stitch-skills/`.
 Design synthesis, prompt enhancement, React components, DESIGN.md, remotion videos.
 
 ### UI UX Pro Max
-161 reasoning rules + 67 styles for AI-generated UIs in `COMBINED/ui-design/ui-rules/ui-ux-pro-max/`.
+161 reasoning rules + 67 styles for AI-generated UIs in `.claude/ui-design/ui-rules/ui-ux-pro-max/`.
 
-See: `COMBINED/ui-design/COMBINED_DESIGN_SYSTEM.md` for the master reference.
+See: `.claude/ui-design/COMBINED_DESIGN_SYSTEM.md` for the master reference.
 
 ---
 
@@ -1187,10 +1187,10 @@ gh pr create --base dev
    - 🔴 SSRF / path traversal
    - 🔴 IDOR (insecure direct object references)
    - If vulnerabilities found → fix immediately, then re-check
-   - Full methodology: `COMBINED/security/security-shannon/SHANNON-PRO.md`
+   - Full methodology: `.claude/security/security-shannon/SHANNON-PRO.md`
 
 2. **Self-learning (Hermes)**: If you discovered a novel pattern:
-   - Create skill: `COMBINED/skills/{domain}/{pattern-name}/SKILL.md`
+   - Create skill: `.claude/skills/{domain}/{pattern-name}/SKILL.md`
    - Save insight: `mcp supermemory add "<what was done and why>" tags:[domain]`
    - Update codebase context: `mcp openviking write "<what changed>"`
 

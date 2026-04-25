@@ -20,7 +20,7 @@ Install the library into Claude Code, then invoke focused skills directly in the
 ## Why use this repo for Claude Code
 
 - It includes 1,340+ skills instead of a narrow single-domain starter pack.
-- It supports the standard `COMBINED/workspace-config/claude/skills/` path and the Claude Code plugin marketplace flow.
+- It supports the standard `.claude/workspace-config/claude/skills/` path and the Claude Code plugin marketplace flow.
 - It also ships generated bundle plugins so teams can install focused packs like `Essentials` or `Security Developer` from the marketplace metadata.
 - It includes onboarding docs, bundles, and workflows so new users do not need to guess where to begin.
 - It covers both everyday engineering tasks and specialized work like security reviews, infrastructure, product planning, and documentation.

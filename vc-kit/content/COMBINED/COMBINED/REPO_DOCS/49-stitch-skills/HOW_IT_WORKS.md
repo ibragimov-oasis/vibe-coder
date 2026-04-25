@@ -10,7 +10,7 @@ tags:
 # stitch-skills — How It Works
 
 **Category:** New Repo (Vibe-Coder v3.0 — original 54)
-**Local path in vibe-coder:** COMBINED/ui-design/ui-stitch-skills/
+**Local path in vibe-coder:** .claude/ui-design/ui-stitch-skills/
 
 ---
 
@@ -22,13 +22,13 @@ Google Stitch design generation, React components, DESIGN.md synthesis.
 
 ## Vibe-Coder Role
 
-Provides specialized capability as described above. See the files at `COMBINED/ui-design/ui-stitch-skills/` for full documentation and usage instructions.
+Provides specialized capability as described above. See the files at `.claude/ui-design/ui-stitch-skills/` for full documentation and usage instructions.
 
 ---
 
 ## Status
 
-- [x] Integrated into COMBINED/
+- [x] Integrated into .claude/
 - [x] Referenced in AGENTS.md and CAPABILITIES.md
 - [x] Added to MASTER_INDEX
 

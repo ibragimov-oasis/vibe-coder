@@ -11,12 +11,12 @@ aliases:
   - research agents deep-dive
 created: 2026-04-18
 type: agents-deepdive
-source: "../COMBINED/orchestration/core-deer-flow/"
+source: "../.claude/orchestration/core-deer-flow/"
 ---
 
 # 🦌 DeerFlow Research Flow — Agents Deep-Dive
 
-> **Источник:** `../COMBINED/orchestration/core-deer-flow/`
+> **Источник:** `../.claude/orchestration/core-deer-flow/`
 > **Репозиторий:** DeerFlow от ByteDance (55k⭐) — Multi-step research с LangGraph + FastAPI
 > **Мета-агент:** [[agents/mega-researcher]]
 

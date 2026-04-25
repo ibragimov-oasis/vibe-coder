@@ -10,12 +10,12 @@ aliases:
   - background agent skills
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-background/"
+source: "../.claude/skills/skills-background/"
 ---
 
 # Skills: Background Agents
 
-> **Источник:** `../COMBINED/skills/skills-background/`
+> **Источник:** `../.claude/skills/skills-background/`
 
 ## О чём
 

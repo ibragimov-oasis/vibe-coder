@@ -721,7 +721,7 @@ GSD 的代码库映射和分析命令会读取文件来理解你的项目。**�
 
 **安装后找不到命令？**
 - 重启你的运行时，让命令或 skills 重新加载
-- 检查文件是否存在于 `~/COMBINED/workspace-config/claude/commands/gsd/`（全局）或 `./COMBINED/workspace-config/claude/commands/gsd/`（本地）
+- 检查文件是否存在于 `~/.claude/workspace-config/claude/commands/gsd/`（全局）或 `./.claude/workspace-config/claude/commands/gsd/`（本地）
 - 对 Codex，检查 skills 是否存在于 `~/.codex/skills/gsd-*/SKILL.md`（全局）或 `./.codex/skills/gsd-*/SKILL.md`（本地）
 
 **命令行为不符合预期？**

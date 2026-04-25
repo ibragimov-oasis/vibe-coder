@@ -44,11 +44,11 @@ Use for: project planning, architecture design, roadmaps, PRD creation, feature 
 4. Create task tracking (Task Master or progress.txt)
 
 ## 📚 Planning Skills
-- `COMBINED/skills/skills-planning/write-a-prd/` — PRD creation
-- `COMBINED/skills/skills-planning/prd-to-plan/` — Convert PRD to execution plan
-- `COMBINED/skills/skills-planning/grill-me/` — Challenge assumptions
-- `COMBINED/skills/skills-planning/design-an-interface/` — Interface design
-- `COMBINED/skills/skills-planning/prd-to-issues/` — Convert PRD to issue tracker
+- `.claude/skills/skills-planning/write-a-prd/` — PRD creation
+- `.claude/skills/skills-planning/prd-to-plan/` — Convert PRD to execution plan
+- `.claude/skills/skills-planning/grill-me/` — Challenge assumptions
+- `.claude/skills/skills-planning/design-an-interface/` — Interface design
+- `.claude/skills/skills-planning/prd-to-issues/` — Convert PRD to issue tracker
 
 ## 🔗 Handoff
 After planning → delegate to:
@@ -57,4 +57,4 @@ After planning → delegate to:
 - `mega-designer` for UI/UX work
 
 ## Full Agent Definition
-Read: `COMBINED/agents/mega/mega-planner.md`
+Read: `.claude/agents/mega/mega-planner.md`

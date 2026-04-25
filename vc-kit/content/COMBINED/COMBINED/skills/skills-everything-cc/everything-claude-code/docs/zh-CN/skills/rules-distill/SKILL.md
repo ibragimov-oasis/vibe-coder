@@ -29,13 +29,13 @@ tags:
 #### 1a. 收集技能清单
 
 ```bash
-bash ~/COMBINED/workspace-config/claude/skills/rules-distill/scripts/scan-skills.sh
+bash ~/.claude/workspace-config/claude/skills/rules-distill/scripts/scan-skills.sh
 ```
 
 #### 1b. 收集规则索引
 
 ```bash
-bash ~/COMBINED/workspace-config/claude/skills/rules-distill/scripts/scan-rules.sh
+bash ~/.claude/workspace-config/claude/skills/rules-distill/scripts/scan-rules.sh
 ```
 
 #### 1c. 呈现给用户

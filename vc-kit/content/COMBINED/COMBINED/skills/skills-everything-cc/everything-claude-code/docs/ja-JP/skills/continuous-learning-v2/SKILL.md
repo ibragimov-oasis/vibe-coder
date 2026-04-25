@@ -130,14 +130,14 @@ source: "session-observation"
       "matcher": "*",
       "hooks": [{
         "type": "command",
-        "command": "~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/hooks/observe.sh pre"
+        "command": "~/.claude/workspace-config/claude/skills/continuous-learning-v2/hooks/observe.sh pre"
       }]
     }],
     "PostToolUse": [{
       "matcher": "*",
       "hooks": [{
         "type": "command",
-        "command": "~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/hooks/observe.sh post"
+        "command": "~/.claude/workspace-config/claude/skills/continuous-learning-v2/hooks/observe.sh post"
       }]
     }]
   }
@@ -266,7 +266,7 @@ touch ~/.claude/homunculus/observations.jsonl
 ## 後方互換性
 
 v2はv1と完全に互換性があります：
-- 既存の`~/COMBINED/workspace-config/claude/skills/learned/`スキルは引き続き機能
+- 既存の`~/.claude/workspace-config/claude/skills/learned/`スキルは引き続き機能
 - Stopフックは引き続き実行される（ただしv2にもフィードされる）
 - 段階的な移行パス：両方を並行して実行
 

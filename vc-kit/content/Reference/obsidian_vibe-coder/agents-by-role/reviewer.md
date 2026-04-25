@@ -9,12 +9,12 @@ aliases:
   - reviewer agents
 created: 2026-04-18
 type: agents-role
-source: "../COMBINED/agents/by-role/reviewer/"
+source: "../.claude/agents/by-role/reviewer/"
 ---
 
 # Agents By Role: Reviewer (9)
 
-> **Источник:** `../COMBINED/agents/by-role/reviewer/`
+> **Источник:** `../.claude/agents/by-role/reviewer/`
 > **Количество:** 9 агентов
 
 ## 7 Измерений ревью

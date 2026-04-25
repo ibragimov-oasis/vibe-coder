@@ -160,7 +160,7 @@ This is a **Claude Code Skill** - a local folder containing instructions and scr
 ### Architecture
 
 ```
-~/COMBINED/workspace-config/claude/skills/notebooklm/
+~/.claude/workspace-config/claude/skills/notebooklm/
 ├── SKILL.md              # Instructions for Claude
 ├── scripts/              # Python automation scripts
 │   ├── ask_question.py   # Query NotebookLM
@@ -263,7 +263,7 @@ Note: The MCP server uses the same Patchright library but via TypeScript/npm eco
 All data is stored locally within the skill directory:
 
 ```
-~/COMBINED/workspace-config/claude/skills/notebooklm/data/
+~/.claude/workspace-config/claude/skills/notebooklm/data/
 ├── library.json       - Your notebook library with metadata
 ├── auth_info.json     - Authentication status info
 └── browser_state/     - Browser cookies and session data
@@ -330,7 +330,7 @@ Chrome runs locally on your machine. Your credentials never leave your computer.
 ### Skill not found
 ```bash
 # Make sure it's in the right location
-ls ~/COMBINED/workspace-config/claude/skills/notebooklm/
+ls ~/.claude/workspace-config/claude/skills/notebooklm/
 # Should show: SKILL.md, scripts/, etc.
 ```
 
@@ -343,7 +343,7 @@ Say: `"Clear NotebookLM browser data"`
 ### Dependencies issues
 ```bash
 # Manual reinstall if needed
-cd ~/COMBINED/workspace-config/claude/skills/notebooklm
+cd ~/.claude/workspace-config/claude/skills/notebooklm
 rm -rf .venv
 python -m venv .venv
 source .venv/bin/activate  # or .venv\Scripts\activate on Windows

@@ -11,12 +11,12 @@ aliases:
   - appsec platform
 created: 2026-04-18
 type: security-note
-source: "../COMBINED/security/security-shannon/"
+source: "../.claude/security/security-shannon/"
 ---
 
 # Security: Shannon Pro
 
-> **Источник:** `../COMBINED/security/security-shannon/`
+> **Источник:** `../.claude/security/security-shannon/`
 > **Stars:** 35k⭐
 > **Step 3** в Vibe-Coder Pipeline: Security Audit.
 

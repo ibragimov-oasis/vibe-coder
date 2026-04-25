@@ -68,8 +68,8 @@ npx -y supermemory search "<task keywords>"
 IF prompt is vague (e.g. "make it better", "add a feature", "fix the thing") OR
    prompt lacks specifics (no file path, no error message, no acceptance criteria):
 
-   → Check COMBINED/prompts/prompts-templates/ for a template matching the task type
-   → Apply grill-me skill: COMBINED/skills/skills-planning/grill-me/
+   → Check .claude/prompts/prompts-templates/ for a template matching the task type
+   → Apply grill-me skill: .claude/skills/skills-planning/grill-me/
    → Rewrite the prompt using the template structure
    → Confirm refined prompt with user before executing
 
@@ -80,8 +80,8 @@ ELSE (prompt is clear and specific):
 **Signs of a weak prompt**: No target file/component specified, no expected behavior described, no acceptance criteria, overly broad scope, or contradictory requirements.
 
 **Prompt refinement resources**:
-- Templates: `COMBINED/prompts/prompts-templates/` (PRD, debug, design, audit, security, tdd, doc, review)
-- Planning skills: `COMBINED/skills/skills-planning/grill-me/`, `write-a-prd/`, `design-an-interface/`
+- Templates: `.claude/prompts/prompts-templates/` (PRD, debug, design, audit, security, tdd, doc, review)
+- Planning skills: `.claude/skills/skills-planning/grill-me/`, `write-a-prd/`, `design-an-interface/`
 - The `grill-me` skill asks 3-5 targeted clarifying questions to tighten scope
 
 ### Step 2: Agent Selection
@@ -90,47 +90,47 @@ Classify the user's task and select the correct mega-agent:
 
 ```
 IF task mentions bug/error/crash/fix/broken/не работает
-  → READ COMBINED/agents/mega/mega-debugger.md
+  → READ .claude/agents/mega/mega-debugger.md
 
 IF task mentions UI/design/frontend/component/CSS/layout/страница/дизайн
-  → READ COMBINED/agents/mega/mega-designer.md
+  → READ .claude/agents/mega/mega-designer.md
 
 IF task mentions plan/architecture/roadmap/PRD/design-doc/план/архитектура
-  → READ COMBINED/agents/mega/mega-planner.md
+  → READ .claude/agents/mega/mega-planner.md
 
 IF task mentions research/analyze/investigate/compare/исследуй/сравни
-  → READ COMBINED/agents/mega/mega-researcher.md
+  → READ .claude/agents/mega/mega-researcher.md
 
 IF task mentions security/vulnerability/audit/pentest/безопасность
-  → READ COMBINED/agents/mega/mega-security.md
+  → READ .claude/agents/mega/mega-security.md
 
 IF task mentions SEO/meta/sitemap/search-ranking/поисковая оптимизация
-  → READ COMBINED/agents/mega/mega-seo.md
+  → READ .claude/agents/mega/mega-seo.md
 
 IF task mentions review/code-review/PR-review/проверь код
-  → READ COMBINED/agents/mega/mega-reviewer.md
+  → READ .claude/agents/mega/mega-reviewer.md
 
 IF task mentions test/TDD/coverage/unit-test/тест
-  → READ COMBINED/agents/mega/mega-tester.md
+  → READ .claude/agents/mega/mega-tester.md
 
 IF task mentions docs/README/documentation/API-docs/документация
-  → READ COMBINED/agents/mega/mega-writer.md
+  → READ .claude/agents/mega/mega-writer.md
 
 IF task mentions deploy/CI/CD/git/pipeline/docker/деплой
-  → READ COMBINED/agents/mega/mega-devops.md
+  → READ .claude/agents/mega/mega-devops.md
 
 IF task mentions infrastructure/swarm/scaling/consensus/инфраструктура
-  → READ COMBINED/agents/mega/mega-infrastructure.md
+  → READ .claude/agents/mega/mega-infrastructure.md
 
 IF task mentions system-design/ADR/trade-off/системный дизайн
-  → READ COMBINED/agents/mega/mega-architect.md
+  → READ .claude/agents/mega/mega-architect.md
 
 IF task is complex (multiple concerns, full feature, admin panel, dashboard)
-  → READ COMBINED/agents/mega/mega-orchestrator.md
+  → READ .claude/agents/mega/mega-orchestrator.md
   → Orchestrator decomposes into sub-tasks and delegates to other agents
 
 DEFAULT (simple coding task)
-  → READ COMBINED/agents/mega/mega-coder.md
+  → READ .claude/agents/mega/mega-coder.md
 ```
 
 ### Step 3: Codebase Map (if coding)
@@ -171,7 +171,7 @@ npx -y @openviking/mcp
 
 For ANY code change, perform a quick security review:
 
-1. **Read** `COMBINED/security/security-shannon/SHANNON-PRO.md` (first time only — memorize the checklist)
+1. **Read** `.claude/security/security-shannon/SHANNON-PRO.md` (first time only — memorize the checklist)
 2. **Check your changes** against these categories:
    - 🔴 Injection (SQL, command, template, deserialization)
    - 🔴 XSS (DOM, reflected, stored)
@@ -189,7 +189,7 @@ For ANY code change, perform a quick security review:
 After completing the task, evaluate what you learned:
 
 1. **Was this a novel pattern?** (new approach, unusual solution, important tradeoff)
-   - YES → Create a skill file: `COMBINED/skills/{domain}/{pattern-name}/SKILL.md`
+   - YES → Create a skill file: `.claude/skills/{domain}/{pattern-name}/SKILL.md`
    - NO → Continue
 2. **Save insights to memory**:
 
@@ -320,9 +320,9 @@ Include this at the end of every task response:
 - `AGENTS.md` — all 15 mega-agents and 54 repository catalog
 - `PIPELINE.md` — detailed pipeline architecture (for deep understanding)
 - `INTERFACE_MATRIX.md` — what tools work in which interface
-- `COMBINED/security/security-shannon/SHANNON-PRO.md` — security methodology
-- `COMBINED/orchestration/core-hermes/` — self-learning system
-- `COMBINED/agents/mega/` — all mega-agent definitions
+- `.claude/security/security-shannon/SHANNON-PRO.md` — security methodology
+- `.claude/orchestration/core-hermes/` — self-learning system
+- `.claude/agents/mega/` — all mega-agent definitions
 
 ## 🔗 Связи
 

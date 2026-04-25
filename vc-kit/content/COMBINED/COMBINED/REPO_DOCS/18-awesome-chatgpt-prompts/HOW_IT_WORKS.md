@@ -72,15 +72,15 @@ Step 6: AI reads `prompts.csv` → accesses structured prompt data for programma
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/18-awesome-chatgpt-prompts/ | Documentation |
-| PROMPTS.md | COMBINED/prompts/templates/awesome-chatgpt/ | The full prompt library |
-| CLAUDE.md | COMBINED/prompts/system/ | Claude system instructions |
-| AGENTS.md | COMBINED/agents/by-role/ | Agent definitions |
-| prompts.csv | COMBINED/prompts/templates/awesome-chatgpt/ | Structured prompt data |
+| README.md | .claude/REPO_DOCS/18-awesome-chatgpt-prompts/ | Documentation |
+| PROMPTS.md | .claude/prompts/templates/awesome-chatgpt/ | The full prompt library |
+| CLAUDE.md | .claude/prompts/system/ | Claude system instructions |
+| AGENTS.md | .claude/agents/by-role/ | Agent definitions |
+| prompts.csv | .claude/prompts/templates/awesome-chatgpt/ | Structured prompt data |
 
 ---
 

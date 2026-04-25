@@ -105,14 +105,14 @@ source: "session-observation"
       "matcher": "*",
       "hooks": [{
         "type": "command",
-        "command": "~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/hooks/observe.sh pre"
+        "command": "~/.claude/workspace-config/claude/skills/continuous-learning-v2/hooks/observe.sh pre"
       }]
     }],
     "PostToolUse": [{
       "matcher": "*",
       "hooks": [{
         "type": "command",
-        "command": "~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/hooks/observe.sh post"
+        "command": "~/.claude/workspace-config/claude/skills/continuous-learning-v2/hooks/observe.sh post"
       }]
     }]
   }
@@ -132,7 +132,7 @@ touch ~/.claude/homunculus/observations.jsonl
 
 ```bash
 # 啟動背景觀察者
-~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/agents/start-observer.sh
+~/.claude/workspace-config/claude/skills/continuous-learning-v2/agents/start-observer.sh
 ```
 
 ## 指令
@@ -239,7 +239,7 @@ Hooks **100% 的時間**確定性地觸發。這意味著：
 ## 向後相容性
 
 v2 完全相容 v1：
-- 現有 `~/COMBINED/workspace-config/claude/skills/learned/` 技能仍可運作
+- 現有 `~/.claude/workspace-config/claude/skills/learned/` 技能仍可運作
 - Stop hook 仍執行（但現在也餵入 v2）
 - 漸進遷移路徑：兩者並行執行
 

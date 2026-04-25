@@ -303,7 +303,7 @@ uipro init --ai all         # All assistants
 ### Global Install (Available for All Projects)
 
 ```bash
-uipro init --ai claude --global   # Install to ~/COMBINED/workspace-config/claude/skills/
+uipro init --ai claude --global   # Install to ~/.claude/workspace-config/claude/skills/
 uipro init --ai cursor --global   # Install to ~/.cursor/skills/
 ```
 
@@ -404,23 +404,23 @@ Just mention your preferred stack in the prompt, or let it default to HTML + Tai
 
 For direct access to the design system generator:
 
-> Note: If you installed via Continue, replace `COMBINED/workspace-config/claude/skills/` with `.continue/skills/` in the commands below. For Droid (Factory), use `.factory/skills/`.
+> Note: If you installed via Continue, replace `.claude/workspace-config/claude/skills/` with `.continue/skills/` in the commands below. For Droid (Factory), use `.factory/skills/`.
 
 ```bash
 # Generate design system with ASCII output
-python3 COMBINED/workspace-config/claude/skills/ui-ux-pro-max/scripts/search.py "beauty spa wellness" --design-system -p "Serenity Spa"
+python3 .claude/workspace-config/claude/skills/ui-ux-pro-max/scripts/search.py "beauty spa wellness" --design-system -p "Serenity Spa"
 
 # Generate with Markdown output
-python3 COMBINED/workspace-config/claude/skills/ui-ux-pro-max/scripts/search.py "fintech banking" --design-system -f markdown
+python3 .claude/workspace-config/claude/skills/ui-ux-pro-max/scripts/search.py "fintech banking" --design-system -f markdown
 
 # Domain-specific search
-python3 COMBINED/workspace-config/claude/skills/ui-ux-pro-max/scripts/search.py "glassmorphism" --domain style
-python3 COMBINED/workspace-config/claude/skills/ui-ux-pro-max/scripts/search.py "elegant serif" --domain typography
-python3 COMBINED/workspace-config/claude/skills/ui-ux-pro-max/scripts/search.py "dashboard" --domain chart
+python3 .claude/workspace-config/claude/skills/ui-ux-pro-max/scripts/search.py "glassmorphism" --domain style
+python3 .claude/workspace-config/claude/skills/ui-ux-pro-max/scripts/search.py "elegant serif" --domain typography
+python3 .claude/workspace-config/claude/skills/ui-ux-pro-max/scripts/search.py "dashboard" --domain chart
 
 # Stack-specific guidelines
-python3 COMBINED/workspace-config/claude/skills/ui-ux-pro-max/scripts/search.py "form validation" --stack react
-python3 COMBINED/workspace-config/claude/skills/ui-ux-pro-max/scripts/search.py "responsive layout" --stack html-tailwind
+python3 .claude/workspace-config/claude/skills/ui-ux-pro-max/scripts/search.py "form validation" --stack react
+python3 .claude/workspace-config/claude/skills/ui-ux-pro-max/scripts/search.py "responsive layout" --stack html-tailwind
 ```
 
 ### Persist Design System (Master + Overrides Pattern)
@@ -429,10 +429,10 @@ Save your design system to files for **hierarchical retrieval across sessions**:
 
 ```bash
 # Generate and persist to design-system/MASTER.md
-python3 COMBINED/workspace-config/claude/skills/ui-ux-pro-max/scripts/search.py "SaaS dashboard" --design-system --persist -p "MyApp"
+python3 .claude/workspace-config/claude/skills/ui-ux-pro-max/scripts/search.py "SaaS dashboard" --design-system --persist -p "MyApp"
 
 # Also create a page-specific override file
-python3 COMBINED/workspace-config/claude/skills/ui-ux-pro-max/scripts/search.py "SaaS dashboard" --design-system --persist -p "MyApp" --page "dashboard"
+python3 .claude/workspace-config/claude/skills/ui-ux-pro-max/scripts/search.py "SaaS dashboard" --design-system --persist -p "MyApp" --page "dashboard"
 ```
 
 This creates a `design-system/` folder structure:

@@ -5,7 +5,7 @@ tags:
   - source/INDEX.md
 ---
 
-# COMBINED/skills - Master Skills Index
+# .claude/skills - Master Skills Index
 
 > **Complete catalog of all AI agent skills across 31 repositories**
 > Last updated: 2026-04-18
@@ -594,10 +594,10 @@ Skills augment agent capabilities:
 
 ## Related Resources
 
-- **Agents:** See `COMBINED/agents/INDEX.md` for agent catalog
-- **Commands:** See `COMBINED/commands/INDEX.md` for slash commands
-- **Orchestration:** See `COMBINED/orchestration/` for workflow systems
-- **UI Components:** See `COMBINED/ui-design/` for UI resources
+- **Agents:** See `.claude/agents/INDEX.md` for agent catalog
+- **Commands:** See `.claude/commands/INDEX.md` for slash commands
+- **Orchestration:** See `.claude/orchestration/` for workflow systems
+- **UI Components:** See `.claude/ui-design/` for UI resources
 
 ---
 
@@ -641,8 +641,8 @@ When adding skills:
 
 ---
 
-*For agent capabilities, see `COMBINED/agents/INDEX.md`*
-*For workflow automation, see `COMBINED/commands/INDEX.md`*
+*For agent capabilities, see `.claude/agents/INDEX.md`*
+*For workflow automation, see `.claude/commands/INDEX.md`*
 
 ## 🔗 Связи
 

@@ -11,12 +11,12 @@ aliases:
   - designer agents
 created: 2026-04-18
 type: agents-role
-source: "../COMBINED/agents/by-role/ui-specialist/"
+source: "../.claude/agents/by-role/ui-specialist/"
 ---
 
 # Agents By Role: UI Specialist (7)
 
-> **Источник:** `../COMBINED/agents/by-role/ui-specialist/`
+> **Источник:** `../.claude/agents/by-role/ui-specialist/`
 > **Количество:** 7 агентов
 
 ## Агенты

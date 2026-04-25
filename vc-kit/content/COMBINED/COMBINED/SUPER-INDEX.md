@@ -35538,7 +35538,7 @@ GitNexus/
 
 **Stats**: 1,812 files, 339 directories
 
-**Location**: `COMBINED/mcp-servers/mcp-openviking/`
+**Location**: `.claude/mcp-servers/mcp-openviking/`
 
 ### Complete Directory Structure:
 
@@ -37383,7 +37383,7 @@ OpenViking/
 
 **Stats**: 739 files, 98 directories
 
-**Location**: `COMBINED/mcp-servers/mcp-lightpanda/`
+**Location**: `.claude/mcp-servers/mcp-lightpanda/`
 
 ### Complete Directory Structure:
 
@@ -38010,7 +38010,7 @@ browser/
 
 **Stats**: 299 files, 66 directories
 
-**Location**: `COMBINED/memory/memory-claude-mem/`
+**Location**: `.claude/memory/memory-claude-mem/`
 
 ### Complete Directory Structure:
 
@@ -38455,7 +38455,7 @@ nano-banana-2-mcp/
 
 **Stats**: 92 files, 24 directories
 
-**Location**: `COMBINED/mcp-servers/mcp-pretext/`
+**Location**: `.claude/mcp-servers/mcp-pretext/`
 
 ### Complete Directory Structure:
 
@@ -45979,7 +45979,7 @@ galaxy/
 
 **Stats**: 6,756 files, 499 directories
 
-**Location**: `COMBINED/ui-design/ui-components-shadcn/`
+**Location**: `.claude/ui-design/ui-components-shadcn/`
 
 ### Complete Directory Structure:
 

@@ -10,7 +10,7 @@
 | `.antigravity/` | `vc-kit/configs/vc-antigravity/` |
 | `.codex/` | `vc-kit/configs/vc-codex/` |
 | `.gemini/` | `vc-kit/configs/vc-gemini/` |
-| `COMBINED/` | `vc-kit/content/COMBINED/` |
+| `.claude/` | `vc-kit/content/.claude/` |
 | `new_repos/` | `vc-kit/content/Reference/new_repos/` |
 | `obsidian_vibe-coder/` | `vc-kit/content/Reference/obsidian_vibe-coder/` |
 | `scratch/` | `vc-kit/content/Tools/scratch/` |

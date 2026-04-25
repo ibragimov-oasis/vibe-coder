@@ -11,12 +11,12 @@ aliases:
   - cursor rules reference
 created: 2026-04-18
 type: reference-note
-source: "../COMBINED/reference/cursorrules/"
+source: "../.claude/reference/cursorrules/"
 ---
 
 # Reference: Cursor Rules (500+)
 
-> **Источник:** `../COMBINED/reference/cursorrules/`
+> **Источник:** `../.claude/reference/cursorrules/`
 
 ## О чём
 

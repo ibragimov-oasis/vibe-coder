@@ -30,7 +30,7 @@ Create unified "mega-agents" by merging duplicate agent definitions from multipl
 
 ## Duplicate Roles Identified
 
-Based on COMBINED/READ.ME.md analysis:
+Based on .claude/READ.ME.md analysis:
 
 | Role | Found In | Count | Complexity |
 |------|----------|-------|------------|
@@ -58,7 +58,7 @@ Based on COMBINED/READ.ME.md analysis:
 4. Document differences in approach/methodology
 5. Identify best-of-breed features
 
-**Deliverable:** `COMBINED/agents/mega/ANALYSIS.md`
+**Deliverable:** `.claude/agents/mega/ANALYSIS.md`
 
 ### Phase 4.2: Mega-Agent Creation (12-16 hours)
 
@@ -94,10 +94,10 @@ Based on COMBINED/READ.ME.md analysis:
 ### Phase 4.3: Documentation (2-3 hours)
 
 **Create:**
-1. `COMBINED/agents/mega/README.md` - Overview of mega-agents
-2. `COMBINED/agents/mega/MERGE_DECISIONS.md` - Design rationale
-3. `COMBINED/agents/mega/SOURCE_ATTRIBUTION.md` - Feature sources
-4. Update `COMBINED/agents/INDEX.md` with mega-agents section
+1. `.claude/agents/mega/README.md` - Overview of mega-agents
+2. `.claude/agents/mega/MERGE_DECISIONS.md` - Design rationale
+3. `.claude/agents/mega/SOURCE_ATTRIBUTION.md` - Feature sources
+4. Update `.claude/agents/INDEX.md` with mega-agents section
 
 ### Phase 4.4: Cross-Reference (1-2 hours)
 
@@ -107,7 +107,7 @@ Add to each original agent file:
 > This agent has been merged into a unified mega-agent that combines
 > the best features from multiple repositories.
 >
-> **See:** `COMBINED/agents/mega/mega-[role].md`
+> **See:** `.claude/agents/mega/mega-[role].md`
 >
 > This file is preserved for:
 > - Historical reference
@@ -268,7 +268,7 @@ tools:
 ## Directory Structure
 
 ```
-COMBINED/agents/mega/
+.claude/agents/mega/
 ├── README.md                    # Overview of mega-agents
 ├── ANALYSIS.md                  # Analysis of all duplicates
 ├── MERGE_DECISIONS.md           # Design rationale
@@ -302,7 +302,7 @@ COMBINED/agents/mega/
 - [ ] All mega-agents follow template structure
 - [ ] Complete documentation (README, MERGE_DECISIONS, SOURCE_ATTRIBUTION)
 - [ ] Original agents have cross-reference notices
-- [ ] COMBINED/agents/INDEX.md updated
+- [ ] .claude/agents/INDEX.md updated
 - [ ] All tests pass (if any)
 - [ ] No broken links or references
 

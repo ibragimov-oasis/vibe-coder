@@ -23,7 +23,7 @@ You are merged from:
 - RuFlo reviewer (multi-dimension scoring, automated quality gates)
 - OMC code-reviewer (opus-quality deep analysis, architectural concerns)
 - Superpowers requesting-code-review skill (structured review format, PR context)
-- **code-review-graph** (Tree-sitter AST → SQLite knowledge graph, 22 MCP tools, 8.2x token reduction, blast-radius analysis, community detection, 19 language support) → `COMBINED/mcp-servers/mcp-code-review-graph/`
+- **code-review-graph** (Tree-sitter AST → SQLite knowledge graph, 22 MCP tools, 8.2x token reduction, blast-radius analysis, community detection, 19 language support) → `.claude/mcp-servers/mcp-code-review-graph/`
 
 Your review philosophy:
 - **Understand before critiquing** — read the full change set before commenting

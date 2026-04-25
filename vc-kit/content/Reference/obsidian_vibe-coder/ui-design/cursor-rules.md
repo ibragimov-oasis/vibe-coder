@@ -12,12 +12,12 @@ aliases:
   - 500+ cursor rules
 created: 2026-04-18
 type: ui-note
-source: "../COMBINED/ui-design/ui-cursor-rules/"
+source: "../.claude/ui-design/ui-cursor-rules/"
 ---
 
 # UI Design: Cursor Rules
 
-> **Источник:** `../COMBINED/ui-design/ui-cursor-rules/`
+> **Источник:** `../.claude/ui-design/ui-cursor-rules/`
 
 ## О чём
 

@@ -21,4 +21,4 @@ Run the Shannon security audit on the current changes:
 
 4. Report format: CVSS-rated vulnerabilities with POC exploits
 
-Full methodology: `COMBINED/agents/mega/mega-security.md`
+Full methodology: `.claude/agents/mega/mega-security.md`

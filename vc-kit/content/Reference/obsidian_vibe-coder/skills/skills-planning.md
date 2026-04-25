@@ -10,12 +10,12 @@ aliases:
   - planning skills
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-planning/"
+source: "../.claude/skills/skills-planning/"
 ---
 
 # Skills: Planning (Matt Pocock)
 
-> **Источник:** `../COMBINED/skills/skills-planning/`
+> **Источник:** `../.claude/skills/skills-planning/`
 
 ## Навыки планирования
 

@@ -164,7 +164,7 @@ The `validate-asset.cjs` script can auto-check:
 - Naming convention
 - Basic metadata
 
-Run: `node COMBINED/workspace-config/claude/skills/brand/scripts/validate-asset.cjs <asset-path>`
+Run: `node .claude/workspace-config/claude/skills/brand/scripts/validate-asset.cjs <asset-path>`
 
 ## Archival
 

@@ -94,7 +94,7 @@ Vibe-Coder uses a 3-layer memory system. **Layer 1 is mandatory.** Layers 2-3 ar
 **System**: `code-review-graph`  
 **Storage**: SQLite database at `.code-review-graph/graph.db` (project-local)  
 **Token Savings**: 8.2x average reduction (verified across 6 real repositories)  
-**Source**: `COMBINED/mcp-servers/mcp-code-review-graph/`
+**Source**: `.claude/mcp-servers/mcp-code-review-graph/`
 
 #### What It Stores
 | Node Type | Examples |
@@ -145,7 +145,7 @@ code-review-graph visualize           # Interactive HTML graph
 **System**: `Claude-Mem`  
 **Storage**: SQLite at `~/.claude-mem/claude-mem.db` + Chroma Vector DB  
 **Token Savings**: ~10x via 3-layer search (search → timeline → get_observations)  
-**Source**: `COMBINED/memory/memory-claude-mem/`
+**Source**: `.claude/memory/memory-claude-mem/`
 
 #### What It Stores
 - Session observations (tool usage, decisions, patterns)
@@ -173,7 +173,7 @@ npx -y supermemory add "<insight>"      # Save new learning
 **System**: `OpenViking`  
 **Storage**: Virtual filesystem with L0/L1/L2 tiered loading  
 **Token Savings**: 91% reduction vs baseline (verified benchmarks)  
-**Source**: `COMBINED/mcp-servers/mcp-openviking/`
+**Source**: `.claude/mcp-servers/mcp-openviking/`
 
 #### What It Stores
 ```
@@ -251,7 +251,7 @@ When sessions exceed 70-80% of context window, use **Anchored Iterative Summariz
 
 Optimize for **tokens-per-task** (total tokens to complete task), NOT tokens-per-request.
 
-Full methodology: `COMBINED/skills/skills-antigravity/antigravity-context-compression/SKILL.md`
+Full methodology: `.claude/skills/skills-antigravity/antigravity-context-compression/SKILL.md`
 
 ---
 

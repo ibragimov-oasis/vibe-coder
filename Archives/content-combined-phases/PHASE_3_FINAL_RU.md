@@ -31,7 +31,7 @@ tags:
 - **UI-UX**: 335 файлов
 - **Reference**: 0 файлов
 
-**Файл отчёта**: `COMBINED/LEFTOVERS_SCAN.json`
+**Файл отчёта**: `.claude/LEFTOVERS_SCAN.json`
 
 ---
 
@@ -50,7 +50,7 @@ tags:
 8. **nix** (Nix конфиги): 7 файлов (0.1%)
 9. **build** (сборочные файлы): 4 файла (0.0%)
 
-**Файл отчёта**: `COMBINED/LEFTOVERS_CATEGORIZED.json`
+**Файл отчёта**: `.claude/LEFTOVERS_CATEGORIZED.json`
 
 ---
 
@@ -59,7 +59,7 @@ tags:
 **Результат**: Все файлы обработаны согласно правилам категорий
 
 **Правила обработки**:
-- **docs, config, scripts, data, nix, assets** → перемещены в COMBINED/
+- **docs, config, scripts, data, nix, assets** → перемещены в .claude/
 - **code** → проанализированы и перемещены по назначению
 - **build** → пропущены (остались в оригинальных репо)
 - **misc** → пропущены (требуют ручной проверки)
@@ -72,16 +72,16 @@ tags:
 **Примеры перемещений**:
 ```
 Agents/hermes-agent/trajectory_compressor.py
-  → COMBINED/agents/orchestrators/hermes/infrastructure/trajectory_compressor.py
+  → .claude/agents/orchestrators/hermes/infrastructure/trajectory_compressor.py
 
 Skills/antigravity-awesome-skills/CHANGELOG.md
-  → COMBINED/skills/development/antigravity/docs/CHANGELOG.md
+  → .claude/skills/development/antigravity/docs/CHANGELOG.md
 
 UI-UX/ui-ux-pro-max-skill/cli/assets/data/products.csv
-  → COMBINED/ui-design/rules/ui-ux-pro-max/data/products.csv
+  → .claude/ui-design/rules/ui-ux-pro-max/data/products.csv
 ```
 
-**Файл отчёта**: `COMBINED/LEFTOVERS_PROCESSED.json`
+**Файл отчёта**: `.claude/LEFTOVERS_PROCESSED.json`
 
 ---
 
@@ -91,7 +91,7 @@ UI-UX/ui-ux-pro-max-skill/cli/assets/data/products.csv
 
 **Финальное состояние**:
 
-📁 **Файлы в COMBINED/**:
+📁 **Файлы в .claude/**:
 - Всего файлов: **44,966**
 - Всего директорий: **8,848**
 
@@ -112,8 +112,8 @@ UI-UX/ui-ux-pro-max-skill/cli/assets/data/products.csv
 - **lock_files**: 3 файла
 
 **Файлы отчётов**:
-- `COMBINED/PHASE_3_COMPLETE.md` (полный отчёт)
-- `COMBINED/PHASE_3_REPORT.json` (JSON данные)
+- `.claude/PHASE_3_COMPLETE.md` (полный отчёт)
+- `.claude/PHASE_3_REPORT.json` (JSON данные)
 
 ---
 
@@ -122,7 +122,7 @@ UI-UX/ui-ux-pro-max-skill/cli/assets/data/products.csv
 ### По этапам
 - **Фаза 1 (основная миграция)**: 39,149 файлов перемещено
 - **Фаза 3 (leftovers)**: 2,522 файла перемещено
-- **Всего в COMBINED/**: **44,966 файлов**
+- **Всего в .claude/**: **44,966 файлов**
 - **Остаток в оригиналах**: 6,727 файлов (в основном build configs и markdown)
 
 ### Время выполнения
@@ -142,7 +142,7 @@ UI-UX/ui-ux-pro-max-skill/cli/assets/data/products.csv
 
 ## Что было сделано
 
-### Перемещено в COMBINED/
+### Перемещено в .claude/
 1. **Документация**: README.md, CHANGELOG.md, contributing guides
 2. **Конфигурации**: Важные config файлы, Dockerfile, pyproject.toml
 3. **Скрипты**: Shell scripts, Python utilities, PowerShell scripts
@@ -159,10 +159,10 @@ UI-UX/ui-ux-pro-max-skill/cli/assets/data/products.csv
 
 ---
 
-## Структура COMBINED/ после Этапа 3
+## Структура .claude/ после Этапа 3
 
 ```
-COMBINED/
+.claude/
 ├── agents/                           653 файла (агенты по ролям и интерфейсам)
 │   ├── by-role/                      (14 ролей: debugger, planner, etc.)
 │   ├── by-interface/                 (6 интерфейсов: claude, copilot, etc.)
@@ -256,7 +256,7 @@ COMBINED/
 - [x] Фаза 3.4: Финальная верификация
 
 ### 📈 Результаты
-- **44,966 файлов** готовы к использованию в COMBINED/
+- **44,966 файлов** готовы к использованию в .claude/
 - **6,727 файлов** остаются в оригиналах (в основном build configs)
 - **0 ошибок** при обработке
 - **100% успешность** выполнения задач
@@ -269,13 +269,13 @@ COMBINED/
 **Дата генерации отчёта**: 3 апреля 2026
 **Ветка**: `claude/move-files-and-verify-structure`
 **Основные файлы**:
-- `COMBINED/PHASE_3_COMPLETE.md` - полный отчёт на английском
-- `COMBINED/PHASE_3_FINAL_RU.md` - данный отчёт на русском
-- `COMBINED/PHASE_3_REPORT.json` - JSON данные
-- `COMBINED/INDEX_MOVEMENTS.json` - обновлён до Phase 3
-- `COMBINED/LEFTOVERS_SCAN.json` - результаты сканирования
-- `COMBINED/LEFTOVERS_CATEGORIZED.json` - результаты категоризации
-- `COMBINED/LEFTOVERS_PROCESSED.json` - лог обработки
+- `.claude/PHASE_3_COMPLETE.md` - полный отчёт на английском
+- `.claude/PHASE_3_FINAL_RU.md` - данный отчёт на русском
+- `.claude/PHASE_3_REPORT.json` - JSON данные
+- `.claude/INDEX_MOVEMENTS.json` - обновлён до Phase 3
+- `.claude/LEFTOVERS_SCAN.json` - результаты сканирования
+- `.claude/LEFTOVERS_CATEGORIZED.json` - результаты категоризации
+- `.claude/LEFTOVERS_PROCESSED.json` - лог обработки
 
 🎉 **Этап 3 полностью выполнен!** 🎉
 

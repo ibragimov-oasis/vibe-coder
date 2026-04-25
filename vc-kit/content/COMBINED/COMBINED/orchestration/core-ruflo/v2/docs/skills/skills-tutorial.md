@@ -676,11 +676,11 @@ Validation: Before/after metrics
 
 **When Claude Code starts:**
 
-1. **Personal Skills** (`~/COMBINED/workspace-config/claude/skills/`)
+1. **Personal Skills** (`~/.claude/workspace-config/claude/skills/`)
    - Loads custom skills you've created
    - Available across all projects
 
-2. **Project Skills** (`COMBINED/workspace-config/claude/skills/`)
+2. **Project Skills** (`.claude/workspace-config/claude/skills/`)
    - Loads team-shared skills
    - Version-controlled with git
 
@@ -756,10 +756,10 @@ Skills learn and improve through feedback loops:
 Build once, use everywhere:
 ```bash
 # Personal project
-~/COMBINED/workspace-config/claude/skills/api-design/
+~/.claude/workspace-config/claude/skills/api-design/
 
 # Team repository
-COMBINED/workspace-config/claude/skills/api-design/
+.claude/workspace-config/claude/skills/api-design/
 
 # Organization-wide
 Shared across all Claude Code instances
@@ -845,8 +845,8 @@ npx agentic-flow skills init
 ```
 
 **What this does:**
-- ✅ Creates `~/COMBINED/workspace-config/claude/skills/` (personal, global)
-- ✅ Creates `COMBINED/workspace-config/claude/skills/` (project, version-controlled)
+- ✅ Creates `~/.claude/workspace-config/claude/skills/` (personal, global)
+- ✅ Creates `.claude/workspace-config/claude/skills/` (project, version-controlled)
 
 **Output:**
 ```
@@ -883,7 +883,7 @@ Skills installed:
 
 **File structure:**
 ```
-COMBINED/workspace-config/claude/skills/
+.claude/workspace-config/claude/skills/
   ├── agentdb-vector-search/
   │   └── SKILL.md
   ├── agentdb-memory-patterns/
@@ -913,7 +913,7 @@ npx agentic-flow skills init-builder
 
 **File structure:**
 ```
-COMBINED/workspace-config/claude/skills/skill-builder/
+.claude/workspace-config/claude/skills/skill-builder/
   ├── SKILL.md                    # Main skill-builder skill
   ├── README.md                   # Quick reference guide
   ├── docs/
@@ -960,11 +960,11 @@ npx agentic-flow skills list
 📚 Installed Claude Code Skills
 ═══════════════════════════════════════════════════════════════
 
-Personal Skills (~/COMBINED/workspace-config/claude/skills/)
+Personal Skills (~/.claude/workspace-config/claude/skills/)
   • Skill Builder
      Create new Claude Code Skills with proper YAML frontmatter...
 
-Project Skills (COMBINED/workspace-config/claude/skills/)
+Project Skills (.claude/workspace-config/claude/skills/)
   • AgentDB Memory Patterns
      Implement persistent memory patterns for AI agents...
   • AgentDB Vector Search
@@ -1166,7 +1166,7 @@ The docs are in markdown files and I want users to search by meaning, not keywor
 #### Step 2: Claude Discovers the Skill
 
 Claude Code automatically:
-1. ✅ Scans `COMBINED/workspace-config/claude/skills/`
+1. ✅ Scans `.claude/workspace-config/claude/skills/`
 2. ✅ Finds `agentdb-vector-search/SKILL.md`
 3. ✅ Recognizes "semantic search" matches skill description
 4. ✅ Loads skill instructions
@@ -1434,7 +1434,7 @@ The **Claude Agent SDK** (released October 2025) enables programmatic agent deve
 ```typescript
 import { Agent } from '@anthropic-ai/claude-agent-sdk';
 
-// Create agent (auto-discovers skills in ~/COMBINED/workspace-config/claude/skills/)
+// Create agent (auto-discovers skills in ~/.claude/workspace-config/claude/skills/)
 const agent = new Agent({
   apiKey: process.env.ANTHROPIC_API_KEY,
 
@@ -1662,7 +1662,7 @@ Following the skill-builder template...
 ✓ Adding code examples
 ✓ Validating skill structure
 
-Creating: COMBINED/workspace-config/claude/skills/graphql-api-design/SKILL.md
+Creating: .claude/workspace-config/claude/skills/graphql-api-design/SKILL.md
 ```
 
 **Step 3: Claude generates a complete skill**
@@ -1759,13 +1759,13 @@ npx agentic-flow skills list
 #### Step 1: Create Directory
 
 ```bash
-mkdir -p COMBINED/workspace-config/claude/skills/my-custom-skill
+mkdir -p .claude/workspace-config/claude/skills/my-custom-skill
 ```
 
 #### Step 2: Create SKILL.md
 
 ```bash
-cat > COMBINED/workspace-config/claude/skills/my-custom-skill/SKILL.md << 'EOF'
+cat > .claude/workspace-config/claude/skills/my-custom-skill/SKILL.md << 'EOF'
 ---
 name: "My Custom Skill"
 description: "Brief description of what this skill does and when to use it.
@@ -1795,7 +1795,7 @@ EOF
 
 ```bash
 # Use skill-builder to validate
-npx agentic-flow skills validate COMBINED/workspace-config/claude/skills/my-custom-skill/SKILL.md
+npx agentic-flow skills validate .claude/workspace-config/claude/skills/my-custom-skill/SKILL.md
 ```
 
 **Output:**
@@ -1839,7 +1839,7 @@ Creating "Microservice Architecture Design" skill...
 ✓ Adding tech-specific examples (Node.js, Docker, K8s)
 ✓ Validating against Claude Skills specification
 
-Created: COMBINED/workspace-config/claude/skills/microservice-architecture-design/SKILL.md
+Created: .claude/workspace-config/claude/skills/microservice-architecture-design/SKILL.md
 ```
 
 #### Step 2: Generate companion testing skill
@@ -1851,7 +1851,7 @@ Cover unit, integration, contract, and E2E testing.
 
 Claude generates:
 ```
-COMBINED/workspace-config/claude/skills/microservice-testing-patterns/SKILL.md
+.claude/workspace-config/claude/skills/microservice-testing-patterns/SKILL.md
 ```
 
 #### Step 3: Use both skills together
@@ -2030,7 +2030,7 @@ await reasoningbank.recordExecution({
 ```bash
 # 1. Create team-specific skills in project directory
 cd /your-project
-npx agentic-flow skills init  # Creates COMBINED/workspace-config/claude/skills/
+npx agentic-flow skills init  # Creates .claude/workspace-config/claude/skills/
 
 # 2. Generate team skills with skill-builder
 # Ask Claude Code:
@@ -2039,7 +2039,7 @@ Include our preferred patterns: REST with OpenAPI, JWT auth,
 cursor pagination, and error handling standards."
 
 # 3. Commit to version control
-git add COMBINED/workspace-config/claude/skills/
+git add .claude/workspace-config/claude/skills/
 git commit -m "feat: Add team API design standards skill"
 git push origin main
 
@@ -2054,11 +2054,11 @@ git pull
 
 ```bash
 # 1. Copy the sample skill
-cp -r COMBINED/workspace-config/claude/skills/agentdb-vector-search \
-      COMBINED/workspace-config/claude/skills/agentdb-python-search
+cp -r .claude/workspace-config/claude/skills/agentdb-vector-search \
+      .claude/workspace-config/claude/skills/agentdb-python-search
 
 # 2. Edit and customize
-code COMBINED/workspace-config/claude/skills/agentdb-python-search/SKILL.md
+code .claude/workspace-config/claude/skills/agentdb-python-search/SKILL.md
 ```
 
 **Update code examples to Python:**
@@ -2142,7 +2142,7 @@ Claude discovers your customized Python skill and generates Python code!
 git clone https://github.com/your-org/claude-skills.git ~/.claude/skills-org
 
 # 2. Symlink org skills to personal directory
-ln -s ~/.claude/skills-org/* ~/COMBINED/workspace-config/claude/skills/
+ln -s ~/.claude/skills-org/* ~/.claude/workspace-config/claude/skills/
 
 # 3. Keep skills updated
 cd ~/.claude/skills-org
@@ -2195,22 +2195,22 @@ cat > package.json << 'EOF'
   "keywords": ["agentic-flow", "claude-code", "skills", "web3"],
   "files": ["skills/"],
   "scripts": {
-    "postinstall": "mkdir -p ~/.claude/skills && cp -r skills/* ~/COMBINED/workspace-config/claude/skills/"
+    "postinstall": "mkdir -p ~/.claude/skills && cp -r skills/* ~/.claude/workspace-config/claude/skills/"
   }
 }
 EOF
 
 # 3. Add your skills
 mkdir -p skills/
-cp -r COMBINED/workspace-config/claude/skills/solidity-patterns skills/
-cp -r COMBINED/workspace-config/claude/skills/smart-contract-security skills/
+cp -r .claude/workspace-config/claude/skills/solidity-patterns skills/
+cp -r .claude/workspace-config/claude/skills/smart-contract-security skills/
 
 # 4. Publish
 npm publish
 
 # 5. Users install with:
 npm install -g agentic-flow-skills-web3
-# Skills automatically copied to ~/COMBINED/workspace-config/claude/skills/
+# Skills automatically copied to ~/.claude/workspace-config/claude/skills/
 ```
 
 ---
@@ -2372,7 +2372,7 @@ description: "Coordinate multiple agents to build complete applications."
 **Built-in validation checks:**
 
 ```bash
-bash COMBINED/workspace-config/claude/skills/skill-builder/scripts/validate-skill.sh my-skill/SKILL.md
+bash .claude/workspace-config/claude/skills/skill-builder/scripts/validate-skill.sh my-skill/SKILL.md
 ```
 
 **Checks performed:**
@@ -2443,7 +2443,7 @@ Next steps:
 #### Interactive Generator
 
 ```bash
-bash COMBINED/workspace-config/claude/skills/skill-builder/scripts/generate-skill.sh
+bash .claude/workspace-config/claude/skills/skill-builder/scripts/generate-skill.sh
 ```
 
 **Features:**
@@ -2494,7 +2494,7 @@ Generate code examples?
 ✓ Validating...
 ✓ Success!
 
-Created: COMBINED/workspace-config/claude/skills/database-query-optimization/SKILL.md
+Created: .claude/workspace-config/claude/skills/database-query-optimization/SKILL.md
 
 Test it:
   "Optimize this slow database query: SELECT * FROM users..."
@@ -2505,7 +2505,7 @@ Test it:
 **Create multiple skills at once:**
 
 ```bash
-bash COMBINED/workspace-config/claude/skills/skill-builder/scripts/batch-generate.sh skills.yaml
+bash .claude/workspace-config/claude/skills/skill-builder/scripts/batch-generate.sh skills.yaml
 ```
 
 **skills.yaml:**
@@ -2555,7 +2555,7 @@ Test them with Claude Code!
 **Test script validates skill functionality:**
 
 ```bash
-bash COMBINED/workspace-config/claude/skills/skill-builder/scripts/test-skill.sh \
+bash .claude/workspace-config/claude/skills/skill-builder/scripts/test-skill.sh \
      database-query-optimization/SKILL.md
 ```
 
@@ -2676,20 +2676,20 @@ See also: `agentdb-vector-search`, `swarm-orchestration`
 **Solutions**:
 ```bash
 # 1. Verify skill location (MUST be top level!)
-ls ~/COMBINED/workspace-config/claude/skills/          # Personal
-ls COMBINED/workspace-config/claude/skills/            # Project
+ls ~/.claude/workspace-config/claude/skills/          # Personal
+ls .claude/workspace-config/claude/skills/            # Project
 
 # Should see: my-skill/SKILL.md
 # NOT: subdirectory/my-skill/SKILL.md
 
 # 2. Validate YAML frontmatter
-npx agentic-flow skills validate COMBINED/workspace-config/claude/skills/my-skill/SKILL.md
+npx agentic-flow skills validate .claude/workspace-config/claude/skills/my-skill/SKILL.md
 
 # 3. Restart Claude Code
 # Skills are loaded at startup
 
 # 4. Check file permissions
-chmod 644 COMBINED/workspace-config/claude/skills/my-skill/SKILL.md
+chmod 644 .claude/workspace-config/claude/skills/my-skill/SKILL.md
 ```
 
 ### Issue: Skill Executes Incorrectly
@@ -2710,7 +2710,7 @@ await reasoningbank.debug({
 });
 
 # 3. Review skill instructions
-cat COMBINED/workspace-config/claude/skills/my-skill/SKILL.md
+cat .claude/workspace-config/claude/skills/my-skill/SKILL.md
 ```
 
 ### Issue: Skills Conflict

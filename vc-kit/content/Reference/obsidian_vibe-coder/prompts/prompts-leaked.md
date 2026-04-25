@@ -10,12 +10,12 @@ aliases:
   - prompts leaked
 created: 2026-04-18
 type: prompts-note
-source: "../COMBINED/prompts/prompts-leaked/"
+source: "../.claude/prompts/prompts-leaked/"
 ---
 
 # Prompts: Leaked AI Prompts
 
-> **Источник:** `../COMBINED/prompts/prompts-leaked/`
+> **Источник:** `../.claude/prompts/prompts-leaked/`
 
 ## О чём
 

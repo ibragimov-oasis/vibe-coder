@@ -1,11 +1,11 @@
 ---
-title: MCP Servers Overview — COMBINED/mcp-servers
+title: MCP Servers Overview — .claude/mcp-servers
 tags:
   - domain/mcp
   - artifact/index
   - status/active
   - source/combined
-source: "../COMBINED/mcp-servers/"
+source: "../.claude/mcp-servers/"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -13,15 +13,15 @@ aliases:
   - mcp directory
 ---
 
-# 📄 MCP Servers Overview — COMBINED/mcp-servers
+# 📄 MCP Servers Overview — .claude/mcp-servers
 
-> **Тип:** Domain overview | **Источник:** `../COMBINED/mcp-servers/`
-> **Краткое описание:** Структура директории COMBINED/mcp-servers — конфигурации 9 активных MCP серверов.
+> **Тип:** Domain overview | **Источник:** `../.claude/mcp-servers/`
+> **Краткое описание:** Структура директории .claude/mcp-servers — конфигурации 9 активных MCP серверов.
 
 ## Структура директории
 
 ```
-COMBINED/mcp-servers/
+.claude/mcp-servers/
 ├── mcp-lightpanda/          — Lightpanda Browser (9x faster CDP)
 ├── mcp-gitnexus/            — GitNexus (codebase map, analysis)
 ├── mcp-openviking/          — OpenViking (codebase context)

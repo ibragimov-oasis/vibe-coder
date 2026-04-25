@@ -58,14 +58,14 @@ Step 5: AI reads `packages/` → discovers SDK packages (client, tools, types)
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/29-supermemory/ | Documentation |
-| CLAUDE.md | COMBINED/prompts/system/ | Claude system instructions |
-| apps/mcp/ | COMBINED/mcp-servers/supermemory/ | MCP server |
-| packages/ | COMBINED/memory/memory-supermemory/ | SDK packages |
+| README.md | .claude/REPO_DOCS/29-supermemory/ | Documentation |
+| CLAUDE.md | .claude/prompts/system/ | Claude system instructions |
+| apps/mcp/ | .claude/mcp-servers/supermemory/ | MCP server |
+| packages/ | .claude/memory/memory-supermemory/ | SDK packages |
 
 ---
 

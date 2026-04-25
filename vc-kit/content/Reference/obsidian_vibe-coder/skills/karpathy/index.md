@@ -11,7 +11,7 @@ aliases:
   - andrej karpathy principles
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-claude/karpathy/"
+source: "../.claude/skills/skills-claude/karpathy/"
 ---
 
 # 🧠 Karpathy 4 Principles — Index

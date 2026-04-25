@@ -76,14 +76,14 @@ Step 7: AI reads `.agent/rules/claude-mem-context.md` → loads agent context ru
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/26-claude-mem/ | Documentation |
-| .claude/commands/ | COMBINED/commands/claude-mem/ | Anti-pattern detection command |
-| .claude/skills/ | COMBINED/skills/by-domain/memory/ | Memory compression skills |
-| .mcp.json | COMBINED/mcp-servers/claude-mem/ | MCP configuration |
+| README.md | .claude/REPO_DOCS/26-claude-mem/ | Documentation |
+| .claude/commands/ | .claude/commands/claude-mem/ | Anti-pattern detection command |
+| .claude/skills/ | .claude/skills/by-domain/memory/ | Memory compression skills |
+| .mcp.json | .claude/mcp-servers/claude-mem/ | MCP configuration |
 
 ---
 

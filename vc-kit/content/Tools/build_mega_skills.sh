@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 ROOT="/Users/ibragimov/Desktop/GitHub/vibe-coder"
-OUT="$ROOT/COMBINED/MEGA_SKILLS.md"
+OUT="$ROOT/.claude/MEGA_SKILLS.md"
 
 # Header
 cat > "$OUT" << 'HEADER'

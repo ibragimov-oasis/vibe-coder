@@ -11,12 +11,12 @@ aliases:
   - claude code tips
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-claude/best-practice/"
+source: "../.claude/skills/skills-claude/best-practice/"
 ---
 
 # Skills: Claude Best Practice (69 советов)
 
-> **Источник:** `../COMBINED/skills/skills-claude/best-practice/`
+> **Источник:** `../.claude/skills/skills-claude/best-practice/`
 
 ## О чём
 

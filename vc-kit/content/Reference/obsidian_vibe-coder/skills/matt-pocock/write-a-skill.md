@@ -11,7 +11,7 @@ aliases:
   - skill authoring
 created: 2026-04-18
 type: skill
-source: "../COMBINED/skills/skills-writing/write-a-skill/"
+source: "../.claude/skills/skills-writing/write-a-skill/"
 ---
 
 # 🛠️ Skill: write-a-skill
@@ -73,7 +73,7 @@ Output: ...
 ```
 1. Обнаружить паттерн в работе
 2. write-a-skill: формализовать в SKILL.md
-3. Сохранить в COMBINED/skills/{domain}/
+3. Сохранить в .claude/skills/{domain}/
 4. Обновить MOC - Skills
 5. Hermes: добавить в память (supermemory)
 ```

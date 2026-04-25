@@ -11,12 +11,12 @@ aliases:
   - combined commands
 created: 2026-04-18
 type: index
-source: "../COMBINED/commands/"
+source: "../.claude/commands/"
 ---
 
 # COMBINED Commands Index
 
-> **Источник:** `../COMBINED/commands/`
+> **Источник:** `../.claude/commands/`
 
 ## Описание
 

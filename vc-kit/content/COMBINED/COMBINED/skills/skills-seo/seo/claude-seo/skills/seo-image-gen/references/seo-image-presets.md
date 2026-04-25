@@ -130,7 +130,7 @@ preset format (see `references/presets.md` for schema details).
 
 Users can create their own presets:
 ```bash
-python3 ~/COMBINED/workspace-config/claude/skills/seo-image-gen/scripts/presets.py create my-brand
+python3 ~/.claude/workspace-config/claude/skills/seo-image-gen/scripts/presets.py create my-brand
 ```
 
 This creates `~/.banana/presets/my-brand.json` with the full schema.

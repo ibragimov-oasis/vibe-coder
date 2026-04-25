@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-All 31 source repositories have been verified for content migration to COMBINED/. The system now contains **15 mega-agents**, **19 skill categories**, **10 orchestration systems**, **3 memory systems**, **6 MCP servers**, and **3,000+ UI components**.
+All 31 source repositories have been verified for content migration to .claude/. The system now contains **15 mega-agents**, **19 skill categories**, **10 orchestration systems**, **3 memory systems**, **6 MCP servers**, and **3,000+ UI components**.
 
 ---
 
@@ -56,9 +56,9 @@ All 31 source repositories have been verified for content migration to COMBINED/
 
 | Category | Count | Location |
 |----------|-------|----------|
-| Mega agents | 15 | `COMBINED/agents/mega/` |
-| By-role categories | 19 | `COMBINED/agents/by-role/` |
-| By-interface sets | 6 | `COMBINED/agents/by-interface/` |
+| Mega agents | 15 | `.claude/agents/mega/` |
+| By-role categories | 19 | `.claude/agents/by-role/` |
+| By-interface sets | 6 | `.claude/agents/by-interface/` |
 | Source-specific agents | 4 groups | `agents-ruflo/`, `agents-superpowers/`, `agents-deer-flow/`, `agents-claude-skills/` |
 | Background agents | 1 group | `agents/background-agents/` |
 | **Total** | **336+** | |
@@ -67,25 +67,25 @@ All 31 source repositories have been verified for content migration to COMBINED/
 
 | Category | Location | Status |
 |----------|----------|--------|
-| skills-antigravity | `COMBINED/skills/` | ✅ |
-| skills-awesome-claude | `COMBINED/skills/` | ✅ |
-| skills-background | `COMBINED/skills/` | ✅ |
-| skills-business | `COMBINED/skills/` | ✅ |
-| skills-claude | `COMBINED/skills/` | ✅ |
-| skills-copilot | `COMBINED/skills/` | ✅ |
-| skills-data-analysis | `COMBINED/skills/` | ✅ |
-| skills-deer-flow | `COMBINED/skills/` | ✅ |
-| skills-design | `COMBINED/skills/` | ✅ |
-| skills-devops | `COMBINED/skills/` | ✅ |
-| skills-everything-cc | `COMBINED/skills/` | ✅ |
-| skills-hermes | `COMBINED/skills/` | ✅ |
-| skills-omc | `COMBINED/skills/` | ✅ |
-| skills-platform | `COMBINED/skills/` | ✅ |
-| skills-research | `COMBINED/skills/` | ✅ |
-| skills-ruflo | `COMBINED/skills/` | ✅ |
-| skills-seo | `COMBINED/skills/` | ✅ |
-| skills-superpowers | `COMBINED/skills/` | ✅ |
-| skills-writing | `COMBINED/skills/` | ✅ |
+| skills-antigravity | `.claude/skills/` | ✅ |
+| skills-awesome-claude | `.claude/skills/` | ✅ |
+| skills-background | `.claude/skills/` | ✅ |
+| skills-business | `.claude/skills/` | ✅ |
+| skills-claude | `.claude/skills/` | ✅ |
+| skills-copilot | `.claude/skills/` | ✅ |
+| skills-data-analysis | `.claude/skills/` | ✅ |
+| skills-deer-flow | `.claude/skills/` | ✅ |
+| skills-design | `.claude/skills/` | ✅ |
+| skills-devops | `.claude/skills/` | ✅ |
+| skills-everything-cc | `.claude/skills/` | ✅ |
+| skills-hermes | `.claude/skills/` | ✅ |
+| skills-omc | `.claude/skills/` | ✅ |
+| skills-platform | `.claude/skills/` | ✅ |
+| skills-research | `.claude/skills/` | ✅ |
+| skills-ruflo | `.claude/skills/` | ✅ |
+| skills-seo | `.claude/skills/` | ✅ |
+| skills-superpowers | `.claude/skills/` | ✅ |
+| skills-writing | `.claude/skills/` | ✅ |
 | **Total categories** | **19** | |
 
 ### Orchestration Systems
@@ -168,7 +168,7 @@ All 31 source repositories have been verified for content migration to COMBINED/
 
 **Phase 5 Status: ✅ COMPLETE**
 
-All 31 source repositories have been successfully migrated to the COMBINED/ directory structure. No content was lost. All agents, skills, prompts, configurations, and tools are accounted for and accessible through the unified Vibe-Coder system.
+All 31 source repositories have been successfully migrated to the .claude/ directory structure. No content was lost. All agents, skills, prompts, configurations, and tools are accounted for and accessible through the unified Vibe-Coder system.
 
 **Audit Date:** 2026-04-13
 **Auditor:** Vibe-Coder Verification System

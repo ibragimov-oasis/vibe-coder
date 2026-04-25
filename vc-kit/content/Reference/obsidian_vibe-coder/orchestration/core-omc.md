@@ -11,12 +11,12 @@ aliases:
   - multi-agent coordination
 created: 2026-04-18
 type: system-note
-source: "../COMBINED/orchestration/core-omc/"
+source: "../.claude/orchestration/core-omc/"
 ---
 
 # Orchestration: OMC (Oh My Claude)
 
-> **Источник:** `../COMBINED/orchestration/core-omc/`
+> **Источник:** `../.claude/orchestration/core-omc/`
 
 ## Описание
 

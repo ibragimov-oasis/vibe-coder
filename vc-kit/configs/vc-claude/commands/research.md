@@ -60,8 +60,8 @@ After research completes, `/research` automatically triggers the Hermes loop to:
 
 - `.claude/agents/mega-researcher.md` — full agent spec
 - `.claude/agents/mega-orchestrator.md` — pipeline context
-- `COMBINED/agents/agents-hermes/` — Hermes self-learning system
-- `COMBINED/orchestration/core-deer-flow/` — deep research orchestration
+- `.claude/agents/agents-hermes/` — Hermes self-learning system
+- `.claude/orchestration/core-deer-flow/` — deep research orchestration
 
 ## 🔗 Связи
 

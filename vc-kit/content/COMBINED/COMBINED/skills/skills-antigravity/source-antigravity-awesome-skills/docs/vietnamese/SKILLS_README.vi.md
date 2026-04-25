@@ -37,7 +37,7 @@ skills/
 ## Cách sử dụng Kỹ năng
 
 ### Bước 1: Đảm bảo kỹ năng đã được thiết lập
-Các file kỹ năng nên nằm trong thư mục `.agent/skills/` của bạn (hoặc `COMBINED/workspace-config/claude/skills/`, `.gemini/skills/`, v.v.)
+Các file kỹ năng nên nằm trong thư mục `.agent/skills/` của bạn (hoặc `.claude/workspace-config/claude/skills/`, `.gemini/skills/`, v.v.)
 
 ### Bước 2: Kích hoạt kỹ năng trong cuộc trò chuyện với AI
 Sử dụng biểu tượng `@` theo sau bởi tên kỹ năng:

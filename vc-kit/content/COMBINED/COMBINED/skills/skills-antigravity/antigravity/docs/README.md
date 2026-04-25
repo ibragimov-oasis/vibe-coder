@@ -169,7 +169,7 @@ These skills follow the universal **SKILL.md** format and work with any AI codin
 
 | Tool                  | Type | Invocation Example                  | Path                                                                      |
 | :-------------------- | :--- | :---------------------------------- | :------------------------------------------------------------------------ |
-| **Claude Code** | CLI  | `>> /skill-name help me...`       | `COMBINED/workspace-config/claude/skills/`                                                       |
+| **Claude Code** | CLI  | `>> /skill-name help me...`       | `.claude/workspace-config/claude/skills/`                                                       |
 | **Gemini CLI**  | CLI  | `(User Prompt) Use skill-name...` | `.gemini/skills/`                                                       |
 | **Codex CLI**   | CLI  | `(User Prompt) Use skill-name...` | `.codex/skills/`                                                        |
 | **Kiro CLI**    | CLI  | `(Auto) Skills load on-demand`    | Global:`~/.kiro/skills/` · Workspace: `.kiro/skills/`                |

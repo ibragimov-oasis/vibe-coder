@@ -11,12 +11,12 @@ aliases:
   - systematic dev workflow
 created: 2026-04-18
 type: agents-deepdive
-source: "../COMBINED/orchestration/superpowers/"
+source: "../.claude/orchestration/superpowers/"
 ---
 
 # ⚡ Superpowers Workflow — Agents Deep-Dive
 
-> **Источник:** `../COMBINED/orchestration/superpowers/`
+> **Источник:** `../.claude/orchestration/superpowers/`
 > **Репозиторий:** Superpowers (129k⭐) — Universal development workflow
 > **Философия:** Systematic > Ad-hoc, Test-Driven, Evidence-Based
 > **Мета-агент:** [[agents/mega-coder]]

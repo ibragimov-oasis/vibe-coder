@@ -80,29 +80,29 @@ Before ANY task:
 
 1. **BROWSER**: Always Lightpanda (9× faster, 16× less memory). NEVER Chrome. EVER.
    - MCP: `lightpanda` → `npx -y lightpanda-mcp`
-   - Docs: `COMBINED/mcp-servers/mcp-lightpanda/`
+   - Docs: `.claude/mcp-servers/mcp-lightpanda/`
 2. **MEMORY**: Check supermemory BEFORE every task, save AFTER. Use openviking for code context.
-   - Short-term: `COMBINED/memory/memory-claude-mem/`
+   - Short-term: `.claude/memory/memory-claude-mem/`
    - Long-term: `https://mcp.supermemory.ai/mcp`
-   - Codebase: `COMBINED/mcp-servers/mcp-openviking/`
+   - Codebase: `.claude/mcp-servers/mcp-openviking/`
 3. **DESIGN**: Galaxy → shadcn → Impeccable → Taste-skill → Stitch → UI/UX Pro Max. Agent: mega-designer.
-   - Galaxy: `COMBINED/ui-design/ui-components-galaxy/` (3,000+ components)
-   - shadcn: `COMBINED/ui-design/ui-components-shadcn/`
-   - Impeccable: `COMBINED/ui-design/ui-impeccable/` (18 commands, 7 references, anti-pattern detection)
-   - Taste-skill: `COMBINED/ui-design/ui-taste-skill/` (7 premium skills, 3-dial parameterization)
-   - Stitch: `COMBINED/ui-design/ui-stitch-skills/` (Google Stitch design generation, React components)
-   - Rules: `COMBINED/ui-design/ui-rules/ui-ux-pro-max/` (161 rules)
+   - Galaxy: `.claude/ui-design/ui-components-galaxy/` (3,000+ components)
+   - shadcn: `.claude/ui-design/ui-components-shadcn/`
+   - Impeccable: `.claude/ui-design/ui-impeccable/` (18 commands, 7 references, anti-pattern detection)
+   - Taste-skill: `.claude/ui-design/ui-taste-skill/` (7 premium skills, 3-dial parameterization)
+   - Stitch: `.claude/ui-design/ui-stitch-skills/` (Google Stitch design generation, React components)
+   - Rules: `.claude/ui-design/ui-rules/ui-ux-pro-max/` (161 rules)
 4. **PIPELINE**: Task Master → Archon → Background Agent → Hermes → Shannon → loop if vulnerable.
    - Full spec: `PIPELINE.md`
 5. **SELF-IMPROVEMENT**: Hermes extracts patterns after every task → creates skills → saves to memory.
-   - Hermes: `COMBINED/orchestration/core-hermes/`
-   - Output: `COMBINED/skills/{domain}/{skill-name}/SKILL.md`
+   - Hermes: `.claude/orchestration/core-hermes/`
+   - Output: `.claude/skills/{domain}/{skill-name}/SKILL.md`
 
 ---
 
 ## 🤖 15 MEGA AGENTS (start here for any task)
 
-All definitions in `COMBINED/agents/mega/`:
+All definitions in `.claude/agents/mega/`:
 
 | Agent | File | Purpose | Sources |
 |-------|------|---------|---------
@@ -128,19 +128,19 @@ All definitions in `COMBINED/agents/mega/`:
 
 | Agent | Location | Role |
 |-------|----------|------|
-| Task Master | `COMBINED/orchestration/core-taskmaster/` | Step 0: structure tasks from PRD |
-| Archon | `COMBINED/orchestration/core-archon/` | Step 0.5: YAML DAG workflow (optional) |
-| Background Agent | `COMBINED/orchestration/core-background-agents/` | Step 1: execute task |
-| Hermes | `COMBINED/orchestration/core-hermes/` | Step 2: self-learning loop |
-| Shannon | `COMBINED/security/security-shannon/` | Step 3: security audit |
-| Code Review Graph | `COMBINED/mcp-servers/mcp-code-review-graph/` | Step 4: structural review (optional) |
-| Claude HUD | `COMBINED/reference/claude-hud/` | Monitoring: real-time throughout |
+| Task Master | `.claude/orchestration/core-taskmaster/` | Step 0: structure tasks from PRD |
+| Archon | `.claude/orchestration/core-archon/` | Step 0.5: YAML DAG workflow (optional) |
+| Background Agent | `.claude/orchestration/core-background-agents/` | Step 1: execute task |
+| Hermes | `.claude/orchestration/core-hermes/` | Step 2: self-learning loop |
+| Shannon | `.claude/security/security-shannon/` | Step 3: security audit |
+| Code Review Graph | `.claude/mcp-servers/mcp-code-review-graph/` | Step 4: structural review (optional) |
+| Claude HUD | `.claude/reference/claude-hud/` | Monitoring: real-time throughout |
 
 ---
 
 ## 📋 AGENTS BY ROLE (19 categories, 336+ agents)
 
-All in `COMBINED/agents/by-role/`:
+All in `.claude/agents/by-role/`:
 
 ### 🏗️ Architecture & Planning
 - `mega-planner` — unified planning agent
@@ -207,24 +207,24 @@ All in `COMBINED/agents/by-role/`:
 ## AGENTS BY INTERFACE
 
 ### Claude Code (`.claude/`)
-Source: `COMBINED/agents/by-interface/agents-claude/`
+Source: `.claude/agents/by-interface/agents-claude/`
 Config: `.claude/CLAUDE.md` + `.claude/settings.json`
 Tools: All tools available including Bash, file I/O, MCP
 
 ### GitHub Copilot (`.github/`)
-Source: `COMBINED/agents/by-interface/agents-copilot/`
+Source: `.claude/agents/by-interface/agents-copilot/`
 Config: `.github/copilot-instructions.md`
 
 ### Cursor (`.cursor/`)
-Source: `COMBINED/agents/by-interface/agents-cursor/`
+Source: `.claude/agents/by-interface/agents-cursor/`
 Config: `.cursor/rules/`
 
 ### OpenAI Codex (`.codex/`)
-Source: `COMBINED/agents/by-interface/agents-codex/`
+Source: `.claude/agents/by-interface/agents-codex/`
 Config: `.codex/AGENTS.md`
 
 ### Antigravity (`.antigravity/`)
-Source: `COMBINED/agents/by-interface/agents-antigravity/`
+Source: `.claude/agents/by-interface/agents-antigravity/`
 
 ### Gemini CLI (`.gemini/`)
 Config: `.gemini/GEMINI.md`
@@ -235,24 +235,24 @@ Config: `.gemini/GEMINI.md`
 
 | System | Location | Best for | Key Feature |
 |--------|----------|---------|-------------|
-| RuFlo | `COMBINED/orchestration/core-ruflo/` | Agent workflows | Q-Learning Router, 100+ agents |
-| GSD | `COMBINED/orchestration/core-gsd/` | Task execution | Spec-driven, context engineering |
-| OMC | `COMBINED/orchestration/core-omc/` | Multi-agent teams | 19 agents, team pipeline |
-| DeerFlow | `COMBINED/orchestration/core-deer-flow/` | Deep research | LangGraph + FastAPI, ByteDance |
-| Hermes | `COMBINED/orchestration/core-hermes/` | Self-learning | Pattern extraction, skill creation |
-| Background Agents | `COMBINED/orchestration/core-background-agents/` | Async tasks | Sandboxed environments |
-| 1Code | `COMBINED/orchestration/core-1code/` | Lightweight | Simple orchestration |
-| Superpowers | `COMBINED/orchestration/superpowers/` | Dev workflow | TDD, composable skills |
-| Vibe-Kanban | `COMBINED/orchestration/core-vibe-kanban/` | Task management | Kanban boards |
-| Terraform | `COMBINED/orchestration/workflows-terraform/` | Infra-as-code | Terraform workflows |
-| **Archon** | `COMBINED/orchestration/core-archon/` | YAML workflows | Deterministic DAG, 17 default workflows, fire-and-forget |
-| **Ralph** | `COMBINED/orchestration/core-ralph/` | PRD-driven loop | progress.txt, fresh context per iteration, prd.json |
-| **Squad** | `COMBINED/orchestration/core-squad/` | AI team via Copilot | Named agents, casting, watch mode, decisions archive |
-| **Multica** | `COMBINED/orchestration/core-multica/` | Agent platform | Agents as teammates, board view, multi-workspace |
-| **PraisonAI** | `COMBINED/orchestration/core-praisonai/` | Multi-agent framework | 100+ LLMs, route/parallel/loop/repeat, MCP, guardrails |
-| **cc-connect** | `COMBINED/orchestration/core-cc-connect/` | Remote access | 7 AI agents × 10 chat platforms, cron jobs, voice/images |
-| **Task Master** | `COMBINED/orchestration/core-taskmaster/` | Task management | MCP-based, PRD→tasks, 36 tools, complexity analysis, multi-model |
-| **Refly** | `COMBINED/orchestration/core-refly/` | Skills builder | Visual workflow → executable skill, export to Claude/Cursor/MCP |
+| RuFlo | `.claude/orchestration/core-ruflo/` | Agent workflows | Q-Learning Router, 100+ agents |
+| GSD | `.claude/orchestration/core-gsd/` | Task execution | Spec-driven, context engineering |
+| OMC | `.claude/orchestration/core-omc/` | Multi-agent teams | 19 agents, team pipeline |
+| DeerFlow | `.claude/orchestration/core-deer-flow/` | Deep research | LangGraph + FastAPI, ByteDance |
+| Hermes | `.claude/orchestration/core-hermes/` | Self-learning | Pattern extraction, skill creation |
+| Background Agents | `.claude/orchestration/core-background-agents/` | Async tasks | Sandboxed environments |
+| 1Code | `.claude/orchestration/core-1code/` | Lightweight | Simple orchestration |
+| Superpowers | `.claude/orchestration/superpowers/` | Dev workflow | TDD, composable skills |
+| Vibe-Kanban | `.claude/orchestration/core-vibe-kanban/` | Task management | Kanban boards |
+| Terraform | `.claude/orchestration/workflows-terraform/` | Infra-as-code | Terraform workflows |
+| **Archon** | `.claude/orchestration/core-archon/` | YAML workflows | Deterministic DAG, 17 default workflows, fire-and-forget |
+| **Ralph** | `.claude/orchestration/core-ralph/` | PRD-driven loop | progress.txt, fresh context per iteration, prd.json |
+| **Squad** | `.claude/orchestration/core-squad/` | AI team via Copilot | Named agents, casting, watch mode, decisions archive |
+| **Multica** | `.claude/orchestration/core-multica/` | Agent platform | Agents as teammates, board view, multi-workspace |
+| **PraisonAI** | `.claude/orchestration/core-praisonai/` | Multi-agent framework | 100+ LLMs, route/parallel/loop/repeat, MCP, guardrails |
+| **cc-connect** | `.claude/orchestration/core-cc-connect/` | Remote access | 7 AI agents × 10 chat platforms, cron jobs, voice/images |
+| **Task Master** | `.claude/orchestration/core-taskmaster/` | Task management | MCP-based, PRD→tasks, 36 tools, complexity analysis, multi-model |
+| **Refly** | `.claude/orchestration/core-refly/` | Skills builder | Visual workflow → executable skill, export to Claude/Cursor/MCP |
 
 **Note**: Vibe-Kanban and Task Master are **merged** — Task Master extends Vibe-Kanban with MCP-based AI task management. Archon **complements** Background Agent with deterministic YAML DAG workflows.
 
@@ -260,7 +260,7 @@ Config: `.gemini/GEMINI.md`
 
 ## SKILLS LIBRARY (3,000+ skills in 24 categories)
 
-All in `COMBINED/skills/`:
+All in `.claude/skills/`:
 
 | Category | Path | Focus |
 |----------|------|-------|
@@ -328,13 +328,13 @@ Cross-reference: `INTERFACE_MATRIX.md` — shows which MCP servers work in which
 
 | Collection | Path | Content |
 |------------|------|---------|
-| AI System Prompts | `COMBINED/prompts/prompts-ai-systems/` | 30+ AI tool system prompts (Cursor, Claude, Devin, Manus, v0, Windsurf, etc.) |
-| System Prompts Archive | `COMBINED/prompts/prompts-system-models/` | 35+ AI tool prompt archive (Google, Anthropic, OpenAI, etc.) |
-| Cursor Rules | `COMBINED/reference/cursorrules/` | 500+ curated `.cursorrules` files for different frameworks and languages |
-| Claude Best Practices | `COMBINED/skills/skills-claude/best-practice/` | 69 tips, agent teams, orchestration workflows |
-| Claude HUD | `COMBINED/reference/claude-hud/` | Real-time monitoring plugin (context, tools, agents, todos, cost, git) |
-| Security Prompts | `COMBINED/prompts/prompts-security/` | Shannon Pro pentesting prompts |
-| Template Prompts | `COMBINED/prompts/prompts-templates/` | Reusable prompt templates |
+| AI System Prompts | `.claude/prompts/prompts-ai-systems/` | 30+ AI tool system prompts (Cursor, Claude, Devin, Manus, v0, Windsurf, etc.) |
+| System Prompts Archive | `.claude/prompts/prompts-system-models/` | 35+ AI tool prompt archive (Google, Anthropic, OpenAI, etc.) |
+| Cursor Rules | `.claude/reference/cursorrules/` | 500+ curated `.cursorrules` files for different frameworks and languages |
+| Claude Best Practices | `.claude/skills/skills-claude/best-practice/` | 69 tips, agent teams, orchestration workflows |
+| Claude HUD | `.claude/reference/claude-hud/` | Real-time monitoring plugin (context, tools, agents, todos, cost, git) |
+| Security Prompts | `.claude/prompts/prompts-security/` | Shannon Pro pentesting prompts |
+| Template Prompts | `.claude/prompts/prompts-templates/` | Reusable prompt templates |
 
 ---
 
@@ -347,7 +347,7 @@ Cross-reference: `INTERFACE_MATRIX.md` — shows which MCP servers work in which
 | **Surgical Changes** | Orthogonal edits, touching code you shouldn't — every changed line traces to user request |
 | **Goal-Driven Execution** | Leverage through tests-first, verifiable success criteria — loop until verified |
 
-Source: `COMBINED/skills/skills-claude/karpathy/`
+Source: `.claude/skills/skills-claude/karpathy/`
 
 ---
 

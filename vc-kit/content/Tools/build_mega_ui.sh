@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 ROOT="/Users/ibragimov/Desktop/GitHub/vibe-coder"
-OUT="$ROOT/COMBINED/MEGA_UI.md"
+OUT="$ROOT/.claude/MEGA_UI.md"
 
 cat > "$OUT" << 'HEADER'
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -95,7 +95,7 @@ add_files "$ROOT/.cursor" "Cursor rules"
 
 # PART 7: Any other cursorrules files in the repo
 add_section 7 "ALL OTHER CURSOR RULES FILES" "various"
-find "$ROOT" -name "*cursorrules*" -o -name "*.cursorrule" | grep -v ".git/" | grep -v "COMBINED/" | sort | while read f; do
+find "$ROOT" -name "*cursorrules*" -o -name "*.cursorrule" | grep -v ".git/" | grep -v ".claude/" | sort | while read f; do
     rel_path="${f#$ROOT/}"
     # Skip if already included above
     if [ "$rel_path" != ".cursorrules" ]; then
@@ -109,9 +109,9 @@ find "$ROOT" -name "*cursorrules*" -o -name "*.cursorrule" | grep -v ".git/" | g
 done
 echo "  ✓ Additional cursorrules scanned"
 
-# PART 8: COMBINED/ui folder 
-add_section 8 "COMBINED UI CONFIGS" "COMBINED/ui/"
-add_files "$ROOT/COMBINED/ui" "COMBINED/ui"
+# PART 8: .claude/ui folder 
+add_section 8 "COMBINED UI CONFIGS" ".claude/ui/"
+add_files "$ROOT/.claude/ui" ".claude/ui"
 
 # PART 9: Oh-my-claudecode UI related
 add_section 9 "OH-MY-CLAUDECODE UI BRIDGE" "Orchestration/oh-my-claudecode/bridge/"

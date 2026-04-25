@@ -126,18 +126,18 @@ This file contains a repository-wide inventory for Obsidian knowledge graph anal
 
 | Directory (depth 2) | `.md` count |
 |---|---:|
-| `COMBINED/skills` | 12403 |
-| `COMBINED/orchestration` | 5109 |
-| `COMBINED/mcp-servers` | 1442 |
-| `COMBINED/ui-design` | 958 |
-| `COMBINED/agents` | 712 |
-| `COMBINED/commands` | 315 |
-| `COMBINED/prompts` | 250 |
-| `COMBINED/workspace-config` | 242 |
-| `COMBINED/REPO_DOCS` | 209 |
+| `.claude/skills` | 12403 |
+| `.claude/orchestration` | 5109 |
+| `.claude/mcp-servers` | 1442 |
+| `.claude/ui-design` | 958 |
+| `.claude/agents` | 712 |
+| `.claude/commands` | 315 |
+| `.claude/prompts` | 250 |
+| `.claude/workspace-config` | 242 |
+| `.claude/REPO_DOCS` | 209 |
 | `.claude/commands` | 186 |
-| `COMBINED/memory` | 168 |
-| `COMBINED/reference` | 159 |
+| `.claude/memory` | 168 |
+| `.claude/reference` | 159 |
 | `.claude/skills` | 42 |
 | `new_repos/obsidian-copilot` | 41 |
 | `obsidian_vibe-coder/skills` | 40 |
@@ -153,13 +153,13 @@ This file contains a repository-wide inventory for Obsidian knowledge graph anal
 | `.github/prompts` | 10 |
 | `.claude/agents` | 9 |
 | `obsidian_vibe-coder/combined` | 9 |
-| `COMBINED/security` | 8 |
-| `COMBINED/hooks` | 8 |
+| `.claude/security` | 8 |
+| `.claude/hooks` | 8 |
 | `obsidian_vibe-coder/_governance` | 5 |
 
 ## 7) Key findings for the next phase
 
-- Most Markdown files are concentrated in `COMBINED/skills` and `COMBINED/orchestration`.
+- Most Markdown files are concentrated in `.claude/skills` and `.claude/orchestration`.
 - There are many repeated filenames (especially `SKILL.md`), which explains many similar labels in graph view.
 - Nodes already exist at scale, but graph readability still depends on consistent wiki-links, tags, and MOC hub pages.
 

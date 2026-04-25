@@ -20,7 +20,7 @@ Phase 1.3 has successfully completed the comprehensive analysis of the **Orchest
 
 ### Key Results
 - **7 repositories** analyzed: superpowers, get-shit-done, ruflo, deer-flow, oh-my-claudecode, 1code, vibe-kanban
-- **11,432 files** already in COMBINED/orchestration/ (from Phase 1 MOVE operation)
+- **11,432 files** already in .claude/orchestration/ (from Phase 1 MOVE operation)
 - **2,547 files** remaining in source directories
 - **orchestration_analysis.json** created with complete structure mapping
 - **Migration status:** 81.7% complete from Phase 1
@@ -32,15 +32,15 @@ Phase 1.3 has successfully completed the comprehensive analysis of the **Orchest
 ### 1.1 Superpowers — Complete Workflow System ⭐️ 129k stars
 **Type:** Composable Software Development Workflow
 **Source:** `Orchestration/superpowers/`
-**Combined Location:** `COMBINED/orchestration/superpowers/`
+**Combined Location:** `.claude/orchestration/superpowers/`
 
 **Files Remaining:** 1 (.DS_Store only)
 
 **Components Migrated:**
 - ✅ **14 Skills:** brainstorming, git-worktrees, planning, subagent-driven-development, test-driven-development, code-review, finishing-branch, etc.
-- ✅ **Agents:** Multiple role-based agents → `COMBINED/agents/by-role/`
-- ✅ **3 Commands:** → `COMBINED/commands/plan/superpowers/`
-- ✅ **4 Hooks:** → `COMBINED/hooks/notification/superpowers/`
+- ✅ **Agents:** Multiple role-based agents → `.claude/agents/by-role/`
+- ✅ **3 Commands:** → `.claude/commands/plan/superpowers/`
+- ✅ **4 Hooks:** → `.claude/hooks/notification/superpowers/`
 - ✅ **Interface Plugins:** claude-plugin, cursor-plugin, codex, opencode
 
 **Philosophy:**
@@ -57,17 +57,17 @@ Phase 1.3 has successfully completed the comprehensive analysis of the **Orchest
 ### 1.2 Get-Shit-Done (GSD) — Meta-Prompting System
 **Type:** Lightweight Meta-Prompting & Context Engineering
 **Source:** `Orchestration/get-shit-done/`
-**Combined Location:** `COMBINED/orchestration/get-shit-done/`
+**Combined Location:** `.claude/orchestration/get-shit-done/`
 
 **Files Remaining:** 2 (.DS_Store, scripts/build-hooks.js)
 
 **Components Migrated:**
 - ✅ **18 Agents:** debugger, executor, planner, researcher, roadmapper, spec-writer, etc.
-  - Location: `COMBINED/agents/by-role/[role]/gsd-[name].md`
+  - Location: `.claude/agents/by-role/[role]/gsd-[name].md`
 - ✅ **57 Commands:** gsd:help, gsd:spec, gsd:plan, gsd:exec, etc.
-  - Location: `COMBINED/commands/general/gsd/`
+  - Location: `.claude/commands/general/gsd/`
 - ✅ **5 Hooks:**
-  - Location: `COMBINED/hooks/notification/gsd/`
+  - Location: `.claude/hooks/notification/gsd/`
 - ✅ **Core System:** get-shit-done/ directory with meta-prompting engine
 
 **Key Features:**
@@ -85,7 +85,7 @@ Phase 1.3 has successfully completed the comprehensive analysis of the **Orchest
 ### 1.3 RuFlo — Enterprise AI Orchestration Framework
 **Type:** Multi-Agent Orchestration with Self-Learning
 **Source:** `Orchestration/ruflo/`
-**Combined Location:** `COMBINED/orchestration/ruflo/`
+**Combined Location:** `.claude/orchestration/ruflo/`
 
 **Files Remaining:** 40 (version directories, configs)
 
@@ -120,14 +120,14 @@ User → RuFlo CLI/MCP → Router → Swarm → Agents → Memory → LLM Provid
 - `v3/` - Current implementation with plugins and @claude-flow
 
 **Migration Status:** ✅ **COMPLETE**
-**Recommended Action:** Remaining 40 files are version-specific implementations and configs, properly preserved in COMBINED/orchestration/ruflo/ structure
+**Recommended Action:** Remaining 40 files are version-specific implementations and configs, properly preserved in .claude/orchestration/ruflo/ structure
 
 ---
 
 ### 1.4 DeerFlow — Full-Stack Super Agent Harness
 **Type:** ByteDance Super Agent Platform
 **Source:** `Orchestration/deer-flow/`
-**Combined Location:** `COMBINED/orchestration/deer-flow/`
+**Combined Location:** `.claude/orchestration/deer-flow/`
 
 **Files Remaining:** 4 (.gitignore files, 1 skill)
 
@@ -141,7 +141,7 @@ User → RuFlo CLI/MCP → Router → Swarm → Agents → Memory → LLM Provid
   - `frontend/src/app/` - Next.js routes/pages
   - `frontend/src/components/` - UI components
   - `frontend/src/core/` - app logic (threads, tools, API)
-- ✅ **15 Public Skills:** Already distributed in `COMBINED/skills/` by category
+- ✅ **15 Public Skills:** Already distributed in `.claude/skills/` by category
   - Development: bootstrap, find-skills, skill-creator
   - Data Analysis: chart-visualization, data-analysis
   - Research: consulting-analysis, deep-research, github-deep-research
@@ -164,14 +164,14 @@ User → RuFlo CLI/MCP → Router → Swarm → Agents → Memory → LLM Provid
 - nginx (for make dev)
 
 **Migration Status:** ✅ **99% COMPLETE**
-**Recommended Action:** Skip .gitignore files. Verify chart-visualization skill in COMBINED/skills/
+**Recommended Action:** Skip .gitignore files. Verify chart-visualization skill in .claude/skills/
 
 ---
 
 ### 1.5 Oh-My-ClaudeCode (OMC) — Multi-Agent Orchestration
 **Type:** Intelligent Multi-Agent Orchestration Layer
 **Source:** `Orchestration/oh-my-claudecode/`
-**Combined Location:** `COMBINED/orchestration/oh-my-claudecode/`
+**Combined Location:** `.claude/orchestration/oh-my-claudecode/`
 
 **Files Remaining:** 2,488 (mostly dist/ build artifacts)
 
@@ -215,14 +215,14 @@ team-plan → team-prd → team-exec → team-verify → team-fix (loop)
 - `tests/` - Test suite
 
 **Migration Status:** ✅ **MOSTLY COMPLETE**
-**Recommended Action:** Skip dist/ (build artifacts). Source code preserved in COMBINED/orchestration/oh-my-claudecode/src/
+**Recommended Action:** Skip dist/ (build artifacts). Source code preserved in .claude/orchestration/oh-my-claudecode/src/
 
 ---
 
 ### 1.6 1code — Desktop Application
 **Type:** Electron-Based Desktop Orchestration App
 **Source:** `Orchestration/1code/`
-**Combined Location:** `COMBINED/orchestration/1code/`
+**Combined Location:** `.claude/orchestration/1code/`
 
 **Files Remaining:** 5 (build configs and icons)
 
@@ -240,14 +240,14 @@ team-plan → team-prd → team-exec → team-verify → team-fix (loop)
 - ✅ Drizzle ORM setup
 
 **Migration Status:** ✅ **100% COMPLETE**
-**Recommended Action:** Skip .DS_Store, build configs and icons are app-specific assets (already in COMBINED/)
+**Recommended Action:** Skip .DS_Store, build configs and icons are app-specific assets (already in .claude/)
 
 ---
 
 ### 1.7 Vibe-Kanban — Agent Workflow Management
 **Type:** Kanban Board for AI Agent Management
 **Source:** `Orchestration/vibe-kanban/`
-**Combined Location:** `COMBINED/orchestration/vibe-kanban/`
+**Combined Location:** `.claude/orchestration/vibe-kanban/`
 
 **Files Remaining:** 7
 
@@ -260,23 +260,23 @@ team-plan → team-prd → team-exec → team-verify → team-fix (loop)
 - `scripts/` - Build and deployment scripts
 
 **Components Migrated:**
-- ✅ **Rust Implementation:** Full codebase in `COMBINED/orchestration/vibe-kanban/crates/`
-- ✅ **Documentation:** `COMBINED/orchestration/vibe-kanban/docs/`
+- ✅ **Rust Implementation:** Full codebase in `.claude/orchestration/vibe-kanban/crates/`
+- ✅ **Documentation:** `.claude/orchestration/vibe-kanban/docs/`
 - ✅ **Scripts:** Build and deployment automation
 - ✅ **Packages:** NPM packages for CLI and web interface
 - ✅ **Assets:** UI assets and seed data
 
 **Migration Status:** ✅ **100% COMPLETE**
-**Recommended Action:** Skip .DS_Store and symlink. All code, docs, scripts already in COMBINED/
+**Recommended Action:** Skip .DS_Store and symlink. All code, docs, scripts already in .claude/
 
 ---
 
-## 2. AGENTS IN COMBINED/ (FROM ORCHESTRATION SYSTEMS)
+## 2. AGENTS IN .claude/ (FROM ORCHESTRATION SYSTEMS)
 
 ### 2.1 By Role Distribution
 Agents from orchestration systems already distributed in Phase 1:
 
-**Location:** `COMBINED/agents/by-role/`
+**Location:** `.claude/agents/by-role/`
 
 | Role | Examples | Source Systems |
 |------|----------|----------------|
@@ -298,7 +298,7 @@ Agents from orchestration systems already distributed in Phase 1:
 **Total:** 100+ agents distributed across roles
 
 ### 2.2 By Interface Distribution
-**Location:** `COMBINED/agents/by-interface/`
+**Location:** `.claude/agents/by-interface/`
 
 - **claude/** - Claude Code specific agents (Superpowers, OMC, GSD, RuFlo configs)
 - **cursor/** - Cursor AI agents (Superpowers cursor-plugin)
@@ -308,7 +308,7 @@ Agents from orchestration systems already distributed in Phase 1:
 - **opencode/** - OpenCode agents (Superpowers opencode/)
 
 ### 2.3 Orchestrators
-**Location:** `COMBINED/agents/orchestrators/`
+**Location:** `.claude/agents/orchestrators/`
 
 - **background-agents/** - Open-Inspect platform (from Agents/ category)
 - **hermes/** - Self-learning agent (from Agents/ category)
@@ -316,10 +316,10 @@ Agents from orchestration systems already distributed in Phase 1:
 
 ---
 
-## 3. SKILLS IN COMBINED/ (FROM ORCHESTRATION SYSTEMS)
+## 3. SKILLS IN .claude/ (FROM ORCHESTRATION SYSTEMS)
 
 ### 3.1 Superpowers Skills (14)
-**Location:** `COMBINED/skills/development/superpowers/`
+**Location:** `.claude/skills/development/superpowers/`
 
 1. **brainstorming** - Refines rough ideas through questions before coding
 2. **using-git-worktrees** - Creates isolated workspace on new branch
@@ -355,16 +355,16 @@ Skills already distributed in Phase 1 to appropriate categories:
 - claude-to-deerflow
 
 ### 3.3 OMC Skills (Workflow)
-**Location:** `COMBINED/skills/` and `COMBINED/orchestration/oh-my-claudecode/skills/`
+**Location:** `.claude/skills/` and `.claude/orchestration/oh-my-claudecode/skills/`
 
 Workflow skills: autopilot, ralph, ultrawork, team, ccg, ultraqa, omc-plan, ralplan, sciomc, external-context, deepinit, deep-interview, ai-slop-cleaner
 
 ---
 
-## 4. COMMANDS IN COMBINED/ (FROM ORCHESTRATION SYSTEMS)
+## 4. COMMANDS IN .claude/ (FROM ORCHESTRATION SYSTEMS)
 
 ### 4.1 GSD Commands (57)
-**Location:** `COMBINED/commands/general/gsd/`
+**Location:** `.claude/commands/general/gsd/`
 
 Key commands:
 - `/gsd:help` - Show all available commands
@@ -374,28 +374,28 @@ Key commands:
 - Plus 53 more specialized commands...
 
 ### 4.2 Superpowers Commands (3)
-**Location:** `COMBINED/commands/plan/superpowers/`
+**Location:** `.claude/commands/plan/superpowers/`
 
 Distributed by command type (plan, review, etc.)
 
 ---
 
-## 5. HOOKS IN COMBINED/ (FROM ORCHESTRATION SYSTEMS)
+## 5. HOOKS IN .claude/ (FROM ORCHESTRATION SYSTEMS)
 
 ### 5.1 GSD Hooks (5)
-**Location:** `COMBINED/hooks/notification/gsd/`
+**Location:** `.claude/hooks/notification/gsd/`
 
 Lifecycle hooks for GSD meta-prompting system
 
 ### 5.2 Superpowers Hooks (4)
-**Location:** `COMBINED/hooks/notification/superpowers/`
+**Location:** `.claude/hooks/notification/superpowers/`
 
 Workflow lifecycle hooks
 
 ### 5.3 RuFlo Hooks (27)
 **Locations:**
-- `COMBINED/hooks/notification/ruflo/`
-- `COMBINED/hooks/pre-commit/ruflo/`
+- `.claude/hooks/notification/ruflo/`
+- `.claude/hooks/pre-commit/ruflo/`
 
 Extensive hook system for enterprise orchestration
 
@@ -406,7 +406,7 @@ Extensive hook system for enterprise orchestration
 | Metric | Value |
 |--------|-------|
 | **Total Repositories Analyzed** | 7 |
-| **Total Files in COMBINED/** | 11,432 |
+| **Total Files in .claude/** | 11,432 |
 | **Total Files Remaining in Source** | 2,547 |
 | **Migration Percentage** | 81.7% |
 
@@ -444,8 +444,8 @@ Extensive hook system for enterprise orchestration
 
 ### 7.3 LOW Priority
 1. Review oh-my-claudecode dist/ folder (2,488 compiled files) - likely skip
-2. Verify ruflo versions (v2/v3) structure complete in COMBINED/
-3. Verify deer-flow skills distribution in COMBINED/skills/
+2. Verify ruflo versions (v2/v3) structure complete in .claude/
+3. Verify deer-flow skills distribution in .claude/skills/
 
 ---
 
@@ -455,9 +455,9 @@ Extensive hook system for enterprise orchestration
 **None required** - All orchestration systems successfully migrated
 
 ### 8.2 Review Actions
-1. ✅ Verify oh-my-claudecode agents properly categorized in COMBINED/agents/by-role/
-2. ✅ Verify GSD 57 commands in COMBINED/commands/general/gsd/
-3. ✅ Verify all orchestration workflows in COMBINED/orchestration/workflows/
+1. ✅ Verify oh-my-claudecode agents properly categorized in .claude/agents/by-role/
+2. ✅ Verify GSD 57 commands in .claude/commands/general/gsd/
+3. ✅ Verify all orchestration workflows in .claude/orchestration/workflows/
 
 ### 8.3 Skip Actions
 1. All .DS_Store files (7 total) - system files
@@ -529,7 +529,7 @@ Extensive hook system for enterprise orchestration
 
 ## 11. DELIVERABLES
 
-✅ **Created:** `COMBINED/orchestration_analysis.json` (detailed JSON mapping)
+✅ **Created:** `.claude/orchestration_analysis.json` (detailed JSON mapping)
 ✅ **Analysis Complete:**
 - Superpowers: 1 file categorized
 - Get-Shit-Done: 2 files categorized
@@ -557,7 +557,7 @@ Extensive hook system for enterprise orchestration
 9. **Skills/claude-seo/** - SEO skills
 10. **Skills/obsidian-skills/** - Obsidian platform skills
 
-**Expected Deliverable:** `COMBINED/skills_analysis.json`
+**Expected Deliverable:** `.claude/skills_analysis.json`
 
 ---
 

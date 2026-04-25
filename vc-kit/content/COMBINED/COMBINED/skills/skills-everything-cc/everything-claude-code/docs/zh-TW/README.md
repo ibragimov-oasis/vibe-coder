@@ -259,7 +259,7 @@ everything-claude-code/
 
 ```bash
 # 安裝 GitHub App 後，技能會出現在：
-~/COMBINED/workspace-config/claude/skills/generated/
+~/.claude/workspace-config/claude/skills/generated/
 ```
 
 與 `continuous-learning-v2` 技能無縫整合以繼承本能。
@@ -311,16 +311,16 @@ everything-claude-code/
 git clone https://github.com/affaan-m/everything-claude-code.git
 
 # 將代理程式複製到您的 Claude 設定
-cp everything-claude-code/agents/*.md ~/COMBINED/workspace-config/claude/agents/
+cp everything-claude-code/agents/*.md ~/.claude/workspace-config/claude/agents/
 
 # 複製規則
 cp everything-claude-code/rules/*.md ~/.claude/rules/
 
 # 複製指令
-cp everything-claude-code/commands/*.md ~/COMBINED/workspace-config/claude/commands/
+cp everything-claude-code/commands/*.md ~/.claude/workspace-config/claude/commands/
 
 # 複製技能
-cp -r everything-claude-code/skills/* ~/COMBINED/workspace-config/claude/skills/
+cp -r everything-claude-code/skills/* ~/.claude/workspace-config/claude/skills/
 ```
 
 #### 將鉤子新增到 settings.json

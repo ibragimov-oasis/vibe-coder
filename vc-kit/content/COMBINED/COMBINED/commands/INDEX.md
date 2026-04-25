@@ -5,7 +5,7 @@ tags:
   - source/commands
 ---
 
-# COMBINED/commands - Master Commands Index
+# .claude/commands - Master Commands Index
 
 > **Complete catalog of all slash commands across repositories**
 > Last updated: 2026-04-04
@@ -608,10 +608,10 @@ brainstorm → write-plan → execute-plan
 
 ## Related Resources
 
-- **Agents:** See `COMBINED/agents/INDEX.md` for agent capabilities
-- **Skills:** See `COMBINED/skills/INDEX.md` for skill packages
-- **Hooks:** See `COMBINED/hooks/README.md` for automation
-- **Orchestration:** See `COMBINED/orchestration/` for systems
+- **Agents:** See `.claude/agents/INDEX.md` for agent capabilities
+- **Skills:** See `.claude/skills/INDEX.md` for skill packages
+- **Hooks:** See `.claude/hooks/README.md` for automation
+- **Orchestration:** See `.claude/orchestration/` for systems
 
 ---
 
@@ -665,9 +665,9 @@ When adding commands:
 
 ---
 
-*For agent capabilities, see `COMBINED/agents/INDEX.md`*
-*For skill packages, see `COMBINED/skills/INDEX.md`*
-*For automation hooks, see `COMBINED/hooks/README.md`*
+*For agent capabilities, see `.claude/agents/INDEX.md`*
+*For skill packages, see `.claude/skills/INDEX.md`*
+*For automation hooks, see `.claude/hooks/README.md`*
 
 ## 🔗 Связи
 

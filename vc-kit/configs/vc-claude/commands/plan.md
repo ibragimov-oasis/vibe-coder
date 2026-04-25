@@ -60,7 +60,7 @@ After `/plan` produces a plan, run:
 
 - `.claude/agents/mega-planner.md` — full agent spec
 - `.claude/agents/mega-orchestrator.md` — pipeline coordination
-- `COMBINED/agents/by-role/planner/` — source planner agents
+- `.claude/agents/by-role/planner/` — source planner agents
 
 ## 🔗 Связи
 

@@ -203,7 +203,7 @@ async function iterativeRetrieve(task, maxCycles = 3) {
 
 - [Longform Guide](https://x.com/affaanmustafa/status/2014040193557471352) - 子 agent 協調章節
 - `continuous-learning` 技能 - 用於隨時間改進的模式
-- `~/COMBINED/workspace-config/claude/agents/` 中的 Agent 定義
+- `~/.claude/workspace-config/claude/agents/` 中的 Agent 定義
 
 ## 🔗 Связи
 

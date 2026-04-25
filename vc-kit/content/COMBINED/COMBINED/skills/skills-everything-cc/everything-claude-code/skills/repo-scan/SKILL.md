@@ -23,13 +23,13 @@ tags:
 
 ```bash
 # Fetch only the pinned commit for reproducibility
-mkdir -p ~/COMBINED/workspace-config/claude/skills/repo-scan
+mkdir -p ~/.claude/workspace-config/claude/skills/repo-scan
 git init repo-scan
 cd repo-scan
 git remote add origin https://github.com/haibindev/repo-scan.git
 git fetch --depth 1 origin 2742664
 git checkout --detach FETCH_HEAD
-cp -r . ~/COMBINED/workspace-config/claude/skills/repo-scan
+cp -r . ~/.claude/workspace-config/claude/skills/repo-scan
 ```
 
 > Review the source before installing any agent skill.

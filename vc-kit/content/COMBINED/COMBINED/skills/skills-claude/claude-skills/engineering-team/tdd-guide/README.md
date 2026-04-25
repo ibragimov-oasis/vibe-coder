@@ -81,15 +81,15 @@ The TDD Guide skill transforms how engineering teams implement Test Driven Devel
 2. **Install to Claude skills directory**:
    ```bash
    # Project-level (recommended for team projects)
-   cp -r tdd-guide /path/to/your/project/COMBINED/workspace-config/claude/skills/
+   cp -r tdd-guide /path/to/your/project/.claude/workspace-config/claude/skills/
 
    # User-level (available for all projects)
-   cp -r tdd-guide ~/COMBINED/workspace-config/claude/skills/
+   cp -r tdd-guide ~/.claude/workspace-config/claude/skills/
    ```
 
 3. **Verify installation**:
    ```bash
-   ls ~/COMBINED/workspace-config/claude/skills/tdd-guide/
+   ls ~/.claude/workspace-config/claude/skills/tdd-guide/
    # Should show: SKILL.md, *.py files, samples
    ```
 

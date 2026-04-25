@@ -362,16 +362,16 @@ From `_github/workflows/`:
 
 ---
 
-## Phase 3 — COMBINED/ Directory (Created 2026-04-01)
+## Phase 3 — .claude/ Directory (Created 2026-04-01)
 
-The `COMBINED/` directory was created as a standalone, copy-ready collection of all unified configs.
+The `.claude/` directory was created as a standalone, copy-ready collection of all unified configs.
 
 | Subfolder | Contents | Source | Files |
 |-----------|----------|--------|-------|
 | `claude/COMBINED_CLAUDE.md` | Master Claude instructions | `.claude/CLAUDE.md` | 1 |
 | `claude/COMBINED_SETTINGS.json` | Settings with hooks, swarm, agents | `.claude/settings.json` | 1 |
-| `claude/COMBINED_COMMANDS/` | All commands (agents, swarm, memory, etc.) | `COMBINED/workspace-config/claude/commands/` | 182 |
-| `claude/COMBINED_SKILLS/` | All skill packages | `COMBINED/workspace-config/claude/skills/` | 39 dirs |
+| `claude/COMBINED_COMMANDS/` | All commands (agents, swarm, memory, etc.) | `.claude/workspace-config/claude/commands/` | 182 |
+| `claude/COMBINED_SKILLS/` | All skill packages | `.claude/workspace-config/claude/skills/` | 39 dirs |
 | `copilot/COMBINED_COPILOT_INSTRUCTIONS.md` | Master Copilot instructions | `.github/copilot-instructions.md` | 1 |
 | `cursor/COMBINED_CURSORRULES` | Master cursor rules | `.cursorrules` | 1 |
 | `cursor/COMBINED_CURSOR_RULES/` | Category-specific rules | `.cursor/rules/` | 1 |

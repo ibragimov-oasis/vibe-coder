@@ -185,7 +185,7 @@ This skill includes 8 powerful Python modules:
 #### Project-Level Installation
 ```bash
 # Copy skill folder to project
-cp -r app-store-optimization /path/to/your/project/COMBINED/workspace-config/claude/skills/
+cp -r app-store-optimization /path/to/your/project/.claude/workspace-config/claude/skills/
 
 # Claude will auto-load the skill when working in this project
 ```
@@ -193,7 +193,7 @@ cp -r app-store-optimization /path/to/your/project/COMBINED/workspace-config/cla
 #### User-Level Installation (Available in All Projects)
 ```bash
 # Copy skill folder to user-level skills
-cp -r app-store-optimization ~/COMBINED/workspace-config/claude/skills/
+cp -r app-store-optimization ~/.claude/workspace-config/claude/skills/
 
 # Claude will load this skill in all your projects
 ```
@@ -208,7 +208,7 @@ cp -r app-store-optimization ~/COMBINED/workspace-config/claude/skills/
 To verify installation:
 ```bash
 # Check if skill folder exists
-ls ~/COMBINED/workspace-config/claude/skills/app-store-optimization/
+ls ~/.claude/workspace-config/claude/skills/app-store-optimization/
 
 # You should see:
 # SKILL.md

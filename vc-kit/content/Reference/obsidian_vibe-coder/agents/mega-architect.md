@@ -5,7 +5,7 @@ tags:
   - artifact/mega-agent
   - agent/mega-architect
   - status/active
-source: "../COMBINED/agents/mega/mega-architect.md"
+source: "../.claude/agents/mega/mega-architect.md"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -61,7 +61,7 @@ OMC + RuFlo + GSD + **Matt Pocock improve-codebase-architecture** + **code-revie
 
 ## Исходник
 
-> 📂 `../COMBINED/agents/mega/mega-architect.md`
+> 📂 `../.claude/agents/mega/mega-architect.md`
 
 ## 🔗 Связи
 

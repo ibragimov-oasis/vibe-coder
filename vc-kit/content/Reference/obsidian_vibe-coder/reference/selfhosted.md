@@ -11,12 +11,12 @@ aliases:
   - self-hosted services
 created: 2026-04-18
 type: reference-note
-source: "../COMBINED/reference/reference-selfhosted/"
+source: "../.claude/reference/reference-selfhosted/"
 ---
 
 # Reference: Awesome Self-Hosted
 
-> **Источник:** `../COMBINED/reference/reference-selfhosted/`
+> **Источник:** `../.claude/reference/reference-selfhosted/`
 
 ## О чём
 

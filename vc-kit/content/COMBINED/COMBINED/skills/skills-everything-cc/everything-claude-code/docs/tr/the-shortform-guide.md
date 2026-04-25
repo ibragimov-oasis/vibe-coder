@@ -28,12 +28,12 @@ Opus 4.5 ile uzun bir kodlama oturumundan sonra ölü kodu ve gevşek .md dosyal
 
 Command'lar, slash command'lar aracılığıyla yürütülen skill'lerdir. Örtüşürler ancak farklı şekilde saklanırlar:
 
-- **Skill'ler**: `~/COMBINED/workspace-config/claude/skills/` - daha geniş iş akışı tanımları
-- **Command'lar**: `~/COMBINED/workspace-config/claude/commands/` - hızlı çalıştırılabilir prompt'lar
+- **Skill'ler**: `~/.claude/workspace-config/claude/skills/` - daha geniş iş akışı tanımları
+- **Command'lar**: `~/.claude/workspace-config/claude/commands/` - hızlı çalıştırılabilir prompt'lar
 
 ```bash
 # Örnek skill yapısı
-~/COMBINED/workspace-config/claude/skills/
+~/.claude/workspace-config/claude/skills/
   pmx-guidelines.md      # Projeye özel desenler
   coding-standards.md    # Dile özgü en iyi uygulamalar
   tdd-workflow/          # README.md ile çok dosyalı skill
@@ -88,7 +88,7 @@ Subagent'lar skill'lerle güzel çalışır - skill'lerinizin bir alt kümesini 
 
 ```bash
 # Örnek subagent yapısı
-~/COMBINED/workspace-config/claude/agents/
+~/.claude/workspace-config/claude/agents/
   planner.md           # Özellik uygulama planlaması
   architect.md         # Sistem tasarım kararları
   tdd-guide.md         # Test odaklı geliştirme
@@ -395,7 +395,7 @@ affoon:~ ctx:65% Opus 4.5 19:52
 ### Subagent'lar
 
 ```
-~/COMBINED/workspace-config/claude/agents/
+~/.claude/workspace-config/claude/agents/
   planner.md           # Özellikleri parçalara ayırma
   architect.md         # Sistem tasarımı
   tdd-guide.md         # Önce testleri yaz

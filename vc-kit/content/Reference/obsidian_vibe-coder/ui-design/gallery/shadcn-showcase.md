@@ -11,12 +11,12 @@ aliases:
   - accessible react components
 created: 2026-04-18
 type: ui-gallery
-source: "../COMBINED/ui-design/ui-components-shadcn/"
+source: "../.claude/ui-design/ui-components-shadcn/"
 ---
 
 # 🎨 shadcn/ui — Component Showcase
 
-> **Источник:** `../COMBINED/ui-design/ui-components-shadcn/`
+> **Источник:** `../.claude/ui-design/ui-components-shadcn/`
 > **Основан на:** Radix UI + Tailwind CSS
 > **Преимущество:** Accessibility-first, customizable, no lock-in
 > **Использовать:** Второй уровень иерархии (после Galaxy)

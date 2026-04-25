@@ -66,13 +66,13 @@ Step 6: AI reads `CONTRIBUTING.md` → understands contribution guidelines (EN/C
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/24-openviking/ | Documentation |
-| docs/ | COMBINED/REPO_DOCS/24-openviking/docs/ | Full documentation |
-| Rust CLI | COMBINED/REPO_DOCS/24-openviking/cli/ | CLI reference |
+| README.md | .claude/REPO_DOCS/24-openviking/ | Documentation |
+| docs/ | .claude/REPO_DOCS/24-openviking/docs/ | Full documentation |
+| Rust CLI | .claude/REPO_DOCS/24-openviking/cli/ | CLI reference |
 
 ---
 

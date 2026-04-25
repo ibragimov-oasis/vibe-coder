@@ -22,7 +22,7 @@ Phase 2 focuses on defining clear category boundaries, establishing naming conve
 
 #### **AGENTS** (AI Personas/Roles)
 **Definition**: AI personalities with specific roles and capabilities
-**Location**: `COMBINED/agents/`
+**Location**: `.claude/agents/`
 **Format**: Markdown (.md) or YAML (.yaml) files
 **Contains**: Role description, responsibilities, tools, constraints, workflow
 
@@ -41,7 +41,7 @@ Phase 2 focuses on defining clear category boundaries, establishing naming conve
 
 #### **SKILLS** (Capabilities/Knowledge Packages)
 **Definition**: Reusable capability packages with domain expertise
-**Location**: `COMBINED/skills/`
+**Location**: `.claude/skills/`
 **Format**: Directory with `SKILL.md` + optional scripts/references/assets
 **Contains**: Instructions, scripts, templates, reference materials
 
@@ -60,7 +60,7 @@ Phase 2 focuses on defining clear category boundaries, establishing naming conve
 
 #### **COMMANDS** (Triggers/Shortcuts)
 **Definition**: User-typed shortcuts that invoke agents or workflows
-**Location**: `COMBINED/commands/`
+**Location**: `.claude/commands/`
 **Format**: Markdown files that expand to prompts
 **Contains**: Command description and expanded prompt
 
@@ -85,7 +85,7 @@ User types command → Command expands → Invokes agent(s) → Agent uses skill
 ### 1.2 Memory Systems vs Memory Skills
 
 #### **MEMORY SYSTEMS** (Infrastructure)
-**Location**: `COMBINED/memory/`
+**Location**: `.claude/memory/`
 **Purpose**: Actual memory storage and retrieval systems
 
 **Examples**:
@@ -98,7 +98,7 @@ User types command → Command expands → Invokes agent(s) → Agent uses skill
 ---
 
 #### **MEMORY SKILLS** (Usage Patterns)
-**Location**: `COMBINED/skills/[domain]/memory-*`
+**Location**: `.claude/skills/[domain]/memory-*`
 **Purpose**: How to USE memory systems effectively
 
 **Examples**:
@@ -113,7 +113,7 @@ User types command → Command expands → Invokes agent(s) → Agent uses skill
 ### 1.3 Security Tools vs Security Agents
 
 #### **SECURITY TOOLS** (Executable Tools)
-**Location**: `COMBINED/security/`
+**Location**: `.claude/security/`
 **Purpose**: Actual security testing and scanning tools
 
 **Examples**:
@@ -126,7 +126,7 @@ User types command → Command expands → Invokes agent(s) → Agent uses skill
 ---
 
 #### **SECURITY AGENTS** (AI Analysts)
-**Location**: `COMBINED/agents/by-role/security/`
+**Location**: `.claude/agents/by-role/security/`
 **Purpose**: AI agents that analyze security
 
 **Examples**:
@@ -142,7 +142,7 @@ User types command → Command expands → Invokes agent(s) → Agent uses skill
 ### 1.4 MCP Servers vs MCP Skills
 
 #### **MCP SERVERS** (Protocol Implementations)
-**Location**: `COMBINED/mcp-servers/`
+**Location**: `.claude/mcp-servers/`
 **Purpose**: Model Context Protocol server implementations
 
 **Examples**:
@@ -156,7 +156,7 @@ User types command → Command expands → Invokes agent(s) → Agent uses skill
 ---
 
 #### **MCP SKILLS** (Usage Patterns)
-**Location**: `COMBINED/skills/[domain]/mcp-*`
+**Location**: `.claude/skills/[domain]/mcp-*`
 **Purpose**: How to USE MCP servers
 
 **Contains**: Integration guides, usage examples

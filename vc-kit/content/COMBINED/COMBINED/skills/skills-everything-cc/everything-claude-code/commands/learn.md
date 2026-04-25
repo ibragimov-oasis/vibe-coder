@@ -40,7 +40,7 @@ Look for:
 
 ## Output Format
 
-Create a skill file at `~/COMBINED/workspace-config/claude/skills/learned/[pattern-name].md`:
+Create a skill file at `~/.claude/workspace-config/claude/skills/learned/[pattern-name].md`:
 
 ```markdown
 # [Descriptive Pattern Name]
@@ -67,7 +67,7 @@ Create a skill file at `~/COMBINED/workspace-config/claude/skills/learned/[patte
 2. Identify the most valuable/reusable insight
 3. Draft the skill file
 4. Ask user to confirm before saving
-5. Save to `~/COMBINED/workspace-config/claude/skills/learned/`
+5. Save to `~/.claude/workspace-config/claude/skills/learned/`
 
 ## Notes
 

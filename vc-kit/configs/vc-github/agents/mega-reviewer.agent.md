@@ -68,4 +68,4 @@ npx -y gitnexus@latest map
 ```
 
 ## Full Agent Definition
-Read: `COMBINED/agents/mega/mega-reviewer.md`
+Read: `.claude/agents/mega/mega-reviewer.md`

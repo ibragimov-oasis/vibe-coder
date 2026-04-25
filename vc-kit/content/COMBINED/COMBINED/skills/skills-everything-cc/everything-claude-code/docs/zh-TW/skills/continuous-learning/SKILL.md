@@ -17,7 +17,7 @@ tags:
 
 1. **工作階段評估**：檢查工作階段是否有足夠訊息（預設：10+ 則）
 2. **模式偵測**：從工作階段識別可提取的模式
-3. **技能提取**：將有用模式儲存到 `~/COMBINED/workspace-config/claude/skills/learned/`
+3. **技能提取**：將有用模式儲存到 `~/.claude/workspace-config/claude/skills/learned/`
 
 ## 設定
 
@@ -28,7 +28,7 @@ tags:
   "min_session_length": 10,
   "extraction_threshold": "medium",
   "auto_approve": false,
-  "learned_skills_path": "~/COMBINED/workspace-config/claude/skills/learned/",
+  "learned_skills_path": "~/.claude/workspace-config/claude/skills/learned/",
   "patterns_to_detect": [
     "error_resolution",
     "user_corrections",
@@ -65,7 +65,7 @@ tags:
       "matcher": "*",
       "hooks": [{
         "type": "command",
-        "command": "~/COMBINED/workspace-config/claude/skills/continuous-learning/evaluate-session.sh"
+        "command": "~/.claude/workspace-config/claude/skills/continuous-learning/evaluate-session.sh"
       }]
     }]
   }

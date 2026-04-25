@@ -11,12 +11,12 @@ aliases:
   - board view agents
 created: 2026-04-18
 type: system-note
-source: "../COMBINED/orchestration/core-multica/"
+source: "../.claude/orchestration/core-multica/"
 ---
 
 # Orchestration: Multica
 
-> **Источник:** `../COMBINED/orchestration/core-multica/`
+> **Источник:** `../.claude/orchestration/core-multica/`
 
 ## Описание
 

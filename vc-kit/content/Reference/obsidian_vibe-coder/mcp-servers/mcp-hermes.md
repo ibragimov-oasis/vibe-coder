@@ -12,12 +12,12 @@ aliases:
   - self-learning mcp
 created: 2026-04-18
 type: mcp-note
-source: "../COMBINED/mcp-servers/mcp-hermes/"
+source: "../.claude/mcp-servers/mcp-hermes/"
 ---
 
 # MCP: Hermes MCP
 
-> **Источник:** `../COMBINED/mcp-servers/mcp-hermes/`
+> **Источник:** `../.claude/mcp-servers/mcp-hermes/`
 
 ## Описание
 

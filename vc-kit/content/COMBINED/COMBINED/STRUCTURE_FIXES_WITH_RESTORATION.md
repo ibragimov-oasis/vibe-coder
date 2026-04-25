@@ -16,7 +16,7 @@ tags:
 
 All previously deleted files have been **restored** while **preserving** all beneficial changes:
 - ✅ **182 files restored** from previous commit
-- ✅ **251 skills remain moved** to COMBINED/skills/skills-copilot/
+- ✅ **251 skills remain moved** to .claude/skills/skills-copilot/
 - ✅ **New roles preserved**: scientist, devops
 - ✅ **UI rules preserved**: cursor-rules.md integration
 
@@ -25,7 +25,7 @@ All previously deleted files have been **restored** while **preserving** all ben
 ## What Was Restored
 
 ### 1. GitHub Workflows & CI/CD (~15,000 lines)
-**Location:** `COMBINED/agents/by-interface/copilot/_github/workflows/`
+**Location:** `.claude/agents/by-interface/copilot/_github/workflows/`
 
 Restored files:
 - `cli-for-beginners-sync.lock.yml` (1,171 lines)
@@ -37,7 +37,7 @@ Restored files:
 - 13+ additional workflow files
 
 ### 2. Copilot SDK Cookbook (~10,000 lines)
-**Location:** `COMBINED/agents/by-interface/copilot/cookbook/`
+**Location:** `.claude/agents/by-interface/copilot/cookbook/`
 
 Restored:
 - Complete SDK documentation (dotnet, go, nodejs, python)
@@ -45,7 +45,7 @@ Restored:
 - package-lock.json files
 
 ### 3. Website Source Files (~15,000 lines)
-**Location:** `COMBINED/agents/by-interface/copilot/website/`
+**Location:** `.claude/agents/by-interface/copilot/website/`
 
 Restored:
 - Astro.js website configuration
@@ -55,7 +55,7 @@ Restored:
 - package-lock.json (6,666 lines)
 
 ### 4. Engineering Scripts (~5,000 lines)
-**Location:** `COMBINED/agents/by-interface/copilot/eng/`
+**Location:** `.claude/agents/by-interface/copilot/eng/`
 
 Restored:
 - `contributor-report.mjs` (591 lines)
@@ -64,7 +64,7 @@ Restored:
 - 10+ additional Node.js automation scripts
 
 ### 5. Configuration Files (~3,500 lines)
-**Location:** `COMBINED/agents/by-interface/copilot/`
+**Location:** `.claude/agents/by-interface/copilot/`
 
 Restored:
 - `_all-contributorsrc` (2,712 lines) - contributors list
@@ -80,27 +80,27 @@ Restored:
 
 ### ✅ Skills Migration
 **251 copilot skills** successfully moved from:
-- `COMBINED/agents/by-interface/copilot/skills/`
+- `.claude/agents/by-interface/copilot/skills/`
 
 to:
-- `COMBINED/skills/skills-copilot/`
+- `.claude/skills/skills-copilot/`
 
 These remain in their new location for better organization.
 
 ### ✅ New Agent Roles
 Created and preserved:
-- `COMBINED/agents/by-role/scientist/` with full documentation
-- `COMBINED/agents/by-role/devops/` with full documentation
+- `.claude/agents/by-role/scientist/` with full documentation
+- `.claude/agents/by-role/devops/` with full documentation
 
 Now **14 total roles** (was 12).
 
 ### ✅ UI Design Rules Integration
 Preserved:
-- `COMBINED/ui-design/rules/cursor-rules.md` (5,708 bytes)
+- `.claude/ui-design/rules/cursor-rules.md` (5,708 bytes)
 
 ### ✅ Reference Directory
 Preserved migration:
-- `COMBINED/reference/awesome-selfhosted/` (already in place)
+- `.claude/reference/awesome-selfhosted/` (already in place)
 
 ---
 
@@ -112,7 +112,7 @@ Preserved migration:
 
 ### Complete Directory Structure
 ```
-COMBINED/agents/by-interface/copilot/
+.claude/agents/by-interface/copilot/
 ├── _all-contributorsrc         ← RESTORED
 ├── _codespellrc                ← RESTORED
 ├── _editorconfig               ← RESTORED
@@ -140,7 +140,7 @@ COMBINED/agents/by-interface/copilot/
 
 ### Skills Structure (Improved)
 ```
-COMBINED/skills/skills-copilot/        ← 251 skills now properly organized here
+.claude/skills/skills-copilot/        ← 251 skills now properly organized here
 ├── add-educational-comments/
 ├── agent-governance/
 ├── agentic-eval/
@@ -159,20 +159,20 @@ $ git status --short | grep "^A" | wc -l
 
 ### Skills Still in New Location
 ```bash
-$ ls COMBINED/skills/skills-copilot/ | wc -l
+$ ls .claude/skills/skills-copilot/ | wc -l
 251
 ```
 
 ### New Roles Present
 ```bash
-$ ls COMBINED/agents/by-role/ | grep -E "scientist|devops"
+$ ls .claude/agents/by-role/ | grep -E "scientist|devops"
 devops
 scientist
 ```
 
 ### Cursor Rules Intact
 ```bash
-$ ls -la COMBINED/ui-design/rules/cursor-rules.md
+$ ls -la .claude/ui-design/rules/cursor-rules.md
 -rw-rw-r-- 1 runner runner 5708 Apr 3 12:36 cursor-rules.md
 ```
 

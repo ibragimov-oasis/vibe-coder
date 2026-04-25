@@ -11,12 +11,12 @@ aliases:
   - think before coding
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-claude/karpathy/"
+source: "../.claude/skills/skills-claude/karpathy/"
 ---
 
 # Skills: Karpathy 4 Principles
 
-> **Источник:** `../COMBINED/skills/skills-claude/karpathy/`
+> **Источник:** `../.claude/skills/skills-claude/karpathy/`
 > **Встроены во ВСЕ 15 мега-агентов Vibe-Coder**
 
 ## 4 Принципа Karpathy

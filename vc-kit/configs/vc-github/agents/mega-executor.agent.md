@@ -48,5 +48,5 @@ npx archon run <workflow.yaml>
 - [ ] Shannon security audit clean
 
 ## Full Agent Definition
-Read: `COMBINED/agents/mega/mega-executor.md`
-Source: `COMBINED/orchestration/core-ralph/` (PRD loop)
+Read: `.claude/agents/mega/mega-executor.md`
+Source: `.claude/orchestration/core-ralph/` (PRD loop)

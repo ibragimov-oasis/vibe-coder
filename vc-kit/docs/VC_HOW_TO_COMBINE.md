@@ -18,7 +18,7 @@ When a new repository is added to this arsenal, its useful content must be:
 1. **Preserved** — in its original folder under the correct category
 2. **Mapped** — documented in `AUDIT.md`
 3. **Merged** — relevant configs combined into the unified root files
-4. **Copied** — combined versions placed in `COMBINED/`
+4. **Copied** — combined versions placed in `.claude/`
 
 **Never delete original content. Only add and combine.**
 
@@ -100,13 +100,13 @@ If the new repo has a `CLAUDE.md`:
 If it has `commands/`:
 ```bash
 # Copy new commands (don't overwrite existing)
-cp -n new-repo/_claude/commands/*.md COMBINED/workspace-config/claude/commands/
+cp -n new-repo/_claude/commands/*.md .claude/workspace-config/claude/commands/
 ```
 
 If it has `skills/`:
 ```bash
 # Copy new skills (don't overwrite existing)
-cp -rn new-repo/_claude/skills/* COMBINED/workspace-config/claude/skills/
+cp -rn new-repo/_claude/skills/* .claude/workspace-config/claude/skills/
 ```
 
 If it has `settings.json`:
@@ -170,23 +170,23 @@ If the new repo has UI resources:
 - Document available components/styles
 - Add to the integration guide
 
-### Step 5: Update COMBINED/ Directory
+### Step 5: Update .claude/ Directory
 
-After merging into unified configs, copy the updated files to `COMBINED/`:
+After merging into unified configs, copy the updated files to `.claude/`:
 
 ```bash
-# Update COMBINED/ with latest versions
-cp .claude/CLAUDE.md COMBINED/claude/COMBINED_CLAUDE.md
-cp .claude/settings.json COMBINED/claude/COMBINED_SETTINGS.json
-cp -r COMBINED/workspace-config/claude/commands/* COMBINED/claude/COMBINED_COMMANDS/
-cp -r COMBINED/workspace-config/claude/skills/* COMBINED/claude/COMBINED_SKILLS/
-cp .github/copilot-instructions.md COMBINED/copilot/COMBINED_COPILOT_INSTRUCTIONS.md
-cp .cursorrules COMBINED/cursor/COMBINED_CURSORRULES
-cp -r .cursor/rules/* COMBINED/cursor/COMBINED_CURSOR_RULES/
-cp Prompts/COMBINED_PROMPTS.md COMBINED/prompts/COMBINED_ALL_PROMPTS.md
-cp UI-UX/COMBINED_DESIGN_SYSTEM.md COMBINED/ui/COMBINED_DESIGN_SYSTEM.md
-cp ORCHESTRATION.md COMBINED/orchestration/COMBINED_ORCHESTRATION.md
-cp MEMORY_SETUP.md COMBINED/memory/COMBINED_MEMORY_SETUP.md
+# Update .claude/ with latest versions
+cp .claude/CLAUDE.md .claude/claude/COMBINED_CLAUDE.md
+cp .claude/settings.json .claude/claude/COMBINED_SETTINGS.json
+cp -r .claude/workspace-config/claude/commands/* .claude/claude/COMBINED_COMMANDS/
+cp -r .claude/workspace-config/claude/skills/* .claude/claude/COMBINED_SKILLS/
+cp .github/copilot-instructions.md .claude/copilot/COMBINED_COPILOT_INSTRUCTIONS.md
+cp .cursorrules .claude/cursor/COMBINED_CURSORRULES
+cp -r .cursor/rules/* .claude/cursor/COMBINED_CURSOR_RULES/
+cp Prompts/COMBINED_PROMPTS.md .claude/prompts/COMBINED_ALL_PROMPTS.md
+cp UI-UX/COMBINED_DESIGN_SYSTEM.md .claude/ui/COMBINED_DESIGN_SYSTEM.md
+cp ORCHESTRATION.md .claude/orchestration/COMBINED_ORCHESTRATION.md
+cp MEMORY_SETUP.md .claude/memory/COMBINED_MEMORY_SETUP.md
 ```
 
 ### Step 6: Update Root Files
@@ -205,11 +205,11 @@ git diff --name-only -- Agents/ Orchestration/ Skills/ Tools/ Prompts/ UI-UX/ Re
 # Verify new files were added
 git status --short
 
-# Verify COMBINED/ is up to date
-diff .claude/CLAUDE.md COMBINED/claude/COMBINED_CLAUDE.md
-diff .github/copilot-instructions.md COMBINED/copilot/COMBINED_COPILOT_INSTRUCTIONS.md
-diff ORCHESTRATION.md COMBINED/orchestration/COMBINED_ORCHESTRATION.md
-diff MEMORY_SETUP.md COMBINED/memory/COMBINED_MEMORY_SETUP.md
+# Verify .claude/ is up to date
+diff .claude/CLAUDE.md .claude/claude/COMBINED_CLAUDE.md
+diff .github/copilot-instructions.md .claude/copilot/COMBINED_COPILOT_INSTRUCTIONS.md
+diff ORCHESTRATION.md .claude/orchestration/COMBINED_ORCHESTRATION.md
+diff MEMORY_SETUP.md .claude/memory/COMBINED_MEMORY_SETUP.md
 ```
 
 ---
@@ -260,7 +260,7 @@ cp new-content.md existing-name_v2.md
 ```
 
 ### Overlapping Skills
-1. Check if the skill already exists in `COMBINED/workspace-config/claude/skills/` or `_combined/skills/`
+1. Check if the skill already exists in `.claude/workspace-config/claude/skills/` or `_combined/skills/`
 2. If yes — merge the SKILL.md files (append unique sections)
 3. If no — add as new skill directory
 
@@ -299,7 +299,7 @@ Use this comment block when adding content from a new repo:
 - [ ] Relevant content merged into `MEMORY_SETUP.md` (if applicable)
 - [ ] Relevant content merged into `Prompts/COMBINED_PROMPTS.md` (if applicable)
 - [ ] Relevant content merged into `UI-UX/COMBINED_DESIGN_SYSTEM.md` (if applicable)
-- [ ] COMBINED/ directory updated with latest versions
+- [ ] .claude/ directory updated with latest versions
 - [ ] README.md updated
 - [ ] llms.txt updated
 - [ ] Changes committed with conventional commit message

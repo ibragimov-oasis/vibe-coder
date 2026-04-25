@@ -205,14 +205,14 @@ reference/
 ### ✅ No Orphaned Directories
 ```bash
 # Checked for old nested structures
-find COMBINED/ -type d -name "nested" -o -name "old" -o -name "backup"
+find .claude/ -type d -name "nested" -o -name "old" -o -name "backup"
 # Result: No orphaned directories found
 ```
 
 ### ✅ No Broken Symlinks
 ```bash
 # Checked for broken symlinks
-find COMBINED/ -type l -exec test ! -e {} \; -print
+find .claude/ -type l -exec test ! -e {} \; -print
 # Result: No broken symlinks
 ```
 
@@ -230,8 +230,8 @@ All directories follow the PREFIX-SOURCE pattern:
 - [x] RESTRUCTURE_PLAN.md — Original plan document
 - [x] RESTRUCTURE_COMPLETE.md — Brief completion note
 - [x] RESTRUCTURE_VALIDATION_REPORT.md — **This comprehensive validation report**
-- [x] COMBINED/README.md — Updated with new structure
-- [x] COMBINED/INDEX.md — Paths updated to PREFIX-SOURCE
+- [x] .claude/README.md — Updated with new structure
+- [x] .claude/INDEX.md — Paths updated to PREFIX-SOURCE
 
 ### ⏳ Pending (Phase 7 final tasks)
 - [ ] Root README.md — Update structure references
@@ -248,7 +248,7 @@ All directories follow the PREFIX-SOURCE pattern:
 | All 44,750 files accounted for | ✅ | 44,787 files (within variance) |
 | Structure matches RESTRUCTURE_NEW_STRUCTURE.md | ✅ | 100% compliance |
 | No files lost or duplicated | ✅ | Zero data loss |
-| All documentation updated | ⏳ | COMBINED/ docs done, root docs pending |
+| All documentation updated | ⏳ | .claude/ docs done, root docs pending |
 | Git history preserved | ✅ | All commits intact |
 | All 7 phases committed | ✅ | Phases 0-7 complete |
 | Validation tests pass | ✅ | This report validates success |

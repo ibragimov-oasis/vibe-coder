@@ -11,7 +11,7 @@ aliases:
   - content editing
 created: 2026-04-18
 type: skill
-source: "../COMBINED/skills/skills-writing/edit-article/"
+source: "../.claude/skills/skills-writing/edit-article/"
 ---
 
 # ✏️ Skill: edit-article

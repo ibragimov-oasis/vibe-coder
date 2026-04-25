@@ -10,12 +10,12 @@ aliases:
   - ruflo managers
 created: 2026-04-18
 type: agents-role
-source: "../COMBINED/agents/by-role/manager/"
+source: "../.claude/agents/by-role/manager/"
 ---
 
 # Agents By Role: Manager (80)
 
-> **Источник:** `../COMBINED/agents/by-role/manager/`
+> **Источник:** `../.claude/agents/by-role/manager/`
 > **Количество:** 80 агентов — самая большая категория
 
 ## О чём

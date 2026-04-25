@@ -106,7 +106,7 @@ The pipeline ensures every task is:
 │  1. Analyze Background Agent output                             │
 │  2. Extract patterns & lessons                                  │
 │  3. Create new skills from experience                           │
-│     → COMBINED/skills/{domain}/                                 │
+│     → .claude/skills/{domain}/                                 │
 │  4. Update supermemory with insights                            │
 │  5. Update CAPABILITIES.md if new capability discovered         │
 │  6. Save to Refly skills registry (if applicable)              │
@@ -175,7 +175,7 @@ The pipeline ensures every task is:
 │  - Todo progress (task completion)                              │
 │  - Session cost (USD)                                           │
 │                                                                  │
-│  Source: COMBINED/reference/claude-hud/                          │
+│  Source: .claude/reference/claude-hud/                          │
 └──────────────────────────────────────────────────────────────────┘
 ```
 
@@ -186,8 +186,8 @@ The pipeline ensures every task is:
 ### Step 0 — Task Master
 
 ```markdown
-AGENT: mega-orchestrator (COMBINED/agents/mega/mega-orchestrator.md)
-TOOL:  Task Master MCP (COMBINED/orchestration/core-taskmaster/)
+AGENT: mega-orchestrator (.claude/agents/mega/mega-orchestrator.md)
+TOOL:  Task Master MCP (.claude/orchestration/core-taskmaster/)
 
 INPUT:  PRD or user task description
 OUTPUT: Structured task list with dependencies and complexity scores
@@ -207,8 +207,8 @@ NOTE: Task Master EXTENDS Vibe-Kanban. Both systems co-exist:
 ### Step 0.5 — Archon (optional)
 
 ```markdown
-AGENT: mega-executor (COMBINED/agents/mega/mega-executor.md)
-TOOL:  Archon (COMBINED/orchestration/core-archon/)
+AGENT: mega-executor (.claude/agents/mega/mega-executor.md)
+TOOL:  Archon (.claude/orchestration/core-archon/)
 
 INPUT:  Task list from Step 0
 OUTPUT: YAML DAG workflow execution
@@ -229,7 +229,7 @@ NOTE: Archon COMPLEMENTS Background Agent:
 ### Step 1 — Background Agent
 
 ```markdown
-AGENT: mega-orchestrator (COMBINED/agents/mega/mega-orchestrator.md)
+AGENT: mega-orchestrator (.claude/agents/mega/mega-orchestrator.md)
 
 INPUT:  Task description from user (or from Task Master/Archon)
 OUTPUT: Working implementation + OpenViking context entry
@@ -262,7 +262,7 @@ ENHANCED PATTERNS:
 ### Step 2 — Hermes Agent
 
 ```markdown
-AGENT: hermes (COMBINED/orchestration/core-hermes/)
+AGENT: hermes (.claude/orchestration/core-hermes/)
 
 INPUT:  Background Agent completion summary
 OUTPUT: New skills + updated supermemory + optionally updated CAPABILITIES.md
@@ -272,7 +272,7 @@ ACTIONS:
 2. Identify: what worked, what failed, what was novel
 3. Extract reusable patterns
 4. If pattern is new and valuable:
-   - Create skill file in COMBINED/skills/{domain}/{skill-name}/SKILL.md
+   - Create skill file in .claude/skills/{domain}/{skill-name}/SKILL.md
    - Follow skill template: name, description, steps, examples
    - Optionally register in Refly skills registry
 5. `mcp supermemory add` — save insights with tags
@@ -282,8 +282,8 @@ ACTIONS:
 ### Step 3 — Shannon Agent
 
 ```markdown
-AGENT: mega-security (COMBINED/agents/mega/mega-security.md)
-       Shannon core: COMBINED/security/security-shannon/
+AGENT: mega-security (.claude/agents/mega/mega-security.md)
+       Shannon core: .claude/security/security-shannon/
 
 INPUT:  Changed files list from Step 1
 OUTPUT: Security report (PASS or VULNERABILITIES_FOUND)
@@ -306,8 +306,8 @@ ACTIONS:
 ### Step 4 — Code Review Graph (optional)
 
 ```markdown
-AGENT: mega-reviewer (COMBINED/agents/mega/mega-reviewer.md)
-TOOL:  code-review-graph MCP (COMBINED/mcp-servers/mcp-code-review-graph/)
+AGENT: mega-reviewer (.claude/agents/mega/mega-reviewer.md)
+TOOL:  code-review-graph MCP (.claude/mcp-servers/mcp-code-review-graph/)
 
 INPUT:  Completed and secured codebase from Step 3
 OUTPUT: Structural quality report
@@ -355,7 +355,7 @@ When the pipeline completes, results can be delivered via cc-connect to:
 - Telegram, Slack, Discord, WeChat Work, LINE, QQ, QQ Bot, Feishu/Lark, DingTalk, Weixin (personal)
 
 Supports: text, markdown, images, files, voice messages, scheduled tasks (cron)
-Source: `COMBINED/orchestration/core-cc-connect/`
+Source: `.claude/orchestration/core-cc-connect/`
 
 ---
 
@@ -363,29 +363,29 @@ Source: `COMBINED/orchestration/core-cc-connect/`
 
 - `CAPABILITIES.md` — capability registry and rules
 - `AGENTS.md` — full agent catalog (54 repositories)
-- `COMBINED/agents/mega/` — all mega-agent definitions
-- `COMBINED/security/security-shannon/` — Shannon pentester core
-- `COMBINED/orchestration/core-hermes/` — Hermes self-learning system
-- `COMBINED/orchestration/core-background-agents/` — background agent configs
-- `COMBINED/orchestration/core-archon/` — Archon YAML workflow engine
-- `COMBINED/orchestration/core-ralph/` — Ralph PRD autonomous loop
-- `COMBINED/orchestration/core-squad/` — Squad AI team management
-- `COMBINED/orchestration/core-multica/` — Multica agent platform
-- `COMBINED/orchestration/core-praisonai/` — PraisonAI multi-agent framework
-- `COMBINED/orchestration/core-cc-connect/` — cc-connect remote access
-- `COMBINED/orchestration/core-taskmaster/` — Task Master MCP tasks
-- `COMBINED/orchestration/core-refly/` — Refly skills builder
-- `COMBINED/mcp-servers/mcp-code-review-graph/` — Code Review Graph MCP
-- `COMBINED/mcp-servers/mcp-toolbox/` — MCP Toolbox databases
-- `COMBINED/mcp-servers/mcp-markitdown/` — Markitdown file conversion
-- `COMBINED/reference/claude-hud/` — Claude HUD monitoring
-- `COMBINED/skills/skills-claude/karpathy/` — Karpathy 4 principles
-- `COMBINED/skills/skills-claude/best-practice/` — 69 Claude Code best practices
-- `COMBINED/skills/skills-development/` — Matt Pocock 20 skills
-- `COMBINED/skills/skills-seo/seomachine/` — SEOMachine 10 agents, 26 skills
-- `COMBINED/ui-design/ui-impeccable/` — Impeccable design (18 commands)
-- `COMBINED/ui-design/ui-taste-skill/` — Taste-skill (7 design skills)
-- `COMBINED/ui-design/ui-stitch-skills/` — Stitch Skills (Google design generation)
+- `.claude/agents/mega/` — all mega-agent definitions
+- `.claude/security/security-shannon/` — Shannon pentester core
+- `.claude/orchestration/core-hermes/` — Hermes self-learning system
+- `.claude/orchestration/core-background-agents/` — background agent configs
+- `.claude/orchestration/core-archon/` — Archon YAML workflow engine
+- `.claude/orchestration/core-ralph/` — Ralph PRD autonomous loop
+- `.claude/orchestration/core-squad/` — Squad AI team management
+- `.claude/orchestration/core-multica/` — Multica agent platform
+- `.claude/orchestration/core-praisonai/` — PraisonAI multi-agent framework
+- `.claude/orchestration/core-cc-connect/` — cc-connect remote access
+- `.claude/orchestration/core-taskmaster/` — Task Master MCP tasks
+- `.claude/orchestration/core-refly/` — Refly skills builder
+- `.claude/mcp-servers/mcp-code-review-graph/` — Code Review Graph MCP
+- `.claude/mcp-servers/mcp-toolbox/` — MCP Toolbox databases
+- `.claude/mcp-servers/mcp-markitdown/` — Markitdown file conversion
+- `.claude/reference/claude-hud/` — Claude HUD monitoring
+- `.claude/skills/skills-claude/karpathy/` — Karpathy 4 principles
+- `.claude/skills/skills-claude/best-practice/` — 69 Claude Code best practices
+- `.claude/skills/skills-development/` — Matt Pocock 20 skills
+- `.claude/skills/skills-seo/seomachine/` — SEOMachine 10 agents, 26 skills
+- `.claude/ui-design/ui-impeccable/` — Impeccable design (18 commands)
+- `.claude/ui-design/ui-taste-skill/` — Taste-skill (7 design skills)
+- `.claude/ui-design/ui-stitch-skills/` — Stitch Skills (Google design generation)
 
 ## 🔗 Связи
 

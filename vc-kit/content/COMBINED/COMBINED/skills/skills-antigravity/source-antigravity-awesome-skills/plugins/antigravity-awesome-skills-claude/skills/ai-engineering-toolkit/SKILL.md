@@ -103,7 +103,7 @@ Result: 65 tests executed. 3 critical failures found: Base64-encoded instruction
 
 # Manual
 git clone https://github.com/viliawang-pm/ai-engineering-toolkit.git
-cp -r ai-engineering-toolkit/skills/* ~/COMBINED/workspace-config/claude/skills/
+cp -r ai-engineering-toolkit/skills/* ~/.claude/workspace-config/claude/skills/
 ```
 
 **Repository**: [github.com/viliawang-pm/ai-engineering-toolkit](https://github.com/viliawang-pm/ai-engineering-toolkit)

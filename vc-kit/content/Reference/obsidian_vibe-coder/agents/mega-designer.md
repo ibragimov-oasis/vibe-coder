@@ -6,7 +6,7 @@ tags:
   - artifact/mega-agent
   - agent/mega-designer
   - status/active
-source: "../COMBINED/agents/mega/mega-designer.md"
+source: "../.claude/agents/mega/mega-designer.md"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -54,7 +54,7 @@ Galaxy + shadcn + UI/UX Pro Max + **Impeccable (18 команд)** + **Taste-ski
 
 ## Исходник
 
-> 📂 `../COMBINED/agents/mega/mega-designer.md`
+> 📂 `../.claude/agents/mega/mega-designer.md`
 
 ## 🔗 Связи
 

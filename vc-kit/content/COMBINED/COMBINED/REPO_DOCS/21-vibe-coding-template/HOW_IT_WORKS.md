@@ -61,14 +61,14 @@ Step 6: AI reads `.claude/skills/*/SKILL.md` → loads 6 Claude Code skills (vib
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/21-vibe-coding-template/ | Documentation |
-| part1-4 prompts | COMBINED/prompts/templates/vibe-coding/ | 4 structured workflow prompts |
-| .claude/skills/ | COMBINED/skills/by-domain/vibe-workflow/ | 6 vibe-coding skills |
-| templates/ | COMBINED/prompts/templates/vibe-coding/ | Agent doc templates |
+| README.md | .claude/REPO_DOCS/21-vibe-coding-template/ | Documentation |
+| part1-4 prompts | .claude/prompts/templates/vibe-coding/ | 4 structured workflow prompts |
+| .claude/skills/ | .claude/skills/by-domain/vibe-workflow/ | 6 vibe-coding skills |
+| templates/ | .claude/prompts/templates/vibe-coding/ | Agent doc templates |
 
 ---
 

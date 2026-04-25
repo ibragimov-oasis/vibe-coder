@@ -29,13 +29,13 @@ The rules distillation process follows three phases:
 #### 1a. Collect skill inventory
 
 ```bash
-bash ~/COMBINED/workspace-config/claude/skills/rules-distill/scripts/scan-skills.sh
+bash ~/.claude/workspace-config/claude/skills/rules-distill/scripts/scan-skills.sh
 ```
 
 #### 1b. Collect rules index
 
 ```bash
-bash ~/COMBINED/workspace-config/claude/skills/rules-distill/scripts/scan-rules.sh
+bash ~/.claude/workspace-config/claude/skills/rules-distill/scripts/scan-rules.sh
 ```
 
 #### 1c. Present to user

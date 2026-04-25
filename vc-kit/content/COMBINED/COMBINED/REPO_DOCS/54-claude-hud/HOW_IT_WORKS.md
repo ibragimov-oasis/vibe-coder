@@ -10,7 +10,7 @@ tags:
 # claude-hud — How It Works
 
 **Category:** New Repo (Vibe-Coder v3.0 — original 54)
-**Local path in vibe-coder:** COMBINED/reference/claude-hud/
+**Local path in vibe-coder:** .claude/reference/claude-hud/
 
 ---
 
@@ -22,13 +22,13 @@ Real-time monitoring plugin: context, tools, agents, todos, cost, git status.
 
 ## Vibe-Coder Role
 
-Provides specialized capability as described above. See the files at `COMBINED/reference/claude-hud/` for full documentation and usage instructions.
+Provides specialized capability as described above. See the files at `.claude/reference/claude-hud/` for full documentation and usage instructions.
 
 ---
 
 ## Status
 
-- [x] Integrated into COMBINED/
+- [x] Integrated into .claude/
 - [x] Referenced in AGENTS.md and CAPABILITIES.md
 - [x] Added to MASTER_INDEX
 

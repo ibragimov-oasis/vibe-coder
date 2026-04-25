@@ -28,12 +28,12 @@ tags:
 
 命令是通过斜杠命令执行的技能。它们有重叠但存储方式不同：
 
-* **技能**: `~/COMBINED/workspace-config/claude/skills/` - 更广泛的工作流定义
-* **命令**: `~/COMBINED/workspace-config/claude/commands/` - 快速可执行的提示词
+* **技能**: `~/.claude/workspace-config/claude/skills/` - 更广泛的工作流定义
+* **命令**: `~/.claude/workspace-config/claude/commands/` - 快速可执行的提示词
 
 ```bash
 # Example skill structure
-~/COMBINED/workspace-config/claude/skills/
+~/.claude/workspace-config/claude/skills/
   pmx-guidelines.md      # Project-specific patterns
   coding-standards.md    # Language best practices
   tdd-workflow/          # Multi-file skill with README.md
@@ -88,7 +88,7 @@ tags:
 
 ```bash
 # Example subagent structure
-~/COMBINED/workspace-config/claude/agents/
+~/.claude/workspace-config/claude/agents/
   planner.md           # Feature implementation planning
   architect.md         # System design decisions
   tdd-guide.md         # Test-driven development
@@ -396,7 +396,7 @@ affoon:~ ctx:65% Opus 4.5 19:52
 ### 子代理
 
 ```
-~/COMBINED/workspace-config/claude/agents/
+~/.claude/workspace-config/claude/agents/
   planner.md           # 功能拆分
   architect.md         # 系统设计
   tdd-guide.md         # 测试先行指南

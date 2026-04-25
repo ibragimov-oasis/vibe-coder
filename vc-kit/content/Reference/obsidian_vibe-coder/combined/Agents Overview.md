@@ -1,11 +1,11 @@
 ---
-title: Agents Overview — COMBINED/agents
+title: Agents Overview — .claude/agents
 tags:
   - domain/agents
   - artifact/index
   - status/active
   - source/combined
-source: "../COMBINED/agents/"
+source: "../.claude/agents/"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -13,15 +13,15 @@ aliases:
   - agents directory
 ---
 
-# 📄 Agents Overview — COMBINED/agents
+# 📄 Agents Overview — .claude/agents
 
-> **Тип:** Domain overview | **Источник:** `../COMBINED/agents/`
-> **Краткое описание:** Структура директории COMBINED/agents: мега-агенты, агенты по ролям, по интерфейсам.
+> **Тип:** Domain overview | **Источник:** `../.claude/agents/`
+> **Краткое описание:** Структура директории .claude/agents: мега-агенты, агенты по ролям, по интерфейсам.
 
 ## Структура директории
 
 ```
-COMBINED/agents/
+.claude/agents/
 ├── mega/                     — 15 мега-агентов
 │   ├── mega-coder.md
 │   ├── mega-debugger.md
@@ -45,7 +45,7 @@ COMBINED/agents/
 └── background-agents/        — Background execution
 ```
 
-## 15 Мега-агентов (COMBINED/agents/mega/)
+## 15 Мега-агентов (.claude/agents/mega/)
 
 | Агент | Файл |
 |-------|------|

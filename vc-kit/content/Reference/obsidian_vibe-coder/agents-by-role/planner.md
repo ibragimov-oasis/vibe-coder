@@ -9,12 +9,12 @@ aliases:
   - planner agents
 created: 2026-04-18
 type: agents-role
-source: "../COMBINED/agents/by-role/planner/"
+source: "../.claude/agents/by-role/planner/"
 ---
 
 # Agents By Role: Planner (13)
 
-> **Источник:** `../COMBINED/agents/by-role/planner/`
+> **Источник:** `../.claude/agents/by-role/planner/`
 > **Количество:** 13 агентов
 
 ## Источники

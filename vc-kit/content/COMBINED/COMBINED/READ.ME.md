@@ -8,7 +8,7 @@ tags:
 обновление: 04.04.2026
 🎯 REFINED STRUCTURE: HIERARCHICAL + PREFIX-SOURCE
 
-NEW COMBINED/
+NEW .claude/
 │
 ├── agents/                          # TOP-LEVEL CATEGORY
 │   ├── by-role/                     # Cross-repo aggregate (SPECIAL)
@@ -177,7 +177,7 @@ Source transparency - Within each category, see all sources at a glance
 No deep nesting - Maximum 2 levels deep (category → source)
 Easy comparison - All ruflo stuff together, all gsd stuff together
 Intuitive navigation - Follows mental model: "I need an agent" → cd agents/ → ls
-было : КОМПЛЕКСНЫЙ АНАЛИЗ И ПЛАН СТРУКТУРЫ COMBINED/
+было : КОМПЛЕКСНЫЙ АНАЛИЗ И ПЛАН СТРУКТУРЫ .claude/
 ЧАСТЬ 1: ОБЩИЕ ПАТТЕРНЫ МЕЖДУ РЕПОЗИТОРИЯМИ
 1.1 Общие элементы во ВСЕХ категориях:
 Agents (определения агентов):
@@ -212,11 +212,11 @@ Configs (конфигурационные файлы):
 * Orchestration core - ruflo/core, oh-my-claudecode, 1code, vibe-kanban
 * Reference data - awesome-selfhosted
 
-ЧАСТЬ 2: СТРУКТУРА COMBINED/ - ПОЛНАЯ ИЕРАРХИЯ
+ЧАСТЬ 2: СТРУКТУРА .claude/ - ПОЛНАЯ ИЕРАРХИЯ
 
 Code
 
-COMBINED/
+.claude/
 │
 ├── agents/                          # ВСЕ определения агентов из всех репо
 │   ├── by-role/                     # Сортировка по функциональной роли
@@ -511,16 +511,16 @@ FROM → TO:
 
 Code
 
-Agents/shannon/claude/                          → COMBINED/agents/by-interface/claude/shannon/
-Agents/background-agents/AGENTS.md              → COMBINED/agents/orchestrators/background-agents/
-Agents/hermes-agent/AGENTS.md                   → COMBINED/agents/orchestrators/hermes/
-Orchestration/superpowers/agents/               → COMBINED/agents/by-role/reviewer/
-Orchestration/get-shit-done/agents/             → COMBINED/agents/by-role/ (распределить по ролям)
-Orchestration/ruflo/agents/                     → COMBINED/agents/by-role/ + by-interface/claude/ruflo/
-Orchestration/oh-my-claudecode/agents/          → COMBINED/orchestration/oh-my-claudecode/agents/
-Skills/claude-skills/agents/                    → COMBINED/agents/by-role/ (распределить)
-COMBINED/agents/by-interface/agents-copilot/_github/agents/     → COMBINED/agents/by-interface/copilot/awesome-copilot/
-Skills/antigravity-awesome-skills/_agents/      → COMBINED/agents/by-interface/antigravity/
+Agents/shannon/claude/                          → .claude/agents/by-interface/claude/shannon/
+Agents/background-agents/AGENTS.md              → .claude/agents/orchestrators/background-agents/
+Agents/hermes-agent/AGENTS.md                   → .claude/agents/orchestrators/hermes/
+Orchestration/superpowers/agents/               → .claude/agents/by-role/reviewer/
+Orchestration/get-shit-done/agents/             → .claude/agents/by-role/ (распределить по ролям)
+Orchestration/ruflo/agents/                     → .claude/agents/by-role/ + by-interface/claude/ruflo/
+Orchestration/oh-my-claudecode/agents/          → .claude/orchestration/oh-my-claudecode/agents/
+Skills/claude-skills/agents/                    → .claude/agents/by-role/ (распределить)
+.claude/agents/by-interface/agents-copilot/_github/agents/     → .claude/agents/by-interface/copilot/awesome-copilot/
+Skills/antigravity-awesome-skills/_agents/      → .claude/agents/by-interface/antigravity/
 Правило сортировки по ролям:
 * *debugger* → agents/by-role/debugger/
 * *planner* → agents/by-role/planner/
@@ -536,100 +536,100 @@ Skills/antigravity-awesome-skills/_agents/      → COMBINED/agents/by-interface
 
 Code
 
-Orchestration/ruflo/                            → COMBINED/orchestration/ruflo/
-Orchestration/oh-my-claudecode/                 → COMBINED/orchestration/oh-my-claudecode/
-Orchestration/get-shit-done/                    → COMBINED/orchestration/get-shit-done/
-Orchestration/superpowers/                      → COMBINED/orchestration/superpowers/
-Orchestration/deer-flow/                        → COMBINED/orchestration/deer-flow/
-Orchestration/1code/                            → COMBINED/orchestration/1code/
-Orchestration/vibe-kanban/                      → COMBINED/orchestration/vibe-kanban/
-Agents/background-agents/terraform/             → COMBINED/orchestration/workflows/terraform/
+Orchestration/ruflo/                            → .claude/orchestration/ruflo/
+Orchestration/oh-my-claudecode/                 → .claude/orchestration/oh-my-claudecode/
+Orchestration/get-shit-done/                    → .claude/orchestration/get-shit-done/
+Orchestration/superpowers/                      → .claude/orchestration/superpowers/
+Orchestration/deer-flow/                        → .claude/orchestration/deer-flow/
+Orchestration/1code/                            → .claude/orchestration/1code/
+Orchestration/vibe-kanban/                      → .claude/orchestration/vibe-kanban/
+Agents/background-agents/terraform/             → .claude/orchestration/workflows/terraform/
 3.3 Skills Migration
 
 Code
 
-Skills/antigravity-awesome-skills/skills/       → COMBINED/skills/development/antigravity/
-Skills/claude-skills/engineering*/              → COMBINED/skills/development/claude-skills/
-Skills/claude-skills/marketing-skill/           → COMBINED/skills/seo/claude-skills-marketing/
-Skills/claude-skills/finance/                   → COMBINED/skills/skills-data-analysis/claude-skills-finance/
-Skills/claude-skills/business-growth/           → COMBINED/skills/skills-business/claude-skills-growth/
-Skills/superpowers/skills/                      → COMBINED/skills/development/superpowers/
-Skills/deer-flow/skills/public/                 → COMBINED/skills/ (распределить по типам)
-Skills/hermes-agent/skills/                     → COMBINED/skills/development/hermes/builtin/
-Skills/hermes-agent/optional-skills/            → COMBINED/skills/development/hermes/optional/
-Skills/awesome-copilot-main/skills/             → COMBINED/skills/development/awesome-copilot/
-Skills/awesome-claude-code/                     → COMBINED/skills/development/awesome-claude-code/
-Skills/everything-claude-code/                  → COMBINED/skills/development/everything-claude-code/
-Skills/claude-seo/                              → COMBINED/skills/seo/claude-seo/
-Skills/obsidian-skills/                         → COMBINED/skills/skills-platform/obsidian/
+Skills/antigravity-awesome-skills/skills/       → .claude/skills/development/antigravity/
+Skills/claude-skills/engineering*/              → .claude/skills/development/claude-skills/
+Skills/claude-skills/marketing-skill/           → .claude/skills/seo/claude-skills-marketing/
+Skills/claude-skills/finance/                   → .claude/skills/skills-data-analysis/claude-skills-finance/
+Skills/claude-skills/business-growth/           → .claude/skills/skills-business/claude-skills-growth/
+Skills/superpowers/skills/                      → .claude/skills/development/superpowers/
+Skills/deer-flow/skills/public/                 → .claude/skills/ (распределить по типам)
+Skills/hermes-agent/skills/                     → .claude/skills/development/hermes/builtin/
+Skills/hermes-agent/optional-skills/            → .claude/skills/development/hermes/optional/
+Skills/awesome-copilot-main/skills/             → .claude/skills/development/awesome-copilot/
+Skills/awesome-claude-code/                     → .claude/skills/development/awesome-claude-code/
+Skills/everything-claude-code/                  → .claude/skills/development/everything-claude-code/
+Skills/claude-seo/                              → .claude/skills/seo/claude-seo/
+Skills/obsidian-skills/                         → .claude/skills/skills-platform/obsidian/
 3.4 Commands Migration
 
 Code
 
-Agents/shannon/claude/commands/                 → COMBINED/commands/ (по типу)
-Orchestration/superpowers/commands/             → COMBINED/commands/plan/
-Orchestration/get-shit-done/commands/gsd/       → COMBINED/commands/general/gsd/
-Skills/claude-skills/commands/                  → COMBINED/commands/general/
+Agents/shannon/claude/commands/                 → .claude/commands/ (по типу)
+Orchestration/superpowers/commands/             → .claude/commands/plan/
+Orchestration/get-shit-done/commands/gsd/       → .claude/commands/general/gsd/
+Skills/claude-skills/commands/                  → .claude/commands/general/
 3.5 Hooks Migration
 
 Code
 
-Orchestration/superpowers/hooks/                → COMBINED/hooks/notification/superpowers/
-Orchestration/get-shit-done/hooks/              → COMBINED/hooks/notification/gsd/
-Orchestration/ruflo/githooks/                   → COMBINED/hooks/pre-commit/ruflo/
-Agents/background-agents/_husky/                → COMBINED/hooks/pre-commit/background-agents/
+Orchestration/superpowers/hooks/                → .claude/hooks/notification/superpowers/
+Orchestration/get-shit-done/hooks/              → .claude/hooks/notification/gsd/
+Orchestration/ruflo/githooks/                   → .claude/hooks/pre-commit/ruflo/
+Agents/background-agents/_husky/                → .claude/hooks/pre-commit/background-agents/
 3.6 Prompts Migration
 
 Code
 
-Agents/shannon/apps/worker/prompts/             → COMBINED/prompts/security/security-shannon/
-Prompts/prompts.chat/                           → COMBINED/prompts/templates/prompts-chat/
-Prompts/system-prompts-and-models*/             → COMBINED/prompts/system-prompts/ (merge)
-Prompts/system-prompts/                         → COMBINED/prompts/system-prompts/ (merge)
-Prompts/system_prompts_leaks/                   → COMBINED/prompts/leaked/
-Prompts/optimization/                           → COMBINED/prompts/templates/optimization/
-Prompts/vibe-coding/                            → COMBINED/prompts/templates/vibe-coding/
-Prompts/vibe-coding-prompt-template/            → COMBINED/prompts/templates/vibe-coding-template/
-Skills/claude-skills/templates/                 → COMBINED/prompts/templates/claude-skills-templates/
+Agents/shannon/apps/worker/prompts/             → .claude/prompts/security/security-shannon/
+Prompts/prompts.chat/                           → .claude/prompts/templates/prompts-chat/
+Prompts/system-prompts-and-models*/             → .claude/prompts/system-prompts/ (merge)
+Prompts/system-prompts/                         → .claude/prompts/system-prompts/ (merge)
+Prompts/system_prompts_leaks/                   → .claude/prompts/leaked/
+Prompts/optimization/                           → .claude/prompts/templates/optimization/
+Prompts/vibe-coding/                            → .claude/prompts/templates/vibe-coding/
+Prompts/vibe-coding-prompt-template/            → .claude/prompts/templates/vibe-coding-template/
+Skills/claude-skills/templates/                 → .claude/prompts/templates/claude-skills-templates/
 3.7 Memory Migration
 
 Code
 
-COMBINED/memory/memory-claude-mem/                               → COMBINED/memory/claude-mem/
-Tools/supermemory/                              → COMBINED/memory/supermemory/
-COMBINED/mcp-servers/mcp-openviking/                               → COMBINED/memory/openviking/
-MEMORY_SETUP.md                                 → COMBINED/memory/configs/
+.claude/memory/memory-claude-mem/                               → .claude/memory/claude-mem/
+Tools/supermemory/                              → .claude/memory/supermemory/
+.claude/mcp-servers/mcp-openviking/                               → .claude/memory/openviking/
+MEMORY_SETUP.md                                 → .claude/memory/configs/
 3.8 MCP Servers Migration
 
 Code
 
-Tools/GitNexus/                                 → COMBINED/mcp-servers/gitnexus/
-COMBINED/mcp-servers/mcp-lightpanda/ (lightpanda)                     → COMBINED/mcp-servers/lightpanda/
-Tools/nano-banana-2-mcp/                        → COMBINED/mcp-servers/nano-banana/
-COMBINED/mcp-servers/mcp-pretext/                                  → COMBINED/mcp-servers/pretext/
-Agents/hermes-agent/mcp_serve.py                → COMBINED/mcp-servers/hermes/
-Orchestration/superpowers/claude-plugin/        → COMBINED/mcp-servers/configs/superpowers-plugin/
-Orchestration/ruflo/claude-plugin/              → COMBINED/mcp-servers/configs/ruflo-plugin/
-Skills/antigravity*/_claude-plugin/             → COMBINED/mcp-servers/configs/antigravity-plugin/
+Tools/GitNexus/                                 → .claude/mcp-servers/gitnexus/
+.claude/mcp-servers/mcp-lightpanda/ (lightpanda)                     → .claude/mcp-servers/lightpanda/
+Tools/nano-banana-2-mcp/                        → .claude/mcp-servers/nano-banana/
+.claude/mcp-servers/mcp-pretext/                                  → .claude/mcp-servers/pretext/
+Agents/hermes-agent/mcp_serve.py                → .claude/mcp-servers/hermes/
+Orchestration/superpowers/claude-plugin/        → .claude/mcp-servers/configs/superpowers-plugin/
+Orchestration/ruflo/claude-plugin/              → .claude/mcp-servers/configs/ruflo-plugin/
+Skills/antigravity*/_claude-plugin/             → .claude/mcp-servers/configs/antigravity-plugin/
 3.9 Security Migration
 
 Code
 
-Agents/shannon/                                 → COMBINED/security/security-shannon/
-Agents/shannon/sample-reports/                  → COMBINED/security/security-reports/shannon-samples/
+Agents/shannon/                                 → .claude/security/security-shannon/
+Agents/shannon/sample-reports/                  → .claude/security/security-reports/shannon-samples/
 3.10 UI/UX Migration
 
 Code
 
-UI-UX/galaxy/                                   → COMBINED/ui-design/ui-components-galaxy/
-COMBINED/ui-design/ui-components-shadcn/ (shadcn)                              → COMBINED/ui-design/ui-components-shadcn/
-UI-UX/ui-ux-pro-max-skill/                      → COMBINED/ui-design/ui-rules/ui-ux-pro-max/
-.cursorrules + .cursor/rules/                   → COMBINED/ui-design/ui-cursor-rules/
+UI-UX/galaxy/                                   → .claude/ui-design/ui-components-galaxy/
+.claude/ui-design/ui-components-shadcn/ (shadcn)                              → .claude/ui-design/ui-components-shadcn/
+UI-UX/ui-ux-pro-max-skill/                      → .claude/ui-design/ui-rules/ui-ux-pro-max/
+.cursorrules + .cursor/rules/                   → .claude/ui-design/ui-cursor-rules/
 3.11 Reference Migration
 
 Code
 
-Reference/reference-selfhosted/            → COMBINED/reference/reference-selfhosted/
+Reference/reference-selfhosted/            → .claude/reference/reference-selfhosted/
 
 ЧАСТЬ 4: СПЕЦИАЛЬНЫЕ ПРАВИЛА ОБЪЕДИНЕНИЯ
 4.1 System Prompts (3 источника → 1 папка)
@@ -641,7 +641,7 @@ Reference/reference-selfhosted/            → COMBINED/reference/reference-self
 
 Code
 
-COMBINED/prompts/system-prompts/
+.claude/prompts/system-prompts/
 ├── claude/                  # Все Claude промпты из 3 источников
 ├── chatgpt/                 # Все ChatGPT промпты
 ├── cursor/
@@ -676,7 +676,7 @@ awesome-copilot-main/
 
 Code
 
-COMBINED/agents/by-interface/copilot/
+.claude/agents/by-interface/copilot/
 ├── awesome-copilot/        # Сохранить как есть все 230+ агентов
 │   ├── 4.1-Beast.agent.md
 │   ├── CSharpExpert.agent.md
@@ -716,10 +716,10 @@ COMBINED/agents/by-interface/copilot/
 6. LOW: Memory, MCP Servers, Security
 7. LOW: UI/UX, Reference
 Фаза 3: Создание индексов
-1. COMBINED/INDEX.md - общая карта
-2. COMBINED/agents/INDEX.md - все агенты
-3. COMBINED/skills/INDEX.md - все скиллы
-4. COMBINED/commands/INDEX.md - все команды
+1. .claude/INDEX.md - общая карта
+2. .claude/agents/INDEX.md - все агенты
+3. .claude/skills/INDEX.md - все скиллы
+4. .claude/commands/INDEX.md - все команды
 
 ЧАСТЬ 7: СТАТИСТИКА
 Объем переноса:

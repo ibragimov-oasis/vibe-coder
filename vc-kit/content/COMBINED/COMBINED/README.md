@@ -96,7 +96,7 @@ Next: Phase 4-6 (Mega-Agents, Audit, Orchestration) - Planned & Ready
 ## 📁 Directory Structure
 
 ```
-COMBINED/
+.claude/
 ├── agents/              336+ specialized AI agents
 │   ├── by-role/         Organized by function
 │   ├── by-interface/    Organized by platform
@@ -335,14 +335,14 @@ cat QUICK_START_PHASES_4-6.md
 
 # Start Phase 4
 git checkout -b phase-4-mega-agents
-mkdir -p COMBINED/agents/mega
+mkdir -p .claude/agents/mega
 # Follow PHASE_4_PLAN.md
 ```
 
 **Option 2: Explore and Learn**
 ```bash
 # See what's inside
-ls -la COMBINED/
+ls -la .claude/
 cat agents/INDEX.md
 cat skills/INDEX.md
 

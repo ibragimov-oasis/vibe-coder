@@ -11,12 +11,12 @@ aliases:
   - 3000 components
 created: 2026-04-18
 type: ui-gallery
-source: "../COMBINED/ui-design/ui-components-galaxy/"
+source: "../.claude/ui-design/ui-components-galaxy/"
 ---
 
 # 🌌 Galaxy Components — UI Gallery
 
-> **Источник:** `../COMBINED/ui-design/ui-components-galaxy/`
+> **Источник:** `../.claude/ui-design/ui-components-galaxy/`
 > **Компонентов:** 3,000+ уникальных UI элементов
 > **Использовать:** ПЕРВЫМ в иерархии дизайна
 > **Агент:** [[agents/mega-designer]]

@@ -246,8 +246,8 @@ Directory structures have been renamed for consistency with the new package name
 
 #### Skills Directory
 
-- **Old**: `~/COMBINED/workspace-config/claude/skills/omc-learned/`
-- **New**: `~/COMBINED/workspace-config/claude/skills/omc-learned/`
+- **Old**: `~/.claude/workspace-config/claude/skills/omc-learned/`
+- **New**: `~/.claude/workspace-config/claude/skills/omc-learned/`
 
 #### Config Files
 
@@ -377,7 +377,7 @@ mv .omc .omc
 mv ~/.omc ~/.omc
 
 # Skills directory
-mv ~/COMBINED/workspace-config/claude/skills/omc-learned ~/COMBINED/workspace-config/claude/skills/omc-learned
+mv ~/.claude/workspace-config/claude/skills/omc-learned ~/.claude/workspace-config/claude/skills/omc-learned
 
 # Config directory
 mv ~/.claude/omc ~/.claude/omc
@@ -480,7 +480,7 @@ Next time keywords match → Solution auto-injects
 Storage:
 
 - **Project-level**: `.omc/skills/` (version-controlled)
-- **User-level**: `~/COMBINED/workspace-config/claude/skills/omc-learned/` (portable)
+- **User-level**: `~/.claude/workspace-config/claude/skills/omc-learned/` (portable)
 
 #### 4. HUD Statusline (Real-Time Orchestration)
 

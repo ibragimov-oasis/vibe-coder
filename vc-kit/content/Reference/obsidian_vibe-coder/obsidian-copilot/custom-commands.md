@@ -42,7 +42,7 @@ Summarize the following note in 3 bullet points:
 
 ## Связь с Vibe-Coder
 
-Аналог: **Prompt files** в `.github/prompts/*.prompt.md`, **Skills** в `COMBINED/skills/`.
+Аналог: **Prompt files** в `.github/prompts/*.prompt.md`, **Skills** в `.claude/skills/`.
 
 ## Связи
 

@@ -11,12 +11,12 @@ aliases:
   - tdd workflow
 created: 2026-04-18
 type: system-note
-source: "../COMBINED/orchestration/superpowers/"
+source: "../.claude/orchestration/superpowers/"
 ---
 
 # Orchestration: Superpowers
 
-> **Источник:** `../COMBINED/orchestration/superpowers/`
+> **Источник:** `../.claude/orchestration/superpowers/`
 > **Stars:** 129k⭐
 
 ## Описание

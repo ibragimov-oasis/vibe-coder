@@ -1,7 +1,7 @@
 #!/bin/bash
 # STEP 7: Build MEGA_MEMORY.md — The GPS
 BASE="/Users/ibragimov/Desktop/GitHub/vibe-coder"
-OUT="$BASE/COMBINED/MEGA_MEMORY.md"
+OUT="$BASE/.claude/MEGA_MEMORY.md"
 COUNT=0
 
 cat > "$OUT" << 'HEADER'
@@ -49,7 +49,7 @@ fi
 # Also find any memory-related files elsewhere
 while IFS= read -r file; do
   relpath="${file#$BASE/}"
-  if echo "$relpath" | grep -qE "^(COMBINED/|_combined/|\.git/|Tools/)"; then continue; fi
+  if echo "$relpath" | grep -qE "^(.claude/|_combined/|\.git/|Tools/)"; then continue; fi
   if grep -q "SOURCE.*$relpath" "$OUT" 2>/dev/null; then continue; fi
   COUNT=$((COUNT + 1))
   echo "" >> "$OUT"
@@ -59,7 +59,7 @@ while IFS= read -r file; do
   echo "" >> "$OUT"
   cat "$file" >> "$OUT"
   echo "" >> "$OUT"
-done < <(find "$BASE" -type f -iname "*memory*" \( -name "*.md" -o -name "*.json" -o -name "*.yaml" -o -name "*.toml" \) -not -path "*/.git/*" -not -path "*/node_modules/*" -not -path "*/COMBINED/*" -not -path "*/_combined/*" | sort)
+done < <(find "$BASE" -type f -iname "*memory*" \( -name "*.md" -o -name "*.json" -o -name "*.yaml" -o -name "*.toml" \) -not -path "*/.git/*" -not -path "*/node_modules/*" -not -path "*/.claude/*" -not -path "*/_combined/*" | sort)
 
 sed -i '' "s/# ⚡ MEGA MEMORY/# ⚡ MEGA MEMORY\n# Total memory sources: $COUNT files combined/" "$OUT"
 echo "MEGA_MEMORY.md built with $COUNT sources. Size: $(du -h "$OUT" | cut -f1)"

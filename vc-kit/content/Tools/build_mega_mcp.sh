@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 ROOT="/Users/ibragimov/Desktop/GitHub/vibe-coder"
-OUT="$ROOT/COMBINED/MEGA_MCP.md"
+OUT="$ROOT/.claude/MEGA_MCP.md"
 
 cat > "$OUT" << 'HEADER'
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -104,7 +104,7 @@ add_files "$ROOT/Tools/pretext" "Pretext"
 
 # PART 13: All marketplace.json files
 add_section 13 "ALL MARKETPLACE.JSON FILES" "various"
-find "$ROOT" -name "marketplace.json" ! -path "*/.git/*" ! -path "*/COMBINED/*" | sort | while read f; do
+find "$ROOT" -name "marketplace.json" ! -path "*/.git/*" ! -path "*/.claude/*" | sort | while read f; do
     rel_path="${f#$ROOT/}"
     echo "" >> "$OUT"
     echo "## ═══ SOURCE: $rel_path ═══" >> "$OUT"
@@ -117,7 +117,7 @@ echo "  ✓ All marketplace.json found"
 
 # PART 14: All plugin.json files
 add_section 14 "ALL PLUGIN.JSON FILES" "various"
-find "$ROOT" -name "plugin.json" ! -path "*/.git/*" ! -path "*/COMBINED/*" ! -path "*/node_modules/*" | sort | while read f; do
+find "$ROOT" -name "plugin.json" ! -path "*/.git/*" ! -path "*/.claude/*" ! -path "*/node_modules/*" | sort | while read f; do
     rel_path="${f#$ROOT/}"
     echo "" >> "$OUT"
     echo "## ═══ SOURCE: $rel_path ═══" >> "$OUT"
@@ -130,7 +130,7 @@ echo "  ✓ All plugin.json found"
 
 # PART 15: Gemini extension files
 add_section 15 "GEMINI EXTENSION CONFIGS" "various"
-find "$ROOT" -name "gemini*" -type f ! -path "*/.git/*" ! -path "*/COMBINED/*" | sort | while read f; do
+find "$ROOT" -name "gemini*" -type f ! -path "*/.git/*" ! -path "*/.claude/*" | sort | while read f; do
     rel_path="${f#$ROOT/}"
     echo "" >> "$OUT"
     echo "## ═══ SOURCE: $rel_path ═══" >> "$OUT"

@@ -40,7 +40,7 @@ Mevcut oturumu analiz et ve skill olarak kaydetmeye değer desenleri çıkar.
 
 ## Çıktı Formatı
 
-`~/COMBINED/workspace-config/claude/skills/learned/[desen-adi].md` konumunda bir skill dosyası oluştur:
+`~/.claude/workspace-config/claude/skills/learned/[desen-adi].md` konumunda bir skill dosyası oluştur:
 
 ```markdown
 # [Açıklayıcı Desen Adı]
@@ -67,7 +67,7 @@ Mevcut oturumu analiz et ve skill olarak kaydetmeye değer desenleri çıkar.
 2. En değerli/yeniden kullanılabilir içgörüyü tanımla
 3. Skill dosyasını taslak olarak hazırla
 4. Kaydetmeden önce kullanıcıdan onay iste
-5. `~/COMBINED/workspace-config/claude/skills/learned/` konumuna kaydet
+5. `~/.claude/workspace-config/claude/skills/learned/` konumuna kaydet
 
 ## Notlar
 

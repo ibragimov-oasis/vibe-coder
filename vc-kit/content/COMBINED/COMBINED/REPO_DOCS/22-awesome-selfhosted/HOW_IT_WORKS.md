@@ -51,12 +51,12 @@ Step 4: AI notes HTML version at awesome-selfhosted.net → recommended browsing
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/22-awesome-selfhosted/ | Documentation |
-| README.md (content) | COMBINED/reference/reference-selfhosted/ | Reference database |
+| README.md | .claude/REPO_DOCS/22-awesome-selfhosted/ | Documentation |
+| README.md (content) | .claude/reference/reference-selfhosted/ | Reference database |
 
 ---
 

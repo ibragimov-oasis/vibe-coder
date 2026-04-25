@@ -25,7 +25,7 @@ EXECUTION_PLAN.md — операционный план. Разбивает вс
 ## Структура фаз
 
 - **Phase 0**: Discovery — аудит, инвентаризация
-- **Phase 1**: Foundation — базовая структура COMBINED/
+- **Phase 1**: Foundation — базовая структура .claude/
 - **Phase 2**: Core — основные агенты и оркестрация
 - **Phase 3**: Integration — связывание частей
 - **Phase 4**: Validation — тесты, верификация

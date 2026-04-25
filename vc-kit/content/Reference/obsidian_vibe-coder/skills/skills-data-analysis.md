@@ -10,12 +10,12 @@ aliases:
   - data analysis skills
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-data-analysis/"
+source: "../.claude/skills/skills-data-analysis/"
 ---
 
 # Skills: Data Analysis
 
-> **Источник:** `../COMBINED/skills/skills-data-analysis/`
+> **Источник:** `../.claude/skills/skills-data-analysis/`
 
 ## О чём
 

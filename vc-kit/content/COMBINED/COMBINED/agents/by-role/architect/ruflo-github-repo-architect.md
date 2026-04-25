@@ -68,11 +68,11 @@ mcp__github__push_files {
   branch: "main",
   files: [
     {
-      path: "COMBINED/workspace-config/claude/commands/github/github-modes.md",
+      path: ".claude/workspace-config/claude/commands/github/github-modes.md",
       content: "[GitHub modes template]"
     },
     {
-      path: "COMBINED/workspace-config/claude/commands/sparc/sparc-modes.md", 
+      path: ".claude/workspace-config/claude/commands/sparc/sparc-modes.md", 
       content: "[SPARC modes template]"
     },
     {

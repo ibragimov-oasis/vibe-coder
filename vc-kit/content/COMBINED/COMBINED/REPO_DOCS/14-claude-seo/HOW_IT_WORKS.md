@@ -85,16 +85,16 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/14-claude-seo/ | Documentation |
-| CLAUDE.md | COMBINED/prompts/system/ | Project-level Claude instructions |
-| skills/seo*/SKILL.md | COMBINED/skills/seo/ | 15+ SEO skill definitions |
-| agents/seo-*.md | COMBINED/agents/by-role/seo/ | 13 specialized SEO subagents |
-| hooks/ | COMBINED/hooks/validation/ | Pre-commit schema validation |
-| scripts/ | COMBINED/REPO_DOCS/14-claude-seo/scripts/ | Python utility scripts |
+| README.md | .claude/REPO_DOCS/14-claude-seo/ | Documentation |
+| CLAUDE.md | .claude/prompts/system/ | Project-level Claude instructions |
+| skills/seo*/SKILL.md | .claude/skills/seo/ | 15+ SEO skill definitions |
+| agents/seo-*.md | .claude/agents/by-role/seo/ | 13 specialized SEO subagents |
+| hooks/ | .claude/hooks/validation/ | Pre-commit schema validation |
+| scripts/ | .claude/REPO_DOCS/14-claude-seo/scripts/ | Python utility scripts |
 
 ---
 

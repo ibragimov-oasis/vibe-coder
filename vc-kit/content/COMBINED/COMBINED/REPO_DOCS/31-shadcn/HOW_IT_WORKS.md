@@ -53,12 +53,12 @@ Step 4: AI reads `CONTRIBUTING.md` → understands contribution guidelines
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/31-shadcn/ | Documentation |
-| Components | COMBINED/ui-design/ui-components-shadcn/ | React component source code |
+| README.md | .claude/REPO_DOCS/31-shadcn/ | Documentation |
+| Components | .claude/ui-design/ui-components-shadcn/ | React component source code |
 
 ---
 

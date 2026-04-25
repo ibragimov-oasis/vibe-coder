@@ -80,15 +80,15 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/12-awesome-claude-code/ | Documentation — main resource directory |
-| .claude/commands/evaluate-repository.md | COMBINED/commands/evaluation/ | Slash command for repo evaluation |
-| THE_RESOURCES_TABLE.csv | COMBINED/REPO_DOCS/12-awesome-claude-code/ | Structured resource data |
-| acc-config.yaml | COMBINED/REPO_DOCS/12-awesome-claude-code/ | Configuration reference |
-| README_ALTERNATIVES/ | COMBINED/REPO_DOCS/12-awesome-claude-code/alternatives/ | Alternative list views |
+| README.md | .claude/REPO_DOCS/12-awesome-claude-code/ | Documentation — main resource directory |
+| .claude/commands/evaluate-repository.md | .claude/commands/evaluation/ | Slash command for repo evaluation |
+| THE_RESOURCES_TABLE.csv | .claude/REPO_DOCS/12-awesome-claude-code/ | Structured resource data |
+| acc-config.yaml | .claude/REPO_DOCS/12-awesome-claude-code/ | Configuration reference |
+| README_ALTERNATIVES/ | .claude/REPO_DOCS/12-awesome-claude-code/alternatives/ | Alternative list views |
 
 ---
 
@@ -97,7 +97,7 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 - This is a **meta-resource** — it doesn't provide skills itself, but catalogs 200+ resources across skills, hooks, commands, tooling, workflows, CLAUDE.md files, and clients
 - The `evaluate-repository.md` command is valuable as a reusable quality gate for evaluating any Claude Code extension
 - `THE_RESOURCES_TABLE.csv` provides machine-readable data that could be used for automated resource discovery
-- Categories map directly to COMBINED/ structure: skills, hooks, commands, prompts
+- Categories map directly to .claude/ structure: skills, hooks, commands, prompts
 - No conflicts with other repos — this is purely a reference/catalog
 
 ---

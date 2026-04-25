@@ -42,12 +42,12 @@ add to `~/.claude/settings.json`:
 
 Run the validation script:
 ```bash
-python3 ~/COMBINED/workspace-config/claude/skills/seo-image-gen/scripts/validate_setup.py
+python3 ~/.claude/workspace-config/claude/skills/seo-image-gen/scripts/validate_setup.py
 ```
 
 Or check manually:
-1. `ls ~/COMBINED/workspace-config/claude/skills/seo-image-gen/SKILL.md`:skill file exists
-2. `ls ~/COMBINED/workspace-config/claude/agents/seo-image-gen.md`:agent file exists
+1. `ls ~/.claude/workspace-config/claude/skills/seo-image-gen/SKILL.md`:skill file exists
+2. `ls ~/.claude/workspace-config/claude/agents/seo-image-gen.md`:agent file exists
 3. `grep nanobanana ~/.claude/settings.json`:MCP configured
 
 ## Common Issues

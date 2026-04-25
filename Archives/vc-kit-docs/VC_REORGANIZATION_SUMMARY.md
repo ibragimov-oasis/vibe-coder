@@ -14,18 +14,18 @@ tags:
 ## What Was Done
 
 ### 1. Workspace Config Directories Moved
-- `.antigravity/` → `COMBINED/workspace-config/antigravity/`
-- `.claude/` → `COMBINED/workspace-config/claude/`
-- `.cursor/` → `COMBINED/workspace-config/cursor/`
+- `.antigravity/` → `.claude/workspace-config/antigravity/`
+- `.claude/` → `.claude/workspace-config/claude/`
+- `.cursor/` → `.claude/workspace-config/cursor/`
 
 ### 2. Path References Fixed
 **729 files updated** with corrected paths:
-- `.claude/skills/` → `COMBINED/workspace-config/claude/skills/`
-- `.claude/commands/` → `COMBINED/workspace-config/claude/commands/`
-- `Tools/OpenViking/` → `COMBINED/mcp-servers/mcp-openviking/`
-- `Tools/claude-mem/` → `COMBINED/memory/memory-claude-mem/`
-- `Tools/browser/` → `COMBINED/mcp-servers/mcp-lightpanda/`
-- `Skills/awesome-copilot-main/` → `COMBINED/agents/by-interface/agents-copilot/`
+- `.claude/skills/` → `.claude/workspace-config/claude/skills/`
+- `.claude/commands/` → `.claude/workspace-config/claude/commands/`
+- `Tools/OpenViking/` → `.claude/mcp-servers/mcp-openviking/`
+- `Tools/claude-mem/` → `.claude/memory/memory-claude-mem/`
+- `Tools/browser/` → `.claude/mcp-servers/mcp-lightpanda/`
+- `Skills/awesome-copilot-main/` → `.claude/agents/by-interface/agents-copilot/`
 - And more...
 
 ### 3. Empty Directories Removed
@@ -38,13 +38,13 @@ tags:
 
 ```
 vibe-coder/
-├── .antigravity/.moved         # → COMBINED/workspace-config/antigravity/
-├── .claude/.moved              # → COMBINED/workspace-config/claude/
-├── .cursor/.moved              # → COMBINED/workspace-config/cursor/
+├── .antigravity/.moved         # → .claude/workspace-config/antigravity/
+├── .claude/.moved              # → .claude/workspace-config/claude/
+├── .cursor/.moved              # → .claude/workspace-config/cursor/
 ├── Agents/                     # Originals preserved
 ├── Tools/                      # Originals preserved
 ├── Skills/                     # Originals preserved
-└── COMBINED/                   # All organized content
+└── .claude/                   # All organized content
     ├── workspace-config/       # ✨ NEW
     ├── agents/
     ├── skills/
@@ -58,7 +58,7 @@ vibe-coder/
 
 ## Full Details
 
-See: `COMBINED/REORGANIZATION_REPORT_2026-04-05.md`
+See: `.claude/REORGANIZATION_REPORT_2026-04-05.md`
 
 ## Next Steps
 

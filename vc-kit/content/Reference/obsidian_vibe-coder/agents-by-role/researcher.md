@@ -9,12 +9,12 @@ aliases:
   - researcher agents
 created: 2026-04-18
 type: agents-role
-source: "../COMBINED/agents/by-role/researcher/"
+source: "../.claude/agents/by-role/researcher/"
 ---
 
 # Agents By Role: Researcher (14)
 
-> **Источник:** `../COMBINED/agents/by-role/researcher/`
+> **Источник:** `../.claude/agents/by-role/researcher/`
 > **Количество:** 14 агентов
 
 ## Источники

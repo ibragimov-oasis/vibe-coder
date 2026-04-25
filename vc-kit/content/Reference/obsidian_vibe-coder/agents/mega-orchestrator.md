@@ -5,7 +5,7 @@ tags:
   - artifact/mega-agent
   - agent/mega-orchestrator
   - status/active
-source: "../COMBINED/agents/mega/mega-orchestrator.md"
+source: "../.claude/agents/mega/mega-orchestrator.md"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -60,7 +60,7 @@ Shannon (security) →
 
 ## Исходник
 
-> 📂 `../COMBINED/agents/mega/mega-orchestrator.md`
+> 📂 `../.claude/agents/mega/mega-orchestrator.md`
 
 ## 🔗 Связи
 

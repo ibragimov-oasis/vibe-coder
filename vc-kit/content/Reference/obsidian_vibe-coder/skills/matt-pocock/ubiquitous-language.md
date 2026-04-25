@@ -12,7 +12,7 @@ aliases:
   - shared vocabulary
 created: 2026-04-18
 type: skill
-source: "../COMBINED/skills/skills-development/ubiquitous-language/"
+source: "../.claude/skills/skills-development/ubiquitous-language/"
 ---
 
 # 📖 Skill: ubiquitous-language

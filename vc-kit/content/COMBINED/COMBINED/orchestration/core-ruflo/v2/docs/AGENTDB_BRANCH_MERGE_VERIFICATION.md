@@ -157,12 +157,12 @@ New Files:
 - tests/test-agentdb-features.sh (feature test script)
 
 Agent Directory Reorganization:
-- COMBINED/workspace-config/claude/agents/analysis/analyze-code-quality.md → COMBINED/workspace-config/claude/agents/analyze-code-quality.md
-- COMBINED/workspace-config/claude/agents/architecture/arch-system-design.md → COMBINED/workspace-config/claude/agents/arch-system-design.md
+- .claude/workspace-config/claude/agents/analysis/analyze-code-quality.md → .claude/workspace-config/claude/agents/analyze-code-quality.md
+- .claude/workspace-config/claude/agents/architecture/arch-system-design.md → .claude/workspace-config/claude/agents/arch-system-design.md
 - (and similar for other agents - flattened structure)
 
 New Skill:
-- COMBINED/workspace-config/claude/skills/agentic-jujutsu/SKILL.md (645 lines)
+- .claude/workspace-config/claude/skills/agentic-jujutsu/SKILL.md (645 lines)
 
 Metrics Updates:
 - .claude-flow/metrics/performance.json

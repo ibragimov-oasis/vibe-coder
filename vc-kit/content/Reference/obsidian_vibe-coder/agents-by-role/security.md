@@ -10,12 +10,12 @@ aliases:
   - security agents
 created: 2026-04-18
 type: agents-role
-source: "../COMBINED/agents/by-role/security/"
+source: "../.claude/agents/by-role/security/"
 ---
 
 # Agents By Role: Security (6)
 
-> **Источник:** `../COMBINED/agents/by-role/security/`
+> **Источник:** `../.claude/agents/by-role/security/`
 > **Количество:** 6 агентов
 
 ## Агенты

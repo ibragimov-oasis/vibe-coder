@@ -7,7 +7,7 @@ tags:
 
 # skill-rules.json - Complete Reference
 
-Complete schema and configuration reference for `COMBINED/workspace-config/claude/skills/skill-rules.json`.
+Complete schema and configuration reference for `.claude/workspace-config/claude/skills/skill-rules.json`.
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ Complete schema and configuration reference for `COMBINED/workspace-config/claud
 
 ## File Location
 
-**Path:** `COMBINED/workspace-config/claude/skills/skill-rules.json`
+**Path:** `.claude/workspace-config/claude/skills/skill-rules.json`
 
 This JSON file defines all skills and their trigger conditions for the auto-activation system.
 
@@ -274,7 +274,7 @@ Complete example of a suggestion-based domain skill:
 ### Check JSON Syntax
 
 ```bash
-cat COMBINED/workspace-config/claude/skills/skill-rules.json | jq .
+cat .claude/workspace-config/claude/skills/skill-rules.json | jq .
 ```
 
 If valid, jq will pretty-print the JSON. If invalid, it will show the error.

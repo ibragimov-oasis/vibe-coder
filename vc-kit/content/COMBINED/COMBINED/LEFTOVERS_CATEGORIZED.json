@@ -8936,9 +8936,9 @@
     },
     "Tools": {
       "misc": [
-        "COMBINED/mcp-servers/mcp-pretext/CLAUDE.md",
-        "COMBINED/memory/memory-claude-mem/openclaw/skills/do/SKILL.md",
-        "COMBINED/memory/memory-claude-mem/openclaw/skills/make-plan/SKILL.md"
+        ".claude/mcp-servers/mcp-pretext/CLAUDE.md",
+        ".claude/memory/memory-claude-mem/openclaw/skills/do/SKILL.md",
+        ".claude/memory/memory-claude-mem/openclaw/skills/make-plan/SKILL.md"
       ]
     },
     "UI-UX": {

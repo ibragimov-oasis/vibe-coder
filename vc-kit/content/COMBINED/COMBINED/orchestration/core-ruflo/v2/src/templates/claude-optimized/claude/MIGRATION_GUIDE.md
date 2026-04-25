@@ -409,7 +409,7 @@ update_prompt() {
 }
 
 # Update all SPARC mode files
-for file in COMBINED/workspace-config/claude/commands/sparc/*.md; do
+for file in .claude/workspace-config/claude/commands/sparc/*.md; do
     update_prompt $file
 done
 
@@ -486,7 +486,7 @@ echo "🔍 Validating Batchtools Migration"
 
 # Check 1: Verify batchtools keywords in prompts
 echo -n "Checking prompts for batchtools integration... "
-if grep -r "batchtools" COMBINED/workspace-config/claude/commands/sparc/*.md > /dev/null; then
+if grep -r "batchtools" .claude/workspace-config/claude/commands/sparc/*.md > /dev/null; then
     echo "✅"
 else
     echo "❌ Missing batchtools integration"
@@ -628,7 +628,7 @@ tests.forEach((test) => {
 
 ```bash
 # Solution: Ensure batchtools is in the optimized prompts
-grep -l "batchtools" COMBINED/workspace-config/claude/commands/sparc/*.md
+grep -l "batchtools" .claude/workspace-config/claude/commands/sparc/*.md
 ```
 
 **2. Parallel Execution Failures**

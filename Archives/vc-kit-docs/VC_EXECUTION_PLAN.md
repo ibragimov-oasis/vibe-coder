@@ -125,7 +125,7 @@ Files now exist in DUAL locations:
 ### Step 3.1: Verify Phase 3 Status
 - [ ] Read PHASE_3_COMPLETE.md
 - [ ] Check if any new leftover files exist
-- [ ] Scan for uncategorized files in COMBINED/
+- [ ] Scan for uncategorized files in .claude/
 
 ### Step 3.2: Process Any Remaining Leftovers
 - [ ] Identify file type and purpose
@@ -156,7 +156,7 @@ Files now exist in DUAL locations:
 **Goal**: Ensure nothing was lost, everything is in correct location
 
 **Tasks**:
-1. Cross-reference original repositories with COMBINED/
+1. Cross-reference original repositories with .claude/
 2. Verify all files accounted for
 3. Check marshutization index completeness
 4. Validate INDEX.md accuracy
@@ -168,7 +168,7 @@ Files now exist in DUAL locations:
 **Goal**: Wire everything together for autonomous operation
 
 **Vision from MASTER_PLAN.md**:
-- Claude Code → COMBINED/workspace-config/claude/ → agents/by-role → skills → execution
+- Claude Code → .claude/workspace-config/claude/ → agents/by-role → skills → execution
 - Shannon security checks → automated vulnerability scanning
 - Browser integration → fast UI verification
 - Memory systems → context persistence
@@ -185,8 +185,8 @@ Files now exist in DUAL locations:
 {
   "timestamp": "2026-04-08T03:38:00Z",
   "action": "RESTORE",
-  "source": "COMBINED/agents/by-role/planner/gsd-planner.md",
-  "destination": "COMBINED/agents/agents-gsd/gsd-planner.md",
+  "source": ".claude/agents/by-role/planner/gsd-planner.md",
+  "destination": ".claude/agents/agents-gsd/gsd-planner.md",
   "method": "cp",
   "status": "SUCCESS",
   "reason": "Restore original files after improper move"
@@ -209,7 +209,7 @@ Files now exist in DUAL locations:
 - Move files to proper locations using `git mv`
 
 ### STEP 2: Execute Phase 1 Analysis
-- Scan all COMBINED/ directories
+- Scan all .claude/ directories
 - Create comprehensive inventory
 - Document structure
 - Identify file types and categories
@@ -232,17 +232,17 @@ Files now exist in DUAL locations:
 **GOLDEN RULES FOR THIS SESSION**:
 
 1. ❌ **NO DELETE** - Never delete any files
-2. ❌ **NO COPY** - Files should be moved within COMBINED/, not copied
+2. ❌ **NO COPY** - Files should be moved within .claude/, not copied
 3. ❌ **NO RECREATE** - Don't recreate existing files
 4. ✅ **CREATE FOLDERS** - Create new directories as needed
-5. ✅ **MOVE FILES** - Use `git mv` to move files (within COMBINED/ structure)
+5. ✅ **MOVE FILES** - Use `git mv` to move files (within .claude/ structure)
 6. ✅ **WRITE FILES** - Create new documentation/logs/analysis files
 
 **Clarification on "COPY vs MOVE"**:
 - **Restoration from by-role to originals**: COPY (cp) was correct
-- **Organization within COMBINED/**: MOVE (git mv) is correct
+- **Organization within .claude/**: MOVE (git mv) is correct
 - **Original repositories**: NEVER touch (read-only reference)
-- **Originals within COMBINED/agents-xxx/**: PRESERVE (already restored)
+- **Originals within .claude/agents-xxx/**: PRESERVE (already restored)
 
 ---
 

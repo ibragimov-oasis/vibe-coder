@@ -17,14 +17,14 @@ source: "../COMBINED_FULL_STRUCTURE.md"
 # COMBINED Full Structure
 
 > **Источник:** `../COMBINED_FULL_STRUCTURE.md`
-> **Тип:** Полное описание структуры директории `COMBINED/`.
+> **Тип:** Полное описание структуры директории `.claude/`.
 
 ## О чём этот документ
 
-Авторитетная карта всей директории `COMBINED/`:
+Авторитетная карта всей директории `.claude/`:
 
 ```
-COMBINED/
+.claude/
 ├── agents/          ← 15 mega + 336+ роли-агенты
 ├── orchestration/   ← 23 системы оркестрации
 ├── skills/          ← 3000+ навыков, 24 категории

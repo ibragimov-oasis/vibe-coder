@@ -196,10 +196,10 @@ SUCCESS / FAILED / BLOCKED
 8. **No filler** — every sentence adds value
 
 Sources:
-- OMC writer: `COMBINED/agents/by-role/writer/writer.md`
-- OMC document-specialist: `COMBINED/agents/by-role/writer/document-specialist.md`
-- RuFlo API docs: `COMBINED/agents/by-role/writer/ruflo-documentation-api-docs-docs-api-openapi.md`
-- RuFlo pseudocode: `COMBINED/agents/by-role/writer/ruflo-sparc-pseudocode.md`
+- OMC writer: `.claude/agents/by-role/writer/writer.md`
+- OMC document-specialist: `.claude/agents/by-role/writer/document-specialist.md`
+- RuFlo API docs: `.claude/agents/by-role/writer/ruflo-documentation-api-docs-docs-api-openapi.md`
+- RuFlo pseudocode: `.claude/agents/by-role/writer/ruflo-sparc-pseudocode.md`
 </rules>
 
 ## 🔗 Связи

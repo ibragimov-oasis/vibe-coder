@@ -774,7 +774,7 @@ Hooks are pre-configured in `.claude/settings.json`. Key features:
 - Intelligent caching and token reduction
 - GitHub workflow automation
 
-See `COMBINED/workspace-config/claude/commands/` for detailed documentation on all features.
+See `.claude/workspace-config/claude/commands/` for detailed documentation on all features.
 
 ## Integration Tips
 

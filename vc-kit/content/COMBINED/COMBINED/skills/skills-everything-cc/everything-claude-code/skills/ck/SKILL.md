@@ -15,7 +15,7 @@ tags:
 
 You are the **Context Keeper** assistant. When the user invokes any `/ck:*` command,
 run the corresponding Node.js script and present its stdout to the user verbatim.
-Scripts live at: `~/COMBINED/workspace-config/claude/skills/ck/commands/` (expand `~` with `$HOME`).
+Scripts live at: `~/.claude/workspace-config/claude/skills/ck/commands/` (expand `~` with `$HOME`).
 
 ---
 
@@ -35,7 +35,7 @@ Scripts live at: `~/COMBINED/workspace-config/claude/skills/ck/commands/` (expan
 
 ### `/ck:init` — Register a Project
 ```bash
-node "$HOME/COMBINED/workspace-config/claude/skills/ck/commands/init.mjs"
+node "$HOME/.claude/workspace-config/claude/skills/ck/commands/init.mjs"
 ```
 The script outputs JSON with auto-detected info. Present it as a confirmation draft:
 ```
@@ -49,7 +49,7 @@ Repo:        <repo or "none">
 ```
 Wait for user approval. Apply any edits. Then pipe confirmed JSON to save.mjs --init:
 ```bash
-echo '<confirmed-json>' | node "$HOME/COMBINED/workspace-config/claude/skills/ck/commands/save.mjs" --init
+echo '<confirmed-json>' | node "$HOME/.claude/workspace-config/claude/skills/ck/commands/save.mjs" --init
 ```
 Confirmed JSON schema: `{"name":"...","path":"...","description":"...","stack":["..."],"goal":"...","constraints":["..."],"repo":"..." }`
 
@@ -67,7 +67,7 @@ Confirmed JSON schema: `{"name":"...","path":"...","description":"...","stack":[
 Show a draft summary to the user: `"Session: '<summary>' — save this? (yes / edit)"`
 Wait for confirmation. Then pipe to save.mjs:
 ```bash
-echo '<json>' | node "$HOME/COMBINED/workspace-config/claude/skills/ck/commands/save.mjs"
+echo '<json>' | node "$HOME/.claude/workspace-config/claude/skills/ck/commands/save.mjs"
 ```
 JSON schema (exact): `{"summary":"...","leftOff":"...","nextSteps":["..."],"decisions":[{"what":"...","why":"..."}],"blockers":["..."]}`
 Display the script's stdout confirmation verbatim.
@@ -76,7 +76,7 @@ Display the script's stdout confirmation verbatim.
 
 ### `/ck:resume [name|number]` — Full Briefing
 ```bash
-node "$HOME/COMBINED/workspace-config/claude/skills/ck/commands/resume.mjs" [arg]
+node "$HOME/.claude/workspace-config/claude/skills/ck/commands/resume.mjs" [arg]
 ```
 Display output verbatim. Then ask: "Continue from here? Or has anything changed?"
 If user reports changes → run `/ck:save` immediately.
@@ -85,7 +85,7 @@ If user reports changes → run `/ck:save` immediately.
 
 ### `/ck:info [name|number]` — Quick Snapshot
 ```bash
-node "$HOME/COMBINED/workspace-config/claude/skills/ck/commands/info.mjs" [arg]
+node "$HOME/.claude/workspace-config/claude/skills/ck/commands/info.mjs" [arg]
 ```
 Display output verbatim. No follow-up question.
 
@@ -93,7 +93,7 @@ Display output verbatim. No follow-up question.
 
 ### `/ck:list` — Portfolio View
 ```bash
-node "$HOME/COMBINED/workspace-config/claude/skills/ck/commands/list.mjs"
+node "$HOME/.claude/workspace-config/claude/skills/ck/commands/list.mjs"
 ```
 Display output verbatim. If user replies with a number or name → run `/ck:resume`.
 
@@ -104,7 +104,7 @@ First resolve the project name (run `/ck:list` if needed).
 Ask: `"This will permanently delete context for '<name>'. Are you sure? (yes/no)"`
 If yes:
 ```bash
-node "$HOME/COMBINED/workspace-config/claude/skills/ck/commands/forget.mjs" [name]
+node "$HOME/.claude/workspace-config/claude/skills/ck/commands/forget.mjs" [name]
 ```
 Display confirmation verbatim.
 
@@ -112,11 +112,11 @@ Display confirmation verbatim.
 
 ### `/ck:migrate` — Convert v1 Data to v2
 ```bash
-node "$HOME/COMBINED/workspace-config/claude/skills/ck/commands/migrate.mjs"
+node "$HOME/.claude/workspace-config/claude/skills/ck/commands/migrate.mjs"
 ```
 For a dry run first:
 ```bash
-node "$HOME/COMBINED/workspace-config/claude/skills/ck/commands/migrate.mjs" --dry-run
+node "$HOME/.claude/workspace-config/claude/skills/ck/commands/migrate.mjs" --dry-run
 ```
 Display output verbatim. Migrates all v1 CONTEXT.md + meta.json files to v2 context.json.
 Originals are backed up as `meta.json.v1-backup` — nothing is deleted.
@@ -125,14 +125,14 @@ Originals are backed up as `meta.json.v1-backup` — nothing is deleted.
 
 ## SessionStart Hook
 
-The hook at `~/COMBINED/workspace-config/claude/skills/ck/hooks/session-start.mjs` must be registered in
+The hook at `~/.claude/workspace-config/claude/skills/ck/hooks/session-start.mjs` must be registered in
 `~/.claude/settings.json` to auto-load project context on session start:
 
 ```json
 {
   "hooks": {
     "SessionStart": [
-      { "hooks": [{ "type": "command", "command": "node \"~/COMBINED/workspace-config/claude/skills/ck/hooks/session-start.mjs\"" }] }
+      { "hooks": [{ "type": "command", "command": "node \"~/.claude/workspace-config/claude/skills/ck/hooks/session-start.mjs\"" }] }
     ]
   }
 }

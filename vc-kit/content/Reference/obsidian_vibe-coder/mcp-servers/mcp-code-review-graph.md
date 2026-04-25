@@ -11,12 +11,12 @@ aliases:
   - ast analysis mcp
 created: 2026-04-18
 type: mcp-note
-source: "../COMBINED/mcp-servers/mcp-code-review-graph/"
+source: "../.claude/mcp-servers/mcp-code-review-graph/"
 ---
 
 # MCP: Code Review Graph
 
-> **Источник:** `../COMBINED/mcp-servers/mcp-code-review-graph/`
+> **Источник:** `../.claude/mcp-servers/mcp-code-review-graph/`
 > **CLI:** `uv run code-review-graph serve`
 > **Экономия:** ~8.2x меньше токенов
 

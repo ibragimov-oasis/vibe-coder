@@ -10,12 +10,12 @@ aliases:
   - omc skills
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-omc/"
+source: "../.claude/skills/skills-omc/"
 ---
 
 # Skills: OMC
 
-> **Источник:** `../COMBINED/skills/skills-omc/`
+> **Источник:** `../.claude/skills/skills-omc/`
 
 ## О чём
 

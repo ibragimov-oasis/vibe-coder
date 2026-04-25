@@ -11,7 +11,7 @@ aliases:
   - codebase refactoring
 created: 2026-04-18
 type: skill
-source: "../COMBINED/skills/skills-development/improve-codebase-architecture/"
+source: "../.claude/skills/skills-development/improve-codebase-architecture/"
 ---
 
 # 🏗️ Skill: improve-codebase-architecture

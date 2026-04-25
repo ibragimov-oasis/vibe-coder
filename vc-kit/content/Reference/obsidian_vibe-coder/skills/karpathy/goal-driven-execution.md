@@ -12,7 +12,7 @@ aliases:
   - verifiable success
 created: 2026-04-18
 type: skill
-source: "../COMBINED/skills/skills-claude/karpathy/"
+source: "../.claude/skills/skills-claude/karpathy/"
 ---
 
 # 🎯 Goal-Driven Execution

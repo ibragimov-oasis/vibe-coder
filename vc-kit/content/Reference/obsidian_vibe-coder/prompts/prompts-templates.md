@@ -10,12 +10,12 @@ aliases:
   - reusable prompts
 created: 2026-04-18
 type: prompts-note
-source: "../COMBINED/prompts/prompts-templates/"
+source: "../.claude/prompts/prompts-templates/"
 ---
 
 # Prompts: Templates
 
-> **Источник:** `../COMBINED/prompts/prompts-templates/`
+> **Источник:** `../.claude/prompts/prompts-templates/`
 
 ## О чём
 

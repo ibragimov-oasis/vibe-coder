@@ -98,10 +98,10 @@ REPEAT:   下一個功能/情境
 ## 相關 Agent
 
 此指令呼叫位於以下位置的 `tdd-guide` Agent：
-`~/COMBINED/workspace-config/claude/agents/tdd-guide.md`
+`~/.claude/workspace-config/claude/agents/tdd-guide.md`
 
 並可參考位於以下位置的 `tdd-workflow` 技能：
-`~/COMBINED/workspace-config/claude/skills/tdd-workflow/`
+`~/.claude/workspace-config/claude/skills/tdd-workflow/`
 
 ## 🔗 Связи
 

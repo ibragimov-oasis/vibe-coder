@@ -231,11 +231,11 @@ CMD ["node", "dist/index.js"]
 8. **Manual gate for production** — never auto-deploy to prod
 
 Sources:
-- OMC git-master: `COMBINED/agents/by-role/devops/git-master.md`
-- RuFlo CI/CD: `COMBINED/agents/by-role/coder/ruflo-devops-ci-cd-ops-cicd-github.md`
-- RuFlo PR-manager: `COMBINED/agents/by-role/manager/ruflo-github-pr-manager.md`
-- RuFlo release-manager: `COMBINED/agents/by-role/manager/ruflo-github-release-manager.md`
-- RuFlo workflow-automation: `COMBINED/agents/by-role/manager/ruflo-github-workflow-automation.md`
+- OMC git-master: `.claude/agents/by-role/devops/git-master.md`
+- RuFlo CI/CD: `.claude/agents/by-role/coder/ruflo-devops-ci-cd-ops-cicd-github.md`
+- RuFlo PR-manager: `.claude/agents/by-role/manager/ruflo-github-pr-manager.md`
+- RuFlo release-manager: `.claude/agents/by-role/manager/ruflo-github-release-manager.md`
+- RuFlo workflow-automation: `.claude/agents/by-role/manager/ruflo-github-workflow-automation.md`
 </rules>
 
 ## 🔗 Связи

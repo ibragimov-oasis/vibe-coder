@@ -54,7 +54,7 @@ Automatically activates when you mention:
 
 ### Configuration File
 
-**Location**: `COMBINED/workspace-config/claude/skills/skill-rules.json`
+**Location**: `.claude/workspace-config/claude/skills/skill-rules.json`
 
 Defines:
 - All skills and their trigger conditions
@@ -117,7 +117,7 @@ Defines:
 
 ### Step 1: Create Skill File
 
-**Location:** `COMBINED/workspace-config/claude/skills/{skill-name}/SKILL.md`
+**Location:** `.claude/workspace-config/claude/skills/{skill-name}/SKILL.md`
 
 **Template:**
 ```markdown
@@ -277,7 +277,7 @@ export SKIP_ERROR_REMINDER=true
 
 When creating a new skill, verify:
 
-- [ ] Skill file created in `COMBINED/workspace-config/claude/skills/{name}/SKILL.md`
+- [ ] Skill file created in `.claude/workspace-config/claude/skills/{name}/SKILL.md`
 - [ ] Proper frontmatter with name and description
 - [ ] Entry added to `skill-rules.json`
 - [ ] Keywords tested with real prompts
@@ -356,8 +356,8 @@ Future enhancements and ideas:
 
 ### Create New Skill (5 Steps)
 
-1. Create `COMBINED/workspace-config/claude/skills/{name}/SKILL.md` with frontmatter
-2. Add entry to `COMBINED/workspace-config/claude/skills/skill-rules.json`
+1. Create `.claude/workspace-config/claude/skills/{name}/SKILL.md` with frontmatter
+2. Add entry to `.claude/workspace-config/claude/skills/skill-rules.json`
 3. Test with `npx tsx` commands
 4. Refine patterns based on testing
 5. Keep SKILL.md under 500 lines
@@ -413,7 +413,7 @@ See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for complete debugging guide.
 ## Related Files
 
 **Configuration:**
-- `COMBINED/workspace-config/claude/skills/skill-rules.json` - Master configuration
+- `.claude/workspace-config/claude/skills/skill-rules.json` - Master configuration
 - `.claude/hooks/state/` - Session tracking
 - `.claude/settings.json` - Hook registration
 
@@ -422,7 +422,7 @@ See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for complete debugging guide.
 - `.claude/hooks/error-handling-reminder.ts` - Stop event (gentle reminders)
 
 **All Skills:**
-- `COMBINED/workspace-config/claude/skills/*/SKILL.md` - Skill content files
+- `.claude/workspace-config/claude/skills/*/SKILL.md` - Skill content files
 
 ---
 

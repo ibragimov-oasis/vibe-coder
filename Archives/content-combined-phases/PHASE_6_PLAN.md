@@ -19,7 +19,7 @@ April 4, 2026
 ## Objectives
 
 ### Goal
-Transform COMBINED/ from an organized file repository into a fully integrated, production-ready AI development system with unified workflows, master configurations, and comprehensive orchestration.
+Transform .claude/ from an organized file repository into a fully integrated, production-ready AI development system with unified workflows, master configurations, and comprehensive orchestration.
 
 ### Why This Is The Most Important Phase
 - **Integration**: Connects 44,966 files into a cohesive system
@@ -84,7 +84,7 @@ UI (3,000+)       ─→  v1.0.0 Release
    Researcher → Analyzer → Report Writer → Presenter
    ```
 
-**Deliverable:** `COMBINED/workflows/WORKFLOW_DESIGN.md`
+**Deliverable:** `.claude/workflows/WORKFLOW_DESIGN.md`
 
 ### 6.2: Master Configuration Files (8-10 hours)
 
@@ -395,7 +395,7 @@ class IntegrationManager:
         pass
 ```
 
-**Deliverable:** `COMBINED/orchestration/unified/`
+**Deliverable:** `.claude/orchestration/unified/`
 
 ### 6.4: Memory System Integration (4-6 hours)
 
@@ -433,7 +433,7 @@ class UnifiedMemory:
         pass
 ```
 
-**Deliverable:** `COMBINED/memory/unified/`
+**Deliverable:** `.claude/memory/unified/`
 
 ### 6.5: MCP Server Coordination (4-6 hours)
 
@@ -465,7 +465,7 @@ class MCPCoordinator:
         return results
 ```
 
-**Deliverable:** `COMBINED/mcp-servers/coordination/`
+**Deliverable:** `.claude/mcp-servers/coordination/`
 
 ### 6.6: Documentation Hub (8-10 hours)
 
@@ -482,7 +482,7 @@ class MCPCoordinator:
 9. **`docs/contributing.md`** - Contribution guide
 10. **`docs/changelog.md`** - Version history
 
-**Deliverable:** `COMBINED/docs/`
+**Deliverable:** `.claude/docs/`
 
 ### 6.7: Master Indices & Navigation (4-6 hours)
 
@@ -507,7 +507,7 @@ class MCPCoordinator:
 5. **Configuration Tests:** Validate all configs load correctly
 6. **Performance Tests:** Measure system performance
 
-**Deliverable:** `COMBINED/tests/integration/`
+**Deliverable:** `.claude/tests/integration/`
 
 ### 6.9: Release Preparation (4-6 hours)
 
@@ -543,7 +543,7 @@ class MCPCoordinator:
 ## Directory Structure After Phase 6
 
 ```
-COMBINED/
+.claude/
 ├── config/                      # Master configurations
 │   ├── master-config.yaml
 │   ├── workflow-registry.yaml

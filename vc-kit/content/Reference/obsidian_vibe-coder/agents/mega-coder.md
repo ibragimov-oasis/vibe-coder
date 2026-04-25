@@ -5,7 +5,7 @@ tags:
   - artifact/mega-agent
   - agent/mega-coder
   - status/active
-source: "../COMBINED/agents/mega/mega-coder.md"
+source: "../.claude/agents/mega/mega-coder.md"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -64,7 +64,7 @@ RuFlo + OMC + Superpowers + Claude-Skills + **PraisonAI** + **Karpathy 4 princip
 
 ## Исходник
 
-> 📂 `../COMBINED/agents/mega/mega-coder.md`
+> 📂 `../.claude/agents/mega/mega-coder.md`
 
 ## 🔗 Связи
 

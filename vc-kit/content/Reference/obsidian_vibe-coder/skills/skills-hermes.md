@@ -12,12 +12,12 @@ aliases:
   - self-learning skills
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-hermes/"
+source: "../.claude/skills/skills-hermes/"
 ---
 
 # Skills: Hermes (Self-Learning)
 
-> **Источник:** `../COMBINED/skills/skills-hermes/`
+> **Источник:** `../.claude/skills/skills-hermes/`
 
 ## О чём
 

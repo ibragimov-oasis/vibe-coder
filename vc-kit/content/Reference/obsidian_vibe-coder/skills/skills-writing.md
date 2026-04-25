@@ -11,12 +11,12 @@ aliases:
   - documentation skills
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-writing/"
+source: "../.claude/skills/skills-writing/"
 ---
 
 # Skills: Writing
 
-> **Источник:** `../COMBINED/skills/skills-writing/`
+> **Источник:** `../.claude/skills/skills-writing/`
 
 ## Навыки писательства и документации
 

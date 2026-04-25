@@ -36,7 +36,7 @@ After training, the system learned:
 
 The pipeline automatically:
 1. **Selected "balanced" as default strategy** based on highest scores
-2. **Created optimized workflows** in `COMBINED/workspace-config/claude/commands/improved-workflows.js`
+2. **Created optimized workflows** in `.claude/workspace-config/claude/commands/improved-workflows.js`
 3. **Stored learning data** for future sessions
 4. **Generated recommendations** for each strategy
 
@@ -150,7 +150,7 @@ The training system now:
 - `.claude-flow/validation/validation-*.json` - Improvement validations
 
 ### Improved Commands
-- `COMBINED/workspace-config/claude/commands/improved-workflows.js` - Optimized workflow implementations
+- `.claude/workspace-config/claude/commands/improved-workflows.js` - Optimized workflow implementations
 
 ## Next Steps
 

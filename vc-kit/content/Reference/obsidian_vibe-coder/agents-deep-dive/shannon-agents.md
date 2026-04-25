@@ -12,12 +12,12 @@ aliases:
   - pentesting agents
 created: 2026-04-18
 type: agents-deepdive
-source: "../COMBINED/security/security-shannon/"
+source: "../.claude/security/security-shannon/"
 ---
 
 # 🔐 Shannon Pro — Security Agents Deep-Dive
 
-> **Источник:** `../COMBINED/security/security-shannon/`
+> **Источник:** `../.claude/security/security-shannon/`
 > **Репозиторий:** Shannon (35k⭐) — white-box security pentesting
 > **Мета-агент:** [[agents/mega-security]]
 

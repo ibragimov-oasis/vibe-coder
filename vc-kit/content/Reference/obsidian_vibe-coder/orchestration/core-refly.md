@@ -12,12 +12,12 @@ aliases:
   - visual workflow skills
 created: 2026-04-18
 type: system-note
-source: "../COMBINED/orchestration/core-refly/"
+source: "../.claude/orchestration/core-refly/"
 ---
 
 # Orchestration: Refly (Skills Builder)
 
-> **Источник:** `../COMBINED/orchestration/core-refly/`
+> **Источник:** `../.claude/orchestration/core-refly/`
 
 ## Описание
 

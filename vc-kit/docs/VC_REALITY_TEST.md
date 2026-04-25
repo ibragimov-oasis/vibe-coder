@@ -31,7 +31,7 @@ USER PROMPT RECEIVED
      → Proceed (no refinement needed)
   8. AGENT ROUTING:
      "admin dashboard" → complex, multiple concerns (UI + logic + auth + design)
-     → LOAD COMBINED/agents/mega/mega-orchestrator.md
+     → LOAD .claude/agents/mega/mega-orchestrator.md
   9. CODEBASE MAP: mcp gitnexus map → project structure loaded
   10. CONTEXT: mcp openviking read → prior decisions loaded
 
@@ -55,7 +55,7 @@ POST-TASK (auto, via TaskCompleted hook):
         → PASS (or fix loop if vulnerabilities found)
   16. Hermes self-learning:
         - Extract: "admin dashboard with Galaxy components + Impeccable rules"
-        - Create: COMBINED/skills/design/admin-dashboard-pattern/SKILL.md
+        - Create: .claude/skills/design/admin-dashboard-pattern/SKILL.md
         - Save to supermemory: tags [admin, dashboard, design]
   17. OBSIDIAN SAVE:
         bash obsidian-update.sh \
@@ -91,10 +91,10 @@ USER PROMPT RECEIVED
      → Proceed with refined prompt
   6. AGENT ROUTING:
      "admin dashboard" → complex (UI + logic + auth)
-     → LOAD COMBINED/agents/mega/mega-orchestrator.md
+     → LOAD .claude/agents/mega/mega-orchestrator.md
      → [COPILOT-SPECIFIC] ACTIVATE SQUAD:
         Cast: mega-planner, mega-designer, mega-coder, mega-security
-        Use: COMBINED/orchestration/core-squad/
+        Use: .claude/orchestration/core-squad/
   7. CODEBASE MAP: npx -y gitnexus@latest map (CLI)
   8. SQUAD CASTING begins:
        Agent "planner": Define dashboard requirements, pages, auth model
@@ -143,7 +143,7 @@ USER PROMPT RECEIVED (in Composer or chat)
      → Proceed (or refine via grill-me if needed)
   9. AGENT ROUTING:
      "admin dashboard" → complex
-     → LOAD COMBINED/agents/mega/mega-orchestrator.md
+     → LOAD .claude/agents/mega/mega-orchestrator.md
      → [CURSOR-SPECIFIC] Use Composer mode for multi-file editing
   10. CODEBASE MAP: mcp gitnexus map
   11. CONTEXT: mcp openviking read
@@ -181,7 +181,7 @@ Previously: ⚠️ PARTIAL — orchestration.mdc was alwaysApply: false; no Obsi
 
 ```
 CLASSIFY: "fix" + "bug" + "authentication" → mega-debugger
-  → LOAD COMBINED/agents/mega/mega-debugger.md
+  → LOAD .claude/agents/mega/mega-debugger.md
 
 DEBUGGING PROCESS:
   1. Map codebase: find auth files, user models, login routes
@@ -209,8 +209,8 @@ VERDICT: ✅ All interfaces handle this correctly
 
 ```
 CLASSIFY: "security" + "audit" + "payment" → mega-security
-  → LOAD COMBINED/agents/mega/mega-security.md
-  → LOAD COMBINED/security/security-shannon/SHANNON-PRO.md
+  → LOAD .claude/agents/mega/mega-security.md
+  → LOAD .claude/security/security-shannon/SHANNON-PRO.md
 
 SHANNON PRO PIPELINE:
   Phase 1: SAST — find injection vectors, hardcoded keys, crypto weaknesses

@@ -11,12 +11,12 @@ aliases:
   - design skills
 created: 2026-04-18
 type: skills-index
-source: "../COMBINED/skills/skills-design/"
+source: "../.claude/skills/skills-design/"
 ---
 
 # Skills: Design
 
-> **Источник:** `../COMBINED/skills/skills-design/`
+> **Источник:** `../.claude/skills/skills-design/`
 
 ## О чём
 

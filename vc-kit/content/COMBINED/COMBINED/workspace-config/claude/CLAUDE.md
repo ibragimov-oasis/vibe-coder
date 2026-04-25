@@ -31,10 +31,10 @@ This repository is the **Vibe-Coder Arsenal** — a comprehensive toolkit contai
 
 ```
 vibe-coder/
-├── .claude/                 # Original location (now at COMBINED/workspace-config/claude/)
+├── .claude/                 # Original location (now at .claude/workspace-config/claude/)
 ├── .github/                 # GitHub Copilot config
-├── .cursor/                 # Cursor AI config (now at COMBINED/workspace-config/cursor/)
-├── .antigravity/            # Antigravity plugin config (now at COMBINED/workspace-config/antigravity/)
+├── .cursor/                 # Cursor AI config (now at .claude/workspace-config/cursor/)
+├── .antigravity/            # Antigravity plugin config (now at .claude/workspace-config/antigravity/)
 ├── Agents/                  # Background Agents, Hermes, Shannon (originals)
 ├── Orchestration/           # RuFlo, DeerFlow, GSD, OMC, Superpowers (originals)
 ├── Prompts/                 # prompts.chat, system prompts, templates (originals)
@@ -42,7 +42,7 @@ vibe-coder/
 ├── Skills/                  # All skill libraries (originals)
 ├── Tools/                   # GitNexus, Browser, Claude-Mem, etc. (originals)
 ├── UI-UX/                   # Galaxy, shadcn/ui, UI UX Pro Max (originals)
-└── COMBINED/                # ← All combined/organized content here
+└── .claude/                # ← All combined/organized content here
     ├── workspace-config/    # ← You are here (IDE configurations)
     ├── agents/              # 336+ agents (by-role, by-interface, source-specific)
     ├── skills/              # 1,500+ skills (skills-ruflo, skills-claude, etc.)
@@ -386,7 +386,7 @@ const page = await browser.newPage();
 await page.goto('https://example.com');
 ```
 
-See: `COMBINED/mcp-servers/mcp-lightpanda/README.md` for full documentation.
+See: `.claude/mcp-servers/mcp-lightpanda/README.md` for full documentation.
 
 ---
 
@@ -422,7 +422,7 @@ See: `MEMORY_SETUP.md` for configuration instructions.
 3,000+ unique UI elements available in `UI-UX/galaxy/`.
 
 ### shadcn/ui
-Beautifully designed, customizable React components in `COMBINED/ui-design/ui-components-shadcn/`.
+Beautifully designed, customizable React components in `.claude/ui-design/ui-components-shadcn/`.
 
 ### UI UX Pro Max
 161 reasoning rules + 67 styles for AI-generated UIs.

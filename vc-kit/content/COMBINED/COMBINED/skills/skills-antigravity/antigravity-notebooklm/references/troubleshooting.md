@@ -105,7 +105,7 @@ python scripts/run.py auth_manager.py status
 # run.py will install Chromium automatically
 
 # Or manual install if needed
-cd ~/COMBINED/workspace-config/claude/skills/notebooklm
+cd ~/.claude/workspace-config/claude/skills/notebooklm
 source .venv/bin/activate
 python -m patchright install chromium
 ```
@@ -227,10 +227,10 @@ JSON decode error when listing notebooks
 **Solution:**
 ```bash
 # Backup current library
-cp ~/COMBINED/workspace-config/claude/skills/notebooklm/data/library.json library.backup.json
+cp ~/.claude/workspace-config/claude/skills/notebooklm/data/library.json library.backup.json
 
 # Reset library
-rm ~/COMBINED/workspace-config/claude/skills/notebooklm/data/library.json
+rm ~/.claude/workspace-config/claude/skills/notebooklm/data/library.json
 
 # Re-add notebooks
 python scripts/run.py notebook_manager.py add --url ... --name ...
@@ -240,7 +240,7 @@ python scripts/run.py notebook_manager.py add --url ... --name ...
 **Solution:**
 ```bash
 # Check disk usage
-df -h ~/COMBINED/workspace-config/claude/skills/notebooklm/data/
+df -h ~/.claude/workspace-config/claude/skills/notebooklm/data/
 
 # Clean up
 python scripts/run.py cleanup_manager.py --confirm --preserve-library
@@ -286,12 +286,12 @@ except Exception as e:
 pkill -f chromium
 
 # Backup library if exists
-if [ -f ~/COMBINED/workspace-config/claude/skills/notebooklm/data/library.json ]; then
-    cp ~/COMBINED/workspace-config/claude/skills/notebooklm/data/library.json ~/library.backup.json
+if [ -f ~/.claude/workspace-config/claude/skills/notebooklm/data/library.json ]; then
+    cp ~/.claude/workspace-config/claude/skills/notebooklm/data/library.json ~/library.backup.json
 fi
 
 # Clean everything
-cd ~/COMBINED/workspace-config/claude/skills/notebooklm
+cd ~/.claude/workspace-config/claude/skills/notebooklm
 python scripts/run.py cleanup_manager.py --confirm --force
 
 # Remove venv
@@ -302,15 +302,15 @@ python scripts/run.py auth_manager.py setup
 
 # Restore library if backup exists
 if [ -f ~/library.backup.json ]; then
-    mkdir -p ~/COMBINED/workspace-config/claude/skills/notebooklm/data/
-    cp ~/library.backup.json ~/COMBINED/workspace-config/claude/skills/notebooklm/data/library.json
+    mkdir -p ~/.claude/workspace-config/claude/skills/notebooklm/data/
+    cp ~/library.backup.json ~/.claude/workspace-config/claude/skills/notebooklm/data/library.json
 fi
 ```
 
 ### Partial recovery (keep data)
 ```bash
 # Keep auth and library, fix execution
-cd ~/COMBINED/workspace-config/claude/skills/notebooklm
+cd ~/.claude/workspace-config/claude/skills/notebooklm
 rm -rf .venv
 
 # run.py will recreate venv automatically
@@ -357,7 +357,7 @@ python scripts/run.py auth_manager.py status
 ```bash
 # System info
 python --version
-cd ~/COMBINED/workspace-config/claude/skills/notebooklm
+cd ~/.claude/workspace-config/claude/skills/notebooklm
 ls -la
 
 # Skill status
@@ -365,7 +365,7 @@ python scripts/run.py auth_manager.py status
 python scripts/run.py notebook_manager.py list | head -5
 
 # Check data directory
-ls -la ~/COMBINED/workspace-config/claude/skills/notebooklm/data/
+ls -la ~/.claude/workspace-config/claude/skills/notebooklm/data/
 ```
 
 ### Common questions

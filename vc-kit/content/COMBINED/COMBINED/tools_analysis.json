@@ -22,8 +22,8 @@
   },
   "repositories": {
     "claude-mem": {
-      "source": "COMBINED/memory/memory-claude-mem/",
-      "combined_location": "COMBINED/memory/claude-mem/",
+      "source": ".claude/memory/memory-claude-mem/",
+      "combined_location": ".claude/memory/claude-mem/",
       "type": "Persistent memory compression system",
       "description": "Memory compression system for Claude Code with context preservation across sessions",
       "statistics": {
@@ -45,7 +45,7 @@
     },
     "supermemory": {
       "source": "Tools/supermemory/",
-      "combined_location": "COMBINED/memory/supermemory/",
+      "combined_location": ".claude/memory/supermemory/",
       "type": "State-of-the-art memory and context engine",
       "description": "#1 on LongMemEval, LoCoMo, and ConvoMem benchmarks",
       "statistics": {
@@ -62,12 +62,12 @@
       "migration_status": {
         "status": "PARTIALLY_MIGRATED",
         "priority": "LOW",
-        "recommended_action": "Complete migration to COMBINED/memory/supermemory/"
+        "recommended_action": "Complete migration to .claude/memory/supermemory/"
       }
     },
     "OpenViking": {
-      "source": "COMBINED/mcp-servers/mcp-openviking/",
-      "combined_location": "COMBINED/memory/openviking/",
+      "source": ".claude/mcp-servers/mcp-openviking/",
+      "combined_location": ".claude/memory/openviking/",
       "type": "Context Database for AI Agents",
       "description": "ByteDance context database with filesystem paradigm",
       "statistics": {
@@ -84,12 +84,12 @@
       "migration_status": {
         "status": "PARTIALLY_MIGRATED",
         "priority": "LOW",
-        "recommended_action": "Complete migration to COMBINED/memory/openviking/"
+        "recommended_action": "Complete migration to .claude/memory/openviking/"
       }
     },
     "GitNexus": {
       "source": "Tools/GitNexus/",
-      "combined_location": "COMBINED/mcp-servers/gitnexus/",
+      "combined_location": ".claude/mcp-servers/gitnexus/",
       "type": "Codebase knowledge graph MCP server",
       "description": "MCP server for codebase understanding and navigation",
       "statistics": {
@@ -110,8 +110,8 @@
       }
     },
     "browser (lightpanda)": {
-      "source": "COMBINED/mcp-servers/mcp-lightpanda/",
-      "combined_location": "COMBINED/mcp-servers/lightpanda/",
+      "source": ".claude/mcp-servers/mcp-lightpanda/",
+      "combined_location": ".claude/mcp-servers/lightpanda/",
       "type": "AI browser (9x faster than Chrome)",
       "description": "Lightpanda browser - 9x faster execution, 16x less memory, instant startup",
       "statistics": {
@@ -129,12 +129,12 @@
       "migration_status": {
         "status": "PARTIALLY_MIGRATED",
         "priority": "MEDIUM",
-        "recommended_action": "Complete migration to COMBINED/mcp-servers/lightpanda/ - critical tool for web automation"
+        "recommended_action": "Complete migration to .claude/mcp-servers/lightpanda/ - critical tool for web automation"
       }
     },
     "nano-banana-2-mcp": {
       "source": "Tools/nano-banana-2-mcp/",
-      "combined_location": "COMBINED/mcp-servers/nano-banana/",
+      "combined_location": ".claude/mcp-servers/nano-banana/",
       "type": "Gemini image MCP server",
       "description": "MCP server for Gemini image generation and manipulation",
       "statistics": {
@@ -150,12 +150,12 @@
       "migration_status": {
         "status": "PARTIALLY_MIGRATED",
         "priority": "LOW",
-        "recommended_action": "Complete migration to COMBINED/mcp-servers/nano-banana/"
+        "recommended_action": "Complete migration to .claude/mcp-servers/nano-banana/"
       }
     },
     "pretext": {
-      "source": "COMBINED/mcp-servers/mcp-pretext/",
-      "combined_location": "COMBINED/mcp-servers/pretext/",
+      "source": ".claude/mcp-servers/mcp-pretext/",
+      "combined_location": ".claude/mcp-servers/pretext/",
       "type": "Text layout MCP server",
       "description": "MCP server for text layout and formatting",
       "statistics": {
@@ -171,7 +171,7 @@
       "migration_status": {
         "status": "PARTIALLY_MIGRATED",
         "priority": "LOW",
-        "recommended_action": "Complete migration to COMBINED/mcp-servers/pretext/"
+        "recommended_action": "Complete migration to .claude/mcp-servers/pretext/"
       }
     }
   },
@@ -224,8 +224,8 @@
       "phase": "2.8",
       "action": "Complete lightpanda browser migration",
       "details": {
-        "source": "COMBINED/mcp-servers/mcp-lightpanda/",
-        "destination": "COMBINED/mcp-servers/lightpanda/",
+        "source": ".claude/mcp-servers/mcp-lightpanda/",
+        "destination": ".claude/mcp-servers/lightpanda/",
         "method": "MOVE all 55 files preserving structure",
         "files": 55,
         "complexity": "MEDIUM"
@@ -238,8 +238,8 @@
       "details": {
         "repositories": ["supermemory", "OpenViking"],
         "destinations": [
-          "COMBINED/memory/supermemory/",
-          "COMBINED/memory/openviking/"
+          ".claude/memory/supermemory/",
+          ".claude/memory/openviking/"
         ],
         "files": 2,
         "complexity": "LOW"
@@ -252,8 +252,8 @@
       "details": {
         "repositories": ["nano-banana-2-mcp", "pretext"],
         "destinations": [
-          "COMBINED/mcp-servers/nano-banana/",
-          "COMBINED/mcp-servers/pretext/"
+          ".claude/mcp-servers/nano-banana/",
+          ".claude/mcp-servers/pretext/"
         ],
         "files": 3,
         "complexity": "LOW"

@@ -18,4 +18,4 @@ After fixing:
 - Run Shannon security checklist on your changes
 - Save root cause to memory for future reference
 
-Full methodology: `COMBINED/agents/mega/mega-debugger.md`
+Full methodology: `.claude/agents/mega/mega-debugger.md`

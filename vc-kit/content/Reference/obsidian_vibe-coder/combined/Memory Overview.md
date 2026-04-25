@@ -1,11 +1,11 @@
 ---
-title: Memory Overview — COMBINED/memory
+title: Memory Overview — .claude/memory
 tags:
   - domain/memory
   - artifact/index
   - status/active
   - source/combined
-source: "../COMBINED/memory/"
+source: "../.claude/memory/"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -13,15 +13,15 @@ aliases:
   - memory directory
 ---
 
-# 📄 Memory Overview — COMBINED/memory
+# 📄 Memory Overview — .claude/memory
 
-> **Тип:** Domain overview | **Источник:** `../COMBINED/memory/`
-> **Краткое описание:** Структура директории COMBINED/memory — 3 системы памяти.
+> **Тип:** Domain overview | **Источник:** `../.claude/memory/`
+> **Краткое описание:** Структура директории .claude/memory — 3 системы памяти.
 
 ## Структура директории
 
 ```
-COMBINED/memory/
+.claude/memory/
 ├── memory-supermemory/      — Long-term memory (#1 benchmarks)
 │   └── mcp.json             — MCP конфигурация
 ├── memory-claude-mem/       — Session memory (Claude-Mem)

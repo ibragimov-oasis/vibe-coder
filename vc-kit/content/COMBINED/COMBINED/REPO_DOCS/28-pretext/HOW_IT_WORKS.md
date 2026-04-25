@@ -65,14 +65,14 @@ Step 7: AI reads `.cursor/rules/` → loads Cursor rules (use-bun-instead-of-nod
 
 ---
 
-## Routing — where each file belongs in COMBINED/
+## Routing — where each file belongs in .claude/
 
-| File/Folder | COMBINED/ destination | Why |
+| File/Folder | .claude/ destination | Why |
 |-------------|----------------------|-----|
-| README.md | COMBINED/REPO_DOCS/28-pretext/ | Documentation |
-| CLAUDE.md | COMBINED/prompts/system/ | Claude system instructions |
-| AGENTS.md | COMBINED/agents/by-role/ | Agent definitions |
-| .cursor/rules/ | COMBINED/prompts/system/ | Cursor rules |
+| README.md | .claude/REPO_DOCS/28-pretext/ | Documentation |
+| CLAUDE.md | .claude/prompts/system/ | Claude system instructions |
+| AGENTS.md | .claude/agents/by-role/ | Agent definitions |
+| .cursor/rules/ | .claude/prompts/system/ | Cursor rules |
 
 ---
 

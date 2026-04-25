@@ -11,12 +11,12 @@ aliases:
   - mcp json config
 created: 2026-04-18
 type: mcp-note
-source: "../COMBINED/mcp-servers/mcp-configs/"
+source: "../.claude/mcp-servers/mcp-configs/"
 ---
 
 # MCP: Configs Reference
 
-> **Источник:** `../COMBINED/mcp-servers/mcp-configs/`
+> **Источник:** `../.claude/mcp-servers/mcp-configs/`
 > **Конфиги:** `.cursor/mcp.json`, `.claude/settings.json`
 
 ## Описание

@@ -12,12 +12,12 @@ aliases:
   - long-term memory mcp
 created: 2026-04-18
 type: mcp-note
-source: "../COMBINED/mcp-servers/"
+source: "../.claude/mcp-servers/"
 ---
 
 # MCP: Supermemory (Long-term Memory)
 
-> **Источник:** `../COMBINED/mcp-servers/`
+> **Источник:** `../.claude/mcp-servers/`
 > **URL:** `https://mcp.supermemory.ai/mcp`
 > **Rule #2:** Check BEFORE task, Save AFTER task.
 

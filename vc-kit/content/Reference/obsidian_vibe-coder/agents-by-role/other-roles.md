@@ -11,7 +11,7 @@ aliases:
   - small role agents
 created: 2026-04-18
 type: agents-role
-source: "../COMBINED/agents/by-role/"
+source: "../.claude/agents/by-role/"
 ---
 
 # Agents By Role: Business + DevOps + Executor + Other
@@ -19,18 +19,18 @@ source: "../COMBINED/agents/by-role/"
 > Консолидированная заметка для малых групп ролей
 
 ## Business (7 агентов)
-**Источник:** `../COMBINED/agents/by-role/business/`  
+**Источник:** `../.claude/agents/by-role/business/`  
 Бизнес-персоны и management агенты.  
 **Мета-агент:** [[agents/mega-planner]]
 
 ## DevOps (2 агента)
-**Источник:** `../COMBINED/agents/by-role/devops/`  
+**Источник:** `../.claude/agents/by-role/devops/`  
 - `git-master` — git operations
 - + 1 другой  
 **Мета-агент:** [[agents/mega-devops]]
 
 ## Executor (2 агента)
-**Источник:** `../COMBINED/agents/by-role/executor/`  
+**Источник:** `../.claude/agents/by-role/executor/`  
 - `executor` — выполнение планов (OMC)
 - `gsd-executor` — GSD executor  
 **Мета-агент:** [[agents/mega-executor]]

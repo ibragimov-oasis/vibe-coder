@@ -16,7 +16,7 @@ Claude Code oturumlarını sonunda otomatik olarak değerlendirir ve öğrenilmi
 
 - Claude Code oturumlarından otomatik kalıp çıkarma ayarlarken
 - Oturum değerlendirmesi için Stop hook'u yapılandırırken
-- `~/COMBINED/workspace-config/claude/skills/learned/` içindeki öğrenilmiş skill'leri incelerken veya düzenlerken
+- `~/.claude/workspace-config/claude/skills/learned/` içindeki öğrenilmiş skill'leri incelerken veya düzenlerken
 - Çıkarma eşiklerini veya kalıp kategorilerini ayarlarken
 - v1 (bu) ile v2 (instinct tabanlı) yaklaşımlarını karşılaştırırken
 
@@ -26,7 +26,7 @@ Bu skill her oturumun sonunda **Stop hook** olarak çalışır:
 
 1. **Oturum Değerlendirmesi**: Oturumun yeterli mesaja sahip olup olmadığını kontrol eder (varsayılan: 10+)
 2. **Kalıp Tespiti**: Oturumdan çıkarılabilir kalıpları tanımlar
-3. **Skill Çıkarma**: Yararlı kalıpları `~/COMBINED/workspace-config/claude/skills/learned/` dizinine kaydeder
+3. **Skill Çıkarma**: Yararlı kalıpları `~/.claude/workspace-config/claude/skills/learned/` dizinine kaydeder
 
 ## Konfigürasyon
 
@@ -37,7 +37,7 @@ Bu skill her oturumun sonunda **Stop hook** olarak çalışır:
   "min_session_length": 10,
   "extraction_threshold": "medium",
   "auto_approve": false,
-  "learned_skills_path": "~/COMBINED/workspace-config/claude/skills/learned/",
+  "learned_skills_path": "~/.claude/workspace-config/claude/skills/learned/",
   "patterns_to_detect": [
     "error_resolution",
     "user_corrections",
@@ -74,7 +74,7 @@ Bu skill her oturumun sonunda **Stop hook** olarak çalışır:
       "matcher": "*",
       "hooks": [{
         "type": "command",
-        "command": "~/COMBINED/workspace-config/claude/skills/continuous-learning/evaluate-session.sh"
+        "command": "~/.claude/workspace-config/claude/skills/continuous-learning/evaluate-session.sh"
       }]
     }]
   }

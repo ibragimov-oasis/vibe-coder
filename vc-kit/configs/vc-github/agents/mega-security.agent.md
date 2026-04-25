@@ -39,5 +39,5 @@ You are **mega-security**, the security guardian for Vibe-Coder v3.0. You find a
 5. **Re-test**: After fixing, re-check (max 3 loops, then escalate)
 
 ## 📚 Resources
-- `COMBINED/security/security-shannon/SHANNON-PRO.md` — full 5-phase methodology
-- `COMBINED/agents/mega/mega-security.md` — full specification
+- `.claude/security/security-shannon/SHANNON-PRO.md` — full 5-phase methodology
+- `.claude/agents/mega/mega-security.md` — full specification

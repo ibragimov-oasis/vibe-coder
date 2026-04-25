@@ -10,7 +10,7 @@ tags:
 # Multica — How It Works
 
 **Category:** New Repo (Vibe-Coder v3.0 — original 54)
-**Local path in vibe-coder:** COMBINED/orchestration/core-multica/
+**Local path in vibe-coder:** .claude/orchestration/core-multica/
 
 ---
 
@@ -22,13 +22,13 @@ Multi-agent platform with board view, agents as teammates, multi-workspace suppo
 
 ## Vibe-Coder Role
 
-Provides specialized capability as described above. See the files at `COMBINED/orchestration/core-multica/` for full documentation and usage instructions.
+Provides specialized capability as described above. See the files at `.claude/orchestration/core-multica/` for full documentation and usage instructions.
 
 ---
 
 ## Status
 
-- [x] Integrated into COMBINED/
+- [x] Integrated into .claude/
 - [x] Referenced in AGENTS.md and CAPABILITIES.md
 - [x] Added to MASTER_INDEX
 

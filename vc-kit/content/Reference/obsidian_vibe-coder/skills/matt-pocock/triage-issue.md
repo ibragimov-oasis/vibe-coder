@@ -11,7 +11,7 @@ aliases:
   - issue analysis
 created: 2026-04-18
 type: skill
-source: "../COMBINED/skills/skills-development/triage-issue/"
+source: "../.claude/skills/skills-development/triage-issue/"
 ---
 
 # 🔍 Skill: triage-issue

@@ -1,11 +1,11 @@
 ---
-title: Security Overview — COMBINED/security
+title: Security Overview — .claude/security
 tags:
   - domain/security
   - artifact/index
   - status/active
   - source/combined
-source: "../COMBINED/security/"
+source: "../.claude/security/"
 created: 2026-04-18
 type: mirror
 aliases:
@@ -13,15 +13,15 @@ aliases:
   - shannon directory
 ---
 
-# 📄 Security Overview — COMBINED/security
+# 📄 Security Overview — .claude/security
 
-> **Тип:** Domain overview | **Источник:** `../COMBINED/security/`
+> **Тип:** Domain overview | **Источник:** `../.claude/security/`
 > **Краткое описание:** Shannon Pro пентестер — 5-фазный аудит с 13 агентами + code-review-graph структурный анализ.
 
 ## Структура директории
 
 ```
-COMBINED/security/
+.claude/security/
 └── security-shannon/        — Shannon Pro pentester
     ├── SHANNON-PRO.md        — Полная методология
     ├── agents/               — 13 специализированных агентов
@@ -31,7 +31,7 @@ COMBINED/security/
 
 ## Shannon Pro — Методология
 
-**Файл**: `COMBINED/security/security-shannon/SHANNON-PRO.md`
+**Файл**: `.claude/security/security-shannon/SHANNON-PRO.md`
 
 ### 5 Фаз
 
@@ -53,7 +53,7 @@ COMBINED/security/
 
 ## Code Review Graph (безопасность)
 
-Путь: `COMBINED/mcp-servers/mcp-code-review-graph/`
+Путь: `.claude/mcp-servers/mcp-code-review-graph/`
 
 - Blast-radius analysis — какой код затрагивают изменения
 - Dead code detection
