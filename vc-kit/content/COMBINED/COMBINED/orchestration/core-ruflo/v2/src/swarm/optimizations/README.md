@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - optimizations
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # Swarm Performance Optimizations
 
 This directory contains performance optimizations for the Claude Code Flow swarm system, implementing the recommendations from the optimization analysis to achieve **2.5x performance improvement**.

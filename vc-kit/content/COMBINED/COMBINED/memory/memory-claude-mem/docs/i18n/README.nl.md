@@ -1,3 +1,14 @@
+---
+title: "README.nl.md"
+aliases: ["README.nl"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 Dit is een automatische vertaling. Gemeenschapscorrecties zijn welkom!
 
 <h1 align="center">

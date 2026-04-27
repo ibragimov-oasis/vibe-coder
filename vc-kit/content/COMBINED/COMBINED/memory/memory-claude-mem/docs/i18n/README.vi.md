@@ -1,3 +1,14 @@
+---
+title: "README.vi.md"
+aliases: ["README.vi"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 Đây là bản dịch tự động. Chúng tôi hoan nghênh các đóng góp từ cộng đồng!
 
 ---

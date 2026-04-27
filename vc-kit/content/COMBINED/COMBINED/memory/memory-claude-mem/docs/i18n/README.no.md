@@ -1,3 +1,14 @@
+---
+title: "README.no.md"
+aliases: ["README.no"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 Dette er en automatisk oversettelse. Bidrag fra fellesskapet er velkomne!
 
 ---

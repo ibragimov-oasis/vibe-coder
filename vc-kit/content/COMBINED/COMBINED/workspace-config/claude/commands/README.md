@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - commands
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # Claude Skills Slash Commands
 
 **Git workflow and quality assurance commands for the claude-skills repository.**

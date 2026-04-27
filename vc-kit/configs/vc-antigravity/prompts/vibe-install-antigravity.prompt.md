@@ -1,3 +1,14 @@
+---
+title: "vibe-install-antigravity.prompt.md"
+aliases: ["vibe-install-antigravity.prompt"]
+tags:
+  - vibe-coder
+  - prompts
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 Install `vibe-coder` from `vc-kit` and confirm interface readiness for Antigravity.
 
 Execution order:

@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - praisonai
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset=".github/images/logo_dark.png" />

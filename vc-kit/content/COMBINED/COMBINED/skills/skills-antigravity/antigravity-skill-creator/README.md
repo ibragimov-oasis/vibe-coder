@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - antigravity-skill-creator
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # skill-creator
 
 **Automate CLI skill creation with best practices built-in.**

@@ -1,3 +1,14 @@
+---
+title: "README.cs.md"
+aliases: ["README.cs"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 Toto je automatický překlad. Komunitní opravy jsou vítány!
 
 ---

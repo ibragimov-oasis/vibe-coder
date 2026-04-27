@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - c-level-advisor
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # C-Level Advisory Skills Collection
 
 **Complete suite of 2 executive leadership skills** covering CEO and CTO strategic decision-making and organizational leadership.

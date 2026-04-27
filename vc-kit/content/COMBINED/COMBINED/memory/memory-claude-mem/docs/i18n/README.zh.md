@@ -1,3 +1,14 @@
+---
+title: "README.zh.md"
+aliases: ["README.zh"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 这是自动翻译。欢迎社区修正!
 
 ---

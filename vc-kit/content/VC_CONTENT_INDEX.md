@@ -1,3 +1,14 @@
+---
+title: "VC_CONTENT_INDEX.md"
+aliases: ["VC_CONTENT_INDEX"]
+tags:
+  - vibe-coder
+  - content
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # VC_CONTENT_INDEX
 
 Индекс контента `vc-kit/content`.

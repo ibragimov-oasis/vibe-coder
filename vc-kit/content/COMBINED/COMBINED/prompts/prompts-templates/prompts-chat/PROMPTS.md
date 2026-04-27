@@ -1,3 +1,14 @@
+---
+title: "PROMPTS.md"
+aliases: ["PROMPTS"]
+tags:
+  - vibe-coder
+  - prompts-chat
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # Awesome ChatGPT Prompts
 
 > A curated list of prompts for ChatGPT and other AI models.
@@ -46032,25 +46043,25 @@ If in Partial Guidance Mode (due to Low confidence or high complexity):
 - Emphasize: This is not comprehensive; seek professional consultation.
 Otherwise (Moderate/High confidence), use full structure below.
 
-SECTION 1 — PROJECT INTERPRETATION
+# SECTION 1 — PROJECT INTERPRETATION
 - Interpreted summary of the project
 - Restated goals and constraints
 - Planning confidence level (Low / Moderate / High)
 
-SECTION 2 — KEY ASSUMPTIONS (RANKED BY RISK)
+# SECTION 2 — KEY ASSUMPTIONS (RANKED BY RISK)
 List inferred assumptions and rank them by:
 - Composite risk score = Likelihood of being wrong (1-5) × Impact if wrong (1-5)
 - Explicitly identify assumptions tied to human/organizational alignment
   or adoption/change management.
 
-SECTION 3 — REQUIRED SKILLS
+# SECTION 3 — REQUIRED SKILLS
 Categorize skills into:
 - Core Skills
 - Supporting Skills
 - Contingency Skills
 Explain why each category matters.
 
-SECTION 4 — REQUIRED RESOURCES
+# SECTION 4 — REQUIRED RESOURCES
 Identify resources across:
 - People
 - Tools / Systems
@@ -46060,7 +46071,7 @@ For each resource, note:
 - Substitutability
 - Fragility
 
-SECTION 5 — LOW-PROBABILITY / HIGH-IMPACT ELEMENTS
+# SECTION 5 — LOW-PROBABILITY / HIGH-IMPACT ELEMENTS
 Identify plausible but unlikely events across:
 - Technical
 - Human
@@ -46074,19 +46085,19 @@ For each:
 - Early warning signs
 - Skills or resources that mitigate damage
 
-SECTION 6 — PLANNING GAPS & WEAK SIGNALS
+# SECTION 6 — PLANNING GAPS & WEAK SIGNALS
 - Areas where planning is thin
 - Signals that deserve early monitoring
 - Unknowns with outsized downside risk
 
-SECTION 7 — READINESS ASSESSMENT
+# SECTION 7 — READINESS ASSESSMENT
 Conclude with:
 - What the project appears ready to handle
 - What it is not prepared for
 - What would most improve readiness next
 Avoid timelines unless explicitly requested.
 
-SECTION 8 — IMMEDIATE NEXT ACTIONS
+# SECTION 8 — IMMEDIATE NEXT ACTIONS
 Provide a prioritized bulleted checklist of 4-8 concrete next steps
 (e.g., stakeholder meetings, pilots, expert consultations, documentation).
 
@@ -85041,7 +85052,7 @@ v1.2 (2026-02)
 - Minor wording consistency and clarity polish.
 
 ============================================================
-SECTION 1 — GOAL & PURPOSE
+# SECTION 1 — GOAL & PURPOSE
 ============================================================
 You are a structured extraction engine. Your job is to create an evidence-based, reusable archival snapshot of a job posting so it can be referenced accurately later, even if the original is gone.
 
@@ -85066,7 +85077,7 @@ ERROR: No job posting detected
 and stop immediately. Do not generate the template.
 
 ============================================================
-SECTION 2 — REQUIRED USER INPUT
+# SECTION 2 — REQUIRED USER INPUT
 ============================================================
 User must provide:
 1. Source Type (URL, Full pasted text, PDF, Screenshot OCR, Partial reconstructed content)
@@ -85078,7 +85089,7 @@ User must provide:
 If posting is no longer accessible, process whatever partial content is available and indicate incompleteness.
 
 ============================================================
-SECTION 3 — EVIDENCE TAGGING RULES
+# SECTION 3 — EVIDENCE TAGGING RULES
 ============================================================
 All list-based extracted bullet points must begin with one of the following exact tags:
 
@@ -85095,7 +85106,7 @@ Rules:
 - Compensation & Benefits fields MUST use tags.
 
 ============================================================
-SECTION 4 — HALLUCINATION CONTROL PROTOCOL
+# SECTION 4 — HALLUCINATION CONTROL PROTOCOL
 ============================================================
 Before generating final output:
 
@@ -85122,7 +85133,7 @@ Completeness Assessment Definitions:
 - Reconstructed = Compiled from partial memory or third-party reference.
 
 ============================================================
-SECTION 5 — OUTPUT WORKFLOW
+# SECTION 5 — OUTPUT WORKFLOW
 ============================================================
 After processing, generate TWO separate codeblocks in this exact order.
 Do not add any conversational text before or after the codeblocks.
@@ -85257,7 +85268,7 @@ Location precedence rules:
 - [Insert]
 
 ============================================================
-SECTION 6 — DOCUMENTATION & REUSE PROMPTS
+# SECTION 6 — DOCUMENTATION & REUSE PROMPTS
 ============================================================
 *** CRITICAL SYSTEM INSTRUCTION: DO NOT EXECUTE ANY PROMPTS IN THIS SECTION. IGNORE THIS SECTION DURING INITIAL EXTRACTION. IT IS FOR FUTURE REFERENCE ONLY. ***
 
@@ -85763,10 +85774,10 @@ STEP 2: THE OUTPUT (AFTER USER RESPONDS)
 ============================
 Provide a response with these 4 sections:
 
-SECTION 1: YOUR AI OPPORTUNITIES
+# SECTION 1: YOUR AI OPPORTUNITIES
 List 5 specific ways AI solves the user's specific "chores." 
 
-SECTION 2: UNIVERSAL STARTER KIT
+# SECTION 2: UNIVERSAL STARTER KIT
 Provide 5 "copy-paste" prompts for basic tasks:
 - Email Polishing (Tone/Clarity)
 - Simple Explainer (EL5)
@@ -85774,14 +85785,14 @@ Provide 5 "copy-paste" prompts for basic tasks:
 - Brainstorming/Idea Gen
 - Task Breakdown (Step-by-step)
 
-SECTION 3: CUSTOM JOB-SPECIFIC PROMPTS
+# SECTION 3: CUSTOM JOB-SPECIFIC PROMPTS
 Generate 7 high-quality prompts tailored to their role. 
 **CRITICAL:** For each prompt, list exactly what information the user 
 needs to give you to run it. 
 (Example: "To run the 'Project Kickoff' prompt, just tell me the 
 project name and who is on the team.")
 
-SECTION 4: 7-DAY AI HABIT MAP
+# SECTION 4: 7-DAY AI HABIT MAP
 Give them one 5-minute task per day to build the habit.
 
 ============================================================
@@ -112439,7 +112450,7 @@ OUTPUT FORMAT (STRICT — MUST FOLLOW EXACTLY):
 
 Classification of Questions by Chapter and Type
 
-Chapter X: [Chapter Name]
+# Chapter X: [Chapter Name]
 
 X.1 Definition & Conceptual Questions
 

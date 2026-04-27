@@ -1,3 +1,14 @@
+---
+title: "README.ru.md"
+aliases: ["README.ru"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 Это автоматический перевод. Приветствуются исправления от сообщества!
 
 ---

@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - plugins
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # @claude-flow/plugins
 
 **Unified Plugin SDK for Claude Flow V3**

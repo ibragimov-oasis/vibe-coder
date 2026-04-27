@@ -1,3 +1,14 @@
+---
+title: "pt.md"
+aliases: ["pt"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 Esta é uma tradução manual por mig4ng. Correções da comunidade são bem-vindas!
 
 ---

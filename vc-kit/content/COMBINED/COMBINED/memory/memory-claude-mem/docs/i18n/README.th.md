@@ -1,3 +1,14 @@
+---
+title: "README.th.md"
+aliases: ["README.th"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 นี่คือการแปลอัตโนมัติ ยินดีต้อนรับการแก้ไขจากชุมชน!
 
 <h1 align="center">

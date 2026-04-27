@@ -1,3 +1,14 @@
+---
+title: "copilot-instructions.md"
+aliases: ["copilot-instructions"]
+tags:
+  - vibe-coder
+  - vc-github
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # ⛔ STOP — MEMORY BOOTSTRAP REQUIRED BEFORE ANYTHING ELSE
 
 > **DO NOT skip this section. DO NOT "come back to it later." DO NOT start any task without completing this.**

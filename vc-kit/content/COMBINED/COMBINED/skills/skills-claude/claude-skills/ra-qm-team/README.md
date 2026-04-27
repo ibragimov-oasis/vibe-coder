@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - ra-qm-team
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # Regulatory Affairs & Quality Management Skills Collection
 
 **Complete suite of 12 world-class expert skills** for HealthTech and MedTech organizations covering regulatory compliance, quality management, risk management, security, and audit excellence.

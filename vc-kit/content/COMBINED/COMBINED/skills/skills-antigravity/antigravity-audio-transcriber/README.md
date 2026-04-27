@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - antigravity-audio-transcriber
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # Audio Transcriber Skill v1.1.0
 
 Transform audio recordings into professional Markdown documentation with **intelligent atas/summaries using LLM integration** (Claude/Copilot CLI) and automatic prompt engineering.

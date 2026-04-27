@@ -1,3 +1,14 @@
+---
+title: "README.he.md"
+aliases: ["README.he"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 זהו תרגום אוטומטי. תיקונים מהקהילה יתקבלו בברכה!
 
 <h1 align="center">

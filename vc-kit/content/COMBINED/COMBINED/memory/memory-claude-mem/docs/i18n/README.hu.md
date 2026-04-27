@@ -1,3 +1,14 @@
+---
+title: "README.hu.md"
+aliases: ["README.hu"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 Ez egy automatikus fordítás. Közösségi javítások szívesen fogadottak!
 
 ---

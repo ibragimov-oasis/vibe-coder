@@ -1,3 +1,14 @@
+---
+title: "README.tr.md"
+aliases: ["README.tr"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 Bu otomatik bir çevirisidir. Topluluk düzeltmeleri memnuniyetle karşılanır!
 
 <h1 align="center">

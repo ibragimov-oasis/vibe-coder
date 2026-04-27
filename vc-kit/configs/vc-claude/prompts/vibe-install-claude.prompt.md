@@ -1,3 +1,14 @@
+---
+title: "vibe-install-claude.prompt.md"
+aliases: ["vibe-install-claude.prompt"]
+tags:
+  - vibe-coder
+  - prompts
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 Install `vibe-coder` in this repository from `vc-kit` and validate activation for Claude Code.
 
 Do exactly:

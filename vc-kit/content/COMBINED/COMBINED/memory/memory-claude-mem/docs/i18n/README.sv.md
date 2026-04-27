@@ -1,3 +1,14 @@
+---
+title: "README.sv.md"
+aliases: ["README.sv"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 Detta är en automatiserad översättning. Bidrag från gemenskapen är välkomna!
 
 ---

@@ -1,3 +1,14 @@
+---
+title: "RELEASES.md"
+aliases: ["RELEASES"]
+tags:
+  - vibe-coder
+  - obsidian-copilot
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # Release Notes
 
 # Copilot for Obsidian - Release v3.2.7 🔧

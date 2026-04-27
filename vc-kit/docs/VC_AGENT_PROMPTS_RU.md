@@ -1,3 +1,14 @@
+---
+title: "VC_AGENT_PROMPTS_RU.md"
+aliases: ["VC_AGENT_PROMPTS_RU"]
+tags:
+  - vibe-coder
+  - docs
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # VC_AGENT_PROMPTS_RU
 
 Готовые копипаст-промты для внедрения `vibe-coder` в чужой проект.

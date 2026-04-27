@@ -1,3 +1,14 @@
+---
+title: "README.ur.md"
+aliases: ["README.ur"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 <section dir="rtl">
 🌐 یہ ایک خودکار ترجمہ ہے۔ کمیونٹی کی اصلاحات کا خیر مقدم ہے!
 

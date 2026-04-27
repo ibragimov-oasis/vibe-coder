@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - ci-cd
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # 🚀 CI/CD Pipeline Documentation
 
 This document provides comprehensive information about the GitHub Actions CI/CD pipeline for Claude Flow.

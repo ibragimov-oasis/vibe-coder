@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - scheduler
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # PraisonAI Scheduler - 24/7 Agent Scheduling
 
 Complete implementation of 24/7 agent scheduling for PraisonAI, enabling autonomous agent operations at regular intervals.

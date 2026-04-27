@@ -1,3 +1,14 @@
+---
+title: "README.tl.md"
+aliases: ["README.tl"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 Ito ay isang awtomatikong pagsasalin. Malugod na tinatanggap ang mga pagwawasto mula sa komunidad!
 
 ---

@@ -1,3 +1,14 @@
+---
+title: "VC_QUICKSTART.md"
+aliases: ["VC_QUICKSTART"]
+tags:
+  - vibe-coder
+  - docs
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # VC_QUICKSTART
 
 Быстрый запуск `vc-kit` в вашем проекте.

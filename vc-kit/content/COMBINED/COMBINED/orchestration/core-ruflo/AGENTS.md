@@ -1,3 +1,14 @@
+---
+title: "AGENTS.md"
+aliases: ["AGENTS"]
+tags:
+  - vibe-coder
+  - core-ruflo
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # Claude Flow V3 - Agent Guide
 
 > **For OpenAI Codex CLI** - Agentic AI Foundation standard

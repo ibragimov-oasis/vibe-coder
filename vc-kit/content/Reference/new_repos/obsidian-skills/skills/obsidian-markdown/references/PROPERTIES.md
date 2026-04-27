@@ -1,3 +1,14 @@
+---
+title: "PROPERTIES.md"
+aliases: ["PROPERTIES"]
+tags:
+  - vibe-coder
+  - references
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # Properties (Frontmatter) Reference
 
 Properties use YAML frontmatter at the start of a note:

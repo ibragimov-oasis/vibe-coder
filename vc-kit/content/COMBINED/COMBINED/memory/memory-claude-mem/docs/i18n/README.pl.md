@@ -1,3 +1,14 @@
+---
+title: "README.pl.md"
+aliases: ["README.pl"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 To jest automatyczne tłumaczenie. Korekty społeczności są mile widziane!
 
 <h1 align="center">

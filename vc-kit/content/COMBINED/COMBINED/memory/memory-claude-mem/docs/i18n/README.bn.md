@@ -1,3 +1,14 @@
+---
+title: "README.bn.md"
+aliases: ["README.bn"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 এটি একটি স্বয়ংক্রিয় অনুবাদ। সম্প্রদায়ের সংশোধন স্বাগত জানাই!
 
 ---

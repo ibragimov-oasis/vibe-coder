@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - code-reasoning
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # Code Reasoning ReasoningBank Model
 
 A pre-trained ReasoningBank model focused on programming best practices, design patterns, and code optimization.

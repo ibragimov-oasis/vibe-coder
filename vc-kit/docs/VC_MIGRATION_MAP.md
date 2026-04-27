@@ -1,3 +1,14 @@
+---
+title: "VC_MIGRATION_MAP.md"
+aliases: ["VC_MIGRATION_MAP"]
+tags:
+  - vibe-coder
+  - docs
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # VC_MIGRATION_MAP
 
 ## Root reorganization

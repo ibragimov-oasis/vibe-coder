@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - marketing-skill
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # Marketing Team Skills Collection
 
 **Complete suite of 6 expert marketing skills** for scaling tech companies covering content creation, demand generation, and product marketing strategy.

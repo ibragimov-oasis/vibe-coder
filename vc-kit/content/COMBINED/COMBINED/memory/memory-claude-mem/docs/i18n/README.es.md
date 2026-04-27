@@ -1,3 +1,14 @@
+---
+title: "README.es.md"
+aliases: ["README.es"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 Esta es una traducción automática. ¡Las correcciones de la comunidad son bienvenidas!
 
 ---

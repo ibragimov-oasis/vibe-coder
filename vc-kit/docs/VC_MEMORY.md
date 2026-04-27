@@ -1,3 +1,14 @@
+---
+title: "VC_MEMORY.md"
+aliases: ["VC_MEMORY"]
+tags:
+  - vibe-coder
+  - docs
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # MEMORY.md — Vibe-Coder v3.0 Memory-First Protocol
 
 > **Read by ALL AI interfaces**: The FIRST thing you do. Before identity, before agent selection, before anything.

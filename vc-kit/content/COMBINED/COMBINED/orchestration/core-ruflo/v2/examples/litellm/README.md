@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - litellm
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # LiteLLM Multi-Tenant Gateway for Claude Code
 
 A production-ready, multi-tenant LiteLLM proxy that enables Claude Code to seamlessly route requests across multiple LLM providers (OpenAI, Azure, OpenRouter, Bedrock, Ollama, etc.) with enterprise features.

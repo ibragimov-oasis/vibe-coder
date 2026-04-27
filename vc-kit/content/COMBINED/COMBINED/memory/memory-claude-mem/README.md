@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - memory-claude-mem
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 <h1 align="center">
   <br>
   <a href="https://github.com/thedotmack/claude-mem">

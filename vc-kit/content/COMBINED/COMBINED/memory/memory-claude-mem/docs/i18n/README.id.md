@@ -1,3 +1,14 @@
+---
+title: "README.id.md"
+aliases: ["README.id"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 Ini adalah terjemahan otomatis. Koreksi dari komunitas sangat dipersilakan!
 
 ---

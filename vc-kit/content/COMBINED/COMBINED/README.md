@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - COMBINED
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # 🎯 COMBINED - Vibe-Coder Arsenal
 
 > **The Ultimate AI Development Toolkit**

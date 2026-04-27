@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - grpo-rl-training
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # GRPO/RL Training Skill
 
 **Expert-level guidance for Group Relative Policy Optimization with TRL**

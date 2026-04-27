@@ -1,3 +1,14 @@
+---
+title: "VC_FULL_SETUP_RU.md"
+aliases: ["VC_FULL_SETUP_RU"]
+tags:
+  - vibe-coder
+  - docs
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # VC_FULL_SETUP_RU
 
 Полная инструкция: как корректно установить `vc-kit`, избежать конфликтов и проверить, что всё действительно активировалось.

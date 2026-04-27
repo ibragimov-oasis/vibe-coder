@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - gastown-bridge
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # @claude-flow/plugin-gastown-bridge
 
 > **WASM-Accelerated Bridge to Steve Yegge's Gas Town Multi-Agent Orchestrator**

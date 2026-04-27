@@ -1,3 +1,14 @@
+---
+title: "README.ar.md"
+aliases: ["README.ar"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 <section dir="rtl">
 <h1 align="center">
   <br>

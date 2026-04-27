@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - Archives
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # Archives
 
 Здесь хранятся устаревшие/завершённые материалы, которые больше не нужны в активном рабочем контуре.

@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - antigravity-youtube-summarizer
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # 🎥 youtube-summarizer
 
 > Extract transcripts from YouTube videos and generate comprehensive, detailed summaries

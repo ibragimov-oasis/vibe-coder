@@ -1,3 +1,14 @@
+---
+title: "README.fi.md"
+aliases: ["README.fi"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 Tämä on automaattinen käännös. Yhteisön korjaukset ovat tervetulleita!
 
 <h1 align="center">

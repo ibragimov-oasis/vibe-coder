@@ -1,3 +1,14 @@
+---
+title: "README.hi.md"
+aliases: ["README.hi"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 यह एक स्वचालित अनुवाद है। समुदाय से सुधार का स्वागत है!
 
 ---

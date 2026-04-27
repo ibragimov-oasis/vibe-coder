@@ -1,3 +1,14 @@
+---
+title: "README.md"
+aliases: ["README"]
+tags:
+  - vibe-coder
+  - agentic-flow
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # Agentic-Flow Integration
 
 **Integration Status**: ✅ Active & Released

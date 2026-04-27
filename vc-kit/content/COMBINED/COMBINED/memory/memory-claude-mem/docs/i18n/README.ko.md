@@ -1,3 +1,14 @@
+---
+title: "README.ko.md"
+aliases: ["README.ko"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 이것은 자동 번역입니다. 커뮤니티의 수정 제안을 환영합니다!
 
 ---

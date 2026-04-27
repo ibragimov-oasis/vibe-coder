@@ -1,3 +1,14 @@
+---
+title: "VC_SMOKE_TEST.md"
+aliases: ["VC_SMOKE_TEST"]
+tags:
+  - vibe-coder
+  - docs
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 # VC_SMOKE_TEST
 
 Мини-чеклист после внедрения `vibe-coder` в целевой проект.

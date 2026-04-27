@@ -1,3 +1,14 @@
+---
+title: "README.uk.md"
+aliases: ["README.uk"]
+tags:
+  - vibe-coder
+  - i18n
+date: 2026-04-27
+cssclasses:
+  - enriched-document
+---
+
 🌐 Це автоматичний переклад. Вітаються виправлення від спільноти!
 
 ---
